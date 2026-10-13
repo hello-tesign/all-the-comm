@@ -1,0 +1,1496 @@
+{
+  "date": "2026-10-13T01:28:49.576Z",
+  "scope": "New-build diversity regression in isolated browser contexts only; existing IAB tabs untouched. GET/HEAD/OPTIONS only. No site score or deployment claim.",
+  "base": "http://127.0.0.1:4173",
+  "passed": 122,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "webkit /about/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "webkit /about/ official menus and distinct CTA retained",
+      "passed": true
+    },
+    {
+      "name": "webkit /about/ food imagery and wording restricted to its portfolio case/card",
+      "passed": true,
+      "detail": {
+        "violations": [],
+        "foodCards": 0
+      }
+    },
+    {
+      "name": "webkit /about/ visible content images load and have alt",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit /about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "webkit /process/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "webkit /process/ official menus and distinct CTA retained",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ four process chapters and stage navigation",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ process 0 active scene matches step",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ process 0 concrete nonfood output",
+      "passed": true,
+      "detail": {
+        "text": "누가 어떤 정보를 필요로 하는가\n공익·교육 · 기관 웹 제작 사례",
+        "images": [
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "alt": "종해문화진흥원 웹사이트의 활동 이야기와 정보 구조",
+            "width": 1440,
+            "height": 1000,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /process/ process 1 active scene matches step",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ process 1 concrete nonfood output",
+      "passed": true,
+      "detail": {
+        "text": "어떤 한 문장을 기억하게 할 것인가\n문화 · 캠페인 자체 콘셉트",
+        "images": [
+          {
+            "src": "/portfolio/concept-city-culture.png",
+            "alt": "도시 산책 전시의 메시지와 포스터 디자인",
+            "width": 1200,
+            "height": 1200,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /process/ process 2 active scene matches step",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ process 2 concrete nonfood output",
+      "passed": true,
+      "detail": {
+        "text": "어떻게 보고, 고르고, 행동하게 할 것인가\n리테일 · 커머스 제작자 시제품",
+        "images": [
+          {
+            "src": "/evidence/diverse/ezylens-studio.png",
+            "alt": "EzyLens 상품 탐색과 옵션 선택 인터페이스",
+            "width": 1440,
+            "height": 965,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /process/ process 3 active scene matches step",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ process 3 concrete nonfood output",
+      "passed": true,
+      "detail": {
+        "text": "다음 실행에 무엇을 남길 것인가\n기업 업무 · 내부 도구 / 검수용 데이터",
+        "images": [
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "alt": "콘텐츠 검수·납품 이력을 관리하는 Tesign OS",
+            "width": 1440,
+            "height": 1558,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /process/ reduced motion restores four original inline outputs",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ motion rebuild creates one stage and progress indicator",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ food imagery and wording restricted to its portfolio case/card",
+      "passed": true,
+      "detail": {
+        "violations": [],
+        "foodCards": 0
+      }
+    },
+    {
+      "name": "webkit /process/ visible content images load and have alt",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit /process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "webkit /team/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "webkit /team/ official menus and distinct CTA retained",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ preserved 9 service or role choices",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ all nine official role names retained",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 0 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 0 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 0,
+        "choice": "전략·마케팅",
+        "kind": "strategy",
+        "text": "리테일 · 제작자 인터랙티브 시제품\n제품의 차이가, 선택의 기준이 되도록.\nEzyLens · 상품의 표현과 비교·선택 경험\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n전략·마케팅\n\n사업과 고객을 이해하고 프로젝트의 방향과 범위를 정합니다.\n\n함께 만드는 것\n시장·경쟁 환경 분석\n브랜드 전략·핵심 메시지\n네이밍·슬로건·브랜드 디자인\n프로젝트 이야기하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/ezylens-studio.png",
+            "alt": "EzyLens 상품 사진과 색상·규격 선택을 연결한 커머스 시제품",
+            "width": 1440,
+            "height": 965,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /team/ panel 0 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 1 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 1 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 1,
+        "choice": "디지털",
+        "kind": "digital",
+        "text": "여행 · 제작자 서비스 웹\n관심 다음에 할 일이 보이도록.\nSoulReset · 서비스 탐색에서 문의로 이어지는 화면\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n디지털\n\n매체와 채널을 운영하고 유입과 문의의 흐름을 살핍니다.\n\n함께 만드는 것\n검색·SNS 광고 운영\n공식 블로그·SNS 콘텐츠 운영\n유입·문의 분석과 개선\n프로젝트 이야기하기",
+        "images": [
+          {
+            "src": "/portfolio/site-soulreset.png",
+            "alt": "SoulReset의 여행 서비스 소개와 상담으로 이어지는 웹 제작 화면",
+            "width": 1440,
+            "height": 900,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /team/ panel 1 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 2 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 2 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 2,
+        "choice": "콘텐츠",
+        "kind": "content",
+        "text": "공익·교육 · 제작자 프로젝트\n쌓아온 활동이, 신뢰할 이야기로.\n종해문화진흥원 · 활동 기록과 기관의 정보를 편집한 웹\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n콘텐츠\n\n말할 내용을 찾아 채널과 독자에게 맞는 원고로 편집합니다.\n\n함께 만드는 것\n채널 콘텐츠·카드뉴스\n웹·배너·브랜드 그래픽\n카탈로그·인쇄 홍보물\n프로젝트 이야기하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "alt": "종해문화진흥원의 활동 사진과 이야기, 공개자료를 담은 웹사이트",
+            "width": 1440,
+            "height": 1000,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /team/ panel 2 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 3 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 3 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 3,
+        "choice": "디자인",
+        "kind": "design",
+        "text": "의료 · 안내물 편집 디자인 콘셉트\n필요한 순간, 필요한 문장부터.\n첫 방문 안내 · 글자와 여백으로 정보를 읽는 순서 설계\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n디자인\n\n브랜드의 메시지를 글자, 이미지, 공간과 화면으로 구체화합니다.\n\n함께 만드는 것\n채널 콘텐츠·카드뉴스\n웹·배너·브랜드 그래픽\n카탈로그·인쇄 홍보물\n프로젝트 이야기하기",
+        "images": [
+          {
+            "src": "/portfolio/concept-patient-guide.png",
+            "alt": "첫 방문 안내 리플릿의 글자 크기와 정보 위계를 설계한 자체 시안",
+            "width": 1200,
+            "height": 1200,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /team/ panel 3 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 4 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 4 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 4,
+        "choice": "영상",
+        "kind": "video",
+        "text": "TRAVEL FILM · 20초 콘티\n자체 콘셉트\n하루를,\n천천히 펼치다.\n01 / 00—06″\n\n산책을 나서면, 다른 속도.\n\n02 / 06—14″\n\n빛이 머무는 자리를 따라.\n\n03 / 14—20″\n\n오늘은, 여기까지.\n\nCAMERA고정 숏 → 디테일 → 느린 이동\n\nSOUND바람 소리, 발걸음, 공간의 잔향\n\n장소 사진으로 구성한 콘티 · 화면에 맞게 크롭\n야외 정원·온실: Tjwlgns / CC BY 4.0 · 소악루: 서울특별시 강서구 / 공공누리 제1유형\n\n여행·공간 · 브랜드 필름 콘티 · 자체 콘셉트\n공간의 분위기를, 방문하고 싶은 장면으로.\n\nALL THE EXPERTISE. TOGETHER.\n\n영상\n\n촬영과 편집, 모션으로 이야기의 흐름과 리듬을 만듭니다.\n\n함께 만드는 것\n기업 소개·홍보 영상\n인터뷰·유튜브 콘텐츠\n쇼츠·릴스·모션그래픽\n프로젝트 이야기하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/botanic-garden.webp",
+            "alt": "서울식물원 야외 정원 전경, 여행 필름의 산책 시작 장면 레퍼런스",
+            "width": 1800,
+            "height": 1350,
+            "loaded": true
+          },
+          {
+            "src": "/evidence/diverse/place-soakru.webp",
+            "alt": "소악루의 건축과 주변 풍경, 여행 필름의 잠시 머무는 장면 레퍼런스",
+            "width": 1200,
+            "height": 794,
+            "loaded": true
+          },
+          {
+            "src": "/evidence/diverse/botanic-skywalk.webp",
+            "alt": "서울식물원 스카이워크, 여행 필름의 마지막 온실 산책 장면 레퍼런스",
+            "width": 1400,
+            "height": 1050,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /team/ panel 4 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 5 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 5 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 5,
+        "choice": "미디어 광고",
+        "kind": "media",
+        "text": "CULTURE · 옥외 포스터\n자체 콘셉트\n\n도시 산책 전시\n\n도시를\n다시 보다.\n\n걷다 보면,\n새로운 장면.\n\n익숙한 길에서 발견한\n빛과 모양에 관한 전시\n\nWALK\nAND SEE\n\n사진 레퍼런스: 서울식물원 스카이워크 · Tjwlgns / CC BY 4.0 · 화면에 맞게 크롭\n\n문화 · 도시 산책 전시 포스터 · 자체 콘셉트\n지나치는 순간에도, 한 문장이 남도록.\n제안의 구성 살펴보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n미디어 광고\n\n메시지에 맞는 매체를 제안하고 제작·집행을 조율합니다.\n\n함께 만드는 것\n교통·생활·옥외 매체\n방송·IPTV·PPL\n매체 제안·소재·집행 관리\n프로젝트 이야기하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/botanic-skywalk.webp",
+            "alt": "도시 산책 전시 포스터의 공간 사진 레퍼런스",
+            "width": 1400,
+            "height": 1050,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /team/ panel 5 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 6 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 6 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 6,
+        "choice": "인플루언서",
+        "kind": "influencer",
+        "text": "BEAUTY · 크리에이터 브리프\n자체 콘셉트\n\n지금의 루틴에,\n자연스럽게.\n\nCREATIVE DIRECTION\n\n설명 대신,\n사용하는 순간.\n\n제품을 소개하는 말보다\n일상에서 손이 가는 이유를 보여주세요.\n\nOPEN\n\n외출을 준비하는 테이블.\n평소 쓰던 물건 사이로 시작.\n\nSHOW\n\n손에 덜어 질감을 가까이.\n자연광 아래의 색과 움직임.\n\nCLOSE\n\n개인의 사용감을 짧게.\n제품 정보로 이어지는 마무리.\n\n릴스 협업 구성\n협찬 표기 · 사용 장면 · 개인의 언어\n\n뷰티 콘텐츠 톤 참고 · 생성형 콘셉트 이미지\n\n뷰티 · 크리에이터 협업 브리프 · 자체 콘셉트\n브랜드의 설명을, 일상의 경험으로.\n\nALL THE EXPERTISE. TOGETHER.\n\n인플루언서\n\n협업할 크리에이터를 찾고 브랜드와 콘텐츠를 연결합니다.\n\n함께 만드는 것\n크리에이터 선정·협업 기획\n콘텐츠 제작 협의·진행 관리\n캠페인 결과 정리\n프로젝트 이야기하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/beauty-ritual.webp",
+            "alt": "뷰티 콘텐츠 톤을 제안하는 무브랜드 보틀 정물의 생성형 콘셉트 이미지",
+            "width": 1536,
+            "height": 1024,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /team/ panel 6 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 7 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 7 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 7,
+        "choice": "IT 솔루션",
+        "kind": "it",
+        "text": "기업 업무 · 제작자 내부 도구\n담당자의 다음 일이 분명해지도록.\nTesign OS · 자료와 검수, 납품 기록을 잇는 작업 환경\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\nIT 솔루션\n\n사용자 동선과 업무를 분석해 웹과 디지털 기능을 구현합니다.\n\n함께 만드는 것\n홈페이지·UI/UX 기획·개발\n상담·예약·관리 기능\n기존 시스템 개선·고도화\n프로젝트 이야기하기",
+        "images": [
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "alt": "콘텐츠의 요청부터 검수와 납품을 관리하는 내부 도구 화면",
+            "width": 1440,
+            "height": 1558,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /team/ panel 7 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 8 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ panel 8 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 8,
+        "choice": "언론홍보",
+        "kind": "pr",
+        "text": "PRESS MATERIAL · 원고 시안\n자체 콘셉트\n\n제조 · 산업용 조명\nPRODUCT NOTE\n\n작업대가 바뀌어도,\n조명은 그대로.\n\n헤드와 고정부를 따로 바꾸는\n모듈형 작업등 제안\n\n작업 환경이 달라질 때 조명 전체를 교체해야 할까. 이 제품 제안은 작업대의 형태와 쓰임에 맞춰 필요한 부분을 바꿀 수 있다는 생각에서 출발했다.\n\n광원 헤드, 관절, 고정부를 분리해 구성하고, 설치할 자리와 작업 방식에 따라 조합을 선택하도록 했다. 제품 소개 자료에는 구성 부품과 조립 순서, 사용 환경을 함께 담는다.\n\n기자가 바로 확인할 자료\n\n제품 구조 · 교체 과정 · 사용 장면\n\n신제품 PR 패키지\n보도자료 / 제품 사진 기획 / 팩트시트\n\n제조·B2B · 신제품 PR 원고 · 자체 콘셉트\n기술의 차이를, 이해할 수 있는 이야기로.\n\nALL THE EXPERTISE. TOGETHER.\n\n언론홍보\n\n자료를 정리하고 배포·취재·기자간담회의 소통을 지원합니다.\n\n함께 만드는 것\n보도자료 작성·배포\n기자간담회 기획·운영\n취재 협조·미디어 대응\n프로젝트 이야기하기",
+        "images": []
+      }
+    },
+    {
+      "name": "webkit /team/ panel 8 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ keyboard Home",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ keyboard ArrowRight",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ keyboard End",
+      "passed": true
+    },
+    {
+      "name": "webkit /team/ food imagery and wording restricted to its portfolio case/card",
+      "passed": true,
+      "detail": {
+        "violations": [],
+        "foodCards": 0
+      }
+    },
+    {
+      "name": "webkit /team/ visible content images load and have alt",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit /team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "webkit /works/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "webkit /works/ official menus and distinct CTA retained",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ preserved 10 service or role choices",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ all ten official service IDs retained",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 0 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 0 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 0,
+        "choice": "전략·브랜딩",
+        "kind": "strategy",
+        "text": "리테일 · 제작자 인터랙티브 시제품\n제품의 차이가, 선택의 기준이 되도록.\nEzyLens · 상품의 표현과 비교·선택 경험\n작업 자세히 보기\n↗\n\nSTRATEGY & BRAND\n\n전략·브랜딩\n\n우리 제품을 선택할 이유를 정리하고, 브랜드 표현과 구매 경험에 연결합니다.\n\n시장·경쟁 환경 분석\n브랜드 전략·핵심 메시지\n네이밍·슬로건·브랜드 디자인\n이 업무 상담하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/ezylens-studio.png",
+            "alt": "EzyLens 상품 사진과 색상·규격 선택을 연결한 커머스 시제품",
+            "width": 1440,
+            "height": 965,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /works/ panel 0 matches selected service",
+      "passed": true,
+      "detail": "strategy"
+    },
+    {
+      "name": "webkit /works/ panel 0 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 1 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 1 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 1,
+        "choice": "디지털 마케팅",
+        "kind": "digital",
+        "text": "여행 · 제작자 서비스 웹\n관심 다음에 할 일이 보이도록.\nSoulReset · 서비스 탐색에서 문의로 이어지는 화면\n작업 자세히 보기\n↗\n\nDIGITAL MARKETING\n\n디지털 마케팅\n\n유입 이후 고객이 무엇을 읽고 어디서 문의할지 함께 설계합니다.\n\n검색·SNS 광고 운영\n공식 블로그·SNS 콘텐츠 운영\n유입·문의 분석과 개선\n이 업무 상담하기",
+        "images": [
+          {
+            "src": "/portfolio/site-soulreset.png",
+            "alt": "SoulReset의 여행 서비스 소개와 상담으로 이어지는 웹 제작 화면",
+            "width": 1440,
+            "height": 900,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /works/ panel 1 matches selected service",
+      "passed": true,
+      "detail": "digital"
+    },
+    {
+      "name": "webkit /works/ panel 1 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 2 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 2 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 2,
+        "choice": "콘텐츠·디자인",
+        "kind": "content",
+        "text": "공익·교육 · 제작자 프로젝트\n쌓아온 활동이, 신뢰할 이야기로.\n종해문화진흥원 · 활동 기록과 기관의 정보를 편집한 웹\n작업 자세히 보기\n↗\n\nCONTENT & DESIGN\n\n콘텐츠·디자인\n\n사진과 기록에서 이야기의 중심을 찾고, 고객이 읽을 채널에 맞게 편집합니다.\n\n채널 콘텐츠·카드뉴스\n웹·배너·브랜드 그래픽\n카탈로그·인쇄 홍보물\n이 업무 상담하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "alt": "종해문화진흥원의 활동 사진과 이야기, 공개자료를 담은 웹사이트",
+            "width": 1440,
+            "height": 1000,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /works/ panel 2 matches selected service",
+      "passed": true,
+      "detail": "content"
+    },
+    {
+      "name": "webkit /works/ panel 2 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 3 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 3 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 3,
+        "choice": "영상 제작",
+        "kind": "video",
+        "text": "TRAVEL FILM · 20초 콘티\n자체 콘셉트\n하루를,\n천천히 펼치다.\n01 / 00—06″\n\n산책을 나서면, 다른 속도.\n\n02 / 06—14″\n\n빛이 머무는 자리를 따라.\n\n03 / 14—20″\n\n오늘은, 여기까지.\n\nCAMERA고정 숏 → 디테일 → 느린 이동\n\nSOUND바람 소리, 발걸음, 공간의 잔향\n\n장소 사진으로 구성한 콘티 · 화면에 맞게 크롭\n야외 정원·온실: Tjwlgns / CC BY 4.0 · 소악루: 서울특별시 강서구 / 공공누리 제1유형\n\n여행·공간 · 브랜드 필름 콘티 · 자체 콘셉트\n공간의 분위기를, 방문하고 싶은 장면으로.\n\nFILM & MOTION\n\n영상 제작\n\n영상의 목적에 맞춰 장면·소리·다음 행동을 구체적으로 설계합니다.\n\n기업 소개·홍보 영상\n인터뷰·유튜브 콘텐츠\n쇼츠·릴스·모션그래픽\n이 업무 상담하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/botanic-garden.webp",
+            "alt": "서울식물원 야외 정원 전경, 여행 필름의 산책 시작 장면 레퍼런스",
+            "width": 1800,
+            "height": 1350,
+            "loaded": true
+          },
+          {
+            "src": "/evidence/diverse/place-soakru.webp",
+            "alt": "소악루의 건축과 주변 풍경, 여행 필름의 잠시 머무는 장면 레퍼런스",
+            "width": 1200,
+            "height": 794,
+            "loaded": true
+          },
+          {
+            "src": "/evidence/diverse/botanic-skywalk.webp",
+            "alt": "서울식물원 스카이워크, 여행 필름의 마지막 온실 산책 장면 레퍼런스",
+            "width": 1400,
+            "height": 1050,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /works/ panel 3 matches selected service",
+      "passed": true,
+      "detail": "video"
+    },
+    {
+      "name": "webkit /works/ panel 3 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 4 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 4 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 4,
+        "choice": "미디어·오프라인 광고",
+        "kind": "media",
+        "text": "CULTURE · 옥외 포스터\n자체 콘셉트\n\n도시 산책 전시\n\n도시를\n다시 보다.\n\n걷다 보면,\n새로운 장면.\n\n익숙한 길에서 발견한\n빛과 모양에 관한 전시\n\nWALK\nAND SEE\n\n사진 레퍼런스: 서울식물원 스카이워크 · Tjwlgns / CC BY 4.0 · 화면에 맞게 크롭\n\n문화 · 도시 산책 전시 포스터 · 자체 콘셉트\n지나치는 순간에도, 한 문장이 남도록.\n제안의 구성 살펴보기\n↗\n\nMEDIA & OUT-OF-HOME\n\n미디어·오프라인 광고\n\n목표와 생활 동선에 맞는 매체·메시지·집행 범위를 정합니다.\n\n교통·생활·옥외 매체\n방송·IPTV·PPL\n매체 제안·소재·집행 관리\n이 업무 상담하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/botanic-skywalk.webp",
+            "alt": "도시 산책 전시 포스터의 공간 사진 레퍼런스",
+            "width": 1400,
+            "height": 1050,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /works/ panel 4 matches selected service",
+      "passed": true,
+      "detail": "media"
+    },
+    {
+      "name": "webkit /works/ panel 4 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 5 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 5 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 5,
+        "choice": "인플루언서 마케팅",
+        "kind": "influencer",
+        "text": "BEAUTY · 크리에이터 브리프\n자체 콘셉트\n\n지금의 루틴에,\n자연스럽게.\n\nCREATIVE DIRECTION\n\n설명 대신,\n사용하는 순간.\n\n제품을 소개하는 말보다\n일상에서 손이 가는 이유를 보여주세요.\n\nOPEN\n\n외출을 준비하는 테이블.\n평소 쓰던 물건 사이로 시작.\n\nSHOW\n\n손에 덜어 질감을 가까이.\n자연광 아래의 색과 움직임.\n\nCLOSE\n\n개인의 사용감을 짧게.\n제품 정보로 이어지는 마무리.\n\n릴스 협업 구성\n협찬 표기 · 사용 장면 · 개인의 언어\n\n뷰티 콘텐츠 톤 참고 · 생성형 콘셉트 이미지\n\n뷰티 · 크리에이터 협업 브리프 · 자체 콘셉트\n브랜드의 설명을, 일상의 경험으로.\n\nCREATOR PARTNERSHIPS\n\n인플루언서 마케팅\n\n브랜드의 고객과 맞는 경험을 중심으로 협업을 기획합니다.\n\n크리에이터 선정·협업 기획\n콘텐츠 제작 협의·진행 관리\n캠페인 결과 정리\n이 업무 상담하기",
+        "images": [
+          {
+            "src": "/evidence/diverse/beauty-ritual.webp",
+            "alt": "뷰티 콘텐츠 톤을 제안하는 무브랜드 보틀 정물의 생성형 콘셉트 이미지",
+            "width": 1536,
+            "height": 1024,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /works/ panel 5 matches selected service",
+      "passed": true,
+      "detail": "influencer"
+    },
+    {
+      "name": "webkit /works/ panel 5 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 6 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 6 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 6,
+        "choice": "병원 마케팅",
+        "kind": "hospital",
+        "text": "PATIENT GUIDE · 방문 안내\n자체 콘셉트\n01\n처음 오시는 길이\n조금 더 편하도록.\n\n예약한 날, 찾을 곳, 도착한 뒤의 순서.\n방문 전에 필요한 안내를 한 장에 담았습니다.\n\n방문 전예약 내용을 확인해 주세요.\n예약 문자에서 날짜·시간·진료과를 확인해 주세요. 변경이 필요하다면 예약한 병원으로 연락해 주세요.\n오시는 길건물과 출입구를 확인해 주세요.\n병원에서 보내드린 위치·주차 안내를 확인하시면 접수처를 찾는 데 도움이 됩니다.\n도착 후접수처에서 예약을 알려주세요.\n안내에 따라 접수한 뒤 대기해 주세요. 도움이 필요하면 가까운 직원에게 말씀해 주세요.\n\n방문 안내 리플릿\n예약 → 위치 확인 → 접수\n\n의료 · 방문 안내 콘텐츠 · 자체 콘셉트\n처음 방문하는 고객의 질문에서 시작합니다.\n제안의 구성 살펴보기\n↗\n\nHEALTHCARE MARKETING\n\n병원 마케팅\n\n진료의 장점뿐 아니라 환자가 찾는 정보를 알기 쉽게 정리합니다.\n\n병원 홍보 전략·콘텐츠\n질환 정보·의료진 인터뷰\n채널·광고·홍보 운영\n이 업무 상담하기",
+        "images": []
+      }
+    },
+    {
+      "name": "webkit /works/ panel 6 matches selected service",
+      "passed": true,
+      "detail": "hospital"
+    },
+    {
+      "name": "webkit /works/ panel 6 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 7 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 7 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 7,
+        "choice": "사업·글로벌 컨설팅",
+        "kind": "consulting",
+        "text": "디지털 서비스 · 제작자 프로젝트\n선택지가 많을수록, 판단 기준은 명확하게.\nTESIGN Radar · 정보를 찾고 비교하는 탐색 서비스\n작업 자세히 보기\n↗\n\nBUSINESS CONSULTING\n\n사업·글로벌 컨설팅\n\n새로운 사업의 고객·제안·실행 범위를 구체적인 계획으로 정리합니다.\n\n사업 계획·기업 제휴 기획\n해외 마케팅 방향·콘텐츠\n분야별 협업 범위 협의\n이 업무 상담하기",
+        "images": [
+          {
+            "src": "/portfolio/site-tesign-radar.png",
+            "alt": "디지털 도구의 탐색과 비교를 돕는 TESIGN Radar 제작 화면",
+            "width": 1440,
+            "height": 1000,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /works/ panel 7 matches selected service",
+      "passed": true,
+      "detail": "consulting"
+    },
+    {
+      "name": "webkit /works/ panel 7 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 8 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 8 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 8,
+        "choice": "IT 솔루션 지원",
+        "kind": "it",
+        "text": "기업 업무 · 제작자 내부 도구\n담당자의 다음 일이 분명해지도록.\nTesign OS · 자료와 검수, 납품 기록을 잇는 작업 환경\n작업 자세히 보기\n↗\n\nDIGITAL PRODUCTS\n\nIT 솔루션 지원\n\n고객의 이용 흐름과 담당자의 반복 업무를 함께 개선합니다.\n\n홈페이지·UI/UX 기획·개발\n상담·예약·관리 기능\n기존 시스템 개선·고도화\n이 업무 상담하기",
+        "images": [
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "alt": "콘텐츠의 요청부터 검수와 납품을 관리하는 내부 도구 화면",
+            "width": 1440,
+            "height": 1558,
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit /works/ panel 8 matches selected service",
+      "passed": true,
+      "detail": "it"
+    },
+    {
+      "name": "webkit /works/ panel 8 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 9 ARIA selection and single visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ panel 9 output is present and nonfood",
+      "passed": true,
+      "detail": {
+        "index": 9,
+        "choice": "언론홍보",
+        "kind": "pr",
+        "text": "PRESS MATERIAL · 원고 시안\n자체 콘셉트\n\n제조 · 산업용 조명\nPRODUCT NOTE\n\n작업대가 바뀌어도,\n조명은 그대로.\n\n헤드와 고정부를 따로 바꾸는\n모듈형 작업등 제안\n\n작업 환경이 달라질 때 조명 전체를 교체해야 할까. 이 제품 제안은 작업대의 형태와 쓰임에 맞춰 필요한 부분을 바꿀 수 있다는 생각에서 출발했다.\n\n광원 헤드, 관절, 고정부를 분리해 구성하고, 설치할 자리와 작업 방식에 따라 조합을 선택하도록 했다. 제품 소개 자료에는 구성 부품과 조립 순서, 사용 환경을 함께 담는다.\n\n기자가 바로 확인할 자료\n\n제품 구조 · 교체 과정 · 사용 장면\n\n신제품 PR 패키지\n보도자료 / 제품 사진 기획 / 팩트시트\n\n제조·B2B · 신제품 PR 원고 · 자체 콘셉트\n기술의 차이를, 이해할 수 있는 이야기로.\n\nPUBLIC RELATIONS\n\n언론홍보\n\n기자의 확인과 독자의 이해에 필요한 사실·자료·메시지를 준비합니다.\n\n보도자료 작성·배포\n기자간담회 기획·운영\n취재 협조·미디어 대응\n이 업무 상담하기",
+        "images": []
+      }
+    },
+    {
+      "name": "webkit /works/ panel 9 matches selected service",
+      "passed": true,
+      "detail": "pr"
+    },
+    {
+      "name": "webkit /works/ panel 9 explanation and CTA visible",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ keyboard Home",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ keyboard ArrowRight",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ keyboard End",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/ food imagery and wording restricted to its portfolio case/card",
+      "passed": true,
+      "detail": {
+        "violations": [],
+        "foodCards": 1
+      }
+    },
+    {
+      "name": "webkit /works/ WORKS contains one Sojukdoo portfolio card",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "webkit /works/ visible content images load and have alt",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit /works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "webkit /contact/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "webkit /contact/ official menus and distinct CTA retained",
+      "passed": true
+    },
+    {
+      "name": "webkit /contact/ food imagery and wording restricted to its portfolio case/card",
+      "passed": true,
+      "detail": {
+        "violations": [],
+        "foodCards": 0
+      }
+    },
+    {
+      "name": "webkit /contact/ visible content images load and have alt",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit /contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "webkit /contact/ inquiry form remains empty and not submitted",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/sojukdoo-concept/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "webkit /works/project/sojukdoo-concept/ official menus and distinct CTA retained",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/sojukdoo-concept/ food imagery and wording restricted to its portfolio case/card",
+      "passed": true,
+      "detail": {
+        "violations": [],
+        "foodCards": 0
+      }
+    },
+    {
+      "name": "webkit /works/project/sojukdoo-concept/ visible content images load and have alt",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit /works/project/sojukdoo-concept/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "No browser JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No writes or inquiry submission attempted",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "writes": [],
+  "network": [],
+  "pages": [
+    {
+      "engine": "webkit",
+      "route": "/about/",
+      "title": "회사 소개 — 올더커뮤니케이션",
+      "images": [
+        {
+          "src": "/evidence/diverse/eyewear-product.jpg",
+          "alt": "EzyLens 커머스 시제품에 사용한 기존 안경 상품 사진",
+          "width": 1500,
+          "height": 1500,
+          "loaded": true
+        },
+        {
+          "src": "/evidence/diverse/jonghae-home.png",
+          "alt": "종해문화진흥원의 활동과 공개자료를 안내하는 홈페이지",
+          "width": 1440,
+          "height": 1000,
+          "loaded": true
+        },
+        {
+          "src": "/portfolio/concept-city-culture.png",
+          "alt": "도시 산책 전시의 자체 기획 포스터",
+          "width": 1200,
+          "height": 1200,
+          "loaded": true
+        },
+        {
+          "src": "/portfolio/concept-patient-guide.png",
+          "alt": "처음 방문하는 환자를 위한 자체 안내 디자인",
+          "width": 1200,
+          "height": 1200,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "route": "/process/",
+      "title": "일하는 과정 — 올더커뮤니케이션",
+      "images": [
+        {
+          "src": "/evidence/diverse/jonghae-home.png",
+          "alt": "종해문화진흥원 웹사이트의 활동 이야기와 정보 구조",
+          "width": 1440,
+          "height": 1000,
+          "loaded": true
+        },
+        {
+          "src": "/portfolio/concept-city-culture.png",
+          "alt": "도시 산책 전시의 메시지와 포스터 디자인",
+          "width": 1200,
+          "height": 1200,
+          "loaded": true
+        },
+        {
+          "src": "/evidence/diverse/ezylens-studio.png",
+          "alt": "EzyLens 상품 탐색과 옵션 선택 인터페이스",
+          "width": 1440,
+          "height": 965,
+          "loaded": true
+        },
+        {
+          "src": "/portfolio/saas-tesign-workflow.png",
+          "alt": "콘텐츠 검수·납품 이력을 관리하는 Tesign OS",
+          "width": 1440,
+          "height": 1558,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "route": "/team/",
+      "title": "함께하는 역할 — 올더커뮤니케이션",
+      "images": [
+        {
+          "src": "/evidence/diverse/ezylens-studio.png",
+          "alt": "EzyLens 상품 사진과 색상·규격 선택을 연결한 커머스 시제품",
+          "width": 1440,
+          "height": 965,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "route": "/works/",
+      "title": "업무와 프로젝트 — 올더커뮤니케이션",
+      "images": [
+        {
+          "src": "/evidence/diverse/ezylens-studio.png",
+          "alt": "EzyLens 상품 사진과 색상·규격 선택을 연결한 커머스 시제품",
+          "width": 1440,
+          "height": 965,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+          "alt": "EzyLens — 제품에서 선택까지 — 제작 화면 캡처",
+          "width": 1440,
+          "height": 965,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+          "alt": "도시를 다시 보다 — 문화 캠페인 — 제작 화면 캡처",
+          "width": 1200,
+          "height": 1200,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+          "alt": "종해문화진흥원 — 활동이 신뢰가 되는 웹 — 제작 화면 캡처",
+          "width": 1440,
+          "height": 1000,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/concept-patient-guide.png",
+          "alt": "첫 방문 안내 — 환자의 질문에서 시작한 콘텐츠 — 제작 화면 캡처",
+          "width": 1200,
+          "height": 1200,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-sojukdoo-commerce.png",
+          "alt": "소적두 — 팥부터. — 제작 화면 캡처",
+          "width": 1440,
+          "height": 900,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+          "alt": "SoulReset — 서울에서의 다른 리듬 — 제작 화면 캡처",
+          "width": 1440,
+          "height": 900,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+          "alt": "Review Atelier — 자료에서 원고로 — 제작 화면 캡처",
+          "width": 1600,
+          "height": 1050,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+          "alt": "TESIGN Radar — 발견에서 사용까지 — 제작 화면 캡처",
+          "width": 1440,
+          "height": 1000,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+          "alt": "Tesign OS — 제작 다음의 검수까지 — 제작 화면 캡처",
+          "width": 1440,
+          "height": 1558,
+          "loaded": true
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "alt": "올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면",
+          "width": 1548,
+          "height": 2142,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "route": "/contact/",
+      "title": "프로젝트 문의 — 올더커뮤니케이션",
+      "images": []
+    },
+    {
+      "engine": "webkit",
+      "route": "/works/project/sojukdoo-concept/",
+      "title": "소적두 — 팥부터. — ALL THE COMMUNICATION",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-sojukdoo-commerce.png",
+          "alt": "소적두 — 팥부터.",
+          "width": 1440,
+          "height": 900,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/media/projects/147df535-8d41-4074-84f6-908dd81a7d1c/2e03ab6b-df53-41bd-900b-095a70ab70d6",
+          "alt": "소적두 팥 한 상자 선물 패키지·커머스 콘셉트",
+          "width": 1440,
+          "height": 900,
+          "loaded": true
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "label": "webkit /process/",
+      "type": "process",
+      "index": 0,
+      "text": "누가 어떤 정보를 필요로 하는가\n공익·교육 · 기관 웹 제작 사례",
+      "images": [
+        {
+          "src": "/evidence/diverse/jonghae-home.png",
+          "alt": "종해문화진흥원 웹사이트의 활동 이야기와 정보 구조",
+          "width": 1440,
+          "height": 1000,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /process/",
+      "type": "process",
+      "index": 1,
+      "text": "어떤 한 문장을 기억하게 할 것인가\n문화 · 캠페인 자체 콘셉트",
+      "images": [
+        {
+          "src": "/portfolio/concept-city-culture.png",
+          "alt": "도시 산책 전시의 메시지와 포스터 디자인",
+          "width": 1200,
+          "height": 1200,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /process/",
+      "type": "process",
+      "index": 2,
+      "text": "어떻게 보고, 고르고, 행동하게 할 것인가\n리테일 · 커머스 제작자 시제품",
+      "images": [
+        {
+          "src": "/evidence/diverse/ezylens-studio.png",
+          "alt": "EzyLens 상품 탐색과 옵션 선택 인터페이스",
+          "width": 1440,
+          "height": 965,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /process/",
+      "type": "process",
+      "index": 3,
+      "text": "다음 실행에 무엇을 남길 것인가\n기업 업무 · 내부 도구 / 검수용 데이터",
+      "images": [
+        {
+          "src": "/portfolio/saas-tesign-workflow.png",
+          "alt": "콘텐츠 검수·납품 이력을 관리하는 Tesign OS",
+          "width": 1440,
+          "height": 1558,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /team/",
+      "type": "role",
+      "index": 0,
+      "choice": "전략·마케팅",
+      "kind": "strategy",
+      "text": "리테일 · 제작자 인터랙티브 시제품\n제품의 차이가, 선택의 기준이 되도록.\nEzyLens · 상품의 표현과 비교·선택 경험\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n전략·마케팅\n\n사업과 고객을 이해하고 프로젝트의 방향과 범위를 정합니다.\n\n함께 만드는 것\n시장·경쟁 환경 분석\n브랜드 전략·핵심 메시지\n네이밍·슬로건·브랜드 디자인\n프로젝트 이야기하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/ezylens-studio.png",
+          "alt": "EzyLens 상품 사진과 색상·규격 선택을 연결한 커머스 시제품",
+          "width": 1440,
+          "height": 965,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /team/",
+      "type": "role",
+      "index": 1,
+      "choice": "디지털",
+      "kind": "digital",
+      "text": "여행 · 제작자 서비스 웹\n관심 다음에 할 일이 보이도록.\nSoulReset · 서비스 탐색에서 문의로 이어지는 화면\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n디지털\n\n매체와 채널을 운영하고 유입과 문의의 흐름을 살핍니다.\n\n함께 만드는 것\n검색·SNS 광고 운영\n공식 블로그·SNS 콘텐츠 운영\n유입·문의 분석과 개선\n프로젝트 이야기하기",
+      "images": [
+        {
+          "src": "/portfolio/site-soulreset.png",
+          "alt": "SoulReset의 여행 서비스 소개와 상담으로 이어지는 웹 제작 화면",
+          "width": 1440,
+          "height": 900,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /team/",
+      "type": "role",
+      "index": 2,
+      "choice": "콘텐츠",
+      "kind": "content",
+      "text": "공익·교육 · 제작자 프로젝트\n쌓아온 활동이, 신뢰할 이야기로.\n종해문화진흥원 · 활동 기록과 기관의 정보를 편집한 웹\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n콘텐츠\n\n말할 내용을 찾아 채널과 독자에게 맞는 원고로 편집합니다.\n\n함께 만드는 것\n채널 콘텐츠·카드뉴스\n웹·배너·브랜드 그래픽\n카탈로그·인쇄 홍보물\n프로젝트 이야기하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/jonghae-home.png",
+          "alt": "종해문화진흥원의 활동 사진과 이야기, 공개자료를 담은 웹사이트",
+          "width": 1440,
+          "height": 1000,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /team/",
+      "type": "role",
+      "index": 3,
+      "choice": "디자인",
+      "kind": "design",
+      "text": "의료 · 안내물 편집 디자인 콘셉트\n필요한 순간, 필요한 문장부터.\n첫 방문 안내 · 글자와 여백으로 정보를 읽는 순서 설계\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n디자인\n\n브랜드의 메시지를 글자, 이미지, 공간과 화면으로 구체화합니다.\n\n함께 만드는 것\n채널 콘텐츠·카드뉴스\n웹·배너·브랜드 그래픽\n카탈로그·인쇄 홍보물\n프로젝트 이야기하기",
+      "images": [
+        {
+          "src": "/portfolio/concept-patient-guide.png",
+          "alt": "첫 방문 안내 리플릿의 글자 크기와 정보 위계를 설계한 자체 시안",
+          "width": 1200,
+          "height": 1200,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /team/",
+      "type": "role",
+      "index": 4,
+      "choice": "영상",
+      "kind": "video",
+      "text": "TRAVEL FILM · 20초 콘티\n자체 콘셉트\n하루를,\n천천히 펼치다.\n01 / 00—06″\n\n산책을 나서면, 다른 속도.\n\n02 / 06—14″\n\n빛이 머무는 자리를 따라.\n\n03 / 14—20″\n\n오늘은, 여기까지.\n\nCAMERA고정 숏 → 디테일 → 느린 이동\n\nSOUND바람 소리, 발걸음, 공간의 잔향\n\n장소 사진으로 구성한 콘티 · 화면에 맞게 크롭\n야외 정원·온실: Tjwlgns / CC BY 4.0 · 소악루: 서울특별시 강서구 / 공공누리 제1유형\n\n여행·공간 · 브랜드 필름 콘티 · 자체 콘셉트\n공간의 분위기를, 방문하고 싶은 장면으로.\n\nALL THE EXPERTISE. TOGETHER.\n\n영상\n\n촬영과 편집, 모션으로 이야기의 흐름과 리듬을 만듭니다.\n\n함께 만드는 것\n기업 소개·홍보 영상\n인터뷰·유튜브 콘텐츠\n쇼츠·릴스·모션그래픽\n프로젝트 이야기하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/botanic-garden.webp",
+          "alt": "서울식물원 야외 정원 전경, 여행 필름의 산책 시작 장면 레퍼런스",
+          "width": 1800,
+          "height": 1350,
+          "loaded": true
+        },
+        {
+          "src": "/evidence/diverse/place-soakru.webp",
+          "alt": "소악루의 건축과 주변 풍경, 여행 필름의 잠시 머무는 장면 레퍼런스",
+          "width": 1200,
+          "height": 794,
+          "loaded": true
+        },
+        {
+          "src": "/evidence/diverse/botanic-skywalk.webp",
+          "alt": "서울식물원 스카이워크, 여행 필름의 마지막 온실 산책 장면 레퍼런스",
+          "width": 1400,
+          "height": 1050,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /team/",
+      "type": "role",
+      "index": 5,
+      "choice": "미디어 광고",
+      "kind": "media",
+      "text": "CULTURE · 옥외 포스터\n자체 콘셉트\n\n도시 산책 전시\n\n도시를\n다시 보다.\n\n걷다 보면,\n새로운 장면.\n\n익숙한 길에서 발견한\n빛과 모양에 관한 전시\n\nWALK\nAND SEE\n\n사진 레퍼런스: 서울식물원 스카이워크 · Tjwlgns / CC BY 4.0 · 화면에 맞게 크롭\n\n문화 · 도시 산책 전시 포스터 · 자체 콘셉트\n지나치는 순간에도, 한 문장이 남도록.\n제안의 구성 살펴보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\n미디어 광고\n\n메시지에 맞는 매체를 제안하고 제작·집행을 조율합니다.\n\n함께 만드는 것\n교통·생활·옥외 매체\n방송·IPTV·PPL\n매체 제안·소재·집행 관리\n프로젝트 이야기하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/botanic-skywalk.webp",
+          "alt": "도시 산책 전시 포스터의 공간 사진 레퍼런스",
+          "width": 1400,
+          "height": 1050,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /team/",
+      "type": "role",
+      "index": 6,
+      "choice": "인플루언서",
+      "kind": "influencer",
+      "text": "BEAUTY · 크리에이터 브리프\n자체 콘셉트\n\n지금의 루틴에,\n자연스럽게.\n\nCREATIVE DIRECTION\n\n설명 대신,\n사용하는 순간.\n\n제품을 소개하는 말보다\n일상에서 손이 가는 이유를 보여주세요.\n\nOPEN\n\n외출을 준비하는 테이블.\n평소 쓰던 물건 사이로 시작.\n\nSHOW\n\n손에 덜어 질감을 가까이.\n자연광 아래의 색과 움직임.\n\nCLOSE\n\n개인의 사용감을 짧게.\n제품 정보로 이어지는 마무리.\n\n릴스 협업 구성\n협찬 표기 · 사용 장면 · 개인의 언어\n\n뷰티 콘텐츠 톤 참고 · 생성형 콘셉트 이미지\n\n뷰티 · 크리에이터 협업 브리프 · 자체 콘셉트\n브랜드의 설명을, 일상의 경험으로.\n\nALL THE EXPERTISE. TOGETHER.\n\n인플루언서\n\n협업할 크리에이터를 찾고 브랜드와 콘텐츠를 연결합니다.\n\n함께 만드는 것\n크리에이터 선정·협업 기획\n콘텐츠 제작 협의·진행 관리\n캠페인 결과 정리\n프로젝트 이야기하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/beauty-ritual.webp",
+          "alt": "뷰티 콘텐츠 톤을 제안하는 무브랜드 보틀 정물의 생성형 콘셉트 이미지",
+          "width": 1536,
+          "height": 1024,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /team/",
+      "type": "role",
+      "index": 7,
+      "choice": "IT 솔루션",
+      "kind": "it",
+      "text": "기업 업무 · 제작자 내부 도구\n담당자의 다음 일이 분명해지도록.\nTesign OS · 자료와 검수, 납품 기록을 잇는 작업 환경\n작업 자세히 보기\n↗\n\nALL THE EXPERTISE. TOGETHER.\n\nIT 솔루션\n\n사용자 동선과 업무를 분석해 웹과 디지털 기능을 구현합니다.\n\n함께 만드는 것\n홈페이지·UI/UX 기획·개발\n상담·예약·관리 기능\n기존 시스템 개선·고도화\n프로젝트 이야기하기",
+      "images": [
+        {
+          "src": "/portfolio/saas-tesign-workflow.png",
+          "alt": "콘텐츠의 요청부터 검수와 납품을 관리하는 내부 도구 화면",
+          "width": 1440,
+          "height": 1558,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /team/",
+      "type": "role",
+      "index": 8,
+      "choice": "언론홍보",
+      "kind": "pr",
+      "text": "PRESS MATERIAL · 원고 시안\n자체 콘셉트\n\n제조 · 산업용 조명\nPRODUCT NOTE\n\n작업대가 바뀌어도,\n조명은 그대로.\n\n헤드와 고정부를 따로 바꾸는\n모듈형 작업등 제안\n\n작업 환경이 달라질 때 조명 전체를 교체해야 할까. 이 제품 제안은 작업대의 형태와 쓰임에 맞춰 필요한 부분을 바꿀 수 있다는 생각에서 출발했다.\n\n광원 헤드, 관절, 고정부를 분리해 구성하고, 설치할 자리와 작업 방식에 따라 조합을 선택하도록 했다. 제품 소개 자료에는 구성 부품과 조립 순서, 사용 환경을 함께 담는다.\n\n기자가 바로 확인할 자료\n\n제품 구조 · 교체 과정 · 사용 장면\n\n신제품 PR 패키지\n보도자료 / 제품 사진 기획 / 팩트시트\n\n제조·B2B · 신제품 PR 원고 · 자체 콘셉트\n기술의 차이를, 이해할 수 있는 이야기로.\n\nALL THE EXPERTISE. TOGETHER.\n\n언론홍보\n\n자료를 정리하고 배포·취재·기자간담회의 소통을 지원합니다.\n\n함께 만드는 것\n보도자료 작성·배포\n기자간담회 기획·운영\n취재 협조·미디어 대응\n프로젝트 이야기하기",
+      "images": []
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 0,
+      "choice": "전략·브랜딩",
+      "kind": "strategy",
+      "text": "리테일 · 제작자 인터랙티브 시제품\n제품의 차이가, 선택의 기준이 되도록.\nEzyLens · 상품의 표현과 비교·선택 경험\n작업 자세히 보기\n↗\n\nSTRATEGY & BRAND\n\n전략·브랜딩\n\n우리 제품을 선택할 이유를 정리하고, 브랜드 표현과 구매 경험에 연결합니다.\n\n시장·경쟁 환경 분석\n브랜드 전략·핵심 메시지\n네이밍·슬로건·브랜드 디자인\n이 업무 상담하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/ezylens-studio.png",
+          "alt": "EzyLens 상품 사진과 색상·규격 선택을 연결한 커머스 시제품",
+          "width": 1440,
+          "height": 965,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 1,
+      "choice": "디지털 마케팅",
+      "kind": "digital",
+      "text": "여행 · 제작자 서비스 웹\n관심 다음에 할 일이 보이도록.\nSoulReset · 서비스 탐색에서 문의로 이어지는 화면\n작업 자세히 보기\n↗\n\nDIGITAL MARKETING\n\n디지털 마케팅\n\n유입 이후 고객이 무엇을 읽고 어디서 문의할지 함께 설계합니다.\n\n검색·SNS 광고 운영\n공식 블로그·SNS 콘텐츠 운영\n유입·문의 분석과 개선\n이 업무 상담하기",
+      "images": [
+        {
+          "src": "/portfolio/site-soulreset.png",
+          "alt": "SoulReset의 여행 서비스 소개와 상담으로 이어지는 웹 제작 화면",
+          "width": 1440,
+          "height": 900,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 2,
+      "choice": "콘텐츠·디자인",
+      "kind": "content",
+      "text": "공익·교육 · 제작자 프로젝트\n쌓아온 활동이, 신뢰할 이야기로.\n종해문화진흥원 · 활동 기록과 기관의 정보를 편집한 웹\n작업 자세히 보기\n↗\n\nCONTENT & DESIGN\n\n콘텐츠·디자인\n\n사진과 기록에서 이야기의 중심을 찾고, 고객이 읽을 채널에 맞게 편집합니다.\n\n채널 콘텐츠·카드뉴스\n웹·배너·브랜드 그래픽\n카탈로그·인쇄 홍보물\n이 업무 상담하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/jonghae-home.png",
+          "alt": "종해문화진흥원의 활동 사진과 이야기, 공개자료를 담은 웹사이트",
+          "width": 1440,
+          "height": 1000,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 3,
+      "choice": "영상 제작",
+      "kind": "video",
+      "text": "TRAVEL FILM · 20초 콘티\n자체 콘셉트\n하루를,\n천천히 펼치다.\n01 / 00—06″\n\n산책을 나서면, 다른 속도.\n\n02 / 06—14″\n\n빛이 머무는 자리를 따라.\n\n03 / 14—20″\n\n오늘은, 여기까지.\n\nCAMERA고정 숏 → 디테일 → 느린 이동\n\nSOUND바람 소리, 발걸음, 공간의 잔향\n\n장소 사진으로 구성한 콘티 · 화면에 맞게 크롭\n야외 정원·온실: Tjwlgns / CC BY 4.0 · 소악루: 서울특별시 강서구 / 공공누리 제1유형\n\n여행·공간 · 브랜드 필름 콘티 · 자체 콘셉트\n공간의 분위기를, 방문하고 싶은 장면으로.\n\nFILM & MOTION\n\n영상 제작\n\n영상의 목적에 맞춰 장면·소리·다음 행동을 구체적으로 설계합니다.\n\n기업 소개·홍보 영상\n인터뷰·유튜브 콘텐츠\n쇼츠·릴스·모션그래픽\n이 업무 상담하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/botanic-garden.webp",
+          "alt": "서울식물원 야외 정원 전경, 여행 필름의 산책 시작 장면 레퍼런스",
+          "width": 1800,
+          "height": 1350,
+          "loaded": true
+        },
+        {
+          "src": "/evidence/diverse/place-soakru.webp",
+          "alt": "소악루의 건축과 주변 풍경, 여행 필름의 잠시 머무는 장면 레퍼런스",
+          "width": 1200,
+          "height": 794,
+          "loaded": true
+        },
+        {
+          "src": "/evidence/diverse/botanic-skywalk.webp",
+          "alt": "서울식물원 스카이워크, 여행 필름의 마지막 온실 산책 장면 레퍼런스",
+          "width": 1400,
+          "height": 1050,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 4,
+      "choice": "미디어·오프라인 광고",
+      "kind": "media",
+      "text": "CULTURE · 옥외 포스터\n자체 콘셉트\n\n도시 산책 전시\n\n도시를\n다시 보다.\n\n걷다 보면,\n새로운 장면.\n\n익숙한 길에서 발견한\n빛과 모양에 관한 전시\n\nWALK\nAND SEE\n\n사진 레퍼런스: 서울식물원 스카이워크 · Tjwlgns / CC BY 4.0 · 화면에 맞게 크롭\n\n문화 · 도시 산책 전시 포스터 · 자체 콘셉트\n지나치는 순간에도, 한 문장이 남도록.\n제안의 구성 살펴보기\n↗\n\nMEDIA & OUT-OF-HOME\n\n미디어·오프라인 광고\n\n목표와 생활 동선에 맞는 매체·메시지·집행 범위를 정합니다.\n\n교통·생활·옥외 매체\n방송·IPTV·PPL\n매체 제안·소재·집행 관리\n이 업무 상담하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/botanic-skywalk.webp",
+          "alt": "도시 산책 전시 포스터의 공간 사진 레퍼런스",
+          "width": 1400,
+          "height": 1050,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 5,
+      "choice": "인플루언서 마케팅",
+      "kind": "influencer",
+      "text": "BEAUTY · 크리에이터 브리프\n자체 콘셉트\n\n지금의 루틴에,\n자연스럽게.\n\nCREATIVE DIRECTION\n\n설명 대신,\n사용하는 순간.\n\n제품을 소개하는 말보다\n일상에서 손이 가는 이유를 보여주세요.\n\nOPEN\n\n외출을 준비하는 테이블.\n평소 쓰던 물건 사이로 시작.\n\nSHOW\n\n손에 덜어 질감을 가까이.\n자연광 아래의 색과 움직임.\n\nCLOSE\n\n개인의 사용감을 짧게.\n제품 정보로 이어지는 마무리.\n\n릴스 협업 구성\n협찬 표기 · 사용 장면 · 개인의 언어\n\n뷰티 콘텐츠 톤 참고 · 생성형 콘셉트 이미지\n\n뷰티 · 크리에이터 협업 브리프 · 자체 콘셉트\n브랜드의 설명을, 일상의 경험으로.\n\nCREATOR PARTNERSHIPS\n\n인플루언서 마케팅\n\n브랜드의 고객과 맞는 경험을 중심으로 협업을 기획합니다.\n\n크리에이터 선정·협업 기획\n콘텐츠 제작 협의·진행 관리\n캠페인 결과 정리\n이 업무 상담하기",
+      "images": [
+        {
+          "src": "/evidence/diverse/beauty-ritual.webp",
+          "alt": "뷰티 콘텐츠 톤을 제안하는 무브랜드 보틀 정물의 생성형 콘셉트 이미지",
+          "width": 1536,
+          "height": 1024,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 6,
+      "choice": "병원 마케팅",
+      "kind": "hospital",
+      "text": "PATIENT GUIDE · 방문 안내\n자체 콘셉트\n01\n처음 오시는 길이\n조금 더 편하도록.\n\n예약한 날, 찾을 곳, 도착한 뒤의 순서.\n방문 전에 필요한 안내를 한 장에 담았습니다.\n\n방문 전예약 내용을 확인해 주세요.\n예약 문자에서 날짜·시간·진료과를 확인해 주세요. 변경이 필요하다면 예약한 병원으로 연락해 주세요.\n오시는 길건물과 출입구를 확인해 주세요.\n병원에서 보내드린 위치·주차 안내를 확인하시면 접수처를 찾는 데 도움이 됩니다.\n도착 후접수처에서 예약을 알려주세요.\n안내에 따라 접수한 뒤 대기해 주세요. 도움이 필요하면 가까운 직원에게 말씀해 주세요.\n\n방문 안내 리플릿\n예약 → 위치 확인 → 접수\n\n의료 · 방문 안내 콘텐츠 · 자체 콘셉트\n처음 방문하는 고객의 질문에서 시작합니다.\n제안의 구성 살펴보기\n↗\n\nHEALTHCARE MARKETING\n\n병원 마케팅\n\n진료의 장점뿐 아니라 환자가 찾는 정보를 알기 쉽게 정리합니다.\n\n병원 홍보 전략·콘텐츠\n질환 정보·의료진 인터뷰\n채널·광고·홍보 운영\n이 업무 상담하기",
+      "images": []
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 7,
+      "choice": "사업·글로벌 컨설팅",
+      "kind": "consulting",
+      "text": "디지털 서비스 · 제작자 프로젝트\n선택지가 많을수록, 판단 기준은 명확하게.\nTESIGN Radar · 정보를 찾고 비교하는 탐색 서비스\n작업 자세히 보기\n↗\n\nBUSINESS CONSULTING\n\n사업·글로벌 컨설팅\n\n새로운 사업의 고객·제안·실행 범위를 구체적인 계획으로 정리합니다.\n\n사업 계획·기업 제휴 기획\n해외 마케팅 방향·콘텐츠\n분야별 협업 범위 협의\n이 업무 상담하기",
+      "images": [
+        {
+          "src": "/portfolio/site-tesign-radar.png",
+          "alt": "디지털 도구의 탐색과 비교를 돕는 TESIGN Radar 제작 화면",
+          "width": 1440,
+          "height": 1000,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 8,
+      "choice": "IT 솔루션 지원",
+      "kind": "it",
+      "text": "기업 업무 · 제작자 내부 도구\n담당자의 다음 일이 분명해지도록.\nTesign OS · 자료와 검수, 납품 기록을 잇는 작업 환경\n작업 자세히 보기\n↗\n\nDIGITAL PRODUCTS\n\nIT 솔루션 지원\n\n고객의 이용 흐름과 담당자의 반복 업무를 함께 개선합니다.\n\n홈페이지·UI/UX 기획·개발\n상담·예약·관리 기능\n기존 시스템 개선·고도화\n이 업무 상담하기",
+      "images": [
+        {
+          "src": "/portfolio/saas-tesign-workflow.png",
+          "alt": "콘텐츠의 요청부터 검수와 납품을 관리하는 내부 도구 화면",
+          "width": 1440,
+          "height": 1558,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "webkit /works/",
+      "type": "service",
+      "index": 9,
+      "choice": "언론홍보",
+      "kind": "pr",
+      "text": "PRESS MATERIAL · 원고 시안\n자체 콘셉트\n\n제조 · 산업용 조명\nPRODUCT NOTE\n\n작업대가 바뀌어도,\n조명은 그대로.\n\n헤드와 고정부를 따로 바꾸는\n모듈형 작업등 제안\n\n작업 환경이 달라질 때 조명 전체를 교체해야 할까. 이 제품 제안은 작업대의 형태와 쓰임에 맞춰 필요한 부분을 바꿀 수 있다는 생각에서 출발했다.\n\n광원 헤드, 관절, 고정부를 분리해 구성하고, 설치할 자리와 작업 방식에 따라 조합을 선택하도록 했다. 제품 소개 자료에는 구성 부품과 조립 순서, 사용 환경을 함께 담는다.\n\n기자가 바로 확인할 자료\n\n제품 구조 · 교체 과정 · 사용 장면\n\n신제품 PR 패키지\n보도자료 / 제품 사진 기획 / 팩트시트\n\n제조·B2B · 신제품 PR 원고 · 자체 콘셉트\n기술의 차이를, 이해할 수 있는 이야기로.\n\nPUBLIC RELATIONS\n\n언론홍보\n\n기자의 확인과 독자의 이해에 필요한 사실·자료·메시지를 준비합니다.\n\n보도자료 작성·배포\n기자간담회 기획·운영\n취재 협조·미디어 대응\n이 업무 상담하기",
+      "images": []
+    }
+  ]
+}

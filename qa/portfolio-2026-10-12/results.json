@@ -1,0 +1,568 @@
+{
+  "date": "2026-10-12T13:08:41.156Z",
+  "scope": "Korean desktop 1440. Read-only local browser checks; English non-publication gate only, no English refinement.",
+  "passed": 140,
+  "checks": [
+    {
+      "name": "Five source-backed projects added to Korean only",
+      "passed": true
+    },
+    {
+      "name": "sojukdoo-concept held from English route",
+      "passed": true
+    },
+    {
+      "name": "sojukdoo-concept held from English API",
+      "passed": true
+    },
+    {
+      "name": "sojukdoo-concept absent from English sitemap",
+      "passed": true
+    },
+    {
+      "name": "soulreset held from English route",
+      "passed": true
+    },
+    {
+      "name": "soulreset held from English API",
+      "passed": true
+    },
+    {
+      "name": "soulreset absent from English sitemap",
+      "passed": true
+    },
+    {
+      "name": "review-atelier held from English route",
+      "passed": true
+    },
+    {
+      "name": "review-atelier held from English API",
+      "passed": true
+    },
+    {
+      "name": "review-atelier absent from English sitemap",
+      "passed": true
+    },
+    {
+      "name": "tesign-radar held from English route",
+      "passed": true
+    },
+    {
+      "name": "tesign-radar held from English API",
+      "passed": true
+    },
+    {
+      "name": "tesign-radar absent from English sitemap",
+      "passed": true
+    },
+    {
+      "name": "tesign-workflow held from English route",
+      "passed": true
+    },
+    {
+      "name": "tesign-workflow held from English API",
+      "passed": true
+    },
+    {
+      "name": "tesign-workflow absent from English sitemap",
+      "passed": true
+    },
+    {
+      "name": "chromium six portfolio entries",
+      "passed": true
+    },
+    {
+      "name": "chromium every screenshot fits inside its frame",
+      "passed": true
+    },
+    {
+      "name": "chromium ten service choices",
+      "passed": true
+    },
+    {
+      "name": "chromium IT filter retains implemented work",
+      "passed": true
+    },
+    {
+      "name": "chromium video filter only shows video case",
+      "passed": true
+    },
+    {
+      "name": "chromium sojukdoo-concept complete case page",
+      "passed": true
+    },
+    {
+      "name": "chromium sojukdoo-concept visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "chromium sojukdoo-concept no overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium sojukdoo-concept connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "chromium sojukdoo-concept readable full size",
+      "passed": true
+    },
+    {
+      "name": "chromium sojukdoo-concept viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium sojukdoo-concept all images load",
+      "passed": true
+    },
+    {
+      "name": "chromium soulreset complete case page",
+      "passed": true
+    },
+    {
+      "name": "chromium soulreset visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "chromium soulreset no overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium soulreset connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "chromium soulreset readable full size",
+      "passed": true
+    },
+    {
+      "name": "chromium soulreset viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium soulreset all images load",
+      "passed": true
+    },
+    {
+      "name": "chromium review-atelier complete case page",
+      "passed": true
+    },
+    {
+      "name": "chromium review-atelier visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "chromium review-atelier no overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium review-atelier connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "chromium review-atelier readable full size",
+      "passed": true
+    },
+    {
+      "name": "chromium review-atelier viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium review-atelier all images load",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-radar complete case page",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-radar visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-radar no overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-radar connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-radar readable full size",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-radar viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-radar all images load",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-workflow complete case page",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-workflow visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-workflow no overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-workflow connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-workflow readable full size",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-workflow viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium tesign-workflow all images load",
+      "passed": true
+    },
+    {
+      "name": "chromium reduced motion leaves all labels visible",
+      "passed": true
+    },
+    {
+      "name": "firefox six portfolio entries",
+      "passed": true
+    },
+    {
+      "name": "firefox every screenshot fits inside its frame",
+      "passed": true
+    },
+    {
+      "name": "firefox ten service choices",
+      "passed": true
+    },
+    {
+      "name": "firefox IT filter retains implemented work",
+      "passed": true
+    },
+    {
+      "name": "firefox video filter only shows video case",
+      "passed": true
+    },
+    {
+      "name": "firefox sojukdoo-concept complete case page",
+      "passed": true
+    },
+    {
+      "name": "firefox sojukdoo-concept visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "firefox sojukdoo-concept no overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox sojukdoo-concept connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "firefox sojukdoo-concept readable full size",
+      "passed": true
+    },
+    {
+      "name": "firefox sojukdoo-concept viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "firefox sojukdoo-concept all images load",
+      "passed": true
+    },
+    {
+      "name": "firefox soulreset complete case page",
+      "passed": true
+    },
+    {
+      "name": "firefox soulreset visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "firefox soulreset no overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox soulreset connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "firefox soulreset readable full size",
+      "passed": true
+    },
+    {
+      "name": "firefox soulreset viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "firefox soulreset all images load",
+      "passed": true
+    },
+    {
+      "name": "firefox review-atelier complete case page",
+      "passed": true
+    },
+    {
+      "name": "firefox review-atelier visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "firefox review-atelier no overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox review-atelier connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "firefox review-atelier readable full size",
+      "passed": true
+    },
+    {
+      "name": "firefox review-atelier viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "firefox review-atelier all images load",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-radar complete case page",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-radar visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-radar no overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-radar connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-radar readable full size",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-radar viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-radar all images load",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-workflow complete case page",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-workflow visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-workflow no overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-workflow connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-workflow readable full size",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-workflow viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "firefox tesign-workflow all images load",
+      "passed": true
+    },
+    {
+      "name": "firefox reduced motion leaves all labels visible",
+      "passed": true
+    },
+    {
+      "name": "webkit six portfolio entries",
+      "passed": true
+    },
+    {
+      "name": "webkit every screenshot fits inside its frame",
+      "passed": true
+    },
+    {
+      "name": "webkit ten service choices",
+      "passed": true
+    },
+    {
+      "name": "webkit IT filter retains implemented work",
+      "passed": true
+    },
+    {
+      "name": "webkit video filter only shows video case",
+      "passed": true
+    },
+    {
+      "name": "webkit sojukdoo-concept complete case page",
+      "passed": true
+    },
+    {
+      "name": "webkit sojukdoo-concept visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "webkit sojukdoo-concept no overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit sojukdoo-concept connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "webkit sojukdoo-concept readable full size",
+      "passed": true
+    },
+    {
+      "name": "webkit sojukdoo-concept viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit sojukdoo-concept all images load",
+      "passed": true
+    },
+    {
+      "name": "webkit soulreset complete case page",
+      "passed": true
+    },
+    {
+      "name": "webkit soulreset visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "webkit soulreset no overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit soulreset connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "webkit soulreset readable full size",
+      "passed": true
+    },
+    {
+      "name": "webkit soulreset viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit soulreset all images load",
+      "passed": true
+    },
+    {
+      "name": "webkit review-atelier complete case page",
+      "passed": true
+    },
+    {
+      "name": "webkit review-atelier visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "webkit review-atelier no overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit review-atelier connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "webkit review-atelier readable full size",
+      "passed": true
+    },
+    {
+      "name": "webkit review-atelier viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit review-atelier all images load",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-radar complete case page",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-radar visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-radar no overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-radar connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-radar readable full size",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-radar viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-radar all images load",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-workflow complete case page",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-workflow visible honest classification",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-workflow no overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-workflow connected heading and description",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-workflow readable full size",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-workflow viewer returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit tesign-workflow all images load",
+      "passed": true
+    },
+    {
+      "name": "webkit reduced motion leaves all labels visible",
+      "passed": true
+    },
+    {
+      "name": "No browser script errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

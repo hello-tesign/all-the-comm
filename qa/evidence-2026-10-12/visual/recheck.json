@@ -1,0 +1,300 @@
+{
+  "generated": "2026-10-12T14:38:21.370Z",
+  "records": [
+    {
+      "name": "hero-0",
+      "url": "http://127.0.0.1:4173/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "scrollWidth": 1440,
+      "hero": {
+        "x": 671.828125,
+        "y": 158,
+        "width": 703.359375,
+        "height": 640,
+        "top": 158,
+        "right": 1375.1875,
+        "bottom": 798,
+        "left": 671.828125
+      },
+      "choices": {
+        "x": 671.828125,
+        "y": 798,
+        "width": 703.359375,
+        "height": 60,
+        "top": 798,
+        "right": 1375.1875,
+        "bottom": 858,
+        "left": 671.828125
+      },
+      "heading": {
+        "x": 64.796875,
+        "y": 290.578125,
+        "width": 541.515625,
+        "height": 163.34375,
+        "top": 290.578125,
+        "right": 606.3125,
+        "bottom": 453.921875,
+        "left": 64.796875
+      },
+      "imgs": [
+        {
+          "src": "http://127.0.0.1:4173/evidence/sojukdoo-product.jpg",
+          "natural": [
+            900,
+            900
+          ],
+          "display": [
+            703,
+            640
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hero-1",
+      "url": "http://127.0.0.1:4173/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "scrollWidth": 1440,
+      "hero": {
+        "x": 671.828125,
+        "y": 158,
+        "width": 703.359375,
+        "height": 640,
+        "top": 158,
+        "right": 1375.1875,
+        "bottom": 798,
+        "left": 671.828125
+      },
+      "choices": {
+        "x": 671.828125,
+        "y": 798,
+        "width": 703.359375,
+        "height": 60,
+        "top": 798,
+        "right": 1375.1875,
+        "bottom": 858,
+        "left": 671.828125
+      },
+      "heading": {
+        "x": 64.796875,
+        "y": 290.578125,
+        "width": 541.515625,
+        "height": 163.34375,
+        "top": 290.578125,
+        "right": 606.3125,
+        "bottom": 453.921875,
+        "left": 64.796875
+      },
+      "imgs": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+          "natural": [
+            1440,
+            900
+          ],
+          "display": [
+            651,
+            316
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hero-2",
+      "url": "http://127.0.0.1:4173/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "scrollWidth": 1440,
+      "hero": {
+        "x": 671.828125,
+        "y": 158,
+        "width": 703.359375,
+        "height": 640,
+        "top": 158,
+        "right": 1375.1875,
+        "bottom": 798,
+        "left": 671.828125
+      },
+      "choices": {
+        "x": 671.828125,
+        "y": 798,
+        "width": 703.359375,
+        "height": 60,
+        "top": 798,
+        "right": 1375.1875,
+        "bottom": 858,
+        "left": 671.828125
+      },
+      "heading": {
+        "x": 64.796875,
+        "y": 290.578125,
+        "width": 541.515625,
+        "height": 163.34375,
+        "top": 290.578125,
+        "right": 606.3125,
+        "bottom": 453.921875,
+        "left": 64.796875
+      },
+      "imgs": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+          "natural": [
+            1440,
+            1558
+          ],
+          "display": [
+            651,
+            316
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hero-short-700",
+      "url": "http://127.0.0.1:4173/",
+      "viewport": [
+        1440,
+        700
+      ],
+      "scrollWidth": 1440,
+      "hero": {
+        "x": 671.828125,
+        "y": 158,
+        "width": 703.359375,
+        "height": 640,
+        "top": 158,
+        "right": 1375.1875,
+        "bottom": 798,
+        "left": 671.828125
+      },
+      "choices": {
+        "x": 671.828125,
+        "y": 798,
+        "width": 703.359375,
+        "height": 60,
+        "top": 798,
+        "right": 1375.1875,
+        "bottom": 858,
+        "left": 671.828125
+      },
+      "heading": {
+        "x": 64.796875,
+        "y": 290.578125,
+        "width": 541.515625,
+        "height": 163.34375,
+        "top": 290.578125,
+        "right": 606.3125,
+        "bottom": 453.921875,
+        "left": 64.796875
+      },
+      "imgs": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+          "natural": [
+            1440,
+            1558
+          ],
+          "display": [
+            651,
+            316
+          ]
+        }
+      ]
+    },
+    {
+      "name": "video",
+      "url": "http://127.0.0.1:4173/works/#video",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "scrollWidth": 1440,
+      "imgs": [
+        {
+          "src": "http://127.0.0.1:4173/evidence/sojukdoo-product.jpg",
+          "natural": [
+            900,
+            900
+          ],
+          "display": [
+            414,
+            185
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:4173/evidence/sojukdoo-product.jpg",
+          "natural": [
+            900,
+            900
+          ],
+          "display": [
+            188,
+            185
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:4173/evidence/sojukdoo-product.jpg",
+          "natural": [
+            900,
+            900
+          ],
+          "display": [
+            188,
+            185
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pr",
+      "url": "http://127.0.0.1:4173/works/#pr",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "scrollWidth": 1440,
+      "imgs": []
+    },
+    {
+      "name": "self-inquiry",
+      "url": "http://127.0.0.1:4173/works/project/all-the-comm/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "scrollWidth": 1440,
+      "imgs": [
+        {
+          "src": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "natural": [
+            1548,
+            2142
+          ],
+          "display": [
+            950,
+            1315
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "natural": [
+            1548,
+            2142
+          ],
+          "display": [
+            1240,
+            1716
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "source": "C:/Users/home/Downloads/index (1).html",
+  "sourceSHA256": "b9ea4e3e0cf169696c0ae1e489d223d0ca749ff942dad086417d908539b988ec",
+  "scope": "Local catalog rendering and interaction only; external sites and source award claims not re-verified by this check",
+  "browser": "Playwright Chromium",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "title": "홈페이지가 멋있는 마케팅 회사 20선",
+  "catalog": [
+    {
+      "number": "01",
+      "name": "Plus X",
+      "url": "https://www.plus-ex.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Kinetic type",
+        "Smooth scroll",
+        "Monochrome"
+      ]
+    },
+    {
+      "number": "02",
+      "name": "D.FY",
+      "url": "https://dfy.co.kr/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Oversized type",
+        "Motion",
+        "Premium"
+      ]
+    },
+    {
+      "number": "03",
+      "name": "Saltcake",
+      "url": "http://www.saltcake.com/",
+      "verificationLabel": "공식 URL만 확인",
+      "tags": [
+        "Creative marketing",
+        "Korean studio"
+      ]
+    },
+    {
+      "number": "04",
+      "name": "Asiance",
+      "url": "https://asiance.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Editorial",
+        "Refined type",
+        "Quiet motion"
+      ]
+    },
+    {
+      "number": "05",
+      "name": "d'strict",
+      "url": "https://www.dstrict.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Immersive",
+        "Art tech",
+        "Transitions"
+      ]
+    },
+    {
+      "number": "06",
+      "name": "Innocean",
+      "url": "https://www.innocean.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Full-bleed",
+        "Campaign motion",
+        "Bold"
+      ]
+    },
+    {
+      "number": "07",
+      "name": "Cheil Worldwide",
+      "url": "https://www.cheil.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Video hero",
+        "Clean grid",
+        "Case motion"
+      ]
+    },
+    {
+      "number": "08",
+      "name": "OFF+BRAND",
+      "url": "https://www.itsoffbrand.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "WebGL / 3D",
+        "Kinetic type",
+        "Maximal"
+      ]
+    },
+    {
+      "number": "09",
+      "name": "Zajno",
+      "url": "https://zajno.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "3D",
+        "Animation",
+        "Bold type"
+      ]
+    },
+    {
+      "number": "10",
+      "name": "Locomotive",
+      "url": "https://locomotive.ca/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Editorial",
+        "Scroll motion",
+        "Detail"
+      ]
+    },
+    {
+      "number": "11",
+      "name": "BASIC/DEPT®",
+      "url": "https://www.basicagency.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Oversized type",
+        "Case grid",
+        "Immersive"
+      ]
+    },
+    {
+      "number": "12",
+      "name": "Instrument",
+      "url": "https://instrument.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Storytelling",
+        "Cinematic",
+        "Restrained UI"
+      ]
+    },
+    {
+      "number": "13",
+      "name": "AKQA",
+      "url": "https://akqa.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Minimal",
+        "Avant-garde",
+        "Futuristic"
+      ]
+    },
+    {
+      "number": "14",
+      "name": "Resn",
+      "url": "https://resn.co.nz/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Experimental",
+        "WebGL",
+        "Playful"
+      ]
+    },
+    {
+      "number": "15",
+      "name": "Reform Collective",
+      "url": "https://www.reformcollective.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Kinetic type",
+        "Motion system",
+        "Energetic"
+      ]
+    },
+    {
+      "number": "16",
+      "name": "Active Theory",
+      "url": "https://activetheory.com/",
+      "verificationLabel": "WebGL 렌더 제한",
+      "tags": [
+        "WebGL",
+        "Interactive 3D",
+        "Experimental"
+      ]
+    },
+    {
+      "number": "17",
+      "name": "Cuberto",
+      "url": "https://cuberto.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Physics UI",
+        "Playful",
+        "Motion"
+      ]
+    },
+    {
+      "number": "18",
+      "name": "Darkroom Engineering",
+      "url": "https://darkroom.engineering/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Scroll physics",
+        "Micro-interaction",
+        "Creative dev"
+      ]
+    },
+    {
+      "number": "19",
+      "name": "COLLINS",
+      "url": "https://wearecollins.com/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Editorial",
+        "Oversized type",
+        "Minimal"
+      ]
+    },
+    {
+      "number": "20",
+      "name": "Fantasy",
+      "url": "https://fantasy.co/",
+      "verificationLabel": "라이브 확인",
+      "tags": [
+        "Animated type",
+        "Full-bleed",
+        "Motion direction"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "20 entries render",
+      "passed": true
+    },
+    {
+      "name": "20 unique official URL links",
+      "passed": true
+    },
+    {
+      "name": "no desktop horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "filter korea",
+      "passed": true,
+      "data": {
+        "count": 7,
+        "expected": 7
+      }
+    },
+    {
+      "name": "selected filter korea",
+      "passed": true
+    },
+    {
+      "name": "live count korea",
+      "passed": true
+    },
+    {
+      "name": "filter global",
+      "passed": true,
+      "data": {
+        "count": 13,
+        "expected": 13
+      }
+    },
+    {
+      "name": "selected filter global",
+      "passed": true
+    },
+    {
+      "name": "live count global",
+      "passed": true
+    },
+    {
+      "name": "filter awarded",
+      "passed": true,
+      "data": {
+        "count": 7,
+        "expected": 7
+      }
+    },
+    {
+      "name": "selected filter awarded",
+      "passed": true
+    },
+    {
+      "name": "live count awarded",
+      "passed": true
+    },
+    {
+      "name": "filter all",
+      "passed": true,
+      "data": {
+        "count": 20,
+        "expected": 20
+      }
+    },
+    {
+      "name": "selected filter all",
+      "passed": true
+    },
+    {
+      "name": "live count all",
+      "passed": true
+    },
+    {
+      "name": "Korean name search",
+      "passed": true
+    },
+    {
+      "name": "style keyword search",
+      "passed": true,
+      "data": [
+        "OFF+BRAND",
+        "Resn",
+        "Active Theory"
+      ]
+    },
+    {
+      "name": "combined region and keyword empty state",
+      "passed": true
+    },
+    {
+      "name": "combined global and keyword",
+      "passed": true
+    },
+    {
+      "name": "explicit empty state",
+      "passed": true
+    },
+    {
+      "name": "all 20 restored after filtering",
+      "passed": true
+    },
+    {
+      "name": "runtime errors zero",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "source file unchanged",
+      "passed": true
+    }
+  ],
+  "runtimeErrors": [],
+  "consoleErrors": [
+    "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+  ],
+  "sourceUnchanged": true,
+  "screenshot": "qa/evidence-2026-10-12/references/catalog.png",
+  "failedRequests": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "error": "net::ERR_NETWORK_ACCESS_DENIED"
+    }
+  ],
+  "fontNote": "External Google Fonts stylesheet was denied by the environment. Screenshot uses the local fallback font; all 20 entries and filter logic rendered successfully."
+}

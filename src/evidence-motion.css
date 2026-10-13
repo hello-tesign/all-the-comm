@@ -1,0 +1,9 @@
+/* Motion only: layout and the selected state belong to evidence.css / app.js. */
+@media (min-width: 1060px) and (prefers-reduced-motion: no-preference) {
+  html[lang="ko"].evidence-motion-enabled .is-evidence-revealing .evidence-motion-media {
+    will-change: clip-path;
+  }
+  html[lang="ko"].evidence-motion-enabled [data-evidence-select] {
+    transition: color 200ms ease, background-color 200ms ease, border-color 200ms ease;
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "scope": "Isolated DOM contract fixture; root integration pending",
+  "results": [
+    {
+      "engine": "chromium",
+      "items": [
+        {
+          "name": "KO initial image boundary reveals",
+          "pass": true
+        },
+        {
+          "name": "image itself untransformed and fully opaque",
+          "pass": true
+        },
+        {
+          "name": "caption stays fixed during reveal",
+          "pass": true
+        },
+        {
+          "name": "finished image clip is cleared",
+          "pass": true
+        },
+        {
+          "name": "new hero frame reveals",
+          "pass": true
+        },
+        {
+          "name": "previous hero frame appears immediately",
+          "pass": true
+        },
+        {
+          "name": "hidden outgoing frame restored",
+          "pass": true
+        },
+        {
+          "name": "hidden tab pauses mask",
+          "pass": true
+        },
+        {
+          "name": "visible tab completes mask",
+          "pass": true
+        },
+        {
+          "name": "selected TEAM panel images reveal",
+          "pass": true
+        },
+        {
+          "name": "selected panel text never hidden",
+          "pass": true
+        },
+        {
+          "name": "services replay on purposeful tab selection",
+          "pass": true
+        },
+        {
+          "name": "deselected TEAM mask restored",
+          "pass": true
+        },
+        {
+          "name": "offscreen scene finishes without hidden image",
+          "pass": true
+        },
+        {
+          "name": "reduced motion removes all enhancement",
+          "pass": true
+        },
+        {
+          "name": "selected tab state preserved",
+          "pass": true
+        },
+        {
+          "name": "mobile remains static",
+          "pass": true
+        },
+        {
+          "name": "cleanup and restore cycle retains selection",
+          "pass": true
+        },
+        {
+          "name": "cleanup restores all image styles",
+          "pass": true
+        },
+        {
+          "name": "EN stays unchanged",
+          "pass": true
+        },
+        {
+          "name": "runtime errors zero",
+          "pass": true,
+          "data": []
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "items": [
+        {
+          "name": "KO initial image boundary reveals",
+          "pass": true
+        },
+        {
+          "name": "image itself untransformed and fully opaque",
+          "pass": true
+        },
+        {
+          "name": "caption stays fixed during reveal",
+          "pass": true
+        },
+        {
+          "name": "finished image clip is cleared",
+          "pass": true
+        },
+        {
+          "name": "new hero frame reveals",
+          "pass": true
+        },
+        {
+          "name": "previous hero frame appears immediately",
+          "pass": true
+        },
+        {
+          "name": "hidden outgoing frame restored",
+          "pass": true
+        },
+        {
+          "name": "hidden tab pauses mask",
+          "pass": true
+        },
+        {
+          "name": "visible tab completes mask",
+          "pass": true
+        },
+        {
+          "name": "selected TEAM panel images reveal",
+          "pass": true
+        },
+        {
+          "name": "selected panel text never hidden",
+          "pass": true
+        },
+        {
+          "name": "services replay on purposeful tab selection",
+          "pass": true
+        },
+        {
+          "name": "deselected TEAM mask restored",
+          "pass": true
+        },
+        {
+          "name": "offscreen scene finishes without hidden image",
+          "pass": true
+        },
+        {
+          "name": "reduced motion removes all enhancement",
+          "pass": true
+        },
+        {
+          "name": "selected tab state preserved",
+          "pass": true
+        },
+        {
+          "name": "mobile remains static",
+          "pass": true
+        },
+        {
+          "name": "cleanup and restore cycle retains selection",
+          "pass": true
+        },
+        {
+          "name": "cleanup restores all image styles",
+          "pass": true
+        },
+        {
+          "name": "EN stays unchanged",
+          "pass": true
+        },
+        {
+          "name": "runtime errors zero",
+          "pass": true,
+          "data": []
+        }
+      ]
+    }
+  ]
+}

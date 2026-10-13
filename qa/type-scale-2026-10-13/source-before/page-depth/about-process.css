@@ -1,0 +1,86 @@
+/* Scoped Korean editorial spreads; no new reveal ownership or English rules. */
+html[lang=ko] .apd-about-proof,
+html[lang=ko] .apd-process-depth{padding-top:96px;background:#f0eee7;color:var(--text)}
+html[lang=ko] .apd-about-proof{padding-bottom:96px}
+html[lang=ko] .apd-section-intro{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:end;margin-bottom:64px}
+html[lang=ko] .apd-section-intro .eyebrow{margin-bottom:24px;color:#356653;letter-spacing:.07em}
+html[lang=ko] .apd-section-intro h2{font-size:clamp(38px,3.7vw,56px);line-height:1.25;letter-spacing:-.055em}
+html[lang=ko] .apd-section-intro>p{max-width:430px;font-size:17px;line-height:1.65;color:var(--muted)}
+html[lang=ko] .apd-proof-spread{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.8fr);gap:64px;align-items:center}
+html[lang=ko] .apd-proof-spread+.apd-proof-spread{margin-top:96px}
+html[lang=ko] .apd-proof-spread--reverse{grid-template-columns:minmax(0,.8fr) minmax(0,1.3fr)}
+html[lang=ko] .apd-proof-spread--reverse .apd-proof-figure{grid-column:2;grid-row:1}
+html[lang=ko] .apd-proof-spread--reverse .apd-proof-copy{grid-column:1;grid-row:1}
+html[lang=ko] .apd-proof-figure{margin:0;min-width:0}
+html[lang=ko] .apd-proof-figure>a{display:block;background:#e4e9e2}
+html[lang=ko] .apd-proof-figure img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border-radius:0}
+html[lang=ko] .apd-proof-figure figcaption{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;margin-top:16px;font-size:12px;line-height:1.65;color:var(--muted)}
+html[lang=ko] .apd-proof-copy .eyebrow{color:#356653;letter-spacing:.045em;margin-bottom:24px}
+html[lang=ko] .apd-proof-copy h3{font-size:clamp(28px,2.35vw,36px);line-height:1.4;margin-bottom:24px;font-weight:630;letter-spacing:-.045em}
+html[lang=ko] .apd-proof-copy>p:not(.eyebrow){font-size:16px;line-height:1.65;color:var(--muted);margin-top:16px}
+html[lang=ko] .apd-proof-copy p.apd-proof-scope{font-size:13px;margin-top:24px;line-height:1.65;color:#315c50}
+html[lang=ko] .apd-proof-scope strong{display:block;font-size:12px;font-weight:650;margin-bottom:8px}
+html[lang=ko] .apd-text-link{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:48px;margin-top:24px;border-bottom:1px solid #547365;font-size:14px;font-weight:620}
+html[lang=ko] .apd-text-link>span{font-size:20px;line-height:1}
+html[lang=ko] .apd-text-link:hover{color:#14775f;border-color:currentColor}
+html[lang=ko] .apd-process-depth{background:var(--paper)}
+html[lang=ko] .apd-scope-spread{display:grid;grid-template-columns:1fr 1.1fr;gap:64px;padding:48px 0 64px;border-top:1px solid var(--line)}
+html[lang=ko] .apd-scope-question>p{font-size:13px;color:#356653;margin-bottom:24px}
+html[lang=ko] .apd-scope-question h3{font-size:clamp(28px,2.5vw,38px);line-height:1.45;letter-spacing:-.045em;font-weight:570}
+html[lang=ko] .apd-scope-copy p{font-size:16px;line-height:1.65;color:var(--muted)}
+html[lang=ko] .apd-scope-copy p+p{margin-top:24px}
+html[lang=ko] .apd-scope-copy strong{font-weight:650;color:var(--text)}
+html[lang=ko] .apd-outputs{padding:32px 0 96px}
+html[lang=ko] .apd-subheading{display:flex;justify-content:space-between;align-items:end;gap:48px;margin-bottom:48px}
+html[lang=ko] .apd-subheading h3{font-size:34px;line-height:1.35;letter-spacing:-.045em}
+html[lang=ko] .apd-subheading>p{font-size:14px;line-height:1.65;color:var(--muted)}
+html[lang=ko] .apd-output-columns{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:48px}
+html[lang=ko] .apd-output-columns .eyebrow{font-size:12px;color:#356653;letter-spacing:.035em;margin-bottom:16px}
+html[lang=ko] .apd-output-columns h4{font-size:25px;font-weight:620;line-height:1.45;letter-spacing:-.04em;margin:0 0 24px}
+html[lang=ko] .apd-output-columns article>p:not(.eyebrow){font-size:16px;line-height:1.65;color:var(--muted)}
+html[lang=ko] .apd-output-columns p.apd-participation{font-size:14px;margin-top:24px;color:#315c50}
+html[lang=ko] .apd-participation strong{display:block;font-size:12px;margin-bottom:8px;font-weight:650}
+html[lang=ko] .apd-handover{background:#113b32;color:var(--light);padding:96px 0}
+html[lang=ko] .apd-handover-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:64px}
+html[lang=ko] .apd-handover .eyebrow{color:#aad5c6;letter-spacing:.04em;margin-bottom:24px}
+html[lang=ko] .apd-handover h3{font-size:clamp(30px,2.85vw,42px);font-weight:580;line-height:1.4;letter-spacing:-.05em;margin-bottom:24px}
+html[lang=ko] .apd-handover-grid>div>p:not(.eyebrow){font-size:16px;color:#bed4cc;line-height:1.65;max-width:410px}
+html[lang=ko] .apd-handover .apd-handover-notes p{font-size:16px;color:#bed4cc;line-height:1.65;max-width:none}
+html[lang=ko] .apd-handover-notes p+p{margin-top:24px}
+html[lang=ko] .apd-handover-notes strong{display:block;color:var(--light);font-size:16px;font-weight:630;margin-bottom:8px}
+@media(max-width:1100px){
+ html[lang=ko] .apd-section-intro{gap:48px}
+ html[lang=ko] .apd-proof-spread,html[lang=ko] .apd-proof-spread--reverse{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px}
+ html[lang=ko] .apd-proof-spread--reverse{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}
+ html[lang=ko] .apd-proof-copy h3{font-size:28px}
+ html[lang=ko] .apd-scope-spread,html[lang=ko] .apd-handover-grid{gap:48px}
+ html[lang=ko] .apd-output-columns{gap:32px}
+ html[lang=ko] .apd-output-columns h4{font-size:23px}
+}
+@media(max-width:760px){
+ html[lang=ko] .apd-about-proof,html[lang=ko] .apd-process-depth{padding-top:64px}
+ html[lang=ko] .apd-about-proof{padding-bottom:64px}
+ html[lang=ko] .apd-section-intro{display:block;margin-bottom:48px}
+ html[lang=ko] .apd-section-intro h2{font-size:36px}
+ html[lang=ko] .apd-section-intro>p{margin-top:24px;font-size:16px}
+ html[lang=ko] .apd-proof-spread,html[lang=ko] .apd-proof-spread--reverse{display:flex;flex-direction:column;align-items:stretch;gap:32px}
+ html[lang=ko] .apd-proof-spread+.apd-proof-spread{margin-top:64px}
+ html[lang=ko] .apd-proof-figure figcaption{display:block;font-size:11px;margin-top:16px}
+ html[lang=ko] .apd-proof-figure figcaption span{display:block}
+ html[lang=ko] .apd-proof-copy h3{font-size:28px;margin-bottom:24px}
+ html[lang=ko] .apd-scope-spread{display:block;padding:32px 0 48px}
+ html[lang=ko] .apd-scope-question{margin-bottom:32px}
+ html[lang=ko] .apd-scope-question h3{font-size:28px}
+ html[lang=ko] .apd-outputs{padding:24px 0 64px}
+ html[lang=ko] .apd-subheading{display:block;margin-bottom:32px}
+ html[lang=ko] .apd-subheading h3{font-size:28px}
+ html[lang=ko] .apd-subheading>p{margin-top:24px;font-size:13px}
+ html[lang=ko] .apd-output-columns{grid-template-columns:1fr 1fr;gap:40px 24px}
+ html[lang=ko] .apd-output-columns h4{font-size:21px}
+ html[lang=ko] .apd-output-columns article>p:not(.eyebrow){font-size:14px}
+ html[lang=ko] .apd-output-columns p.apd-participation{font-size:13px;margin-top:16px}
+ html[lang=ko] .apd-handover{padding:64px 0}
+ html[lang=ko] .apd-handover-grid{display:block}
+ html[lang=ko] .apd-handover h3{font-size:30px}
+ html[lang=ko] .apd-handover-notes{margin-top:32px}
+}

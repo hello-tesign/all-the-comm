@@ -1,0 +1,83 @@
+[
+  {
+    "path": "/team/",
+    "panel": "[data-service-panel=\"role-1\"]",
+    "animations": [
+      {
+        "target": "discipline-panel",
+        "frames": [
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "translateY(8px)",
+            "opacity": "0.3",
+            "computedOffset": 0
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "translateY(0px)",
+            "opacity": "1",
+            "computedOffset": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/works/",
+    "panel": "[data-service-panel=\"digital\"]",
+    "animations": [
+      {
+        "target": "capability-panel",
+        "frames": [
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "translateY(8px)",
+            "opacity": "0.3",
+            "computedOffset": 0
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "translateY(0px)",
+            "opacity": "1",
+            "computedOffset": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/",
+    "panel": "[data-process-panel=\"1\"]",
+    "animations": [
+      {
+        "target": "process-scene",
+        "frames": [
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "translateY(12px)",
+            "opacity": "0",
+            "computedOffset": 0
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "translateY(0px)",
+            "opacity": "1",
+            "computedOffset": 1
+          }
+        ]
+      }
+    ]
+  }
+]

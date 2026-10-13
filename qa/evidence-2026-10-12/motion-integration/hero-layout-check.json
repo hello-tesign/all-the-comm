@@ -1,0 +1,979 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scope": "Visual layout stability across hero tabs",
+  "status": "resolved",
+  "before": [
+    {
+      "index": 0,
+      "h1Top": 290.578125,
+      "frameHeight": 640,
+      "tabsTop": 798
+    },
+    {
+      "index": 1,
+      "h1Top": 336.09375,
+      "frameHeight": 731.015625,
+      "tabsTop": 889.015625
+    },
+    {
+      "index": 2,
+      "h1Top": 484.90625,
+      "frameHeight": 1028.65625,
+      "tabsTop": 1186.65625
+    }
+  ],
+  "finding": "Different frame content heights move the fixed left message and tab controls. Frame 03 pushes tabs below the viewport.",
+  "suggestion": "Use a stable desktop frame height; give screenshot media the remaining flex space with min-height:0 and contain-fit images. Keep captions and controls outside the image mask.",
+  "after": [
+    {
+      "engine": "chromium",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "rows": [
+        {
+          "index": 0,
+          "h1": {
+            "top": 290.578125,
+            "bottom": 453.921875,
+            "width": 541.515625,
+            "height": 163.34375
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.359375,
+            "height": 640
+          },
+          "tabs": {
+            "top": 798,
+            "bottom": 858,
+            "width": 703.359375,
+            "height": 60
+          },
+          "caption": {
+            "top": 500.078125,
+            "bottom": 798,
+            "width": 703.359375,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.359375,
+            "height": 640
+          },
+          "media": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.359375,
+            "height": 640
+          },
+          "fit": "cover",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 714,
+            "bottom": 766,
+            "width": 633.359375,
+            "height": 52
+          },
+          "selected": 1
+        },
+        {
+          "index": 1,
+          "h1": {
+            "top": 290.578125,
+            "bottom": 453.921875,
+            "width": 541.515625,
+            "height": 163.34375
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.359375,
+            "height": 640
+          },
+          "tabs": {
+            "top": 798,
+            "bottom": 858,
+            "width": 703.359375,
+            "height": 60
+          },
+          "caption": {
+            "top": 500.078125,
+            "bottom": 798,
+            "width": 703.359375,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 184,
+            "bottom": 500.078125,
+            "width": 651.359375,
+            "height": 316.078125
+          },
+          "media": {
+            "top": 158,
+            "bottom": 500.078125,
+            "width": 703.359375,
+            "height": 342.078125
+          },
+          "fit": "contain",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 714,
+            "bottom": 766,
+            "width": 633.359375,
+            "height": 52
+          },
+          "selected": 1
+        },
+        {
+          "index": 2,
+          "h1": {
+            "top": 290.578125,
+            "bottom": 453.921875,
+            "width": 541.515625,
+            "height": 163.34375
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.359375,
+            "height": 640
+          },
+          "tabs": {
+            "top": 798,
+            "bottom": 858,
+            "width": 703.359375,
+            "height": 60
+          },
+          "caption": {
+            "top": 500.078125,
+            "bottom": 798,
+            "width": 703.359375,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 184,
+            "bottom": 500.078125,
+            "width": 651.359375,
+            "height": 316.078125
+          },
+          "media": {
+            "top": 158,
+            "bottom": 500.078125,
+            "width": 703.359375,
+            "height": 342.078125
+          },
+          "fit": "contain",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 714,
+            "bottom": 766,
+            "width": 633.359375,
+            "height": 52
+          },
+          "selected": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": {
+        "width": 1800,
+        "height": 1100
+      },
+      "rows": [
+        {
+          "index": 0,
+          "h1": {
+            "top": 316.984375,
+            "bottom": 497.515625,
+            "width": 595.078125,
+            "height": 180.53125
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "tabs": {
+            "top": 868,
+            "bottom": 928,
+            "width": 772.921875,
+            "height": 60
+          },
+          "caption": {
+            "top": 570.078125,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "media": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "fit": "cover",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 784,
+            "bottom": 836,
+            "width": 702.921875,
+            "height": 52
+          },
+          "selected": 1
+        },
+        {
+          "index": 1,
+          "h1": {
+            "top": 316.984375,
+            "bottom": 497.515625,
+            "width": 595.078125,
+            "height": 180.53125
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "tabs": {
+            "top": 868,
+            "bottom": 928,
+            "width": 772.921875,
+            "height": 60
+          },
+          "caption": {
+            "top": 570.078125,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 184,
+            "bottom": 570.078125,
+            "width": 720.921875,
+            "height": 386.078125
+          },
+          "media": {
+            "top": 158,
+            "bottom": 570.078125,
+            "width": 772.921875,
+            "height": 412.078125
+          },
+          "fit": "contain",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 784,
+            "bottom": 836,
+            "width": 702.921875,
+            "height": 52
+          },
+          "selected": 1
+        },
+        {
+          "index": 2,
+          "h1": {
+            "top": 316.984375,
+            "bottom": 497.515625,
+            "width": 595.078125,
+            "height": 180.53125
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "tabs": {
+            "top": 868,
+            "bottom": 928,
+            "width": 772.921875,
+            "height": 60
+          },
+          "caption": {
+            "top": 570.078125,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 184,
+            "bottom": 570.078125,
+            "width": 720.921875,
+            "height": 386.078125
+          },
+          "media": {
+            "top": 158,
+            "bottom": 570.078125,
+            "width": 772.921875,
+            "height": 412.078125
+          },
+          "fit": "contain",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 784,
+            "bottom": 836,
+            "width": 702.921875,
+            "height": 52
+          },
+          "selected": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "rows": [
+        {
+          "index": 0,
+          "h1": {
+            "top": 290.578125,
+            "bottom": 453.921875,
+            "width": 541.515625,
+            "height": 163.34375
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.34375,
+            "height": 640
+          },
+          "tabs": {
+            "top": 798,
+            "bottom": 858,
+            "width": 703.34375,
+            "height": 60
+          },
+          "caption": {
+            "top": 500.078125,
+            "bottom": 798,
+            "width": 703.34375,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.34375,
+            "height": 640
+          },
+          "media": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.34375,
+            "height": 640
+          },
+          "fit": "cover",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 714,
+            "bottom": 766,
+            "width": 633.34375,
+            "height": 52
+          },
+          "selected": 1
+        },
+        {
+          "index": 1,
+          "h1": {
+            "top": 290.578125,
+            "bottom": 453.921875,
+            "width": 541.515625,
+            "height": 163.34375
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.34375,
+            "height": 640
+          },
+          "tabs": {
+            "top": 798,
+            "bottom": 858,
+            "width": 703.34375,
+            "height": 60
+          },
+          "caption": {
+            "top": 500.078125,
+            "bottom": 798,
+            "width": 703.34375,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 184,
+            "bottom": 500.078125,
+            "width": 651.34375,
+            "height": 316.078125
+          },
+          "media": {
+            "top": 158,
+            "bottom": 500.078125,
+            "width": 703.34375,
+            "height": 342.078125
+          },
+          "fit": "contain",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 714,
+            "bottom": 766,
+            "width": 633.34375,
+            "height": 52
+          },
+          "selected": 1
+        },
+        {
+          "index": 2,
+          "h1": {
+            "top": 290.578125,
+            "bottom": 453.921875,
+            "width": 541.515625,
+            "height": 163.34375
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 798,
+            "width": 703.34375,
+            "height": 640
+          },
+          "tabs": {
+            "top": 798,
+            "bottom": 858,
+            "width": 703.34375,
+            "height": 60
+          },
+          "caption": {
+            "top": 500.078125,
+            "bottom": 798,
+            "width": 703.34375,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 184,
+            "bottom": 500.078125,
+            "width": 651.34375,
+            "height": 316.078125
+          },
+          "media": {
+            "top": 158,
+            "bottom": 500.078125,
+            "width": 703.34375,
+            "height": 342.078125
+          },
+          "fit": "contain",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 714,
+            "bottom": 766,
+            "width": 633.34375,
+            "height": 52
+          },
+          "selected": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "viewport": {
+        "width": 1800,
+        "height": 1100
+      },
+      "rows": [
+        {
+          "index": 0,
+          "h1": {
+            "top": 316.984375,
+            "bottom": 497.515625,
+            "width": 595.078125,
+            "height": 180.53125
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "tabs": {
+            "top": 868,
+            "bottom": 928,
+            "width": 772.921875,
+            "height": 60
+          },
+          "caption": {
+            "top": 570.078125,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "media": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "fit": "cover",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 784,
+            "bottom": 836,
+            "width": 702.921875,
+            "height": 52
+          },
+          "selected": 1
+        },
+        {
+          "index": 1,
+          "h1": {
+            "top": 316.984375,
+            "bottom": 497.515625,
+            "width": 595.078125,
+            "height": 180.53125
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "tabs": {
+            "top": 868,
+            "bottom": 928,
+            "width": 772.921875,
+            "height": 60
+          },
+          "caption": {
+            "top": 570.078125,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 184,
+            "bottom": 570.078125,
+            "width": 720.921875,
+            "height": 386.078125
+          },
+          "media": {
+            "top": 158,
+            "bottom": 570.078125,
+            "width": 772.921875,
+            "height": 412.078125
+          },
+          "fit": "contain",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 784,
+            "bottom": 836,
+            "width": 702.921875,
+            "height": 52
+          },
+          "selected": 1
+        },
+        {
+          "index": 2,
+          "h1": {
+            "top": 316.984375,
+            "bottom": 497.515625,
+            "width": 595.078125,
+            "height": 180.53125
+          },
+          "frame": {
+            "top": 158,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 710
+          },
+          "tabs": {
+            "top": 868,
+            "bottom": 928,
+            "width": 772.921875,
+            "height": 60
+          },
+          "caption": {
+            "top": 570.078125,
+            "bottom": 868,
+            "width": 772.921875,
+            "height": 297.921875
+          },
+          "image": {
+            "top": 184,
+            "bottom": 570.078125,
+            "width": 720.921875,
+            "height": 386.078125
+          },
+          "media": {
+            "top": 158,
+            "bottom": 570.078125,
+            "width": 772.921875,
+            "height": 412.078125
+          },
+          "fit": "contain",
+          "clip": "none",
+          "opacity": "1",
+          "cta": {
+            "top": 784,
+            "bottom": 836,
+            "width": 702.921875,
+            "height": 52
+          },
+          "selected": 1
+        }
+      ]
+    }
+  ],
+  "recheck": [
+    {
+      "name": "chromium 1440 tab 0 fixed height",
+      "pass": true,
+      "data": 640
+    },
+    {
+      "name": "chromium 1440 tab 0 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "chromium 1440 tab 0 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "chromium 1440 tab 1 fixed height",
+      "pass": true,
+      "data": 640
+    },
+    {
+      "name": "chromium 1440 tab 1 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "chromium 1440 tab 1 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "chromium 1440 tab 1 screenshot contains full image",
+      "pass": true,
+      "data": {
+        "fit": "contain",
+        "imageBottom": 500.078125,
+        "captionTop": 500.078125
+      }
+    },
+    {
+      "name": "chromium 1440 tab 2 fixed height",
+      "pass": true,
+      "data": 640
+    },
+    {
+      "name": "chromium 1440 tab 2 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "chromium 1440 tab 2 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "chromium 1440 tab 2 screenshot contains full image",
+      "pass": true,
+      "data": {
+        "fit": "contain",
+        "imageBottom": 500.078125,
+        "captionTop": 500.078125
+      }
+    },
+    {
+      "name": "chromium 1440 stable h1 across tabs",
+      "pass": true,
+      "data": [
+        290.578125,
+        290.578125,
+        290.578125
+      ]
+    },
+    {
+      "name": "chromium 1440 stable controls across tabs",
+      "pass": true,
+      "data": [
+        798,
+        798,
+        798
+      ]
+    },
+    {
+      "name": "chromium 1440 no runtime error",
+      "pass": true,
+      "data": []
+    },
+    {
+      "name": "chromium 1800 tab 0 fixed height",
+      "pass": true,
+      "data": 710
+    },
+    {
+      "name": "chromium 1800 tab 0 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "chromium 1800 tab 0 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "chromium 1800 tab 1 fixed height",
+      "pass": true,
+      "data": 710
+    },
+    {
+      "name": "chromium 1800 tab 1 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "chromium 1800 tab 1 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "chromium 1800 tab 1 screenshot contains full image",
+      "pass": true,
+      "data": {
+        "fit": "contain",
+        "imageBottom": 570.078125,
+        "captionTop": 570.078125
+      }
+    },
+    {
+      "name": "chromium 1800 tab 2 fixed height",
+      "pass": true,
+      "data": 710
+    },
+    {
+      "name": "chromium 1800 tab 2 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "chromium 1800 tab 2 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "chromium 1800 tab 2 screenshot contains full image",
+      "pass": true,
+      "data": {
+        "fit": "contain",
+        "imageBottom": 570.078125,
+        "captionTop": 570.078125
+      }
+    },
+    {
+      "name": "chromium 1800 stable h1 across tabs",
+      "pass": true,
+      "data": [
+        316.984375,
+        316.984375,
+        316.984375
+      ]
+    },
+    {
+      "name": "chromium 1800 stable controls across tabs",
+      "pass": true,
+      "data": [
+        868,
+        868,
+        868
+      ]
+    },
+    {
+      "name": "chromium 1800 no runtime error",
+      "pass": true,
+      "data": []
+    },
+    {
+      "name": "webkit 1440 tab 0 fixed height",
+      "pass": true,
+      "data": 640
+    },
+    {
+      "name": "webkit 1440 tab 0 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "webkit 1440 tab 0 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "webkit 1440 tab 1 fixed height",
+      "pass": true,
+      "data": 640
+    },
+    {
+      "name": "webkit 1440 tab 1 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "webkit 1440 tab 1 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "webkit 1440 tab 1 screenshot contains full image",
+      "pass": true,
+      "data": {
+        "fit": "contain",
+        "imageBottom": 500.078125,
+        "captionTop": 500.078125
+      }
+    },
+    {
+      "name": "webkit 1440 tab 2 fixed height",
+      "pass": true,
+      "data": 640
+    },
+    {
+      "name": "webkit 1440 tab 2 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "webkit 1440 tab 2 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "webkit 1440 tab 2 screenshot contains full image",
+      "pass": true,
+      "data": {
+        "fit": "contain",
+        "imageBottom": 500.078125,
+        "captionTop": 500.078125
+      }
+    },
+    {
+      "name": "webkit 1440 stable h1 across tabs",
+      "pass": true,
+      "data": [
+        290.578125,
+        290.578125,
+        290.578125
+      ]
+    },
+    {
+      "name": "webkit 1440 stable controls across tabs",
+      "pass": true,
+      "data": [
+        798,
+        798,
+        798
+      ]
+    },
+    {
+      "name": "webkit 1440 no runtime error",
+      "pass": true,
+      "data": []
+    },
+    {
+      "name": "webkit 1800 tab 0 fixed height",
+      "pass": true,
+      "data": 710
+    },
+    {
+      "name": "webkit 1800 tab 0 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "webkit 1800 tab 0 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "webkit 1800 tab 1 fixed height",
+      "pass": true,
+      "data": 710
+    },
+    {
+      "name": "webkit 1800 tab 1 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "webkit 1800 tab 1 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "webkit 1800 tab 1 screenshot contains full image",
+      "pass": true,
+      "data": {
+        "fit": "contain",
+        "imageBottom": 570.078125,
+        "captionTop": 570.078125
+      }
+    },
+    {
+      "name": "webkit 1800 tab 2 fixed height",
+      "pass": true,
+      "data": 710
+    },
+    {
+      "name": "webkit 1800 tab 2 caption and CTA visible",
+      "pass": true
+    },
+    {
+      "name": "webkit 1800 tab 2 image mask restored",
+      "pass": true
+    },
+    {
+      "name": "webkit 1800 tab 2 screenshot contains full image",
+      "pass": true,
+      "data": {
+        "fit": "contain",
+        "imageBottom": 570.078125,
+        "captionTop": 570.078125
+      }
+    },
+    {
+      "name": "webkit 1800 stable h1 across tabs",
+      "pass": true,
+      "data": [
+        316.984375,
+        316.984375,
+        316.984375
+      ]
+    },
+    {
+      "name": "webkit 1800 stable controls across tabs",
+      "pass": true,
+      "data": [
+        868,
+        868,
+        868
+      ]
+    },
+    {
+      "name": "webkit 1800 no runtime error",
+      "pass": true,
+      "data": []
+    }
+  ],
+  "resolution": "Root fixed desktop frame heights at 640px/710px and constrained screenshot media to remaining flex space. All three hero tabs retain heading and control positions while keeping caption and CTA visible."
+}

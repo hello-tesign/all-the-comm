@@ -1,0 +1,26 @@
+{
+  "startedAt": "2026-10-12T12:35:21.686Z",
+  "completedAt": "2026-10-12T12:35:30.376Z",
+  "baseURL": "http://127.0.0.1:4183",
+  "testDataPolicy": "All browser mutations intercepted; no backend writes; no inquiry success test",
+  "total": 2,
+  "passed": 2,
+  "failed": 0,
+  "results": [
+    {
+      "name": "chromium motion pause and resume",
+      "pass": true,
+      "detail": {
+        "renderer": "webgl",
+        "pauseExercise": "Canvas paused and resumed; no infinite animation while paused"
+      }
+    },
+    {
+      "name": "chromium changing reduced-motion preference stops continuous motion",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "mutations": [],
+  "browserMessages": []
+}

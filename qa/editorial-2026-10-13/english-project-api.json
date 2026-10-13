@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "name": "EN dynamic API retains original published scope",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "slugs": [
+          "all-the-comm"
+        ]
+      }
+    },
+    {
+      "name": "EN dynamic API English fields match pre-edit project",
+      "passed": true,
+      "detail": [
+        {
+          "key": "titleEn",
+          "before": "One company. A connected experience.",
+          "after": "One company. A connected experience.",
+          "equal": true
+        },
+        {
+          "key": "summaryEn",
+          "before": "Our own website renewal, connecting the curves of the original mark with a new digital and motion language.",
+          "after": "Our own website renewal, connecting the curves of the original mark with a new digital and motion language.",
+          "equal": true
+        }
+      ]
+    }
+  ]
+}

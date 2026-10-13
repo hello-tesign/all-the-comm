@@ -1,0 +1,10 @@
+{
+  "composition": "brand-ribbon",
+  "locale": "en",
+  "duration": 8,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "authoring": "Custom HTML, SVG, GSAP timeline; rendered with HyperFrames",
+  "source": "motion/brand-ribbon-en/index.html"
+}

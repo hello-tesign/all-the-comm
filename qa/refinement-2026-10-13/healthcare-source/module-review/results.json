@@ -1,0 +1,72 @@
+[
+  {
+    "name": "about",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1079,
+    "headings": [
+      "의학전문기자와병원 홍보팀장출신의 경험.",
+      "의료 정보를읽히는 콘텐츠로.",
+      "의료진의 전문성을구체적인 설명으로.",
+      "알려야 할 소식을지속적인 홍보로.",
+      "소개해 온 의료 분야 파트너"
+    ],
+    "overflow": []
+  },
+  {
+    "name": "home",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1000,
+    "headings": [
+      "의료를 이해하는 경험,홍보를 실행하는 힘."
+    ],
+    "overflow": []
+  },
+  {
+    "name": "service",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1000,
+    "headings": [
+      "환자에게 먼저설명해야 할 것은?",
+      "한 번의 인터뷰에서, 여러 접점으로."
+    ],
+    "overflow": []
+  },
+  {
+    "name": "about",
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 1642,
+    "headings": [
+      "의학전문기자와병원 홍보팀장출신의 경험.",
+      "의료 정보를읽히는 콘텐츠로.",
+      "의료진의 전문성을구체적인 설명으로.",
+      "알려야 할 소식을지속적인 홍보로.",
+      "소개해 온 의료 분야 파트너"
+    ],
+    "overflow": []
+  },
+  {
+    "name": "home",
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 1000,
+    "headings": [
+      "의료를 이해하는 경험,홍보를 실행하는 힘."
+    ],
+    "overflow": []
+  },
+  {
+    "name": "service",
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 1000,
+    "headings": [
+      "환자에게 먼저설명해야 할 것은?",
+      "한 번의 인터뷰에서, 여러 접점으로."
+    ],
+    "overflow": []
+  }
+]

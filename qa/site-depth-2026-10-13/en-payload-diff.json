@@ -1,0 +1,152 @@
+[
+  {
+    "route": "/en/",
+    "changes": [
+      {
+        "path": "services.6.summary",
+        "before": "진료의 전문성과 의료진의 이야기를 이해하기 쉬운 정보로 전합니다.",
+        "after": "의학전문기자와 병원 홍보팀장 출신의 경험을 바탕으로, 의료의 전문성을 읽히는 콘텐츠와 홍보로 연결합니다."
+      },
+      {
+        "path": "services.6.items.0",
+        "before": "병원 홍보 전략·콘텐츠",
+        "after": "의료진 인터뷰·질환 콘텐츠"
+      },
+      {
+        "path": "services.6.items.1",
+        "before": "질환 정보·의료진 인터뷰",
+        "after": "언론홍보·의학전문 기자간담회"
+      },
+      {
+        "path": "services.6.items.2",
+        "before": "채널·광고·홍보 운영",
+        "after": "병원 채널·광고 운영·정기 보고"
+      }
+    ]
+  },
+  {
+    "route": "/en/about/",
+    "changes": [
+      {
+        "path": "services.6.summary",
+        "before": "진료의 전문성과 의료진의 이야기를 이해하기 쉬운 정보로 전합니다.",
+        "after": "의학전문기자와 병원 홍보팀장 출신의 경험을 바탕으로, 의료의 전문성을 읽히는 콘텐츠와 홍보로 연결합니다."
+      },
+      {
+        "path": "services.6.items.0",
+        "before": "병원 홍보 전략·콘텐츠",
+        "after": "의료진 인터뷰·질환 콘텐츠"
+      },
+      {
+        "path": "services.6.items.1",
+        "before": "질환 정보·의료진 인터뷰",
+        "after": "언론홍보·의학전문 기자간담회"
+      },
+      {
+        "path": "services.6.items.2",
+        "before": "채널·광고·홍보 운영",
+        "after": "병원 채널·광고 운영·정기 보고"
+      }
+    ]
+  },
+  {
+    "route": "/en/process/",
+    "changes": [
+      {
+        "path": "services.6.summary",
+        "before": "진료의 전문성과 의료진의 이야기를 이해하기 쉬운 정보로 전합니다.",
+        "after": "의학전문기자와 병원 홍보팀장 출신의 경험을 바탕으로, 의료의 전문성을 읽히는 콘텐츠와 홍보로 연결합니다."
+      },
+      {
+        "path": "services.6.items.0",
+        "before": "병원 홍보 전략·콘텐츠",
+        "after": "의료진 인터뷰·질환 콘텐츠"
+      },
+      {
+        "path": "services.6.items.1",
+        "before": "질환 정보·의료진 인터뷰",
+        "after": "언론홍보·의학전문 기자간담회"
+      },
+      {
+        "path": "services.6.items.2",
+        "before": "채널·광고·홍보 운영",
+        "after": "병원 채널·광고 운영·정기 보고"
+      }
+    ]
+  },
+  {
+    "route": "/en/team/",
+    "changes": [
+      {
+        "path": "services.6.summary",
+        "before": "진료의 전문성과 의료진의 이야기를 이해하기 쉬운 정보로 전합니다.",
+        "after": "의학전문기자와 병원 홍보팀장 출신의 경험을 바탕으로, 의료의 전문성을 읽히는 콘텐츠와 홍보로 연결합니다."
+      },
+      {
+        "path": "services.6.items.0",
+        "before": "병원 홍보 전략·콘텐츠",
+        "after": "의료진 인터뷰·질환 콘텐츠"
+      },
+      {
+        "path": "services.6.items.1",
+        "before": "질환 정보·의료진 인터뷰",
+        "after": "언론홍보·의학전문 기자간담회"
+      },
+      {
+        "path": "services.6.items.2",
+        "before": "채널·광고·홍보 운영",
+        "after": "병원 채널·광고 운영·정기 보고"
+      }
+    ]
+  },
+  {
+    "route": "/en/works/",
+    "changes": [
+      {
+        "path": "services.6.summary",
+        "before": "진료의 전문성과 의료진의 이야기를 이해하기 쉬운 정보로 전합니다.",
+        "after": "의학전문기자와 병원 홍보팀장 출신의 경험을 바탕으로, 의료의 전문성을 읽히는 콘텐츠와 홍보로 연결합니다."
+      },
+      {
+        "path": "services.6.items.0",
+        "before": "병원 홍보 전략·콘텐츠",
+        "after": "의료진 인터뷰·질환 콘텐츠"
+      },
+      {
+        "path": "services.6.items.1",
+        "before": "질환 정보·의료진 인터뷰",
+        "after": "언론홍보·의학전문 기자간담회"
+      },
+      {
+        "path": "services.6.items.2",
+        "before": "채널·광고·홍보 운영",
+        "after": "병원 채널·광고 운영·정기 보고"
+      }
+    ]
+  },
+  {
+    "route": "/en/contact/",
+    "changes": [
+      {
+        "path": "services.6.summary",
+        "before": "진료의 전문성과 의료진의 이야기를 이해하기 쉬운 정보로 전합니다.",
+        "after": "의학전문기자와 병원 홍보팀장 출신의 경험을 바탕으로, 의료의 전문성을 읽히는 콘텐츠와 홍보로 연결합니다."
+      },
+      {
+        "path": "services.6.items.0",
+        "before": "병원 홍보 전략·콘텐츠",
+        "after": "의료진 인터뷰·질환 콘텐츠"
+      },
+      {
+        "path": "services.6.items.1",
+        "before": "질환 정보·의료진 인터뷰",
+        "after": "언론홍보·의학전문 기자간담회"
+      },
+      {
+        "path": "services.6.items.2",
+        "before": "채널·광고·홍보 운영",
+        "after": "병원 채널·광고 운영·정기 보고"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2061 @@
+{
+  "records": [
+    {
+      "name": "home-hero-0",
+      "url": "http://127.0.0.1:4173/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/eyewear-product.jpg",
+            "natural": [
+              1500,
+              1500
+            ],
+            "box": [
+              383,
+              172
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              295,
+              344
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/site-soulreset.png",
+            "natural": [
+              1440,
+              900
+            ],
+            "box": [
+              383,
+              131
+            ],
+            "broken": false
+          }
+        ],
+        "hero": [
+          {
+            "frame": {
+              "x": 651.84375,
+              "y": 145,
+              "width": 723.34375,
+              "height": 640,
+              "top": 145,
+              "right": 1375.1875,
+              "bottom": 785,
+              "left": 651.84375
+            },
+            "caption": {
+              "x": 651.84375,
+              "y": 537.671875,
+              "width": 723.34375,
+              "height": 247.328125,
+              "top": 537.671875,
+              "right": 1375.1875,
+              "bottom": 785,
+              "left": 651.84375
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "home-hero-1",
+      "url": "http://127.0.0.1:4173/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              362,
+              344
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-patient-guide.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              315,
+              344
+            ],
+            "broken": false
+          }
+        ],
+        "hero": [
+          {
+            "frame": {
+              "x": 651.84375,
+              "y": 145,
+              "width": 723.34375,
+              "height": 640,
+              "top": 145,
+              "right": 1375.1875,
+              "bottom": 785,
+              "left": 651.84375
+            },
+            "caption": {
+              "x": 651.84375,
+              "y": 537.671875,
+              "width": 723.34375,
+              "height": 247.328125,
+              "top": 537.671875,
+              "right": 1375.1875,
+              "bottom": 785,
+              "left": 651.84375
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "home-hero-2",
+      "url": "http://127.0.0.1:4173/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/saas-ea-editor.png",
+            "natural": [
+              1600,
+              1050
+            ],
+            "box": [
+              360,
+              344
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "natural": [
+              1440,
+              1558
+            ],
+            "box": [
+              317,
+              344
+            ],
+            "broken": false
+          }
+        ],
+        "hero": [
+          {
+            "frame": {
+              "x": 651.84375,
+              "y": 145,
+              "width": 723.34375,
+              "height": 640,
+              "top": 145,
+              "right": 1375.1875,
+              "bottom": 785,
+              "left": 651.84375
+            },
+            "caption": {
+              "x": 651.84375,
+              "y": 537.671875,
+              "width": 723.34375,
+              "height": 247.328125,
+              "top": 537.671875,
+              "right": 1375.1875,
+              "bottom": 785,
+              "left": 651.84375
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "home-case-0",
+      "url": "http://127.0.0.1:4173/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+            "natural": [
+              1440,
+              965
+            ],
+            "box": [
+              1310,
+              819
+            ],
+            "broken": false
+          }
+        ],
+        "hero": [
+          {
+            "frame": {
+              "x": 651.84375,
+              "y": -2172,
+              "width": 723.34375,
+              "height": 640,
+              "top": -2172,
+              "right": 1375.1875,
+              "bottom": -1532,
+              "left": 651.84375
+            },
+            "caption": {
+              "x": 651.84375,
+              "y": -1779.328125,
+              "width": 723.34375,
+              "height": 247.328125,
+              "top": -1779.328125,
+              "right": 1375.1875,
+              "bottom": -1532,
+              "left": 651.84375
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "home-case-1",
+      "url": "http://127.0.0.1:4173/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              636,
+              397
+            ],
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              635,
+              397
+            ],
+            "broken": false
+          }
+        ],
+        "hero": [
+          {
+            "frame": {
+              "x": 651.84375,
+              "y": -3221,
+              "width": 723.34375,
+              "height": 640,
+              "top": -3221,
+              "right": 1375.1875,
+              "bottom": -2581,
+              "left": 651.84375
+            },
+            "caption": {
+              "x": 651.84375,
+              "y": -2828.328125,
+              "width": 723.34375,
+              "height": 247.328125,
+              "top": -2828.328125,
+              "right": 1375.1875,
+              "bottom": -2581,
+              "left": 651.84375
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "home-case-2",
+      "url": "http://127.0.0.1:4173/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              636,
+              398
+            ],
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              636,
+              398
+            ],
+            "broken": false
+          }
+        ],
+        "hero": [
+          {
+            "frame": {
+              "x": 651.84375,
+              "y": -3221,
+              "width": 723.34375,
+              "height": 640,
+              "top": -3221,
+              "right": 1375.1875,
+              "bottom": -2581,
+              "left": 651.84375
+            },
+            "caption": {
+              "x": 651.84375,
+              "y": -2828.328125,
+              "width": 723.34375,
+              "height": 247.328125,
+              "top": -2828.328125,
+              "right": 1375.1875,
+              "bottom": -2581,
+              "left": 651.84375
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "about-work",
+      "url": "http://127.0.0.1:4173/about/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/eyewear-product.jpg",
+            "natural": [
+              1500,
+              1500
+            ],
+            "box": [
+              288,
+              199
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              262,
+              199
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              288,
+              259
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-patient-guide.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              262,
+              259
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "process-0",
+      "url": "http://127.0.0.1:4173/process/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              621,
+              420
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/ezylens-studio.png",
+            "natural": [
+              1440,
+              965
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "natural": [
+              1440,
+              1558
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "process-1",
+      "url": "http://127.0.0.1:4173/process/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              621,
+              420
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/ezylens-studio.png",
+            "natural": [
+              1440,
+              965
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "natural": [
+              1440,
+              1558
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "process-2",
+      "url": "http://127.0.0.1:4173/process/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/ezylens-studio.png",
+            "natural": [
+              1440,
+              965
+            ],
+            "box": [
+              621,
+              420
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "natural": [
+              1440,
+              1558
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "process-3",
+      "url": "http://127.0.0.1:4173/process/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/ezylens-studio.png",
+            "natural": [
+              1440,
+              965
+            ],
+            "box": [
+              600,
+              405
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "natural": [
+              1440,
+              1558
+            ],
+            "box": [
+              621,
+              420
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-00",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/ezylens-studio.png",
+            "natural": [
+              1440,
+              965
+            ],
+            "box": [
+              628,
+              421
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-01",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/site-soulreset.png",
+            "natural": [
+              1440,
+              900
+            ],
+            "box": [
+              628,
+              393
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-02",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              628,
+              436
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-03",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/botanic-garden.webp",
+            "natural": [
+              1800,
+              1350
+            ],
+            "box": [
+              592,
+              215
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/place-soakru.webp",
+            "natural": [
+              1200,
+              794
+            ],
+            "box": [
+              290,
+              106
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/botanic-skywalk.webp",
+            "natural": [
+              1400,
+              1050
+            ],
+            "box": [
+              290,
+              106
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-04",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/botanic-skywalk.webp",
+            "natural": [
+              1400,
+              1050
+            ],
+            "box": [
+              469,
+              190
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-05",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/beauty-ritual.webp",
+            "natural": [
+              1536,
+              1024
+            ],
+            "box": [
+              237,
+              415
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-06",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-07",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/site-tesign-radar.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              628,
+              436
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-08",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "natural": [
+              1440,
+              1558
+            ],
+            "box": [
+              628,
+              680
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "works-09",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "team-00",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/ezylens-studio.png",
+            "natural": [
+              1440,
+              965
+            ],
+            "box": [
+              628,
+              421
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "team-01",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/site-soulreset.png",
+            "natural": [
+              1440,
+              900
+            ],
+            "box": [
+              628,
+              393
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "team-02",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              628,
+              436
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "team-03",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-patient-guide.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              628,
+              628
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "team-04",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/botanic-garden.webp",
+            "natural": [
+              1800,
+              1350
+            ],
+            "box": [
+              592,
+              215
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/place-soakru.webp",
+            "natural": [
+              1200,
+              794
+            ],
+            "box": [
+              290,
+              106
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/botanic-skywalk.webp",
+            "natural": [
+              1400,
+              1050
+            ],
+            "box": [
+              290,
+              106
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "team-05",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/botanic-skywalk.webp",
+            "natural": [
+              1400,
+              1050
+            ],
+            "box": [
+              469,
+              190
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "team-06",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/beauty-ritual.webp",
+            "natural": [
+              1536,
+              1024
+            ],
+            "box": [
+              237,
+              415
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "team-07",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/saas-tesign-workflow.png",
+            "natural": [
+              1440,
+              1558
+            ],
+            "box": [
+              628,
+              680
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "team-08",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "case-ezylens-studio",
+      "url": "http://127.0.0.1:4173/works/project/ezylens-studio/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+            "natural": [
+              1440,
+              965
+            ],
+            "box": [
+              1310,
+              878
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "case-ezylens-studio-story",
+      "url": "http://127.0.0.1:4173/works/project/ezylens-studio/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "case-city-culture",
+      "url": "http://127.0.0.1:4173/works/project/city-culture/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              1310,
+              1310
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "case-city-culture-story",
+      "url": "http://127.0.0.1:4173/works/project/city-culture/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "case-jonghae-community",
+      "url": "http://127.0.0.1:4173/works/project/jonghae-community/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+            "natural": [
+              1440,
+              1000
+            ],
+            "box": [
+              1310,
+              910
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "case-jonghae-community-story",
+      "url": "http://127.0.0.1:4173/works/project/jonghae-community/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "case-patient-guide",
+      "url": "http://127.0.0.1:4173/works/project/patient-guide/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:4173/portfolio/concept-patient-guide.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              1310,
+              1310
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "case-patient-guide-story",
+      "url": "http://127.0.0.1:4173/works/project/patient-guide/",
+      "data": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "width": 1440,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              218,
+              48
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "mobile-home-hero",
+      "url": "http://127.0.0.1:4173/",
+      "data": {
+        "viewport": [
+          390,
+          844
+        ],
+        "width": 390,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              180,
+              39
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/eyewear-product.jpg",
+            "natural": [
+              1500,
+              1500
+            ],
+            "box": [
+              179,
+              157
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-city-culture.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              137,
+              309
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/site-soulreset.png",
+            "natural": [
+              1440,
+              900
+            ],
+            "box": [
+              179,
+              121
+            ],
+            "broken": false
+          }
+        ],
+        "hero": [
+          {
+            "frame": {
+              "x": 24,
+              "y": 90.0625,
+              "width": 342,
+              "height": 570,
+              "top": 90.0625,
+              "right": 366,
+              "bottom": 660.0625,
+              "left": 24
+            },
+            "caption": {
+              "x": 24,
+              "y": 434.6875,
+              "width": 342,
+              "height": 225.375,
+              "top": 434.6875,
+              "right": 366,
+              "bottom": 660.0625,
+              "left": 24
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile-works",
+      "url": "http://127.0.0.1:4173/works/",
+      "data": {
+        "viewport": [
+          390,
+          844
+        ],
+        "width": 390,
+        "visibleFood": [
+          {
+            "text": "소적두 — 팥부터.",
+            "allowed": true
+          }
+        ],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              180,
+              39
+            ],
+            "broken": false
+          },
+          {
+            "src": "/evidence/diverse/botanic-skywalk.webp",
+            "natural": [
+              1400,
+              1050
+            ],
+            "box": [
+              239,
+              180
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    },
+    {
+      "name": "mobile-team",
+      "url": "http://127.0.0.1:4173/team/",
+      "data": {
+        "viewport": [
+          390,
+          844
+        ],
+        "width": 390,
+        "visibleFood": [],
+        "images": [
+          {
+            "src": "/brand/logo-horizontal-on-dark.svg",
+            "natural": [
+              417,
+              91
+            ],
+            "box": [
+              180,
+              39
+            ],
+            "broken": false
+          },
+          {
+            "src": "/portfolio/concept-patient-guide.png",
+            "natural": [
+              1200,
+              1200
+            ],
+            "box": [
+              298,
+              298
+            ],
+            "broken": false
+          }
+        ],
+        "hero": []
+      }
+    }
+  ],
+  "errors": [],
+  "writes": []
+}

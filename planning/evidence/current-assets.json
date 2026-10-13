@@ -1,0 +1,682 @@
+{
+  "images": [
+    {
+      "src": "https://allthecom.co.kr/data/files/cab1b52c325e5a3de09b9f5fcf401e00.png",
+      "alt": "",
+      "width": 488,
+      "height": 122
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/1d90c0ab8c59091ddbeb2321ccb2110f.png",
+      "alt": "",
+      "width": 83,
+      "height": 47
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/1379f4c34116dcdc25238196fac4673f.png",
+      "alt": "",
+      "width": 30,
+      "height": 69
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/0d6e0c59d02f0d22e10f7a6793f4fb36.png",
+      "alt": "",
+      "width": 47,
+      "height": 69
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/3e47b7c120171bd7f6ce0ed6c3d1b928.png",
+      "alt": "",
+      "width": 67,
+      "height": 73
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/89ed4be8396c4dd35014f08fb8aee133.png",
+      "alt": "",
+      "width": 82,
+      "height": 60
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/5de3b9fe7f0fc79f8b394bf70d76a77c.png",
+      "alt": "",
+      "width": 50,
+      "height": 68
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/57665f12f6978c32d7f01205422fc8a7.png",
+      "alt": "",
+      "width": 94,
+      "height": 97
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/1c4d842f7926e1ee224bf9ceabc0d3d0.png",
+      "alt": "",
+      "width": 80,
+      "height": 100
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/d00c1636ad1f81bea61c88d8b11864f8.png",
+      "alt": "",
+      "width": 95,
+      "height": 98
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/46f0fe8a7a28e547dc1be152aec78353.png",
+      "alt": "",
+      "width": 93,
+      "height": 87
+    },
+    {
+      "src": "https://allthecom.co.kr/img/search.png",
+      "alt": "",
+      "width": 76,
+      "height": 76
+    },
+    {
+      "src": "https://allthecom.co.kr/img/search_on.png",
+      "alt": "",
+      "width": 76,
+      "height": 76
+    },
+    {
+      "src": "https://allthecom.co.kr/img/strategy.png",
+      "alt": "",
+      "width": 64,
+      "height": 76
+    },
+    {
+      "src": "https://allthecom.co.kr/img/strategy_on.png",
+      "alt": "",
+      "width": 64,
+      "height": 76
+    },
+    {
+      "src": "https://allthecom.co.kr/img/ad.png",
+      "alt": "",
+      "width": 90,
+      "height": 59
+    },
+    {
+      "src": "https://allthecom.co.kr/img/ad_on.png",
+      "alt": "",
+      "width": 90,
+      "height": 59
+    },
+    {
+      "src": "https://allthecom.co.kr/img/consulting.png",
+      "alt": "",
+      "width": 75,
+      "height": 77
+    },
+    {
+      "src": "https://allthecom.co.kr/img/consulting_on.png",
+      "alt": "",
+      "width": 75,
+      "height": 77
+    },
+    {
+      "src": "https://allthecom.co.kr/data/files/6b939352e37b6a4c1777ba86b82c49af.png",
+      "alt": "",
+      "width": 488,
+      "height": 122
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2043/817.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2042/817.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2042/818.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2042/819.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2043/818.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2043/819.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2042/816.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2043/816.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2044/816.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2044/817.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2044/818.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2044/819.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2045/816.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2045/817.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2045/818.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://mts.daumcdn.net/api/v1/tile/PNGSD02/v25_ejoqw/latest/3/2045/819.png",
+      "alt": "",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "src": "https://t1.daumcdn.net/mapjsapi/images/marker.png",
+      "alt": "",
+      "width": 29,
+      "height": 42
+    },
+    {
+      "src": "https://t1.daumcdn.net/mapjsapi/images/transparent.gif",
+      "alt": "",
+      "width": 1,
+      "height": 1
+    },
+    {
+      "src": "https://t1.daumcdn.net/mapjsapi/images/m_bi_b.png",
+      "alt": "Kakao 맵으로 이동(새창열림)",
+      "width": 32,
+      "height": 10
+    },
+    {
+      "src": "https://allthecom.co.kr/img/footer2.png",
+      "alt": "",
+      "width": 125,
+      "height": 81
+    }
+  ],
+  "backgrounds": [
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "homebanner-wrap fullscreen bg",
+      "url": "url(\"https://allthecom.co.kr/data/files/3092cba08bd1bd57f9fa26e4c54723ff.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg",
+      "url": "url(\"https://allthecom.co.kr/data/files/90d0f7e0009565679d49b7cc3f4adef9.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg",
+      "url": "url(\"https://allthecom.co.kr/data/files/7694b0dee3b9d224d614f9b54876163c.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg",
+      "url": "url(\"https://allthecom.co.kr/data/files/8154ec2a3b5a6cf4eae753840c0e91cb.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg",
+      "url": "url(\"https://allthecom.co.kr/data/files/62190aef51014632f1a07e8f2f1515d9.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg",
+      "url": "url(\"https://allthecom.co.kr/data/files/d0484ea8623928bc6365f39dc55f524a.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "homecount-wrap section-wrap wow count",
+      "url": "linear-gradient(81deg, rgb(46, 179, 175), rgb(97, 187, 135), rgb(83, 174, 143), rgb(83, 174, 143), rgb(83, 174, 143) 28%, rgb(46, 179, 175) 43%, rgb(66, 159, 181) 77%, rgb(77, 140, 181))"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/7149c3906e1889673f0f26edd44f69b5.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/6e219a951dc4413353abbdab4834a7e5.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/efef3c6d236cc8a954b8d6573ab2a77e.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/f6dcabfe193551546fff0f94736d3692.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/deee7250f697a436aa33cb23c238b393.jpg\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "homepartners-wrap section-wrap",
+      "url": "linear-gradient(81deg, rgb(46, 179, 175), rgb(97, 187, 135), rgb(83, 174, 143), rgb(83, 174, 143), rgb(83, 174, 143) 28%, rgb(46, 179, 175) 43%, rgb(66, 159, 181) 77%, rgb(77, 140, 181))"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "class": "slick-prev slick-arrow",
+      "url": "url(\"https://allthecom.co.kr/img/common/slider%20controlls%20img/left-arrow.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/158be76bde736986e0f333f7a353df88.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/99401c67b2c99d5df43657cebcd3233e.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/03adfbe2cd0e901d2a4a70978b26fbcd.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/cd9b8722fd23edc28f23bb99f11359db.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/424d7d70305e8f63f110b127eef9d0d9.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/b44d26218d791d137dbabae381e9aae0.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/3887c4ead1c6061460ca11e935df2b36.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/857ef9b559d930eadbb54b1ebb7599e9.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/9420c0ee206ddb4384373988d92e61a5.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/51f1e14d491c6ceb689003fdde862f30.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/41aebb870e42678b098e5a07704edc30.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/7858cadc29b6d2ed5aac6d07f56c473d.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/488c209316a1e47f84250cce29fdb177.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/7ec756d4995ec80e3ebfd4df6253b1bb.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/486012dd8f7359386152f93ce77f1d64.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/57c0bf7396f4a548613590e8d748c55d.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/c964a304ade8654a68d788c6b4ae33ab.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/ec6696b8e8c1f86f2b1bc74ae2c82003.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/75f50e54f89297f41e4206af0fd8906d.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/44e1df6b5d8121c65b9ed1ee211ed4e8.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/e8b39fbc94da508d890c12fae3b6a36c.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/832f9a18b6b1f53b3c8c08735d0804aa.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/158be76bde736986e0f333f7a353df88.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/99401c67b2c99d5df43657cebcd3233e.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/03adfbe2cd0e901d2a4a70978b26fbcd.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/cd9b8722fd23edc28f23bb99f11359db.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/424d7d70305e8f63f110b127eef9d0d9.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/b44d26218d791d137dbabae381e9aae0.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/3887c4ead1c6061460ca11e935df2b36.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/857ef9b559d930eadbb54b1ebb7599e9.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/9420c0ee206ddb4384373988d92e61a5.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "ratio-content circle bg img_changed",
+      "url": "url(\"https://allthecom.co.kr/data/files/51f1e14d491c6ceb689003fdde862f30.png\")"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "class": "slick-next slick-arrow",
+      "url": "url(\"https://allthecom.co.kr/img/common/slider%20controlls%20img/right-arrow.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "map_canvas_0",
+      "class": "map_canvas",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/bg_tile.png\")"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/bg_zoom_control.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "",
+      "url": "url(\"https://t1.daumcdn.net/mapjsapi/images/control.png\")"
+    },
+    {
+      "tag": "FOOTER",
+      "id": "",
+      "class": "",
+      "url": "linear-gradient(81deg, rgb(46, 179, 175), rgb(97, 187, 135), rgb(83, 174, 143), rgb(83, 174, 143), rgb(83, 174, 143) 28%, rgb(46, 179, 175) 43%, rgb(66, 159, 181) 77%, rgb(77, 140, 181))"
+    }
+  ],
+  "scripts": [
+    "https://connect.facebook.net/en_US/all.js?hash=a68af685ac2b54a007edc83e5c88fc9c",
+    "https://connect.facebook.net/en_US/all.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-446J7Y43HX&cx=c&_slc=1",
+    "https://www.google-analytics.com/analytics.js",
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js",
+    "https://allthecom.co.kr/lib/js/jquery-ui.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js",
+    "https://allthecom.co.kr/lib/bootstrap_default/js/bootstrap.min.js",
+    "https://dmaps.daum.net/map_js_init/postcode.v2.js",
+    "https://dapi.kakao.com/v2/maps/sdk.js?appkey=891398b9d5f02a1f4f8892b86c049ccf&libraries=services",
+    "https://t1.daumcdn.net/mapjsapi/js/main/4.5.26/kakao.js",
+    "https://t1.daumcdn.net/mapjsapi/js/libs/services/1.1.1/services.js",
+    "https://allthecom.co.kr/lib/js/jquery.countdown.js",
+    "https://allthecom.co.kr/lib/js/wow.min.js",
+    "https://allthecom.co.kr/lib/js/jquery.youtubebackground.js",
+    "https://allthecom.co.kr/lib/js/slick.min.js",
+    "https://allthecom.co.kr/js/helper.js",
+    "https://allthecom.co.kr/js/module.js",
+    "https://allthecom.co.kr/js/script.js",
+    "https://allthecom.co.kr/js/page/home.js"
+  ],
+  "sections": [
+    {
+      "id": "homesection1",
+      "text": "TEAM\nABOUT US\nPROCESS\nWORKS\nSERVICE\nRESERVATION"
+    },
+    {
+      "id": "homesection2",
+      "text": "ABOUT US\n\n홍보 담당자가 없어 홍보 전략을 기획하기 어렵거나, 있어도 홍보 인력의 부족으로\n마케팅 업무 수행에 차질을 겪고 있는 기업을 조력하는 것이 우리의 목적이며, 존재가치이다.\n\n마케팅 경쟁 환경 진단\n\n현재 마케팅 환경을 진단하고, 효율적인 마케팅 방식을 구상하며, 이를 성실히 수행하는 것이 광고 시작의 기본이다.\n\n루틴 홍보의 확립\n\n닥쳐서 하는 홍보는 이미 늦었다. 평소에, 꾸준히 장점을 알려 나가는 것이 홍보의 시작이자 기업의 히스토리가 된다.\n\n책임감 있는 관리\n\n정직하고, 성실하며, 투명하게 업무처리에 임하며 이 모든 결과에 책임감을 가진다.\n\n끊임없는 소통\n\n클라이언트와의 끊임없는 소통으로 최상의 결과를 이끌어 낼 수 있도록 노력한다."
+    },
+    {
+      "id": "homesection3",
+      "text": ""
+    },
+    {
+      "id": "homesection4",
+      "text": "Beyond all the communication for\nSuccess!\n\n(주)올더커뮤니케이션은 기업의 규모를 떠나 저마다 진행해야 하고, 진행할 수 있는 적정 마케팅의 범위 안에서 현재를 진단한다. 이후 홍보의 전략을 수립하고 이 전략을 구체화할 수 있는 마케팅 방안을 설계하고 실행한다. 사후 보고를 통해 마케팅 방향성을 지속적으로 소통하고 연구한다. 이를 통해 홍보 담당자가 없거나 인력이 부족한 기업의 마케팅 업무를 조력하는 것이 우리의 목적이며, 존재가치이다.\n\nOUR PROCESS\n마케팅 분석\n\n주요 키워드 파악\n\n경쟁사 비교분석\n\n광고 매체 제안\n\n마케팅 코디네이팅\n\n광고 매체 선정\n\n콘텐츠 기획 및 산출\n\n커뮤니케이션 체계 확립\n\n마케팅 수행 및 보고\n\n마케팅 수행\n\n수행 현황 모니터링\n\n미디어 믹스 점검\n\n분석 & 제안\n\n마케팅 수행 분석\n\n결과 및 현황 보고\n최신 마케팅 제안"
+    },
+    {
+      "id": "homesection5",
+      "text": "SERVICE\n온라인광고\n오프라인광고\n부가사업"
+    },
+    {
+      "id": "homesection6",
+      "text": "TEAM\n마케팅팀 / 콘텐츠제작팀 / 디자인팀 / 영상제작팀\n마케팅팀\n콘텐츠 제작팀\n디자인팀\n영상 제작팀\n마케팅팀\n귀사의 마케팅 전략을 기획하고 집행한 후 결과 보고를 진행합니다. 마케팅 진행 과정에서 필요한 부분을 소통하는 등 실질적인 업무를 담당하게 됩니다.\n콘텐츠 제작팀\n귀사의 공식 블로그, 온라인 뉴스, 카드 뉴스, 홈페이지 등에 삽입될 다양한 콘텐츠를 제작 지원하고 있습니다. 해당 매체의 로직과 특성에 맞게 콘텐츠를 기획하는 만큼 마케팅 시너지를 극대화할 수 있습니다.\n디자인팀\n귀사의 블로그 스킨, 베너, 온-오프라인 광고 시안, 로고, 카다로그, 명함 등 다양한 디자인물을 자체 디자인 팀이 제작하고 있습니다.\n영상 제작팀\n귀사의 자체 홍보 영상의 제작을 비롯해 공중파, 케이블 TV, 유튜브, SNS 등 다양한 채널에서 활용될 수 있는 영상의 촬영, 편집, 제작의 모든 프로세스를 지원하고 있는 팀입니다."
+    },
+    {
+      "id": "homesection8",
+      "text": "WORKS\n온라인광고\n오프라인광고\n부가사업"
+    },
+    {
+      "id": "homesection9",
+      "text": "PARTNERS\nPrevious\nNext"
+    },
+    {
+      "id": "homesection10",
+      "text": "RESERVATION\n프로젝트 분류 *중복체크가능\n마케팅 컨설팅\n마케팅 교육\n검색광고\n배너광고\n바이럴 광고\n인플루언서\n언론 보도\n해외마케팅\n홈페이지 제작\n디자인 제작\n영상 제작 및 편집\n오프라인/기타\n고객 정보 *필수 입력 항목입니다\n 개인정보취급방침 활용 동의 [자세히 보기]\n의뢰하기"
+    },
+    {
+      "id": "homesection11",
+      "text": "Address\n경기 고양시 일산서구 중앙로 1388 (주엽동, 태영프라자) 동관 B1 한양빌더스 101호\nB1, 1388, jungang-ro, ilsanseo-gu, Goyang-si, Gyeonggi-do, Republic of Korea\nPhone\n031-811-0208\nAM 10 : 00 ~ PM 05 : 00(휴일제외)\nE-mail\nallthecom1@gmail.com\n50m"
+    }
+  ]
+}

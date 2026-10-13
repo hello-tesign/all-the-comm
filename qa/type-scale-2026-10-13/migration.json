@@ -1,0 +1,3523 @@
+[
+  {
+    "file": "styles.css",
+    "selector": ".eyebrow",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".section-heading h2,h2",
+    "original": "clamp(36px,4.2vw,64px)",
+    "token": "--type-step-fluid-36-4p2-64",
+    "value": "clamp(40px,4.725vw,72px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".section-heading>p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": "h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".lead",
+    "original": "23px",
+    "token": "--type-step-23",
+    "value": "24px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".button",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".text-link",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".minor-link",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".desktop-nav a",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".language-switch",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".header-cta",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".menu-close",
+    "original": "42px",
+    "token": "--type-step-42",
+    "value": "44px"
+  },
+  {
+    "file": "styles.css",
+    "selector": "#mobile-menu nav a",
+    "original": "clamp(27px,5vw,48px)",
+    "token": "--type-step-fluid-27-5-48",
+    "value": "clamp(28px,5.83333vw,56px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".menu-email",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-copy .eyebrow",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-copy h1",
+    "original": "clamp(54px,5.4vw,84px)",
+    "token": "--type-step-fluid-54-5p4-84",
+    "value": "clamp(56px,5.65714vw,88px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-description",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-ctas .text-link",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".art-note",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".motion-control",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-bottom",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-bottom>a span",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-bottom>span",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-tabs button",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".visual-caption",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy .eyebrow",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy h3",
+    "original": "clamp(30px,3vw,46px)",
+    "token": "--type-step-fluid-30-3-46",
+    "value": "clamp(32px,3.13043vw,48px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy>p:not(.eyebrow)",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy ul",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".screen-copy",
+    "original": "clamp(28px,4.2vw,60px)",
+    "token": "--type-step-fluid-28-4p2-60",
+    "value": "clamp(32px,4.48vw,64px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".work-poster>span",
+    "original": "clamp(25px,3.7vw,55px)",
+    "token": "--type-step-fluid-25-3p7-55",
+    "value": "clamp(28px,3.76727vw,56px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".project-caption .eyebrow",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".project-caption h3",
+    "original": "clamp(25px,2.5vw,37px)",
+    "token": "--type-step-fluid-25-2p5-37",
+    "value": "clamp(28px,2.7027vw,40px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".project-caption>p",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".project-filters button",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".project-note",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-tabs button",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-word",
+    "original": "clamp(100px,17vw,250px)",
+    "token": "--type-step-fluid-100-17-250",
+    "value": "clamp(112px,17.408vw,256px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-scene h3",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-scene p",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-scene li",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".about-brand>span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".about-preview p:not(.eyebrow),.about-story p:not(.eyebrow)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".footer-invitation",
+    "original": "clamp(44px,6.7vw,105px)",
+    "token": "--type-step-fluid-44-6p7-105",
+    "value": "clamp(48px,7.14667vw,112px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".footer-contact",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".footer-contact>span",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".footer-bottom",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".page-hero h1",
+    "original": "clamp(47px,6.6vw,100px)",
+    "token": "--type-step-fluid-47-6p6-100",
+    "value": "clamp(48px,7.392vw,112px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".page-intro",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".page-subnav a",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".about-story .lead",
+    "original": "22px",
+    "token": "--type-step-22",
+    "value": "24px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".principle-mark",
+    "original": "60px",
+    "token": "--type-step-60",
+    "value": "64px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".principle h3",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".principle p",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".company-section h2",
+    "original": "clamp(33px,3.4vw,50px)",
+    "token": "--type-step-fluid-33-3p4-50",
+    "value": "clamp(36px,3.808vw,56px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".company-section dt",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".company-section dd",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-art>span",
+    "original": "105px",
+    "token": "--type-step-105",
+    "value": "112px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-copy h2",
+    "original": "clamp(31px,3.3vw,49px)",
+    "token": "--type-step-fluid-31-3p3-49",
+    "value": "clamp(32px,3.77143vw,56px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-copy p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-copy h3",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-copy li",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".team-intro h2",
+    "original": "clamp(34px,3.7vw,55px)",
+    "token": "--type-step-fluid-34-3p7-55",
+    "value": "clamp(36px,3.76727vw,56px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".team-intro p:not(.eyebrow)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".team-intro p.subtle",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".role-item summary",
+    "original": "22px",
+    "token": "--type-step-22",
+    "value": "24px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".role-plus",
+    "original": "27px",
+    "token": "--type-step-27",
+    "value": "28px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".role-item .eyebrow",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".role-item p",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".contact-aside>a",
+    "original": "19px",
+    "token": "--type-step-19",
+    "value": "20px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".contact-aside>p",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".inquiry-form legend",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".service-options span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".field label",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".field input:not([type=file]),.field textarea",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".field textarea::placeholder",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".field input[type=file]",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".field-help",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".consent",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": "#form-status",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".policy h2",
+    "original": "27px",
+    "token": "--type-step-27",
+    "value": "28px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".policy p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".back-link",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-hero h1",
+    "original": "clamp(44px,6vw,86px)",
+    "token": "--type-step-fluid-44-6-86",
+    "value": "clamp(48px,6.13953vw,88px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-hero>p:not(.eyebrow)",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-facts dt",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-facts dd",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-story h2",
+    "original": "38px",
+    "token": "--type-step-38",
+    "value": "40px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-story>p:last-child",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-film>p",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-result>p:not(.eyebrow)",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-copy h1",
+    "original": "92px",
+    "token": "--type-step-92",
+    "value": "96px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".header-cta",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-copy h1",
+    "original": "clamp(48px,5.4vw,65px)",
+    "token": "--type-step-fluid-48-5p4-65",
+    "value": "clamp(56px,5.98154vw,72px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-copy h1",
+    "original": "clamp(43px,5.4vw,57px)",
+    "token": "--type-step-fluid-43-5p4-57",
+    "value": "clamp(44px,6.06316vw,64px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-description",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy h3",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy>p:not(.eyebrow)",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".contact-aside>a",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-art>span",
+    "original": "80px",
+    "token": "--type-step-80",
+    "value": "88px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-story h2",
+    "original": "33px",
+    "token": "--type-step-33",
+    "value": "36px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".language-switch",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".section-heading h2,h2",
+    "original": "39px",
+    "token": "--type-step-39",
+    "value": "40px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".section-heading>p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".eyebrow",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-copy h1",
+    "original": "clamp(39px,9.6vw,69px)",
+    "token": "--type-step-fluid-39-9p6-69",
+    "value": "clamp(40px,10.01739vw,72px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-description",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-ctas .button",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-ctas .text-link",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".motion-control",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-bottom",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-bottom>a span",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-tabs button",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy h3",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy>p:not(.eyebrow)",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy .text-link",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".capability-copy ul",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".screen-copy",
+    "original": "clamp(24px,6.2vw,40px)",
+    "token": "--type-step-fluid-24-6p2-40",
+    "value": "clamp(28px,6.82vw,44px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".work-poster>span",
+    "original": "clamp(21px,5.1vw,32px)",
+    "token": "--type-step-fluid-21-5p1-32",
+    "value": "clamp(24px,5.7375vw,36px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".project-caption h3",
+    "original": "27px",
+    "token": "--type-step-27",
+    "value": "28px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".project-caption>p",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-tabs button",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-word",
+    "original": "125px",
+    "token": "--type-step-125",
+    "value": "128px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-scene h3",
+    "original": "27px",
+    "token": "--type-step-27",
+    "value": "28px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-scene p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".process-scene li",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".about-brand>span",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".about-preview p:not(.eyebrow)",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".about-preview h2",
+    "original": "39px",
+    "token": "--type-step-39",
+    "value": "40px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".footer-top .eyebrow",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".footer-invitation",
+    "original": "clamp(38px,9.2vw,68px)",
+    "token": "--type-step-fluid-38-9p2-68",
+    "value": "clamp(40px,9.74118vw,72px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".footer-contact",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".footer-contact>span",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".footer-bottom",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".page-hero .eyebrow",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".page-hero h1",
+    "original": "clamp(40px,9.5vw,70px)",
+    "token": "--type-step-fluid-40-9p5-70",
+    "value": "clamp(44px,9.77143vw,72px)"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".page-intro",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".page-subnav a",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".about-story .lead",
+    "original": "20px",
+    "token": "--type-step-20",
+    "value": "24px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".about-story p:not(.eyebrow)",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".principle-mark",
+    "original": "48px",
+    "token": "--type-step-48",
+    "value": "56px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".principle h3",
+    "original": "23px",
+    "token": "--type-step-23",
+    "value": "24px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".principle p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".company-section h2",
+    "original": "36px",
+    "token": "--type-step-36",
+    "value": "40px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".company-section dd",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-art>span",
+    "original": "85px",
+    "token": "--type-step-85",
+    "value": "88px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-copy h2",
+    "original": "31px",
+    "token": "--type-step-31",
+    "value": "32px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-copy p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-copy h3",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".chapter-copy li",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".team-intro h2",
+    "original": "37px",
+    "token": "--type-step-37",
+    "value": "40px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".team-intro p:not(.eyebrow)",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".team-intro p.subtle",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".role-item summary",
+    "original": "21px",
+    "token": "--type-step-21",
+    "value": "24px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".role-item p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".contact-aside>a",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".contact-address",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".inquiry-form legend",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".service-options span",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".field label",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".field input:not([type=file]),.field textarea",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".field-help",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".consent",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".submit-button",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".policy h2",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".policy p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-hero h1",
+    "original": "42px",
+    "token": "--type-step-42",
+    "value": "44px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-hero>p:not(.eyebrow)",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-facts dd",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-story h2",
+    "original": "34px",
+    "token": "--type-step-34",
+    "value": "36px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-story>p:last-child",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-film>p",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-result>p:not(.eyebrow)",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".case-result .button",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".project-filters button",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".project-note",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".button",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-copy h1",
+    "original": "37px",
+    "token": "--type-step-37",
+    "value": "40px"
+  },
+  {
+    "file": "styles.css",
+    "selector": ".hero-ctas .text-link",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-nav button",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-word",
+    "original": "clamp(75px,7vw,112px)",
+    "token": "--type-step-fluid-75-7-112",
+    "value": "clamp(80px,8vw,128px)"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-copy .eyebrow",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-copy h3",
+    "original": "clamp(36px,4vw,58px)",
+    "token": "--type-step-fluid-36-4-58",
+    "value": "clamp(40px,4.41379vw,64px)"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-copy>p:not(.eyebrow)",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-copy .text-link",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-note",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-nav button",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-word",
+    "original": "64px",
+    "token": "--type-step-64",
+    "value": "72px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-copy h3",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-copy>p:not(.eyebrow)",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-copy .text-link",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".discipline-note",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".channel-social",
+    "original": "clamp(35px,3.7vw,60px)",
+    "token": "--type-step-fluid-35-3p7-60",
+    "value": "clamp(36px,3.94667vw,64px)"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".channel-press strong",
+    "original": "clamp(40px,4vw,63px)",
+    "token": "--type-step-fluid-40-4-63",
+    "value": "clamp(44px,4.06349vw,64px)"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".channel-space strong",
+    "original": "47px",
+    "token": "--type-step-47",
+    "value": "48px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".channel-social",
+    "original": "37px",
+    "token": "--type-step-37",
+    "value": "40px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".channel-press strong",
+    "original": "39px",
+    "token": "--type-step-39",
+    "value": "40px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".channel-space strong",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "styles-team.css",
+    "selector": ".capability-copy ul",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece:not(:first-child) .screen-copy",
+    "original": "29px",
+    "token": "--type-step-29",
+    "value": "32px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece:not(:first-child) .work-poster>span",
+    "original": "27px",
+    "token": "--type-step-27",
+    "value": "28px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece .project-caption .eyebrow",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece .project-caption h3",
+    "original": "clamp(24px,2.25vw,34px)",
+    "token": "--type-step-fluid-24-2p25-34",
+    "value": "clamp(28px,2.38235vw,36px)"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece .project-caption>p:not(.portfolio-summary)",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece .project-caption .portfolio-summary",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece:first-child .project-caption h3",
+    "original": "clamp(29px,3vw,45px)",
+    "token": "--type-step-fluid-29-3-45",
+    "value": "clamp(32px,3.2vw,48px)"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .capture-case .case-story h2",
+    "original": "clamp(30px,3.3vw,48px)",
+    "token": "--type-step-fluid-30-3p3-48",
+    "value": "clamp(32px,3.85vw,56px)"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .capture-case [data-case-gallery] figcaption",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": ".capture-hint",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": ".viewer-toolbar>span",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": ".viewer-toolbar button",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece .project-caption>p:not(.portfolio-summary)",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece .project-caption h3,html[lang=ko] .portfolio-piece:first-child .project-caption h3",
+    "original": "26px",
+    "token": "--type-step-26",
+    "value": "28px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": "html[lang=ko] .portfolio-piece .project-caption .portfolio-summary",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": ".capture-hint",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": ".viewer-toolbar>span",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "portfolio.css",
+    "selector": ".viewer-toolbar button",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] .attachment-trigger",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] .attachment-names",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] [data-page-hero=about-us] h1",
+    "original": "clamp(46px,4.6vw,76px)",
+    "token": "--type-step-fluid-46-4p6-76",
+    "value": "clamp(48px,4.84211vw,80px)"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] [data-page-hero=about-us] .page-intro",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] [data-page-hero=team] h1",
+    "original": "clamp(68px,6.9vw,106px)",
+    "token": "--type-step-fluid-68-6p9-106",
+    "value": "clamp(72px,7.29057vw,112px)"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] [data-page-hero=team] .page-intro",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] .discipline-nav button",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] .role-deliverables>span",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] .role-deliverables li",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] [data-page-hero=contact] h1",
+    "original": "clamp(64px,6.2vw,100px)",
+    "token": "--type-step-fluid-64-6p2-100",
+    "value": "clamp(72px,6.944vw,112px)"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] [data-page-hero=contact] .page-intro",
+    "original": "21px",
+    "token": "--type-step-21",
+    "value": "24px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] [data-page-hero=privacy] h1",
+    "original": "54px",
+    "token": "--type-step-54",
+    "value": "56px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] .scroll-story .chapter-art>span",
+    "original": "clamp(80px,9vw,155px)",
+    "token": "--type-step-fluid-80-9-155",
+    "value": "clamp(88px,9.29032vw,160px)"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": ".process-cinema-nav a",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": ".process-cinema-nav a>span",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] .scroll-story .chapter-copy h2",
+    "original": "clamp(34px,3.2vw,49px)",
+    "token": "--type-step-fluid-34-3p2-49",
+    "value": "clamp(36px,3.65714vw,56px)"
+  },
+  {
+    "file": "scroll-story.css",
+    "selector": "html[lang=ko] .scroll-story .chapter-copy>.eyebrow",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-home-hero .hero-copy h1",
+    "original": "clamp(43px,4.65vw,74px)",
+    "token": "--type-step-fluid-43-4p65-74",
+    "value": "clamp(44px,5.02703vw,80px)"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-home-hero .hero-description",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-home-hero .text-link",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".hero-promise",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-caption>p",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-caption h2",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-caption>span",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-caption>a",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-caption>a span",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-choices button",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-site .capability-copy h3",
+    "original": "38px",
+    "token": "--type-step-38",
+    "value": "40px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-site .capability-copy>p:not(.eyebrow)",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-visual figcaption small",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-visual figcaption strong",
+    "original": "20px",
+    "token": "--type-step-20",
+    "value": "24px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-visual figcaption>span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-visual figcaption a",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-site .discipline-copy>p:not(.eyebrow)",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-output>small,.sample-output>div>small",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-output h4",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-output footer",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-output p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-care .sample-lead",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".care-questions b",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".care-questions span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-press .press-kicker",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-press h4",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-press .press-lead",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".press-body p",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".press-body b",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".film-stills em",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-film h4",
+    "original": "26px",
+    "token": "--type-step-26",
+    "value": "28px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-film>p",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-ad h4",
+    "original": "43px",
+    "token": "--type-step-43",
+    "value": "44px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-creator h4",
+    "original": "29px",
+    "token": "--type-step-29",
+    "value": "32px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".process-preview-evidence figcaption",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-about-photo figcaption>span",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-about-photo strong",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-about-photo small",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-about-photo a",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-connected figcaption",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-connected>p",
+    "original": "25px",
+    "token": "--type-step-25",
+    "value": "28px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-site .principle h3",
+    "original": "23px",
+    "token": "--type-step-23",
+    "value": "24px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-chapter figcaption strong",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-chapter figcaption span",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".contact-next .eyebrow",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".contact-next h2",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".contact-next>p:last-child",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-self-detail figcaption",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".project-text-cover>strong",
+    "original": "35px",
+    "token": "--type-step-35",
+    "value": "36px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".project-text-cover>span",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-home-hero .hero-copy h1",
+    "original": "clamp(40px,6.5vw,69px)",
+    "token": "--type-step-fluid-40-6p5-69",
+    "value": "clamp(44px,6.78261vw,72px)"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-visual figcaption strong",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-home-hero .hero-copy h1",
+    "original": "clamp(34px,8.3vw,60px)",
+    "token": "--type-step-fluid-34-8p3-60",
+    "value": "clamp(36px,8.85333vw,64px)"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-home-hero .hero-description",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-home-hero .button",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-home-hero .text-link",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".hero-promise",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-caption h2",
+    "original": "27px",
+    "token": "--type-step-27",
+    "value": "28px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-caption>p",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-caption>span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-choices button",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-hero-choices button span",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-site .capability-copy h3",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-site .capability-copy>p:not(.eyebrow)",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-visual figcaption strong",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-output h4",
+    "original": "25px",
+    "token": "--type-step-25",
+    "value": "28px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".sample-ad h4",
+    "original": "36px",
+    "token": "--type-step-36",
+    "value": "40px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".film-stills em",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-about-photo strong",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-connected>p",
+    "original": "22px",
+    "token": "--type-step-22",
+    "value": "24px"
+  },
+  {
+    "file": "evidence.css",
+    "selector": ".evidence-chapter figcaption strong",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-home-hero .hero-copy h1",
+    "original": "clamp(38px,4.1vw,66px)",
+    "token": "--type-step-fluid-38-4p1-66",
+    "value": "clamp(40px,4.47273vw,72px)"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-work-tile figcaption",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-hero-scene .evidence-hero-caption h2",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-about-caption>span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-about-caption strong",
+    "original": "31px",
+    "token": "--type-step-31",
+    "value": "32px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-about-caption p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-about-caption a",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-hero-scene .evidence-hero-caption h2",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-home-hero .hero-copy h1",
+    "original": "clamp(38px,6.3vw,63px)",
+    "token": "--type-step-fluid-38-6p3-63",
+    "value": "clamp(40px,6.4vw,64px)"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-home-hero .hero-copy h1",
+    "original": "clamp(30px,7.4vw,46px)",
+    "token": "--type-step-fluid-30-7p4-46",
+    "value": "clamp(32px,7.72174vw,48px)"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-work-tile figcaption",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-hero-scene .evidence-hero-caption h2",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-hero-scene .evidence-hero-caption>span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-home-hero .evidence-hero-choices button",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-about-caption strong",
+    "original": "27px",
+    "token": "--type-step-27",
+    "value": "28px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".evidence-site.home .capability-copy>p:not(.eyebrow)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-editorial>strong",
+    "original": "clamp(31px,3.2vw,48px)",
+    "token": "--type-step-fluid-31-3p2-48",
+    "value": "clamp(32px,3.73333vw,56px)"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-editorial>div",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-editorial>small",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-editorial.editorial-light>strong",
+    "original": "36px",
+    "token": "--type-step-36",
+    "value": "40px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".role-focus small",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".role-focus strong",
+    "original": "clamp(34px,3.5vw,52px)",
+    "token": "--type-step-fluid-34-3p5-52",
+    "value": "clamp(36px,3.76923vw,56px)"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".role-focus p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".process-preview-question strong",
+    "original": "clamp(31px,3.5vw,50px)",
+    "token": "--type-step-fluid-31-3p5-50",
+    "value": "clamp(32px,3.92vw,56px)"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".agency-editorial.editorial-light>strong",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".role-focus strong",
+    "original": "34px",
+    "token": "--type-step-34",
+    "value": "36px"
+  },
+  {
+    "file": "agency-composition.css",
+    "selector": ".process-preview-question strong",
+    "original": "31px",
+    "token": "--type-step-31",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-kicker",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-home h2",
+    "original": "clamp(32px,3.4vw,48px)",
+    "token": "--type-step-fluid-32-3p4-48",
+    "value": "clamp(36px,3.96667vw,56px)"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-home-copy p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-home-copy .text-link",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-about h2",
+    "original": "clamp(40px,4.6vw,64px)",
+    "token": "--type-step-fluid-40-4p6-64",
+    "value": "clamp(44px,5.175vw,72px)"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-about-intro p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-about-intro .healthcare-lead",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-disciplines h3",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-disciplines p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-disciplines span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-partners h3",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-partners-caption p",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-partners li",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-about-link",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-service .healthcare-brief-top p",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-brief-top>span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-service h3",
+    "original": "clamp(32px,2.55vw,40px)",
+    "token": "--type-step-fluid-32-2p55-40",
+    "value": "clamp(36px,2.805vw,44px)"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-service .healthcare-brief-intro",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-interview dt",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-interview dd",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-brief-output h4",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-brief-output p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-brief-output li",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-about-intro .healthcare-lead",
+    "original": "20px",
+    "token": "--type-step-20",
+    "value": "24px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-home h2",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-about h2",
+    "original": "40px",
+    "token": "--type-step-40",
+    "value": "44px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-about-intro .healthcare-lead",
+    "original": "20px",
+    "token": "--type-step-20",
+    "value": "24px"
+  },
+  {
+    "file": "page-depth/healthcare.css",
+    "selector": "html[lang=ko] .healthcare-service h3",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-section-intro h2",
+    "original": "clamp(38px,3.7vw,56px)",
+    "token": "--type-step-fluid-38-3p7-56",
+    "value": "clamp(40px,4.22857vw,64px)"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-section-intro>p",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-proof-figure figcaption",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-proof-copy h3",
+    "original": "clamp(28px,2.35vw,36px)",
+    "token": "--type-step-fluid-28-2p35-36",
+    "value": "clamp(32px,2.61111vw,40px)"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-proof-copy>p:not(.eyebrow)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-proof-copy p.apd-proof-scope",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-proof-scope strong",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-text-link",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-text-link>span",
+    "original": "20px",
+    "token": "--type-step-20",
+    "value": "24px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-scope-question>p",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-scope-question h3",
+    "original": "clamp(28px,2.5vw,38px)",
+    "token": "--type-step-fluid-28-2p5-38",
+    "value": "clamp(32px,2.63158vw,40px)"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-scope-copy p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-subheading h3",
+    "original": "34px",
+    "token": "--type-step-34",
+    "value": "36px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-subheading>p",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-output-columns .eyebrow",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-output-columns h4",
+    "original": "25px",
+    "token": "--type-step-25",
+    "value": "28px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-output-columns article>p:not(.eyebrow)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-output-columns p.apd-participation",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-participation strong",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-handover h3",
+    "original": "clamp(30px,2.85vw,42px)",
+    "token": "--type-step-fluid-30-2p85-42",
+    "value": "clamp(32px,2.98571vw,44px)"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-handover-grid>div>p:not(.eyebrow)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-handover .apd-handover-notes p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-handover-notes strong",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-proof-copy h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-output-columns h4",
+    "original": "23px",
+    "token": "--type-step-23",
+    "value": "24px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-section-intro h2",
+    "original": "36px",
+    "token": "--type-step-36",
+    "value": "40px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-section-intro>p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-proof-figure figcaption",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-proof-copy h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-scope-question h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-subheading h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-subheading>p",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-output-columns h4",
+    "original": "21px",
+    "token": "--type-step-21",
+    "value": "24px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-output-columns article>p:not(.eyebrow)",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-output-columns p.apd-participation",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/about-process.css",
+    "selector": "html[lang=ko] .apd-handover h3",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) .depth-heading h2",
+    "original": "clamp(38px,4.1vw,60px)",
+    "token": "--type-step-fluid-38-4p1-60",
+    "value": "clamp(40px,4.37333vw,64px)"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) .depth-heading>p",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) .depth-kicker",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) h3",
+    "original": "clamp(28px,2.75vw,41px)",
+    "token": "--type-step-fluid-28-2p75-41",
+    "value": "clamp(32px,2.95122vw,44px)"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) .depth-case-link",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) .depth-deliverable",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) .depth-deliverable strong",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-proof-image figcaption",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-proof-copy>p:not(.depth-kicker)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-role-notes dt",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-role-notes dd",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-collaboration h3",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-collaboration p",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-reference figcaption",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-reference-copy h3",
+    "original": "clamp(27px,2.65vw,38px)",
+    "token": "--type-step-fluid-27-2p65-38",
+    "value": "clamp(28px,2.78947vw,40px)"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-reference-copy>p:not(.depth-kicker)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-brief h3,.contact-faq h3",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-brief>div>p:last-child",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-brief dt",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-brief dd",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-faq summary",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-faq details p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-proof-copy>p:not(.depth-kicker),.team-role-notes dd",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) .depth-heading>p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-collaboration h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-reference-copy>p:not(.depth-kicker)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-brief h3,.contact-faq h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) .depth-heading h2",
+    "original": "36px",
+    "token": "--type-step-36",
+    "value": "40px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ":is(.team-proof,.contact-guide) .depth-heading>p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-proof-image figcaption",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-proof-copy h3",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-proof-copy>p:not(.depth-kicker)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-role-notes dd",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-collaboration h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".team-collaboration p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-reference-copy h3",
+    "original": "30px",
+    "token": "--type-step-30",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-reference-copy>p:not(.depth-kicker)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-brief h3,.contact-faq h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-brief dt",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-brief dd",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-faq summary",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "page-depth/team-contact.css",
+    "selector": ".contact-faq details p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "footer-refinement.css",
+    "selector": "html[lang=\"ko\"] .site-footer--compact .footer-invitation",
+    "original": "clamp(28px, 2.5vw, 38px)",
+    "token": "--type-step-fluid-28-2p5-38",
+    "value": "clamp(32px,2.63158vw,40px)"
+  },
+  {
+    "file": "footer-refinement.css",
+    "selector": "html[lang=\"ko\"] .site-footer--compact .footer-contact",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "footer-refinement.css",
+    "selector": "html[lang=\"ko\"] .site-footer--compact .footer-contact > span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "footer-refinement.css",
+    "selector": "html[lang=\"ko\"] .site-footer--compact .footer-bottom",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "footer-refinement.css",
+    "selector": "html[lang=\"ko\"] .site-footer--compact .footer-bottom small",
+    "original": "9px",
+    "token": "--type-step-9",
+    "value": "12px"
+  },
+  {
+    "file": "footer-refinement.css",
+    "selector": "html[lang=\"ko\"] .site-footer--compact .footer-invitation",
+    "original": "clamp(24px, 6.8vw, 28px)",
+    "token": "--type-step-fluid-24-6p8-28",
+    "value": "clamp(28px,7.77143vw,32px)"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body main :is(.page-hero,.case-hero,.agency-home-hero) h1",
+    "original": "clamp(52px,4.45vw,64px)",
+    "token": "--type-step-fluid-52-4p45-64",
+    "value": "clamp(56px,5.00625vw,72px)"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .page-hero[data-page-hero] .page-intro",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body main :is(.section-heading,.about-preview,.about-story,.company-section,.team-intro,.chapter-copy,.apd-section-intro,.depth-heading,.healthcare-about-heading,.healthcare-home-inner) h2,\nhtml[lang=ko] body main .principles-section>.shell>h2,\nhtml[lang=ko] body main .healthcare-service h2,\nhtml[lang=ko] body main .capture-case .case-story h2",
+    "original": "clamp(36px,3.1vw,44px)",
+    "token": "--type-step-fluid-36-3p1-44",
+    "value": "clamp(40px,3.38182vw,48px)"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body main :is(.section-heading,.apd-section-intro,.depth-heading)>p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .about-story .lead",
+    "original": "20px",
+    "token": "--type-step-20",
+    "value": "24px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-home-hero .hero-description",
+    "original": "17px",
+    "token": "--type-step-17",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero-scene .evidence-hero-caption h2",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .capability-copy>p:not(.eyebrow),\nhtml[lang=ko] body .capability-copy ul,\nhtml[lang=ko] body .discipline-copy>p:not(.eyebrow)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .capability-copy h3,\nhtml[lang=ko] body .discipline-copy h3",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .discipline-nav button",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .role-deliverables>span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .role-deliverables li",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-editorial>strong,\nhtml[lang=ko] body .agency-editorial.editorial-light>strong",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .principle-mark",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .principle p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .apd-proof-figure figcaption,\nhtml[lang=ko] body .team-proof-image figcaption,\nhtml[lang=ko] body .contact-reference figcaption",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .apd-proof-copy h3,\nhtml[lang=ko] body .team-proof-copy h3,\nhtml[lang=ko] body .contact-reference-copy h3",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .apd-proof-copy>.eyebrow,\nhtml[lang=ko] body .team-proof-copy>.depth-kicker,\nhtml[lang=ko] body .contact-reference-copy>.depth-kicker",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .apd-proof-copy>p:not(.eyebrow),\nhtml[lang=ko] body .team-proof-copy>p:not(.depth-kicker),\nhtml[lang=ko] body .contact-reference-copy>p:not(.depth-kicker)",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .team-role-notes dd",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .team-collaboration h3,\nhtml[lang=ko] body .contact-brief h3,\nhtml[lang=ko] body .contact-faq h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .team-collaboration p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .portfolio-piece .project-caption .eyebrow",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .portfolio-piece .project-caption h3,\nhtml[lang=ko] body .portfolio-piece:first-child .project-caption h3",
+    "original": "24px",
+    "token": "--type-step-24",
+    "value": "28px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .portfolio-piece .project-caption .portfolio-summary",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .portfolio-piece .project-caption>p:not(.portfolio-summary)",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .capture-case [data-case-gallery] figcaption",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .process-preview-question strong",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .evidence-chapter figcaption strong",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .evidence-chapter figcaption span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .scroll-story .chapter-copy h2",
+    "original": "clamp(36px,3.1vw,44px)",
+    "token": "--type-step-fluid-36-3p1-44",
+    "value": "clamp(40px,3.38182vw,48px)"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .apd-handover h3",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .healthcare-about-intro .healthcare-lead",
+    "original": "20px",
+    "token": "--type-step-20",
+    "value": "24px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body main :is(.page-hero,.case-hero,.agency-home-hero) h1",
+    "original": "clamp(36px,9.4vw,44px)",
+    "token": "--type-step-fluid-36-9p4-44",
+    "value": "clamp(40px,10.25455vw,48px)"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .page-hero[data-page-hero] .page-intro",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body main :is(.section-heading,.about-preview,.about-story,.company-section,.team-intro,.chapter-copy,.apd-section-intro,.depth-heading,.healthcare-about-heading,.healthcare-home-inner) h2,\n html[lang=ko] body main .principles-section>.shell>h2,\n html[lang=ko] body main .healthcare-service h2,\n html[lang=ko] body main .capture-case .case-story h2",
+    "original": "32px",
+    "token": "--type-step-32",
+    "value": "36px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-home-hero .hero-description",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero-scene .evidence-hero-caption h2",
+    "original": "22px",
+    "token": "--type-step-22",
+    "value": "24px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .discipline-nav button",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .discipline-copy h3,\n html[lang=ko] body .capability-copy h3",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-editorial>strong,\n html[lang=ko] body .agency-editorial.editorial-light>strong",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .portfolio-piece .project-caption .portfolio-summary",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .process-preview-question strong",
+    "original": "28px",
+    "token": "--type-step-28",
+    "value": "32px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero-content>.eyebrow",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero-description",
+    "original": "18px",
+    "token": "--type-step-18",
+    "value": "20px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero .button",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero .text-link",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-photo-credit",
+    "original": "11px",
+    "token": "--type-step-11",
+    "value": "12px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-assurance p",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-assurance span",
+    "original": "12px",
+    "token": "--type-step-12",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-assurance strong",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .page-hero-scope>span",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero-content>.eyebrow",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero-description",
+    "original": "16px",
+    "token": "--type-step-16",
+    "value": "18px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero .button",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-hero .text-link",
+    "original": "13px",
+    "token": "--type-step-13",
+    "value": "14px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-photo-credit",
+    "original": "10px",
+    "token": "--type-step-10",
+    "value": "12px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .agency-assurance strong",
+    "original": "15px",
+    "token": "--type-step-15",
+    "value": "16px"
+  },
+  {
+    "file": "editorial-presentation.css",
+    "selector": "html[lang=ko] body .page-hero-scope>span",
+    "original": "14px",
+    "token": "--type-step-14",
+    "value": "16px"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "chromium-1920 TEAM focus corrected",
+    "pass": true,
+    "detail": {
+      "outline": "rgb(25, 116, 99)",
+      "visible": true
+    },
+    "originalName": "chromium-1920 team focus outline contrast"
+  },
+  {
+    "name": "chromium-390 TEAM focus corrected",
+    "pass": true,
+    "detail": {
+      "outline": "rgb(25, 116, 99)",
+      "visible": true
+    },
+    "originalName": "chromium-390 team focus outline contrast"
+  },
+  {
+    "name": "webkit-1920 TEAM focus corrected",
+    "pass": true,
+    "detail": {
+      "outline": "rgb(25, 116, 99)",
+      "visible": true
+    },
+    "originalName": "webkit-1920 team focus outline contrast"
+  },
+  {
+    "name": "webkit-390 TEAM focus corrected",
+    "pass": true,
+    "detail": {
+      "outline": "rgb(25, 116, 99)",
+      "visible": true
+    },
+    "originalName": "webkit-390 team focus outline contrast"
+  }
+]

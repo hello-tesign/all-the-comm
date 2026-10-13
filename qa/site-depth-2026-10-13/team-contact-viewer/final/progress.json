@@ -1,0 +1,2653 @@
+{
+  "checks": [
+    {
+      "name": "chromium-team-1440 integrated depth exists",
+      "passed": true
+    },
+    {
+      "name": "chromium-team-1440 original image ratios",
+      "passed": true,
+      "detail": [
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/book-editorial-story.webp",
+          "natural": [
+            1352,
+            2000
+          ],
+          "rendered": [
+            405.59375,
+            599.984375
+          ],
+          "ratio": true
+        },
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/kings-menu-grid.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            699.203125,
+            485.546875
+          ],
+          "ratio": true
+        }
+      ]
+    },
+    {
+      "name": "chromium-team-1440 no overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium-team-1440 content shell",
+      "passed": true,
+      "detail": 1280
+    },
+    {
+      "name": "chromium-team-1440 section spacing",
+      "passed": true,
+      "detail": "96px"
+    },
+    {
+      "name": "chromium-team-1440 48px buttons / 8px radius",
+      "passed": true,
+      "detail": [
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "chromium-team-1440 body leading",
+      "passed": true,
+      "detail": [
+        1.5999999999999999,
+        1.5999999999999999,
+        1.6,
+        1.65,
+        1.65,
+        1.65,
+        1.6,
+        1.5999999999999999,
+        1.6,
+        1.65,
+        1.65,
+        1.65,
+        1.5999999999999999,
+        1.5999999999999999
+      ]
+    },
+    {
+      "name": "chromium-team-1440 9 roles",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "chromium-team-1440 roles 48px touch targets",
+      "passed": true,
+      "detail": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "chromium-team-1440 role selection responds",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-1440 integrated depth exists",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-1440 original image ratios",
+      "passed": true,
+      "detail": [
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/kfood-map.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            608,
+            422.21875
+          ],
+          "ratio": true
+        },
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/redbean-audiences.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            608,
+            422.21875
+          ],
+          "ratio": true
+        }
+      ]
+    },
+    {
+      "name": "chromium-contact-1440 no overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-1440 content shell",
+      "passed": true,
+      "detail": 1280
+    },
+    {
+      "name": "chromium-contact-1440 section spacing",
+      "passed": true,
+      "detail": "96px"
+    },
+    {
+      "name": "chromium-contact-1440 48px buttons / 8px radius",
+      "passed": true,
+      "detail": [
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "text": "프로젝트 문의하기",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "chromium-contact-1440 body leading",
+      "passed": true,
+      "detail": [
+        1.5999999999999999,
+        1.5999999999999999,
+        1.6,
+        1.6,
+        1.5999999999999999,
+        1.6,
+        1.6,
+        1.6,
+        1.65,
+        1.65,
+        1.65,
+        1.65,
+        1.6,
+        1.6,
+        1.6,
+        1.6
+      ]
+    },
+    {
+      "name": "chromium-contact-1440 one original form",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "chromium-contact-1440 field height / radius",
+      "passed": true,
+      "detail": [
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "tel",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "email",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "textarea",
+          "tag": "TEXTAREA",
+          "height": 146,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "chromium-contact-1440 four FAQ",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-1440 FAQ 0 opens",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-1440 FAQ 1 opens",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-1440 FAQ 2 opens",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-1440 FAQ 3 opens",
+      "passed": true
+    },
+    {
+      "name": "chromium-content-operations-1440-0 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          970.296875,
+          716
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-content-operations-1440-0 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          970.296875,
+          716
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-content-operations-1440-0 mask retained",
+      "passed": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "chromium-content-operations-1440-0 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1282,
+          946
+        ],
+        "natural": [
+          1282,
+          946
+        ]
+      }
+    },
+    {
+      "name": "chromium-content-operations-1440-0 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-0 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-0 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-0 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-0 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-1 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-1 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-1 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-1 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-2 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-2 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-2 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-2 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-3 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-3 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-3 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-3 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-4 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-4 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-4 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-1440-4 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-team-390 integrated depth exists",
+      "passed": true
+    },
+    {
+      "name": "chromium-team-390 original image ratios",
+      "passed": true,
+      "detail": [
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/book-editorial-story.webp",
+          "natural": [
+            1352,
+            2000
+          ],
+          "rendered": [
+            310,
+            458.578125
+          ],
+          "ratio": true
+        },
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/kings-menu-grid.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            358,
+            248.609375
+          ],
+          "ratio": true
+        }
+      ]
+    },
+    {
+      "name": "chromium-team-390 no overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium-team-390 content shell",
+      "passed": true,
+      "detail": 358
+    },
+    {
+      "name": "chromium-team-390 section spacing",
+      "passed": true,
+      "detail": "64px"
+    },
+    {
+      "name": "chromium-team-390 48px buttons / 8px radius",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium-team-390 body leading",
+      "passed": true,
+      "detail": [
+        1.6,
+        1.5999999999999999,
+        1.6,
+        1.6500000000000001,
+        1.6500000000000001,
+        1.6500000000000001,
+        1.6,
+        1.5999999999999999,
+        1.6,
+        1.6500000000000001,
+        1.6500000000000001,
+        1.6500000000000001,
+        1.6,
+        1.6
+      ]
+    },
+    {
+      "name": "chromium-team-390 9 roles",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "chromium-team-390 roles 48px touch targets",
+      "passed": true,
+      "detail": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "chromium-team-390 role selection responds",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-390 integrated depth exists",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-390 original image ratios",
+      "passed": true,
+      "detail": [
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/kfood-map.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            358,
+            248.609375
+          ],
+          "ratio": true
+        },
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/redbean-audiences.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            358,
+            248.609375
+          ],
+          "ratio": true
+        }
+      ]
+    },
+    {
+      "name": "chromium-contact-390 no overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-390 content shell",
+      "passed": true,
+      "detail": 358
+    },
+    {
+      "name": "chromium-contact-390 section spacing",
+      "passed": true,
+      "detail": "64px"
+    },
+    {
+      "name": "chromium-contact-390 48px buttons / 8px radius",
+      "passed": true,
+      "detail": [
+        {
+          "text": "프로젝트 문의하기",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "chromium-contact-390 body leading",
+      "passed": true,
+      "detail": [
+        1.6,
+        1.5999999999999999,
+        1.6,
+        1.6,
+        1.5999999999999999,
+        1.6,
+        1.6,
+        1.6,
+        1.65,
+        1.65,
+        1.65,
+        1.65,
+        1.6,
+        1.6,
+        1.6,
+        1.6
+      ]
+    },
+    {
+      "name": "chromium-contact-390 one original form",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "chromium-contact-390 field height / radius",
+      "passed": true,
+      "detail": [
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "tel",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "email",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "textarea",
+          "tag": "TEXTAREA",
+          "height": 160,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "chromium-contact-390 four FAQ",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-390 FAQ 0 opens",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-390 FAQ 1 opens",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-390 FAQ 2 opens",
+      "passed": true
+    },
+    {
+      "name": "chromium-contact-390 FAQ 3 opens",
+      "passed": true
+    },
+    {
+      "name": "chromium-content-operations-390-0 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          256.78125
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-content-operations-390-0 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          256.78125
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-content-operations-390-0 mask retained",
+      "passed": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "chromium-content-operations-390-0 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1282,
+          946
+        ],
+        "natural": [
+          1282,
+          946
+        ]
+      }
+    },
+    {
+      "name": "chromium-content-operations-390-0 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-0 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-0 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-0 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-0 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-1 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-1 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-1 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-1 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-2 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-2 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-2 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-2 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-3 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-3 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-3 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-3 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-4 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-4 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-4 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium-sales-rehearsal-390-4 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-team-1440 integrated depth exists",
+      "passed": true
+    },
+    {
+      "name": "webkit-team-1440 original image ratios",
+      "passed": false,
+      "detail": [
+        {
+          "loaded": false,
+          "src": "/evidence/expansion/book-editorial-story.webp",
+          "natural": [
+            0,
+            0
+          ],
+          "rendered": [
+            0,
+            0
+          ],
+          "ratio": false
+        },
+        {
+          "loaded": false,
+          "src": "/evidence/expansion/kings-menu-grid.png",
+          "natural": [
+            0,
+            0
+          ],
+          "rendered": [
+            699.1875,
+            485.546875
+          ],
+          "ratio": false
+        }
+      ]
+    },
+    {
+      "name": "webkit-team-1440 no overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit-team-1440 content shell",
+      "passed": true,
+      "detail": 1280
+    },
+    {
+      "name": "webkit-team-1440 section spacing",
+      "passed": true,
+      "detail": "96px"
+    },
+    {
+      "name": "webkit-team-1440 48px buttons / 8px radius",
+      "passed": true,
+      "detail": [
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "webkit-team-1440 body leading",
+      "passed": true,
+      "detail": [
+        1.6000000588235295,
+        1.6000000833333334,
+        1.6,
+        1.65,
+        1.65,
+        1.65,
+        1.6,
+        1.6000000833333334,
+        1.6,
+        1.65,
+        1.65,
+        1.65,
+        1.6000000588235295,
+        1.6000000588235295
+      ]
+    },
+    {
+      "name": "webkit-team-1440 9 roles",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "webkit-team-1440 roles 48px touch targets",
+      "passed": true,
+      "detail": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "webkit-team-1440 role selection responds",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-1440 integrated depth exists",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-1440 original image ratios",
+      "passed": false,
+      "detail": [
+        {
+          "loaded": false,
+          "src": "/evidence/expansion/kfood-map.png",
+          "natural": [
+            0,
+            0
+          ],
+          "rendered": [
+            608,
+            422.21875
+          ],
+          "ratio": false
+        },
+        {
+          "loaded": false,
+          "src": "/evidence/expansion/redbean-audiences.png",
+          "natural": [
+            0,
+            0
+          ],
+          "rendered": [
+            608,
+            422.21875
+          ],
+          "ratio": false
+        }
+      ]
+    },
+    {
+      "name": "webkit-contact-1440 no overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-1440 content shell",
+      "passed": true,
+      "detail": 1280
+    },
+    {
+      "name": "webkit-contact-1440 section spacing",
+      "passed": true,
+      "detail": "96px"
+    },
+    {
+      "name": "webkit-contact-1440 48px buttons / 8px radius",
+      "passed": true,
+      "detail": [
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "text": "프로젝트 문의하기",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "webkit-contact-1440 body leading",
+      "passed": true,
+      "detail": [
+        1.6000000588235295,
+        1.6000000833333334,
+        1.6,
+        1.6,
+        1.6000000833333334,
+        1.6,
+        1.6,
+        1.6,
+        1.65,
+        1.65,
+        1.65,
+        1.65,
+        1.6,
+        1.6,
+        1.6,
+        1.6
+      ]
+    },
+    {
+      "name": "webkit-contact-1440 one original form",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "webkit-contact-1440 field height / radius",
+      "passed": true,
+      "detail": [
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "tel",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "email",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "textarea",
+          "tag": "TEXTAREA",
+          "height": 146,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "webkit-contact-1440 four FAQ",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-1440 FAQ 0 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-1440 FAQ 1 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-1440 FAQ 2 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-1440 FAQ 3 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit-content-operations-1440-0 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          970.296875,
+          716
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-content-operations-1440-0 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          970.296875,
+          716
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-content-operations-1440-0 mask retained",
+      "passed": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "webkit-content-operations-1440-0 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1282,
+          946
+        ],
+        "natural": [
+          1282,
+          946
+        ]
+      }
+    },
+    {
+      "name": "webkit-content-operations-1440-0 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-0 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-0 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-0 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-0 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-1 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-1 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-1 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-1 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-2 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-2 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-2 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-2 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-3 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-3 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-3 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-3 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-4 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-4 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-4 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-1440-4 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-team-390 integrated depth exists",
+      "passed": true
+    },
+    {
+      "name": "webkit-team-390 original image ratios",
+      "passed": true,
+      "detail": [
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/book-editorial-story.webp",
+          "natural": [
+            1352,
+            2000
+          ],
+          "rendered": [
+            310,
+            458.578125
+          ],
+          "ratio": true
+        },
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/kings-menu-grid.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            358,
+            248.609375
+          ],
+          "ratio": true
+        }
+      ]
+    },
+    {
+      "name": "webkit-team-390 no overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit-team-390 content shell",
+      "passed": true,
+      "detail": 358
+    },
+    {
+      "name": "webkit-team-390 section spacing",
+      "passed": true,
+      "detail": "64px"
+    },
+    {
+      "name": "webkit-team-390 48px buttons / 8px radius",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit-team-390 body leading",
+      "passed": true,
+      "detail": [
+        1.6,
+        1.6000000833333334,
+        1.6,
+        1.6500000000000001,
+        1.6500000000000001,
+        1.6500000000000001,
+        1.6,
+        1.6000000833333334,
+        1.6,
+        1.6500000000000001,
+        1.6500000000000001,
+        1.6500000000000001,
+        1.6,
+        1.6
+      ]
+    },
+    {
+      "name": "webkit-team-390 9 roles",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "webkit-team-390 roles 48px touch targets",
+      "passed": true,
+      "detail": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "webkit-team-390 role selection responds",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-390 integrated depth exists",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-390 original image ratios",
+      "passed": true,
+      "detail": [
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/kfood-map.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            358,
+            248.609375
+          ],
+          "ratio": true
+        },
+        {
+          "loaded": true,
+          "src": "/evidence/expansion/redbean-audiences.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            358,
+            248.609375
+          ],
+          "ratio": true
+        }
+      ]
+    },
+    {
+      "name": "webkit-contact-390 no overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-390 content shell",
+      "passed": true,
+      "detail": 358
+    },
+    {
+      "name": "webkit-contact-390 section spacing",
+      "passed": true,
+      "detail": "64px"
+    },
+    {
+      "name": "webkit-contact-390 48px buttons / 8px radius",
+      "passed": true,
+      "detail": [
+        {
+          "text": "프로젝트 문의하기",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "webkit-contact-390 body leading",
+      "passed": true,
+      "detail": [
+        1.6,
+        1.6000000833333334,
+        1.6,
+        1.6,
+        1.6000000833333334,
+        1.6,
+        1.6,
+        1.6,
+        1.65,
+        1.65,
+        1.65,
+        1.65,
+        1.6,
+        1.6,
+        1.6,
+        1.6
+      ]
+    },
+    {
+      "name": "webkit-contact-390 one original form",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "webkit-contact-390 field height / radius",
+      "passed": true,
+      "detail": [
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "tel",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "email",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "textarea",
+          "tag": "TEXTAREA",
+          "height": 160,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        },
+        {
+          "type": "text",
+          "tag": "INPUT",
+          "height": 48,
+          "radius": "8px"
+        }
+      ]
+    },
+    {
+      "name": "webkit-contact-390 four FAQ",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-390 FAQ 0 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-390 FAQ 1 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-390 FAQ 2 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit-contact-390 FAQ 3 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit-content-operations-390-0 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          256.78125
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-content-operations-390-0 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          256.78125
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-content-operations-390-0 mask retained",
+      "passed": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "webkit-content-operations-390-0 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1282,
+          946
+        ],
+        "natural": [
+          1282,
+          946
+        ]
+      }
+    },
+    {
+      "name": "webkit-content-operations-390-0 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-0 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-0 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-0 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-0 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-1 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-1 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-1 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-1 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-2 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-2 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-2 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-2 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-3 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-3 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-3 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-3 close returns focus",
+      "passed": true
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-4 viewer fit / ratio",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-4 viewer controls rhythm",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          790
+        ],
+        "clip": "none",
+        "toolbarButtons": [
+          48,
+          48
+        ],
+        "dialog": "16px"
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-4 original dimensions",
+      "passed": true,
+      "detail": {
+        "actual": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit-sales-rehearsal-390-4 close returns focus",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "writes": []
+}

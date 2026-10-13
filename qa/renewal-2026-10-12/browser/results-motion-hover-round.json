@@ -1,0 +1,23 @@
+{
+  "startedAt": "2026-10-12T12:32:46.414Z",
+  "completedAt": "2026-10-12T12:32:56.512Z",
+  "baseURL": "http://127.0.0.1:4183",
+  "testDataPolicy": "All browser mutations intercepted; no backend writes; no inquiry success test",
+  "total": 2,
+  "passed": 1,
+  "failed": 1,
+  "results": [
+    {
+      "name": "chromium motion pause and resume",
+      "pass": false,
+      "detail": "Error: Paused canvas kept responding to time/pointer movement\n    at ensure (F:\\Projects\\all the comm\\tests\\renewal.cjs:24:60)\n    at F:\\Projects\\all the comm\\tests\\renewal.cjs:299:9\n    at async test (F:\\Projects\\all the comm\\tests\\renewal.cjs:31:24)\n    at async motionTest (F:\\Projects\\all the comm\\tests\\renewal.cjs:277:5)\n    at async F:\\Projects\\all the comm\\tests\\renewal.cjs:324:25"
+    },
+    {
+      "name": "chromium changing reduced-motion preference stops continuous motion",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "mutations": [],
+  "browserMessages": []
+}

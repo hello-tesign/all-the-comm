@@ -1,0 +1,213 @@
+{
+  "testedAt": "2026-10-12T12:29:38.880Z",
+  "scope": "Fresh isolated local server and two independent Chromium browser contexts. Public contact and administrator interface exercised end to end. No production store or external mail used.",
+  "checks": 41,
+  "failed": 0,
+  "results": [
+    {
+      "name": "test uses a fresh isolated store and never the production inbox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact service query preselects the requested service",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "privacy consent is initially unchecked",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "temporary submission failure preserves entered company and attachment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "real contact submission returns a durable receipt and visible success",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "successful submission resets the form after receipt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "administrator reads the exact frontend receipt services and message",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "a separate anonymous browser cannot download the inquiry attachment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "administrator download contains exactly the attached file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "English contact uses an English completion message",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "English frontend locale and receipt are stored with exact attachment bytes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "administrator creates a private project through the actual editor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "publishing from administrator editor exposes the public detail link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full English fields remain populated after the editor reloads saved data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "server-rendered raw HTML identifies the actual project before JavaScript",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "server-rendered project description canonical and hreflang match the new slug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "server-rendered scalar content and embedded data escape HTML",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new project raw HTML does not claim the self-project film or outcome",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "English raw HTML includes fully authored English client scope and outcome",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "the real WORKS frontend shows the newly published project",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WORKS performs the real PR filter without showing unrelated self-project",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "the actual project URL renders stored content from the common shell",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "project gallery displays saved caption and loaded image",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "project canonical points to its unique public URL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "the English detail uses the provided English title and summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "the English browser page preserves authored English body after API hydration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "featured project appears on the real homepage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unpublishing returns an actual HTTP 404 for the project URL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unpublishing also returns HTTP 404 for the English URL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unpublishing revokes anonymous access to the project image",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unpublished project disappears from WORKS and its now-empty PR filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "isolated self-case can be unpublished without modifying any main data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no static publication bypass: /works/project/all-the-comm/index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no static publication bypass: /en/works/project/all-the-comm/index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no static publication bypass: /WORKS/PROJECT/ALL-THE-COMM/INDEX.HTML",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no static publication bypass: /works//project//all-the-comm//index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no static publication bypass: /works/project/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no static publication bypass: /works/project/index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no unhandled browser JavaScript errors during the full flow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no external HTTP requests or email sends in the test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "isolated server does not leak open FileHandles during its lifecycle",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

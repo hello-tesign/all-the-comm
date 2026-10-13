@@ -1,0 +1,197 @@
+{
+  "scope": "Public GET-only visual review; no assets reused; per-site time limit 30 seconds",
+  "results": [
+    {
+      "name": "plus-x",
+      "url": "https://www.plus-ex.com/",
+      "date": "2026-10-12T14:15:36.726Z",
+      "errors": [],
+      "navigationError": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://www.plus-ex.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.plus-ex.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "finalUrl": "chrome-error://chromewebdata/",
+      "title": "",
+      "top": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "middle": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "captured": true
+    },
+    {
+      "name": "dfy",
+      "url": "https://dfy.co.kr/",
+      "date": "2026-10-12T14:15:36.750Z",
+      "errors": [],
+      "navigationError": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://dfy.co.kr/\nCall log:\n\u001b[2m  - navigating to \"https://dfy.co.kr/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "finalUrl": "chrome-error://chromewebdata/",
+      "title": "",
+      "top": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "middle": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "captured": true
+    },
+    {
+      "name": "innocean",
+      "url": "https://www.innocean.com/",
+      "date": "2026-10-12T14:15:42.187Z",
+      "errors": [],
+      "navigationError": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://www.innocean.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.innocean.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "finalUrl": "chrome-error://chromewebdata/",
+      "title": "",
+      "top": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "middle": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "captured": true
+    },
+    {
+      "name": "basic-dept",
+      "url": "https://www.basicagency.com",
+      "date": "2026-10-12T14:15:42.211Z",
+      "errors": [],
+      "navigationError": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://www.basicagency.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.basicagency.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "finalUrl": "chrome-error://chromewebdata/",
+      "title": "",
+      "top": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "middle": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "captured": true
+    },
+    {
+      "name": "collins",
+      "url": "https://wearecollins.com/",
+      "date": "2026-10-12T14:15:47.627Z",
+      "errors": [],
+      "navigationError": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://wearecollins.com/\nCall log:\n\u001b[2m  - navigating to \"https://wearecollins.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "finalUrl": "chrome-error://chromewebdata/",
+      "title": "",
+      "top": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "middle": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "captured": true
+    },
+    {
+      "name": "instrument",
+      "url": "https://instrument.com/",
+      "date": "2026-10-12T14:15:47.613Z",
+      "errors": [],
+      "navigationError": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://instrument.com/\nCall log:\n\u001b[2m  - navigating to \"https://instrument.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "finalUrl": "chrome-error://chromewebdata/",
+      "title": "",
+      "top": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "middle": {
+        "scrollY": 0,
+        "scrollHeight": 1000,
+        "bodyText": "",
+        "headings": [],
+        "images": [],
+        "videos": [],
+        "canvases": 0,
+        "animations": 0,
+        "links": []
+      },
+      "captured": true
+    }
+  ]
+}

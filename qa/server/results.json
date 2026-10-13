@@ -1,0 +1,184 @@
+{
+  "testedAt": "2026-10-12T12:58:05.444Z",
+  "checks": 44,
+  "failed": 0,
+  "scope": "Local isolated API server; no external email sent",
+  "results": [
+    {
+      "name": "10 services plus other and explicit attachment limits",
+      "passed": true
+    },
+    {
+      "name": "private inquiry list requires authentication",
+      "passed": true
+    },
+    {
+      "name": "wrong password rejected",
+      "passed": true
+    },
+    {
+      "name": "cross-origin login rejected",
+      "passed": true
+    },
+    {
+      "name": "HttpOnly SameSite Strict session and no-store",
+      "passed": true
+    },
+    {
+      "name": "admin writes require session CSRF token",
+      "passed": true
+    },
+    {
+      "name": "privacy consent validated on server",
+      "passed": true
+    },
+    {
+      "name": "unknown service rejected",
+      "passed": true
+    },
+    {
+      "name": "email format validated",
+      "passed": true
+    },
+    {
+      "name": "honeypot rejects automated field submission",
+      "passed": true
+    },
+    {
+      "name": "attachment magic MIME and extension must agree",
+      "passed": true
+    },
+    {
+      "name": "SVG payload disguised as image rejected",
+      "passed": true
+    },
+    {
+      "name": "concurrent retries create exactly one durable receipt",
+      "passed": true
+    },
+    {
+      "name": "idempotency key cannot overwrite submitted content",
+      "passed": true
+    },
+    {
+      "name": "identical recent content deduplicated with a new request key",
+      "passed": true
+    },
+    {
+      "name": "admin sees exact fields locale consent and attachment metadata",
+      "passed": true
+    },
+    {
+      "name": "attachment is unavailable without administrator authentication",
+      "passed": true
+    },
+    {
+      "name": "authenticated attachment download has exact bytes and download-only headers",
+      "passed": true
+    },
+    {
+      "name": "inquiry processing status can be saved",
+      "passed": true
+    },
+    {
+      "name": "private data is outside static paths",
+      "passed": true
+    },
+    {
+      "name": "encoded Windows path traversal rejected",
+      "passed": true
+    },
+    {
+      "name": "initial public portfolio contains no invented external clients",
+      "passed": true
+    },
+    {
+      "name": "administrator creates a draft project",
+      "passed": true
+    },
+    {
+      "name": "draft detail API is private",
+      "passed": true
+    },
+    {
+      "name": "draft public page is private",
+      "passed": true
+    },
+    {
+      "name": "admin image upload succeeds",
+      "passed": true
+    },
+    {
+      "name": "draft uploaded media is not public",
+      "passed": true
+    },
+    {
+      "name": "admin can preview draft uploaded media",
+      "passed": true
+    },
+    {
+      "name": "publication requires explicit disclosure confirmation",
+      "passed": true
+    },
+    {
+      "name": "approved complete case can publish",
+      "passed": true
+    },
+    {
+      "name": "published project fields and media appear in public API",
+      "passed": true
+    },
+    {
+      "name": "published project image becomes public",
+      "passed": true
+    },
+    {
+      "name": "project order persists through reorder API",
+      "passed": true
+    },
+    {
+      "name": "dynamic sitemap contains published case URLs",
+      "passed": true
+    },
+    {
+      "name": "inquiry attachment metadata and processing state survive restart",
+      "passed": true
+    },
+    {
+      "name": "published case and image metadata survive restart",
+      "passed": true
+    },
+    {
+      "name": "published project can be made private",
+      "passed": true
+    },
+    {
+      "name": "unpublishing removes direct public API access",
+      "passed": true
+    },
+    {
+      "name": "unpublishing also removes public image access",
+      "passed": true
+    },
+    {
+      "name": "unpublished project is absent from sitemap",
+      "passed": true
+    },
+    {
+      "name": "project deletion works",
+      "passed": true
+    },
+    {
+      "name": "new inquiry rate limit rejects excess submissions",
+      "passed": true
+    },
+    {
+      "name": "logout succeeds",
+      "passed": true
+    },
+    {
+      "name": "logout invalidates existing session",
+      "passed": true
+    }
+  ]
+}

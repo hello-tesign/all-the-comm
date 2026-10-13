@@ -1,0 +1,98 @@
+[
+  {
+    "route": "team",
+    "stage": "top",
+    "top": -100,
+    "bottom": -46.40625,
+    "focus": false,
+    "active": "BODY",
+    "position": "fixed",
+    "transform": "none",
+    "visibility": "visible",
+    "scrollY": 0
+  },
+  {
+    "route": "team",
+    "stage": "viewport",
+    "top": -100,
+    "bottom": -46.40625,
+    "focus": false,
+    "active": "BODY",
+    "position": "fixed",
+    "transform": "none",
+    "visibility": "visible",
+    "scrollY": 1144
+  },
+  {
+    "route": "team",
+    "stage": "after-locator",
+    "top": -100,
+    "bottom": -46.40625,
+    "focus": false,
+    "active": "BODY",
+    "position": "fixed",
+    "transform": "none",
+    "visibility": "visible",
+    "scrollY": 1144
+  },
+  {
+    "route": "team",
+    "stage": "keyboard-focus",
+    "top": -100,
+    "bottom": -46.40625,
+    "focus": true,
+    "active": "A",
+    "position": "fixed",
+    "transform": "none",
+    "visibility": "visible",
+    "scrollY": 1144
+  },
+  {
+    "route": "contact",
+    "stage": "top",
+    "top": -100,
+    "bottom": -46.40625,
+    "focus": false,
+    "active": "BODY",
+    "position": "fixed",
+    "transform": "none",
+    "visibility": "visible",
+    "scrollY": 0
+  },
+  {
+    "route": "contact",
+    "stage": "viewport",
+    "top": -100,
+    "bottom": -46.40625,
+    "focus": false,
+    "active": "BODY",
+    "position": "fixed",
+    "transform": "none",
+    "visibility": "visible",
+    "scrollY": 1593
+  },
+  {
+    "route": "contact",
+    "stage": "after-locator",
+    "top": -100,
+    "bottom": -46.40625,
+    "focus": false,
+    "active": "BODY",
+    "position": "fixed",
+    "transform": "none",
+    "visibility": "visible",
+    "scrollY": 1593
+  },
+  {
+    "route": "contact",
+    "stage": "keyboard-focus",
+    "top": -100,
+    "bottom": -46.40625,
+    "focus": true,
+    "active": "A",
+    "position": "fixed",
+    "transform": "none",
+    "visibility": "visible",
+    "scrollY": 1593
+  }
+]

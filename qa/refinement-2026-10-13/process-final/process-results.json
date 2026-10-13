@@ -1,0 +1,461 @@
+{
+  "date": "2026-10-13T02:18:48.338Z",
+  "scope": "Post-substitution PROCESS only, 1440x900, three engines, GET/HEAD/OPTIONS only; no production deployment or inquiry submission.",
+  "base": "http://127.0.0.1:4173",
+  "passed": 48,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "chromium /process/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "chromium /process/ PROCESS retains four stages and navigation",
+      "passed": true
+    },
+    {
+      "name": "chromium /process/ PROCESS 0 active stage",
+      "passed": true
+    },
+    {
+      "name": "chromium /process/ PROCESS 0 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+        "loaded": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "chromium /process/ PROCESS 1 active stage",
+      "passed": true
+    },
+    {
+      "name": "chromium /process/ PROCESS 1 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "loaded": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "chromium /process/ planning stage uses ReviewAtelier editor with accurate caption and no exhibition poster",
+      "passed": true,
+      "detail": {
+        "caption": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품",
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "loaded": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050,
+        "noPoster": true
+      }
+    },
+    {
+      "name": "chromium /process/ PROCESS 2 active stage",
+      "passed": true
+    },
+    {
+      "name": "chromium /process/ PROCESS 2 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+        "loaded": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "chromium /process/ PROCESS 3 active stage",
+      "passed": true
+    },
+    {
+      "name": "chromium /process/ PROCESS 3 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+        "loaded": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1558
+      }
+    },
+    {
+      "name": "chromium /process/ four distinct process materials",
+      "passed": true,
+      "detail": [
+        "/portfolio/site-tesign-radar.png",
+        "/portfolio/saas-ea-editor.png",
+        "/evidence/expansion/book-judgment-loop.webp",
+        "/portfolio/saas-tesign-workflow.png"
+      ]
+    },
+    {
+      "name": "chromium /process/ no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium /process/ reduced restores four inline stage outputs",
+      "passed": true
+    },
+    {
+      "name": "chromium /process/ re-enabled process has one stage",
+      "passed": true
+    },
+    {
+      "name": "firefox /process/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "firefox /process/ PROCESS retains four stages and navigation",
+      "passed": true
+    },
+    {
+      "name": "firefox /process/ PROCESS 0 active stage",
+      "passed": true
+    },
+    {
+      "name": "firefox /process/ PROCESS 0 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+        "loaded": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "firefox /process/ PROCESS 1 active stage",
+      "passed": true
+    },
+    {
+      "name": "firefox /process/ PROCESS 1 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "loaded": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "firefox /process/ planning stage uses ReviewAtelier editor with accurate caption and no exhibition poster",
+      "passed": true,
+      "detail": {
+        "caption": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품",
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "loaded": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050,
+        "noPoster": true
+      }
+    },
+    {
+      "name": "firefox /process/ PROCESS 2 active stage",
+      "passed": true
+    },
+    {
+      "name": "firefox /process/ PROCESS 2 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+        "loaded": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "firefox /process/ PROCESS 3 active stage",
+      "passed": true
+    },
+    {
+      "name": "firefox /process/ PROCESS 3 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+        "loaded": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1558
+      }
+    },
+    {
+      "name": "firefox /process/ four distinct process materials",
+      "passed": true,
+      "detail": [
+        "/portfolio/site-tesign-radar.png",
+        "/portfolio/saas-ea-editor.png",
+        "/evidence/expansion/book-judgment-loop.webp",
+        "/portfolio/saas-tesign-workflow.png"
+      ]
+    },
+    {
+      "name": "firefox /process/ no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox /process/ reduced restores four inline stage outputs",
+      "passed": true
+    },
+    {
+      "name": "firefox /process/ re-enabled process has one stage",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "webkit /process/ PROCESS retains four stages and navigation",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ PROCESS 0 active stage",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ PROCESS 0 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+        "loaded": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit /process/ PROCESS 1 active stage",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ PROCESS 1 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "loaded": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit /process/ planning stage uses ReviewAtelier editor with accurate caption and no exhibition poster",
+      "passed": true,
+      "detail": {
+        "caption": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품",
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "loaded": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050,
+        "noPoster": true
+      }
+    },
+    {
+      "name": "webkit /process/ PROCESS 2 active stage",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ PROCESS 2 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+        "loaded": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit /process/ PROCESS 3 active stage",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ PROCESS 3 output loads",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+        "loaded": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1558
+      }
+    },
+    {
+      "name": "webkit /process/ four distinct process materials",
+      "passed": true,
+      "detail": [
+        "/portfolio/site-tesign-radar.png",
+        "/portfolio/saas-ea-editor.png",
+        "/evidence/expansion/book-judgment-loop.webp",
+        "/portfolio/saas-tesign-workflow.png"
+      ]
+    },
+    {
+      "name": "webkit /process/ no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ reduced restores four inline stage outputs",
+      "passed": true
+    },
+    {
+      "name": "webkit /process/ re-enabled process has one stage",
+      "passed": true
+    },
+    {
+      "name": "No runtime JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No inquiry or other write requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "stages": [
+    {
+      "engine": "chromium",
+      "index": 0,
+      "caption": "고객이 찾는 정보를 먼저 구조화합니다.\n정보 탐색 설계 · TESIGN Radar",
+      "src": "/portfolio/site-tesign-radar.png",
+      "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+      "loaded": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "engine": "chromium",
+      "index": 1,
+      "caption": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품",
+      "src": "/portfolio/saas-ea-editor.png",
+      "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+      "loaded": true,
+      "naturalWidth": 1600,
+      "naturalHeight": 1050
+    },
+    {
+      "engine": "chromium",
+      "index": 2,
+      "caption": "내용에 맞는 형식으로 세부를 완성합니다.\n저술·편집 · 세일즈 리허설",
+      "src": "/evidence/expansion/book-judgment-loop.webp",
+      "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+      "loaded": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "engine": "chromium",
+      "index": 3,
+      "caption": "담당자에게 작업의 맥락까지 전달합니다.\n내부 업무 도구 · 검수용 데이터",
+      "src": "/portfolio/saas-tesign-workflow.png",
+      "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+      "loaded": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1558
+    },
+    {
+      "engine": "firefox",
+      "index": 0,
+      "caption": "고객이 찾는 정보를 먼저 구조화합니다.\n정보 탐색 설계 · TESIGN Radar",
+      "src": "/portfolio/site-tesign-radar.png",
+      "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+      "loaded": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "engine": "firefox",
+      "index": 1,
+      "caption": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품",
+      "src": "/portfolio/saas-ea-editor.png",
+      "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+      "loaded": true,
+      "naturalWidth": 1600,
+      "naturalHeight": 1050
+    },
+    {
+      "engine": "firefox",
+      "index": 2,
+      "caption": "내용에 맞는 형식으로 세부를 완성합니다.\n저술·편집 · 세일즈 리허설",
+      "src": "/evidence/expansion/book-judgment-loop.webp",
+      "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+      "loaded": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "engine": "firefox",
+      "index": 3,
+      "caption": "담당자에게 작업의 맥락까지 전달합니다.\n내부 업무 도구 · 검수용 데이터",
+      "src": "/portfolio/saas-tesign-workflow.png",
+      "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+      "loaded": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1558
+    },
+    {
+      "engine": "webkit",
+      "index": 0,
+      "caption": "고객이 찾는 정보를 먼저 구조화합니다.\n정보 탐색 설계 · TESIGN Radar",
+      "src": "/portfolio/site-tesign-radar.png",
+      "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+      "loaded": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "engine": "webkit",
+      "index": 1,
+      "caption": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품",
+      "src": "/portfolio/saas-ea-editor.png",
+      "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+      "loaded": true,
+      "naturalWidth": 1600,
+      "naturalHeight": 1050
+    },
+    {
+      "engine": "webkit",
+      "index": 2,
+      "caption": "내용에 맞는 형식으로 세부를 완성합니다.\n저술·편집 · 세일즈 리허설",
+      "src": "/evidence/expansion/book-judgment-loop.webp",
+      "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+      "loaded": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "engine": "webkit",
+      "index": 3,
+      "caption": "담당자에게 작업의 맥락까지 전달합니다.\n내부 업무 도구 · 검수용 데이터",
+      "src": "/portfolio/saas-tesign-workflow.png",
+      "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+      "loaded": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1558
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "writes": []
+}

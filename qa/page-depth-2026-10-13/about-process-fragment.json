@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-13T02:26:54.890Z",
+  "cssWarnings": [],
+  "records": [
+    {
+      "name": "about",
+      "scope": "Isolated fragment preview, not integrated build",
+      "height": 1590,
+      "width": 1440,
+      "viewport": 1440,
+      "images": [
+        {
+          "src": "/evidence/diverse/jonghae-home.png",
+          "alt": "종해문화진흥원의 활동 사진과 기관 소개, 자료 공개를 연결한 홈페이지",
+          "naturalWidth": 1440,
+          "naturalHeight": 1000,
+          "width": 752.75,
+          "height": 522.734375
+        },
+        {
+          "src": "/portfolio/site-soulreset.png",
+          "alt": "SoulReset의 여행 장면과 서비스 탐색, 상담 진입을 담은 웹사이트 첫 화면",
+          "naturalWidth": 1440,
+          "naturalHeight": 900,
+          "width": 752.765625,
+          "height": 470.46875
+        }
+      ],
+      "links": [
+        "/works/project/jonghae-community/",
+        "/works/project/jonghae-community/",
+        "/works/project/soulreset/",
+        "/works/project/soulreset/"
+      ]
+    },
+    {
+      "name": "process",
+      "scope": "Isolated fragment preview, not integrated build",
+      "height": 1816,
+      "width": 1440,
+      "viewport": 1440,
+      "images": [],
+      "links": []
+    }
+  ]
+}

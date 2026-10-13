@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>All The Communication — Three paths, one direction</title>
+  <style>
+    @font-face{font-family:'BrandSans';src:url('vendor/Manrope.ttf') format('truetype');font-weight:200 800}
+    @font-face{font-family:'BrandKorean';src:url('vendor/PretendardSite.woff2') format('woff2');font-weight:100 900}
+    *{box-sizing:border-box}html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#061c25}
+    body{font-family:'BrandSans','BrandKorean',sans-serif;color:#e8f5f3}
+    #stage{position:relative;width:1920px;height:1080px;overflow:hidden;background:#061c25}
+    .wash{position:absolute;inset:0;background:radial-gradient(ellipse at 69% 51%,#164b54 0,transparent 54%)}
+    .grain{position:absolute;inset:0;opacity:.045;pointer-events:none;filter:url(#noise);background:#bffced;mix-blend-mode:screen}
+    .word{position:absolute;left:96px;top:108px;letter-spacing:-27px;font-size:340px;font-weight:600;line-height:.88;white-space:nowrap;opacity:.98}
+    .word-bottom{top:692px;left:95px;font-size:300px;letter-spacing:-22px}
+    .word i{font-style:normal;color:#63dfc8}
+    .sculpture{position:absolute;width:880px;height:880px;left:944px;top:97px;overflow:visible;filter:drop-shadow(0 42px 30px #00141e88)}
+    .ribbon{transform-origin:440px 440px}
+    .caption{position:absolute;left:111px;top:514px;font-size:27px;line-height:1.7;letter-spacing:-.7px;color:#d4e3e3}
+    .signature{position:absolute;left:108px;bottom:62px;font-size:18px;letter-spacing:3px;color:#a5c5c9}
+    .closing{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#061c25;opacity:0}
+    .closing .en{font-size:103px;letter-spacing:-5.5px;line-height:1.05;font-weight:500;text-align:center}
+    .closing .ko{font-size:24px;letter-spacing:4px;margin-top:38px;color:#a3c5c8}
+    .closing-mark{width:204px;height:204px;margin-bottom:50px;overflow:visible}
+    .light{position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%,#d4fff80d 48%,transparent 60%);mix-blend-mode:screen}
+  </style>
+</head>
+<body>
+  <main id="stage" data-composition-id="brand-ribbon" data-start="0" data-duration="8" data-width="1920" data-height="1080">
+    <svg width="0" height="0" aria-hidden="true"><defs><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" seed="21" stitchTiles="stitch"/></filter></defs></svg>
+    <div id="background-wash" class="wash clip" data-start="0" data-duration="8" data-track-index="0"></div>
+    <div id="title-first" class="word word-top clip" data-start="0" data-duration="8" data-track-index="1">ALL THE</div>
+    <div id="title-second" class="word word-bottom clip" data-start="0" data-duration="8" data-track-index="1"><i>COMM.</i></div>
+    <p id="brand-description" class="caption clip" data-start="0" data-duration="8" data-track-index="2">Strategy, design and execution.<br>Connected by one clear direction.</p>
+    <svg id="brand-sculpture" class="sculpture clip" viewBox="0 0 880 880" data-start="0" data-duration="8" data-track-index="3" aria-label="Three spatial curves derived from the company symbol">
+      <defs>
+        <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#397d83"/><stop offset=".18" stop-color="#d1faf0"/><stop offset=".31" stop-color="#62c7bc"/><stop offset=".45" stop-color="#114b59"/><stop offset=".63" stop-color="#81d8c7"/><stop offset=".85" stop-color="#2f899c"/><stop offset="1" stop-color="#d0fcf3"/></linearGradient>
+        <linearGradient id="ice" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#8cbbb9"/><stop offset=".24" stop-color="#f0fffc"/><stop offset=".42" stop-color="#65959e"/><stop offset=".63" stop-color="#b6e6e1"/><stop offset=".87" stop-color="#579a9a"/><stop offset="1" stop-color="#e1f8f3"/></linearGradient>
+        <linearGradient id="cut" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#072b37"/><stop offset=".4" stop-color="#72d9c8"/><stop offset="1" stop-color="#0e4f63"/></linearGradient>
+      </defs>
+      <g class="ribbon ribbon-outer">
+        <path d="M440 750a310 310 0 1 1 310-310v310H518" fill="none" stroke="url(#cut)" stroke-width="64" transform="translate(14 20)"/>
+        <path d="M440 750a310 310 0 1 1 310-310v310H518" fill="none" stroke="url(#metal)" stroke-width="57"/>
+        <path d="M440 720a280 280 0 1 1 280-280v280H518" fill="none" stroke="#d3fff4" stroke-opacity=".6" stroke-width="1.5"/>
+      </g>
+      <g class="ribbon ribbon-middle">
+        <path d="M440 648a208 208 0 1 1 208-208v208H518" fill="none" stroke="url(#cut)" stroke-width="59" transform="translate(18 26)"/>
+        <path d="M440 648a208 208 0 1 1 208-208v208H518" fill="none" stroke="url(#ice)" stroke-width="53"/>
+        <path d="M440 621a181 181 0 1 1 181-181v181H518" fill="none" stroke="#edfffc" stroke-opacity=".55" stroke-width="1.5"/>
+      </g>
+      <g class="ribbon ribbon-inner">
+        <path d="M440 550a110 110 0 1 1 110-110v110H518" fill="none" stroke="url(#cut)" stroke-width="56" transform="translate(23 30)"/>
+        <path d="M440 550a110 110 0 1 1 110-110v110H518" fill="none" stroke="url(#metal)" stroke-width="49"/>
+      </g>
+    </svg>
+    <div id="brand-signature" class="signature clip" data-start="0" data-duration="8" data-track-index="4">ALL THE COMMUNICATION</div>
+    <div id="light-pass" class="light clip" data-start="0" data-duration="8" data-track-index="5"></div>
+    <div id="film-grain" class="grain clip" data-start="0" data-duration="8" data-track-index="6"></div>
+    <div id="closing-frame" class="closing clip" data-start="0" data-duration="8" data-track-index="7">
+      <img class="closing-mark" src="vendor/logo-symbol.svg" alt="All The Communication official symbol">
+      <div class="en">ALL THE<br>COMMUNICATION</div>
+      <div class="ko">올더커뮤니케이션</div>
+    </div>
+  </main>
+  <script src="vendor/gsap.min.js"></script>
+  <script>
+    // A single paused clock makes preview, reverse seek, and frame export identical.
+    const tl = gsap.timeline({paused:true});
+    tl.set('.sculpture',{rotation:-23,skewY:7,scale:.94,transformOrigin:'50% 50%'},0)
+      .fromTo('.ribbon-outer',{rotation:-18,x:160,y:-120},{rotation:0,x:0,y:0,duration:1.5,ease:'power3.out'},0)
+      .fromTo('.ribbon-middle',{rotation:12,x:-90,y:150},{rotation:0,x:0,y:0,duration:1.6,ease:'power3.out'},.14)
+      .fromTo('.ribbon-inner',{rotation:-30,x:120,y:180},{rotation:0,x:0,y:0,duration:1.7,ease:'power3.out'},.25)
+      .fromTo('.word-top',{x:-50,opacity:0},{x:0,opacity:1,duration:1.0,ease:'power3.out'},.15)
+      .fromTo('.word-bottom',{x:80,opacity:0},{x:0,opacity:1,duration:1.1,ease:'power3.out'},.35)
+      .fromTo('.caption',{y:28,opacity:0},{y:0,opacity:1,duration:.9,ease:'power3.out'},.65)
+      .to('.sculpture',{rotation:-16,scale:1.04,y:-10,duration:4.2,ease:'sine.inOut'},1.1)
+      .to('.ribbon-middle',{x:8,y:-13,duration:3.4,ease:'sine.inOut'},1.8)
+      .fromTo('.light',{x:-1700},{x:1600,duration:3.6,ease:'sine.inOut'},1.3)
+      .to('.closing',{opacity:1,duration:.65,ease:'power2.inOut'},5.25)
+      .fromTo('.closing-mark',{y:20,scale:.92},{y:0,scale:1,duration:1.25,ease:'power3.out'},5.2)
+      .fromTo('.closing .en',{y:24,opacity:0},{y:0,opacity:1,duration:.95,ease:'power3.out'},5.4)
+      .fromTo('.closing .ko',{y:16,opacity:0},{y:0,opacity:1,duration:.8,ease:'power3.out'},5.65)
+      .to('#stage',{opacity:0,duration:.45,ease:'sine.inOut'},7.55);
+    window.__timelines = {'brand-ribbon':tl};
+    window.__brandSeek = seconds => { tl.seek(seconds, false); };
+  </script>
+</body>
+</html>

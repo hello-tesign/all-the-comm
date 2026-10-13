@@ -1,0 +1,73 @@
+{
+  "source": "C:\\Users\\home\\Downloads\\세일즈리허설.pdf",
+  "pages": 340,
+  "page_points": [
+    431.03998,
+    637.91998
+  ],
+  "page_mm": [
+    152.06132627777777,
+    225.04399294444443
+  ],
+  "sha256_before": "96ad31339eab33a0365d1d7c59e546354d495cbe8760abb2969500345e8d91c7",
+  "sha256_after": "96ad31339eab33a0365d1d7c59e546354d495cbe8760abb2969500345e8d91c7",
+  "original_unchanged": true,
+  "assets": [
+    {
+      "pdf_page": 1,
+      "asset": "/evidence/expansion/book-cover.webp",
+      "width": 1352,
+      "height": 2000,
+      "bytes": 238572,
+      "encoding": "lossy WebP quality91",
+      "private_contact_pattern_matches": []
+    },
+    {
+      "pdf_page": 194,
+      "asset": "/evidence/expansion/book-part-opener.webp",
+      "width": 1352,
+      "height": 2000,
+      "bytes": 108690,
+      "encoding": "lossless WebP",
+      "private_contact_pattern_matches": []
+    },
+    {
+      "pdf_page": 228,
+      "asset": "/evidence/expansion/book-judgment-loop.webp",
+      "width": 1352,
+      "height": 2000,
+      "bytes": 44976,
+      "encoding": "lossless WebP",
+      "private_contact_pattern_matches": []
+    },
+    {
+      "pdf_page": 263,
+      "asset": "/evidence/expansion/book-editorial-story.webp",
+      "width": 1352,
+      "height": 2000,
+      "bytes": 172426,
+      "encoding": "lossless WebP",
+      "private_contact_pattern_matches": []
+    },
+    {
+      "pdf_page": 323,
+      "asset": "/evidence/expansion/book-workbook.webp",
+      "width": 1352,
+      "height": 2000,
+      "bytes": 46480,
+      "encoding": "lossless WebP",
+      "private_contact_pattern_matches": []
+    }
+  ],
+  "visual_review": {
+    "completed": true,
+    "pages": [
+      1,
+      194,
+      228,
+      263,
+      323
+    ],
+    "notes": "Each final full-page image viewed. Original title, page number, captions and credits preserved. No clipped glyphs or missing diagrams observed. Page323 chosen for an airy worksheet layout with complete prompts and writing lines."
+  }
+}

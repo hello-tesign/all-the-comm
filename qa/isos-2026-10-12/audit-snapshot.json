@@ -1,0 +1,660 @@
+[
+  {
+    "name": "home",
+    "url": "/",
+    "errors": [],
+    "bodyClass": "home",
+    "h1": "브랜드의 생각을\n세상의 장면으로.",
+    "height": 6444,
+    "overflow": false,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "home-hero",
+        "height": 960,
+        "heading": "브랜드의 생각을세상의 장면으로.",
+        "reveals": []
+      },
+      {
+        "tag": "SECTION",
+        "id": "capabilities",
+        "cls": "capabilities-section section-pad",
+        "height": 1066,
+        "heading": "필요한 일을,함께 풀어갑니다.",
+        "reveals": [
+          "H2"
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "id": "projects",
+        "cls": "projects-section section-pad",
+        "height": 2014,
+        "heading": "생각이 보이는 순간.",
+        "reveals": [
+          "H2"
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "process-preview section-pad",
+        "height": 953,
+        "heading": "기획의 이유가결과에 남도록.",
+        "reveals": [
+          "H2"
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "about-preview section-pad",
+        "height": 789,
+        "heading": "필요한 순간에,함께 생각할 팀.",
+        "reveals": [
+          "H2"
+        ]
+      }
+    ],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": "/about/"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "/process/"
+      },
+      {
+        "text": "TEAM",
+        "href": "/team/"
+      },
+      {
+        "text": "WORKS",
+        "href": "/works/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "/contact/"
+      }
+    ],
+    "motionElements": [
+      {
+        "cls": "",
+        "tag": "H2",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "",
+        "tag": "H2",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "",
+        "tag": "H2",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "",
+        "tag": "H2",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "name": "about",
+    "url": "/about/",
+    "errors": [],
+    "bodyClass": "",
+    "h1": "함께 생각할 사람들.\n끝까지 이어질 실행.",
+    "height": 3490,
+    "overflow": false,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "page-hero",
+        "height": 609,
+        "heading": "함께 생각할 사람들.끝까지 이어질 실행.",
+        "reveals": []
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "about-story section-pad shell",
+        "height": 819,
+        "heading": "할 일은 많은데,함께할 팀이 필요할 때.",
+        "reveals": [
+          "H2"
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "principles-section section-pad",
+        "height": 849,
+        "heading": "일하는 방식이회사를 설명합니다.",
+        "reveals": [
+          "H2",
+          "principle",
+          "principle",
+          "principle",
+          "principle",
+          "principle"
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "company-section section-pad shell",
+        "height": 551,
+        "heading": "고객의 선택으로이어지는 커뮤니케이션.",
+        "reveals": []
+      }
+    ],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": "/about/"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "/process/"
+      },
+      {
+        "text": "TEAM",
+        "href": "/team/"
+      },
+      {
+        "text": "WORKS",
+        "href": "/works/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "/contact/"
+      }
+    ],
+    "motionElements": [
+      {
+        "cls": "",
+        "tag": "H2",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "",
+        "tag": "H2",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "principle",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "principle",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "principle",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "principle",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "principle",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "name": "process",
+    "url": "/process/",
+    "errors": [],
+    "bodyClass": "",
+    "h1": "처음의 질문을,\n마지막 결과까지.",
+    "height": 3796,
+    "overflow": false,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "page-hero",
+        "height": 609,
+        "heading": "처음의 질문을,마지막 결과까지.",
+        "reveals": []
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "process-chapters shell",
+        "height": 2525,
+        "heading": "먼저, 사업을 이해합니다.",
+        "reveals": [
+          "chapter-copy",
+          "chapter-copy",
+          "chapter-copy",
+          "chapter-copy"
+        ]
+      },
+      {
+        "tag": "ARTICLE",
+        "id": "step-1",
+        "cls": "process-chapter",
+        "height": 590,
+        "heading": "먼저, 사업을 이해합니다.",
+        "reveals": [
+          "chapter-copy"
+        ]
+      },
+      {
+        "tag": "ARTICLE",
+        "id": "step-2",
+        "cls": "process-chapter",
+        "height": 590,
+        "heading": "움직일 방향을 정합니다.",
+        "reveals": [
+          "chapter-copy"
+        ]
+      },
+      {
+        "tag": "ARTICLE",
+        "id": "step-3",
+        "cls": "process-chapter",
+        "height": 590,
+        "heading": "각자의 전문성으로 만듭니다.",
+        "reveals": [
+          "chapter-copy"
+        ]
+      },
+      {
+        "tag": "ARTICLE",
+        "id": "step-4",
+        "cls": "process-chapter",
+        "height": 590,
+        "heading": "결과에서 다음을 찾습니다.",
+        "reveals": [
+          "chapter-copy"
+        ]
+      }
+    ],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": "/about/"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "/process/"
+      },
+      {
+        "text": "TEAM",
+        "href": "/team/"
+      },
+      {
+        "text": "WORKS",
+        "href": "/works/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "/contact/"
+      }
+    ],
+    "motionElements": [
+      {
+        "cls": "chapter-copy",
+        "tag": "DIV",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "chapter-copy",
+        "tag": "DIV",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "chapter-copy",
+        "tag": "DIV",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "chapter-copy",
+        "tag": "DIV",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "name": "team",
+    "url": "/team/",
+    "errors": [],
+    "bodyClass": "",
+    "h1": "관점은 다르게.\n목표는 함께.",
+    "height": 2420,
+    "overflow": false,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "page-hero",
+        "height": 609,
+        "heading": "관점은 다르게.목표는 함께.",
+        "reveals": []
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "team-experience section-pad shell",
+        "height": 1149,
+        "heading": "하나의 과제를여러 시선으로.",
+        "reveals": []
+      }
+    ],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": "/about/"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "/process/"
+      },
+      {
+        "text": "TEAM",
+        "href": "/team/"
+      },
+      {
+        "text": "WORKS",
+        "href": "/works/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "/contact/"
+      }
+    ],
+    "motionElements": []
+  },
+  {
+    "name": "works",
+    "url": "/works/",
+    "errors": [],
+    "bodyClass": "works-page",
+    "h1": "서로 다른 전문성,\n하나의 프로젝트.",
+    "height": 5587,
+    "overflow": false,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "page-hero",
+        "height": 609,
+        "heading": "서로 다른 전문성,하나의 프로젝트.",
+        "reveals": []
+      },
+      {
+        "tag": "SECTION",
+        "id": "services",
+        "cls": "works-capabilities section-pad",
+        "height": 809,
+        "reveals": []
+      },
+      {
+        "tag": "SECTION",
+        "id": "projects",
+        "cls": "projects-section section-pad",
+        "height": 3429,
+        "heading": "화면으로 확인하는제작 역량.",
+        "reveals": []
+      }
+    ],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": "/about/"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "/process/"
+      },
+      {
+        "text": "TEAM",
+        "href": "/team/"
+      },
+      {
+        "text": "WORKS",
+        "href": "/works/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "/contact/"
+      }
+    ],
+    "motionElements": [
+      {
+        "cls": "project-card portfolio-piece portfolio-motion-ready",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "project-card portfolio-piece portfolio-motion-ready",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "project-card portfolio-piece portfolio-motion-ready",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "project-card portfolio-piece portfolio-motion-ready",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "project-card portfolio-piece portfolio-motion-ready",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "project-card portfolio-piece portfolio-motion-ready",
+        "tag": "ARTICLE",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "name": "contact",
+    "url": "/contact/",
+    "errors": [],
+    "bodyClass": "contact-page",
+    "h1": "어떤 일이\n필요한가요?",
+    "height": 2607,
+    "overflow": false,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "page-hero",
+        "height": 609,
+        "heading": "어떤 일이필요한가요?",
+        "reveals": []
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "contact-section section-pad shell",
+        "height": 1337,
+        "reveals": []
+      }
+    ],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": "/about/"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "/process/"
+      },
+      {
+        "text": "TEAM",
+        "href": "/team/"
+      },
+      {
+        "text": "WORKS",
+        "href": "/works/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "/contact/"
+      }
+    ],
+    "motionElements": []
+  },
+  {
+    "name": "privacy",
+    "url": "/privacy/",
+    "errors": [],
+    "bodyClass": "",
+    "h1": "개인정보 처리 안내",
+    "height": 2077,
+    "overflow": false,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "page-hero",
+        "height": 498,
+        "heading": "개인정보 처리 안내",
+        "reveals": []
+      },
+      {
+        "tag": "ARTICLE",
+        "id": "",
+        "cls": "policy shell section-pad",
+        "height": 917,
+        "heading": "처리 목적과 항목",
+        "reveals": []
+      }
+    ],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": "/about/"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "/process/"
+      },
+      {
+        "text": "TEAM",
+        "href": "/team/"
+      },
+      {
+        "text": "WORKS",
+        "href": "/works/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "/contact/"
+      }
+    ],
+    "motionElements": []
+  },
+  {
+    "name": "case",
+    "url": "/works/project/sojukdoo-concept/",
+    "errors": [],
+    "bodyClass": "case-page dynamic-case capture-case",
+    "h1": "소적두 — 팥부터.",
+    "height": 4427,
+    "overflow": false,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "case-hero shell",
+        "height": 639,
+        "heading": "소적두 — 팥부터.",
+        "reveals": []
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "case-cover shell portfolio-motion-ready",
+        "height": 819,
+        "reveals": []
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "cls": "case-body shell section-pad",
+        "height": 2307,
+        "heading": "프로젝트의 과제",
+        "reveals": []
+      }
+    ],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": "/about/"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "/process/"
+      },
+      {
+        "text": "TEAM",
+        "href": "/team/"
+      },
+      {
+        "text": "WORKS",
+        "href": "/works/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "/contact/"
+      }
+    ],
+    "motionElements": [
+      {
+        "cls": "case-cover shell portfolio-motion-ready",
+        "tag": "DIV",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "cls": "portfolio-motion-ready",
+        "tag": "FIGURE",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ]
+  }
+]

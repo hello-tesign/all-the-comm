@@ -1,0 +1,316 @@
+{
+  "scope": "Final Korean page-depth modules only: all seven exported HTML functions counted once. Counts include headings, captions, list labels and visible text glyphs; exclude tags and attributes. Same tag stripping and whitespace normalization applied to both versions. Not total website copy or portfolio copy.",
+  "method": "html.replace(/<[^>]*>/g, ' ').replace(/\\s+/g, ' ').trim().length",
+  "baseline": "qa/copy-edit-2026-10-13/original/*.mjs",
+  "final": "src/page-depth/*.mjs",
+  "originalCountingMethodReproduced": true,
+  "beforeChars": 5677,
+  "afterChars": 3714,
+  "reductionChars": 1963,
+  "reductionPercent": 34.58,
+  "allIdsHrefsImagesPreserved": true,
+  "reports": [
+    {
+      "file": "about-process.mjs",
+      "function": "aboutProof",
+      "beforeChars": 767,
+      "afterChars": 420,
+      "reductionPercent": 45.24,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true
+      },
+      "beforeAttributes": {
+        "ids": [
+          "about-work-evidence",
+          "apd-about-title",
+          "apd-jonghae-title",
+          "apd-soulreset-title"
+        ],
+        "hrefs": [
+          "/works/project/jonghae-community/",
+          "/works/project/jonghae-community/",
+          "/works/project/soulreset/",
+          "/works/project/soulreset/"
+        ],
+        "images": [
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "alt": "종해문화진흥원의 활동 사진과 기관 소개, 자료 공개를 연결한 홈페이지"
+          },
+          {
+            "src": "/portfolio/site-soulreset.png",
+            "alt": "SoulReset의 여행 장면과 서비스 탐색, 상담 진입을 담은 웹사이트 첫 화면"
+          }
+        ]
+      },
+      "afterAttributes": {
+        "ids": [
+          "about-work-evidence",
+          "apd-about-title",
+          "apd-jonghae-title",
+          "apd-soulreset-title"
+        ],
+        "hrefs": [
+          "/works/project/jonghae-community/",
+          "/works/project/jonghae-community/",
+          "/works/project/soulreset/",
+          "/works/project/soulreset/"
+        ],
+        "images": [
+          {
+            "src": "/evidence/diverse/jonghae-home.png",
+            "alt": "종해문화진흥원의 활동 사진과 기관 소개, 자료 공개를 연결한 홈페이지"
+          },
+          {
+            "src": "/portfolio/site-soulreset.png",
+            "alt": "SoulReset의 여행 장면과 서비스 탐색, 상담 진입을 담은 웹사이트 첫 화면"
+          }
+        ]
+      }
+    },
+    {
+      "file": "about-process.mjs",
+      "function": "processDepth",
+      "beforeChars": 1344,
+      "afterChars": 946,
+      "reductionPercent": 29.61,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true
+      },
+      "beforeAttributes": {
+        "ids": [
+          "process-practice",
+          "apd-process-title",
+          "apd-outputs-title",
+          "apd-handover-title"
+        ],
+        "hrefs": [],
+        "images": []
+      },
+      "afterAttributes": {
+        "ids": [
+          "process-practice",
+          "apd-process-title",
+          "apd-outputs-title",
+          "apd-handover-title"
+        ],
+        "hrefs": [],
+        "images": []
+      }
+    },
+    {
+      "file": "team-contact.mjs",
+      "function": "contactGuide",
+      "beforeChars": 1354,
+      "afterChars": 961,
+      "reductionPercent": 29.03,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true
+      },
+      "beforeAttributes": {
+        "ids": [
+          "contact-guide-title",
+          "contact-tool-title",
+          "contact-commerce-title",
+          "contact-brief-title",
+          "contact-faq-title"
+        ],
+        "hrefs": [
+          "/works/project/kfood-dashboard/",
+          "/works/project/kfood-dashboard/",
+          "/works/project/sojukdoo-concept/",
+          "/works/project/sojukdoo-concept/"
+        ],
+        "images": [
+          {
+            "src": "/evidence/expansion/kfood-map.png",
+            "alt": "지역 지도와 월별 품목을 연결한 먹거리사전의 산지 탐색 화면"
+          },
+          {
+            "src": "/evidence/expansion/redbean-audiences.png",
+            "alt": "일반 소비자와 카페사업자의 목적에 따라 상품 탐색을 나눈 소적두 웹 화면"
+          }
+        ]
+      },
+      "afterAttributes": {
+        "ids": [
+          "contact-guide-title",
+          "contact-tool-title",
+          "contact-commerce-title",
+          "contact-brief-title",
+          "contact-faq-title"
+        ],
+        "hrefs": [
+          "/works/project/kfood-dashboard/",
+          "/works/project/kfood-dashboard/",
+          "/works/project/sojukdoo-concept/",
+          "/works/project/sojukdoo-concept/"
+        ],
+        "images": [
+          {
+            "src": "/evidence/expansion/kfood-map.png",
+            "alt": "지역 지도와 월별 품목을 연결한 먹거리사전의 산지 탐색 화면"
+          },
+          {
+            "src": "/evidence/expansion/redbean-audiences.png",
+            "alt": "일반 소비자와 카페사업자의 목적에 따라 상품 탐색을 나눈 소적두 웹 화면"
+          }
+        ]
+      }
+    },
+    {
+      "file": "team-contact.mjs",
+      "function": "teamProof",
+      "beforeChars": 1096,
+      "afterChars": 638,
+      "reductionPercent": 41.79,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true
+      },
+      "beforeAttributes": {
+        "ids": [
+          "team-proof-title",
+          "team-book-title",
+          "team-web-title"
+        ],
+        "hrefs": [
+          "/works/project/sales-rehearsal/",
+          "/works/project/sales-rehearsal/",
+          "/works/project/kings-franchise/",
+          "/works/project/kings-franchise/",
+          "/contact/"
+        ],
+        "images": [
+          {
+            "src": "/evidence/expansion/book-editorial-story.webp",
+            "alt": "세일즈 리허설 263쪽, 장 제목과 사진·캡션·본문을 편집한 실제 내지"
+          },
+          {
+            "src": "/evidence/expansion/kings-menu-grid.png",
+            "alt": "Kings 메뉴의 사진·가격·특징을 비교할 수 있도록 구성한 실제 웹 제작 화면"
+          }
+        ]
+      },
+      "afterAttributes": {
+        "ids": [
+          "team-proof-title",
+          "team-book-title",
+          "team-web-title"
+        ],
+        "hrefs": [
+          "/works/project/sales-rehearsal/",
+          "/works/project/sales-rehearsal/",
+          "/works/project/kings-franchise/",
+          "/works/project/kings-franchise/",
+          "/contact/"
+        ],
+        "images": [
+          {
+            "src": "/evidence/expansion/book-editorial-story.webp",
+            "alt": "세일즈 리허설 263쪽, 장 제목과 사진·캡션·본문을 편집한 실제 내지"
+          },
+          {
+            "src": "/evidence/expansion/kings-menu-grid.png",
+            "alt": "Kings 메뉴의 사진·가격·특징을 비교할 수 있도록 구성한 실제 웹 제작 화면"
+          }
+        ]
+      }
+    },
+    {
+      "file": "healthcare.mjs",
+      "function": "healthcareAbout",
+      "beforeChars": 680,
+      "afterChars": 427,
+      "reductionPercent": 37.21,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true
+      },
+      "beforeAttributes": {
+        "ids": [
+          "healthcare-expertise",
+          "healthcare-about-title"
+        ],
+        "hrefs": [
+          "/works/#hospital"
+        ],
+        "images": []
+      },
+      "afterAttributes": {
+        "ids": [
+          "healthcare-expertise",
+          "healthcare-about-title"
+        ],
+        "hrefs": [
+          "/works/#hospital"
+        ],
+        "images": []
+      }
+    },
+    {
+      "file": "healthcare.mjs",
+      "function": "healthcareHome",
+      "beforeChars": 112,
+      "afterChars": 76,
+      "reductionPercent": 32.14,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true
+      },
+      "beforeAttributes": {
+        "ids": [
+          "healthcare-home-title"
+        ],
+        "hrefs": [
+          "/about/#healthcare-expertise"
+        ],
+        "images": []
+      },
+      "afterAttributes": {
+        "ids": [
+          "healthcare-home-title"
+        ],
+        "hrefs": [
+          "/about/#healthcare-expertise"
+        ],
+        "images": []
+      }
+    },
+    {
+      "file": "healthcare.mjs",
+      "function": "healthcareService",
+      "beforeChars": 324,
+      "afterChars": 246,
+      "reductionPercent": 24.07,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true
+      },
+      "beforeAttributes": {
+        "ids": [
+          "healthcare-service-title"
+        ],
+        "hrefs": [],
+        "images": []
+      },
+      "afterAttributes": {
+        "ids": [
+          "healthcare-service-title"
+        ],
+        "hrefs": [],
+        "images": []
+      }
+    }
+  ]
+}

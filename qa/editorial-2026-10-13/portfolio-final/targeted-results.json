@@ -1,0 +1,26 @@
+{
+  "scope": "Targeted correction for test assumption only; original 58/59 run retained.",
+  "checks": [
+    {
+      "name": "featured three finished outputs respecting renderer self exclusion",
+      "pass": true,
+      "detail": [
+        "jonghae-community",
+        "sales-rehearsal",
+        "soulreset"
+      ]
+    },
+    {
+      "name": "book gallery original cover bytes unchanged",
+      "pass": true,
+      "detail": {
+        "media": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/66df6042-cb03-43bf-a5a1-6f9d9756ba16",
+        "sha256": "54415b64aadcdd3f609fc7c20fc3306f78e5dbaadd0284beb523a33a1a78f13b"
+      }
+    }
+  ],
+  "totalUnique": 60,
+  "passedUnique": 60,
+  "originalRun": "results.json",
+  "assumption": "all-the-comm retains API featured state; Korean home intentionally excludes it. WORKS initially has six and more reveals all fourteen."
+}

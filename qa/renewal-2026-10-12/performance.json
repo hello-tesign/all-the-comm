@@ -1,0 +1,179 @@
+{
+  "environment": "Local Chromium lab, cold cache, 390×844, CPU 4×, 4Mbps/80ms network emulation; not field Core Web Vitals",
+  "passed": 4,
+  "total": 4,
+  "results": [
+    {
+      "lcp": 1828,
+      "cls": 0.0009,
+      "resources": [
+        {
+          "name": "/fonts/PretendardSite.woff2",
+          "bytes": 112912
+        },
+        {
+          "name": "/styles.css",
+          "bytes": 43725
+        },
+        {
+          "name": "/app.js",
+          "bytes": 13940
+        },
+        {
+          "name": "/brand/logo-horizontal-on-dark.svg",
+          "bytes": 67869
+        },
+        {
+          "name": "/brand/logo-symbol.svg",
+          "bytes": 45948
+        },
+        {
+          "name": "/fonts/Manrope.ttf",
+          "bytes": 165000
+        },
+        {
+          "name": "/api/projects",
+          "bytes": 1986
+        },
+        {
+          "name": "/chunks/motion-OY25NMRV.js",
+          "bytes": 116842
+        },
+        {
+          "name": "/chunks/brand-scene-JUJRS7QF.js",
+          "bytes": 989592
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "route": "/",
+      "noThreeOnContact": true,
+      "pass": true
+    },
+    {
+      "lcp": 1928,
+      "cls": 0.0017,
+      "resources": [
+        {
+          "name": "/fonts/PretendardSite.woff2",
+          "bytes": 112912
+        },
+        {
+          "name": "/styles.css",
+          "bytes": 43725
+        },
+        {
+          "name": "/app.js",
+          "bytes": 13940
+        },
+        {
+          "name": "/brand/logo-horizontal-on-dark.svg",
+          "bytes": 67869
+        },
+        {
+          "name": "/brand/logo-symbol.svg",
+          "bytes": 45948
+        },
+        {
+          "name": "/fonts/Manrope.ttf",
+          "bytes": 165000
+        },
+        {
+          "name": "/api/projects",
+          "bytes": 1986
+        },
+        {
+          "name": "/chunks/motion-OY25NMRV.js",
+          "bytes": 116842
+        },
+        {
+          "name": "/chunks/brand-scene-JUJRS7QF.js",
+          "bytes": 989592
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "route": "/en/",
+      "noThreeOnContact": true,
+      "pass": true
+    },
+    {
+      "lcp": 2004,
+      "cls": 0.0882,
+      "resources": [
+        {
+          "name": "/fonts/PretendardSite.woff2",
+          "bytes": 112912
+        },
+        {
+          "name": "/styles.css",
+          "bytes": 43725
+        },
+        {
+          "name": "/app.js",
+          "bytes": 13940
+        },
+        {
+          "name": "/brand/logo-horizontal-on-dark.svg",
+          "bytes": 67869
+        },
+        {
+          "name": "/brand/logo-symbol.svg",
+          "bytes": 45948
+        },
+        {
+          "name": "/fonts/Manrope.ttf",
+          "bytes": 165000
+        },
+        {
+          "name": "/chunks/motion-OY25NMRV.js",
+          "bytes": 116842
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "route": "/contact/",
+      "noThreeOnContact": true,
+      "pass": true
+    },
+    {
+      "lcp": 1204,
+      "cls": 0.0199,
+      "resources": [
+        {
+          "name": "/fonts/PretendardSite.woff2",
+          "bytes": 112912
+        },
+        {
+          "name": "/styles.css",
+          "bytes": 43725
+        },
+        {
+          "name": "/app.js",
+          "bytes": 13940
+        },
+        {
+          "name": "/brand/logo-horizontal-on-dark.svg",
+          "bytes": 67869
+        },
+        {
+          "name": "/brand/logo-symbol.svg",
+          "bytes": 45948
+        },
+        {
+          "name": "/fonts/Manrope.ttf",
+          "bytes": 165000
+        },
+        {
+          "name": "/chunks/motion-OY25NMRV.js",
+          "bytes": 116842
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "route": "/en/contact/",
+      "noThreeOnContact": true,
+      "pass": true
+    }
+  ]
+}

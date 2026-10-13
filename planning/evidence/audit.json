@@ -1,0 +1,734 @@
+[
+  {
+    "name": "current",
+    "device": "desktop",
+    "title": "(주)올더커뮤니케이션",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "scrollHeight": 7699,
+    "headings": [
+      {
+        "tag": "H3",
+        "text": "개인정보 취급방침"
+      }
+    ],
+    "visibleLinks": [
+      {
+        "text": "ABOUT US",
+        "href": "#homesection2"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "#homesection4"
+      },
+      {
+        "text": "SERVICE",
+        "href": "#homesection5"
+      },
+      {
+        "text": "TEAM",
+        "href": "#homesection6"
+      },
+      {
+        "text": "WORKS",
+        "href": "#homesection8"
+      },
+      {
+        "text": "CONTACT",
+        "href": "#homesection10"
+      },
+      {
+        "text": "TEAM",
+        "href": "#homesection6"
+      },
+      {
+        "text": "ABOUT US",
+        "href": "#homesection2"
+      },
+      {
+        "text": "PROCESS",
+        "href": "#homesection4"
+      },
+      {
+        "text": "WORKS",
+        "href": "#homesection8"
+      },
+      {
+        "text": "SERVICE",
+        "href": "#homesection5"
+      },
+      {
+        "text": "RESERVATION",
+        "href": "#homesection10"
+      },
+      {
+        "text": "온라인광고",
+        "href": "#"
+      },
+      {
+        "text": "오프라인광고",
+        "href": "#"
+      },
+      {
+        "text": "부가사업",
+        "href": "#"
+      },
+      {
+        "text": "온라인광고",
+        "href": "#"
+      },
+      {
+        "text": "오프라인광고",
+        "href": "#"
+      },
+      {
+        "text": "부가사업",
+        "href": "#"
+      }
+    ],
+    "imageCount": 40,
+    "brokenImages": 0,
+    "sections": [
+      {
+        "id": "homesection1",
+        "height": 1000
+      },
+      {
+        "id": "homesection2",
+        "height": 905
+      },
+      {
+        "id": "homesection3",
+        "height": 292
+      },
+      {
+        "id": "homesection4",
+        "height": 1045
+      },
+      {
+        "id": "homesection5",
+        "height": 392
+      },
+      {
+        "id": "homesection6",
+        "height": 1062
+      },
+      {
+        "id": "homesection8",
+        "height": 392
+      },
+      {
+        "id": "homesection9",
+        "height": 356
+      },
+      {
+        "id": "homesection10",
+        "height": 1033
+      },
+      {
+        "id": "homesection11",
+        "height": 920
+      }
+    ],
+    "libraries": {
+      "jquery": true,
+      "gsap": false
+    },
+    "errors": []
+  },
+  {
+    "name": "current",
+    "device": "mobile",
+    "title": "(주)올더커뮤니케이션",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "scrollHeight": 5569,
+    "headings": [
+      {
+        "tag": "H3",
+        "text": "개인정보 취급방침"
+      }
+    ],
+    "visibleLinks": [
+      {
+        "text": "ABOUT US",
+        "href": "#homesection2"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": "#homesection4"
+      },
+      {
+        "text": "SERVICE",
+        "href": "#homesection5"
+      },
+      {
+        "text": "TEAM",
+        "href": "#homesection6"
+      },
+      {
+        "text": "WORKS",
+        "href": "#homesection8"
+      },
+      {
+        "text": "CONTACT",
+        "href": "#homesection10"
+      },
+      {
+        "text": "TEAM",
+        "href": "#homesection6"
+      },
+      {
+        "text": "ABOUT US",
+        "href": "#homesection2"
+      },
+      {
+        "text": "PROCESS",
+        "href": "#homesection4"
+      },
+      {
+        "text": "WORKS",
+        "href": "#homesection8"
+      },
+      {
+        "text": "SERVICE",
+        "href": "#homesection5"
+      },
+      {
+        "text": "RESERVATION",
+        "href": "#homesection10"
+      },
+      {
+        "text": "온라인광고",
+        "href": "#"
+      },
+      {
+        "text": "오프라인광고",
+        "href": "#"
+      },
+      {
+        "text": "부가사업",
+        "href": "#"
+      },
+      {
+        "text": "온라인광고",
+        "href": "#"
+      },
+      {
+        "text": "오프라인광고",
+        "href": "#"
+      },
+      {
+        "text": "부가사업",
+        "href": "#"
+      }
+    ],
+    "imageCount": 33,
+    "brokenImages": 0,
+    "sections": [
+      {
+        "id": "homesection1",
+        "height": 844
+      },
+      {
+        "id": "homesection2",
+        "height": 580
+      },
+      {
+        "id": "homesection3",
+        "height": 172
+      },
+      {
+        "id": "homesection4",
+        "height": 851
+      },
+      {
+        "id": "homesection5",
+        "height": 170
+      },
+      {
+        "id": "homesection6",
+        "height": 602
+      },
+      {
+        "id": "homesection8",
+        "height": 150
+      },
+      {
+        "id": "homesection9",
+        "height": 216
+      },
+      {
+        "id": "homesection10",
+        "height": 820
+      },
+      {
+        "id": "homesection11",
+        "height": 773
+      }
+    ],
+    "libraries": {
+      "jquery": true,
+      "gsap": false
+    },
+    "errors": []
+  },
+  {
+    "name": "reference",
+    "device": "desktop",
+    "title": "Global Employee Safety | International SOS",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "scrollHeight": 43254,
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Global Employee\nSafety Solutions"
+      },
+      {
+        "tag": "H2",
+        "text": "From everyday prevention to on-the-ground emergency response."
+      },
+      {
+        "tag": "H2",
+        "text": "Your business went global. Did your safety standards?"
+      },
+      {
+        "tag": "H3",
+        "text": "Growing global operations"
+      },
+      {
+        "tag": "H3",
+        "text": "Rising standards of care"
+      },
+      {
+        "tag": "H3",
+        "text": "Disruption and continuity"
+      },
+      {
+        "tag": "H2",
+        "text": "Skip the prep, and risks snowball."
+      },
+      {
+        "tag": "H2",
+        "text": "Can your company answer these four — today?"
+      },
+      {
+        "tag": "H2",
+        "text": "Safety isn’t just damage control. It’s business continuity."
+      },
+      {
+        "tag": "H3",
+        "text": "Identify risks and support preventive action before incidents occur."
+      },
+      {
+        "tag": "H3",
+        "text": "Support prompt, coordinated decisions and response during incidents."
+      },
+      {
+        "tag": "H3",
+        "text": "Keep operational records of prevention and response."
+      },
+      {
+        "tag": "H3",
+        "text": "Everyone at the table gets a win."
+      },
+      {
+        "tag": "H2",
+        "text": "Business travellers to local staff. One standard of care."
+      },
+      {
+        "tag": "H3",
+        "text": "From routine to full-on crisis."
+      },
+      {
+        "tag": "H2",
+        "text": "WE PROTECT EVERY LIFE, EVERY DAY, EVERYWHERE."
+      },
+      {
+        "tag": "H2",
+        "text": "Defining coverage is the first step in safety."
+      },
+      {
+        "tag": "H2",
+        "text": "Anticipating risk.\nGuiding decisions.\nResponding locally.\nSupporting recovery."
+      },
+      {
+        "tag": "H2",
+        "text": "Middle East escalation: four family members brought safely home."
+      },
+      {
+        "tag": "H2",
+        "text": "Reach out. The response starts right then."
+      },
+      {
+        "tag": "H2",
+        "text": "Not rivals. Teammates."
+      },
+      {
+        "tag": "H2",
+        "text": "Start with core. Level up as you grow."
+      },
+      {
+        "tag": "H2",
+        "text": "Global workforce safety, with AI + digital."
+      },
+      {
+        "tag": "H3",
+        "text": "Detect risks. Assess impact. Act through one platform."
+      },
+      {
+        "tag": "H3",
+        "text": "Designed for the needs of Korean organisations."
+      },
+      {
+        "tag": "H2",
+        "text": "Korean-language support. Global on-site response. Connected through one system."
+      },
+      {
+        "tag": "H2",
+        "text": "Global workforce safety, tailored to you."
+      },
+      {
+        "tag": "H3",
+        "text": "Once you decide to proceed, there are four steps."
+      }
+    ],
+    "visibleLinks": [
+      {
+        "text": "OPTION 01\nDestination risk report\n\nShare travel/assignment destinations and headcounts for local medical and security risk summaries.",
+        "href": "mailto:marketing.korea@internationalsos.com?subject=Destination%20risk%20report"
+      },
+      {
+        "text": "1-month free trial\nKakaoTalk safety solution\nOPTION 02\nOnline digital solution demo\n\nExplore Quantum and our KakaoTalk-based digital safety solutions first-hand.",
+        "href": "mailto:marketing.korea@internationalsos.com?subject=Online%20digital%20solution%20demo"
+      },
+      {
+        "text": "OPTION 03\nBook a consultation\n\nReview your operating environment and support needs with us, in person or online.",
+        "href": "mailto:marketing.korea@internationalsos.com?subject=Book%20a%20consultation"
+      },
+      {
+        "text": "02-3140-1903",
+        "href": "tel:+82231401903"
+      },
+      {
+        "text": "marketing.korea@internationalsos.com",
+        "href": "mailto:marketing.korea@internationalsos.com"
+      }
+    ],
+    "imageCount": 6,
+    "brokenImages": 0,
+    "sections": [
+      {
+        "id": "hero",
+        "height": 2400
+      },
+      {
+        "id": "why",
+        "height": 732
+      },
+      {
+        "id": "deck",
+        "height": 2300
+      },
+      {
+        "id": "domino",
+        "height": 3000
+      },
+      {
+        "id": "am",
+        "height": 1300
+      },
+      {
+        "id": "value-intro",
+        "height": 533
+      },
+      {
+        "id": "value",
+        "height": 3600
+      },
+      {
+        "id": "stake",
+        "height": 613
+      },
+      {
+        "id": "who",
+        "height": 2220
+      },
+      {
+        "id": "mani",
+        "height": 3000
+      },
+      {
+        "id": "cover",
+        "height": 760
+      },
+      {
+        "id": "cycle",
+        "height": 4200
+      },
+      {
+        "id": "case",
+        "height": 4600
+      },
+      {
+        "id": "chat",
+        "height": 5200
+      },
+      {
+        "id": "compare",
+        "height": 867
+      },
+      {
+        "id": "mods",
+        "height": 3200
+      },
+      {
+        "id": "digital",
+        "height": 1818
+      },
+      {
+        "id": "nums",
+        "height": 1060
+      },
+      {
+        "id": "next",
+        "height": 1617
+      }
+    ],
+    "libraries": {
+      "jquery": false,
+      "gsap": false
+    },
+    "errors": []
+  },
+  {
+    "name": "reference",
+    "device": "mobile",
+    "title": "Global Employee Safety | International SOS",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "scrollHeight": 39736,
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Global Employee\nSafety Solutions"
+      },
+      {
+        "tag": "H2",
+        "text": "From everyday prevention to on-the-ground emergency response."
+      },
+      {
+        "tag": "H2",
+        "text": "Your business went global. Did your safety standards?"
+      },
+      {
+        "tag": "H3",
+        "text": "Growing global operations"
+      },
+      {
+        "tag": "H3",
+        "text": "Rising standards of care"
+      },
+      {
+        "tag": "H3",
+        "text": "Disruption and continuity"
+      },
+      {
+        "tag": "H2",
+        "text": "Skip the prep, and risks snowball."
+      },
+      {
+        "tag": "H2",
+        "text": "Can your company answer these four — today?"
+      },
+      {
+        "tag": "H2",
+        "text": "Safety isn’t just damage control. It’s business continuity."
+      },
+      {
+        "tag": "H3",
+        "text": "Identify risks and support preventive action before incidents occur."
+      },
+      {
+        "tag": "H3",
+        "text": "Support prompt, coordinated decisions and response during incidents."
+      },
+      {
+        "tag": "H3",
+        "text": "Keep operational records of prevention and response."
+      },
+      {
+        "tag": "H3",
+        "text": "Everyone at the table gets a win."
+      },
+      {
+        "tag": "H2",
+        "text": "Business travellers to local staff. One standard of care."
+      },
+      {
+        "tag": "H3",
+        "text": "From routine to full-on crisis."
+      },
+      {
+        "tag": "H2",
+        "text": "WE PROTECT EVERY LIFE, EVERY DAY, EVERYWHERE."
+      },
+      {
+        "tag": "H2",
+        "text": "Defining coverage is the first step in safety."
+      },
+      {
+        "tag": "H2",
+        "text": "Anticipating risk.\nGuiding decisions.\nResponding locally.\nSupporting recovery."
+      },
+      {
+        "tag": "H2",
+        "text": "Middle East escalation: four family members brought safely home."
+      },
+      {
+        "tag": "H2",
+        "text": "Reach out. The response starts right then."
+      },
+      {
+        "tag": "H2",
+        "text": "Not rivals. Teammates."
+      },
+      {
+        "tag": "H2",
+        "text": "Start with core. Level up as you grow."
+      },
+      {
+        "tag": "H2",
+        "text": "Global workforce safety, with AI + digital."
+      },
+      {
+        "tag": "H3",
+        "text": "Detect risks. Assess impact. Act through one platform."
+      },
+      {
+        "tag": "H3",
+        "text": "Designed for the needs of Korean organisations."
+      },
+      {
+        "tag": "H2",
+        "text": "Korean-language support. Global on-site response. Connected through one system."
+      },
+      {
+        "tag": "H2",
+        "text": "Global workforce safety, tailored to you."
+      },
+      {
+        "tag": "H3",
+        "text": "Once you decide to proceed, there are four steps."
+      }
+    ],
+    "visibleLinks": [
+      {
+        "text": "OPTION 01\nDestination risk report\n\nShare travel/assignment destinations and headcounts for local medical and security risk summaries.",
+        "href": "mailto:marketing.korea@internationalsos.com?subject=Destination%20risk%20report"
+      },
+      {
+        "text": "1-month free trial\nKakaoTalk safety solution\nOPTION 02\nOnline digital solution demo\n\nExplore Quantum and our KakaoTalk-based digital safety solutions first-hand.",
+        "href": "mailto:marketing.korea@internationalsos.com?subject=Online%20digital%20solution%20demo"
+      },
+      {
+        "text": "OPTION 03\nBook a consultation\n\nReview your operating environment and support needs with us, in person or online.",
+        "href": "mailto:marketing.korea@internationalsos.com?subject=Book%20a%20consultation"
+      },
+      {
+        "text": "02-3140-1903",
+        "href": "tel:+82231401903"
+      },
+      {
+        "text": "marketing.korea@internationalsos.com",
+        "href": "mailto:marketing.korea@internationalsos.com"
+      }
+    ],
+    "imageCount": 6,
+    "brokenImages": 0,
+    "sections": [
+      {
+        "id": "hero",
+        "height": 2026
+      },
+      {
+        "id": "why",
+        "height": 596
+      },
+      {
+        "id": "deck",
+        "height": 1193
+      },
+      {
+        "id": "domino",
+        "height": 2532
+      },
+      {
+        "id": "am",
+        "height": 1528
+      },
+      {
+        "id": "value-intro",
+        "height": 409
+      },
+      {
+        "id": "value",
+        "height": 3038
+      },
+      {
+        "id": "stake",
+        "height": 1095
+      },
+      {
+        "id": "who",
+        "height": 2935
+      },
+      {
+        "id": "mani",
+        "height": 2532
+      },
+      {
+        "id": "cover",
+        "height": 969
+      },
+      {
+        "id": "cycle",
+        "height": 3545
+      },
+      {
+        "id": "case",
+        "height": 3882
+      },
+      {
+        "id": "chat",
+        "height": 4389
+      },
+      {
+        "id": "compare",
+        "height": 1114
+      },
+      {
+        "id": "mods",
+        "height": 1707
+      },
+      {
+        "id": "digital",
+        "height": 2325
+      },
+      {
+        "id": "nums",
+        "height": 1314
+      },
+      {
+        "id": "next",
+        "height": 2399
+      }
+    ],
+    "libraries": {
+      "jquery": false,
+      "gsap": false
+    },
+    "errors": []
+  }
+]

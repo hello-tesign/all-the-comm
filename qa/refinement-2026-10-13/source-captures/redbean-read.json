@@ -1,0 +1,277 @@
+{
+  "status": 200,
+  "title": "소적두 SOJUKDOO · 국산 저당수제팥",
+  "url": "https://redbean.chdbsd.com/preview/index.html",
+  "headings": [
+    "덜 달게, 더 자주",
+    "국산 팥을 덜 달게, 더 자주 먹게",
+    "단맛은 덜어내고, 팥은 더 채웠습니다",
+    "무엇을 찾으시나요",
+    "기준으로 고른 소적두",
+    "국산 팥, 사계절 가까이",
+    "이렇게 즐기세요",
+    "레몬즙과 유자즙도 소적두답게",
+    "소적두 이야기, 영상으로",
+    "소적두 Pick",
+    "소적두가 팥을 다루는 방식",
+    "국산 팥 기반",
+    "팥 맛이 먼저",
+    "집에서도, 매장에서도",
+    "집에서, 그리고 매장에서",
+    "집에서 즐기는 소적두",
+    "카페와 매장에서 쓰는 소적두",
+    "소적두가 팥을 만드는 기준",
+    "고객이 많이 찾은 소적두",
+    "소적두 이야기",
+    "집에서도, 매장에서도 소적두를 시작해보세요"
+  ],
+  "links": [
+    {
+      "text": "본문 바로가기",
+      "href": "#main"
+    },
+    {
+      "text": "소적두\nSOJUKDOO",
+      "href": "index.html"
+    },
+    {
+      "text": "로그인",
+      "href": "page.html?p=login&t=%EB%A1%9C%EA%B7%B8%EC%9D%B8"
+    },
+    {
+      "text": "회원가입",
+      "href": "page.html?p=join&t=%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85"
+    },
+    {
+      "text": "마이페이지",
+      "href": "page.html?p=mypage&t=%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80"
+    },
+    {
+      "text": "장바구니 0",
+      "href": "page.html?p=cart&t=%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88"
+    },
+    {
+      "text": "고객센터",
+      "href": "page.html?p=service&t=%EA%B3%A0%EA%B0%9D%EC%84%BC%ED%84%B0"
+    },
+    {
+      "text": "🛒",
+      "href": "page.html?p=cart&t=%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88"
+    },
+    {
+      "text": "브랜드",
+      "href": "brand.html"
+    },
+    {
+      "text": "국산 저당수제팥",
+      "href": "list.html?cateCd=001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=001001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=001003"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=001002"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=001004"
+    },
+    {
+      "text": "국산 빙수재료",
+      "href": "list.html?cateCd=015"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=015001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=015002"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=015003"
+    },
+    {
+      "text": "쌀 0% 건강죽",
+      "href": "list.html?cateCd=016"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=016001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=016002"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=016003"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=016004"
+    },
+    {
+      "text": "건강 주전부리",
+      "href": "list.html?cateCd=006"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=006001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=006002"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=006003"
+    },
+    {
+      "text": "무가당제품",
+      "href": "list.html?cateCd=017"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=017001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=017002"
+    },
+    {
+      "text": "국산 수제과일청",
+      "href": "list.html?cateCd=002"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=002001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=002002"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=002004"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=002003"
+    },
+    {
+      "text": "팥/잡곡/통곡물",
+      "href": "list.html?cateCd=018"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=018001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=018002"
+    },
+    {
+      "text": "카페사업자",
+      "href": "b2b.html"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=007"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=007001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=007002"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=007003"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=007004"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=007006"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=007007"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=007005"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=007008"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012001"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012002"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012003"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012004"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012005"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012007"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012009"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012006"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=012008"
+    },
+    {
+      "text": "",
+      "href": "list.html?cateCd=013"
+    },
+    {
+      "text": "블로그",
+      "href": "blog/index.html"
+    }
+  ],
+  "main": "본문 바로가기\n소적두\nSOJUKDOO\n검색\n로그인\n회원가입\n마이페이지\n장바구니 0\n고객센터\n브랜드\n국산 저당수제팥\n국산 빙수재료\n쌀 0% 건강죽\n건강 주전부리\n무가당제품\n국산 수제과일청\n팥/잡곡/통곡물\n카페사업자\n블로그\nSOJUKDOO · 국산 저당수제팥\n덜 달게, 더 자주\n\n국산 팥 본연의 맛을 일상으로\n\nSOJUKDOO · 국산 저당수제팥\n국산 팥을 덜 달게, 더 자주 먹게\n\n집에서는 부담 없이, 카페에서는 안정적으로 쓸 수 있는 국산 팥을 만듭니다.\n\n대표 상품 보기\n카페사업자 안내\nINGREDIENT\n국산 팥을 기준으로 만듭니다\nTEXTURE\n덜 달게, 팥 맛은 더 선명하게\nB2B\n집과 매장에서 모두 쓰기 좋게\nWHY LESS SWEET\n단맛은 덜어내고, 팥은 더 채웠습니다\n\n과한 단맛 대신 국산 팥의 맛이 먼저 오도록 설계했습니다. 아래는 일반적인 시중 단팥 제품과 비교한 기준입니다.\n\n시중 일반 단팥\n단맛 강함\n소적두\n덜 달게\n\n※ 당도 표현은 제품·레시피에 따른 상대 비교 예시이며, 실제 수치는 상품별 영양정보를 따릅니다.\n\n구분\n시중 일반 단팥 제품\n소적두\n단맛\n강한 편\n●\n덜 달게\n주원료\n수입산 혼합 가능\n●\n국산 팥\n첨가물\n향료·보존료 등\n●\n최소화\n한 입 인상\n단맛이 먼저\n●\n팥 맛이 먼저\n01 — 카테고리\n무엇을 찾으시나요\n국산 저당수제팥\n국산 빙수재료\n쌀 0% 건강죽\n건강 주전부리\n무가당제품\n국산 수제과일청\n팥/잡곡/통곡물\n02 — 대표 상품\n기준으로 고른 소적두\n\n과한 단맛보다 팥의 인상이 먼저 남도록 만듭니다.\n\nBEST\n소적두\n소적두 팥잼 560g(병)\n12,650원\n★ 후기 215\nBEST\n소적두\n소적두 빙수팥 300g\n8,200원\n★ 후기 111\nBEST\n소적두\n소적두 팥앙금 1kg\n17,600원\n★ 후기 183\n소적두\n소적두 빙수팥 560g(병)\n12,650원\n★ 후기 49\nSEASON\n국산 팥, 사계절 가까이\n\n덜 달게, 더 자주 즐기는 소적두 대표 제품.\n\nBEST\n소적두\n소적두 팥잼 560g(병)\n12,650원\n★ 후기 215\n소적두\n소적두 빙수팥 560g(병)\n12,650원\n★ 후기 49\n저당\n소적두\n소적두 저당 단팥빵 4종 택1 (단팥/호두/생크림/말차크림)\n4,500원\nBEST\n소적두\n소적두 팥앙금 1kg\n17,600원\n★ 후기 183\n대표 상품 보기\n03 — 소적두가 어울리는 장면\n이렇게 즐기세요\nBAKERY\n주인장이 먹고 싶어 만든 저당 단팥빵\n\n덜 단 팥을 빵과 함께 부담 없이 즐기는 장면입니다.\n\n저당 단팥빵\n브런치\nHOME CAFE\n팥 본연의 깊은 맛을 담다\n\n팥잼과 팥 스프레드를 홈카페 디저트로 넓혀 보여줍니다.\n\n팥잼\n토스트\nSNACK\n엄마가 만들어주는 우리 아이 간식\n\n작은 간식에도 국산 팥의 재료감을 담는 사용 장면입니다.\n\n아이 간식\n붕어빵\nICE DESSERT\n차갑게 즐기는 팥 디저트\n\n빙수와 아이스바처럼 여름 메뉴로 확장되는 장면입니다.\n\n빙수팥\n아이스\n04 제주 과즙 라인\n레몬즙과 유자즙도 소적두답게\n\n청보다 더 담백하게, 음료와 요리에 바로 쓰기 좋은 무가당 과즙 라인입니다.\n\n소적두\n[2026년 햇레몬] 소적두 제주레몬즙 500ml\n22,300원\n★ 후기 44\n저당\n소적두\n2025년산 소적두 무가당 유자즙 500ml\n22,300원\n★ 후기 16\nBRAND FILM\n소적두 이야기, 영상으로\n05 — 소적두 Pick\n소적두 Pick\n\n지금 가장 많이 찾는 소적두 제품을 골랐습니다.\n\nBEST\n소적두\n소적두 빙수팥 1kg\n17,600원\n★ 후기 117\nBEST\n소적두\n소적두 빙수팥 2kg\n33,000원\n★ 후기 111\n소적두\n소적두 팥잼 150g(병)\n7,960원\n★ 후기 2\n소적두\n소적두 프리미엄 팥앙금 1kg\n23,100원\n★ 후기 3\n06 — Why Sojukdoo\n소적두가 팥을 다루는 방식\n국산 팥 기반\n\n원물의 기준부터 다르게 시작합니다.\n\n팥 맛이 먼저\n\n과한 단맛보다 팥의 인상이 먼저 남도록 만듭니다.\n\n집에서도, 매장에서도\n\n일상과 운영 두 장면 모두를 생각한 제품을 만듭니다.\n\n07 — 어떻게 쓰시나요\n집에서, 그리고 매장에서\n집에서 즐기는 소적두\n\n팥죽, 팥잼, 홈카페용 팥으로 부담 없이 시작해보세요.\n\n대표 상품 보기\n카페와 매장에서 쓰는 소적두\n\n앙금, 통팥, 빙수팥까지 용도에 맞는 제품과 운영 정보를 확인해보세요.\n\n카페사업자 안내\nBRAND STORY\n소적두가 팥을 만드는 기준\n\n소적두는 국산 팥의 맛을 더 오래, 더 자주 즐길 수 있게 만들고 싶었습니다. 과하게 달게 먹기보다 팥 자체의 맛과 쓰임을 살리는 방향을 선택했고, 집에서 먹는 한 끼부터 카페 메뉴용 팥까지 같은 기준으로 만들고 있습니다.\n\n국산 팥 기반\n덜 단 사용감\n가정과 매장 겸용\nREVIEWS & TRUST\n고객이 많이 찾은 소적두\n\n누적 후기로 검증된 인기 제품입니다.\n\nBEST\n소적두\n소적두 팥잼 560g(병)\n12,650원\n★ 후기 215\nBEST\n소적두\n소적두 팥앙금 1kg\n17,600원\n★ 후기 183\nBEST\n소적두\n소적두 팥앙금 2kg\n33,000원\n★ 후기 137\nBEST\n소적두\n소적두 빙수팥 1kg\n17,600원\n★ 후기 117\n국산 팥 사용\n덜 단 레시피\nHACCP·인증 관리\n누적 후기 다수\nMAGAZINE\n소적두 이야기\n\n팥과 정직한 먹거리 이야기를 전합니다.\n\n음식문화\n팥 문화의 미래는 어디로 갈까 — 전통과 디저트 산업의 사이에서\n음식문화\n팥은 왜 지역 명물의 얼굴이 되기 좋을까\n음식문화\n요즘 디저트에서 팥은 왜 다시 ‘힙한 재료’가 되었을까\n음식문화\n팥차는 왜 건강식과 전통 취향 사이에 걸쳐 있을까\n매거진 더 보기\n집에서도, 매장에서도 소적두를 시작해보세요\n\n대표 제품과 팥 이야기, 그리고 사업자용 안내까지 한 번에 확인하실 수 있습니다.\n\nHOME\n가정에서 부담 없이 즐기는 대표 제품\nB2B\n카페와 매장에서 쓰기 좋은 재료 라인\nSTORY\n국산 팥과 소적두의 기준을 읽는 블로그\n대표 상품 보기\n카페사업자 안내\n회사소개\n이용약관\n개인정보처리방침\n이용안내\n광고/제휴 문의\n\n(주)소적두 농업회사법인\n\n경기도 성남시 중원구 사기막골로 124 (SKn테크노파크) 메가센터 B210호, B211호\n\n대표 : 한승엽  |  사업자등록번호 : 215-87-60561  |  통신판매업신고 : 제2016-경기성남-0539호\n\n개인정보관리자 : 한승엽  |  대표번호 : 070-7743-4433  |  팩스 : 031-776-4433\n\n메일 : sojukdoo@naver.com  |  호스팅제공 : 엔에이치엔커머스(주)\n\ncopyright. 2017. sojukdoo.co.kr. All rights reserved.\n\n고객센터\n070-7743-4433\n\n(평일) AM 10:00 ~ PM 06:00\n주말 및 공휴일 휴무\n\n은행계좌 안내\n\n예금주 : (주)소적두 농업회사법인\n농협 317-7743-4433-61\n\n공지사항\n2026 소적두 빙수아카데미 교육 & ...\n2025년 햇레몬 판매 안내\n(필독) 냉장고 성에 제거 방법 알아 ...\n소적두 5-6월 배송안내\n사업자 지출증빙, 현금영수증 발급방법\n↑",
+  "blocked": [
+    {
+      "method": "POST",
+      "url": "https://redbean.chdbsd.com/cdn-cgi/rum?"
+    }
+  ]
+}

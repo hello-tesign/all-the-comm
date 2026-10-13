@@ -1,0 +1,430 @@
+{
+  "checks": [
+    {
+      "name": "firefox 1440 / no runtime or console errors",
+      "passed": true,
+      "detail": {
+        "reason": "Wait for destination document.fonts.ready before deliberately navigating back, preventing the test from canceling pending font downloads.",
+        "events": [],
+        "fonts": [
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          }
+        ],
+        "fontState": [
+          {
+            "family": "Pretendard",
+            "status": "loaded"
+          },
+          {
+            "family": "PretendardFull",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "status": "loaded"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 390 / no runtime or console errors",
+      "passed": true,
+      "detail": {
+        "reason": "Wait for destination document.fonts.ready before deliberately navigating back, preventing the test from canceling pending font downloads.",
+        "events": [],
+        "fonts": [
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+            "status": 200
+          }
+        ],
+        "fontState": [
+          {
+            "family": "Pretendard",
+            "status": "loaded"
+          },
+          {
+            "family": "PretendardFull",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "status": "loaded"
+          }
+        ]
+      }
+    }
+  ],
+  "records": [
+    {
+      "width": 1440,
+      "events": [],
+      "fonts": [
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        }
+      ],
+      "fontState": [
+        {
+          "family": "Pretendard",
+          "status": "loaded"
+        },
+        {
+          "family": "PretendardFull",
+          "status": "loaded"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "events": [],
+      "fonts": [
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardSite.woff2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/Manrope.ttf",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4173/fonts/PretendardVariable.woff2",
+          "status": 200
+        }
+      ],
+      "fontState": [
+        {
+          "family": "Pretendard",
+          "status": "loaded"
+        },
+        {
+          "family": "PretendardFull",
+          "status": "loaded"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded"
+        }
+      ]
+    }
+  ]
+}

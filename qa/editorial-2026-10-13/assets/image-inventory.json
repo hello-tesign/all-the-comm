@@ -1,0 +1,430 @@
+{
+  "home": [
+    {
+      "src": "/evidence/expansion/kings-home.png",
+      "alt": "Kings 가맹 모집 웹사이트의 실제 제작 화면",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        651,
+        353
+      ],
+      "class": ""
+    },
+    {
+      "src": "/evidence/diverse/ezylens-studio.png",
+      "alt": "EzyLens의 상품 탐색과 옵션 선택 UI/UX 설계 화면",
+      "natural": [
+        0,
+        0
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": ""
+    },
+    {
+      "src": "/evidence/expansion/kfood-dashboard.png",
+      "alt": "먹거리사전의 품목 탐색과 소싱 대시보드",
+      "natural": [
+        0,
+        0
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": ""
+    },
+    {
+      "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원 — 활동이 신뢰가 되는 웹 — 제작 화면 캡처",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        1280,
+        800
+      ],
+      "class": "project-image-real"
+    },
+    {
+      "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+      "alt": "SoulReset — 서울에서의 다른 리듬 — 제작 화면 캡처",
+      "natural": [
+        1440,
+        900
+      ],
+      "display": [
+        621,
+        388
+      ],
+      "class": "project-image-real"
+    },
+    {
+      "src": "http://127.0.0.1:4173/portfolio/concept-patient-guide.png",
+      "alt": "첫 방문 안내 — 환자의 질문에서 시작한 콘텐츠 — 제작 화면 캡처",
+      "natural": [
+        1200,
+        1200
+      ],
+      "display": [
+        621,
+        388
+      ],
+      "class": "project-image-real"
+    }
+  ],
+  "about": [
+    {
+      "src": "/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원의 활동 사진과 기관 소개, 자료 공개를 연결한 홈페이지",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        753,
+        523
+      ],
+      "class": ""
+    },
+    {
+      "src": "/portfolio/site-soulreset.png",
+      "alt": "SoulReset의 여행 장면과 서비스 탐색, 상담 진입을 담은 웹사이트 첫 화면",
+      "natural": [
+        1440,
+        900
+      ],
+      "display": [
+        753,
+        470
+      ],
+      "class": ""
+    }
+  ],
+  "team": [
+    {
+      "src": "/evidence/expansion/book-editorial-story.webp",
+      "alt": "세일즈 리허설 263쪽, 장 제목과 사진·캡션·본문을 편집한 실제 내지",
+      "natural": [
+        1352,
+        2000
+      ],
+      "display": [
+        406,
+        600
+      ],
+      "class": ""
+    },
+    {
+      "src": "/evidence/expansion/kings-menu-grid.png",
+      "alt": "Kings 메뉴의 사진·가격·특징을 비교할 수 있도록 구성한 실제 웹 제작 화면",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        699,
+        486
+      ],
+      "class": ""
+    }
+  ],
+  "contact": [
+    {
+      "src": "/evidence/expansion/kfood-map.png",
+      "alt": "지역 지도와 월별 품목을 연결한 먹거리사전의 산지 탐색 화면",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        608,
+        422
+      ],
+      "class": ""
+    },
+    {
+      "src": "/evidence/expansion/redbean-audiences.png",
+      "alt": "일반 소비자와 카페사업자의 목적에 따라 상품 탐색을 나눈 소적두 웹 화면",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        608,
+        422
+      ],
+      "class": ""
+    }
+  ],
+  "process": [
+    {
+      "src": "/portfolio/site-tesign-radar.png",
+      "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        595,
+        360
+      ],
+      "class": "evidence-screen"
+    },
+    {
+      "src": "/portfolio/saas-ea-editor.png",
+      "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+      "natural": [
+        1600,
+        1050
+      ],
+      "display": [
+        595,
+        360
+      ],
+      "class": "evidence-screen"
+    },
+    {
+      "src": "/evidence/expansion/book-judgment-loop.webp",
+      "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+      "natural": [
+        1352,
+        2000
+      ],
+      "display": [
+        595,
+        360
+      ],
+      "class": "evidence-screen"
+    },
+    {
+      "src": "/portfolio/saas-tesign-workflow.png",
+      "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+      "natural": [
+        1440,
+        1558
+      ],
+      "display": [
+        595,
+        360
+      ],
+      "class": "evidence-screen"
+    }
+  ],
+  "works": [
+    {
+      "src": "/evidence/expansion/redbean-home.png",
+      "alt": "소적두의 브랜드 메시지와 제품 탐색을 연결한 웹",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        612,
+        425
+      ],
+      "class": "evidence-screen"
+    },
+    {
+      "src": "/portfolio/site-soulreset.png",
+      "alt": "SoulReset 여행 서비스 소개와 문의 흐름",
+      "natural": [
+        0,
+        0
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": "evidence-screen"
+    },
+    {
+      "src": "/evidence/expansion/book-cover.webp",
+      "alt": "세일즈 리허설 실제 책 표지",
+      "natural": [
+        1352,
+        2000
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": "evidence-screen"
+    },
+    {
+      "src": "/evidence/diverse/botanic-garden.webp",
+      "alt": "서울식물원 야외 정원 전경, 여행 필름의 산책 시작 장면 레퍼런스",
+      "natural": [
+        0,
+        0
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": ""
+    },
+    {
+      "src": "/evidence/diverse/place-soakru.webp",
+      "alt": "소악루의 건축과 주변 풍경, 여행 필름의 잠시 머무는 장면 레퍼런스",
+      "natural": [
+        0,
+        0
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": ""
+    },
+    {
+      "src": "/evidence/diverse/botanic-skywalk.webp",
+      "alt": "서울식물원 스카이워크, 여행 필름의 마지막 온실 산책 장면 레퍼런스",
+      "natural": [
+        0,
+        0
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": ""
+    },
+    {
+      "src": "/evidence/diverse/botanic-skywalk.webp",
+      "alt": "도시 산책 전시 포스터의 공간 사진 레퍼런스",
+      "natural": [
+        0,
+        0
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": ""
+    },
+    {
+      "src": "/evidence/diverse/beauty-ritual.webp",
+      "alt": "뷰티 콘텐츠 톤을 제안하는 무브랜드 보틀 정물의 생성형 콘셉트 이미지",
+      "natural": [
+        0,
+        0
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": ""
+    },
+    {
+      "src": "/evidence/expansion/kfood-dashboard.png",
+      "alt": "먹거리사전의 품목 및 소싱 정보 탐색 화면",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": "evidence-screen"
+    },
+    {
+      "src": "/evidence/expansion/operations-dashboard.png",
+      "alt": "정보 수집과 발행 현황을 모니터링하는 운영 대시보드",
+      "natural": [
+        1282,
+        946
+      ],
+      "display": [
+        0,
+        0
+      ],
+      "class": "evidence-screen"
+    },
+    {
+      "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+      "alt": "EzyLens — 제품을 고르는 UI/UX — 제작 화면 캡처",
+      "natural": [
+        1440,
+        965
+      ],
+      "display": [
+        1280,
+        800
+      ],
+      "class": "project-image-real"
+    },
+    {
+      "src": "http://127.0.0.1:4173/evidence/expansion/operations-dashboard.png",
+      "alt": "정보 운영 대시보드 — 수집에서 발행까지 — 제작 화면 캡처",
+      "natural": [
+        1282,
+        946
+      ],
+      "display": [
+        621,
+        458
+      ],
+      "class": "project-image-real"
+    },
+    {
+      "src": "http://127.0.0.1:4173/evidence/expansion/book-cover.webp",
+      "alt": "세일즈 리허설 — 한 권의 지식을 설계하다 — 제작 화면 캡처",
+      "natural": [
+        1352,
+        2000
+      ],
+      "display": [
+        621,
+        388
+      ],
+      "class": "project-image-real"
+    },
+    {
+      "src": "http://127.0.0.1:4173/evidence/expansion/kfood-dashboard.png",
+      "alt": "먹거리사전 — 소싱을 위한 작업 화면 — 제작 화면 캡처",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        621,
+        388
+      ],
+      "class": "project-image-real"
+    },
+    {
+      "src": "http://127.0.0.1:4173/evidence/expansion/kings-home.png",
+      "alt": "Kings — 가맹을 검토하는 사람을 위한 웹 — 제작 화면 캡처",
+      "natural": [
+        1440,
+        1000
+      ],
+      "display": [
+        621,
+        388
+      ],
+      "class": "project-image-real"
+    },
+    {
+      "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원 — 활동이 신뢰가 되는 웹 — 제작 화면 캡처",
+      "natural": [
+        0,
+        0
+      ],
+      "display": [
+        621,
+        388
+      ],
+      "class": "project-image-real"
+    }
+  ]
+}

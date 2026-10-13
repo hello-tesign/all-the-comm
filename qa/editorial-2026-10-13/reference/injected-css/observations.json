@@ -1,0 +1,631 @@
+{
+  "errors": [],
+  "checks": [
+    {
+      "name": "home-1440",
+      "overflow": false,
+      "body": "home evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "64px",
+      "grid": "405.328px 405.328px 405.344px",
+      "frames": [
+        {
+          "size": [
+            405.328125,
+            253.328125
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            405.328125,
+            253.328125
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            405.34375,
+            253.328125
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "가맹을 고민하는 사람에게,판단에 필요한 정보를.",
+          "24px"
+        ],
+        [
+          "크게 보고, 비교하고.선택에 집중하는 화면.",
+          "24px"
+        ],
+        [
+          "흩어진 품목 정보를,다음 업무로 연결합니다.",
+          "24px"
+        ],
+        [
+          "필요한 일을,함께 풀어갑니다.",
+          "44px"
+        ],
+        [
+          "의료를 이해하는 경험,홍보를 실행하는 힘.",
+          "44px"
+        ],
+        [
+          "생각이 보이는 순간.",
+          "44px"
+        ],
+        [
+          "기획의 이유가결과에 남도록.",
+          "44px"
+        ],
+        [
+          "필요한 순간에,함께 생각할 팀.",
+          "44px"
+        ]
+      ]
+    },
+    {
+      "name": "about-1440",
+      "overflow": false,
+      "body": " evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "64px",
+      "grid": "none",
+      "frames": [
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "할 일은 많은데,함께할 팀이 필요할 때.",
+          "44px"
+        ],
+        [
+          "의학전문기자와병원 홍보팀장출신의 경험.",
+          "44px"
+        ],
+        [
+          "각기 다른 사업을,읽히는 구조로.",
+          "44px"
+        ],
+        [
+          "일하는 방식이회사를 설명합니다.",
+          "44px"
+        ],
+        [
+          "고객의 선택으로이어지는 커뮤니케이션.",
+          "44px"
+        ]
+      ]
+    },
+    {
+      "name": "team-1440",
+      "overflow": false,
+      "body": " evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "64px",
+      "grid": "none",
+      "frames": [
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "하나의 과제를여러 시선으로.",
+          "44px"
+        ],
+        [
+          "책을 만들 때도,웹을 만들 때도.",
+          "44px"
+        ]
+      ]
+    },
+    {
+      "name": "contact-1440",
+      "overflow": false,
+      "body": "contact-page evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "64px",
+      "grid": "624px 624px",
+      "frames": [
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "지금의 상황부터들려주세요.",
+          "30px"
+        ],
+        [
+          "고객이 찾는 화면,담당자가 쓰는 도구.",
+          "44px"
+        ]
+      ]
+    },
+    {
+      "name": "works-1440",
+      "overflow": false,
+      "body": "works-page evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "64px",
+      "grid": "624px 624px",
+      "frames": [
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "fill",
+          "loaded": true,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+        },
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            624,
+            390
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "화면으로 확인하는제작 역량.",
+          "44px"
+        ]
+      ]
+    },
+    {
+      "name": "process-1440",
+      "overflow": false,
+      "body": " evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "64px",
+      "grid": "606.859px 583.531px",
+      "frames": [],
+      "h2": [
+        [
+          "먼저, 사업을 이해합니다.",
+          "46.08px"
+        ],
+        [
+          "움직일 방향을 정합니다.",
+          "46.08px"
+        ],
+        [
+          "각자의 전문성으로 만듭니다.",
+          "46.08px"
+        ],
+        [
+          "결과에서 다음을 찾습니다.",
+          "46.08px"
+        ],
+        [
+          "무엇을, 어디까지.함께 정하고 시작합니다.",
+          "44px"
+        ]
+      ]
+    },
+    {
+      "name": "home-390",
+      "overflow": false,
+      "body": "home evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "36.66px",
+      "grid": "358px",
+      "frames": [
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "가맹을 고민하는 사람에게,판단에 필요한 정보를.",
+          "22px"
+        ],
+        [
+          "크게 보고, 비교하고.선택에 집중하는 화면.",
+          "22px"
+        ],
+        [
+          "흩어진 품목 정보를,다음 업무로 연결합니다.",
+          "22px"
+        ],
+        [
+          "필요한 일을,함께 풀어갑니다.",
+          "32px"
+        ],
+        [
+          "의료를 이해하는 경험,홍보를 실행하는 힘.",
+          "32px"
+        ],
+        [
+          "생각이 보이는 순간.",
+          "32px"
+        ],
+        [
+          "기획의 이유가결과에 남도록.",
+          "32px"
+        ],
+        [
+          "필요한 순간에,함께 생각할 팀.",
+          "32px"
+        ]
+      ]
+    },
+    {
+      "name": "about-390",
+      "overflow": false,
+      "body": " evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "36.66px",
+      "grid": "none",
+      "frames": [
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "할 일은 많은데,함께할 팀이 필요할 때.",
+          "32px"
+        ],
+        [
+          "의학전문기자와병원 홍보팀장출신의 경험.",
+          "32px"
+        ],
+        [
+          "각기 다른 사업을,읽히는 구조로.",
+          "32px"
+        ],
+        [
+          "일하는 방식이회사를 설명합니다.",
+          "32px"
+        ],
+        [
+          "고객의 선택으로이어지는 커뮤니케이션.",
+          "32px"
+        ]
+      ]
+    },
+    {
+      "name": "team-390",
+      "overflow": false,
+      "body": " evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "36.66px",
+      "grid": "none",
+      "frames": [
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "하나의 과제를여러 시선으로.",
+          "32px"
+        ],
+        [
+          "책을 만들 때도,웹을 만들 때도.",
+          "32px"
+        ]
+      ]
+    },
+    {
+      "name": "contact-390",
+      "overflow": false,
+      "body": "contact-page evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "36.66px",
+      "grid": "358px",
+      "frames": [
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "지금의 상황부터들려주세요.",
+          "30px"
+        ],
+        [
+          "고객이 찾는 화면,담당자가 쓰는 도구.",
+          "32px"
+        ]
+      ]
+    },
+    {
+      "name": "works-390",
+      "overflow": false,
+      "body": "works-page evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "36.66px",
+      "grid": "358px",
+      "frames": [
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "fill",
+          "loaded": true,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        },
+        {
+          "size": [
+            358,
+            223.75
+          ],
+          "ratio": true,
+          "fit": "contain",
+          "loaded": true,
+          "clip": "none"
+        }
+      ],
+      "h2": [
+        [
+          "화면으로 확인하는제작 역량.",
+          "32px"
+        ]
+      ]
+    },
+    {
+      "name": "process-390",
+      "overflow": false,
+      "body": " evidence-site",
+      "header": "rgb(255, 255, 255)",
+      "hero": "36.66px",
+      "grid": "none",
+      "frames": [],
+      "h2": [
+        [
+          "먼저, 사업을 이해합니다.",
+          "32px"
+        ],
+        [
+          "움직일 방향을 정합니다.",
+          "32px"
+        ],
+        [
+          "각자의 전문성으로 만듭니다.",
+          "32px"
+        ],
+        [
+          "결과에서 다음을 찾습니다.",
+          "32px"
+        ],
+        [
+          "무엇을, 어디까지.함께 정하고 시작합니다.",
+          "32px"
+        ]
+      ]
+    }
+  ]
+}

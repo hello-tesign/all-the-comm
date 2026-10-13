@@ -1,0 +1,27 @@
+{
+  "newCases": {
+    "passed": 50,
+    "failed": 0,
+    "cases": 4,
+    "errors": 0,
+    "writes": 0
+  },
+  "browser": {
+    "passed": 548,
+    "failed": 0,
+    "pages": 21,
+    "errors": 0,
+    "writes": 0
+  },
+  "http": {
+    "passed": 31,
+    "failed": 0,
+    "pages": 6,
+    "assets": 16
+  },
+  "finalImageFit": {
+    "passed": 14,
+    "failed": 0
+  },
+  "screenshots": 34
+}

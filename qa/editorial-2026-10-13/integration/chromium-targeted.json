@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "name": "chromium 1440 /team/ book facts and creator attribution preserved",
+      "passed": true,
+      "detail": {
+        "reason": "Current final caption attributes authorship and editing directly. The obsolete requirement for the literal phrase 제작자 프로젝트 was removed.",
+        "text": "강승구 저술·편집 · 340쪽 PDF\n\n원고 구성 · 저술 · 편집 디자인\n\n세일즈 리허설\n\n영업의 판단과 연습을 다룬 책입니다. 8부와 33장의 개념·사례·실습을 집필하고 본문, 도해, 워크시트의 지면을 편집했습니다.\n\n저술\n목차, 개념 설명, 사례와 실습 질문.\n편집 디자인\n제목·본문의 위계와 사진·도해 배치.\n검토\n목차 순서, 본문과 도해·실습의 일치.\n\n제작물\n원고 · 내지 · 도해 · 실습 워크시트\n\n프로젝트 보기"
+      }
+    },
+    {
+      "name": "chromium 390 /process/ mobile menu Escape closes and restores focus",
+      "passed": true,
+      "detail": {
+        "reason": "Await the native dialog close event and focus restoration, bounded to 1000ms.",
+        "immediate": {
+          "open": false,
+          "expanded": "false",
+          "focusReturned": true
+        },
+        "final": {
+          "open": false,
+          "expanded": "false",
+          "focusReturned": true
+        }
+      }
+    },
+    {
+      "name": "chromium 390 /team/ mobile menu Escape closes and restores focus",
+      "passed": true,
+      "detail": {
+        "reason": "Await the native dialog close event and focus restoration, bounded to 1000ms.",
+        "immediate": {
+          "open": false,
+          "expanded": "false",
+          "focusReturned": true
+        },
+        "final": {
+          "open": false,
+          "expanded": "false",
+          "focusReturned": true
+        }
+      }
+    },
+    {
+      "name": "chromium 390 /team/ book facts and creator attribution preserved",
+      "passed": true,
+      "detail": {
+        "reason": "Current final caption attributes authorship and editing directly. The obsolete requirement for the literal phrase 제작자 프로젝트 was removed.",
+        "text": "강승구 저술·편집 · 340쪽 PDF\n\n원고 구성 · 저술 · 편집 디자인\n\n세일즈 리허설\n\n영업의 판단과 연습을 다룬 책입니다. 8부와 33장의 개념·사례·실습을 집필하고 본문, 도해, 워크시트의 지면을 편집했습니다.\n\n저술\n목차, 개념 설명, 사례와 실습 질문.\n편집 디자인\n제목·본문의 위계와 사진·도해 배치.\n검토\n목차 순서, 본문과 도해·실습의 일치.\n\n제작물\n원고 · 내지 · 도해 · 실습 워크시트\n\n프로젝트 보기"
+      }
+    },
+    {
+      "name": "chromium 390 /works/ mobile menu Escape closes and restores focus",
+      "passed": true,
+      "detail": {
+        "reason": "Await the native dialog close event and focus restoration, bounded to 1000ms.",
+        "immediate": {
+          "open": false,
+          "expanded": "true",
+          "focusReturned": true
+        },
+        "final": {
+          "open": false,
+          "expanded": "false",
+          "focusReturned": true
+        }
+      }
+    },
+    {
+      "name": "chromium 390 /contact/ mobile menu Escape closes and restores focus",
+      "passed": true,
+      "detail": {
+        "reason": "Await the native dialog close event and focus restoration, bounded to 1000ms.",
+        "immediate": {
+          "open": false,
+          "expanded": "false",
+          "focusReturned": true
+        },
+        "final": {
+          "open": false,
+          "expanded": "false",
+          "focusReturned": true
+        }
+      }
+    }
+  ],
+  "events": []
+}

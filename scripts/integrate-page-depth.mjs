@@ -1,0 +1,23 @@
+import fs from 'node:fs/promises';
+const filename='scripts/build-renewal.mjs';
+let s=await fs.readFile(filename,'utf8');
+if(s.includes("from '../src/page-depth/healthcare.mjs'"))throw Error('Page-depth integration already applied');
+s=s.replace("import {evidenceHero", "import {healthcareAbout,healthcareHome,healthcareService} from '../src/page-depth/healthcare.mjs';\nimport {aboutProof,processDepth} from '../src/page-depth/about-process.mjs';\nimport {teamProof,contactGuide} from '../src/page-depth/team-contact.mjs';\nimport {evidenceHero");
+s=s.replace("'agency-composition.css']","'agency-composition.css','page-depth/healthcare.css','page-depth/about-process.css','page-depth/team-contact.css']");
+s=s.replace(":full?evidenceVisual(s.id):''",":full?(s.id==='hospital'?healthcareService():evidenceVisual(s.id)):''");
+s=s.replace('${serviceStage(homeServices)}</div></section><section class="projects-section','${serviceStage(homeServices)}</div></section>${en?\'\':healthcareHome()}<section class="projects-section');
+s=s.replace('<section class="principles-section section-pad">', '${en?\'\':healthcareAbout()+aboutProof()}<section class="principles-section section-pad">');
+s=s.split(/\r?\n/).map(line=>{
+ if(line.includes("add('/process/'"))return line.replace(/<\/section>`\);$/, "</section>${en?'':processDepth()}`);");
+ if(line.includes("add('/team/'"))return line.replace(/<\/section>`\);$/, "</section>${en?'':teamProof()}`);");
+ if(line.includes('const contactBody='))return line.replace(/<\/section>`;$/, "</section>${en?'':contactGuide()}`;");
+ return line;
+}).join('\n');
+s=s.replace("'프로젝트에 필요한 역할과 책임을 연결합니다.'", "'기획·콘텐츠·디자인·개발의 역할이 실제 결과물에서 어떻게 연결되는지 보여드립니다.'");
+s=s.replace("'단계마다 해야 할 일과 전달할 결과를 분명히 합니다.'", "'진행 단계와 실제 제작 자료, 함께 결정할 일과 전달받을 결과를 살펴보세요.'");
+s=s.replace("'기업의 마케팅을 기획하고, 제작하고, 운영합니다.'", "'기업의 마케팅을 기획하고, 제작하고, 운영합니다. 의료 커뮤니케이션의 깊이와 다양한 사업의 제작 경험을 함께 갖춥니다.'");
+await fs.writeFile(filename,s);
+let evidence=await fs.readFile('src/evidence-content.mjs','utf8');
+evidence=evidence.replace("'진료의 장점뿐 아니라 환자가 찾는 정보를 알기 쉽게 정리합니다.'", "'의학전문기자와 병원 홍보팀장 출신의 경험을 바탕으로, 병원 전략부터 의료 콘텐츠·언론홍보·채널 운영까지 연결합니다.'");
+await fs.writeFile('src/evidence-content.mjs',evidence);
+console.log('Integrated the Korean page-depth modules in source. Build is deferred until all modules are ready.');

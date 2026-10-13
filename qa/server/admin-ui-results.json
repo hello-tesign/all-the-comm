@@ -1,0 +1,47 @@
+{
+  "testedAt": "2026-10-12T12:08:10.512Z",
+  "checks": 10,
+  "failed": 0,
+  "results": [
+    {
+      "name": "administrator signs in through browser UI",
+      "passed": true
+    },
+    {
+      "name": "inquiry detail includes received text",
+      "passed": true
+    },
+    {
+      "name": "inquiry status updated through UI",
+      "passed": true
+    },
+    {
+      "name": "draft project created with escaped content through UI",
+      "passed": true
+    },
+    {
+      "name": "image upload and authenticated draft preview work",
+      "passed": true
+    },
+    {
+      "name": "case can be published from completed editor",
+      "passed": true
+    },
+    {
+      "name": "published API immediately reflects editor fields",
+      "passed": true
+    },
+    {
+      "name": "admin form has no horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "no browser page errors",
+      "passed": true
+    },
+    {
+      "name": "logout returns to login form",
+      "passed": true
+    }
+  ]
+}

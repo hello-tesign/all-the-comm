@@ -1,0 +1,118 @@
+[
+  {
+    "fit": [
+      {
+        "src": "/evidence/diverse/eyewear-product.jpg",
+        "fit": "cover"
+      },
+      {
+        "src": "/portfolio/concept-city-culture.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/portfolio/site-soulreset.png",
+        "fit": "cover"
+      }
+    ],
+    "frame": {
+      "x": 651.84375,
+      "y": 145,
+      "width": 723.34375,
+      "height": 640,
+      "top": 145,
+      "right": 1375.1875,
+      "bottom": 785,
+      "left": 651.84375
+    },
+    "caption": {
+      "x": 651.84375,
+      "y": 537.671875,
+      "width": 723.34375,
+      "height": 247.328125,
+      "top": 537.671875,
+      "right": 1375.1875,
+      "bottom": 785,
+      "left": 651.84375
+    }
+  },
+  {
+    "fit": [
+      {
+        "src": "/evidence/diverse/jonghae-home.png",
+        "fit": "cover"
+      },
+      {
+        "src": "/portfolio/concept-patient-guide.png",
+        "fit": "contain"
+      }
+    ],
+    "frame": {
+      "x": 651.84375,
+      "y": 145,
+      "width": 723.34375,
+      "height": 640,
+      "top": 145,
+      "right": 1375.1875,
+      "bottom": 785,
+      "left": 651.84375
+    },
+    "caption": {
+      "x": 651.84375,
+      "y": 537.671875,
+      "width": 723.34375,
+      "height": 247.328125,
+      "top": 537.671875,
+      "right": 1375.1875,
+      "bottom": 785,
+      "left": 651.84375
+    }
+  },
+  {
+    "fit": [
+      {
+        "src": "/portfolio/saas-ea-editor.png",
+        "fit": "cover"
+      },
+      {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "fit": "cover"
+      }
+    ],
+    "frame": {
+      "x": 651.84375,
+      "y": 145,
+      "width": 723.34375,
+      "height": 640,
+      "top": 145,
+      "right": 1375.1875,
+      "bottom": 785,
+      "left": 651.84375
+    },
+    "caption": {
+      "x": 651.84375,
+      "y": 537.671875,
+      "width": 723.34375,
+      "height": 247.328125,
+      "top": 537.671875,
+      "right": 1375.1875,
+      "bottom": 785,
+      "left": 651.84375
+    }
+  },
+  {
+    "caseCount": 10,
+    "sojukdoo": 1,
+    "slugs": [
+      "ezylens-studio",
+      "city-culture",
+      "jonghae-community",
+      "patient-guide",
+      "sojukdoo-concept",
+      "soulreset",
+      "review-atelier",
+      "tesign-radar",
+      "tesign-workflow",
+      "all-the-comm"
+    ]
+  }
+]

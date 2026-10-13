@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-13T02:16:15.217Z",
+  "checks": [
+    {
+      "name": "chromium active stage 2",
+      "passed": true
+    },
+    {
+      "name": "chromium verified editor capture loaded",
+      "passed": true,
+      "detail": {
+        "text": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품",
+        "src": "/portfolio/saas-ea-editor.png",
+        "loaded": true,
+        "natural": [
+          1600,
+          1050
+        ],
+        "rendered": [
+          621.28125,
+          368
+        ],
+        "fit": "contain",
+        "overflow": false
+      }
+    },
+    {
+      "name": "chromium prototype attribution visible",
+      "passed": true,
+      "detail": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품"
+    },
+    {
+      "name": "chromium relevant message visible",
+      "passed": true,
+      "detail": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품"
+    },
+    {
+      "name": "chromium no cultural poster in process",
+      "passed": true
+    },
+    {
+      "name": "chromium no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit active stage 2",
+      "passed": true
+    },
+    {
+      "name": "webkit verified editor capture loaded",
+      "passed": true,
+      "detail": {
+        "text": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품",
+        "src": "/portfolio/saas-ea-editor.png",
+        "loaded": true,
+        "natural": [
+          1600,
+          1050
+        ],
+        "rendered": [
+          621.28125,
+          368
+        ],
+        "fit": "contain",
+        "overflow": false
+      }
+    },
+    {
+      "name": "webkit prototype attribution visible",
+      "passed": true,
+      "detail": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품"
+    },
+    {
+      "name": "webkit relevant message visible",
+      "passed": true,
+      "detail": "어떤 자료를 근거로, 무엇을 말할지 정합니다.\n콘텐츠 기획·편집 도구 · Review Atelier 시제품"
+    },
+    {
+      "name": "webkit no cultural poster in process",
+      "passed": true
+    },
+    {
+      "name": "webkit no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "write requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "writes": []
+}

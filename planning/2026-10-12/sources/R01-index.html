@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="브랜드의 신호를 발견해 전략으로 정리하고, 실행을 통해 성장의 증거로 바꾸는 종합광고대행사 올더커뮤니케이션.">
+  <link rel="icon" href="data:,">
+  <title>올더커뮤니케이션 — 기업의 가치를 성장으로</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --paper:#f3f1eb;
+      --ink:#121212;
+      --muted:#5c5a54;
+      --line:rgba(18,18,18,.18);
+      --line-strong:rgba(18,18,18,.48);
+      --signal:#e53e24;
+      --signal-soft:#ffd6ce;
+      --panel:#e7e4dc;
+      --inverse:#11110f;
+      --inverse-ink:#f6f4ed;
+      --shadow:0 22px 60px rgba(10,10,8,.1);
+      --max:1440px;
+      --serif:"Iowan Old Style","Noto Serif KR","Batang",serif;
+      --sans:"Pretendard Variable","SUIT Variable","Noto Sans KR","Apple SD Gothic Neo",sans-serif;
+      --mono:"SFMono-Regular","Roboto Mono","D2Coding",monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper:#151513;
+        --ink:#f1efe8;
+        --muted:#aaa79f;
+        --line:rgba(241,239,232,.18);
+        --line-strong:rgba(241,239,232,.5);
+        --signal:#ff5a3d;
+        --signal-soft:#4d1e17;
+        --panel:#201f1c;
+        --inverse:#f1efe8;
+        --inverse-ink:#11110f;
+        --shadow:0 24px 70px rgba(0,0,0,.35);
+      }
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:88px}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;overflow-x:hidden;word-break:keep-all;overflow-wrap:break-word}
+    h1,h2,h3,p,blockquote,dt,dd,span,strong,button,label,summary,address{word-break:keep-all;overflow-wrap:break-word}
+    a{color:inherit;text-decoration:none}
+    button,input,select,textarea{font:inherit;color:inherit}
+    button{cursor:pointer}
+    .scroll-link{border:0;background:none;padding:0;color:inherit;text-align:inherit}
+    ::selection{background:var(--signal);color:#fff}
+    :focus-visible{outline:2px solid var(--signal);outline-offset:4px}
+    .skip{position:fixed;left:16px;top:-80px;z-index:1000;background:var(--ink);color:var(--paper);padding:10px 14px}.skip:focus{top:16px}
+    .site-header{position:fixed;z-index:100;top:0;left:0;right:0;height:74px;display:flex;align-items:center;border-bottom:1px solid transparent;transition:background .2s,border-color .2s;height .2s}
+    .site-header.scrolled{height:58px;background:color-mix(in srgb,var(--paper) 92%,transparent);border-color:var(--line);backdrop-filter:blur(12px)}
+    .nav-shell{width:min(calc(100% - 56px),var(--max));margin:auto;display:grid;grid-template-columns:120px 1fr auto;align-items:center;gap:24px}
+    .nav-mark{font:700 12px/1 var(--mono);letter-spacing:.08em;display:flex;align-items:center;gap:10px;white-space:nowrap}
+    .nav-mark::before{content:"";width:28px;height:2px;background:var(--signal)}
+    .nav-links{display:flex;justify-content:center;gap:clamp(16px,2.1vw,36px);font:600 11px/1 var(--mono);letter-spacing:.06em}
+    .nav-links .scroll-link{padding:12px 0;position:relative;font:inherit;letter-spacing:inherit}.nav-links .scroll-link::after{content:"";position:absolute;left:0;right:100%;bottom:6px;height:1px;background:var(--signal);transition:right .25s}.nav-links .scroll-link:hover::after,.nav-links .scroll-link:focus-visible::after{right:0}
+    .nav-cta,.button{display:inline-flex;min-height:44px;align-items:center;justify-content:center;border:1px solid var(--ink);background:var(--ink);color:var(--paper);padding:0 18px;font-weight:700;letter-spacing:-.01em;transition:background .2s,color .2s,border-color .2s}
+    .nav-cta:hover,.button:hover{background:var(--signal);border-color:var(--signal);color:#fff}
+    .button.secondary{background:transparent;color:var(--ink)}.button.secondary:hover{background:var(--ink);color:var(--paper)}
+    .menu-button{display:none;width:44px;height:44px;border:1px solid var(--line-strong);background:var(--paper);position:relative}.menu-button::before,.menu-button::after{content:"";position:absolute;left:11px;right:11px;height:1px;background:var(--ink);transition:transform .2s,top .2s}.menu-button::before{top:16px}.menu-button::after{top:26px}.menu-button[aria-expanded="true"]::before{top:21px;transform:rotate(45deg)}.menu-button[aria-expanded="true"]::after{top:21px;transform:rotate(-45deg)}
+    main{position:relative}
+    .frame{width:min(calc(100% - 56px),var(--max));margin:auto}
+    .section{padding:clamp(92px,11vw,168px) 0;border-top:1px solid var(--line);position:relative}
+    .section-head{display:grid;grid-template-columns:2fr 8fr 2fr;gap:24px;align-items:start;margin-bottom:clamp(44px,7vw,96px)}
+    .section-code{font:600 11px/1.2 var(--mono);letter-spacing:.1em;color:var(--muted);padding-top:11px}
+    .section-title{grid-column:2;font-size:clamp(38px,6vw,88px);line-height:.96;letter-spacing:-.065em;margin:0;max-width:970px;font-weight:650}
+    .section-title.serif{font-family:var(--serif);font-weight:500;letter-spacing:-.055em}
+    .section-note{grid-column:3;font-size:13px;color:var(--muted);margin:9px 0 0;line-height:1.55}
+    .label{font:600 11px/1.25 var(--mono);letter-spacing:.11em;color:var(--muted)}
+    .hero{min-height:100svh;padding:124px 0 60px;display:flex;align-items:stretch;position:relative;overflow:hidden}
+    .hero .frame{display:grid;grid-template-columns:7fr 5fr;gap:24px;align-items:end;position:relative}
+    .hero-copy{position:relative;z-index:2;padding-bottom:5vh}
+    .hero-kicker{display:flex;align-items:center;gap:14px;margin-bottom:28px;font:600 11px/1 var(--mono);letter-spacing:.12em}.hero-kicker::before{content:"";width:50px;height:1px;background:var(--signal)}
+    .hero h1{font-size:clamp(52px,7.7vw,118px);line-height:.9;letter-spacing:-.08em;margin:0;max-width:1000px;font-weight:680}
+    .hero h1 .serif{font-family:var(--serif);font-weight:500}
+    .hero .lead{font-size:clamp(18px,1.55vw,24px);line-height:1.5;max-width:640px;margin:34px 0 0;letter-spacing:-.03em}
+    .hero .summary{max-width:580px;color:var(--muted);margin:20px 0 0;font-size:15px}
+    .hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:34px}
+    .hero-visual{position:absolute;right:-8vw;top:2vh;width:min(53vw,760px);height:88%;z-index:0;opacity:.98}
+    #signal-canvas{display:block;width:100%;height:100%}
+    .hero-coordinate{position:absolute;right:0;bottom:0;writing-mode:vertical-rl;font:500 10px/1 var(--mono);letter-spacing:.14em;color:var(--muted)}
+    .scroll-cue{position:absolute;left:28px;bottom:26px;font:600 10px/1 var(--mono);letter-spacing:.12em;transform:rotate(-90deg);transform-origin:left center;display:flex;align-items:center;gap:10px}.scroll-cue::before{content:"";width:36px;height:1px;background:var(--signal)}
+    .manifesto{background:var(--inverse);color:var(--inverse-ink);padding:clamp(70px,9vw,120px) 0;position:relative;overflow:hidden}
+    .manifesto .frame{display:grid;grid-template-columns:3fr 7fr 2fr;gap:24px}
+    .manifesto blockquote{grid-column:2;margin:0;font:500 clamp(34px,5.3vw,76px)/1.04 var(--serif);letter-spacing:-.055em}
+    .manifesto .accent{color:var(--signal)}
+    .manifesto-note{grid-column:3;align-self:end;font-size:13px;color:color-mix(in srgb,var(--inverse-ink) 65%,transparent);margin:0}
+    .manifesto-intro{grid-column:2/4;max-width:980px;margin:42px 0 0;font-size:clamp(17px,1.6vw,23px);line-height:1.7;color:color-mix(in srgb,var(--inverse-ink) 78%,transparent);letter-spacing:-.025em}
+    .proof-flow{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid color-mix(in srgb,var(--inverse-ink) 24%,transparent);margin-top:64px;grid-column:1/-1}
+    .proof-flow div{padding:18px 8px 0 0;border-right:1px solid color-mix(in srgb,var(--inverse-ink) 18%,transparent);font:600 11px/1.35 var(--mono);letter-spacing:.08em}.proof-flow div:last-child{border-right:0}.proof-flow span{display:block;color:var(--signal);margin-bottom:7px}
+    .services-layout{display:grid;grid-template-columns:6fr 5fr;gap:8.333vw}
+    .service-index{border-top:1px solid var(--line-strong)}
+    .service-item{width:100%;display:grid;grid-template-columns:50px 1fr auto;align-items:center;gap:12px;text-align:left;border:0;border-bottom:1px solid var(--line);background:none;padding:18px 0;transition:color .18s}.service-item:hover,.service-item.active{color:var(--signal)}.service-item .num{font:500 10px/1 var(--mono);color:var(--muted)}.service-item .name{font-size:clamp(18px,2vw,28px);font-weight:650;letter-spacing:-.035em}.service-item .arrow{font-size:20px;transform:translateX(0);transition:transform .18s}.service-item:hover .arrow,.service-item.active .arrow{transform:translateX(6px)}
+    .service-display{position:sticky;top:110px;align-self:start;min-height:460px;background:var(--panel);padding:clamp(28px,4vw,54px);display:flex;flex-direction:column;justify-content:space-between;box-shadow:var(--shadow);clip-path:polygon(0 0,100% 0,100% 92%,90% 100%,0 100%)}
+    .service-display::before{content:"";position:absolute;width:180px;height:180px;border:1px solid var(--line-strong);border-radius:50%;right:-40px;top:-30px}
+    .service-display::after{content:"";position:absolute;width:88px;height:88px;border:1px solid var(--signal);border-radius:50%;right:62px;top:66px}
+    .service-display .display-code{font:600 11px/1 var(--mono);letter-spacing:.1em;color:var(--signal)}
+    .service-display h3{font-size:clamp(34px,4vw,62px);line-height:.95;letter-spacing:-.06em;margin:70px 0 24px;max-width:430px}
+    .service-display p{font-size:16px;max-width:420px;color:var(--muted);margin:0}
+    .service-display small{font:500 10px/1.4 var(--mono);letter-spacing:.08em;color:var(--muted);margin-top:48px}
+    .process-stage{position:relative}
+    .process-track{display:none}
+    .process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line-strong)}
+    .process-step{position:relative;padding:34px 28px 38px;min-height:330px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.process-step:nth-child(3n+1){padding-left:0}.process-step:nth-child(3n){border-right:0}.process-dot{width:13px;height:13px;border:2px solid var(--paper);background:var(--ink);outline:1px solid var(--ink);border-radius:50%;margin:0 0 48px;position:relative;z-index:2;transition:background .2s}.process-step.active .process-dot{background:var(--signal);outline-color:var(--signal)}.process-step .num{font:600 11px/1 var(--mono);letter-spacing:.1em;color:var(--signal)}.process-step h3{font-size:24px;line-height:1.2;letter-spacing:-.04em;margin:14px 0}.process-step p{font-size:14px;color:var(--muted);margin:0;max-width:300px}.process-step .output{display:inline-block;margin-top:26px;border-top:1px solid var(--line-strong);padding-top:9px;font:600 10px/1.5 var(--mono);letter-spacing:.05em}
+    .principles{background:var(--panel)}
+    .principle-list{border-top:1px solid var(--line-strong)}
+    .principle{display:grid;grid-template-columns:1fr 4fr 5fr 1fr;gap:24px;align-items:start;padding:30px 0;border-bottom:1px solid var(--line);transition:padding-left .25s}.principle:hover{padding-left:14px}.principle .num{font:500 11px/1 var(--mono);color:var(--signal);padding-top:6px}.principle h3{font-size:clamp(23px,2.3vw,34px);line-height:1.15;margin:0;letter-spacing:-.04em}.principle p{margin:0;color:var(--muted);max-width:650px}.principle .mark{font:500 24px/1 var(--mono);color:var(--line-strong);text-align:right}
+    .team-map{display:grid;grid-template-columns:1fr 1fr;min-height:640px;border:1px solid var(--line-strong);position:relative;background:radial-gradient(circle at 50% 50%,var(--signal-soft) 0,transparent 36%)}
+    .team-core{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:150px;height:150px;border-radius:50%;background:var(--signal);color:#fff;display:grid;place-content:center;text-align:center;font:700 13px/1.35 var(--mono);letter-spacing:.08em;z-index:3;box-shadow:0 0 0 16px color-mix(in srgb,var(--signal) 10%,transparent)}
+    .team-side{display:grid;grid-template-rows:repeat(2,1fr)}.team-side:first-child{border-right:1px solid var(--line)}.team-role{display:grid;grid-template-columns:46px 1fr;gap:10px 14px;align-content:center;padding:34px clamp(62px,6vw,94px) 34px clamp(18px,3vw,46px);border-bottom:1px solid var(--line);position:relative}.team-side .team-role:last-child{border-bottom:0}.team-role::after{content:"";height:1px;width:clamp(20px,4vw,70px);background:var(--signal);position:absolute;top:50%}.team-side:first-child .team-role::after{right:0}.team-side:last-child .team-role::after{left:0}.team-role .n{font:500 10px/1 var(--mono);color:var(--muted);padding-top:7px}.team-role h3{font-size:clamp(20px,1.8vw,28px);line-height:1.2;margin:0;letter-spacing:-.035em}.team-role p{grid-column:2;margin:0;color:var(--muted);font-size:13px;line-height:1.65}.team-side:last-child .team-role{padding-left:clamp(72px,8vw,116px);padding-right:clamp(18px,3vw,46px)}
+    .works{background:var(--inverse);color:var(--inverse-ink)}.works .section-code,.works .section-note{color:color-mix(in srgb,var(--inverse-ink) 60%,transparent)}
+    .work-system{display:grid;grid-template-columns:4fr 8fr;border-top:1px solid color-mix(in srgb,var(--inverse-ink) 25%,transparent)}
+    .work-services{padding:28px 30px 28px 0;border-right:1px solid color-mix(in srgb,var(--inverse-ink) 20%,transparent)}
+    .work-services div{display:grid;grid-template-columns:32px 1fr;gap:10px;padding:9px 0;font-size:14px;color:color-mix(in srgb,var(--inverse-ink) 72%,transparent)}.work-services span{font:500 9px/1.8 var(--mono);color:var(--signal)}
+    .proof-frame{padding:clamp(30px,5vw,72px);min-height:480px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+    .proof-frame::before{content:"";position:absolute;left:0;top:50%;width:100%;height:1px;background:color-mix(in srgb,var(--inverse-ink) 14%,transparent);transform:rotate(-12deg)}.proof-frame::after{content:"";position:absolute;right:10%;top:12%;width:200px;height:200px;border:1px solid var(--signal);border-radius:50%}
+    .proof-frame .eyebrow{font:600 11px/1 var(--mono);letter-spacing:.1em;color:var(--signal);position:relative;z-index:1}.proof-frame h3{font:500 clamp(38px,5vw,76px)/.97 var(--serif);letter-spacing:-.05em;margin:0;max-width:720px;position:relative;z-index:1}.proof-frame p{max-width:520px;color:color-mix(in srgb,var(--inverse-ink) 66%,transparent);position:relative;z-index:1;margin:20px 0 0}.proof-sequence{display:flex;gap:8px;flex-wrap:wrap;position:relative;z-index:1}.proof-sequence span{border-top:1px solid color-mix(in srgb,var(--inverse-ink) 38%,transparent);padding:10px 30px 0 0;font:600 10px/1 var(--mono);letter-spacing:.08em}
+    .case-notice{display:grid;grid-template-columns:4fr 8fr;border-top:1px solid color-mix(in srgb,var(--inverse-ink) 28%,transparent);padding:22px 0 46px;font-size:13px;color:color-mix(in srgb,var(--inverse-ink) 68%,transparent)}.case-notice strong{font:600 10px/1.4 var(--mono);letter-spacing:.09em;color:var(--signal)}
+    .case-list{border-top:1px solid color-mix(in srgb,var(--inverse-ink) 34%,transparent)}
+    .case-row{display:grid;grid-template-columns:2.4fr 5fr 4.6fr;gap:clamp(24px,4vw,68px);padding:clamp(38px,5vw,76px) 0;border-bottom:1px solid color-mix(in srgb,var(--inverse-ink) 22%,transparent);align-items:start}
+    .case-index{position:sticky;top:90px}.case-index .n{display:block;font:500 clamp(54px,7vw,108px)/.8 var(--serif);letter-spacing:-.07em;color:var(--signal)}.case-index .type{display:block;margin-top:24px;font:600 10px/1.45 var(--mono);letter-spacing:.09em;color:color-mix(in srgb,var(--inverse-ink) 58%,transparent)}
+    .case-story .tag{font:600 10px/1 var(--mono);letter-spacing:.1em;color:var(--signal)}.case-story h3{font-size:clamp(30px,4vw,58px);line-height:.98;letter-spacing:-.055em;margin:24px 0 30px}.case-story dl{margin:0}.case-story dl div{display:grid;grid-template-columns:92px 1fr;gap:18px;padding:14px 0;border-top:1px solid color-mix(in srgb,var(--inverse-ink) 18%,transparent)}.case-story dt{font:600 9px/1.5 var(--mono);letter-spacing:.08em;color:var(--signal)}.case-story dd{margin:0;font-size:14px;color:color-mix(in srgb,var(--inverse-ink) 72%,transparent)}
+    .case-visual{aspect-ratio:4/3;position:relative;overflow:hidden;background:#e7e4dc;color:#fff;isolation:isolate}.case-visual::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,8,8,.06),rgba(7,8,8,.74));z-index:1}.case-visual::after{content:"";position:absolute;width:52%;aspect-ratio:1;border:1px solid var(--signal);border-radius:50%;right:-12%;top:-16%;z-index:2;transition:transform .8s cubic-bezier(.2,.7,.2,1)}.case-visual img{position:absolute;inset:-5%;width:110%;height:110%;object-fit:cover;filter:saturate(.72) contrast(1.08);transform:scale(1.035);transition:transform 1.15s cubic-bezier(.2,.7,.2,1),filter .55s ease;will-change:transform}.case-row.visible .case-visual img{transform:scale(1)}.case-row:hover .case-visual img{transform:scale(1.07);filter:saturate(.95) contrast(1.08)}.case-row:hover .case-visual::after{transform:rotate(18deg) scale(.92)}.case-visual .visual-word{position:absolute;left:9%;right:9%;bottom:9%;font:700 clamp(32px,4.6vw,72px)/.82 var(--sans);letter-spacing:-.075em;z-index:3}.case-visual .visual-meta{position:absolute;left:9%;top:9%;font:600 9px/1.4 var(--mono);letter-spacing:.12em;z-index:3}.case-visual .visual-line{position:absolute;left:9%;top:43%;width:73%;height:2px;background:var(--signal);transform:rotate(-10deg) scaleX(.12);transform-origin:left;z-index:3;transition:transform .85s cubic-bezier(.2,.7,.2,1) .15s}.case-row.visible .case-visual .visual-line{transform:rotate(-10deg) scaleX(1)}.case-visual.food::after{border-color:#fff;width:35%;right:10%;top:15%}.case-visual.food .visual-line{background:#fff;transform:rotate(18deg) scaleX(.12);top:27%;width:45%}.case-row.visible .case-visual.food .visual-line{transform:rotate(18deg) scaleX(1)}.case-visual.tech::after{border-radius:0;transform:rotate(45deg);border-color:var(--signal);right:4%;top:8%;width:34%}.case-row:hover .case-visual.tech::after{transform:rotate(64deg) scale(.92)}.case-visual.tech .visual-line{top:62%;transform:scaleX(.12);width:82%}.case-row.visible .case-visual.tech .visual-line{transform:scaleX(1)}
+    .motion-band{margin-top:clamp(54px,8vw,110px);border-top:1px solid color-mix(in srgb,var(--inverse-ink) 28%,transparent);border-bottom:1px solid color-mix(in srgb,var(--inverse-ink) 28%,transparent);overflow:hidden;white-space:nowrap}.motion-band-track{display:inline-flex;align-items:center;gap:30px;padding:16px 0;font:600 11px/1 var(--mono);letter-spacing:.1em;color:color-mix(in srgb,var(--inverse-ink) 62%,transparent);animation:signal-marquee 24s linear infinite}.motion-band-track b{color:var(--signal);font-size:17px}.motion-band-track span{display:inline-flex;gap:30px;align-items:center}@keyframes signal-marquee{to{transform:translateX(-50%)}}
+    .contact{padding-bottom:70px}.contact-grid{display:grid;grid-template-columns:4fr 7fr 1fr;gap:24px}.contact-intro h2{font:500 clamp(40px,5vw,76px)/1 var(--serif);letter-spacing:-.06em;margin:0 0 24px}.contact-intro p{color:var(--muted);max-width:360px;margin:0}.contact-form{grid-column:2;border-top:2px solid var(--ink);padding-top:20px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.field{margin-bottom:20px}.field label{display:block;font:600 11px/1 var(--mono);letter-spacing:.06em;margin-bottom:8px}.field input,.field select,.field textarea{width:100%;border:0;border-bottom:1px solid var(--line-strong);background:transparent;border-radius:0;padding:12px 2px;outline:none}.field textarea{min-height:130px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--signal);box-shadow:0 1px 0 var(--signal)}.form-note{font-size:12px;color:var(--muted);margin:0 0 18px}.form-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.form-status{font-size:13px;color:var(--muted);min-height:1.6em;margin:14px 0 0}.copy-output{width:100%;min-height:110px;border:1px solid var(--line);background:var(--panel);padding:14px;margin-top:16px;display:none}.copy-output.show{display:block}
+    .footer{border-top:1px solid var(--line);padding:34px 0 42px}.footer .frame{display:grid;grid-template-columns:3fr 5fr 4fr;gap:24px;font-size:12px;color:var(--muted)}.footer strong{color:var(--ink);font-size:14px}.footer p{margin:0}.footer address{font-style:normal}.footer a{text-decoration:underline;text-underline-offset:3px}.footer .right{text-align:right;font:500 10px/1.7 var(--mono);letter-spacing:.04em}.privacy{grid-column:1/-1;border-top:1px solid var(--line);padding-top:16px}.privacy summary{width:max-content;cursor:pointer;color:var(--ink);font-weight:700}.privacy p{max-width:850px;margin-top:12px;line-height:1.75}
+    .signal-spine{position:absolute;left:calc((100% - min(calc(100% - 56px),var(--max)))/2 + 7px);top:100vh;bottom:0;width:1px;background:var(--line);pointer-events:none;z-index:5}.signal-spine span{display:block;width:1px;height:0;background:var(--signal);position:sticky;top:58px}.signal-spine span::after{content:"";position:absolute;left:50%;bottom:0;width:7px;height:7px;border-radius:50%;background:var(--signal);transform:translate(-50%,50%);box-shadow:0 0 0 5px color-mix(in srgb,var(--signal) 14%,transparent)}
+    .scroll-enhanced .hero-copy{transform:translate3d(0,var(--hero-shift,0),0);will-change:transform}
+    .scroll-enhanced .hero-visual{transform:translate3d(0,var(--visual-shift,0),0) scale(var(--visual-scale,1));transform-origin:70% 45%;will-change:transform}
+    .scroll-enhanced .section-head{transform:translate3d(var(--head-shift,0),0,0);will-change:transform}
+    .scroll-enhanced .manifesto blockquote{transform:translate3d(var(--quote-shift,0),0,0);will-change:transform}
+    .scroll-enhanced .proof-frame::after{transform:translate3d(0,var(--proof-orbit,0),0);will-change:transform}
+    .reveal{opacity:1;transform:none}.motion-ready .reveal{transition:transform .4s ease}.motion-ready .reveal:not(.visible){transform:translateY(8px)}.reveal.visible{transform:none}
+    @media (max-width:980px){
+      .nav-shell{grid-template-columns:1fr auto}.nav-links,.nav-cta{display:none}.menu-button{display:block}.nav-links.open{display:flex;position:fixed;top:58px;left:0;right:0;height:calc(100svh - 58px);background:var(--paper);flex-direction:column;justify-content:flex-start;align-items:flex-start;padding:52px 28px;gap:0;border-top:1px solid var(--line);font-size:22px}.nav-links.open .scroll-link{width:100%;padding:20px 0;border-bottom:1px solid var(--line)}
+      .hero .frame{grid-template-columns:1fr}.hero-copy{max-width:760px}.hero-visual{right:-18vw;width:70vw;opacity:.65}
+      .section-head{grid-template-columns:1fr 8fr}.section-title{grid-column:2}.section-note{grid-column:2;margin-top:0;max-width:520px}
+      .manifesto .frame{grid-template-columns:1fr 8fr}.manifesto blockquote{grid-column:2}.manifesto-note{grid-column:2;margin-top:30px}.proof-flow{grid-column:1/-1}
+      .services-layout{grid-template-columns:1fr 1fr;gap:40px}.process-grid{grid-template-columns:repeat(2,1fr)}.process-step,.process-step:nth-child(3n+1){padding:30px 24px}.process-step:nth-child(3n){border-right:1px solid var(--line)}.process-step:nth-child(2n){border-right:0}.process-step:nth-child(2n+1){padding-left:0}
+      .principle{grid-template-columns:50px 3fr 5fr}.principle .mark{display:none}
+      .work-system{grid-template-columns:1fr}.work-services{border-right:0;border-bottom:1px solid color-mix(in srgb,var(--inverse-ink) 20%,transparent);display:grid;grid-template-columns:1fr 1fr;gap:0 18px;padding-right:0}
+      .contact-grid{grid-template-columns:1fr 2fr}.contact-form{grid-column:2}.footer .frame{grid-template-columns:1fr 1fr}.footer .right{grid-column:1/-1;text-align:left}
+    }
+    @media (max-width:700px){
+      .nav-shell,.frame{width:calc(100% - 36px)}.site-header{height:58px}.nav-mark{font-size:10px}
+      .hero{min-height:860px;padding-top:104px}.hero h1{font-size:clamp(50px,16vw,76px);max-width:600px}.hero .lead{font-size:18px}.hero .summary{font-size:14px}.hero-visual{width:115vw;height:58%;right:-54vw;top:28%;opacity:.58}.hero-coordinate{display:none}.hero-actions{flex-direction:column;align-items:stretch;max-width:330px}.scroll-cue{display:none}
+      .signal-spine{left:18px}
+      .section{padding:82px 0}.section-head{display:block;margin-bottom:44px}.section-code{margin-bottom:18px}.section-title{font-size:42px}.section-note{margin-top:18px}
+      .manifesto .frame{display:block}.manifesto blockquote{font-size:40px}.manifesto-note{margin-top:28px}.proof-flow{grid-template-columns:1fr 1fr;gap:24px 0}.proof-flow div:nth-child(2){border-right:0}.proof-flow div{padding-top:14px}
+      .services-layout{display:block}.service-display{display:none}.service-item{grid-template-columns:36px 1fr auto;padding:17px 0}.service-item .name{font-size:20px}.service-item::after{content:attr(data-short);grid-column:2/4;color:var(--muted);font-size:13px;line-height:1.5;padding:0 0 4px}.service-item .arrow{align-self:start}
+      .process-grid{display:block}.process-step,.process-step:nth-child(3n+1),.process-step:nth-child(2n+1){border-right:0;border-bottom:1px solid var(--line);padding:28px 0 34px 40px;min-height:0;margin:0}.process-dot{position:absolute;left:1px;top:34px;margin:0}.process-step h3{font-size:22px}.process-step p{max-width:100%}
+      .principle{grid-template-columns:36px 1fr;padding:24px 0}.principle p{grid-column:2}.principle:hover{padding-left:0}
+      .team-map{display:block;border-left:0;border-right:0;background:none}.team-core{position:static;transform:none;width:100%;height:auto;border-radius:0;padding:18px;margin-bottom:2px;box-shadow:none}.team-side{display:block}.team-side:first-child{border-right:0}.team-role,.team-side:last-child .team-role{padding:20px 0;grid-template-columns:36px 1fr;border-bottom:1px solid var(--line)}.team-role::after{display:none}
+      .work-system{display:block}.work-services{grid-template-columns:1fr}.proof-frame{padding:42px 0;min-height:440px}.proof-frame::after{width:130px;height:130px;right:-35px}.proof-frame h3{font-size:46px}.proof-sequence{display:grid;grid-template-columns:1fr 1fr}.proof-sequence span{padding-right:10px}
+      .case-notice{display:block;padding:18px 0 34px}.case-notice strong{display:block;margin-bottom:8px}.case-row{display:block;padding:46px 0}.case-index{position:static;display:flex;align-items:end;justify-content:space-between;margin-bottom:30px}.case-index .n{font-size:68px}.case-index .type{text-align:right;margin:0}.case-story h3{font-size:39px}.case-story dl div{grid-template-columns:76px 1fr}.case-visual{margin-top:34px;aspect-ratio:1/1}.case-visual .visual-word{font-size:50px}
+      .contact-grid{display:block}.contact-intro{margin-bottom:48px}.form-row{display:block}.form-actions{align-items:stretch}.form-actions .button{width:100%}
+      .footer .frame{display:block}.footer p{margin-bottom:18px}.footer .right{text-align:left}
+    }
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <button class="skip scroll-link" type="button" data-scroll-target="content">본문으로 바로가기</button>
+  <header class="site-header" id="header">
+    <div class="nav-shell">
+      <button class="nav-mark scroll-link" type="button" data-scroll-target="home" aria-label="올더커뮤니케이션 홈으로 이동">ALLTHE COMM.</button>
+      <nav class="nav-links" id="nav" aria-label="주요 메뉴">
+        <button class="scroll-link" type="button" data-scroll-target="about">ABOUT US</button><button class="scroll-link" type="button" data-scroll-target="process">OUR PROCESS</button><button class="scroll-link" type="button" data-scroll-target="team">TEAM</button><button class="scroll-link" type="button" data-scroll-target="works">WORKS</button><button class="scroll-link" type="button" data-scroll-target="contact">CONTACT</button>
+      </nav>
+      <button class="nav-cta scroll-link" type="button" data-scroll-target="contact">프로젝트 상담하기</button>
+      <button class="menu-button" id="menu" aria-controls="nav" aria-expanded="false" aria-label="메뉴 열기"></button>
+    </div>
+  </header>
+
+  <main id="content">
+    <div class="signal-spine" aria-hidden="true"><span id="spine-fill"></span></div>
+    <section class="hero" id="home">
+      <div class="frame">
+        <div class="hero-copy">
+          <div class="hero-kicker">ALLTHE COMMUNICATION / 2026</div>
+          <h1>기업의 가치를 알리고,<br><span class="serif decode" data-text="성장의 방향">성장의 방향</span>을 만듭니다.</h1>
+          <p class="lead">전략부터 콘텐츠, 광고 집행과 성과 분석까지.<br>기업의 성장을 함께하는 종합광고대행사.</p>
+          <p class="summary">브랜드의 현재와 시장을 진단하고, 목표와 예산에 맞는 전략을 설계합니다. 온라인과 오프라인, 콘텐츠와 미디어를 하나의 실행 흐름으로 연결합니다.</p>
+          <div class="hero-actions">
+            <button class="button scroll-link" type="button" data-scroll-target="contact">프로젝트 상담하기</button>
+            <button class="button secondary scroll-link" type="button" data-scroll-target="works">주요 프로젝트 보기</button>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true"><canvas id="signal-canvas"></canvas></div>
+        <div class="hero-coordinate" aria-hidden="true">37.5665 N / 126.9780 E — SIGNAL DETECTED</div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">SCROLL TO FOLLOW THE SIGNAL</div>
+    </section>
+
+    <section class="manifesto" id="about">
+      <div class="frame">
+        <div class="label">01 / OUR POINT OF VIEW</div>
+        <blockquote class="reveal">브랜드의 작은 <span class="accent decode" data-text="신호">신호</span>를 발견해<br>전략으로 정리하고,<br>실행으로 증명합니다.</blockquote>
+        <p class="manifesto-note">홍보 인력이 부족한 기업 곁에서, 필요한 전문성을 하나의 실행 흐름으로 연결합니다.</p>
+        <p class="manifesto-intro">올더커뮤니케이션의 목적이자 존재가치는 홍보 담당자가 없거나 인력이 부족한 기업의 마케팅 업무를 조력하는 데 있습니다. 기업의 규모를 떠나 적정한 마케팅 범위 안에서 현재를 진단하고, 홍보 전략을 수립하고, 마케팅 방안을 설계·실행합니다. 이후 결과 보고를 바탕으로 다음 방향을 지속적으로 소통하고 연구합니다.</p>
+        <div class="proof-flow" aria-label="업무 흐름">
+          <div><span>01</span>SIGNAL<br>가능성 발견</div>
+          <div><span>02</span>STRATEGY<br>방향 설계</div>
+          <div><span>03</span>EXECUTION<br>통합 실행</div>
+          <div><span>04</span>PROOF<br>결과와 개선</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="frame">
+        <div class="section-head">
+          <div class="section-code">02 / CAPABILITIES</div>
+          <h2 class="section-title decode" data-text="하나의 목표, 아홉 가지 실행 역량">하나의 목표,<br>아홉 가지 실행 역량</h2>
+          <p class="section-note">목록을 늘어놓지 않습니다. 프로젝트의 문제에 따라 필요한 전문성을 연결합니다.</p>
+        </div>
+        <div class="services-layout reveal">
+          <div class="service-index" role="list">
+            <button class="service-item active" data-code="01 / POSITION" data-title="전략과 브랜딩" data-desc="시장과 경쟁 환경을 읽고, 사업의 강점을 브랜드의 경쟁력과 핵심 메시지로 정리합니다." data-short="사업의 강점을 브랜드의 경쟁력으로 정리합니다."><span class="num">01</span><span class="name">전략·브랜딩</span><span class="arrow">↗</span></button>
+            <button class="service-item" data-code="02 / DISCOVER" data-title="디지털 마케팅" data-desc="검색, 광고, 공식 채널을 연결하고 고객이 발견하고 문의하는 흐름을 운영합니다." data-short="검색과 광고, 공식 채널을 연결합니다."><span class="num">02</span><span class="name">디지털 마케팅</span><span class="arrow">↗</span></button>
+            <button class="service-item" data-code="03 / STORY" data-title="콘텐츠와 디자인" data-desc="브랜드 메시지를 채널별 형식으로 번역해 고객이 이해하고 기억하는 콘텐츠로 만듭니다." data-short="메시지를 이해하고 기억하는 콘텐츠로 만듭니다."><span class="num">03</span><span class="name">콘텐츠·디자인</span><span class="arrow">↗</span></button>
+            <button class="service-item" data-code="04 / MOTION" data-title="영상 제작" data-desc="기업 홍보영상부터 인터뷰와 숏폼까지, 목적과 채널에 맞는 영상 언어를 설계합니다." data-short="목적과 채널에 맞는 영상 언어를 설계합니다."><span class="num">04</span><span class="name">영상 제작</span><span class="arrow">↗</span></button>
+            <button class="service-item" data-code="05 / REACH" data-title="미디어와 오프라인" data-desc="온라인을 넘어 교통, 생활 공간, 방송과 옥외 매체에서 브랜드 접점을 확장합니다." data-short="생활 공간과 미디어에서 브랜드 접점을 넓힙니다."><span class="num">05</span><span class="name">미디어·오프라인 광고</span><span class="arrow">↗</span></button>
+            <button class="service-item" data-code="06 / VOICE" data-title="인플루언서 마케팅" data-desc="브랜드와 고객의 특성에 맞는 크리에이터를 찾고 경험 중심의 협업을 운영합니다." data-short="크리에이터의 콘텐츠와 브랜드 경험을 연결합니다."><span class="num">06</span><span class="name">인플루언서 마케팅</span><span class="arrow">↗</span></button>
+            <button class="service-item" data-code="07 / TRUST" data-title="병원 마케팅" data-desc="병원의 진료 철학과 의료진의 전문성을 환자가 이해하고 신뢰하는 정보로 연결합니다." data-short="의료의 전문성을 환자의 이해와 신뢰로 연결합니다."><span class="num">07</span><span class="name">병원 마케팅</span><span class="arrow">↗</span></button>
+            <button class="service-item" data-code="08 / EXPAND" data-title="사업·글로벌 컨설팅" data-desc="새로운 사업과 해외 고객을 위한 브랜드·콘텐츠·협력 구조를 실행 계획으로 구체화합니다." data-short="새로운 사업의 가능성을 실행 계획으로 만듭니다."><span class="num">08</span><span class="name">사업·글로벌 컨설팅</span><span class="arrow">↗</span></button>
+            <button class="service-item" data-code="09 / SYSTEM" data-title="IT 솔루션 지원" data-desc="홈페이지와 디지털 서비스, 업무 프로세스를 사용자 경험과 운영 흐름에 맞게 설계하고 개선합니다." data-short="사용자 경험과 업무 흐름을 디지털 서비스로 연결합니다."><span class="num">09</span><span class="name">IT 솔루션 지원</span><span class="arrow">↗</span></button>
+          </div>
+          <aside class="service-display" aria-live="polite">
+            <div class="display-code" id="service-code">01 / POSITION</div>
+            <div><h3 id="service-title">전략과 브랜딩</h3><p id="service-desc">시장과 경쟁 환경을 읽고, 사업의 강점을 브랜드의 경쟁력과 핵심 메시지로 정리합니다.</p></div>
+            <small>FOCUS / DIAGNOSIS → DIRECTION → EXECUTION</small>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="frame">
+        <div class="section-head">
+          <div class="section-code">03 / OUR PROCESS</div>
+          <h2 class="section-title serif decode" data-text="일은 설명이 아니라 흐름으로 증명됩니다">일은 설명이 아니라<br>흐름으로 증명됩니다</h2>
+          <p class="section-note">목표를 이해하고 전략을 설계하며, 실행 결과로 다음을 준비합니다.</p>
+        </div>
+        <div class="process-stage reveal" id="process-stage">
+          <div class="process-track" aria-hidden="true"><span id="process-fill"></span></div>
+          <div class="process-grid">
+            <article class="process-step"><div class="process-dot"></div><span class="num">01 / ANALYSIS</span><h3>마케팅 환경을<br>정확히 진단합니다</h3><p>현재 마케팅을 분석하고 주요 키워드를 파악한 뒤 경쟁사와 비교해 출발점을 선명하게 만듭니다.</p><span class="output">마케팅 분석 · 주요 키워드 파악 · 경쟁사 비교분석</span></article>
+            <article class="process-step"><div class="process-dot"></div><span class="num">02 / MEDIA PLAN</span><h3>적합한 광고 매체를<br>함께 선택합니다</h3><p>목표와 예산에 맞는 매체를 제안하고, 실행에 필요한 마케팅 코디네이팅을 진행합니다.</p><span class="output">광고 매체 제안 · 마케팅 코디네이팅 · 광고 매체 선정</span></article>
+            <article class="process-step"><div class="process-dot"></div><span class="num">03 / CONTENT</span><h3>채널에 맞는 콘텐츠를<br>기획하고 만듭니다</h3><p>선정한 매체의 로직과 특성에 맞춰 필요한 콘텐츠를 기획하고 산출합니다.</p><span class="output">콘텐츠 기획 · 디자인 · 영상 · 산출물 제작</span></article>
+            <article class="process-step"><div class="process-dot"></div><span class="num">04 / COMMUNICATION</span><h3>업무의 소통 체계를<br>먼저 확립합니다</h3><p>진행 과정과 의사결정 기준을 공유할 수 있도록 담당자 간 커뮤니케이션 체계를 정리합니다.</p><span class="output">담당자 협의 · 일정 공유 · 피드백 체계 확립</span></article>
+            <article class="process-step"><div class="process-dot"></div><span class="num">05 / EXECUTE</span><h3>실행을 관리하고<br>과정을 보고합니다</h3><p>마케팅 수행 현황을 모니터링하고 미디어 믹스를 점검하며, 데이터를 바탕으로 분석과 제안을 이어갑니다.</p><span class="output">수행 현황 모니터링 · 미디어 믹스 점검 · 분석 &amp; 제안</span></article>
+            <article class="process-step"><div class="process-dot"></div><span class="num">06 / NEXT</span><h3>결과를 공유하고<br>다음을 제안합니다</h3><p>결과와 현재 상황을 투명하게 보고하고, 변화하는 시장에 맞는 최신 마케팅 방향을 제안합니다.</p><span class="output">결과 및 현황 보고 · 최신 마케팅 제안</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section principles">
+      <div class="frame">
+        <div class="section-head">
+          <div class="section-code">04 / WORKING PRINCIPLES</div>
+          <h2 class="section-title decode" data-text="올더커뮤니케이션이 일하는 네 가지 기준">올더커뮤니케이션이 일하는<br>네 가지 기준</h2>
+          <p class="section-note">실제 업무에서 지키는 기준으로 신뢰를 쌓습니다.</p>
+        </div>
+        <div class="principle-list reveal">
+          <article class="principle"><span class="num">01</span><h3>마케팅 경쟁 환경 진단</h3><p>현재 마케팅 환경을 진단하고, 효율적인 마케팅 방식을 구상하며, 이를 성실히 수행하는 것을 광고 시작의 기본으로 삼습니다.</p><span class="mark">↗</span></article>
+          <article class="principle"><span class="num">02</span><h3>루틴 홍보의 확립</h3><p>닥쳐서 하는 홍보는 이미 늦었습니다. 평소에 꾸준히 장점을 알려 나가는 것이 홍보의 시작이자 기업의 히스토리가 됩니다.</p><span class="mark">↗</span></article>
+          <article class="principle"><span class="num">03</span><h3>책임감 있는 관리</h3><p>정직하고 성실하며 투명하게 업무 처리에 임하고, 그 모든 결과에 책임감을 가집니다.</p><span class="mark">↗</span></article>
+          <article class="principle"><span class="num">04</span><h3>끊임없는 소통</h3><p>클라이언트와 끊임없이 소통하며 최상의 결과를 이끌어 낼 수 있도록 노력합니다.</p><span class="mark">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="team">
+      <div class="frame">
+        <div class="section-head">
+          <div class="section-code">05 / TEAM AS A SYSTEM</div>
+          <h2 class="section-title serif decode" data-text="서로 다른 전문성을 하나의 목표로">서로 다른 전문성을<br>하나의 목표로</h2>
+          <p class="section-note">조직의 크기보다 프로젝트에 실제로 결합되는 역할을 보여드립니다.</p>
+        </div>
+        <div class="team-map reveal" aria-label="프로젝트 중심 4개 전문팀 연결 구조">
+          <div class="team-core">ONE<br>PROJECT<br>GOAL</div>
+          <div class="team-side">
+            <div class="team-role"><span class="n">01</span><h3>마케팅팀</h3><p>마케팅 전략을 기획하고 집행한 후 결과를 보고합니다. 진행 과정에서 필요한 부분을 클라이언트와 소통하며 실질적인 업무를 담당합니다.</p></div>
+            <div class="team-role"><span class="n">02</span><h3>콘텐츠 제작팀</h3><p>공식 블로그, 온라인 뉴스, 카드뉴스, 홈페이지 등에 들어갈 콘텐츠를 매체의 로직과 특성에 맞게 기획·제작해 마케팅 시너지를 높입니다.</p></div>
+          </div>
+          <div class="team-side">
+            <div class="team-role"><span class="n">03</span><h3>디자인팀</h3><p>블로그 스킨, 배너, 온·오프라인 광고 시안, 로고, 카탈로그, 명함 등 다양한 디자인물을 자체 제작합니다.</p></div>
+            <div class="team-role"><span class="n">04</span><h3>영상 제작팀</h3><p>자체 홍보영상부터 공중파, 케이블TV, 유튜브, SNS에서 활용할 영상까지 촬영·편집·제작의 전 과정을 지원합니다.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section works" id="works">
+      <div class="frame">
+        <div class="section-head">
+          <div class="section-code">06 / WORKS & EVIDENCE</div>
+          <h2 class="section-title decode" data-text="결과물보다 먼저, 판단의 과정을 봅니다">결과물보다 먼저,<br>판단의 과정을 봅니다</h2>
+          <p class="section-note">프로젝트는 무엇을 진단했고, 어떤 선택을 했으며, 무엇을 실행했는지의 구조로 기록합니다.</p>
+        </div>
+        <div class="case-notice reveal"><strong>LAYOUT PREVIEW / DUMMY CASES</strong><span>아래 3개는 프로젝트 사례 영역의 밀도와 흐름을 확인하기 위한 가상 사례입니다. 실제 공개 자료가 준비되면 같은 구조로 교체합니다.</span></div>
+        <div class="case-list">
+          <article class="case-row reveal">
+            <div class="case-index"><span class="n">01</span><span class="type">BRAND STRATEGY<br>DIGITAL EXPERIENCE</span></div>
+            <div class="case-story">
+              <span class="tag">DUMMY CASE / HEALTHCARE</span>
+              <h3>전문성은 선명하게,<br>첫 방문은 편안하게.</h3>
+              <dl>
+                <div><dt>CHALLENGE</dt><dd>전문 진료의 강점을 고객이 빠르게 이해하지 못하고, 정보 탐색과 상담 동선이 분리된 상황.</dd></div>
+                <div><dt>DECISION</dt><dd>의료진의 설명을 핵심 메시지로 재구성하고, 진료 탐색에서 문의까지 하나의 경험으로 연결.</dd></div>
+                <div><dt>OUTPUT</dt><dd>브랜드 메시지 · 웹사이트 구조 · 검색 콘텐츠 · 상담 전환 시나리오</dd></div>
+              </dl>
+            </div>
+            <div class="case-visual"><img src="assets/case-health.jpg" alt="현대적인 진료 공간에서 의료진과 상담하는 고객"><span class="visual-meta">PROJECT 01 / CLARITY</span><span class="visual-line"></span><strong class="visual-word">CARE<br>WITH<br>CLARITY.</strong></div>
+          </article>
+          <article class="case-row reveal">
+            <div class="case-index"><span class="n">02</span><span class="type">LAUNCH CAMPAIGN<br>CONTENT SYSTEM</span></div>
+            <div class="case-story">
+              <span class="tag">DUMMY CASE / LOCAL FOOD</span>
+              <h3>지역의 재료를<br>도시의 언어로.</h3>
+              <dl>
+                <div><dt>CHALLENGE</dt><dd>좋은 원재료와 제조 역사는 있지만, 새로운 고객이 선택할 이유와 시각적 인상이 부족한 상황.</dd></div>
+                <div><dt>DECISION</dt><dd>산지의 사실성을 중심에 두고 제품명, 패키지, 숏폼 콘텐츠를 하나의 출시 신호로 통합.</dd></div>
+                <div><dt>OUTPUT</dt><dd>제품 포지셔닝 · 패키지 방향 · 런칭 캠페인 · 소셜 콘텐츠 키트</dd></div>
+              </dl>
+            </div>
+            <div class="case-visual food"><img src="assets/case-food.jpg" alt="수제 빵과 잼, 그래놀라를 정돈해 촬영한 로컬 식품 패키지"><span class="visual-meta">PROJECT 02 / ORIGIN</span><span class="visual-line"></span><strong class="visual-word">ROOTED<br>HERE.</strong></div>
+          </article>
+          <article class="case-row reveal">
+            <div class="case-index"><span class="n">03</span><span class="type">B2B POSITIONING<br>INTEGRATED MEDIA</span></div>
+            <div class="case-story">
+              <span class="tag">DUMMY CASE / TECHNOLOGY</span>
+              <h3>복잡한 기술을<br>명확한 선택으로.</h3>
+              <dl>
+                <div><dt>CHALLENGE</dt><dd>기술 사양은 충분하지만 의사결정자가 사업적 효용을 파악하기 어렵고 채널별 설명이 일관되지 않은 상황.</dd></div>
+                <div><dt>DECISION</dt><dd>기능 중심의 언어를 문제 해결 구조로 바꾸고, 세일즈와 디지털 채널의 메시지를 표준화.</dd></div>
+                <div><dt>OUTPUT</dt><dd>메시지 아키텍처 · 세일즈 자료 · 캠페인 랜딩 · 미디어 운영안</dd></div>
+              </dl>
+            </div>
+            <div class="case-visual tech"><img src="assets/case-tech.jpg" alt="정밀하게 맞물린 금속 산업 기계 부품"><span class="visual-meta">PROJECT 03 / SYSTEM</span><span class="visual-line"></span><strong class="visual-word">MAKE IT<br>DECIDABLE.</strong></div>
+          </article>
+        </div>
+        <div class="motion-band" aria-hidden="true"><div class="motion-band-track"><span>SIGNAL <b>→</b> STRATEGY <b>→</b> CONTENT <b>→</b> MEDIA <b>→</b> PROOF <b>→</b></span><span>SIGNAL <b>→</b> STRATEGY <b>→</b> CONTENT <b>→</b> MEDIA <b>→</b> PROOF <b>→</b></span></div></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="frame">
+        <div class="contact-grid">
+          <div class="contact-intro reveal">
+            <div class="section-code">07 / CONTACT</div>
+            <h2 class="decode" data-text="지금 필요한 마케팅, 함께 방향을 찾겠습니다.">지금 필요한 마케팅,<br>함께 방향을<br>찾겠습니다.</h2>
+            <p>새로운 브랜드를 준비하거나 현재의 마케팅을 점검하고 계신가요? 사업의 목표와 고민을 알려주세요.</p>
+            <p style="margin-top:28px"><strong>(주)올더커뮤니케이션</strong><br><a href="tel:0318110208">031-811-0208</a><br>AM 10:00 ~ PM 05:00 · 휴일 제외<br><a href="mailto:allthecom1@gmail.com">allthecom1@gmail.com</a></p>
+          </div>
+          <form class="contact-form reveal" id="inquiry-form" novalidate>
+            <div class="form-row">
+              <div class="field"><label for="company">회사명 *</label><input id="company" name="company" aria-label="회사명" autocomplete="organization" required></div>
+              <div class="field"><label for="person">담당자명 *</label><input id="person" name="person" aria-label="담당자명" autocomplete="name" required></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="phone">연락처 *</label><input id="phone" name="phone" type="tel" aria-label="연락처" autocomplete="tel" required></div>
+              <div class="field"><label for="email">이메일 *</label><input id="email" name="email" type="email" aria-label="이메일" autocomplete="email" required></div>
+            </div>
+            <div class="field"><label for="interest">관심 서비스 *</label><select id="interest" name="interest" aria-label="관심 서비스" required><option value="">선택해 주세요</option><option>전략·브랜딩</option><option>디지털 마케팅</option><option>콘텐츠·디자인</option><option>영상 제작</option><option>미디어·오프라인 광고</option><option>인플루언서 마케팅</option><option>병원 마케팅</option><option>사업·글로벌 컨설팅</option><option>IT 솔루션 지원</option><option>기타</option></select></div>
+            <div class="field"><label for="message">목표 및 문의 내용 *</label><textarea id="message" name="message" aria-label="목표 및 문의 내용" required placeholder="해결하고 싶은 과제, 목표, 현재 상황을 알려주세요."></textarea></div>
+            <div class="form-row">
+              <div class="field"><label for="budget">예상 예산</label><input id="budget" name="budget" placeholder="예: 협의 필요"></div>
+              <div class="field"><label for="schedule">희망 일정</label><input id="schedule" name="schedule" placeholder="예: 2026년 12월"></div>
+            </div>
+            <p class="form-note">입력한 내용은 이 화면에 저장되지 않습니다. 아래 버튼으로 상담 초안을 만든 뒤 복사해 활용할 수 있습니다.</p>
+            <div class="form-actions"><button class="button" type="submit">상담 초안 만들기</button><button class="button secondary" type="button" id="copy-button" hidden>내용 복사</button></div>
+            <textarea class="copy-output" id="copy-output" readonly aria-label="생성된 상담 초안"></textarea>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="frame">
+      <p><strong>(주)올더커뮤니케이션</strong><br>기업의 가치를 고객의 선택으로 연결하는 성장 파트너.</p>
+      <address>경기 고양시 일산서구 중앙로 1388<br>(주엽동, 태영프라자) 동관 B1 한양빌더스 101호</address>
+      <p class="right"><a href="tel:0318110208">031-811-0208</a> · AM 10:00 ~ PM 05:00 (휴일 제외)<br><a href="mailto:allthecom1@gmail.com">allthecom1@gmail.com</a><br>개인정보관리책임자 김연환</p>
+      <details class="privacy" id="privacy"><summary>개인정보처리방침</summary><p>상담 문의 시 제공한 회사명, 담당자명, 연락처, 이메일 및 문의 내용은 상담 응대 목적으로만 처리합니다. 목적 달성 후 관련 법령상 보존 의무가 없는 정보는 지체 없이 파기합니다. 개인정보 관련 문의는 개인정보관리책임자 김연환 또는 allthecom1@gmail.com으로 연락해 주세요.</p></details>
+      <p>© 2026 ALLTHE COMMUNICATION. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      var compact=window.matchMedia('(max-width: 700px), (pointer: coarse)').matches;
+      var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches||compact;
+      var header=document.getElementById('header'),menu=document.getElementById('menu'),nav=document.getElementById('nav');
+      menu.addEventListener('click',function(){var open=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!open));menu.setAttribute('aria-label',open?'메뉴 열기':'메뉴 닫기');nav.classList.toggle('open',!open)});
+      /* Route-free section controls are intentional: mobile artifact hosts can
+         treat even prevented fragment links as viewer navigation and dismiss. */
+      document.addEventListener('click',function(e){
+        var control=e.target.closest&&e.target.closest('[data-scroll-target]');
+        if(!control)return;
+        var target=document.getElementById(control.getAttribute('data-scroll-target'));
+        if(!target)return;
+        var fromMenu=nav.contains(control);
+        var top=target.getBoundingClientRect().top+window.pageYOffset-(target.id==='home'?0:58);
+        window.scrollTo({top:Math.max(0,top),behavior:reduced?'auto':'smooth'});
+        if(fromMenu){menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','메뉴 열기');nav.classList.remove('open')}
+        if(control.classList.contains('skip')){target.setAttribute('tabindex','-1');target.focus({preventScroll:true})}
+      });
+
+      var serviceItems=[].slice.call(document.querySelectorAll('.service-item'));
+      function setService(el){serviceItems.forEach(function(x){x.classList.toggle('active',x===el)});document.getElementById('service-code').textContent=el.dataset.code;document.getElementById('service-title').textContent=el.dataset.title;document.getElementById('service-desc').textContent=el.dataset.desc}
+      serviceItems.forEach(function(el){el.addEventListener('mouseenter',function(){setService(el)});el.addEventListener('focus',function(){setService(el)});el.addEventListener('click',function(){setService(el)})});
+
+      var reveals=document.querySelectorAll('.reveal');
+      document.documentElement.classList.add('motion-ready');
+      var revealObserver=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(entry.isIntersecting){entry.target.classList.add('visible');revealObserver.unobserve(entry.target)}})},{threshold:.12});
+      reveals.forEach(function(el){revealObserver.observe(el)});
+
+      var glyphs='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789가나다라마바사아자차카타파하';
+      function decode(el){if(reduced||el.dataset.done)return;el.dataset.done='1';var original=el.dataset.text||el.textContent;var steps=0,max=14;var timer=setInterval(function(){var ratio=steps/max;var visible=Math.floor(original.length*ratio);el.textContent=original.split('').map(function(ch,i){if(ch===' '||ch==='\n')return ch;return i<visible?ch:glyphs[Math.floor(Math.random()*glyphs.length)]}).join('');steps++;if(steps>max){clearInterval(timer);el.textContent=original}},42)}
+      var decodeObserver=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting)decode(e.target)})},{threshold:.55});
+      document.querySelectorAll('.decode').forEach(function(el){decodeObserver.observe(el);el.addEventListener('mouseenter',function(){delete el.dataset.done;decode(el)})});
+
+      var processStage=document.getElementById('process-stage'),processFill=document.getElementById('process-fill'),steps=[].slice.call(document.querySelectorAll('.process-step')),spine=document.getElementById('spine-fill');
+      var hero=document.querySelector('.hero'),heroCopy=document.querySelector('.hero-copy'),heroVisual=document.querySelector('.hero-visual'),manifestoQuote=document.querySelector('.manifesto blockquote'),proofFrame=document.querySelector('.proof-frame'),sectionHeads=[].slice.call(document.querySelectorAll('.section-head')),caseImages=[].slice.call(document.querySelectorAll('.case-visual img'));
+      var scrollFrame=0;
+      if(!reduced)document.documentElement.classList.add('scroll-enhanced');
+      function clamp(value,min,max){return Math.max(min,Math.min(max,value))}
+      function updateScroll(){
+        scrollFrame=0;
+        var y=window.scrollY,vh=window.innerHeight;
+        header.classList.toggle('scrolled',y>24);
+        var max=document.documentElement.scrollHeight-vh,ratio=max>0?y/max:0;spine.style.height=Math.min(vh*ratio,vh)+'px';
+        var rect=processStage.getBoundingClientRect();var p=clamp((vh-rect.top)/(rect.height+vh*.25),0,1);
+        if(window.innerWidth<=700){processFill.style.height=(p*100)+'%';processFill.style.width='100%'}else{processFill.style.width=(p*100)+'%';processFill.style.height='100%'}
+        steps.forEach(function(step,i){step.classList.toggle('active',p>(i+.12)/steps.length)});
+        if(!reduced){
+          var heroProgress=clamp(y/Math.max(hero.offsetHeight,1),0,1);
+          heroCopy.style.setProperty('--hero-shift',(heroProgress*34).toFixed(2)+'px');
+          heroVisual.style.setProperty('--visual-shift',(heroProgress*-52).toFixed(2)+'px');
+          heroVisual.style.setProperty('--visual-scale',(1+heroProgress*.045).toFixed(3));
+          sectionHeads.forEach(function(head){var r=head.getBoundingClientRect(),center=(r.top+r.height*.5)/vh-.5;head.style.setProperty('--head-shift',(clamp(center,-.8,.8)*-12).toFixed(2)+'px')});
+          var quoteRect=manifestoQuote.getBoundingClientRect(),quoteProgress=clamp((vh-quoteRect.top)/(vh+quoteRect.height),0,1);manifestoQuote.style.setProperty('--quote-shift',((quoteProgress-.5)*22).toFixed(2)+'px');
+          if(proofFrame){var proofRect=proofFrame.getBoundingClientRect(),proofProgress=clamp((vh-proofRect.top)/(vh+proofRect.height),0,1);proofFrame.style.setProperty('--proof-orbit',((proofProgress-.5)*90).toFixed(2)+'px')}
+          caseImages.forEach(function(image){var ir=image.parentElement.getBoundingClientRect(),ip=clamp((vh-ir.top)/(vh+ir.height),0,1);image.style.translate='0 '+((ip-.5)*-22).toFixed(2)+'px'});
+        }
+        if(!compact&&window.__renderSignal)window.__renderSignal(y*.00022);
+      }
+      function onScroll(){if(!scrollFrame)scrollFrame=requestAnimationFrame(updateScroll)}
+      window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('resize',onScroll);updateScroll();
+
+      var form=document.getElementById('inquiry-form'),output=document.getElementById('copy-output'),copyButton=document.getElementById('copy-button'),status=document.getElementById('form-status');
+      form.addEventListener('submit',function(e){e.preventDefault();if(!form.reportValidity()){status.textContent='필수 항목을 확인해 주세요.';return}var f=new FormData(form);var text=['[프로젝트 상담 초안]','회사명: '+f.get('company'),'담당자명: '+f.get('person'),'연락처: '+f.get('phone'),'이메일: '+f.get('email'),'관심 서비스: '+f.get('interest'),'예상 예산: '+(f.get('budget')||'협의 필요'),'희망 일정: '+(f.get('schedule')||'협의 필요'),'','목표 및 문의 내용','--------------------',f.get('message')].join('\n');output.value=text;output.classList.add('show');copyButton.hidden=false;status.textContent='상담 초안을 만들었습니다. 내용을 확인한 뒤 복사할 수 있습니다.';output.focus()});
+      copyButton.addEventListener('click',function(){navigator.clipboard.writeText(output.value).then(function(){status.textContent='상담 초안을 클립보드에 복사했습니다.'}).catch(function(){output.select();document.execCommand('copy');status.textContent='상담 초안을 복사했습니다.'})});
+
+      var canvas=document.getElementById('signal-canvas');
+      if(canvas){
+        var context=canvas.getContext('2d'),pointer={x:0,y:0},signalPhase=0,signalFrame=0;
+        function signalColors(){var styles=getComputedStyle(document.documentElement);return{ink:styles.getPropertyValue('--ink').trim(),signal:styles.getPropertyValue('--signal').trim()}}
+        function resizeSignal(){var box=canvas.getBoundingClientRect(),dpr=Math.min(window.devicePixelRatio||1,1.5);canvas.width=Math.max(1,Math.round(box.width*dpr));canvas.height=Math.max(1,Math.round(box.height*dpr));context.setTransform(dpr,0,0,dpr,0,0);drawSignal(window.scrollY*.00022)}
+        function drawSignal(scrollOffset){var box=canvas.getBoundingClientRect(),w=box.width,h=box.height,colors=signalColors(),phase=signalPhase+(scrollOffset||0);context.clearRect(0,0,w,h);context.save();context.translate(w*.55+pointer.x*10,h*.49+pointer.y*8);context.rotate(phase*.34);for(var ring=0;ring<5;ring++){context.beginPath();context.ellipse(0,(ring-2)*h*.075,w*(.12+ring*.035),h*(.055+ring*.012),ring*.28,0,Math.PI*2);context.strokeStyle=ring===2?colors.signal:colors.ink;context.globalAlpha=ring===2?.42:.13;context.lineWidth=1;context.stroke()}context.rotate(-phase*.34);context.globalAlpha=.72;context.strokeStyle=colors.ink;context.beginPath();for(var i=0;i<58;i++){var a=i*.58+phase,r=Math.min(w,h)*(.16+i*.0043),x=Math.cos(a)*r,y=(i-29)*h*.012+Math.sin(a)*r*.46;if(i===0)context.moveTo(x,y);else context.lineTo(x,y)}context.stroke();for(var p=0;p<58;p++){var pa=p*.58+phase,pr=Math.min(w,h)*(.16+p*.0043),px=Math.cos(pa)*pr,py=(p-29)*h*.012+Math.sin(pa)*pr*.46;context.beginPath();context.arc(px,py,p%9===0?3.2:1.7,0,Math.PI*2);context.fillStyle=p%9===0?colors.signal:colors.ink;context.globalAlpha=p%9===0?.95:.7;context.fill()}context.restore()}
+        function pointerSignal(e){var rect=canvas.getBoundingClientRect();pointer.x=(e.clientX-rect.left)/rect.width-.5;pointer.y=(e.clientY-rect.top)/rect.height-.5;requestAnimationFrame(function(){drawSignal(window.scrollY*.00022)})}
+        function settleSignal(){signalPhase*=.86;drawSignal(window.scrollY*.00022);if(Math.abs(signalPhase)>.001)signalFrame=requestAnimationFrame(settleSignal);else signalFrame=0}
+        function wheelSignal(e){signalPhase=clamp(signalPhase+clamp(e.deltaY*.00025,-.12,.12),-.26,.26);if(!signalFrame)signalFrame=requestAnimationFrame(settleSignal)}
+        window.__renderSignal=drawSignal;window.addEventListener('resize',resizeSignal);if(!reduced){document.querySelector('.hero').addEventListener('pointermove',pointerSignal);window.addEventListener('wheel',wheelSignal,{passive:true})}resizeSignal();
+      }
+    })();
+  </script>
+</body>
+</html>

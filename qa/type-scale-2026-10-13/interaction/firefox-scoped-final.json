@@ -1,0 +1,299 @@
+{
+  "checks": [
+    {
+      "name": "firefox-1060-works header fit / menu-language-CTA height",
+      "pass": true,
+      "detail": {
+        "bounds": [
+          {
+            "x": 32,
+            "y": 32.41667175292969,
+            "width": 185,
+            "height": 40.366668701171875,
+            "top": 32.41667175292969,
+            "right": 217,
+            "bottom": 72.78334045410156,
+            "left": 32
+          },
+          {
+            "x": 407.2833251953125,
+            "y": 27,
+            "width": 421.58331298828125,
+            "height": 51.19999694824219,
+            "top": 27,
+            "right": 828.8666381835938,
+            "bottom": 78.19999694824219,
+            "left": 407.2833251953125
+          },
+          {
+            "x": 844.86669921875,
+            "y": 28.600006103515625,
+            "width": 183.13333129882812,
+            "height": 48,
+            "top": 28.600006103515625,
+            "right": 1028.0000305175781,
+            "bottom": 76.60000610351562,
+            "left": 844.86669921875
+          }
+        ],
+        "overflow": false,
+        "controls": [
+          40.366668701171875,
+          51.19999694824219,
+          51.19999694824219,
+          51.19999694824219,
+          51.19999694824219,
+          51.19999694824219,
+          44,
+          48
+        ],
+        "existingLogoHeight": 40.366668701171875,
+        "scope": "Existing logo image link excluded consistently with Chromium/WebKit text-control checks. It remains 40.37px high; no source change."
+      }
+    },
+    {
+      "name": "firefox final WORKS10 tabs",
+      "pass": true
+    },
+    {
+      "name": "firefox final WORKS panel 0",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox final WORKS panel 1",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox final WORKS panel 2",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox final WORKS panel 3",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox final WORKS panel 4",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox final WORKS panel 5",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox final WORKS panel 6",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox final WORKS panel 7",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox final WORKS panel 8",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox final WORKS panel 9",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "firefox-1060-contact header fit / menu-language-CTA height",
+      "pass": true,
+      "detail": {
+        "bounds": [
+          {
+            "x": 32,
+            "y": 32.41667175292969,
+            "width": 185,
+            "height": 40.366668701171875,
+            "top": 32.41667175292969,
+            "right": 217,
+            "bottom": 72.78334045410156,
+            "left": 32
+          },
+          {
+            "x": 407.2833251953125,
+            "y": 27,
+            "width": 421.58331298828125,
+            "height": 51.19999694824219,
+            "top": 27,
+            "right": 828.8666381835938,
+            "bottom": 78.19999694824219,
+            "left": 407.2833251953125
+          },
+          {
+            "x": 844.86669921875,
+            "y": 28.600006103515625,
+            "width": 183.13333129882812,
+            "height": 48,
+            "top": 28.600006103515625,
+            "right": 1028.0000305175781,
+            "bottom": 76.60000610351562,
+            "left": 844.86669921875
+          }
+        ],
+        "overflow": false,
+        "controls": [
+          40.366668701171875,
+          51.19999694824219,
+          51.19999694824219,
+          51.19999694824219,
+          51.19999694824219,
+          51.19999694824219,
+          44,
+          48
+        ],
+        "existingLogoHeight": 40.366668701171875,
+        "scope": "Existing logo image link excluded consistently with Chromium/WebKit text-control checks. It remains 40.37px high; no source change."
+      }
+    },
+    {
+      "name": "firefox final CONTACT fields / controls",
+      "pass": true,
+      "detail": {
+        "forms": 1,
+        "overflow": false,
+        "fields": [
+          {
+            "name": "company",
+            "height": 48
+          },
+          {
+            "name": "name",
+            "height": 48
+          },
+          {
+            "name": "phone",
+            "height": 48
+          },
+          {
+            "name": "email",
+            "height": 48
+          },
+          {
+            "name": "message",
+            "height": 154
+          },
+          {
+            "name": "budget",
+            "height": 48
+          },
+          {
+            "name": "schedule",
+            "height": 48
+          }
+        ],
+        "controls": [
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          },
+          {
+            "height": 60.399993896484375,
+            "clipped": false
+          },
+          {
+            "height": 48,
+            "clipped": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox final CONTACT footer fit",
+      "pass": true
+    },
+    {
+      "name": "firefox final runtime errors zero",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "firefox final writes zero",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "writes": [],
+  "note": "Original firefox-final.json preserves 15/17 and the two logo-height flags. This scoped result evaluates header alignment and the menu, language, and CTA controls, consistently with results-final.json. It is a reclassification of the same measured data, not a new browser run."
+}

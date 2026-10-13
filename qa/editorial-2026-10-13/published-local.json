@@ -1,0 +1,96 @@
+{
+  "scope": "Local editorial update; no inquiry submission or external deployment.",
+  "projects": [
+    {
+      "slug": "kfood-dashboard",
+      "title": "먹거리사전",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "kings-franchise",
+      "title": "Kings",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "content-operations",
+      "title": "정보 운영 대시보드",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "sales-rehearsal",
+      "title": "세일즈 리허설",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "ezylens-studio",
+      "title": "EzyLens",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "city-culture",
+      "title": "도시를 다시 보다",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "jonghae-community",
+      "title": "종해문화진흥원",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "patient-guide",
+      "title": "첫 방문 안내",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "title": "소적두",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "soulreset",
+      "title": "SoulReset",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "review-atelier",
+      "title": "Review Atelier",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "tesign-radar",
+      "title": "TESIGN Radar",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "tesign-workflow",
+      "title": "Tesign OS",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "slug": "all-the-comm",
+      "title": "올더커뮤니케이션 — 기업 홈페이지",
+      "englishPreserved": true,
+      "originalImagesPreserved": true
+    }
+  ],
+  "total": 14,
+  "featured": [
+    "soulreset",
+    "sales-rehearsal",
+    "jonghae-community"
+  ],
+  "bookGallery": 5
+}

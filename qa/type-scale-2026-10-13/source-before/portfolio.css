@@ -1,0 +1,50 @@
+/* Screenshot-led portfolio; the Korean edition is the current refinement target. */
+html[lang=ko] [data-project-list]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:74px 38px;align-items:start}
+html[lang=ko] .portfolio-piece{margin:0;min-width:0}
+html[lang=ko] .portfolio-piece:first-child{grid-column:1/-1}
+html[lang=ko] .portfolio-piece .project-visual{border-radius:0;background:#d7e1dd;min-height:0;isolation:isolate}
+html[lang=ko] .portfolio-shot{aspect-ratio:16/10;display:grid;place-items:center;overflow:hidden;background:#ecebe5}
+html[lang=ko] .portfolio-shot .project-image-real{width:100%;height:100%;min-width:0;min-height:0;max-height:none;object-fit:contain;object-position:center;transform:none!important}
+html[lang=ko] .portfolio-piece:not(:first-child) .work-art{height:auto;aspect-ratio:16/10}
+html[lang=ko] .portfolio-piece:not(:first-child) .screen-copy{font-size:29px}
+html[lang=ko] .portfolio-piece:not(:first-child) .work-poster{padding:20px 15px}
+html[lang=ko] .portfolio-piece:not(:first-child) .work-poster>span{font-size:27px}
+html[lang=ko] .portfolio-piece .project-caption{display:grid;grid-template-columns:1fr auto;gap:16px 28px;padding-top:23px}
+html[lang=ko] .portfolio-piece .project-caption .eyebrow{font-family:Pretendard,sans-serif;font-size:12px;letter-spacing:.015em;color:#436760;display:block;margin-bottom:13px}
+html[lang=ko] .portfolio-piece .project-caption h3{font-size:clamp(24px,2.25vw,34px);font-weight:600;line-height:1.35}
+html[lang=ko] .portfolio-piece .project-caption>p:not(.portfolio-summary){max-width:190px;font-size:12px;color:var(--muted);line-height:1.8;text-align:right}
+html[lang=ko] .portfolio-piece .project-caption .portfolio-summary{grid-column:1/-1;max-width:730px;font-size:15px;line-height:1.8;color:var(--muted);text-align:left;margin:0}
+html[lang=ko] .capture-case .case-result>p:not(.eyebrow){white-space:pre-line}
+html[lang=ko] .portfolio-piece:first-child .project-caption h3{font-size:clamp(29px,3vw,45px)}
+html[lang=ko] .project-filters{margin-bottom:38px}
+html[lang=ko] .projects-section .project-note{max-width:750px;line-height:1.85;margin-top:55px}
+html[lang=ko] .portfolio-piece[data-project-slug=sojukdoo-concept] .portfolio-shot{background:#f5f0e8}
+html[lang=ko] .portfolio-piece[data-project-slug=soulreset] .portfolio-shot{background:#f2eeeb}
+html[lang=ko] .portfolio-piece[data-project-slug=tesign-radar] .portfolio-shot{background:#f5f3ee}
+html[lang=ko] .capture-case .case-cover{max-width:1440px}
+html[lang=ko] .capture-case .case-cover>img,html[lang=ko] .capture-case .capture-open>img{width:100%;height:auto;object-fit:contain;max-height:none}
+html[lang=ko] .capture-case .case-story>p:last-child{white-space:pre-line}
+html[lang=ko] .capture-case .case-story h2{font-size:clamp(30px,3.3vw,48px)}
+html[lang=ko] .capture-case .case-story{grid-template-columns:.65fr 1fr;column-gap:110px;row-gap:25px}
+html[lang=ko] .capture-case .case-story .eyebrow{grid-column:1;grid-row:1/3}
+html[lang=ko] .capture-case .case-story h2,html[lang=ko] .capture-case .case-story>p:last-child{grid-column:2}
+html[lang=ko] .capture-case .case-film:empty{display:none}
+html[lang=ko] .capture-case [data-case-gallery]{display:grid;gap:55px;margin-bottom:65px}
+html[lang=ko] .capture-case [data-case-gallery] figure{margin:0}
+html[lang=ko] .capture-case [data-case-gallery] figcaption{font-size:14px;line-height:1.8;margin-top:20px;color:var(--muted)}
+.capture-open{display:block;position:relative;background:none;border:0;padding:0;width:100%;cursor:zoom-in;color:var(--ink)}
+.capture-hint{position:absolute;right:24px;bottom:24px;padding:13px 18px;background:#eff8f5ed;backdrop-filter:blur(12px);border:1px solid #c0d8ce;box-shadow:0 5px 20px #061c2515;border-radius:99px;font-size:12px;font-weight:600;transition:background .25s}
+.capture-open:hover .capture-hint{background:var(--mint)}
+#capture-viewer{border:1px solid #ffffff33;max-width:none;width:calc(100vw - 64px);height:calc(100dvh - 64px);max-height:none;padding:0;background:var(--ink);color:var(--light);overflow:hidden;border-radius:16px}
+#capture-viewer::backdrop{background:#021015e8;backdrop-filter:blur(12px)}
+.viewer-toolbar{display:flex;align-items:center;gap:20px;padding:12px 22px;min-height:68px;border-bottom:1px solid #ffffff22}
+.viewer-toolbar>span{margin-right:auto;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.viewer-toolbar button{border:1px solid #ffffff44;background:transparent;border-radius:30px;min-height:42px;padding:10px 18px;color:white;font-size:12px;white-space:nowrap}
+.viewer-toolbar button:focus-visible{outline-color:var(--mint)}
+.viewer-scroll{height:calc(100% - 68px);overflow:auto;padding:24px;background:#dce5df;display:grid;place-items:start center}
+.viewer-scroll img{display:block;width:auto;height:auto;max-width:100%;max-height:calc(100dvh - 184px);object-fit:contain;object-position:top}
+.is-original .viewer-scroll{display:block}.is-original .viewer-scroll img{width:auto;max-width:none;max-height:none}
+.viewer-open{overflow:hidden}
+@media(max-width:760px){html[lang=ko] [data-project-list]{grid-template-columns:1fr;gap:45px}html[lang=ko] .portfolio-piece:first-child{grid-column:auto}html[lang=ko] .portfolio-piece .project-caption{gap:14px;grid-template-columns:1fr}html[lang=ko] .portfolio-piece .project-caption>p:not(.portfolio-summary){text-align:left;max-width:none;font-size:11px}html[lang=ko] .portfolio-piece .project-caption h3,html[lang=ko] .portfolio-piece:first-child .project-caption h3{font-size:26px}html[lang=ko] .portfolio-piece .project-caption .portfolio-summary{font-size:13px}html[lang=ko] .capture-case .case-story{display:block}.capture-hint{right:10px;bottom:10px;font-size:10px;padding:10px 13px}#capture-viewer{width:calc(100vw - 20px);height:calc(100dvh - 20px);border-radius:10px}.viewer-toolbar{gap:8px;padding:10px}.viewer-toolbar>span{font-size:10px}.viewer-toolbar button{font-size:10px;padding:8px 12px}.viewer-scroll{padding:10px}}
+@media(prefers-reduced-motion:reduce){.capture-hint{transition:none}}
+@media(max-width:760px){#capture-viewer:not(.is-original) .viewer-scroll img{max-height:calc(100dvh - 112px)}}

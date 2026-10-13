@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-13T01:29:39.399Z",
+  "scope": "Only last CSS image-fit adjustment: isolated browsers, unchanged user IAB, read-only.",
+  "passed": 14,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "chromium hero 0 textual cover uses contain",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/portfolio/concept-city-culture.png",
+          "fit": "contain",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "chromium hero product uses cover",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/evidence/diverse/eyewear-product.jpg",
+          "fit": "cover",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "chromium hero 1 textual cover uses contain",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/portfolio/concept-patient-guide.png",
+          "fit": "contain",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "chromium ABOUT textual covers use contain",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/portfolio/concept-city-culture.png",
+          "fit": "contain",
+          "loaded": true
+        },
+        {
+          "src": "/portfolio/concept-patient-guide.png",
+          "fit": "contain",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "firefox hero 0 textual cover uses contain",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/portfolio/concept-city-culture.png",
+          "fit": "contain",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "firefox hero product uses cover",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/evidence/diverse/eyewear-product.jpg",
+          "fit": "cover",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "firefox hero 1 textual cover uses contain",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/portfolio/concept-patient-guide.png",
+          "fit": "contain",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "firefox ABOUT textual covers use contain",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/portfolio/concept-city-culture.png",
+          "fit": "contain",
+          "loaded": true
+        },
+        {
+          "src": "/portfolio/concept-patient-guide.png",
+          "fit": "contain",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "webkit hero 0 textual cover uses contain",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/portfolio/concept-city-culture.png",
+          "fit": "contain",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "webkit hero product uses cover",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/evidence/diverse/eyewear-product.jpg",
+          "fit": "cover",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "webkit hero 1 textual cover uses contain",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/portfolio/concept-patient-guide.png",
+          "fit": "contain",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "webkit ABOUT textual covers use contain",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/portfolio/concept-city-culture.png",
+          "fit": "contain",
+          "loaded": true
+        },
+        {
+          "src": "/portfolio/concept-patient-guide.png",
+          "fit": "contain",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "Final fit checks have no JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Final fit checks have no write requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "writes": []
+}

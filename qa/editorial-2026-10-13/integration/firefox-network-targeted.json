@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "name": "firefox 1440 / no failed network or HTTP requests",
+      "passed": true,
+      "detail": {
+        "navigationAborts": [],
+        "actualErrors": [],
+        "loaded": [
+          {
+            "src": "/evidence/expansion/kings-menu-grid.png",
+            "complete": true,
+            "naturalWidth": 1440
+          },
+          {
+            "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+            "complete": true,
+            "naturalWidth": 1440
+          },
+          {
+            "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+            "complete": true,
+            "naturalWidth": 1352
+          },
+          {
+            "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+            "complete": true,
+            "naturalWidth": 1440
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "loaded": [
+    {
+      "src": "/evidence/expansion/kings-menu-grid.png",
+      "complete": true,
+      "naturalWidth": 1440
+    },
+    {
+      "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+      "complete": true,
+      "naturalWidth": 1440
+    },
+    {
+      "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+      "complete": true,
+      "naturalWidth": 1352
+    },
+    {
+      "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+      "complete": true,
+      "naturalWidth": 1440
+    }
+  ]
+}

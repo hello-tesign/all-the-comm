@@ -1,0 +1,5 @@
+{
+  "checks": [],
+  "errors": [],
+  "message": "browserContext.newPage: Cannot read properties of undefined (reading '_page')\n    at F:\\Projects\\all the comm\\qa\\root-depth-final.cjs:4:301"
+}

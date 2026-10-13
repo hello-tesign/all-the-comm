@@ -1,0 +1,196 @@
+{
+  "ai_file": "C:\\Users\\home\\Downloads\\올더로고-0523-fin-수정.ai",
+  "ai_bytes": 1716734,
+  "ai_sha256": "3c504ae4f9194e500d4d9c83864ed452a0ffd3b1568825bdb16fcc48fd63bfb0",
+  "pdf_compatible_header": "%PDF-1.5",
+  "pages": 2,
+  "page_size_points": [
+    [
+      0.0,
+      0.0,
+      1190.55,
+      1053.78
+    ],
+    [
+      0.0,
+      0.0,
+      1340.67,
+      1052.49
+    ]
+  ],
+  "embedded_fonts": [
+    false,
+    false
+  ],
+  "extractable_text": [
+    "",
+    ""
+  ],
+  "metadata": {
+    "/CreationDate": "D:20180625101732+09'00'",
+    "/Creator": "Adobe Illustrator CC 22.1 (Windows)",
+    "/ModDate": "D:20180625101759+09'00'",
+    "/Producer": "Adobe PDF library 15.00",
+    "/Title": "올더로고-0523-fin"
+  },
+  "colorspaces": {
+    "/CS0": "['/ICCBased', IndirectObject(67, 0, 2630148853392)]",
+    "/CS1": "['/DeviceN', ['/Cyan', '/Magenta', '/Yellow'], IndirectObject(55, 0, 2630148853392), IndirectObject(63, 0, 2630148853392), IndirectObject(64, 0, 2630148853392)]"
+  },
+  "png_file": "C:\\Users\\home\\Downloads\\KakaoTalk_20261011_121904837.png",
+  "png_sha256": "60afee0a007b8979abdc5d695c26102b4cecf13f55a5934d5fb505a8f4ed92e2",
+  "png_size": [
+    752,
+    529
+  ],
+  "raster_colors_not_brand_spec": {
+    "logo-artboard.png": [
+      {
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "hex": "#ffffff",
+        "pixels": 3968836
+      },
+      {
+        "rgb": [
+          48,
+          56,
+          65
+        ],
+        "hex": "#303841",
+        "pixels": 95564
+      },
+      {
+        "rgb": [
+          57,
+          176,
+          178
+        ],
+        "hex": "#39b0b2",
+        "pixels": 37100
+      },
+      {
+        "rgb": [
+          147,
+          149,
+          153
+        ],
+        "hex": "#939599",
+        "pixels": 19814
+      },
+      {
+        "rgb": [
+          60,
+          180,
+          173
+        ],
+        "hex": "#3cb4ad",
+        "pixels": 4056
+      },
+      {
+        "rgb": [
+          57,
+          180,
+          174
+        ],
+        "hex": "#39b4ae",
+        "pixels": 3504
+      },
+      {
+        "rgb": [
+          63,
+          181,
+          170
+        ],
+        "hex": "#3fb5aa",
+        "pixels": 3269
+      },
+      {
+        "rgb": [
+          65,
+          181,
+          168
+        ],
+        "hex": "#41b5a8",
+        "pixels": 3220
+      }
+    ],
+    "logo-artboard-2.png": [
+      {
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "hex": "#ffffff",
+        "pixels": 3628827
+      },
+      {
+        "rgb": [
+          48,
+          56,
+          65
+        ],
+        "hex": "#303841",
+        "pixels": 40393
+      },
+      {
+        "rgb": [
+          64,
+          64,
+          65
+        ],
+        "hex": "#404041",
+        "pixels": 7562
+      },
+      {
+        "rgb": [
+          31,
+          141,
+          198
+        ],
+        "hex": "#1f8dc6",
+        "pixels": 7081
+      },
+      {
+        "rgb": [
+          147,
+          149,
+          153
+        ],
+        "hex": "#939599",
+        "pixels": 6265
+      },
+      {
+        "rgb": [
+          57,
+          176,
+          178
+        ],
+        "hex": "#39b0b2",
+        "pixels": 4272
+      },
+      {
+        "rgb": [
+          54,
+          150,
+          198
+        ],
+        "hex": "#3696c6",
+        "pixels": 4071
+      },
+      {
+        "rgb": [
+          60,
+          168,
+          168
+        ],
+        "hex": "#3ca8a8",
+        "pixels": 2882
+      }
+    ]
+  }
+}

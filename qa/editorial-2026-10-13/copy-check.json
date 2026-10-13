@@ -1,0 +1,348 @@
+{
+  "pass": true,
+  "count": 13,
+  "scope": "13 portfolio sources; self project is owned by root",
+  "preserved": "all non-editorial fields, all result status/source tails, all original gallery files/alt; original book cover added to gallery",
+  "changes": [
+    {
+      "slug": "kfood-dashboard",
+      "key": "title"
+    },
+    {
+      "slug": "kfood-dashboard",
+      "key": "summary"
+    },
+    {
+      "slug": "kfood-dashboard",
+      "key": "problem"
+    },
+    {
+      "slug": "kfood-dashboard",
+      "key": "strategy"
+    },
+    {
+      "slug": "kfood-dashboard",
+      "key": "execution"
+    },
+    {
+      "slug": "kfood-dashboard",
+      "key": "result"
+    },
+    {
+      "slug": "kfood-dashboard",
+      "key": "gallery"
+    },
+    {
+      "slug": "kings-franchise",
+      "key": "title"
+    },
+    {
+      "slug": "kings-franchise",
+      "key": "summary"
+    },
+    {
+      "slug": "kings-franchise",
+      "key": "problem"
+    },
+    {
+      "slug": "kings-franchise",
+      "key": "strategy"
+    },
+    {
+      "slug": "kings-franchise",
+      "key": "execution"
+    },
+    {
+      "slug": "kings-franchise",
+      "key": "result"
+    },
+    {
+      "slug": "kings-franchise",
+      "key": "gallery"
+    },
+    {
+      "slug": "content-operations",
+      "key": "title"
+    },
+    {
+      "slug": "content-operations",
+      "key": "summary"
+    },
+    {
+      "slug": "content-operations",
+      "key": "problem"
+    },
+    {
+      "slug": "content-operations",
+      "key": "strategy"
+    },
+    {
+      "slug": "content-operations",
+      "key": "execution"
+    },
+    {
+      "slug": "content-operations",
+      "key": "result"
+    },
+    {
+      "slug": "sales-rehearsal",
+      "key": "featured"
+    },
+    {
+      "slug": "sales-rehearsal",
+      "key": "title"
+    },
+    {
+      "slug": "sales-rehearsal",
+      "key": "coverImage"
+    },
+    {
+      "slug": "sales-rehearsal",
+      "key": "summary"
+    },
+    {
+      "slug": "sales-rehearsal",
+      "key": "problem"
+    },
+    {
+      "slug": "sales-rehearsal",
+      "key": "strategy"
+    },
+    {
+      "slug": "sales-rehearsal",
+      "key": "execution"
+    },
+    {
+      "slug": "sales-rehearsal",
+      "key": "result"
+    },
+    {
+      "slug": "sales-rehearsal",
+      "key": "gallery"
+    },
+    {
+      "slug": "ezylens-studio",
+      "key": "title"
+    },
+    {
+      "slug": "ezylens-studio",
+      "key": "summary"
+    },
+    {
+      "slug": "ezylens-studio",
+      "key": "problem"
+    },
+    {
+      "slug": "ezylens-studio",
+      "key": "strategy"
+    },
+    {
+      "slug": "ezylens-studio",
+      "key": "execution"
+    },
+    {
+      "slug": "ezylens-studio",
+      "key": "result"
+    },
+    {
+      "slug": "city-culture",
+      "key": "title"
+    },
+    {
+      "slug": "city-culture",
+      "key": "summary"
+    },
+    {
+      "slug": "city-culture",
+      "key": "problem"
+    },
+    {
+      "slug": "city-culture",
+      "key": "strategy"
+    },
+    {
+      "slug": "city-culture",
+      "key": "execution"
+    },
+    {
+      "slug": "city-culture",
+      "key": "result"
+    },
+    {
+      "slug": "jonghae-community",
+      "key": "title"
+    },
+    {
+      "slug": "jonghae-community",
+      "key": "summary"
+    },
+    {
+      "slug": "jonghae-community",
+      "key": "problem"
+    },
+    {
+      "slug": "jonghae-community",
+      "key": "strategy"
+    },
+    {
+      "slug": "jonghae-community",
+      "key": "execution"
+    },
+    {
+      "slug": "jonghae-community",
+      "key": "result"
+    },
+    {
+      "slug": "patient-guide",
+      "key": "title"
+    },
+    {
+      "slug": "patient-guide",
+      "key": "featured"
+    },
+    {
+      "slug": "patient-guide",
+      "key": "summary"
+    },
+    {
+      "slug": "patient-guide",
+      "key": "problem"
+    },
+    {
+      "slug": "patient-guide",
+      "key": "strategy"
+    },
+    {
+      "slug": "patient-guide",
+      "key": "execution"
+    },
+    {
+      "slug": "patient-guide",
+      "key": "result"
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "key": "title"
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "key": "summary"
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "key": "problem"
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "key": "strategy"
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "key": "execution"
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "key": "result"
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "key": "gallery"
+    },
+    {
+      "slug": "soulreset",
+      "key": "title"
+    },
+    {
+      "slug": "soulreset",
+      "key": "summary"
+    },
+    {
+      "slug": "soulreset",
+      "key": "problem"
+    },
+    {
+      "slug": "soulreset",
+      "key": "strategy"
+    },
+    {
+      "slug": "soulreset",
+      "key": "execution"
+    },
+    {
+      "slug": "soulreset",
+      "key": "result"
+    },
+    {
+      "slug": "review-atelier",
+      "key": "title"
+    },
+    {
+      "slug": "review-atelier",
+      "key": "summary"
+    },
+    {
+      "slug": "review-atelier",
+      "key": "problem"
+    },
+    {
+      "slug": "review-atelier",
+      "key": "strategy"
+    },
+    {
+      "slug": "review-atelier",
+      "key": "execution"
+    },
+    {
+      "slug": "review-atelier",
+      "key": "result"
+    },
+    {
+      "slug": "tesign-radar",
+      "key": "title"
+    },
+    {
+      "slug": "tesign-radar",
+      "key": "summary"
+    },
+    {
+      "slug": "tesign-radar",
+      "key": "problem"
+    },
+    {
+      "slug": "tesign-radar",
+      "key": "strategy"
+    },
+    {
+      "slug": "tesign-radar",
+      "key": "execution"
+    },
+    {
+      "slug": "tesign-radar",
+      "key": "result"
+    },
+    {
+      "slug": "tesign-workflow",
+      "key": "title"
+    },
+    {
+      "slug": "tesign-workflow",
+      "key": "summary"
+    },
+    {
+      "slug": "tesign-workflow",
+      "key": "problem"
+    },
+    {
+      "slug": "tesign-workflow",
+      "key": "strategy"
+    },
+    {
+      "slug": "tesign-workflow",
+      "key": "execution"
+    },
+    {
+      "slug": "tesign-workflow",
+      "key": "result"
+    }
+  ]
+}

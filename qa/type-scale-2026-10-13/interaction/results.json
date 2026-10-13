@@ -1,0 +1,5110 @@
+{
+  "checks": [
+    {
+      "name": "chromium-1060-home header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1060-home header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-home header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-home main H1 size unchanged",
+      "pass": true,
+      "detail": {
+        "font": "72px",
+        "line": "80.64px",
+        "height": 161.25,
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "chromium-1060-works header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1060-works header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-works header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-works tab count",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "name": "chromium-1060-works panel 0 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-works panel 1 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-works panel 2 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-works panel 3 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-works panel 4 selected / readable",
+      "pass": false,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": [
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "WALKAND SEE",
+            "scroll": [
+              66,
+              37
+            ],
+            "client": [
+              66,
+              34
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1060-works panel 5 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-works panel 6 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-works panel 7 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-works panel 8 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-works panel 9 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-works tabs >=44 / labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "전략·브랜딩",
+          "width": 191.1875,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디지털 마케팅",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "콘텐츠·디자인",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "영상 제작",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "미디어·오프라인 광고",
+          "width": 191.1875,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "인플루언서 마케팅",
+          "width": 191.1875,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "병원 마케팅",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "사업·글로벌 컨설팅",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "IT 솔루션 지원",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "언론홍보",
+          "width": 191.1875,
+          "height": 48,
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-works tab keyboard End",
+      "pass": true
+    },
+    {
+      "name": "chromium-1060-team header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1060-team header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-team header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-team tab count",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "chromium-1060-team panel 0 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-team panel 1 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-team panel 2 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-team panel 3 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-team panel 4 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-team panel 5 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-team panel 6 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-team panel 7 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-team panel 8 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1060-team tabs >=44 / labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "전략·마케팅",
+          "width": 106.765625,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디지털",
+          "width": 75.484375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "콘텐츠",
+          "width": 75.484375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디자인",
+          "width": 75.484375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "영상",
+          "width": 61.65625,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "미디어 광고",
+          "width": 106.34375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "인플루언서",
+          "width": 103.140625,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "IT 솔루션",
+          "width": 91.484375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "언론홍보",
+          "width": 89.3125,
+          "height": 48,
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-team tab keyboard End",
+      "pass": true
+    },
+    {
+      "name": "chromium-1060-contact header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1060-contact header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-contact header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-contact single form / no clipping",
+      "pass": true,
+      "detail": {
+        "forms": 1,
+        "overflow": false,
+        "fields": [
+          {
+            "type": "text",
+            "height": 48,
+            "width": 286.71875,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 48,
+            "width": 286.734375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "tel",
+            "height": 48,
+            "width": 286.71875,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "email",
+            "height": 48,
+            "width": 286.734375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "textarea",
+            "height": 153.96875,
+            "width": 597.453125,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 48,
+            "width": 286.71875,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 48,
+            "width": 286.734375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 34.796875,
+            "width": 215,
+            "line": 28.8,
+            "padding": 2,
+            "font": "18px"
+          }
+        ],
+        "controls": [
+          {
+            "text": "전략·브랜딩",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "디지털 마케팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "영상 제작",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "병원 마케팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "언론홍보",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "기타 · 함께 논의",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "파일 선택선택한 파일이 없습니다",
+            "height": 60.390625,
+            "clip": false
+          },
+          {
+            "text": "프로젝트 문의하기",
+            "height": 48,
+            "clip": false
+          }
+        ],
+        "labels": []
+      }
+    },
+    {
+      "name": "chromium-1060-contact fields >=44 / text line fits",
+      "pass": false,
+      "detail": [
+        {
+          "type": "text",
+          "height": 48,
+          "width": 286.71875,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 48,
+          "width": 286.734375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "tel",
+          "height": 48,
+          "width": 286.71875,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "email",
+          "height": 48,
+          "width": 286.734375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "textarea",
+          "height": 153.96875,
+          "width": 597.453125,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 48,
+          "width": 286.71875,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 48,
+          "width": 286.734375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 34.796875,
+          "width": 215,
+          "line": 28.8,
+          "padding": 2,
+          "font": "18px"
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-contact controls >=44 / text fits",
+      "pass": true,
+      "detail": [
+        {
+          "text": "전략·브랜딩",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디지털 마케팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "콘텐츠·디자인",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "영상 제작",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "미디어·오프라인 광고",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "인플루언서 마케팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "병원 마케팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "사업·글로벌 컨설팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "IT 솔루션 지원",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "언론홍보",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "기타 · 함께 논의",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "파일 선택선택한 파일이 없습니다",
+          "height": 60.390625,
+          "clip": false
+        },
+        {
+          "text": "프로젝트 문의하기",
+          "height": 48,
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1060-contact footer readable",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "clipped": [],
+        "text": [
+          {
+            "font": "16px",
+            "text": "allthecom1@gmail.com"
+          },
+          {
+            "font": "16px",
+            "text": "031-811-0208"
+          },
+          {
+            "font": "12px",
+            "text": "개인정보처리방침"
+          },
+          {
+            "font": "12px",
+            "text": "© 2026 ALL THE COMMUNICATION"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1440-home header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 80,
+            "right": 298,
+            "top": 28.8125,
+            "bottom": 76.375,
+            "width": 218,
+            "height": 47.5625,
+            "visible": true
+          },
+          {
+            "left": 704.109375,
+            "right": 1126.046875,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 1150.046875,
+            "right": 1360,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 209.953125,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 47.5625,
+            "width": 218,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 157.40625,
+            "font": "14px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1440-home header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 47.5625,
+          "width": 218,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 157.40625,
+          "font": "14px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-home header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 47.5625,
+          "width": 218,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 157.40625,
+          "font": "14px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-home main H1 size unchanged",
+      "pass": true,
+      "detail": {
+        "font": "80.64px",
+        "line": "90.3168px",
+        "height": 180.625,
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "chromium-1440-works header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 80,
+            "right": 298,
+            "top": 28.8125,
+            "bottom": 76.375,
+            "width": 218,
+            "height": 47.5625,
+            "visible": true
+          },
+          {
+            "left": 704.109375,
+            "right": 1126.046875,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 1150.046875,
+            "right": 1360,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 209.953125,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 47.5625,
+            "width": 218,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 157.40625,
+            "font": "14px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1440-works header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 47.5625,
+          "width": 218,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 157.40625,
+          "font": "14px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-works header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 47.5625,
+          "width": 218,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 157.40625,
+          "font": "14px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-works tab count",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "name": "chromium-1440-works panel 0 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-works panel 1 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-works panel 2 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-works panel 3 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-works panel 4 selected / readable",
+      "pass": false,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": [
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "WALKAND SEE",
+            "scroll": [
+              66,
+              37
+            ],
+            "client": [
+              66,
+              34
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1440-works panel 5 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-works panel 6 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-works panel 7 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-works panel 8 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-works panel 9 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-works tabs >=44 / labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "전략·브랜딩",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디지털 마케팅",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "콘텐츠·디자인",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "영상 제작",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "미디어·오프라인 광고",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "인플루언서 마케팅",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "병원 마케팅",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "사업·글로벌 컨설팅",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "IT 솔루션 지원",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "언론홍보",
+          "width": 222,
+          "height": 48,
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-works tab keyboard End",
+      "pass": true
+    },
+    {
+      "name": "chromium-1440-team header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 80,
+            "right": 298,
+            "top": 28.8125,
+            "bottom": 76.375,
+            "width": 218,
+            "height": 47.5625,
+            "visible": true
+          },
+          {
+            "left": 704.109375,
+            "right": 1126.046875,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 1150.046875,
+            "right": 1360,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 209.953125,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 47.5625,
+            "width": 218,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 157.40625,
+            "font": "14px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1440-team header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 47.5625,
+          "width": 218,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 157.40625,
+          "font": "14px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-team header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 47.5625,
+          "width": 218,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 157.40625,
+          "font": "14px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-team tab count",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "chromium-1440-team panel 0 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-team panel 1 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-team panel 2 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-team panel 3 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-team panel 4 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-team panel 5 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-team panel 6 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-team panel 7 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-team panel 8 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 1280,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "chromium-1440-team tabs >=44 / labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "전략·마케팅",
+          "width": 106.765625,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디지털",
+          "width": 75.484375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "콘텐츠",
+          "width": 75.484375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디자인",
+          "width": 75.484375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "영상",
+          "width": 61.65625,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "미디어 광고",
+          "width": 106.34375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "인플루언서",
+          "width": 103.140625,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "IT 솔루션",
+          "width": 91.484375,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "언론홍보",
+          "width": 89.3125,
+          "height": 48,
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-team tab keyboard End",
+      "pass": true
+    },
+    {
+      "name": "chromium-1440-contact header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 80,
+            "right": 298,
+            "top": 28.8125,
+            "bottom": 76.375,
+            "width": 218,
+            "height": 47.5625,
+            "visible": true
+          },
+          {
+            "left": 704.109375,
+            "right": 1126.046875,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 1150.046875,
+            "right": 1360,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 209.953125,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 47.5625,
+            "width": 218,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 157.40625,
+            "font": "14px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1440-contact header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 47.5625,
+          "width": 218,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 157.40625,
+          "font": "14px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-contact header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 47.5625,
+          "width": 218,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 157.40625,
+          "font": "14px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-contact single form / no clipping",
+      "pass": true,
+      "detail": {
+        "forms": 1,
+        "overflow": false,
+        "fields": [
+          {
+            "type": "text",
+            "height": 48,
+            "width": 364.59375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 48,
+            "width": 364.609375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "tel",
+            "height": 48,
+            "width": 364.59375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "email",
+            "height": 48,
+            "width": 364.609375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "textarea",
+            "height": 153.96875,
+            "width": 753.203125,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 48,
+            "width": 364.59375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 48,
+            "width": 364.609375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 34.796875,
+            "width": 215,
+            "line": 28.8,
+            "padding": 2,
+            "font": "18px"
+          }
+        ],
+        "controls": [
+          {
+            "text": "전략·브랜딩",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "디지털 마케팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "영상 제작",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "병원 마케팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "언론홍보",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "기타 · 함께 논의",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "파일 선택선택한 파일이 없습니다",
+            "height": 60.390625,
+            "clip": false
+          },
+          {
+            "text": "프로젝트 문의하기",
+            "height": 48,
+            "clip": false
+          }
+        ],
+        "labels": []
+      }
+    },
+    {
+      "name": "chromium-1440-contact fields >=44 / text line fits",
+      "pass": false,
+      "detail": [
+        {
+          "type": "text",
+          "height": 48,
+          "width": 364.59375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 48,
+          "width": 364.609375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "tel",
+          "height": 48,
+          "width": 364.59375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "email",
+          "height": 48,
+          "width": 364.609375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "textarea",
+          "height": 153.96875,
+          "width": 753.203125,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 48,
+          "width": 364.59375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 48,
+          "width": 364.609375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 34.796875,
+          "width": 215,
+          "line": 28.8,
+          "padding": 2,
+          "font": "18px"
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-contact controls >=44 / text fits",
+      "pass": true,
+      "detail": [
+        {
+          "text": "전략·브랜딩",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디지털 마케팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "콘텐츠·디자인",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "영상 제작",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "미디어·오프라인 광고",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "인플루언서 마케팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "병원 마케팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "사업·글로벌 컨설팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "IT 솔루션 지원",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "언론홍보",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "기타 · 함께 논의",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "파일 선택선택한 파일이 없습니다",
+          "height": 60.390625,
+          "clip": false
+        },
+        {
+          "text": "프로젝트 문의하기",
+          "height": 48,
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440-contact footer readable",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "clipped": [],
+        "text": [
+          {
+            "font": "16px",
+            "text": "allthecom1@gmail.com"
+          },
+          {
+            "font": "16px",
+            "text": "031-811-0208"
+          },
+          {
+            "font": "12px",
+            "text": "개인정보처리방침"
+          },
+          {
+            "font": "12px",
+            "text": "© 2026 ALL THE COMMUNICATION"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-1060-works header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-1060-works header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "webkit-1060-works header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "webkit-1060-works tab count",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "name": "webkit-1060-works panel 0 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works panel 1 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works panel 2 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works panel 3 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works panel 4 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works panel 5 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works panel 6 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works panel 7 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works panel 8 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works panel 9 selected / readable",
+      "pass": true,
+      "detail": {
+        "width": 996,
+        "overflow": false,
+        "descendants": []
+      }
+    },
+    {
+      "name": "webkit-1060-works tabs >=44 / labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "전략·브랜딩",
+          "width": 191.1875,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디지털 마케팅",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "콘텐츠·디자인",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "영상 제작",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "미디어·오프라인 광고",
+          "width": 191.1875,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "인플루언서 마케팅",
+          "width": 191.1875,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "병원 마케팅",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "사업·글로벌 컨설팅",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "IT 솔루션 지원",
+          "width": 191.203125,
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "언론홍보",
+          "width": 191.1875,
+          "height": 48,
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "webkit-1060-works tab keyboard End",
+      "pass": true
+    },
+    {
+      "name": "webkit-1060-contact header fits / aligned",
+      "pass": true,
+      "detail": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-1060-contact header text not clipped",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "webkit-1060-contact header controls >=44 high",
+      "pass": true,
+      "detail": [
+        {
+          "text": "올더커뮤니케이션 홈",
+          "height": 40.359375,
+          "width": 185,
+          "font": "18px",
+          "clip": false
+        },
+        {
+          "text": "ABOUT US",
+          "height": 51.1875,
+          "width": 62.734375,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "OUR PROCESS",
+          "height": 51.1875,
+          "width": 89.640625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "TEAM",
+          "height": 51.1875,
+          "width": 34.625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "WORKS",
+          "height": 51.1875,
+          "width": 46.015625,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "CONTACT",
+          "height": 51.1875,
+          "width": 60.921875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "EN",
+          "height": 44,
+          "width": 32.546875,
+          "font": "12px",
+          "clip": false
+        },
+        {
+          "text": "프로젝트 상담",
+          "height": 48,
+          "width": 138.640625,
+          "font": "12px",
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "webkit-1060-contact single form / no clipping",
+      "pass": true,
+      "detail": {
+        "forms": 1,
+        "overflow": false,
+        "fields": [
+          {
+            "type": "text",
+            "height": 48,
+            "width": 286.71875,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 48,
+            "width": 286.71875,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "tel",
+            "height": 48,
+            "width": 286.71875,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "email",
+            "height": 48,
+            "width": 286.71875,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "textarea",
+            "height": 153.96875,
+            "width": 597.4375,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 48,
+            "width": 286.71875,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 48,
+            "width": 286.71875,
+            "line": 25.6,
+            "padding": 24,
+            "font": "16px"
+          },
+          {
+            "type": "text",
+            "height": 34.796875,
+            "width": 235,
+            "line": 28.799999,
+            "padding": 2,
+            "font": "18px"
+          }
+        ],
+        "controls": [
+          {
+            "text": "전략·브랜딩",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "디지털 마케팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "영상 제작",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "병원 마케팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "언론홍보",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "기타 · 함께 논의",
+            "height": 48,
+            "clip": false
+          },
+          {
+            "text": "파일 선택선택한 파일이 없습니다",
+            "height": 60.390625,
+            "clip": false
+          },
+          {
+            "text": "프로젝트 문의하기",
+            "height": 48,
+            "clip": false
+          }
+        ],
+        "labels": []
+      }
+    },
+    {
+      "name": "webkit-1060-contact fields >=44 / text line fits",
+      "pass": false,
+      "detail": [
+        {
+          "type": "text",
+          "height": 48,
+          "width": 286.71875,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 48,
+          "width": 286.71875,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "tel",
+          "height": 48,
+          "width": 286.71875,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "email",
+          "height": 48,
+          "width": 286.71875,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "textarea",
+          "height": 153.96875,
+          "width": 597.4375,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 48,
+          "width": 286.71875,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 48,
+          "width": 286.71875,
+          "line": 25.6,
+          "padding": 24,
+          "font": "16px"
+        },
+        {
+          "type": "text",
+          "height": 34.796875,
+          "width": 235,
+          "line": 28.799999,
+          "padding": 2,
+          "font": "18px"
+        }
+      ]
+    },
+    {
+      "name": "webkit-1060-contact controls >=44 / text fits",
+      "pass": true,
+      "detail": [
+        {
+          "text": "전략·브랜딩",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "디지털 마케팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "콘텐츠·디자인",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "영상 제작",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "미디어·오프라인 광고",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "인플루언서 마케팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "병원 마케팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "사업·글로벌 컨설팅",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "IT 솔루션 지원",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "언론홍보",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "기타 · 함께 논의",
+          "height": 48,
+          "clip": false
+        },
+        {
+          "text": "파일 선택선택한 파일이 없습니다",
+          "height": 60.390625,
+          "clip": false
+        },
+        {
+          "text": "프로젝트 문의하기",
+          "height": 48,
+          "clip": false
+        }
+      ]
+    },
+    {
+      "name": "webkit-1060-contact footer readable",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "clipped": [],
+        "text": [
+          {
+            "font": "16px",
+            "text": "allthecom1@gmail.com"
+          },
+          {
+            "font": "16px",
+            "text": "031-811-0208"
+          },
+          {
+            "font": "12px",
+            "text": "개인정보처리방침"
+          },
+          {
+            "font": "12px",
+            "text": "© 2026 ALL THE COMMUNICATION"
+          }
+        ]
+      }
+    },
+    {
+      "name": "page errors zero",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "console errors zero",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "write requests zero",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "observations": [
+    {
+      "key": "chromium-1060-home",
+      "header": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "chromium-1060-works",
+      "header": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "chromium-1060-team",
+      "header": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "chromium-1060-contact",
+      "header": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "chromium-1440-home",
+      "header": {
+        "pieces": [
+          {
+            "left": 80,
+            "right": 298,
+            "top": 28.8125,
+            "bottom": 76.375,
+            "width": 218,
+            "height": 47.5625,
+            "visible": true
+          },
+          {
+            "left": 704.109375,
+            "right": 1126.046875,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 1150.046875,
+            "right": 1360,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 209.953125,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 47.5625,
+            "width": 218,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 157.40625,
+            "font": "14px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "chromium-1440-works",
+      "header": {
+        "pieces": [
+          {
+            "left": 80,
+            "right": 298,
+            "top": 28.8125,
+            "bottom": 76.375,
+            "width": 218,
+            "height": 47.5625,
+            "visible": true
+          },
+          {
+            "left": 704.109375,
+            "right": 1126.046875,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 1150.046875,
+            "right": 1360,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 209.953125,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 47.5625,
+            "width": 218,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 157.40625,
+            "font": "14px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "chromium-1440-team",
+      "header": {
+        "pieces": [
+          {
+            "left": 80,
+            "right": 298,
+            "top": 28.8125,
+            "bottom": 76.375,
+            "width": 218,
+            "height": 47.5625,
+            "visible": true
+          },
+          {
+            "left": 704.109375,
+            "right": 1126.046875,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 1150.046875,
+            "right": 1360,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 209.953125,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 47.5625,
+            "width": 218,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 157.40625,
+            "font": "14px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "chromium-1440-contact",
+      "header": {
+        "pieces": [
+          {
+            "left": 80,
+            "right": 298,
+            "top": 28.8125,
+            "bottom": 76.375,
+            "width": 218,
+            "height": 47.5625,
+            "visible": true
+          },
+          {
+            "left": 704.109375,
+            "right": 1126.046875,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 1150.046875,
+            "right": 1360,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 209.953125,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 47.5625,
+            "width": 218,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 157.40625,
+            "font": "14px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "webkit-1060-works",
+      "header": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "webkit-1060-contact",
+      "header": {
+        "pieces": [
+          {
+            "left": 32,
+            "right": 217,
+            "top": 32.40625,
+            "bottom": 72.765625,
+            "width": 185,
+            "height": 40.359375,
+            "visible": true
+          },
+          {
+            "left": 406.875,
+            "right": 828.8125,
+            "top": 27,
+            "bottom": 78.1875,
+            "width": 421.9375,
+            "height": 51.1875,
+            "visible": true
+          },
+          {
+            "left": 844.8125,
+            "right": 1028,
+            "top": 28.59375,
+            "bottom": 76.59375,
+            "width": 183.1875,
+            "height": 48,
+            "visible": true
+          }
+        ],
+        "overflow": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1060,
+          "height": 106.1875,
+          "top": 0,
+          "right": 1060,
+          "bottom": 106.1875,
+          "left": 0
+        },
+        "links": [
+          {
+            "text": "올더커뮤니케이션 홈",
+            "height": 40.359375,
+            "width": 185,
+            "font": "18px",
+            "clip": false
+          },
+          {
+            "text": "ABOUT US",
+            "height": 51.1875,
+            "width": 62.734375,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "OUR PROCESS",
+            "height": 51.1875,
+            "width": 89.640625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "TEAM",
+            "height": 51.1875,
+            "width": 34.625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "WORKS",
+            "height": 51.1875,
+            "width": 46.015625,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "CONTACT",
+            "height": 51.1875,
+            "width": 60.921875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "EN",
+            "height": 44,
+            "width": 32.546875,
+            "font": "12px",
+            "clip": false
+          },
+          {
+            "text": "프로젝트 상담",
+            "height": 48,
+            "width": 138.640625,
+            "font": "12px",
+            "clip": false
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "writes": [],
+  "unavailable": [
+    {
+      "engineName": "firefox",
+      "error": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+    }
+  ]
+}

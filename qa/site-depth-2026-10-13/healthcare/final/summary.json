@@ -1,0 +1,217 @@
+{
+  "scope": "Final read-only healthcare path checks",
+  "sources": [
+    "results-chromium.json",
+    "results-firefox-webkit.json"
+  ],
+  "summary": {
+    "routes": 6,
+    "checks": 108,
+    "passed": 108,
+    "failed": 0,
+    "errors": 0,
+    "writeRequests": 0
+  },
+  "routes": [
+    {
+      "route": "chromium-1440",
+      "about": {
+        "top": 371.34375,
+        "bottom": 601.734375,
+        "left": 80,
+        "right": 716.9375,
+        "height": 230.390625,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 972
+      },
+      "hospitalTab": {
+        "top": 178.1875,
+        "bottom": 226.1875,
+        "left": 312,
+        "right": 534,
+        "height": 48,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 646
+      },
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "hospitalChecked": true
+    },
+    {
+      "route": "chromium-390",
+      "about": {
+        "top": 314.34375,
+        "bottom": 458.34375,
+        "left": 16,
+        "right": 374,
+        "height": 144,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 1250
+      },
+      "hospitalTab": {
+        "top": 206.890625,
+        "bottom": 254.890625,
+        "left": 16,
+        "right": 99.734375,
+        "height": 48,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 425
+      },
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "hospitalChecked": true
+    },
+    {
+      "route": "firefox-1440",
+      "about": {
+        "top": 371.20001220703125,
+        "bottom": 601.6000213623047,
+        "left": 80,
+        "right": 716.9500122070312,
+        "height": 230.40000915527344,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 972.1666870117188
+      },
+      "hospitalTab": {
+        "top": 178.1666717529297,
+        "bottom": 226.1666717529297,
+        "left": 312,
+        "right": 534,
+        "height": 48,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 646
+      },
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "hospitalChecked": true
+    },
+    {
+      "route": "firefox-390",
+      "about": {
+        "top": 314.20001220703125,
+        "bottom": 458.20001220703125,
+        "left": 16,
+        "right": 374,
+        "height": 144,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 1250.25
+      },
+      "hospitalTab": {
+        "top": 206.89999389648438,
+        "bottom": 254.89999389648438,
+        "left": 16,
+        "right": 99.69999694824219,
+        "height": 48,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 425
+      },
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "hospitalChecked": true
+    },
+    {
+      "route": "webkit-1440",
+      "about": {
+        "top": 371.34375,
+        "bottom": 601.734375,
+        "left": 80,
+        "right": 716.9375,
+        "height": 230.390625,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 972
+      },
+      "hospitalTab": {
+        "top": 590.15625,
+        "bottom": 638.15625,
+        "left": 312,
+        "right": 534,
+        "height": 48,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 234
+      },
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "hospitalChecked": true
+    },
+    {
+      "route": "webkit-390",
+      "about": {
+        "top": 314.34375,
+        "bottom": 458.34375,
+        "left": 16,
+        "right": 374,
+        "height": 144,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 1250
+      },
+      "hospitalTab": {
+        "top": 206.890625,
+        "bottom": 254.890625,
+        "left": 16,
+        "right": 99.734375,
+        "height": 48,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 425
+      },
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "hospitalChecked": true
+    }
+  ],
+  "environmentHistory": "Initial default sandbox Firefox newPage failed before any Firefox page check; Chromium results retained; only Firefox and WebKit rerun with allowed escalation.",
+  "visualHistory": "First WebKit1440 hospital entry selected the correct tab but stage remained lower. Separate targeted rerun after 1s and 3s settled at stageTop=120.16px; original screenshot and JSON retained. See webkit-targeted.json."
+}

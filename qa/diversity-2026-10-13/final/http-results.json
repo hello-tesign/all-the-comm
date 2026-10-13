@@ -1,0 +1,654 @@
+{
+  "date": "2026-10-13T01:25:35.135Z",
+  "scope": "Read-only source HTTP and public project data checks. Not browser rendering proof.",
+  "base": "http://127.0.0.1:4173",
+  "passed": 31,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "/ SSR has no global Sojukdoo or red-bean imagery/text",
+      "passed": true,
+      "detail": {
+        "food": [],
+        "foodText": []
+      }
+    },
+    {
+      "name": "/about/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "/about/ SSR has no global Sojukdoo or red-bean imagery/text",
+      "passed": true,
+      "detail": {
+        "food": [],
+        "foodText": []
+      }
+    },
+    {
+      "name": "/process/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "/process/ SSR has no global Sojukdoo or red-bean imagery/text",
+      "passed": true,
+      "detail": {
+        "food": [],
+        "foodText": []
+      }
+    },
+    {
+      "name": "/team/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "/team/ SSR has no global Sojukdoo or red-bean imagery/text",
+      "passed": true,
+      "detail": {
+        "food": [],
+        "foodText": []
+      }
+    },
+    {
+      "name": "/works/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "/works/ SSR has no global Sojukdoo or red-bean imagery/text",
+      "passed": true,
+      "detail": {
+        "food": [],
+        "foodText": []
+      }
+    },
+    {
+      "name": "/contact/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "/contact/ SSR has no global Sojukdoo or red-bean imagery/text",
+      "passed": true,
+      "detail": {
+        "food": [],
+        "foodText": []
+      }
+    },
+    {
+      "name": "Public portfolio API responds 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "Home featured projection has three cases and Sojukdoo is unfeatured",
+      "passed": true,
+      "detail": [
+        {
+          "slug": "ezylens-studio",
+          "order": 0,
+          "industry": "리테일 · 아이웨어 · 커머스"
+        },
+        {
+          "slug": "city-culture",
+          "order": 1,
+          "industry": "문화 · 전시 · 옥외 홍보"
+        },
+        {
+          "slug": "jonghae-community",
+          "order": 2,
+          "industry": "공익 · 문화·교육 · 기관 웹"
+        }
+      ]
+    },
+    {
+      "name": "Sojukdoo remains one portfolio record",
+      "passed": true,
+      "detail": [
+        "ezylens-studio",
+        "city-culture",
+        "jonghae-community",
+        "patient-guide",
+        "sojukdoo-concept",
+        "soulreset",
+        "review-atelier",
+        "tesign-radar",
+        "tesign-workflow",
+        "all-the-comm"
+      ]
+    },
+    {
+      "name": "Image resource /brand/logo-horizontal-on-dark.svg",
+      "passed": true,
+      "detail": {
+        "url": "/brand/logo-horizontal-on-dark.svg",
+        "status": 200,
+        "type": "image/svg+xml",
+        "bytes": 67569,
+        "sha256": "e002e1452be16d012e8029f2d66466e3ad8a7c01b9ea021bc4332f6cbfc2b4cc"
+      }
+    },
+    {
+      "name": "Image resource /evidence/diverse/eyewear-product.jpg",
+      "passed": true,
+      "detail": {
+        "url": "/evidence/diverse/eyewear-product.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 42916,
+        "sha256": "798cb4c2c43ab061f304db7b0217dfb47efcfee248def5944a288b3802b740c1"
+      }
+    },
+    {
+      "name": "Image resource /portfolio/concept-city-culture.png",
+      "passed": true,
+      "detail": {
+        "url": "/portfolio/concept-city-culture.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 569718,
+        "sha256": "cc92973bd4cb5153ec3f794d8bd449a24316fa10638bd4683d644e822e8dc299"
+      }
+    },
+    {
+      "name": "Image resource /portfolio/site-soulreset.png",
+      "passed": true,
+      "detail": {
+        "url": "/portfolio/site-soulreset.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 1118406,
+        "sha256": "bb86e53a2a2a253849013165a77ae9582ab6d163189721558e362b8af6bd6a73"
+      }
+    },
+    {
+      "name": "Image resource /evidence/diverse/jonghae-home.png",
+      "passed": true,
+      "detail": {
+        "url": "/evidence/diverse/jonghae-home.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 878139,
+        "sha256": "6fc0fc960cc23953e153b3a1c3c7d955a89a514f32fc36cc51a7d94f474a6626"
+      }
+    },
+    {
+      "name": "Image resource /portfolio/concept-patient-guide.png",
+      "passed": true,
+      "detail": {
+        "url": "/portfolio/concept-patient-guide.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 80357,
+        "sha256": "b488eb6b486dcbf13f93ad1ac60e64b3def17d0e8ed96c6b58263fef34a8be98"
+      }
+    },
+    {
+      "name": "Image resource /portfolio/saas-ea-editor.png",
+      "passed": true,
+      "detail": {
+        "url": "/portfolio/saas-ea-editor.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 124525,
+        "sha256": "0a15326320faa97123112f7ef15b15b9646abb17d57655ad23ad0a4c71abe4c9"
+      }
+    },
+    {
+      "name": "Image resource /portfolio/saas-tesign-workflow.png",
+      "passed": true,
+      "detail": {
+        "url": "/portfolio/saas-tesign-workflow.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 105721,
+        "sha256": "21aa172e52322ac83b381d7ad3c1085399c39776ee6af31c948e033c11b09dcc"
+      }
+    },
+    {
+      "name": "Image resource /evidence/diverse/ezylens-studio.png",
+      "passed": true,
+      "detail": {
+        "url": "/evidence/diverse/ezylens-studio.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 132586,
+        "sha256": "137804853f2101917b600812f6fc323b67d7183beb4c1d66f2290af7f0aec3c5"
+      }
+    },
+    {
+      "name": "Image resource /evidence/diverse/botanic-skywalk.webp",
+      "passed": true,
+      "detail": {
+        "url": "/evidence/diverse/botanic-skywalk.webp",
+        "status": 200,
+        "type": "image/webp",
+        "bytes": 391616,
+        "sha256": "0d95296d0eb94d2d85ae8e4467f0bd66cde7f610014356de5a4a323ecd1a1713"
+      }
+    },
+    {
+      "name": "Image resource /evidence/diverse/beauty-ritual.webp",
+      "passed": true,
+      "detail": {
+        "url": "/evidence/diverse/beauty-ritual.webp",
+        "status": 200,
+        "type": "image/webp",
+        "bytes": 108170,
+        "sha256": "a717a51a528e0c62524e27c5f8bd1447e92383bef832af63fe3794f48e88e994"
+      }
+    },
+    {
+      "name": "Image resource /evidence/allthecomm-inquiry.png",
+      "passed": true,
+      "detail": {
+        "url": "/evidence/allthecomm-inquiry.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 140584,
+        "sha256": "182b78b404053230b46d6ce8b8f8f475bc91765739a6aea4f83742d19a52eeab"
+      }
+    },
+    {
+      "name": "Image resource /evidence/diverse/botanic-garden.webp",
+      "passed": true,
+      "detail": {
+        "url": "/evidence/diverse/botanic-garden.webp",
+        "status": 200,
+        "type": "image/webp",
+        "bytes": 733924,
+        "sha256": "b524ea3dbb997e7d6e95769930f029660827f93a5cd7a4b5627e7f3ffa994068"
+      }
+    },
+    {
+      "name": "Image resource /evidence/diverse/place-soakru.webp",
+      "passed": true,
+      "detail": {
+        "url": "/evidence/diverse/place-soakru.webp",
+        "status": 200,
+        "type": "image/webp",
+        "bytes": 245096,
+        "sha256": "ffe5da2949160a26edd945f6a86387398766a051dfd09b664383046c5c949310"
+      }
+    },
+    {
+      "name": "Image resource /portfolio/site-tesign-radar.png",
+      "passed": true,
+      "detail": {
+        "url": "/portfolio/site-tesign-radar.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 89151,
+        "sha256": "2919513a1322bf1b59899696e31c11003ec57a3e40e8f415ea737c4437b8e8f7"
+      }
+    },
+    {
+      "name": "Image resource /portfolio/site-sojukdoo-commerce.png",
+      "passed": true,
+      "detail": {
+        "url": "/portfolio/site-sojukdoo-commerce.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 730016,
+        "sha256": "b67adc5df1dea966ce73ea2098d372f144c59a3fc0f7c4c58387f83b4b06496f"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "기획에서 실행까지 — 올더커뮤니케이션",
+      "sha256": "c687e34ace5920bb426ee7e6218264afd85183c5de171eb1cbfd81feae478792",
+      "images": [
+        "/brand/logo-horizontal-on-dark.svg",
+        "/brand/logo-horizontal-on-dark.svg",
+        "/evidence/diverse/eyewear-product.jpg",
+        "/portfolio/concept-city-culture.png",
+        "/portfolio/site-soulreset.png",
+        "/evidence/diverse/jonghae-home.png",
+        "/portfolio/concept-patient-guide.png",
+        "/portfolio/saas-ea-editor.png",
+        "/portfolio/saas-tesign-workflow.png",
+        "/evidence/diverse/ezylens-studio.png",
+        "/portfolio/site-soulreset.png",
+        "/evidence/diverse/jonghae-home.png",
+        "/evidence/diverse/botanic-skywalk.webp",
+        "/evidence/diverse/beauty-ritual.webp",
+        "/portfolio/saas-tesign-workflow.png",
+        "/evidence/allthecomm-inquiry.png",
+        "/evidence/diverse/jonghae-home.png",
+        "/portfolio/concept-city-culture.png",
+        "/evidence/diverse/ezylens-studio.png",
+        "/portfolio/saas-tesign-workflow.png",
+        "/portfolio/concept-city-culture.png",
+        "/portfolio/saas-ea-editor.png",
+        "/brand/logo-horizontal-on-dark.svg"
+      ]
+    },
+    {
+      "route": "/about/",
+      "status": 200,
+      "title": "회사 소개 — 올더커뮤니케이션",
+      "sha256": "b2074f033606cbf5bb62d775f6cd9a84217b1fd719f96fbec2bf3083d8513dce",
+      "images": [
+        "/brand/logo-horizontal-on-dark.svg",
+        "/brand/logo-horizontal-on-dark.svg",
+        "/evidence/diverse/eyewear-product.jpg",
+        "/evidence/diverse/jonghae-home.png",
+        "/portfolio/concept-city-culture.png",
+        "/portfolio/concept-patient-guide.png",
+        "/brand/logo-horizontal-on-dark.svg"
+      ]
+    },
+    {
+      "route": "/process/",
+      "status": 200,
+      "title": "일하는 과정 — 올더커뮤니케이션",
+      "sha256": "067d78ecc19705e1fb3e95fbf4ac35fbe57742f351f538a5600d6d9ae4d62177",
+      "images": [
+        "/brand/logo-horizontal-on-dark.svg",
+        "/brand/logo-horizontal-on-dark.svg",
+        "/evidence/diverse/jonghae-home.png",
+        "/portfolio/concept-city-culture.png",
+        "/evidence/diverse/ezylens-studio.png",
+        "/portfolio/saas-tesign-workflow.png",
+        "/brand/logo-horizontal-on-dark.svg"
+      ]
+    },
+    {
+      "route": "/team/",
+      "status": 200,
+      "title": "함께하는 역할 — 올더커뮤니케이션",
+      "sha256": "16e4d2c662c0da039386e76e87fadb8601713c2e981074a1ef061e037c578c06",
+      "images": [
+        "/brand/logo-horizontal-on-dark.svg",
+        "/brand/logo-horizontal-on-dark.svg",
+        "/evidence/diverse/ezylens-studio.png",
+        "/portfolio/site-soulreset.png",
+        "/evidence/diverse/jonghae-home.png",
+        "/portfolio/concept-patient-guide.png",
+        "/evidence/diverse/botanic-garden.webp",
+        "/evidence/diverse/place-soakru.webp",
+        "/evidence/diverse/botanic-skywalk.webp",
+        "/evidence/diverse/botanic-skywalk.webp",
+        "/evidence/diverse/beauty-ritual.webp",
+        "/portfolio/saas-tesign-workflow.png",
+        "/brand/logo-horizontal-on-dark.svg"
+      ]
+    },
+    {
+      "route": "/works/",
+      "status": 200,
+      "title": "업무와 프로젝트 — 올더커뮤니케이션",
+      "sha256": "9cb0aedab05afe7eed7e0d98f8713b3cda76c73777574f54623546ce349f62fe",
+      "images": [
+        "/brand/logo-horizontal-on-dark.svg",
+        "/brand/logo-horizontal-on-dark.svg",
+        "/evidence/diverse/ezylens-studio.png",
+        "/portfolio/site-soulreset.png",
+        "/evidence/diverse/jonghae-home.png",
+        "/evidence/diverse/botanic-garden.webp",
+        "/evidence/diverse/place-soakru.webp",
+        "/evidence/diverse/botanic-skywalk.webp",
+        "/evidence/diverse/botanic-skywalk.webp",
+        "/evidence/diverse/beauty-ritual.webp",
+        "/portfolio/site-tesign-radar.png",
+        "/portfolio/saas-tesign-workflow.png",
+        "/evidence/allthecomm-inquiry.png",
+        "/brand/logo-horizontal-on-dark.svg"
+      ]
+    },
+    {
+      "route": "/contact/",
+      "status": 200,
+      "title": "프로젝트 문의 — 올더커뮤니케이션",
+      "sha256": "aeb2658bc9464f91b0daa2d2229f4fdbf2732348a6f08b7224e35f2ac6862c6a",
+      "images": [
+        "/brand/logo-horizontal-on-dark.svg",
+        "/brand/logo-horizontal-on-dark.svg",
+        "/brand/logo-horizontal-on-dark.svg"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "ezylens-studio",
+      "industry": "리테일 · 아이웨어 · 커머스",
+      "featured": true,
+      "order": 0,
+      "services": [
+        "strategy",
+        "digital",
+        "it"
+      ],
+      "coverImage": "/evidence/diverse/ezylens-studio.png"
+    },
+    {
+      "slug": "city-culture",
+      "industry": "문화 · 전시 · 옥외 홍보",
+      "featured": true,
+      "order": 1,
+      "services": [
+        "strategy",
+        "content",
+        "media"
+      ],
+      "coverImage": "/portfolio/concept-city-culture.png"
+    },
+    {
+      "slug": "jonghae-community",
+      "industry": "공익 · 문화·교육 · 기관 웹",
+      "featured": true,
+      "order": 2,
+      "services": [
+        "content",
+        "digital",
+        "it"
+      ],
+      "coverImage": "/evidence/diverse/jonghae-home.png"
+    },
+    {
+      "slug": "patient-guide",
+      "industry": "의료 · 안내 콘텐츠 · 편집 디자인",
+      "featured": false,
+      "order": 3,
+      "services": [
+        "hospital",
+        "content"
+      ],
+      "coverImage": "/portfolio/concept-patient-guide.png"
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "industry": "푸드 · 브랜드 · 커머스",
+      "featured": false,
+      "order": 4,
+      "services": [
+        "strategy",
+        "content",
+        "it"
+      ],
+      "coverImage": "/portfolio/site-sojukdoo-commerce.png"
+    },
+    {
+      "slug": "soulreset",
+      "industry": "여행 · 서비스 웹사이트",
+      "featured": true,
+      "order": 5,
+      "services": [
+        "content",
+        "it"
+      ],
+      "coverImage": "/portfolio/site-soulreset.png"
+    },
+    {
+      "slug": "review-atelier",
+      "industry": "콘텐츠 · 편집 소프트웨어",
+      "featured": false,
+      "order": 6,
+      "services": [
+        "it",
+        "content"
+      ],
+      "coverImage": "/portfolio/saas-ea-editor.png"
+    },
+    {
+      "slug": "tesign-radar",
+      "industry": "콘텐츠 · 디지털 서비스",
+      "featured": false,
+      "order": 7,
+      "services": [
+        "content",
+        "it"
+      ],
+      "coverImage": "/portfolio/site-tesign-radar.png"
+    },
+    {
+      "slug": "tesign-workflow",
+      "industry": "콘텐츠 · 운영 소프트웨어",
+      "featured": false,
+      "order": 8,
+      "services": [
+        "it",
+        "content"
+      ],
+      "coverImage": "/portfolio/saas-tesign-workflow.png"
+    },
+    {
+      "slug": "all-the-comm",
+      "industry": "광고·마케팅",
+      "featured": true,
+      "order": 9,
+      "services": [
+        "strategy",
+        "content",
+        "video",
+        "it"
+      ],
+      "coverImage": "/evidence/allthecomm-inquiry.png"
+    }
+  ],
+  "assets": [
+    {
+      "url": "/brand/logo-horizontal-on-dark.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 67569,
+      "sha256": "e002e1452be16d012e8029f2d66466e3ad8a7c01b9ea021bc4332f6cbfc2b4cc"
+    },
+    {
+      "url": "/evidence/diverse/eyewear-product.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 42916,
+      "sha256": "798cb4c2c43ab061f304db7b0217dfb47efcfee248def5944a288b3802b740c1"
+    },
+    {
+      "url": "/portfolio/concept-city-culture.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 569718,
+      "sha256": "cc92973bd4cb5153ec3f794d8bd449a24316fa10638bd4683d644e822e8dc299"
+    },
+    {
+      "url": "/portfolio/site-soulreset.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1118406,
+      "sha256": "bb86e53a2a2a253849013165a77ae9582ab6d163189721558e362b8af6bd6a73"
+    },
+    {
+      "url": "/evidence/diverse/jonghae-home.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 878139,
+      "sha256": "6fc0fc960cc23953e153b3a1c3c7d955a89a514f32fc36cc51a7d94f474a6626"
+    },
+    {
+      "url": "/portfolio/concept-patient-guide.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 80357,
+      "sha256": "b488eb6b486dcbf13f93ad1ac60e64b3def17d0e8ed96c6b58263fef34a8be98"
+    },
+    {
+      "url": "/portfolio/saas-ea-editor.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 124525,
+      "sha256": "0a15326320faa97123112f7ef15b15b9646abb17d57655ad23ad0a4c71abe4c9"
+    },
+    {
+      "url": "/portfolio/saas-tesign-workflow.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 105721,
+      "sha256": "21aa172e52322ac83b381d7ad3c1085399c39776ee6af31c948e033c11b09dcc"
+    },
+    {
+      "url": "/evidence/diverse/ezylens-studio.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 132586,
+      "sha256": "137804853f2101917b600812f6fc323b67d7183beb4c1d66f2290af7f0aec3c5"
+    },
+    {
+      "url": "/evidence/diverse/botanic-skywalk.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 391616,
+      "sha256": "0d95296d0eb94d2d85ae8e4467f0bd66cde7f610014356de5a4a323ecd1a1713"
+    },
+    {
+      "url": "/evidence/diverse/beauty-ritual.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 108170,
+      "sha256": "a717a51a528e0c62524e27c5f8bd1447e92383bef832af63fe3794f48e88e994"
+    },
+    {
+      "url": "/evidence/allthecomm-inquiry.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 140584,
+      "sha256": "182b78b404053230b46d6ce8b8f8f475bc91765739a6aea4f83742d19a52eeab"
+    },
+    {
+      "url": "/evidence/diverse/botanic-garden.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 733924,
+      "sha256": "b524ea3dbb997e7d6e95769930f029660827f93a5cd7a4b5627e7f3ffa994068"
+    },
+    {
+      "url": "/evidence/diverse/place-soakru.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 245096,
+      "sha256": "ffe5da2949160a26edd945f6a86387398766a051dfd09b664383046c5c949310"
+    },
+    {
+      "url": "/portfolio/site-tesign-radar.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 89151,
+      "sha256": "2919513a1322bf1b59899696e31c11003ec57a3e40e8f415ea737c4437b8e8f7"
+    },
+    {
+      "url": "/portfolio/site-sojukdoo-commerce.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 730016,
+      "sha256": "b67adc5df1dea966ce73ea2098d372f144c59a3fc0f7c4c58387f83b4b06496f"
+    }
+  ]
+}

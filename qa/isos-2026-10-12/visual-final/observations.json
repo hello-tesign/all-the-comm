@@ -1,0 +1,851 @@
+{
+  "generated": "2026-10-12T13:43:05.900Z",
+  "records": [
+    {
+      "label": "about top",
+      "url": "http://127.0.0.1:4173/about/",
+      "scrollY": 0,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-symbol.svg",
+          "loaded": true,
+          "width": 245,
+          "height": 244,
+          "fit": "fill"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "about reading",
+      "url": "http://127.0.0.1:4173/about/",
+      "scrollY": 331,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-symbol.svg",
+          "loaded": true,
+          "width": 245,
+          "height": 244,
+          "fit": "fill"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "process top",
+      "url": "http://127.0.0.1:4173/process/",
+      "scrollY": 0,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeStep": "1",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": {
+        "top": 694.59375,
+        "bottom": 1311.59375,
+        "height": 617,
+        "position": "sticky",
+        "links": [
+          {
+            "text": "01분석",
+            "top": 1240.59375,
+            "bottom": 1311.59375,
+            "reachable": false,
+            "uncovered": false
+          },
+          {
+            "text": "02전략",
+            "top": 1240.59375,
+            "bottom": 1311.59375,
+            "reachable": false,
+            "uncovered": false
+          },
+          {
+            "text": "03실행",
+            "top": 1240.59375,
+            "bottom": 1311.59375,
+            "reachable": false,
+            "uncovered": false
+          },
+          {
+            "text": "04보고·개선",
+            "top": 1240.59375,
+            "bottom": 1311.59375,
+            "reachable": false,
+            "uncovered": false
+          }
+        ]
+      }
+    },
+    {
+      "label": "process step 1",
+      "url": "http://127.0.0.1:4173/process/",
+      "scrollY": 535,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeStep": "1",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": {
+        "top": 159.59375,
+        "bottom": 776.59375,
+        "height": 617,
+        "position": "sticky",
+        "links": [
+          {
+            "text": "01분석",
+            "top": 705.59375,
+            "bottom": 776.59375,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "02전략",
+            "top": 705.59375,
+            "bottom": 776.59375,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "03실행",
+            "top": 705.59375,
+            "bottom": 776.59375,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "04보고·개선",
+            "top": 705.59375,
+            "bottom": 776.59375,
+            "reachable": true,
+            "uncovered": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "process step 2",
+      "url": "http://127.0.0.1:4173/process/",
+      "scrollY": 1295,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeStep": "2",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": {
+        "top": 130,
+        "bottom": 747,
+        "height": 617,
+        "position": "sticky",
+        "links": [
+          {
+            "text": "01분석",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "02전략",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "03실행",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "04보고·개선",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "process step 3",
+      "url": "http://127.0.0.1:4173/process/",
+      "scrollY": 2055,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeStep": "3",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": {
+        "top": 130,
+        "bottom": 747,
+        "height": 617,
+        "position": "sticky",
+        "links": [
+          {
+            "text": "01분석",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "02전략",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "03실행",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "04보고·개선",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "process step 4",
+      "url": "http://127.0.0.1:4173/process/",
+      "scrollY": 2815,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeStep": "4",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": {
+        "top": 130,
+        "bottom": 747,
+        "height": 617,
+        "position": "sticky",
+        "links": [
+          {
+            "text": "01분석",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "02전략",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "03실행",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "04보고·개선",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "process nav click",
+      "url": "http://127.0.0.1:4173/process/#step-2",
+      "scrollY": 1215,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeStep": "2",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": {
+        "top": 130,
+        "bottom": 747,
+        "height": 617,
+        "position": "sticky",
+        "links": [
+          {
+            "text": "01분석",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "02전략",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "03실행",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "04보고·개선",
+            "top": 676,
+            "bottom": 747,
+            "reachable": true,
+            "uncovered": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "process short 700",
+      "url": "http://127.0.0.1:4173/process/#step-2",
+      "scrollY": 1067,
+      "viewport": [
+        1440,
+        700
+      ],
+      "width": 1440,
+      "activeStep": "2",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": {
+        "top": 130,
+        "bottom": 591,
+        "height": 461,
+        "position": "sticky",
+        "links": [
+          {
+            "text": "01분석",
+            "top": 520,
+            "bottom": 591,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "02전략",
+            "top": 520,
+            "bottom": 591,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "03실행",
+            "top": 520,
+            "bottom": 591,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "04보고·개선",
+            "top": 520,
+            "bottom": 591,
+            "reachable": true,
+            "uncovered": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "process short 600",
+      "url": "http://127.0.0.1:4173/process/#step-2",
+      "scrollY": 1062,
+      "viewport": [
+        1440,
+        600
+      ],
+      "width": 1440,
+      "activeStep": "2",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": {
+        "top": 130,
+        "bottom": 557,
+        "height": 427,
+        "position": "sticky",
+        "links": [
+          {
+            "text": "01분석",
+            "top": 486,
+            "bottom": 557,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "02전략",
+            "top": 486,
+            "bottom": 557,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "03실행",
+            "top": 486,
+            "bottom": 557,
+            "reachable": true,
+            "uncovered": true
+          },
+          {
+            "text": "04보고·개선",
+            "top": 486,
+            "bottom": 557,
+            "reachable": true,
+            "uncovered": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "team top",
+      "url": "http://127.0.0.1:4173/team/",
+      "scrollY": 0,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeRole": "전략·마케팅",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": null
+    },
+    {
+      "label": "team role 1",
+      "url": "http://127.0.0.1:4173/team/",
+      "scrollY": 841,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeRole": "전략·마케팅",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": null
+    },
+    {
+      "label": "team role 7",
+      "url": "http://127.0.0.1:4173/team/",
+      "scrollY": 841,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeRole": "인플루언서",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": null
+    },
+    {
+      "label": "team role 9",
+      "url": "http://127.0.0.1:4173/team/",
+      "scrollY": 841,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "activeRole": "언론홍보",
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": null
+    },
+    {
+      "label": "works top",
+      "url": "http://127.0.0.1:4173/works/",
+      "scrollY": 0,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": null
+    },
+    {
+      "label": "works projects heading",
+      "url": "http://127.0.0.1:4173/works/",
+      "scrollY": 1351,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-sojukdoo-commerce.png",
+          "loaded": true,
+          "width": 1310,
+          "height": 819,
+          "fit": "contain"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "works project 1",
+      "url": "http://127.0.0.1:4173/works/",
+      "scrollY": 1798,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-sojukdoo-commerce.png",
+          "loaded": true,
+          "width": 1310,
+          "height": 819,
+          "fit": "contain"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "works project 2",
+      "url": "http://127.0.0.1:4173/works/",
+      "scrollY": 2847,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "works project 3",
+      "url": "http://127.0.0.1:4173/works/",
+      "scrollY": 2847,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "home top",
+      "url": "http://127.0.0.1:4173/",
+      "scrollY": 0,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-symbol.svg",
+          "loaded": true,
+          "width": 511,
+          "height": 509,
+          "fit": "fill"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "home projects heading",
+      "url": "http://127.0.0.1:4173/",
+      "scrollY": 1881,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-sojukdoo-commerce.png",
+          "loaded": true,
+          "width": 1310,
+          "height": 819,
+          "fit": "contain"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "home project 1",
+      "url": "http://127.0.0.1:4173/",
+      "scrollY": 2174,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-sojukdoo-commerce.png",
+          "loaded": true,
+          "width": 1310,
+          "height": 819,
+          "fit": "contain"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "home project 2",
+      "url": "http://127.0.0.1:4173/",
+      "scrollY": 3222,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-horizontal-on-dark.svg",
+          "loaded": true,
+          "width": 130,
+          "height": 28,
+          "fit": "fill"
+        },
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-symbol.svg",
+          "loaded": true,
+          "width": 139,
+          "height": 139,
+          "fit": "fill"
+        },
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-symbol.svg",
+          "loaded": true,
+          "width": 44,
+          "height": 44,
+          "fit": "fill"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "home project 3",
+      "url": "http://127.0.0.1:4173/",
+      "scrollY": 3222,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+          "loaded": true,
+          "width": 636,
+          "height": 398,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-horizontal-on-dark.svg",
+          "loaded": true,
+          "width": 130,
+          "height": 28,
+          "fit": "fill"
+        },
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-symbol.svg",
+          "loaded": true,
+          "width": 139,
+          "height": 139,
+          "fit": "fill"
+        },
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-symbol.svg",
+          "loaded": true,
+          "width": 44,
+          "height": 44,
+          "fit": "fill"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "contact top",
+      "url": "http://127.0.0.1:4173/contact/",
+      "scrollY": 0,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-symbol.svg",
+          "loaded": true,
+          "width": 135,
+          "height": 135,
+          "fit": "fill"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "contact form",
+      "url": "http://127.0.0.1:4173/contact/",
+      "scrollY": 473,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand/logo-symbol.svg",
+          "loaded": true,
+          "width": 135,
+          "height": 135,
+          "fit": "fill"
+        }
+      ],
+      "stage": null
+    },
+    {
+      "label": "privacy top",
+      "url": "http://127.0.0.1:4173/privacy/",
+      "scrollY": 0,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": null
+    },
+    {
+      "label": "privacy reading",
+      "url": "http://127.0.0.1:4173/privacy/",
+      "scrollY": 266,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1440,
+      "sceneReady": "js isos-motion-enabled isos-story-enabled",
+      "images": [],
+      "stage": null
+    }
+  ],
+  "errors": [],
+  "blockedWrites": []
+}

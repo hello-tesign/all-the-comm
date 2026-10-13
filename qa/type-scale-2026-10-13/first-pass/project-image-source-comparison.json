@@ -1,0 +1,284 @@
+{
+  "reference": "Previous completed editorial QA public-project snapshot, before the typography-only change. The typography DOM baseline did not contain image URLs.",
+  "httpStatus": 200,
+  "projects": 14,
+  "identical": 14,
+  "comparisons": [
+    {
+      "slug": "soulreset",
+      "identical": true,
+      "before": {
+        "cover": "/portfolio/site-soulreset.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/portfolio/site-soulreset.png",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "sales-rehearsal",
+      "identical": true,
+      "before": {
+        "cover": "/evidence/expansion/book-part-opener.webp",
+        "gallery": [
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/991f0067-772a-4d29-959c-a6b50dc14ddc",
+            "alt": "세일즈 리허설의 파트 시작면",
+            "caption": "파트 시작면"
+          },
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/d842b039-2d42-47c6-8a27-6f044c3a5f5f",
+            "alt": "세일즈 리허설 본문의 실제 편집",
+            "caption": "본문 편집"
+          },
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/cc7c143a-35c7-459b-94a6-9a8bd5100dfc",
+            "alt": "세일즈 리허설의 상황 판단 도해",
+            "caption": "설명 도해"
+          },
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/1b940d42-f55f-4416-847c-5fdc58862417",
+            "alt": "세일즈 리허설의 실습 워크시트",
+            "caption": "실습 워크시트"
+          },
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/66df6042-cb03-43bf-a5a1-6f9d9756ba16",
+            "alt": "세일즈 리허설의 원본 표지",
+            "caption": "표지"
+          }
+        ]
+      },
+      "after": {
+        "cover": "/evidence/expansion/book-part-opener.webp",
+        "gallery": [
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/991f0067-772a-4d29-959c-a6b50dc14ddc",
+            "alt": "세일즈 리허설의 파트 시작면",
+            "caption": "파트 시작면"
+          },
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/d842b039-2d42-47c6-8a27-6f044c3a5f5f",
+            "alt": "세일즈 리허설 본문의 실제 편집",
+            "caption": "본문 편집"
+          },
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/cc7c143a-35c7-459b-94a6-9a8bd5100dfc",
+            "alt": "세일즈 리허설의 상황 판단 도해",
+            "caption": "설명 도해"
+          },
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/1b940d42-f55f-4416-847c-5fdc58862417",
+            "alt": "세일즈 리허설의 실습 워크시트",
+            "caption": "실습 워크시트"
+          },
+          {
+            "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/66df6042-cb03-43bf-a5a1-6f9d9756ba16",
+            "alt": "세일즈 리허설의 원본 표지",
+            "caption": "표지"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "jonghae-community",
+      "identical": true,
+      "before": {
+        "cover": "/evidence/diverse/jonghae-home.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/evidence/diverse/jonghae-home.png",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "kings-franchise",
+      "identical": true,
+      "before": {
+        "cover": "/evidence/expansion/kings-home.png",
+        "gallery": [
+          {
+            "url": "/media/projects/303a13b8-9792-41dd-b135-01f6dc9324d6/22956875-0c5b-4592-b776-1112498f3aec",
+            "alt": "킹스 사라다의 메뉴 사진과 설명을 담은 웹 화면",
+            "caption": "메뉴 구성과 특징"
+          }
+        ]
+      },
+      "after": {
+        "cover": "/evidence/expansion/kings-home.png",
+        "gallery": [
+          {
+            "url": "/media/projects/303a13b8-9792-41dd-b135-01f6dc9324d6/22956875-0c5b-4592-b776-1112498f3aec",
+            "alt": "킹스 사라다의 메뉴 사진과 설명을 담은 웹 화면",
+            "caption": "메뉴 구성과 특징"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sojukdoo-concept",
+      "identical": true,
+      "before": {
+        "cover": "/evidence/expansion/redbean-home.png",
+        "gallery": [
+          {
+            "url": "/media/projects/147df535-8d41-4074-84f6-908dd81a7d1c/2e03ab6b-df53-41bd-900b-095a70ab70d6",
+            "alt": "소적두 팥 한 상자 선물 패키지·커머스 콘셉트",
+            "caption": "같은 브랜드의 선물 패키지 방향. 제품과 패키지는 개발 콘셉트입니다."
+          },
+          {
+            "url": "/media/projects/147df535-8d41-4074-84f6-908dd81a7d1c/e53d8684-b956-4a24-b51b-ded36e30b429",
+            "alt": "소적두의 제품 분류와 탐색 화면",
+            "caption": "제품 분류와 탐색"
+          },
+          {
+            "url": "/media/projects/147df535-8d41-4074-84f6-908dd81a7d1c/bd97a4ff-8b06-4d43-a78d-7510540f856c",
+            "alt": "소적두의 고객 유형별 상품 제안 화면",
+            "caption": "고객 유형별 탐색"
+          }
+        ]
+      },
+      "after": {
+        "cover": "/evidence/expansion/redbean-home.png",
+        "gallery": [
+          {
+            "url": "/media/projects/147df535-8d41-4074-84f6-908dd81a7d1c/2e03ab6b-df53-41bd-900b-095a70ab70d6",
+            "alt": "소적두 팥 한 상자 선물 패키지·커머스 콘셉트",
+            "caption": "같은 브랜드의 선물 패키지 방향. 제품과 패키지는 개발 콘셉트입니다."
+          },
+          {
+            "url": "/media/projects/147df535-8d41-4074-84f6-908dd81a7d1c/e53d8684-b956-4a24-b51b-ded36e30b429",
+            "alt": "소적두의 제품 분류와 탐색 화면",
+            "caption": "제품 분류와 탐색"
+          },
+          {
+            "url": "/media/projects/147df535-8d41-4074-84f6-908dd81a7d1c/bd97a4ff-8b06-4d43-a78d-7510540f856c",
+            "alt": "소적두의 고객 유형별 상품 제안 화면",
+            "caption": "고객 유형별 탐색"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ezylens-studio",
+      "identical": true,
+      "before": {
+        "cover": "/evidence/diverse/ezylens-studio.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/evidence/diverse/ezylens-studio.png",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "content-operations",
+      "identical": true,
+      "before": {
+        "cover": "/evidence/expansion/operations-dashboard.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/evidence/expansion/operations-dashboard.png",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "kfood-dashboard",
+      "identical": true,
+      "before": {
+        "cover": "/evidence/expansion/kfood-dashboard.png",
+        "gallery": [
+          {
+            "url": "/media/projects/aba496c2-e680-4af0-a546-3d0d66152c96/78ea65dd-d764-4cb9-b207-d1ab9e0d46c1",
+            "alt": "먹거리사전의 산지 지도 화면",
+            "caption": "산지 지도 · 개발 MVP"
+          }
+        ]
+      },
+      "after": {
+        "cover": "/evidence/expansion/kfood-dashboard.png",
+        "gallery": [
+          {
+            "url": "/media/projects/aba496c2-e680-4af0-a546-3d0d66152c96/78ea65dd-d764-4cb9-b207-d1ab9e0d46c1",
+            "alt": "먹거리사전의 산지 지도 화면",
+            "caption": "산지 지도 · 개발 MVP"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "review-atelier",
+      "identical": true,
+      "before": {
+        "cover": "/portfolio/saas-ea-editor.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/portfolio/saas-ea-editor.png",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "tesign-radar",
+      "identical": true,
+      "before": {
+        "cover": "/portfolio/site-tesign-radar.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/portfolio/site-tesign-radar.png",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "tesign-workflow",
+      "identical": true,
+      "before": {
+        "cover": "/portfolio/saas-tesign-workflow.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/portfolio/saas-tesign-workflow.png",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "patient-guide",
+      "identical": true,
+      "before": {
+        "cover": "/portfolio/concept-patient-guide.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/portfolio/concept-patient-guide.png",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "city-culture",
+      "identical": true,
+      "before": {
+        "cover": "/portfolio/concept-city-culture.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/portfolio/concept-city-culture.png",
+        "gallery": []
+      }
+    },
+    {
+      "slug": "all-the-comm",
+      "identical": true,
+      "before": {
+        "cover": "/evidence/allthecomm-inquiry.png",
+        "gallery": []
+      },
+      "after": {
+        "cover": "/evidence/allthecomm-inquiry.png",
+        "gallery": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+/* Motion is opt-in. Static, mobile and reduced-motion pages stay fully visible. */
+@media (min-width: 1060px) and (prefers-reduced-motion: no-preference) {
+  html[lang="ko"] .portfolio-reading-progress {
+    position: fixed;
+    inset: 0 0 auto;
+    height: 3px;
+    z-index: 130;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 240ms ease;
+  }
+  html[lang="ko"] .portfolio-reading-progress.is-reading { opacity: 1; }
+  html[lang="ko"] .portfolio-reading-progress i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #59e3c6, #c9f2ef);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+  }
+  html[lang="ko"] .portfolio-motion-ready.is-portfolio-entering > .project-visual,
+  html[lang="ko"] .portfolio-motion-ready.is-portfolio-entering > .capture-open {
+    will-change: transform, clip-path;
+  }
+  html[lang="ko"] .portfolio-piece.portfolio-motion-ready .project-open {
+    width: 60px;
+    height: 60px;
+    border: 1px solid currentColor;
+    color: #f5fbf7;
+    background: #061c25c7;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 0 1px #061c251a;
+    transition: color 240ms ease, background-color 240ms ease;
+  }
+  html[lang="ko"] .portfolio-piece.portfolio-motion-ready .project-visual:hover .project-open {
+    transform: none;
+    background: #59e3c6;
+    color: #061c25;
+  }
+  html[lang="ko"] .portfolio-piece.portfolio-motion-ready .project-visual:focus-visible .project-open {
+    background: #59e3c6;
+    color: #061c25;
+  }
+}

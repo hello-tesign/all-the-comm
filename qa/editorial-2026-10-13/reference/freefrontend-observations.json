@@ -1,0 +1,197 @@
+{
+  "url": "https://freefrontend.com/",
+  "title": "FreeFrontend",
+  "bodyBackground": "rgb(250, 250, 250)",
+  "bodyText": "rgb(10, 10, 10)",
+  "bodyFont": "Inter, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", system-ui, sans-serif",
+  "text": "FreeFrontend.\nHTML\nCSS\nJS\nBootstrap\nTailwind\nGenerator\n// FEED\nLatest Examples\n52 cards\n[\nPREVIEW\n]\nSVG\n·\nHTML\n·\nCSS\n·\n~6.5 KB\nCSS Luminous Glowing Orb Buttons\n\nThe spherical volume of these orbs is sculpted through radial gradients and triple-pass box-shadow halos tied to a custom --glow-color variable. Each button executes bespoke vector kinematics: the plus rotates 180°, the export arrow cycles diagonally via @keyframes arrowFly, and the checkmark draws via stroke-dashoffset. On hover, a skewed glint sweeps across the orb while the label glides outward, transitioning filter: blur(0px).\n\nby\ns\nsanthosh_2608\n6\nDEMO\n01\n[\nPREVIEW\n]\nHTML\n·\nCSS\n·\n~5.7 KB\nCSS Skeuomorphic Steampunk Push Button\n\nThe button constructs a 7-tier skeuomorphic stack: outer chassis, brushed bronze bezel, dark bottle-glass lens, wire mesh, glowing filament, and specular glare. The bronze frame uses a 135° linear gradient with 4-way inset box-shadow passes to carve physical chamfers. An internal .amber-glow powered by mix-blend-mode: color-dodge pulses on hover, while active clicks ignite a white-hot core with mechanical tactile depression.\n\nby\nAlexander-Cidbal\n2\nDEMO\n02\n[\nPREVIEW\n]\nHTML\n·\nCSS\n·\nJAVASCRIPT\n·\n~5.0 KB\nFrosted Glass Parallax Button in CSS\n\nThe architecture splits the button into two physical planes: a floating glass span faceplate and an underlying ::after substrate. JavaScript captures cursor coordinates to feed --_x-motion and --_y-motion variables into CSS, driving an inverse parallax shift on the substrate via the enter keyframe. The realistic frosted glass aesthetic combines dynamic backdrop-filter: blur() with an embedded SVG feTurbulence fractal noise map.\n\nby\nKevin Powell\n2\nDEMO\n03\n[\nPREVIEW\n]\nHTML\n·\nCSS\n·\n~3.3 KB\nGlowing Neon Glassmorphism Buttons in CSS\n\nThe frosted glass aesthetic is built using backdrop-filter: blur(15px) paired with a translucent white fill and delicate boundary borders. Dynamic illumination radiates from behind via ::before and ::after neon tabs: upon hover, these backplates expand to 80% width, diffusing multi-tiered box-shadow glows through the glass layer. The interaction is completed by a skewed skewX(45deg) glint sweeping across the pill face.",
+  "images": [
+    {
+      "alt": "Stack of spherical glowing orb buttons in CSS and SVG featuring bespoke vector micro-interactions and sliding unblurred labels.",
+      "size": [
+        334,
+        208.75
+      ],
+      "natural": [
+        1280,
+        720
+      ],
+      "parent": "DIV.card-media-wrapper",
+      "radius": "20px 20px 0px 0px",
+      "background": "rgb(240, 240, 243)"
+    },
+    {
+      "alt": "Skeuomorphic steampunk button in CSS with brushed bronze bezel, dark bottle-glass lens, and pulsating amber filament glow.",
+      "size": [
+        334,
+        208.75
+      ],
+      "natural": [
+        1280,
+        720
+      ],
+      "parent": "DIV.card-media-wrapper",
+      "radius": "20px 20px 0px 0px",
+      "background": "rgb(240, 240, 243)"
+    },
+    {
+      "alt": "Frosted glassmorphism button featuring mouse-tracking parallax depth, noise texture, and backdrop blur in CSS and JavaScript.",
+      "size": [
+        334,
+        208.75
+      ],
+      "natural": [
+        1280,
+        720
+      ],
+      "parent": "DIV.card-media-wrapper",
+      "radius": "20px 20px 0px 0px",
+      "background": "rgb(240, 240, 243)"
+    },
+    {
+      "alt": "Glassmorphism pill buttons in CSS with frosted glass blur, diagonal light sweep, and expandable neon backplate glows.",
+      "size": [
+        334,
+        208.75
+      ],
+      "natural": [
+        1280,
+        720
+      ],
+      "parent": "DIV.card-media-wrapper",
+      "radius": "20px 20px 0px 0px",
+      "background": "rgb(240, 240, 243)"
+    },
+    {
+      "alt": "Liquid glass lens pill button in CSS with refractive bevel shadows, contrast layer, and circular SVG icon button.",
+      "size": [
+        334,
+        208.75
+      ],
+      "natural": [
+        1280,
+        720
+      ],
+      "parent": "DIV.card-media-wrapper",
+      "radius": "20px 20px 0px 0px",
+      "background": "rgb(240, 240, 243)"
+    },
+    {
+      "alt": "Vector design tool bounding box button in CSS with corner resize handles, iris collapse animation, and text reveal.",
+      "size": [
+        334,
+        208.75
+      ],
+      "natural": [
+        1280,
+        720
+      ],
+      "parent": "DIV.card-media-wrapper",
+      "radius": "20px 20px 0px 0px",
+      "background": "rgb(240, 240, 243)"
+    },
+    {
+      "alt": "Pure CSS animated heart like button toggled via checkbox with pop scale and radial burst particles.",
+      "size": [
+        334,
+        208.75
+      ],
+      "natural": [
+        1280,
+        720
+      ],
+      "parent": "DIV.card-media-wrapper",
+      "radius": "20px 20px 0px 0px",
+      "background": "rgb(240, 240, 243)"
+    },
+    {
+      "alt": "Split counter like button in CSS with inverted color hover states and vertical number sliding animations.",
+      "size": [
+        334,
+        208.75
+      ],
+      "natural": [
+        1280,
+        720
+      ],
+      "parent": "DIV.card-media-wrapper",
+      "radius": "20px 20px 0px 0px",
+      "background": "rgb(240, 240, 243)"
+    }
+  ],
+  "headings": [
+    {
+      "text": "Latest Examples",
+      "font": "24px",
+      "weight": "700",
+      "lineHeight": "27.6px"
+    },
+    {
+      "text": "CSS Luminous Glowing Orb Buttons",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "CSS Skeuomorphic Steampunk Push Button",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "Frosted Glass Parallax Button in CSS",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "Glowing Neon Glassmorphism Buttons in CSS",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "Liquid Glass Lens Button in CSS SVG",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "Vector Bounding Box Button in CSS",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "Bursting Heart Like Checkbox in CSS SVG",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "CSS Split Counter Like Button",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "Rolling Counter Like Button in CSS SVG",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "Wild West Shimmer Button in CSS",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    },
+    {
+      "text": "Interactive Pac-Man Arcade Button in CSS",
+      "font": "17px",
+      "weight": "600",
+      "lineHeight": "22.1px"
+    }
+  ],
+  "status": 200
+}

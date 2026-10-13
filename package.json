@@ -1,0 +1,37 @@
+{
+  "name": "all-the-comm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/server.mjs",
+    "start": "node scripts/server.mjs",
+    "test": "node tests/renewal.cjs",
+    "test:server": "node tests/server-api.cjs && node tests/server-admin.cjs",
+    "test:motion": "node tests/motion.cjs",
+    "test:portfolio": "node tests/portfolio.cjs",
+    "test:isos": "node tests/isos.cjs",
+    "test:isos:polish": "node tests/isos-polish.cjs",
+    "test:evidence": "node qa/evidence-2026-10-12/ui-test.cjs",
+    "test:diversity": "node qa/diversity-2026-10-13/check.cjs",
+    "test:refinement": "node qa/refinement-2026-10-13/check.cjs",
+    "test:depth": "node qa/site-depth-2026-10-13/check.cjs && node qa/site-depth-2026-10-13/summarize.cjs",
+    "test:editorial": "node qa/editorial-2026-10-13/check.cjs",
+    "portfolio:import": "node scripts/import-portfolio.mjs",
+    "test:glass": "node tests/refinements.cjs",
+    "export:social": "node scripts/export-media.cjs"
+  },
+  "devDependencies": {
+    "hyperframes": "^0.8.149",
+    "playwright": "1.62.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "gsap": "^3.15.0",
+    "three": "^0.186.1"
+  }
+}

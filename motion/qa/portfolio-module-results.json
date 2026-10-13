@@ -1,0 +1,67 @@
+{
+  "source": "isolated fixture; actual integration pending",
+  "results": [
+    {
+      "name": "KO desktop binds",
+      "pass": true
+    },
+    {
+      "name": "below-fold content visible by default",
+      "pass": true
+    },
+    {
+      "name": "captured interface preserves ratio and no transform",
+      "pass": true
+    },
+    {
+      "name": "magnetic arrow reacts",
+      "pass": true,
+      "data": "matrix(1, 0, 0, 1, 6.5214, 5.6598)"
+    },
+    {
+      "name": "reading line advances",
+      "pass": true
+    },
+    {
+      "name": "filter rebind has one progress bar",
+      "pass": true
+    },
+    {
+      "name": "reduced motion removes enhancement",
+      "pass": true
+    },
+    {
+      "name": "motion preference resumes",
+      "pass": true
+    },
+    {
+      "name": "mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "EN untouched",
+      "pass": true
+    },
+    {
+      "name": "case cover and gallery bind",
+      "pass": true
+    },
+    {
+      "name": "hidden tab freezes scene",
+      "pass": true
+    },
+    {
+      "name": "visible tab finishes scene",
+      "pass": true
+    },
+    {
+      "name": "cleanup is complete and idempotent",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true,
+      "data": []
+    }
+  ]
+}

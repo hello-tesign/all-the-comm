@@ -1,0 +1,15 @@
+// Company-level healthcare experience: supplied S04 P213–214 and S03 P049/P055.
+// The archived partner names do not establish current contracts or campaign results.
+const partners=['강남더블유안과','리드힐','리샘','새빛','참진한의원','함소아의원'];
+
+export function healthcareHome(){
+ return `<section class="healthcare-home" aria-labelledby="healthcare-home-title"><div class="shell healthcare-home-inner"><div><p class="healthcare-kicker">의료 커뮤니케이션</p><h2 id="healthcare-home-title">의료를 이해하는 경험,<br>홍보를 실행하는 힘.</h2></div><div class="healthcare-home-copy"><p>의학 취재와 병원 홍보 실무의 경험.<br>질환 콘텐츠와 의료진 인터뷰부터<br>언론 소통과 채널 운영까지 연결합니다.</p><a class="text-link" href="/about/#healthcare-expertise">의료 분야의 강점 살펴보기 <span aria-hidden="true">↗</span></a></div></div></section>`;
+}
+
+export function healthcareAbout(){
+ return `<section class="healthcare-about" id="healthcare-expertise" aria-labelledby="healthcare-about-title"><div class="shell"><div class="healthcare-about-heading"><div><p class="healthcare-kicker">의료 커뮤니케이션의 전문 배경</p><h2 id="healthcare-about-title">의학전문기자와<br>병원 홍보팀장<br><em>출신의 경험.</em></h2></div><div class="healthcare-about-intro"><p class="healthcare-lead">의료 현장을 취재하는 시선과<br>병원 안에서 홍보를 운영하는 시선을<br>함께 갖고 있습니다.</p><p>병원의 진료 철학, 의료진의 전문성, 환자가 궁금해하는 내용을 먼저 이해합니다. 그 이해를 바탕으로 병원의 외부 홍보팀 역할을 수행합니다.</p><p>질환 콘텐츠와 의료진 인터뷰, 언론홍보와 공식 채널 운영을 연결하고, 광고의 실행과 보고까지 이어갑니다.</p></div></div><div class="healthcare-disciplines"><div><h3>의료 정보를<br>읽히는 콘텐츠로.</h3><p>진료 분야별 홍보 방향을 세우고 질환·치료 정보를 환자가 이해할 순서로 정리합니다. 홈페이지와 블로그, SNS의 역할에 맞게 콘텐츠를 기획합니다.</p><span>진료 분야 전략 · 질환 콘텐츠 · 공식 채널</span></div><div><h3>의료진의 전문성을<br>구체적인 설명으로.</h3><p>인터뷰의 질문과 영상 구성을 준비해 의료진이 전할 핵심을 선명하게 만듭니다. 병원의 설명과 환자의 정보 요구가 만나는 지점을 찾습니다.</p><span>의료진 인터뷰 · 영상 기획 · 콘텐츠 제작</span></div><div><h3>알려야 할 소식을<br>지속적인 홍보로.</h3><p>보도자료와 미디어 대응, 의학전문 기자간담회를 기획합니다. 온라인·지역 광고와 홍보 일정을 관리하고 진행 내용과 결과를 정기적으로 보고합니다.</p><span>병원 PR · 기자간담회 · 광고 운영·보고</span></div></div><div class="healthcare-partners"><div class="healthcare-partners-caption"><h3>소개해 온 의료 분야 파트너</h3><p>기존 홈페이지의 파트너 소개에서</p></div><ul aria-label="기존 홈페이지에 소개된 의료 분야 파트너">${partners.map(name=>`<li>${name}</li>`).join('')}</ul></div><a class="text-link healthcare-about-link" href="/works/#hospital">함께할 수 있는 업무 살펴보기 <span aria-hidden="true">↗</span></a></div></section>`;
+}
+
+export function healthcareService(){
+ return `<div class="healthcare-service" aria-labelledby="healthcare-service-title"><div class="healthcare-brief-top"><p>의료진 인터뷰 질문지</p><span>기획 구성 예시</span></div><h3 id="healthcare-service-title">환자에게 먼저<br>설명해야 할 것은?</h3><p class="healthcare-brief-intro">의료진의 전문성을 환자가 이해할 수 있는 설명으로 옮기기 위해, 인터뷰는 구체적인 질문에서 시작합니다.</p><dl class="healthcare-interview"><div><dt>환자의 질문</dt><dd>진료실에서 환자들이<br>가장 자주 묻는 질문은 무엇인가요?</dd></div><div><dt>설명의 핵심</dt><dd>검사와 치료를 설명할 때<br>꼭 짚어야 하는 내용은 무엇인가요?</dd></div><div><dt>이해의 출발점</dt><dd>상담 전에 알면<br>이해에 도움이 되는 정보는 무엇인가요?</dd></div></dl><div class="healthcare-brief-output"><h4>한 번의 인터뷰에서, 여러 접점으로.</h4><p>핵심 설명은 질환 콘텐츠로, 병원의 주요 소식은 보도자료로. 채널의 목적에 맞춰 원고와 영상의 구성을 나눕니다.</p><ul aria-label="인터뷰 이후 구성할 콘텐츠"><li>질환 콘텐츠</li><li>의료진 영상</li><li>보도자료</li><li>공식 채널</li></ul></div></div>`;
+}

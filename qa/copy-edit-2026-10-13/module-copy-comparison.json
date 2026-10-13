@@ -1,0 +1,211 @@
+{
+  "scope": "Three source modules only; all exported HTML functions counted once; rendered text including headings/captions/list labels, excluding attributes and tags; whitespace normalized; no build or browser validation.",
+  "beforeChars": 5677,
+  "afterChars": 3966,
+  "reductionPercent": 30.14,
+  "reports": [
+    {
+      "file": "about-process.mjs",
+      "function": "aboutProof",
+      "beforeChars": 767,
+      "afterChars": 489,
+      "reductionPercent": 36.25,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true,
+        "sections": true,
+        "faqs": true,
+        "roles": true
+      },
+      "beforeRepeated": {
+        "함께": 3,
+        "연결": 0,
+        "읽히": 1,
+        "다음 행동": 1,
+        "살펴": 2
+      },
+      "afterRepeated": {
+        "함께": 0,
+        "연결": 0,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 0
+      }
+    },
+    {
+      "file": "about-process.mjs",
+      "function": "processDepth",
+      "beforeChars": 1344,
+      "afterChars": 946,
+      "reductionPercent": 29.61,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true,
+        "sections": true,
+        "faqs": true,
+        "roles": true
+      },
+      "beforeRepeated": {
+        "함께": 8,
+        "연결": 1,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 3
+      },
+      "afterRepeated": {
+        "함께": 0,
+        "연결": 0,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 0
+      }
+    },
+    {
+      "file": "team-contact.mjs",
+      "function": "contactGuide",
+      "beforeChars": 1354,
+      "afterChars": 1002,
+      "reductionPercent": 26,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true,
+        "sections": true,
+        "faqs": true,
+        "roles": true
+      },
+      "beforeRepeated": {
+        "함께": 6,
+        "연결": 2,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 0
+      },
+      "afterRepeated": {
+        "함께": 0,
+        "연결": 0,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 0
+      }
+    },
+    {
+      "file": "team-contact.mjs",
+      "function": "teamProof",
+      "beforeChars": 1096,
+      "afterChars": 704,
+      "reductionPercent": 35.77,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true,
+        "sections": true,
+        "faqs": true,
+        "roles": true
+      },
+      "beforeRepeated": {
+        "함께": 7,
+        "연결": 1,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 3
+      },
+      "afterRepeated": {
+        "함께": 0,
+        "연결": 0,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 0
+      }
+    },
+    {
+      "file": "healthcare.mjs",
+      "function": "healthcareAbout",
+      "beforeChars": 680,
+      "afterChars": 503,
+      "reductionPercent": 26.03,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true,
+        "sections": true,
+        "faqs": true,
+        "roles": true
+      },
+      "beforeRepeated": {
+        "함께": 2,
+        "연결": 1,
+        "읽히": 1,
+        "다음 행동": 0,
+        "살펴": 1
+      },
+      "afterRepeated": {
+        "함께": 0,
+        "연결": 0,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 0
+      }
+    },
+    {
+      "file": "healthcare.mjs",
+      "function": "healthcareHome",
+      "beforeChars": 112,
+      "afterChars": 76,
+      "reductionPercent": 32.14,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true,
+        "sections": true,
+        "faqs": true,
+        "roles": true
+      },
+      "beforeRepeated": {
+        "함께": 0,
+        "연결": 1,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 1
+      },
+      "afterRepeated": {
+        "함께": 0,
+        "연결": 0,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 0
+      }
+    },
+    {
+      "file": "healthcare.mjs",
+      "function": "healthcareService",
+      "beforeChars": 324,
+      "afterChars": 246,
+      "reductionPercent": 24.07,
+      "preservation": {
+        "ids": true,
+        "hrefs": true,
+        "images": true,
+        "sections": true,
+        "faqs": true,
+        "roles": true
+      },
+      "beforeRepeated": {
+        "함께": 0,
+        "연결": 0,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 0
+      },
+      "afterRepeated": {
+        "함께": 0,
+        "연결": 0,
+        "읽히": 0,
+        "다음 행동": 0,
+        "살펴": 0
+      }
+    }
+  ]
+}

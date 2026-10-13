@@ -1,0 +1,74 @@
+/* Editorial depth for the Korean TEAM and CONTACT pages. */
+:is(.team-proof,.contact-guide){padding-block:96px;background:var(--paper);color:var(--text)}
+:is(.team-proof,.contact-guide) figure{margin:0}
+:is(.team-proof,.contact-guide) .depth-heading{display:grid;grid-template-columns:1.15fr 1fr;gap:64px;align-items:end;margin-bottom:64px}
+:is(.team-proof,.contact-guide) .depth-heading .eyebrow{color:var(--muted);margin-bottom:24px}
+:is(.team-proof,.contact-guide) .depth-heading h2{font-size:clamp(38px,4.1vw,60px);line-height:1.23}
+:is(.team-proof,.contact-guide) .depth-heading>p{font-size:17px;line-height:1.65;color:var(--muted);max-width:480px}
+:is(.team-proof,.contact-guide) .depth-kicker{font-size:12px;letter-spacing:.035em;color:#306a59;margin-bottom:16px}
+:is(.team-proof,.contact-guide) h3{font-size:clamp(28px,2.75vw,41px);font-weight:620;line-height:1.35;letter-spacing:-.045em}
+:is(.team-proof,.contact-guide) .depth-case-link{display:inline-flex;align-items:center;min-height:48px;padding-block:8px;margin-top:16px;font-size:14px;font-weight:650;border-bottom:1px solid currentColor;line-height:1.5;text-decoration:none;transition:color .2s}
+:is(.team-proof,.contact-guide) .depth-case-link:hover{color:#20725a}
+:is(.team-proof,.contact-guide) .depth-deliverable{font-size:14px;line-height:1.65;color:var(--muted)}
+:is(.team-proof,.contact-guide) .depth-deliverable strong{display:block;color:var(--text);font-size:12px;font-weight:650;margin-bottom:8px}
+.team-spread{display:grid;gap:64px;align-items:center;padding-block:0 80px}
+.team-spread-book{grid-template-columns:1fr 1fr}
+.team-proof-image>a{display:block}
+.team-proof-image img{width:100%;height:auto}
+.team-proof-image figcaption{font-size:12px;line-height:1.65;color:var(--muted);padding-top:16px}
+.team-proof-page>a{padding:32px;background:#e4e8df;display:flex;justify-content:center}
+.team-proof-page img{width:auto;max-width:100%;height:auto;max-height:600px;object-fit:contain}
+.team-proof-copy>p:not(.depth-kicker){font-size:16px;line-height:1.65;color:var(--muted);margin-top:24px}
+.team-role-notes{margin:24px 0 0}
+.team-role-notes>div{display:grid;grid-template-columns:112px 1fr;gap:16px;padding-block:16px;border-top:1px solid var(--line)}
+.team-role-notes dt{font-size:13px;font-weight:650;line-height:1.65}
+.team-role-notes dd{margin:0;font-size:15px;line-height:1.65;color:var(--muted);word-break:keep-all}
+.team-spread-web{grid-template-columns:.85fr 1.15fr;border-top:1px solid var(--line);padding-top:64px;align-items:start}
+.team-spread-web .team-proof-screen{margin-top:8px}
+.team-spread-web .team-role-notes>div{grid-template-columns:96px 1fr;gap:16px}
+.team-spread-web .team-role-notes{margin-top:24px}
+.team-collaboration{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;padding-top:48px;border-top:1px solid var(--line)}
+.team-collaboration h3{font-size:32px}
+.team-collaboration p{font-size:17px;line-height:1.65;color:var(--muted);max-width:736px}
+.team-collaboration p+p{margin-top:16px}
+.contact-guide{padding-top:96px;border-top:1px solid var(--line)}
+.contact-reference-spread{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+.contact-reference figure img{width:100%;height:auto}
+.contact-reference figcaption{font-size:12px;color:var(--muted);line-height:1.65;margin-top:16px}
+.contact-reference-copy{padding-top:32px}
+.contact-reference-copy h3{font-size:clamp(27px,2.65vw,38px)}
+.contact-reference-copy>p:not(.depth-kicker){font-size:16px;line-height:1.65;color:var(--muted);margin-top:24px;max-width:560px}
+.contact-reference-copy .depth-kicker{margin-bottom:16px}
+.contact-reference-copy .depth-deliverable{min-height:80px}
+.contact-brief{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;padding-block:64px;margin-top:80px;border-block:1px solid var(--line)}
+.contact-brief .eyebrow,.contact-faq .eyebrow{color:var(--muted);margin-bottom:24px}
+.contact-brief h3,.contact-faq h3{font-size:32px}
+.contact-brief>div>p:last-child{font-size:16px;line-height:1.65;color:var(--muted);margin-top:24px}
+.contact-brief dl{margin:0}
+.contact-brief dl>div{display:grid;grid-template-columns:152px 1fr;gap:24px;padding-block:16px;border-bottom:1px solid var(--line)}
+.contact-brief dl>div:first-child{padding-top:0}
+.contact-brief dl>div:last-child{border-bottom:0;padding-bottom:0}
+.contact-brief dt{font-size:15px;font-weight:650;line-height:1.65}
+.contact-brief dd{margin:0;font-size:16px;line-height:1.65;color:var(--muted);word-break:keep-all}
+.contact-faq{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;padding-top:64px}
+.contact-faq details{padding-block:24px;border-bottom:1px solid var(--line)}
+.contact-faq details:first-child{padding-top:0}
+.contact-faq summary{cursor:pointer;font-size:17px;font-weight:600;line-height:1.65;word-break:keep-all;padding-right:8px}
+.contact-faq details p{font-size:16px;line-height:1.65;color:var(--muted);margin-top:16px;padding-left:16px}
+@media(min-width:1600px){.team-spread-book{gap:64px}.team-proof-page img{max-height:640px}.team-proof-copy>p:not(.depth-kicker),.team-role-notes dd{font-size:17px}}
+@media(max-width:1059px){
+ :is(.team-proof,.contact-guide){padding-block:80px}:is(.team-proof,.contact-guide) .depth-heading{gap:48px;margin-bottom:56px}:is(.team-proof,.contact-guide) .depth-heading>p{font-size:16px}:is(.team-proof,.contact-guide) .depth-heading>p br{display:none}
+ .team-spread{gap:48px;padding-bottom:64px}.team-proof-page>a{padding:24px}.team-role-notes>div,.team-spread-web .team-role-notes>div{grid-template-columns:1fr;gap:8px}.team-spread-web{padding-top:64px}
+ .team-collaboration{gap:48px;grid-template-columns:.8fr 1.2fr}.team-collaboration h3{font-size:28px}
+ .contact-reference-spread{gap:48px}.contact-reference-copy>p:not(.depth-kicker){font-size:16px}.contact-brief,.contact-faq{grid-template-columns:.8fr 1.2fr;gap:48px}.contact-brief dl>div{grid-template-columns:1fr;gap:8px}.contact-brief h3,.contact-faq h3{font-size:28px}
+}
+@media(max-width:760px){
+ :is(.team-proof,.contact-guide){padding-block:64px}:is(.team-proof,.contact-guide) .depth-heading{grid-template-columns:1fr;gap:24px;margin-bottom:40px}:is(.team-proof,.contact-guide) .depth-heading h2{font-size:36px}:is(.team-proof,.contact-guide) .depth-heading .eyebrow{margin-bottom:16px}:is(.team-proof,.contact-guide) .depth-heading>p{font-size:16px;max-width:480px}
+ .team-spread{grid-template-columns:1fr;gap:32px;padding-bottom:56px}.team-proof-page>a{padding:24px}.team-proof-page img{max-height:568px}.team-proof-image figcaption{font-size:12px;padding-top:16px}
+ .team-proof-copy h3{font-size:30px}.team-proof-copy>p:not(.depth-kicker){font-size:16px;margin-top:24px}.team-role-notes>div,.team-spread-web .team-role-notes>div{grid-template-columns:96px 1fr;gap:16px}.team-role-notes dd{font-size:14px}.team-spread-web{padding-top:48px}.team-spread-web .team-proof-screen{grid-row:1;margin-top:0}
+ .team-collaboration{grid-template-columns:1fr;gap:24px;padding-top:40px}.team-collaboration h3{font-size:28px}.team-collaboration p{font-size:16px}
+ .contact-reference-spread{grid-template-columns:1fr;gap:56px}.contact-reference-copy{padding-top:24px}.contact-reference-copy h3{font-size:30px}.contact-reference-copy>p:not(.depth-kicker){font-size:16px}.contact-reference-copy .depth-deliverable{min-height:0}
+ .contact-brief{grid-template-columns:1fr;gap:32px;padding-block:48px;margin-top:56px}.contact-brief h3,.contact-faq h3{font-size:28px}.contact-brief dl>div{grid-template-columns:1fr;gap:8px;padding-block:24px}.contact-brief dt{font-size:15px}.contact-brief dd{font-size:16px}
+ .contact-faq{grid-template-columns:1fr;gap:32px;padding-top:48px}.contact-faq summary{font-size:16px}.contact-faq details p{padding-left:0;font-size:16px}
+}
+@media(prefers-reduced-motion:reduce){:is(.team-proof,.contact-guide) .depth-case-link{transition:none}}

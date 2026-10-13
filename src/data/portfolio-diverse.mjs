@@ -1,0 +1,32 @@
+// Additional Korean work. Commission, campaign execution and performance are not implied.
+const base={year:'2026',status:'published',englishPublished:false,publicationConfirmed:true,publicationNote:'사용자 허용 범위의 제작자 프로젝트와 자체 제안 콘셉트. diversity-2026-10-13',videoUrls:[],gallery:[]};
+export const diversePortfolio=[
+ {...base,slug:'ezylens-studio',title:'EzyLens',client:'EzyLens Eyewear Studio',type:'UI/UX 설계 · 인터랙티브 시제품',industry:'아이웨어 · 커머스 UI/UX',featured:false,services:['it'],coverImage:'/evidence/diverse/ezylens-studio.png',
+  summary:'모델 탐색, 이미지 확대, 색상·규격 선택을 한 화면에.',
+  scope:'상품 탐색 · 제품 이미지 전환·확대 · 옵션 선택 · 모의 가방 · 반응형 UI',
+  problem:'제품의 형태와 옵션 차이를 살펴보며 선택할 수 있는 화면이 필요했습니다.',
+  strategy:'제품 이미지를 크게 두고 모델 탐색과 색상·규격 선택을 양옆에 배치했습니다.',
+  execution:'모델 탐색, 이미지 확대, 옵션 선택과 모의 가방을 구현하고 키보드·모바일 조작을 다뤘습니다.',
+  result:'상품 탐색부터 옵션 비교와 선택까지 이어지는 UI/UX 시제품을 제작했습니다.\n\n제작자 로컬 시제품이며 주문·결제·매출 결과를 뜻하지 않습니다. 화면의 상품 브랜드는 판매 후보 상품이며 해당 브랜드의 수주 실적을 의미하지 않습니다.'},
+ {...base,slug:'city-culture',title:'도시를 다시 보다',client:'도시 산책 전시 제안',type:'자체 제안 콘셉트',industry:'문화 · 전시 · 옥외 홍보',featured:true,services:['strategy','content','media'],coverImage:'/portfolio/concept-city-culture.png',
+  summary:'도시 산책을 주제로 메시지와 사진을 구성한 전시 포스터.',
+  scope:'캠페인 메시지 · 포스터 카피 · 시각 방향 · 공간 사진 편집',
+  problem:'짧게 스쳐 보는 사람에게 전시에서 경험할 내용을 전해야 했습니다.',
+  strategy:'‘도시를 다시 보다’라는 문장과 도시 공간 사진을 중심으로 구성했습니다.',
+  execution:'제목과 보조 카피를 쓰고, 출처가 확인된 사진으로 옥외 포스터 시안을 제작했습니다.',
+  result:'전시의 주제와 분위기를 담은 문화 홍보물 시안을 제작했습니다.\n\n가상 전시의 자체 콘셉트입니다. 실제 행사 개최·광고 집행·방문 성과가 아닙니다. 공간 사진의 원출처와 라이선스는 시안에 표기했습니다.'},
+ {...base,slug:'jonghae-community',title:'종해문화진흥원',client:'종해문화진흥원',type:'제작자 프로젝트',industry:'공익 · 문화·교육 · 기관 웹',featured:true,services:['content','digital','it'],coverImage:'/evidence/diverse/jonghae-home.png',
+  summary:'활동 기록과 기관 소개, 공개자료를 함께 담은 홈페이지.',
+  scope:'정보 구조 · 활동 스토리 편집 · 기관 웹 UI · 자료실 · 반응형 화면',
+  problem:'방문자가 기관의 역할과 활동을 이해하고 필요한 공개자료를 찾을 수 있어야 했습니다.',
+  strategy:'활동 사진을 중심에 두고 기관 소개, 문화 활동, 지역 연대와 자료 공개를 나눴습니다.',
+  execution:'사진 중심의 첫 화면, 활동 이야기, 자료실과 공개문서 접근 경로를 구현했습니다.',
+  result:'기관의 활동을 읽고 공개자료를 찾아보는 다중 페이지 홈페이지를 제작했습니다.\n\n2026.10.13 공개 웹 화면을 캡처했습니다. 후원 증가나 방문 전환 성과를 측정한 사례가 아닙니다.'},
+ {...base,slug:'patient-guide',title:'첫 방문 안내',client:'병원 방문 안내 제안',type:'자체 제안 콘셉트',industry:'의료 · 안내 콘텐츠 · 편집 디자인',featured:false,services:['hospital','content'],coverImage:'/portfolio/concept-patient-guide.png',
+  summary:'예약 확인부터 오시는 길, 접수 순서를 정리한 방문 안내물.',
+  scope:'안내 메시지 · 방문 흐름 · 리플릿 카피 · 정보 위계 · 편집 디자인',
+  problem:'처음 방문하는 환자에게 예약, 위치, 도착 후 순서를 안내할 필요가 있습니다.',
+  strategy:'‘방문 전 → 오시는 길 → 도착 후’의 시간 순서로 정보를 정리했습니다.',
+  execution:'예약 확인, 위치·주차, 접수 안내 문구를 작성하고 읽는 순서에 맞춰 편집했습니다.',
+  result:'환자가 방문 전에 확인할 내용을 담은 리플릿 시안을 제작했습니다.\n\n특정 의료기관의 수주 실적이 아닌 자체 제안 콘셉트입니다. 실제 적용 시 기관별 안내 내용 확인이 필요합니다.'}
+];

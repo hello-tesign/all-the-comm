@@ -1,0 +1,3 @@
+Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://freefrontend.com/
+Call log:
+[2m  - navigating to "https://freefrontend.com/", waiting until "domcontentloaded"[22m

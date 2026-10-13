@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "check": "GPU scene initializes",
+      "backend": "webgl"
+    },
+    {
+      "check": "Paused pixels remain unchanged after pointer movement",
+      "pass": true
+    },
+    {
+      "check": "User can pause and resume autonomous motion",
+      "pass": true
+    },
+    {
+      "check": "Motion preference changes apply without reloading",
+      "pass": true
+    },
+    {
+      "check": "Normal motion resumes when user preference changes back",
+      "pass": true
+    },
+    {
+      "check": "Context loss selects static fallback",
+      "pass": true
+    },
+    {
+      "check": "Context restoration recovers the scene",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

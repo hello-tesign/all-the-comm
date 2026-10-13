@@ -1,0 +1,214 @@
+{
+  "events": [
+    {
+      "kind": "response",
+      "status": 200,
+      "url": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png"
+    }
+  ],
+  "states": [
+    {
+      "label": "initial",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "complete": true,
+          "naturalWidth": 774,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 684.0999755859375,
+            "height": 560
+          }
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "",
+          "complete": false,
+          "naturalWidth": 0,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 2068.166748046875,
+            "height": 775.25
+          }
+        }
+      ]
+    },
+    {
+      "label": "scroll-0",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "complete": true,
+          "naturalWidth": 774,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 280.1000061035156,
+            "height": 560
+          }
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "",
+          "complete": false,
+          "naturalWidth": 0,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 1664.1666259765625,
+            "height": 775.25
+          }
+        }
+      ]
+    },
+    {
+      "label": "after100-0",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "complete": true,
+          "naturalWidth": 774,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 280.1000061035156,
+            "height": 560
+          }
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "",
+          "complete": false,
+          "naturalWidth": 0,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 1664.1666259765625,
+            "height": 775.25
+          }
+        }
+      ]
+    },
+    {
+      "label": "after2700-0",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "complete": true,
+          "naturalWidth": 774,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 280.1000061035156,
+            "height": 560
+          }
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "",
+          "complete": false,
+          "naturalWidth": 0,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 1664.1666259765625,
+            "height": 775.25
+          }
+        }
+      ]
+    },
+    {
+      "label": "scroll-1",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "complete": true,
+          "naturalWidth": 774,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": -1211.9000244140625,
+            "height": 560
+          }
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "",
+          "complete": false,
+          "naturalWidth": 0,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 172.1666717529297,
+            "height": 775.25
+          }
+        }
+      ]
+    },
+    {
+      "label": "after100-1",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "complete": true,
+          "naturalWidth": 774,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": -1211.9000244140625,
+            "height": 560
+          }
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "complete": true,
+          "naturalWidth": 774,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 172.1666717529297,
+            "height": 1716.36669921875
+          }
+        }
+      ]
+    },
+    {
+      "label": "after2700-1",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "complete": true,
+          "naturalWidth": 774,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": -1211.9000244140625,
+            "height": 560
+          }
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "currentSrc": "http://127.0.0.1:4173/evidence/allthecomm-inquiry.png",
+          "complete": true,
+          "naturalWidth": 774,
+          "loading": "lazy",
+          "visible": true,
+          "rect": {
+            "top": 172.1666717529297,
+            "height": 1716.36669921875
+          }
+        }
+      ]
+    }
+  ]
+}

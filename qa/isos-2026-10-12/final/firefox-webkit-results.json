@@ -1,0 +1,1471 @@
+{
+  "date": "2026-10-12T13:43:18.908Z",
+  "scope": "Korean PC 1440x1000, Chromium/Firefox/WebKit. Mobile and English exclusion only. GET-only UI checks; enquiries never submitted.",
+  "base": "http://127.0.0.1:4173",
+  "passed": 276,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "firefox home HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "firefox home original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox home original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox home desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "firefox home one global reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox home no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox home no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox home official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "firefox home separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox home heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "firefox home all three featured cards own portfolio motion",
+      "passed": true
+    },
+    {
+      "name": "firefox home services expected tab count",
+      "passed": true
+    },
+    {
+      "name": "firefox home services click selects exactly one matching visible panel",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "firefox home services arrow key moves selection and focus",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "firefox home services End selects last tab",
+      "passed": true
+    },
+    {
+      "name": "firefox home services Home restores first tab",
+      "passed": true
+    },
+    {
+      "name": "firefox home global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "firefox home no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "firefox about HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "firefox about original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox about original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox about desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "firefox about one global reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox about no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox about no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox about official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "firefox about separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox about heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "firefox about global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "firefox about no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "firefox process HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "firefox process original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox process original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox process desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "firefox process one global reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox process no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox process no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox process official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "firefox process separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox process heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "firefox process four original narrative chapters",
+      "passed": true
+    },
+    {
+      "name": "firefox process four accessible step links",
+      "passed": true
+    },
+    {
+      "name": "firefox process four art scenes in one sticky cinema",
+      "passed": true
+    },
+    {
+      "name": "firefox process process copy preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox process scroll activates step 1",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "marks": [
+          "01분석"
+        ]
+      }
+    },
+    {
+      "name": "firefox process scroll activates step 2",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "marks": [
+          "02전략"
+        ]
+      }
+    },
+    {
+      "name": "firefox process scroll activates step 3",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "marks": [
+          "03실행"
+        ]
+      }
+    },
+    {
+      "name": "firefox process scroll activates step 4",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "marks": [
+          "04보고·개선"
+        ]
+      }
+    },
+    {
+      "name": "firefox process cinema link navigates to step 2",
+      "passed": true
+    },
+    {
+      "name": "firefox process cinema remains pinned during native narrative scroll",
+      "passed": true,
+      "detail": {
+        "stickyTop": 130,
+        "movedTop": 130
+      }
+    },
+    {
+      "name": "firefox process live reduced motion removes both enhancements",
+      "passed": true
+    },
+    {
+      "name": "firefox process reduced motion restores original four art children",
+      "passed": true
+    },
+    {
+      "name": "firefox process reduced motion removes generated nav and reading lines",
+      "passed": true
+    },
+    {
+      "name": "firefox process reduced motion preserves original copy and title",
+      "passed": true
+    },
+    {
+      "name": "firefox process reduced motion unwraps title words",
+      "passed": true
+    },
+    {
+      "name": "firefox process restoring motion mounts exactly one cinema and line",
+      "passed": true
+    },
+    {
+      "name": "firefox process restoring motion preserves four chapters and four art scenes",
+      "passed": true
+    },
+    {
+      "name": "firefox process global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "firefox process no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "firefox team HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "firefox team original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox team original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox team desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "firefox team one global reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox team no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox team no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox team official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "firefox team separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox team heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "firefox team expected tab count",
+      "passed": true
+    },
+    {
+      "name": "firefox team click selects exactly one matching visible panel",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "firefox team arrow key moves selection and focus",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "firefox team End selects last tab",
+      "passed": true
+    },
+    {
+      "name": "firefox team Home restores first tab",
+      "passed": true
+    },
+    {
+      "name": "firefox team global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "firefox team no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "firefox works HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "firefox works original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox works original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox works desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "firefox works one global reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox works no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox works no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox works official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "firefox works separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox works heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "firefox works expected tab count",
+      "passed": true
+    },
+    {
+      "name": "firefox works click selects exactly one matching visible panel",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "firefox works arrow key moves selection and focus",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "firefox works End selects last tab",
+      "passed": true
+    },
+    {
+      "name": "firefox works Home restores first tab",
+      "passed": true
+    },
+    {
+      "name": "firefox works global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "firefox works no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "firefox contact HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "firefox contact original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox contact original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox contact desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "firefox contact one global reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox contact no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox contact no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox contact official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "firefox contact separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox contact heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "firefox contact input values remain after scrolling",
+      "passed": true
+    },
+    {
+      "name": "firefox contact multi-service selection remains intact",
+      "passed": true
+    },
+    {
+      "name": "firefox contact no false submitted state",
+      "passed": true
+    },
+    {
+      "name": "firefox contact global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "firefox contact no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy one global reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "firefox privacy separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "firefox privacy no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "firefox case HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "firefox case original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox case original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox case desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "firefox case one global reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox case no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "firefox case no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox case official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "firefox case separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox case heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "firefox case original capture images load after scrolling",
+      "passed": true
+    },
+    {
+      "name": "firefox case global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "firefox case no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "firefox mobile branch excludes desktop enhancements",
+      "passed": true
+    },
+    {
+      "name": "firefox mobile retains all four original process arts",
+      "passed": true
+    },
+    {
+      "name": "firefox English branch excludes Korean enhancements",
+      "passed": true
+    },
+    {
+      "name": "firefox English retains all four original process arts",
+      "passed": true
+    },
+    {
+      "name": "webkit home HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "webkit home original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit home original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit home desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "webkit home one global reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit home no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit home no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit home official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "webkit home separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit home heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "webkit home all three featured cards own portfolio motion",
+      "passed": true
+    },
+    {
+      "name": "webkit home services expected tab count",
+      "passed": true
+    },
+    {
+      "name": "webkit home services click selects exactly one matching visible panel",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "webkit home services arrow key moves selection and focus",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "webkit home services End selects last tab",
+      "passed": true
+    },
+    {
+      "name": "webkit home services Home restores first tab",
+      "passed": true
+    },
+    {
+      "name": "webkit home global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "webkit home no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "webkit about HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "webkit about original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit about original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit about desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "webkit about one global reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit about no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit about no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit about official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "webkit about separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit about heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "webkit about global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "webkit about no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "webkit process HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "webkit process original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit process original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit process desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "webkit process one global reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit process no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit process no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit process official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "webkit process separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit process heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "webkit process four original narrative chapters",
+      "passed": true
+    },
+    {
+      "name": "webkit process four accessible step links",
+      "passed": true
+    },
+    {
+      "name": "webkit process four art scenes in one sticky cinema",
+      "passed": true
+    },
+    {
+      "name": "webkit process process copy preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit process scroll activates step 1",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "marks": [
+          "01분석"
+        ]
+      }
+    },
+    {
+      "name": "webkit process scroll activates step 2",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "marks": [
+          "02전략"
+        ]
+      }
+    },
+    {
+      "name": "webkit process scroll activates step 3",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "marks": [
+          "03실행"
+        ]
+      }
+    },
+    {
+      "name": "webkit process scroll activates step 4",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "marks": [
+          "04보고·개선"
+        ]
+      }
+    },
+    {
+      "name": "webkit process cinema link navigates to step 2",
+      "passed": true
+    },
+    {
+      "name": "webkit process cinema remains pinned during native narrative scroll",
+      "passed": true,
+      "detail": {
+        "stickyTop": 130,
+        "movedTop": 130
+      }
+    },
+    {
+      "name": "webkit process live reduced motion removes both enhancements",
+      "passed": true
+    },
+    {
+      "name": "webkit process reduced motion restores original four art children",
+      "passed": true
+    },
+    {
+      "name": "webkit process reduced motion removes generated nav and reading lines",
+      "passed": true
+    },
+    {
+      "name": "webkit process reduced motion preserves original copy and title",
+      "passed": true
+    },
+    {
+      "name": "webkit process reduced motion unwraps title words",
+      "passed": true
+    },
+    {
+      "name": "webkit process restoring motion mounts exactly one cinema and line",
+      "passed": true
+    },
+    {
+      "name": "webkit process restoring motion preserves four chapters and four art scenes",
+      "passed": true
+    },
+    {
+      "name": "webkit process global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "webkit process no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "webkit team HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "webkit team original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit team original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit team desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "webkit team one global reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit team no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit team no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit team official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "webkit team separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit team heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "webkit team expected tab count",
+      "passed": true
+    },
+    {
+      "name": "webkit team click selects exactly one matching visible panel",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "webkit team arrow key moves selection and focus",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "webkit team End selects last tab",
+      "passed": true
+    },
+    {
+      "name": "webkit team Home restores first tab",
+      "passed": true
+    },
+    {
+      "name": "webkit team global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "webkit team no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "webkit works HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "webkit works original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit works original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit works desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "webkit works one global reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit works no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit works no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit works official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "webkit works separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit works heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "webkit works expected tab count",
+      "passed": true
+    },
+    {
+      "name": "webkit works click selects exactly one matching visible panel",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "webkit works arrow key moves selection and focus",
+      "passed": true,
+      "detail": {
+        "selected": 1,
+        "visible": 1,
+        "paired": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "webkit works End selects last tab",
+      "passed": true
+    },
+    {
+      "name": "webkit works Home restores first tab",
+      "passed": true
+    },
+    {
+      "name": "webkit works global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "webkit works no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "webkit contact HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "webkit contact original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit contact original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit contact desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "webkit contact one global reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit contact no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit contact no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit contact official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "webkit contact separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit contact heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "webkit contact input values remain after scrolling",
+      "passed": true
+    },
+    {
+      "name": "webkit contact multi-service selection remains intact",
+      "passed": true
+    },
+    {
+      "name": "webkit contact no false submitted state",
+      "passed": true
+    },
+    {
+      "name": "webkit contact global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "webkit contact no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy one global reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "webkit privacy separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "webkit privacy no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "webkit case HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "webkit case original h1 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit case original h2 text preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit case desktop modules enabled",
+      "passed": true
+    },
+    {
+      "name": "webkit case one global reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit case no duplicate visible reading line",
+      "passed": true
+    },
+    {
+      "name": "webkit case no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit case official five menu items preserved",
+      "passed": true,
+      "detail": [
+        "ABOUT US",
+        "OUR PROCESS",
+        "TEAM",
+        "WORKS",
+        "CONTACT"
+      ]
+    },
+    {
+      "name": "webkit case separate contact CTA preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit case heading has readable visible bounds",
+      "passed": true
+    },
+    {
+      "name": "webkit case original capture images load after scrolling",
+      "passed": true
+    },
+    {
+      "name": "webkit case global line follows native reading position",
+      "passed": true
+    },
+    {
+      "name": "webkit case no horizontal overflow after scene transitions",
+      "passed": true
+    },
+    {
+      "name": "webkit mobile branch excludes desktop enhancements",
+      "passed": true
+    },
+    {
+      "name": "webkit mobile retains all four original process arts",
+      "passed": true
+    },
+    {
+      "name": "webkit English branch excludes Korean enhancements",
+      "passed": true
+    },
+    {
+      "name": "webkit English retains all four original process arts",
+      "passed": true
+    },
+    {
+      "name": "No runtime JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No enquiry or other mutation was attempted",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "blockedWrites": [],
+  "pages": [
+    {
+      "engine": "firefox",
+      "name": "home",
+      "url": "/",
+      "status": 200,
+      "height": 6444
+    },
+    {
+      "engine": "firefox",
+      "name": "about",
+      "url": "/about/",
+      "status": 200,
+      "height": 3337
+    },
+    {
+      "engine": "firefox",
+      "name": "process",
+      "url": "/process/",
+      "status": 200,
+      "height": 4347
+    },
+    {
+      "engine": "firefox",
+      "name": "team",
+      "url": "/team/",
+      "status": 200,
+      "height": 2424
+    },
+    {
+      "engine": "firefox",
+      "name": "works",
+      "url": "/works/",
+      "status": 200,
+      "height": 5587
+    },
+    {
+      "engine": "firefox",
+      "name": "contact",
+      "url": "/contact/",
+      "status": 200,
+      "height": 2477
+    },
+    {
+      "engine": "firefox",
+      "name": "privacy",
+      "url": "/privacy/",
+      "status": 200,
+      "height": 1995
+    },
+    {
+      "engine": "firefox",
+      "name": "case",
+      "url": "/works/project/sojukdoo-concept/",
+      "status": 200,
+      "height": 4427
+    },
+    {
+      "engine": "webkit",
+      "name": "home",
+      "url": "/",
+      "status": 200,
+      "height": 6444
+    },
+    {
+      "engine": "webkit",
+      "name": "about",
+      "url": "/about/",
+      "status": 200,
+      "height": 3337
+    },
+    {
+      "engine": "webkit",
+      "name": "process",
+      "url": "/process/",
+      "status": 200,
+      "height": 4347
+    },
+    {
+      "engine": "webkit",
+      "name": "team",
+      "url": "/team/",
+      "status": 200,
+      "height": 2424
+    },
+    {
+      "engine": "webkit",
+      "name": "works",
+      "url": "/works/",
+      "status": 200,
+      "height": 5587
+    },
+    {
+      "engine": "webkit",
+      "name": "contact",
+      "url": "/contact/",
+      "status": 200,
+      "height": 2482
+    },
+    {
+      "engine": "webkit",
+      "name": "privacy",
+      "url": "/privacy/",
+      "status": 200,
+      "height": 1994
+    },
+    {
+      "engine": "webkit",
+      "name": "case",
+      "url": "/works/project/sojukdoo-concept/",
+      "status": 200,
+      "height": 4427
+    }
+  ]
+}

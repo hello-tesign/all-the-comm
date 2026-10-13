@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "name": "chromium synthetic pagehide cleanup",
+      "pass": true,
+      "detail": {
+        "style": null,
+        "transform": "none",
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium synthetic persisted pageshow resume",
+      "pass": true,
+      "detail": {
+        "y": 16.36,
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit synthetic pagehide cleanup",
+      "pass": false,
+      "detail": {
+        "style": "",
+        "transform": "none",
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit synthetic persisted pageshow resume",
+      "pass": true,
+      "detail": {
+        "y": 16.360001,
+        "clip": "none"
+      }
+    }
+  ],
+  "scope": "Synthetic lifecycle events verify application cleanup hooks; not proof of browser BFCache eligibility."
+}

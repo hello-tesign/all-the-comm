@@ -1,0 +1,1477 @@
+{
+  "total": 294,
+  "passed": 294,
+  "failed": 0,
+  "results": [
+    {
+      "name": "chromium/360/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/360/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/360 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/360 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/390/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/390/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/390 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/390 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/768/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/768/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/768 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/768 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/1024/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1024/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1024 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/1024 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/1440/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1440/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1440 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/1440 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/1920/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "chromium/1920/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "chromium/1920 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium/1920 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "chromium mobile menu opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chromium mobile menu expanded",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chromium Escape closes and restores focus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chromium service preselected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chromium invalid form blocked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chromium prepared email has correct content",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chromium no false delivery and no server write",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chromium inquiry text download",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "firefox/390/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/390/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/390 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "firefox/390 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "firefox/1440/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "firefox/1440/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "firefox/1440 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "firefox/1440 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "firefox mobile menu opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "firefox mobile menu expanded",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "firefox Escape closes and restores focus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "firefox service preselected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "firefox invalid form blocked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "firefox prepared email has correct content",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "firefox no false delivery and no server write",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "firefox inquiry text download",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "webkit/390/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/390/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/390 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "webkit/390 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "webkit/1440/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"전략부터 표현, 실행까지 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/services/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/services/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하는 일 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/work/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/work/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/work/all-the-comm/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/work/all-the-comm/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"하나의 이름, 여러 장면. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/about/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/about/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"회사 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/journal/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/journal/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"관점 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/journal/before-the-media/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/journal/before-the-media/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"매체를 정하기 전에 정할 것들. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/journal/one-brand-many-formats/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/journal/one-brand-many-formats/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"같은 디자인보다, 같은 브랜드. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/journal/report-to-next-action/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/journal/report-to-next-action/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"보고서의 마지막은 다음 실행. — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/contact/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/contact/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"프로젝트 문의 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440/privacy/ status",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "webkit/1440/privacy/ layout",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"h1\":1,\"title\":\"개인정보 안내 — 올더커뮤니케이션\",\"broken\":0,\"hiddenText\":false}"
+    },
+    {
+      "name": "webkit/1440 no JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "webkit/1440 no third-party requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "webkit mobile menu opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "webkit mobile menu expanded",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "webkit Escape closes and restores focus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "webkit service preselected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "webkit invalid form blocked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "webkit prepared email has correct content",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "webkit no false delivery and no server write",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "webkit inquiry text download",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "hero motion responds to scroll/pointer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "motion pause preserves frame",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-JS contact uses safe direct links",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-JS main content and menu available",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "404 page and HTTP status",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "internal link /",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /work/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /services/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /about/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /journal/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /contact/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /work/all-the-comm/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /services/#strategy",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "anchor exists /services/#strategy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "internal link /services/#design",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "anchor exists /services/#design",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "internal link /services/#content",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "anchor exists /services/#content",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "internal link /services/#campaign",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "anchor exists /services/#campaign",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "internal link /journal/before-the-media/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /journal/one-brand-many-formats/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /journal/report-to-next-action/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /privacy/",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /contact/?service=strategy",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /contact/?service=design",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /contact/?service=content",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "internal link /contact/?service=campaign",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "social sharing image exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "preview does not expose project source",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

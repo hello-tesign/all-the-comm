@@ -1,0 +1,75 @@
+[
+  {
+    "engineName": "chromium",
+    "width": 1440,
+    "status": 200,
+    "copy": "기획에서 개선까지 목표는 분명하게.진행은 투명하게. 목표와 예산에 맞춰 기획하고,진행과 결과를 함께 확인합니다. 프로젝트 상담↗ 분석핵심 과제를 찾습니다. 전략목표에 맞는 방향을 정합니다. 실행채널에 맞춰 실행합니다. 보고·개선성과를 분석하고 개선합니다. 목표 · 예산 · 일정부터 함께 정합니다.",
+    "glass": "blur(24px) saturate(1.25)",
+    "rows": 4,
+    "clipped": [],
+    "overflow": false,
+    "heading": "48px",
+    "rowTitle": "24px",
+    "ctaFocus": true,
+    "errors": []
+  },
+  {
+    "engineName": "chromium",
+    "width": 1060,
+    "status": 200,
+    "copy": "기획에서 개선까지 목표는 분명하게.진행은 투명하게. 목표와 예산에 맞춰 기획하고,진행과 결과를 함께 확인합니다. 프로젝트 상담↗ 분석핵심 과제를 찾습니다. 전략목표에 맞는 방향을 정합니다. 실행채널에 맞춰 실행합니다. 보고·개선성과를 분석하고 개선합니다. 목표 · 예산 · 일정부터 함께 정합니다.",
+    "glass": "blur(24px) saturate(1.25)",
+    "rows": 4,
+    "clipped": [],
+    "overflow": false,
+    "heading": "40px",
+    "rowTitle": "24px",
+    "ctaFocus": true,
+    "errors": []
+  },
+  {
+    "engineName": "chromium",
+    "width": 390,
+    "status": 200,
+    "copy": "기획에서 개선까지 목표는 분명하게.진행은 투명하게. 목표와 예산에 맞춰 기획하고,진행과 결과를 함께 확인합니다. 프로젝트 상담↗ 분석핵심 과제를 찾습니다. 전략목표에 맞는 방향을 정합니다. 실행채널에 맞춰 실행합니다. 보고·개선성과를 분석하고 개선합니다. 목표 · 예산 · 일정부터 함께 정합니다.",
+    "glass": "blur(24px) saturate(1.25)",
+    "rows": 4,
+    "clipped": [],
+    "overflow": false,
+    "heading": "32px",
+    "rowTitle": "18px",
+    "ctaFocus": true,
+    "errors": []
+  },
+  {
+    "engineName": "webkit",
+    "width": 1440,
+    "status": 200,
+    "copy": "기획에서 개선까지 목표는 분명하게.진행은 투명하게. 목표와 예산에 맞춰 기획하고,진행과 결과를 함께 확인합니다. 프로젝트 상담↗ 분석핵심 과제를 찾습니다. 전략목표에 맞는 방향을 정합니다. 실행채널에 맞춰 실행합니다. 보고·개선성과를 분석하고 개선합니다. 목표 · 예산 · 일정부터 함께 정합니다.",
+    "glass": "blur(24px) saturate(1.25)",
+    "rows": 4,
+    "clipped": [],
+    "overflow": false,
+    "heading": "48px",
+    "rowTitle": "24px",
+    "ctaFocus": true,
+    "errors": []
+  },
+  {
+    "engineName": "webkit",
+    "width": 1060,
+    "status": 200,
+    "copy": "기획에서 개선까지 목표는 분명하게.진행은 투명하게. 목표와 예산에 맞춰 기획하고,진행과 결과를 함께 확인합니다. 프로젝트 상담↗ 분석핵심 과제를 찾습니다. 전략목표에 맞는 방향을 정합니다. 실행채널에 맞춰 실행합니다. 보고·개선성과를 분석하고 개선합니다. 목표 · 예산 · 일정부터 함께 정합니다.",
+    "glass": "blur(24px) saturate(1.25)",
+    "rows": 4,
+    "clipped": [],
+    "overflow": false,
+    "heading": "40px",
+    "rowTitle": "24px",
+    "ctaFocus": true,
+    "errors": []
+  },
+  {
+    "englishUnchanged": true
+  }
+]

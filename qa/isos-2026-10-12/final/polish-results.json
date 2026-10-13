@@ -1,0 +1,7302 @@
+{
+  "date": "2026-10-12T13:53:07.073Z",
+  "scope": "Only final polish: immediate tab text, Korean PC service grid, native file-input Korean presentation. GET-only local UI, no enquiry submission. Original 413-check results preserved.",
+  "base": "http://127.0.0.1:4173",
+  "passed": 179,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "chromium works 1440 grid is five columns and two rows",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 64.796875,
+            "right": 286.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 296.796875,
+            "right": 518.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 528.796875,
+            "right": 750.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 760.796875,
+            "right": 982.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 992.796875,
+            "right": 1214.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 64.796875,
+            "right": 286.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 296.796875,
+            "right": 518.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 528.796875,
+            "right": 750.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 760.796875,
+            "right": 982.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 992.796875,
+            "right": 1214.796875,
+            "width": 222,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "chromium works 1440 all ten labels fit without overflow",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 64.796875,
+            "right": 286.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 296.796875,
+            "right": 518.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 528.796875,
+            "right": 750.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 760.796875,
+            "right": 982.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 992.796875,
+            "right": 1214.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 64.796875,
+            "right": 286.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 296.796875,
+            "right": 518.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 528.796875,
+            "right": 750.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 760.796875,
+            "right": 982.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 992.796875,
+            "right": 1214.796875,
+            "width": 222,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "chromium works 1440 ArrowRight selects second service",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1440 End reaches tenth service",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1440 Home and one visible panel preserved",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1440 digital nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1440 digital nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1440 digital nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1440 digital after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1440 digital after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1440 digital after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1440 PR nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1440 PR nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1440 PR nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1440 PR after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1440 PR after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1440 PR after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1060 grid is five columns and two rows",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 47.703125,
+            "right": 232.609375,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 242.609375,
+            "right": 427.53125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 437.53125,
+            "right": 622.453125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 632.453125,
+            "right": 817.375,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 827.375,
+            "right": 1012.28125,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 47.703125,
+            "right": 232.609375,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 242.609375,
+            "right": 427.53125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 437.53125,
+            "right": 622.453125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 632.453125,
+            "right": 817.375,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 827.375,
+            "right": 1012.28125,
+            "width": 184.90625,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "chromium works 1060 all ten labels fit without overflow",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 47.703125,
+            "right": 232.609375,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 242.609375,
+            "right": 427.53125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 437.53125,
+            "right": 622.453125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 632.453125,
+            "right": 817.375,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 827.375,
+            "right": 1012.28125,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 47.703125,
+            "right": 232.609375,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 242.609375,
+            "right": 427.53125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 437.53125,
+            "right": 622.453125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 632.453125,
+            "right": 817.375,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 827.375,
+            "right": 1012.28125,
+            "width": 184.90625,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "chromium works 1060 ArrowRight selects second service",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1060 End reaches tenth service",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1060 Home and one visible panel preserved",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1060 digital nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1060 digital nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1060 digital nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1060 digital after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1060 digital after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1060 digital after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1060 PR nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1060 PR nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1060 PR nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1060 PR after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium works 1060 PR after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium works 1060 PR after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium team digital nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium team digital nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium team digital nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium team digital after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium team digital after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium team digital after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium team PR nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium team PR nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium team PR nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium team PR after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "chromium team PR after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium team PR after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium attachment single native multiple file input preserved",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment Korean chooser copy visible",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment Tab reaches real file input",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment visible focus outline on custom display",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment three in-memory filenames retained",
+      "passed": true,
+      "detail": [
+        "기획서_한글.pdf",
+        "브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_참고.png",
+        "자료_<img src=x>.png"
+      ]
+    },
+    {
+      "name": "chromium attachment safe textContent displays Korean long and HTML-like names",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment long filename creates no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment pointer opens native multiple file chooser",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment selecting files preserves other field values",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment form.reset clears native files and display",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment no false submission result",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment mobile keeps visible native input with new display hidden",
+      "passed": true
+    },
+    {
+      "name": "chromium attachment English keeps native input without Korean display",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1440 grid is five columns and two rows",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 64.80000305175781,
+            "right": 286.8000030517578,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 296.79998779296875,
+            "right": 518.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 528.7999877929688,
+            "right": 750.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 760.7999877929688,
+            "right": 982.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 992.7999877929688,
+            "right": 1214.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 64.80000305175781,
+            "right": 286.8000030517578,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 296.79998779296875,
+            "right": 518.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 528.7999877929688,
+            "right": 750.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 760.7999877929688,
+            "right": 982.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 992.7999877929688,
+            "right": 1214.7999877929688,
+            "width": 222,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "firefox works 1440 all ten labels fit without overflow",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 64.80000305175781,
+            "right": 286.8000030517578,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 296.79998779296875,
+            "right": 518.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 528.7999877929688,
+            "right": 750.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 760.7999877929688,
+            "right": 982.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 992.7999877929688,
+            "right": 1214.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 64.80000305175781,
+            "right": 286.8000030517578,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 296.79998779296875,
+            "right": 518.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 528.7999877929688,
+            "right": 750.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 760.7999877929688,
+            "right": 982.7999877929688,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 992.7999877929688,
+            "right": 1214.7999877929688,
+            "width": 222,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "firefox works 1440 ArrowRight selects second service",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1440 End reaches tenth service",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1440 Home and one visible panel preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1440 digital nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1440 digital nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1440 digital nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1440 digital after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1440 digital after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1440 digital after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1440 PR nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1440 PR nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1440 PR nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1440 PR after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1440 PR after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1440 PR after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1060 grid is five columns and two rows",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 47.69999694824219,
+            "right": 232.61666870117188,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 242.61666870117188,
+            "right": 427.53334045410156,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 437.5333251953125,
+            "right": 622.4499816894531,
+            "width": 184.91665649414062,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 632.4500122070312,
+            "right": 817.3666839599609,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 827.36669921875,
+            "right": 1012.2833709716797,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 47.69999694824219,
+            "right": 232.61666870117188,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 242.61666870117188,
+            "right": 427.53334045410156,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 437.5333251953125,
+            "right": 622.4499816894531,
+            "width": 184.91665649414062,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 632.4500122070312,
+            "right": 817.3666839599609,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 827.36669921875,
+            "right": 1012.2833709716797,
+            "width": 184.9166717529297,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "firefox works 1060 all ten labels fit without overflow",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 47.69999694824219,
+            "right": 232.61666870117188,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 242.61666870117188,
+            "right": 427.53334045410156,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 437.5333251953125,
+            "right": 622.4499816894531,
+            "width": 184.91665649414062,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 632.4500122070312,
+            "right": 817.3666839599609,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 827.36669921875,
+            "right": 1012.2833709716797,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 47.69999694824219,
+            "right": 232.61666870117188,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 242.61666870117188,
+            "right": 427.53334045410156,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 437.5333251953125,
+            "right": 622.4499816894531,
+            "width": 184.91665649414062,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 632.4500122070312,
+            "right": 817.3666839599609,
+            "width": 184.9166717529297,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 827.36669921875,
+            "right": 1012.2833709716797,
+            "width": 184.9166717529297,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "firefox works 1060 ArrowRight selects second service",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1060 End reaches tenth service",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1060 Home and one visible panel preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1060 digital nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1060 digital nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1060 digital nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1060 digital after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1060 digital after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1060 digital after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1060 PR nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1060 PR nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1060 PR nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1060 PR after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox works 1060 PR after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox works 1060 PR after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox team digital nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox team digital nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox team digital nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox team digital after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox team digital after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox team digital after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox team PR nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox team PR nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox team PR nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox team PR after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "firefox team PR after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox team PR after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox attachment single native multiple file input preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment Korean chooser copy visible",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment Tab reaches real file input",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment visible focus outline on custom display",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment three in-memory filenames retained",
+      "passed": true,
+      "detail": [
+        "기획서_한글.pdf",
+        "브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_참고.png",
+        "자료_<img src=x>.png"
+      ]
+    },
+    {
+      "name": "firefox attachment safe textContent displays Korean long and HTML-like names",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment long filename creates no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment pointer opens native multiple file chooser",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment selecting files preserves other field values",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment form.reset clears native files and display",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment no false submission result",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment mobile keeps visible native input with new display hidden",
+      "passed": true
+    },
+    {
+      "name": "firefox attachment English keeps native input without Korean display",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1440 grid is five columns and two rows",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 64.796875,
+            "right": 286.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 296.796875,
+            "right": 518.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 528.796875,
+            "right": 750.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 760.796875,
+            "right": 982.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 992.796875,
+            "right": 1214.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 64.796875,
+            "right": 286.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 296.796875,
+            "right": 518.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 528.796875,
+            "right": 750.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 760.796875,
+            "right": 982.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 992.796875,
+            "right": 1214.796875,
+            "width": 222,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "webkit works 1440 all ten labels fit without overflow",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 64.796875,
+            "right": 286.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 296.796875,
+            "right": 518.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 528.796875,
+            "right": 750.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 760.796875,
+            "right": 982.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 992.796875,
+            "right": 1214.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 64.796875,
+            "right": 286.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 296.796875,
+            "right": 518.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 528.796875,
+            "right": 750.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 760.796875,
+            "right": 982.796875,
+            "width": 222,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 992.796875,
+            "right": 1214.796875,
+            "width": 222,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "webkit works 1440 ArrowRight selects second service",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1440 End reaches tenth service",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1440 Home and one visible panel preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1440 digital nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1440 digital nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1440 digital nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1440 digital after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1440 digital after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1440 digital after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1440 PR nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1440 PR nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1440 PR nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1440 PR after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1440 PR after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1440 PR after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1060 grid is five columns and two rows",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 47.703125,
+            "right": 232.609375,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 242.609375,
+            "right": 427.53125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 437.53125,
+            "right": 622.453125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 632.453125,
+            "right": 817.375,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 827.375,
+            "right": 1012.28125,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 47.703125,
+            "right": 232.609375,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 242.609375,
+            "right": 427.53125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 437.53125,
+            "right": 622.453125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 632.453125,
+            "right": 817.375,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 827.375,
+            "right": 1012.28125,
+            "width": 184.90625,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "webkit works 1060 all ten labels fit without overflow",
+      "passed": true,
+      "detail": {
+        "display": "grid",
+        "rows": [
+          5,
+          5
+        ],
+        "buttons": [
+          {
+            "text": "전략·브랜딩",
+            "left": 47.703125,
+            "right": 232.609375,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "디지털 마케팅",
+            "left": 242.609375,
+            "right": 427.53125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "콘텐츠·디자인",
+            "left": 437.53125,
+            "right": 622.453125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "영상 제작",
+            "left": 632.453125,
+            "right": 817.375,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "미디어·오프라인 광고",
+            "left": 827.375,
+            "right": 1012.28125,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "인플루언서 마케팅",
+            "left": 47.703125,
+            "right": 232.609375,
+            "width": 184.90625,
+            "textFits": true
+          },
+          {
+            "text": "병원 마케팅",
+            "left": 242.609375,
+            "right": 427.53125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "사업·글로벌 컨설팅",
+            "left": 437.53125,
+            "right": 622.453125,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "IT 솔루션 지원",
+            "left": 632.453125,
+            "right": 817.375,
+            "width": 184.921875,
+            "textFits": true
+          },
+          {
+            "text": "언론홍보",
+            "left": 827.375,
+            "right": 1012.28125,
+            "width": 184.90625,
+            "textFits": true
+          }
+        ],
+        "overflow": false,
+        "contained": true
+      }
+    },
+    {
+      "name": "webkit works 1060 ArrowRight selects second service",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1060 End reaches tenth service",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1060 Home and one visible panel preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1060 digital nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1060 digital nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1060 digital nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1060 digital after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1060 digital after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1060 digital after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1060 PR nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1060 PR nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1060 PR nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1060 PR after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit works 1060 PR after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit works 1060 PR after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit team digital nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit team digital nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit team digital nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit team digital after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit team digital after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit team digital after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit team PR nextFrame title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit team PR nextFrame text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit team PR nextFrame text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit team PR after220 title description CTA present",
+      "passed": true
+    },
+    {
+      "name": "webkit team PR after220 text and ancestor opacity remain one",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit team PR after220 text remains visible and unclipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit attachment single native multiple file input preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment Korean chooser copy visible",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment Tab reaches real file input",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment visible focus outline on custom display",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment three in-memory filenames retained",
+      "passed": true,
+      "detail": [
+        "기획서_한글.pdf",
+        "브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_브랜드전략_콘텐츠디자인_장기프로젝트_참고.png",
+        "자료_<img src=x>.png"
+      ]
+    },
+    {
+      "name": "webkit attachment safe textContent displays Korean long and HTML-like names",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment long filename creates no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment pointer opens native multiple file chooser",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment selecting files preserves other field values",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment form.reset clears native files and display",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment no false submission result",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment mobile keeps visible native input with new display hidden",
+      "passed": true
+    },
+    {
+      "name": "webkit attachment English keeps native input without Korean display",
+      "passed": true
+    },
+    {
+      "name": "No runtime JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No enquiry or mutation attempted",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "blockedWrites": [],
+  "samples": [
+    {
+      "label": "chromium works 1440 digital",
+      "index": 1,
+      "nextFrame": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.3125,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.3125,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "chromium works 1440 PR",
+      "index": 9,
+      "nextFrame": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.3125,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.3125,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "chromium works 1060 digital",
+      "index": 1,
+      "nextFrame": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.34375,
+          "height": 42.921875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.34375,
+          "height": 42.921875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "chromium works 1060 PR",
+      "index": 9,
+      "nextFrame": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.34375,
+          "height": 42.921875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.34375,
+          "height": 42.921875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "chromium team digital",
+      "index": 1,
+      "nextFrame": [
+        {
+          "text": "디지털",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.109375,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "매체와 채널을 운영하고 유입과 문의의 흐름을 살핍니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 32.390625,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.71875,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "디지털",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.109375,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "매체와 채널을 운영하고 유입과 문의의 흐름을 살핍니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 32.390625,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.71875,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "chromium team PR",
+      "index": 8,
+      "nextFrame": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.109375,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "자료를 정리하고 배포·취재·기자간담회의 소통을 지원합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 64.78125,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.71875,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.109375,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "자료를 정리하고 배포·취재·기자간담회의 소통을 지원합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 64.78125,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.71875,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "firefox works 1440 digital",
+      "index": 1,
+      "nextFrame": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.31666564941406,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.19999694824219,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3000030517578,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.31666564941406,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.19999694824219,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3000030517578,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "firefox works 1440 PR",
+      "index": 9,
+      "nextFrame": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.31666564941406,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.19999694824219,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3000030517578,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.31666564941406,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.19999694824219,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3000030517578,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "firefox works 1060 digital",
+      "index": 1,
+      "nextFrame": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.3333435058594,
+          "height": 42.93333435058594,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.19999694824219,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3000030517578,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.3333435058594,
+          "height": 42.93333435058594,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.19999694824219,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3000030517578,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "firefox works 1060 PR",
+      "index": 9,
+      "nextFrame": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.3333435058594,
+          "height": 42.93333435058594,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.19999694824219,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3000030517578,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.3333435058594,
+          "height": 42.93333435058594,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.19999694824219,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3000030517578,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "firefox team digital",
+      "index": 1,
+      "nextFrame": [
+        {
+          "text": "디지털",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.11665344238281,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "매체와 채널을 운영하고 유입과 문의의 흐름을 살핍니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 32.40000915527344,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.6999969482422,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "디지털",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.11665344238281,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "매체와 채널을 운영하고 유입과 문의의 흐름을 살핍니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 32.40000915527344,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.6999969482422,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "firefox team PR",
+      "index": 8,
+      "nextFrame": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.11666870117188,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "자료를 정리하고 배포·취재·기자간담회의 소통을 지원합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 64.80000305175781,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.6999969482422,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.11666870117188,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "자료를 정리하고 배포·취재·기자간담회의 소통을 지원합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 64.80000305175781,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.6999969482422,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "webkit works 1440 digital",
+      "index": 1,
+      "nextFrame": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.296875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.296875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "webkit works 1440 PR",
+      "index": 9,
+      "nextFrame": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.296875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 539,
+          "height": 58.296875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "webkit works 1060 digital",
+      "index": 1,
+      "nextFrame": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.34375,
+          "height": 42.921875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "디지털 마케팅",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.34375,
+          "height": 42.921875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "검색과 SNS에서 발견되고, 관심이 문의로 이어지도록 운영합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "webkit works 1060 PR",
+      "index": 9,
+      "nextFrame": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.34375,
+          "height": 42.921875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 404.34375,
+          "height": 42.921875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "전할 소식을 정리하고, 정확한 자료와 소통으로 언론 접점을 만듭니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 390,
+          "height": 61.1875,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "이 업무 상담하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 140.3125,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "capability-copy",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "capability-panels",
+              "opacity": 1
+            },
+            {
+              "node": "capability-experience",
+              "opacity": 1
+            },
+            {
+              "node": "shell",
+              "opacity": 1
+            },
+            {
+              "node": "works-capabilities section-pad",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "works-page",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "webkit team digital",
+      "index": 1,
+      "nextFrame": [
+        {
+          "text": "디지털",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.109375,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "매체와 채널을 운영하고 유입과 문의의 흐름을 살핍니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 32.390625,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.71875,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "디지털",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.109375,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "매체와 채널을 운영하고 유입과 문의의 흐름을 살핍니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 32.390625,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.71875,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "webkit team PR",
+      "index": 8,
+      "nextFrame": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.109375,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "자료를 정리하고 배포·취재·기자간담회의 소통을 지원합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 64.78125,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.71875,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "after220": [
+        {
+          "text": "언론홍보",
+          "tag": "H3",
+          "visible": true,
+          "opacityOne": true,
+          "width": 549,
+          "height": 69.109375,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "H3",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "자료를 정리하고 배포·취재·기자간담회의 소통을 지원합니다.",
+          "tag": "P",
+          "visible": true,
+          "opacityOne": true,
+          "width": 410,
+          "height": 64.78125,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "P",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "text": "프로젝트 이야기하기",
+          "tag": "A",
+          "visible": true,
+          "opacityOne": true,
+          "width": 153.71875,
+          "height": 44,
+          "clipping": [],
+          "chain": [
+            {
+              "node": "text-link",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-copy",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panel isos-scene-playing",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-panels",
+              "opacity": 1
+            },
+            {
+              "node": "discipline-stage",
+              "opacity": 1
+            },
+            {
+              "node": "team-experience section-pad shell",
+              "opacity": 1
+            },
+            {
+              "node": "MAIN",
+              "opacity": 1
+            },
+            {
+              "node": "BODY",
+              "opacity": 1
+            },
+            {
+              "node": "js isos-motion-enabled isos-story-enabled",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "execution": {
+    "initial": "Chromium 59 passed. Firefox sandbox page creation failed before site load with undefined _page. Original attempt retained in polish-chromium-initial-with-sandbox-error.json.",
+    "completion": "Firefox and WebKit completed under approved GET-only local execution: 120 passed. No functional failure reclassified. The original 413-check results.json is untouched."
+  }
+}

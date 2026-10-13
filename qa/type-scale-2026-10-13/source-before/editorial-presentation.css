@@ -1,0 +1,291 @@
+/* Final Korean presentation layer. Shared frames and type keep the work legible. */
+html[lang=ko]{--paper:#fff;--text:#152629;--muted:#5a6668;--line:#15262926;--editorial-surface:#f7f8f8}
+html[lang=ko] body{background:#fff;color:var(--text)}
+html[lang=ko] body.evidence-site .site-header,
+html[lang=ko] body.evidence-site .site-header.is-scrolled{background:#fff;color:var(--ink);border-bottom:1px solid #15262912;backdrop-filter:none;box-shadow:none}
+html[lang=ko] body .desktop-nav a{color:var(--ink)}
+html[lang=ko] body .desktop-nav a:after{background:var(--ink)}
+html[lang=ko] body .header-cta,
+html[lang=ko] body .language-switch{border-color:var(--line);color:var(--ink)}
+html[lang=ko] body .site-header :focus-visible{outline-color:#197463}
+html[lang=ko] body main :is(.page-hero,.evidence-home-hero,.about-preview,.projects-section,.principles-section,.process-preview,.apd-about-proof,.apd-process-depth,.apd-handover,.team-proof,.contact-guide,.healthcare-home,.healthcare-about,.healthcare-service){background:#fff;color:var(--text)}
+html[lang=ko] body main :is(.projects-section,.apd-about-proof,.team-proof,.contact-guide,.apd-handover){background:var(--editorial-surface)}
+html[lang=ko] body .page-hero[data-page-hero]{padding-block:176px 80px;text-align:left}
+html[lang=ko] body main :is(.page-hero,.case-hero,.agency-home-hero) h1{font-size:clamp(52px,4.45vw,64px);line-height:1.16;letter-spacing:-.055em;white-space:normal;color:var(--ink)}
+html[lang=ko] body main :is(.page-hero,.case-hero,.agency-home-hero) h1 em{color:#276556;-webkit-text-stroke:0}
+html[lang=ko] body .page-hero .eyebrow{color:var(--muted);margin-bottom:24px}
+html[lang=ko] body .page-hero[data-page-hero] .page-intro{font-size:17px;line-height:1.6;color:var(--muted);max-width:560px}
+html[lang=ko] body main :is(.section-heading,.about-preview,.about-story,.company-section,.team-intro,.chapter-copy,.apd-section-intro,.depth-heading,.healthcare-about-heading,.healthcare-home-inner) h2,
+html[lang=ko] body main .principles-section>.shell>h2,
+html[lang=ko] body main .healthcare-service h2,
+html[lang=ko] body main .capture-case .case-story h2{font-size:clamp(36px,3.1vw,44px);line-height:1.25;letter-spacing:-.045em}
+html[lang=ko] body main :is(.section-heading,.apd-section-intro,.depth-heading){gap:48px;margin-bottom:48px}
+html[lang=ko] body main :is(.section-heading,.apd-section-intro,.depth-heading)>p{font-size:16px;line-height:1.6;max-width:480px}
+html[lang=ko] body main :is(.about-preview-grid,.about-story,.company-section){gap:64px}
+html[lang=ko] body main :is(.about-story,.about-preview) h2{margin-bottom:24px}
+html[lang=ko] body .about-story .lead{font-size:20px!important;line-height:1.6}
+html[lang=ko] body main .button:hover{box-shadow:none}
+
+/* A restrained stage for the three selected home examples. */
+html[lang=ko] body .agency-home-hero .evidence-hero-layout{gap:64px;padding-block:144px 64px}
+html[lang=ko] body .agency-home-hero .hero-description{font-size:17px;line-height:1.6;color:var(--muted);max-width:480px}
+html[lang=ko] body .agency-work-mosaic:is(.mosaic-0,.mosaic-1,.mosaic-2){background:var(--editorial-surface);padding:24px 24px 0}
+html[lang=ko] body .agency-work-mosaic .agency-work-tile,
+html[lang=ko] body .agency-work-mosaic .agency-work-tile img{background:var(--editorial-surface)}
+html[lang=ko] body .agency-hero-scene .evidence-hero-caption{background:var(--editorial-surface);color:var(--text);padding:24px}
+html[lang=ko] body .agency-hero-scene .evidence-hero-caption h2{font-size:24px;line-height:1.35;margin:8px 0}
+html[lang=ko] body .agency-hero-scene .evidence-hero-caption :is(p,span){color:var(--muted);line-height:1.6}
+html[lang=ko] body .agency-hero-scene .evidence-hero-caption>a{border-color:var(--line);margin-top:16px;padding-top:16px}
+html[lang=ko] body .evidence-hero-choices{border-color:var(--line)}
+html[lang=ko] body .evidence-hero-choices button{min-height:48px;color:var(--muted)}
+html[lang=ko] body .evidence-hero-choices button[aria-selected=true]{color:var(--ink);border-color:var(--ink)}
+
+/* Service and role content remain the focal point of their selected panels. */
+html[lang=ko] body .capability-panels,
+html[lang=ko] body .discipline-stage{background:var(--editorial-surface);color:var(--text);border-radius:12px;border:0;box-shadow:none}
+html[lang=ko] body .capability-panel,
+html[lang=ko] body .discipline-panel{color:var(--text);min-height:0}
+html[lang=ko] body .capability-copy :is(.eyebrow,.minor-link),
+html[lang=ko] body .discipline-copy .eyebrow{color:var(--muted)}
+html[lang=ko] body .capability-copy>p:not(.eyebrow),
+html[lang=ko] body .capability-copy ul,
+html[lang=ko] body .discipline-copy>p:not(.eyebrow){color:var(--muted);font-size:16px;line-height:1.6}
+html[lang=ko] body .capability-copy h3,
+html[lang=ko] body .discipline-copy h3{font-size:32px;line-height:1.3;margin-bottom:16px;color:var(--text)}
+html[lang=ko] body .capability-copy li:before{background:#49756a}
+html[lang=ko] body .discipline-nav{padding:24px;gap:8px;border-color:var(--line)}
+html[lang=ko] body .discipline-nav button{min-height:48px;padding:8px 16px;border-radius:8px;color:var(--muted);font-size:14px}
+html[lang=ko] body .discipline-nav button:hover{background:#e9edec;color:var(--ink)}
+html[lang=ko] body .discipline-nav button[aria-selected=true]{background:var(--ink);color:#fff}
+html[lang=ko] body .discipline-nav button:focus-visible,
+html[lang=ko] body .evidence-home-hero :focus-visible,
+html[lang=ko] body .process-preview :focus-visible{outline-color:#197463}
+html[lang=ko] body .discipline-panel{display:grid;grid-template-columns:minmax(0,1fr)}
+html[lang=ko] body .discipline-panel .role-focus{display:none}
+html[lang=ko] body .discipline-panel .discipline-copy{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:64px;align-items:start;padding:48px;width:100%}
+html[lang=ko] body .discipline-copy>.eyebrow,
+html[lang=ko] body .discipline-copy>h3,
+html[lang=ko] body .discipline-copy>p,
+html[lang=ko] body .discipline-copy>.text-link{grid-column:1}
+html[lang=ko] body .discipline-copy>.eyebrow{margin-bottom:16px}
+html[lang=ko] body .discipline-copy>.text-link{margin-top:24px;justify-self:start}
+html[lang=ko] body .discipline-copy>.role-deliverables{display:block;grid-column:2;grid-row:1/5;align-self:center;margin:0}
+html[lang=ko] body .role-deliverables>span{font-size:12px;color:var(--muted);margin-bottom:16px}
+html[lang=ko] body .role-deliverables ul{display:grid;gap:8px}
+html[lang=ko] body .role-deliverables li{font-size:16px;line-height:1.6;color:var(--text)}
+html[lang=ko] body .role-deliverables li:not(:last-child):after{content:none}
+html[lang=ko] body .agency-editorial,
+html[lang=ko] body .agency-editorial.editorial-light{background:var(--editorial-surface);color:var(--text);padding:40px;gap:32px;min-height:360px;border:0}
+html[lang=ko] body .agency-editorial>strong,
+html[lang=ko] body .agency-editorial.editorial-light>strong{font-size:32px;line-height:1.45;letter-spacing:-.04em}
+html[lang=ko] body .agency-editorial>p,
+html[lang=ko] body .agency-editorial>small{color:var(--muted)}
+html[lang=ko] body .principles{gap:48px 64px;margin-top:48px}
+html[lang=ko] body .principles-section>.shell>.eyebrow,
+html[lang=ko] body .principle-mark{color:#466d63}
+html[lang=ko] body .principle-mark{font-size:32px;width:32px;line-height:1.2}
+html[lang=ko] body .principle p{font-size:16px;line-height:1.6;color:var(--muted)}
+
+/* Equal editorial figures: original artwork is always fully contained. */
+html[lang=ko] body .apd-about-proof>.shell,
+html[lang=ko] body .team-proof>.shell{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 32px;align-items:start}
+html[lang=ko] body .apd-about-proof .apd-section-intro,
+html[lang=ko] body .team-proof .depth-heading,
+html[lang=ko] body .team-proof .team-collaboration{grid-column:1/-1;margin:0}
+html[lang=ko] body .apd-proof-spread,
+html[lang=ko] body .apd-proof-spread.apd-proof-spread--reverse,
+html[lang=ko] body .team-spread{display:flex;flex-direction:column;align-items:stretch;gap:24px;padding:0;margin:0;min-width:0;border:0}
+html[lang=ko] body .apd-proof-spread+.apd-proof-spread{margin-top:0}
+html[lang=ko] body .apd-proof-spread--reverse .apd-proof-figure,
+html[lang=ko] body .apd-proof-spread--reverse .apd-proof-copy{grid-column:auto;grid-row:auto}
+html[lang=ko] body .team-spread .team-proof-image{order:0;margin:0}
+html[lang=ko] body .team-spread .team-proof-copy{order:1}
+html[lang=ko] body .apd-proof-figure>a,
+html[lang=ko] body .team-proof-image>a,
+html[lang=ko] body .contact-reference figure>a{display:grid;place-items:center;aspect-ratio:16/10;overflow:hidden;padding:24px;background:#eef0f0;border-radius:12px}
+html[lang=ko] body .apd-proof-figure>a>img,
+html[lang=ko] body .team-proof-image>a>img,
+html[lang=ko] body .contact-reference figure>a>img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;min-width:0;min-height:0;object-fit:contain;object-position:center;border-radius:0}
+html[lang=ko] body .apd-proof-figure figcaption,
+html[lang=ko] body .team-proof-image figcaption,
+html[lang=ko] body .contact-reference figcaption{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:4px 16px;padding:0;margin-top:16px;font-size:12px;line-height:1.6;color:var(--muted)}
+html[lang=ko] body .apd-proof-copy h3,
+html[lang=ko] body .team-proof-copy h3,
+html[lang=ko] body .contact-reference-copy h3{font-size:24px;line-height:1.35;font-weight:620;letter-spacing:-.025em;margin:0 0 16px}
+html[lang=ko] body .apd-proof-copy>.eyebrow,
+html[lang=ko] body .team-proof-copy>.depth-kicker,
+html[lang=ko] body .contact-reference-copy>.depth-kicker{font-size:12px;margin-bottom:8px;color:var(--muted)}
+html[lang=ko] body .apd-proof-copy>p:not(.eyebrow),
+html[lang=ko] body .team-proof-copy>p:not(.depth-kicker),
+html[lang=ko] body .contact-reference-copy>p:not(.depth-kicker){font-size:16px;line-height:1.6;margin-top:16px;max-width:560px;color:var(--muted)}
+html[lang=ko] body .team-role-notes>div,
+html[lang=ko] body .team-spread-web .team-role-notes>div{grid-template-columns:96px 1fr;gap:16px;padding-block:16px}
+html[lang=ko] body .team-role-notes dd{font-size:15px;line-height:1.6}
+html[lang=ko] body .team-collaboration{grid-template-columns:1fr 1fr;gap:32px;padding-top:48px}
+html[lang=ko] body .team-collaboration h3,
+html[lang=ko] body .contact-brief h3,
+html[lang=ko] body .contact-faq h3{font-size:28px;line-height:1.35}
+html[lang=ko] body .team-collaboration p{font-size:16px;line-height:1.6}
+html[lang=ko] body .contact-reference-spread{gap:48px 32px}
+html[lang=ko] body .contact-reference-copy{padding-top:24px}
+html[lang=ko] body .contact-reference-copy .depth-deliverable{min-height:0}
+html[lang=ko] body .contact-brief,
+html[lang=ko] body .contact-faq{grid-template-columns:1fr 1fr;gap:64px}
+html[lang=ko] body .contact-guide{border:0}
+
+/* List hierarchy: one frame size, one title size, a short explanatory line. */
+html[lang=ko] body [data-project-list]{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 32px}
+html[lang=ko] body .portfolio-piece:first-child{grid-column:auto}
+html[lang=ko] body .portfolio-piece .project-visual{min-height:0;border-radius:12px;background:#eef0f0;box-shadow:none}
+html[lang=ko] body .portfolio-piece .portfolio-shot{aspect-ratio:16/10;background:#eef0f0;padding:24px}
+html[lang=ko] body .portfolio-piece .portfolio-shot img{max-height:100%;object-fit:contain}
+html[lang=ko] body .portfolio-piece .project-caption{display:block;padding-top:24px}
+html[lang=ko] body .portfolio-piece .project-caption .eyebrow{font-size:12px;line-height:1.6;letter-spacing:0;margin:0 0 8px;color:var(--muted)}
+html[lang=ko] body .portfolio-piece .project-caption h3,
+html[lang=ko] body .portfolio-piece:first-child .project-caption h3{font-size:24px;line-height:1.35;margin:0;font-weight:600;letter-spacing:-.025em}
+html[lang=ko] body .portfolio-piece .project-caption .portfolio-summary{font-size:16px;line-height:1.6;margin-top:8px;max-width:560px}
+html[lang=ko] body .portfolio-piece .project-caption>p:not(.portfolio-summary){font-size:12px;line-height:1.6;margin-top:8px;text-align:left;max-width:none}
+html[lang=ko] body .project-open,
+html[lang=ko] body .portfolio-piece.portfolio-motion-ready .project-open{width:48px;height:48px;right:16px;bottom:16px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);box-shadow:none;backdrop-filter:none}
+html[lang=ko] body .capture-hint{background:#fff;border-color:var(--line);box-shadow:none;backdrop-filter:none}
+html[lang=ko] body .capture-case .case-cover{max-width:1280px}
+html[lang=ko] body .capture-case [data-case-gallery]{gap:48px 32px}
+html[lang=ko] body .capture-case [data-case-gallery] figcaption{font-size:14px;line-height:1.6;margin-top:16px}
+html[lang=ko] body[data-case-slug=sales-rehearsal] .case-cover{background:var(--editorial-surface);padding:32px}
+html[lang=ko] body[data-case-slug=sales-rehearsal] .case-cover .capture-open{width:fit-content;max-width:100%;margin-inline:auto}
+html[lang=ko] body[data-case-slug=sales-rehearsal] .case-cover img{display:block;width:auto!important;max-width:100%;height:auto;max-height:min(72vh,720px)!important;margin-inline:auto}
+html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery]{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 32px}
+html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery] img{display:block;width:auto;max-width:100%;height:auto;max-height:760px;margin-inline:auto}
+html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery] .capture-open{padding:24px;background:var(--editorial-surface)}
+
+/* Process colors change, while the chapter's sticky and scroll contracts stay intact. */
+html[lang=ko] body .process-preview .section-heading>p,
+html[lang=ko] body .process-scene p,
+html[lang=ko] body .process-scene li{color:var(--muted)}
+html[lang=ko] body .process-preview-question{border-color:var(--line);padding-left:32px}
+html[lang=ko] body .process-preview-question small{color:var(--muted)}
+html[lang=ko] body .process-preview-question strong{font-size:32px;line-height:1.45}
+html[lang=ko] body .process-tabs button{color:var(--muted);border-color:var(--line);border-radius:8px;min-height:48px}
+html[lang=ko] body .process-tabs button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+html[lang=ko] body .evidence-chapter,
+html[lang=ko] body .process-cinema-art,
+html[lang=ko] body .evidence-chapter img{background:var(--editorial-surface)}
+html[lang=ko] body .evidence-chapter figcaption{padding:16px;background:var(--editorial-surface);color:var(--text);min-height:0}
+html[lang=ko] body .evidence-chapter figcaption strong{font-size:16px;line-height:1.6}
+html[lang=ko] body .evidence-chapter figcaption span{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.6}
+html[lang=ko] body .scroll-story .chapter-copy h2{font-size:clamp(36px,3.1vw,44px);line-height:1.25;letter-spacing:-.045em}
+html[lang=ko] body .apd-handover .eyebrow,
+html[lang=ko] body .apd-handover-grid>div>p:not(.eyebrow),
+html[lang=ko] body .apd-handover .apd-handover-notes p{color:var(--muted)}
+html[lang=ko] body .apd-handover-notes strong{color:var(--text)}
+html[lang=ko] body .apd-handover h3{font-size:32px;line-height:1.4}
+html[lang=ko] body .healthcare-about-intro .healthcare-lead{font-size:20px;line-height:1.6}
+
+@media(min-width:1100px){
+ html[lang=ko] body.home [data-project-list]{grid-template-columns:repeat(3,minmax(0,1fr))}
+ html[lang=ko] body.home .portfolio-piece .portfolio-shot{padding:16px}
+}
+@media(max-width:1059px){
+ html[lang=ko] body .agency-home-hero .evidence-hero-layout{grid-template-columns:1fr;gap:40px;padding-top:144px}
+ html[lang=ko] body .discipline-panel .discipline-copy{padding:32px;column-gap:48px}
+ html[lang=ko] body main :is(.about-preview-grid,.about-story,.company-section){gap:48px}
+ html[lang=ko] body .agency-editorial,
+ html[lang=ko] body .agency-editorial.editorial-light{padding:32px;min-height:320px}
+}
+@media(max-width:760px){
+ html[lang=ko] body .page-hero[data-page-hero]{padding-block:144px 64px}
+ html[lang=ko] body main :is(.page-hero,.case-hero,.agency-home-hero) h1{font-size:clamp(36px,9.4vw,44px);line-height:1.2;letter-spacing:-.045em}
+ html[lang=ko] body .page-hero[data-page-hero] .page-intro{font-size:16px}
+ html[lang=ko] body main :is(.section-heading,.about-preview,.about-story,.company-section,.team-intro,.chapter-copy,.apd-section-intro,.depth-heading,.healthcare-about-heading,.healthcare-home-inner) h2,
+ html[lang=ko] body main .principles-section>.shell>h2,
+ html[lang=ko] body main .healthcare-service h2,
+ html[lang=ko] body main .capture-case .case-story h2{font-size:32px;line-height:1.3}
+ html[lang=ko] body main :is(.section-heading,.apd-section-intro,.depth-heading){gap:24px;margin-bottom:32px}
+ html[lang=ko] body .agency-home-hero .evidence-hero-layout{padding-block:128px 64px;gap:32px}
+ html[lang=ko] body .agency-home-hero .hero-description{font-size:16px}
+ html[lang=ko] body .agency-work-mosaic:is(.mosaic-0,.mosaic-1,.mosaic-2){padding:16px 16px 0}
+ html[lang=ko] body .agency-hero-scene .evidence-hero-caption{padding:16px}
+ html[lang=ko] body .agency-hero-scene .evidence-hero-caption h2{font-size:22px}
+ html[lang=ko] body .discipline-nav{padding:16px;gap:8px}
+ html[lang=ko] body .discipline-nav button{font-size:12px;padding:8px 12px}
+ html[lang=ko] body .discipline-panel .discipline-copy{display:block;padding:24px}
+ html[lang=ko] body .discipline-copy>.role-deliverables{margin-top:24px}
+ html[lang=ko] body .discipline-copy h3,
+ html[lang=ko] body .capability-copy h3{font-size:28px}
+ html[lang=ko] body .agency-editorial,
+ html[lang=ko] body .agency-editorial.editorial-light{padding:24px;min-height:0;gap:24px}
+ html[lang=ko] body .agency-editorial>strong,
+ html[lang=ko] body .agency-editorial.editorial-light>strong{font-size:28px}
+ html[lang=ko] body .apd-about-proof>.shell,
+ html[lang=ko] body .team-proof>.shell,
+ html[lang=ko] body .contact-reference-spread,
+ html[lang=ko] body [data-project-list]{grid-template-columns:minmax(0,1fr);gap:48px}
+ html[lang=ko] body .apd-proof-figure>a,
+ html[lang=ko] body .team-proof-image>a,
+ html[lang=ko] body .contact-reference figure>a,
+ html[lang=ko] body .portfolio-piece .portfolio-shot{padding:16px}
+ html[lang=ko] body .team-collaboration,
+ html[lang=ko] body .contact-brief,
+ html[lang=ko] body .contact-faq{grid-template-columns:minmax(0,1fr);gap:24px}
+ html[lang=ko] body .team-role-notes>div,
+ html[lang=ko] body .team-spread-web .team-role-notes>div{grid-template-columns:80px 1fr}
+ html[lang=ko] body .portfolio-piece .project-caption{padding-top:24px}
+ html[lang=ko] body .portfolio-piece .project-caption .portfolio-summary{font-size:16px}
+ html[lang=ko] body .process-preview-question{padding-left:24px}
+ html[lang=ko] body .process-preview-question strong{font-size:28px}
+ html[lang=ko] body[data-case-slug=sales-rehearsal] .case-cover{padding:24px}
+ html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery]{grid-template-columns:1fr;gap:32px}
+ html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery] .capture-open{padding:16px}
+}
+
+/* Company introduction. The photograph establishes an audience, not a case study. */
+html[lang=ko] body .home-hero.agency-hero{position:relative;display:flex;align-items:center;min-height:clamp(720px,88svh,880px);height:auto;padding:192px 0 96px;background:#071914;color:#fff;overflow:hidden;isolation:isolate}
+html[lang=ko] body .agency-hero-media{position:absolute;inset:-48px 0;z-index:-2;pointer-events:none}
+html[lang=ko] body .agency-hero-media picture{display:block;width:100%;height:100%}
+html[lang=ko] body .agency-hero-media img{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 45%}
+html[lang=ko] body .agency-hero-shade{position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(3,18,14,.86) 0%,rgba(3,18,14,.72) 40%,rgba(3,18,14,.3) 78%,rgba(3,18,14,.14) 100%),linear-gradient(0deg,rgba(3,18,14,.82) 0%,rgba(3,18,14,.12) 60%)}
+html[lang=ko] body .agency-hero-content{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:32px;z-index:1}
+html[lang=ko] body .agency-hero-content>.eyebrow{font-size:12px;line-height:1.5;letter-spacing:.12em;color:#d2e6de;margin:0}
+html[lang=ko] body .agency-hero-content h1{max-width:1120px;margin:0;font-size:clamp(72px,5.6vw,96px);font-weight:620;letter-spacing:-.055em;line-height:1.12;color:#fff;word-break:keep-all;overflow-wrap:normal}
+html[lang=ko] body .agency-hero-content h1 em{color:#b9f0d9;-webkit-text-stroke:0}
+html[lang=ko] body .agency-hero-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:48px;width:100%;margin-top:16px}
+html[lang=ko] body .agency-hero-description{max-width:560px;font-size:18px;line-height:1.6;color:#e4eee9}
+html[lang=ko] body .agency-hero .hero-ctas{display:flex;align-items:center;flex-wrap:wrap;gap:24px;margin:0}
+html[lang=ko] body .agency-hero .button{height:48px;min-height:48px;padding:0 24px;border:1px solid #b9f0d9;border-radius:8px;background:#b9f0d9;color:#08251b;font-size:14px;font-weight:650;box-shadow:none;gap:32px}
+html[lang=ko] body .agency-hero .button:hover{background:#d4f8e8;border-color:#d4f8e8}
+html[lang=ko] body .agency-hero .text-link{min-height:48px;font-size:14px;color:#fff;gap:16px}
+html[lang=ko] body .agency-hero :focus-visible{outline-color:#b9f0d9}
+html[lang=ko] body .agency-photo-credit{position:absolute;right:max(32px,calc((100vw - 1280px)/2));bottom:24px;z-index:2;color:#e4eee9;font-size:11px;line-height:1.5;text-decoration:underline;text-underline-offset:4px}
+html[lang=ko] body .agency-assurance{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px;padding-block:32px;border-bottom:1px solid var(--line);color:var(--text)}
+html[lang=ko] body .agency-assurance p{margin:0;display:flex;flex-direction:column;gap:8px;font-size:16px;line-height:1.6}
+html[lang=ko] body .agency-assurance span{font-size:12px;color:var(--muted)}
+html[lang=ko] body .agency-assurance strong{font-size:16px;font-weight:550;letter-spacing:-.02em}
+html[lang=ko] body .page-hero-scope{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-column:1/-1;gap:32px;width:100%;border-top:1px solid var(--line);padding-top:24px;margin-top:32px}
+html[lang=ko] body .page-hero-scope>span{font-size:15px;line-height:1.6;color:var(--muted);word-break:keep-all}
+@media(max-width:1059px){
+ html[lang=ko] body .home-hero.agency-hero{min-height:720px;padding-block:168px 88px}
+ html[lang=ko] body .agency-hero-content h1{font-size:clamp(52px,7vw,72px)}
+ html[lang=ko] body .agency-hero-bottom{flex-direction:column;align-items:flex-start;gap:32px}
+ html[lang=ko] body .agency-photo-credit{right:24px}
+ html[lang=ko] body .agency-assurance{gap:24px}
+}
+@media(max-width:760px){
+ html[lang=ko] body .home-hero.agency-hero{min-height:680px;padding-block:152px 96px;align-items:center}
+ html[lang=ko] body .agency-hero-media{inset:0}
+ html[lang=ko] body .agency-hero-media img{object-position:60% 42%}
+ html[lang=ko] body .agency-hero-shade{background:linear-gradient(90deg,rgba(3,18,14,.74),rgba(3,18,14,.48)),linear-gradient(0deg,rgba(3,18,14,.9),rgba(3,18,14,.12) 85%)}
+ html[lang=ko] body .agency-hero-content{gap:24px}
+ html[lang=ko] body .agency-hero-content>.eyebrow{font-size:10px;letter-spacing:.06em;max-width:300px;line-height:1.6}
+ html[lang=ko] body .agency-hero-content h1{font-size:clamp(38px,11.3vw,48px);line-height:1.18;letter-spacing:-.05em}
+ html[lang=ko] body .agency-hero-bottom{gap:24px;margin-top:8px}
+ html[lang=ko] body .agency-hero-description{font-size:16px;line-height:1.6;max-width:100%}
+ html[lang=ko] body .agency-hero .hero-ctas{gap:16px}
+ html[lang=ko] body .agency-hero .button{padding-inline:16px;gap:16px;font-size:13px}
+ html[lang=ko] body .agency-hero .text-link{font-size:13px;gap:12px}
+ html[lang=ko] body .agency-photo-credit{right:16px;bottom:24px;font-size:10px}
+ html[lang=ko] body .agency-assurance{grid-template-columns:1fr;gap:24px;padding-block:32px}
+ html[lang=ko] body .agency-assurance p{display:grid;grid-template-columns:80px minmax(0,1fr);align-items:baseline;gap:16px}
+ html[lang=ko] body .agency-assurance strong{font-size:15px}
+ html[lang=ko] body .page-hero-scope{grid-template-columns:1fr;gap:16px;margin-top:24px}
+ html[lang=ko] body .page-hero-scope>span{font-size:14px}
+}

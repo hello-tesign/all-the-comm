@@ -1,0 +1,39 @@
+[
+  {
+    "name": "dfy",
+    "url": "https://dfy.co.kr/",
+    "state": {
+      "text": "DEFY THE CURRENT\nTM\nDEFY THE CURRENT\nTM\nDEFY THE CURRENT\nTM\n2011",
+      "scrollY": 0,
+      "scrollHeight": 1000,
+      "videos": [],
+      "links": [
+        {
+          "text": "HOME",
+          "href": "https://dfy.co.kr/"
+        },
+        {
+          "text": "WORK",
+          "href": "https://dfy.co.kr/work"
+        },
+        {
+          "text": "SERVICES",
+          "href": "https://dfy.co.kr/services"
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://dfy.co.kr/about"
+        },
+        {
+          "text": "CONTACT",
+          "href": "https://dfy.co.kr/contact"
+        }
+      ]
+    }
+  },
+  {
+    "name": "plus-x",
+    "url": "https://www.plus-ex.com/",
+    "error": "mouse.wheel: Target page, context or browser has been closed"
+  }
+]

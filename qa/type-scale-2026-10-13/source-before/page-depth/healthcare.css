@@ -1,0 +1,42 @@
+/* Korean modules only. Static editorial content remains readable without motion. */
+html[lang=ko] .healthcare-kicker{font-size:12px;font-weight:650;letter-spacing:.055em;line-height:1.5;margin:0 0 24px;color:#326b61}
+html[lang=ko] .healthcare-home{background:#e2eee7;color:var(--ink);padding-block:96px}
+html[lang=ko] .healthcare-home-inner{display:grid;grid-template-columns:1.18fr 1fr;align-items:center;gap:64px}
+html[lang=ko] .healthcare-home h2{font-size:clamp(32px,3.4vw,48px);line-height:1.25;font-weight:610;letter-spacing:-.05em}
+html[lang=ko] .healthcare-home-copy{border-left:1px solid #aebeb4;padding-left:48px}
+html[lang=ko] .healthcare-home-copy p{font-size:16px;line-height:1.65;color:#34524e}
+html[lang=ko] .healthcare-home-copy .text-link{margin-top:24px;font-size:14px}
+html[lang=ko] .healthcare-about{padding-block:96px;background:#e9ebe2;color:var(--ink);scroll-margin-top:112px}
+html[lang=ko] .healthcare-about-heading{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:start}
+html[lang=ko] .healthcare-about h2{font-size:clamp(40px,4.6vw,64px);line-height:1.2;font-weight:590;letter-spacing:-.06em}
+html[lang=ko] .healthcare-about h2 em{color:#24634f}
+html[lang=ko] .healthcare-about-intro{padding-top:48px;max-width:480px}
+html[lang=ko] .healthcare-about-intro p{font-size:16px;line-height:1.65;color:#3e5751;margin-bottom:16px}
+html[lang=ko] .healthcare-about-intro .healthcare-lead{font-size:24px;line-height:1.6;color:var(--ink);font-weight:520;letter-spacing:-.028em;margin-bottom:24px}
+html[lang=ko] .healthcare-disciplines{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px;margin-top:64px;padding-top:40px;border-top:1px solid #abbab0}
+html[lang=ko] .healthcare-disciplines>div{min-width:0}
+html[lang=ko] .healthcare-disciplines h3{font-size:24px;font-weight:570;line-height:1.4;letter-spacing:-.04em;margin-bottom:16px}
+html[lang=ko] .healthcare-disciplines p{font-size:16px;line-height:1.65;color:#3e5751}
+html[lang=ko] .healthcare-disciplines span{display:block;margin-top:24px;font-size:12px;line-height:1.65;font-weight:550;color:#38685b;word-break:keep-all}
+html[lang=ko] .healthcare-partners{display:grid;grid-template-columns:1fr 1.6fr;gap:48px;align-items:center;margin-top:64px;padding:32px 0;border-block:1px solid #b9c4b9}
+html[lang=ko] .healthcare-partners h3{font-size:16px;font-weight:600;line-height:1.6;letter-spacing:-.02em}
+html[lang=ko] .healthcare-partners-caption p{font-size:12px;line-height:1.65;color:#576f62;margin-top:8px}
+html[lang=ko] .healthcare-partners ul{display:flex;flex-wrap:wrap;gap:16px 24px;justify-content:flex-end;list-style:none;margin:0;padding:0}
+html[lang=ko] .healthcare-partners li{font-size:14px;line-height:1.6;font-weight:540;white-space:nowrap}
+html[lang=ko] .healthcare-about-link{margin-top:24px;font-size:14px}
+html[lang=ko] .healthcare-service{width:100%;height:auto;min-width:0;padding:32px;background:#e9ebe2;color:var(--ink);text-align:left;overflow-wrap:break-word}
+html[lang=ko] .healthcare-service .healthcare-brief-top{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding-bottom:16px;border-bottom:1px solid #a9b5aa}
+html[lang=ko] .healthcare-service .healthcare-brief-top p{font-size:13px;font-weight:650;line-height:1.5;margin:0;color:#285a4b}
+html[lang=ko] .healthcare-brief-top>span{font-size:12px;line-height:1.5;color:#51695d;white-space:nowrap}
+html[lang=ko] .healthcare-service h3{font-size:clamp(32px,2.55vw,40px);line-height:1.25;letter-spacing:-.045em;font-weight:610;margin:24px 0 16px}
+html[lang=ko] .healthcare-service .healthcare-brief-intro{font-size:14px;line-height:1.65;color:#465e52;margin:0;max-width:39em}
+html[lang=ko] .healthcare-interview{margin:24px 0;padding:0}
+html[lang=ko] .healthcare-interview>div{display:grid;grid-template-columns:88px 1fr;gap:24px;align-items:baseline;padding:16px 0;border-bottom:1px solid #c2cbbf}
+html[lang=ko] .healthcare-interview dt{font-size:12px;line-height:1.65;color:#406657;font-weight:600;word-break:keep-all}
+html[lang=ko] .healthcare-interview dd{font-size:16px;line-height:1.65;letter-spacing:-.018em;word-break:keep-all;margin:0;font-weight:520}
+html[lang=ko] .healthcare-brief-output h4{font-size:16px;line-height:1.5;letter-spacing:-.025em;font-weight:620;margin:0 0 8px}
+html[lang=ko] .healthcare-brief-output p{font-size:14px;line-height:1.65;color:#465e52;margin:0}
+html[lang=ko] .healthcare-brief-output ul{display:flex;flex-wrap:wrap;gap:8px 16px;margin:16px 0 0;padding:0;list-style:none}
+html[lang=ko] .healthcare-brief-output li{font-size:12px;line-height:1.6;color:#32634f;font-weight:600}
+@media(max-width:1100px){html[lang=ko] .healthcare-home-inner,html[lang=ko] .healthcare-about-heading{gap:48px}html[lang=ko] .healthcare-home-copy{padding-left:32px}html[lang=ko] .healthcare-disciplines{gap:32px}html[lang=ko] .healthcare-about-intro .healthcare-lead{font-size:20px}html[lang=ko] .healthcare-interview>div{grid-template-columns:80px 1fr;gap:16px}}
+@media(max-width:760px){html[lang=ko] .healthcare-home{padding-block:64px}html[lang=ko] .healthcare-home-inner,html[lang=ko] .healthcare-about-heading{grid-template-columns:1fr;gap:32px}html[lang=ko] .healthcare-home-copy{border-left:0;padding-left:0}html[lang=ko] .healthcare-home h2{font-size:32px}html[lang=ko] .healthcare-about{padding-block:64px}html[lang=ko] .healthcare-about h2{font-size:40px}html[lang=ko] .healthcare-about-intro{padding:0;max-width:none}html[lang=ko] .healthcare-about-intro .healthcare-lead{font-size:20px;margin-bottom:24px}html[lang=ko] .healthcare-disciplines{grid-template-columns:1fr;margin-top:32px;gap:32px;padding-top:32px}html[lang=ko] .healthcare-disciplines span{margin-top:16px}html[lang=ko] .healthcare-partners{grid-template-columns:1fr;gap:24px;margin-top:32px;padding-block:24px}html[lang=ko] .healthcare-partners ul{justify-content:flex-start;gap:16px 24px}html[lang=ko] .healthcare-service{padding:24px}html[lang=ko] .healthcare-service h3{font-size:32px}html[lang=ko] .healthcare-interview>div{grid-template-columns:1fr;gap:8px;padding-block:16px}}

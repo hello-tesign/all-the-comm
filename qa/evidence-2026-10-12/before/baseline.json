@@ -1,0 +1,1014 @@
+{
+  "date": "2026-10-12T14:13:18.053Z",
+  "scope": "Read-only public SSR baseline before image replacement",
+  "pages": [
+    {
+      "locale": "ko",
+      "route": "/",
+      "status": 200,
+      "sha256": "bc503533fafc1453ba3ef12878cbf359d74eb015a86e3651a9d4fb9d639ff219",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "브랜드의 생각을\n세상의 장면으로."
+        },
+        {
+          "tag": "h2",
+          "text": "필요한 일을,\n함께 풀어갑니다."
+        },
+        {
+          "tag": "h2",
+          "text": "생각이 보이는 순간."
+        },
+        {
+          "tag": "h2",
+          "text": "기획의 이유가\n결과에 남도록."
+        },
+        {
+          "tag": "h2",
+          "text": "필요한 순간에,\n함께 생각할 팀."
+        }
+      ],
+      "abstract": {
+        "hero-art": 1,
+        "hero-art__fallback": 1,
+        "brand-canvas": 1,
+        "glass-plane": 24,
+        "service-symbol": 8,
+        "work-art": 1,
+        "work-screen": 1,
+        "work-poster": 1,
+        "process-word": 4,
+        "channel-composition": 1,
+        "channel-sheet": 3,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "ko",
+      "route": "/about/",
+      "status": 200,
+      "sha256": "cc8ed0bd4bca78ebc77952624f1aee54f1b2028e3e53214664fef6f5525ae74b",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "함께 생각할 사람들.\n끝까지 이어질 실행."
+        },
+        {
+          "tag": "h2",
+          "text": "할 일은 많은데,\n함께할 팀이 필요할 때."
+        },
+        {
+          "tag": "h2",
+          "text": "일하는 방식이\n회사를 설명합니다."
+        },
+        {
+          "tag": "h2",
+          "text": "고객의 선택으로\n이어지는 커뮤니케이션."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 0,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 1,
+        "principle-mark": 5,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "ko",
+      "route": "/process/",
+      "status": 200,
+      "sha256": "c943e31360358116162c562c4132b0ab67ff48ec6ec6a9abf6cf0e42f9b57956",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "처음의 질문을,\n마지막 결과까지."
+        },
+        {
+          "tag": "h2",
+          "text": "먼저, 사업을 이해합니다."
+        },
+        {
+          "tag": "h2",
+          "text": "움직일 방향을 정합니다."
+        },
+        {
+          "tag": "h2",
+          "text": "각자의 전문성으로 만듭니다."
+        },
+        {
+          "tag": "h2",
+          "text": "결과에서 다음을 찾습니다."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 4,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 4,
+        "chapter-orbit": 4,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "ko",
+      "route": "/team/",
+      "status": 200,
+      "sha256": "5a7c11c18fa1c7525032408e9449249b569da19c285a7944a55d82321f33c5c3",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "관점은 다르게.\n목표는 함께."
+        },
+        {
+          "tag": "h2",
+          "text": "하나의 과제를\n여러 시선으로."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 9,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 9,
+        "discipline-word": 9,
+        "discipline-lens": 9,
+        "discipline-orbit": 18
+      }
+    },
+    {
+      "locale": "ko",
+      "route": "/works/",
+      "status": 200,
+      "sha256": "ac54af11d53c43a2b08393f9601ca34a5ba1d2c104580dfeac45462ca1ffb830",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "서로 다른 전문성,\n하나의 프로젝트."
+        },
+        {
+          "tag": "h2",
+          "text": "화면으로 확인하는\n제작 역량."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 30,
+        "service-symbol": 10,
+        "work-art": 1,
+        "work-screen": 1,
+        "work-poster": 1,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "ko",
+      "route": "/contact/",
+      "status": 200,
+      "sha256": "78df6693d4d88d8f9b7d4229f94c6fc626ad9081a53e9f5e08e79d2a87106c54",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "어떤 일이\n필요한가요?"
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 0,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "ko",
+      "route": "/privacy/",
+      "status": 200,
+      "sha256": "3f83dc6ba0351b1ddcd0f32eeda2fb74d0de8b779d93624e1dba04a9920d146f",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "개인정보 처리 안내"
+        },
+        {
+          "tag": "h2",
+          "text": "처리 목적과 항목"
+        },
+        {
+          "tag": "h2",
+          "text": "보관과 삭제"
+        },
+        {
+          "tag": "h2",
+          "text": "접근과 보안"
+        },
+        {
+          "tag": "h2",
+          "text": "선택과 문의"
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 0,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "ko",
+      "route": "/works/project/all-the-comm/",
+      "status": 200,
+      "sha256": "e8247fbfbdb3c2296b20f942846d674fe120510e7587eb551a430a122a32cec4",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "올더커뮤니케이션"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "하나의 회사, 이어지는 경험."
+        },
+        {
+          "tag": "h2",
+          "text": "다양한 업무를,\n하나의 회사로."
+        },
+        {
+          "tag": "h2",
+          "text": "시작은,\n우리의 곡선에서."
+        },
+        {
+          "tag": "h2",
+          "text": "화면과 움직임,\n하나의 규칙으로."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 0,
+        "work-art": 1,
+        "work-screen": 1,
+        "work-poster": 1,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "en",
+      "route": "/en/",
+      "status": 200,
+      "sha256": "ec68a008609fc99f38224aea70b4fcd8793004389dd0f95aee0d4a7238b07a50",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "A clear thought.\nA new dimension."
+        },
+        {
+          "tag": "h2",
+          "text": "Different disciplines.\nOne conversation."
+        },
+        {
+          "tag": "h2",
+          "text": "Thinking, made visible."
+        },
+        {
+          "tag": "h2",
+          "text": "Every decision.\nPart of the outcome."
+        },
+        {
+          "tag": "h2",
+          "text": "Your challenge.\nOur shared focus."
+        }
+      ],
+      "abstract": {
+        "hero-art": 1,
+        "hero-art__fallback": 1,
+        "brand-canvas": 1,
+        "glass-plane": 24,
+        "service-symbol": 8,
+        "work-art": 1,
+        "work-screen": 1,
+        "work-poster": 1,
+        "process-word": 4,
+        "channel-composition": 1,
+        "channel-sheet": 3,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "en",
+      "route": "/en/about/",
+      "status": 200,
+      "sha256": "7896cbd2f8f70518508677c49dacca3e563802af50d68083452d6c550146d819",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "A team to think with.\nA partner to make with."
+        },
+        {
+          "tag": "h2",
+          "text": "When there’s more to do.\nAnd you need a team."
+        },
+        {
+          "tag": "h2",
+          "text": "Our way of working.\nOur point of view."
+        },
+        {
+          "tag": "h2",
+          "text": "Communications\nthat help people choose."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 0,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 1,
+        "principle-mark": 5,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "en",
+      "route": "/en/process/",
+      "status": 200,
+      "sha256": "db9cabd4332d23b9833108ac78776e235a35ea7aeca20ce55cb9676bf856fa62",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "From the first question.\nTo the next step."
+        },
+        {
+          "tag": "h2",
+          "text": "Understand the business."
+        },
+        {
+          "tag": "h2",
+          "text": "Choose a direction."
+        },
+        {
+          "tag": "h2",
+          "text": "Make it happen."
+        },
+        {
+          "tag": "h2",
+          "text": "Learn what comes next."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 4,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 4,
+        "chapter-orbit": 4,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "en",
+      "route": "/en/team/",
+      "status": 200,
+      "sha256": "9021df9dceef5e60a7fe81aaa55f36974e95f44ec12476f08e60adc3aa111f4d",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Different perspectives.\nShared purpose."
+        },
+        {
+          "tag": "h2",
+          "text": "One challenge.\nMore than one lens."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 9,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 9,
+        "discipline-word": 9,
+        "discipline-lens": 9,
+        "discipline-orbit": 18
+      }
+    },
+    {
+      "locale": "en",
+      "route": "/en/works/",
+      "status": 200,
+      "sha256": "4344d8bc6148bb1bbb0697eacf7dc2132fcde0593c03ee9e153922143c02326b",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Different disciplines.\nA shared ambition."
+        },
+        {
+          "tag": "h2",
+          "text": "Ideas in the world."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 30,
+        "service-symbol": 10,
+        "work-art": 1,
+        "work-screen": 1,
+        "work-poster": 1,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "en",
+      "route": "/en/contact/",
+      "status": 200,
+      "sha256": "df75f73d3f059bea3b341629ed3ec27ca6177dee60a24be20f49120c3aac6484",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "What are you\nthinking about?"
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 0,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "en",
+      "route": "/en/privacy/",
+      "status": 200,
+      "sha256": "137dd2266bd504f2ee322e33742631f7d916fe2b9cf8b6ca6a5e1eebd929364c",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Your information."
+        },
+        {
+          "tag": "h2",
+          "text": "Purpose and information collected"
+        },
+        {
+          "tag": "h2",
+          "text": "Storage and deletion"
+        },
+        {
+          "tag": "h2",
+          "text": "Access and security"
+        },
+        {
+          "tag": "h2",
+          "text": "Your choices and contact"
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 0,
+        "work-art": 0,
+        "work-screen": 0,
+        "work-poster": 0,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    },
+    {
+      "locale": "en",
+      "route": "/en/works/project/all-the-comm/",
+      "status": 200,
+      "sha256": "9e9d2ca23550c2e1071222c8c97c184d95355cc4dc4b99efc50db52999c40c19",
+      "images": [
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-symbol.svg",
+          "alt": ""
+        },
+        {
+          "src": "/brand/logo-horizontal-on-dark.svg",
+          "alt": "ALL THE COMMUNICATION"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "One company. A connected experience."
+        },
+        {
+          "tag": "h2",
+          "text": "Many disciplines.\nOne clear identity."
+        },
+        {
+          "tag": "h2",
+          "text": "It starts\nwith our own mark."
+        },
+        {
+          "tag": "h2",
+          "text": "One language.\nAcross every frame."
+        }
+      ],
+      "abstract": {
+        "hero-art": 0,
+        "hero-art__fallback": 0,
+        "brand-canvas": 0,
+        "glass-plane": 0,
+        "service-symbol": 0,
+        "work-art": 1,
+        "work-screen": 1,
+        "work-poster": 1,
+        "process-word": 0,
+        "channel-composition": 0,
+        "channel-sheet": 0,
+        "about-brand": 0,
+        "principle-mark": 0,
+        "chapter-art": 0,
+        "chapter-orbit": 0,
+        "discipline-art": 0,
+        "discipline-word": 0,
+        "discipline-lens": 0,
+        "discipline-orbit": 0
+      }
+    }
+  ]
+}

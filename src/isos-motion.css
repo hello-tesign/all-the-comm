@@ -1,0 +1,59 @@
+/* Original content is visible before initialization and after every cleanup. */
+@media (min-width: 1060px) and (prefers-reduced-motion: no-preference) {
+  html[lang="ko"].isos-motion-enabled .isos-word {
+    display: inline-block;
+    overflow: clip;
+    vertical-align: top;
+    padding-block: 0.025em 0.13em;
+    margin-block: -0.025em -0.13em;
+    white-space: nowrap;
+  }
+  html[lang="ko"].isos-motion-enabled .isos-word-inner {
+    display: inline-block;
+    transform-origin: 0 100%;
+    white-space: nowrap;
+  }
+  html[lang="ko"].isos-motion-enabled .isos-scene-playing .isos-word-inner {
+    will-change: transform;
+  }
+  html[lang="ko"].isos-motion-enabled .isos-scene-playing .glass-plane,
+  html[lang="ko"].isos-motion-enabled .isos-scene-playing .discipline-lens,
+  html[lang="ko"].isos-motion-enabled .isos-scene-playing .channel-sheet {
+    transition: none;
+    will-change: transform, opacity;
+  }
+  html[lang="ko"].isos-motion-enabled .isos-read-word {
+    display: inline-block;
+    white-space: nowrap;
+    color: #5b6c64;
+    transition: color 350ms cubic-bezier(.22, 1, .36, 1);
+  }
+  html[lang="ko"].isos-motion-enabled .isos-read-word.is-lit { color: #123d33; }
+  html[lang="ko"].isos-motion-enabled .isos-footer-copy {
+    display: block;
+    min-width: 0;
+    flex: 1;
+  }
+  html[lang="ko"].isos-motion-enabled .footer-invitation > svg,
+  html[lang="ko"].isos-motion-enabled .footer-invitation:hover > svg {
+    transition: color 250ms ease;
+    transform: none;
+  }
+  html[lang="ko"].isos-motion-enabled .inquiry-form .field > label {
+    transition: transform 220ms ease, color 220ms ease;
+  }
+  html[lang="ko"].isos-motion-enabled .inquiry-form .field:focus-within > label {
+    transform: translateX(3px);
+    color: #086c58;
+  }
+  html[lang="ko"].isos-motion-enabled .inquiry-form .field input:not([type="file"]),
+  html[lang="ko"].isos-motion-enabled .inquiry-form .field textarea {
+    transition: border-color 220ms ease, box-shadow 220ms ease, background-color 220ms ease;
+  }
+  html[lang="ko"].isos-motion-enabled .inquiry-form .field input:not([type="file"]):focus,
+  html[lang="ko"].isos-motion-enabled .inquiry-form .field textarea:focus {
+    border-color: #16856c;
+    background-color: #fbfffc;
+    box-shadow: 0 0 0 3px #59e3c622;
+  }
+}

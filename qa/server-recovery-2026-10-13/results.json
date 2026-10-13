@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-13T01:02:46.477Z",
+  "base": "http://127.0.0.1:4173",
+  "pages": [
+    {
+      "route": "/",
+      "url": "http://127.0.0.1:4173/",
+      "status": 200,
+      "title": "기획에서 실행까지 — 올더커뮤니케이션",
+      "h1": "좋은 사업을,\n선택받는 브랜드로.",
+      "bodyVisible": true,
+      "hero": {
+        "src": "/evidence/sojukdoo-product.jpg",
+        "alt": "소적두 기존 단팥빵 상품 사진",
+        "naturalWidth": 900,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "route": "/works/",
+      "url": "http://127.0.0.1:4173/works/",
+      "status": 200,
+      "title": "업무와 프로젝트 — 올더커뮤니케이션",
+      "h1": "서로 다른 전문성,\n하나의 프로젝트.",
+      "bodyVisible": true
+    },
+    {
+      "route": "/contact/",
+      "url": "http://127.0.0.1:4173/contact/",
+      "status": 200,
+      "title": "프로젝트 문의 — 올더커뮤니케이션",
+      "h1": "어떤 일이\n필요한가요?",
+      "bodyVisible": true,
+      "contactForm": {
+        "visible": true,
+        "submitButtonCount": 1,
+        "status": ""
+      }
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "blockedWrites": [],
+  "passed": true
+}

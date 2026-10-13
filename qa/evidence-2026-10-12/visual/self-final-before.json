@@ -1,0 +1,29 @@
+{
+  "box": {
+    "x": 64.796875,
+    "y": 110.078125,
+    "width": 1310.390625,
+    "height": 650,
+    "top": 110.078125,
+    "right": 1375.1875,
+    "bottom": 760.078125,
+    "left": 64.796875
+  },
+  "html": "<div class=\"portfolio-shot evidence-self-shot\"><button type=\"button\" class=\"capture-open\" aria-label=\"올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면 확대 보기\" style=\"\"><img class=\"project-image-real\" src=\"/evidence/allthecomm-inquiry.png\" alt=\"올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면\" loading=\"lazy\" width=\"1548\" height=\"2142\"><span class=\"capture-hint\">화면 크게 보기 ↗</span></button></div>",
+  "images": [
+    {
+      "box": {
+        "x": 109.796875,
+        "y": 155.078125,
+        "width": 950,
+        "height": 1314.53125,
+        "top": 155.078125,
+        "right": 1059.796875,
+        "bottom": 1469.609375,
+        "left": 109.796875
+      },
+      "fit": "contain",
+      "maxHeight": "none"
+    }
+  ]
+}

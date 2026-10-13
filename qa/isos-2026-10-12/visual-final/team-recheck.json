@@ -1,0 +1,113 @@
+{
+  "generated": "2026-10-12T13:47:58.086Z",
+  "url": "http://127.0.0.1:4173/team/",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "opacity": [
+    {
+      "text": "ALL THE EXPERTISE. TOGETHER.",
+      "opacity": "1",
+      "transform": "none",
+      "visibility": "visible"
+    },
+    {
+      "text": "인플루언서",
+      "opacity": "1",
+      "transform": "none",
+      "visibility": "visible"
+    },
+    {
+      "text": "협업할 크리에이터를 찾고 브랜드와 콘텐츠를 연결합니다.",
+      "opacity": "1",
+      "transform": "none",
+      "visibility": "visible"
+    },
+    {
+      "text": "함께 만드는 것크리에이터 선정·협업 기획콘텐츠 제작 협의·진행 관리캠페인 결과 정리",
+      "opacity": "1",
+      "transform": "none",
+      "visibility": "visible"
+    },
+    {
+      "text": "프로젝트 이야기하기",
+      "opacity": "1",
+      "transform": "none",
+      "visibility": "visible"
+    }
+  ],
+  "allCopyVisible": true,
+  "errors": [],
+  "blockedWrites": 0,
+  "serviceTabs": [
+    {
+      "text": "전략·브랜딩",
+      "top": 174.59375,
+      "left": 64.796875,
+      "width": 222
+    },
+    {
+      "text": "디지털 마케팅",
+      "top": 174.59375,
+      "left": 296.796875,
+      "width": 222
+    },
+    {
+      "text": "콘텐츠·디자인",
+      "top": 174.59375,
+      "left": 528.796875,
+      "width": 222
+    },
+    {
+      "text": "영상 제작",
+      "top": 174.59375,
+      "left": 760.796875,
+      "width": 222
+    },
+    {
+      "text": "미디어·오프라인 광고",
+      "top": 174.59375,
+      "left": 992.796875,
+      "width": 222
+    },
+    {
+      "text": "인플루언서 마케팅",
+      "top": 231.59375,
+      "left": 64.796875,
+      "width": 222
+    },
+    {
+      "text": "병원 마케팅",
+      "top": 231.59375,
+      "left": 296.796875,
+      "width": 222
+    },
+    {
+      "text": "사업·글로벌 컨설팅",
+      "top": 231.59375,
+      "left": 528.796875,
+      "width": 222
+    },
+    {
+      "text": "IT 솔루션 지원",
+      "top": 231.59375,
+      "left": 760.796875,
+      "width": 222
+    },
+    {
+      "text": "언론홍보",
+      "top": 231.59375,
+      "left": 992.796875,
+      "width": 222
+    }
+  ],
+  "fileField": {
+    "text": "참고자료 (선택)\n파일 선택\n선택한 파일이 없습니다\n\nPDF, JPG, PNG · 최대 3개 · 파일당 3MB. 첨부자료는 공개되지 않습니다.",
+    "nativeComputed": {
+      "width": 772.59375,
+      "height": 58,
+      "opacity": "0"
+    }
+  }
+}

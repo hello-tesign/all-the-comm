@@ -1,0 +1,269 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "errors": [],
+    "blocked": [],
+    "lang": "ko",
+    "overflow": true,
+    "sections": [
+      {
+        "id": "home",
+        "heading": "기업의 가치를 알리고,성장의 방향을 만듭니다."
+      },
+      {
+        "id": "about"
+      },
+      {
+        "id": "services",
+        "heading": "하나의 목표, 아홉 가지 실행 역량"
+      },
+      {
+        "id": "process",
+        "heading": "일은 설명이 아니라흐름으로 증명됩니다"
+      },
+      {
+        "id": "",
+        "heading": "올더커뮤니케이션이 일하는네 가지 기준"
+      },
+      {
+        "id": "team",
+        "heading": "서로 다른 전문성을 하나의 목표로"
+      },
+      {
+        "id": "works",
+        "heading": "결과물보다 먼저,판단의 과정을 봅니다"
+      },
+      {
+        "id": "contact",
+        "heading": "지금 필요한 마케팅, 함께 방향을 찾겠습니다."
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/case-health.jpg",
+        "loaded": false
+      },
+      {
+        "src": "assets/case-food.jpg",
+        "loaded": false
+      },
+      {
+        "src": "assets/case-tech.jpg",
+        "loaded": false
+      }
+    ],
+    "externalScripts": [],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": null,
+        "target": "about"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": null,
+        "target": "process"
+      },
+      {
+        "text": "TEAM",
+        "href": null,
+        "target": "team"
+      },
+      {
+        "text": "WORKS",
+        "href": null,
+        "target": "works"
+      },
+      {
+        "text": "CONTACT",
+        "href": null,
+        "target": "contact"
+      }
+    ],
+    "forms": [
+      {
+        "action": null,
+        "method": null
+      }
+    ]
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "errors": [],
+    "blocked": [],
+    "lang": "ko",
+    "overflow": false,
+    "sections": [
+      {
+        "id": "home",
+        "heading": "기업의 가치를 알리고,성장의 방향을 만듭니다."
+      },
+      {
+        "id": "about"
+      },
+      {
+        "id": "services",
+        "heading": "하나의 목표,아홉 가지 실행 역량"
+      },
+      {
+        "id": "process",
+        "heading": "일은 설명이 아니라흐름으로 증명됩니다"
+      },
+      {
+        "id": "",
+        "heading": "올더커뮤니케이션이 일하는네 가지 기준"
+      },
+      {
+        "id": "team",
+        "heading": "서로 다른 전문성을하나의 목표로"
+      },
+      {
+        "id": "works",
+        "heading": "결과물보다 먼저,판단의 과정을 봅니다"
+      },
+      {
+        "id": "contact",
+        "heading": "지금 필요한 마케팅,함께 방향을찾겠습니다."
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/case-health.jpg",
+        "loaded": false
+      },
+      {
+        "src": "assets/case-food.jpg",
+        "loaded": false
+      },
+      {
+        "src": "assets/case-tech.jpg",
+        "loaded": false
+      }
+    ],
+    "externalScripts": [],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": null,
+        "target": "about"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": null,
+        "target": "process"
+      },
+      {
+        "text": "TEAM",
+        "href": null,
+        "target": "team"
+      },
+      {
+        "text": "WORKS",
+        "href": null,
+        "target": "works"
+      },
+      {
+        "text": "CONTACT",
+        "href": null,
+        "target": "contact"
+      }
+    ],
+    "forms": [
+      {
+        "action": null,
+        "method": null
+      }
+    ]
+  },
+  {
+    "name": "reduced",
+    "width": 1440,
+    "errors": [],
+    "blocked": [],
+    "lang": "ko",
+    "overflow": true,
+    "sections": [
+      {
+        "id": "home",
+        "heading": "기업의 가치를 알리고,성장의 방향을 만듭니다."
+      },
+      {
+        "id": "about"
+      },
+      {
+        "id": "services",
+        "heading": "하나의 목표,아홉 가지 실행 역량"
+      },
+      {
+        "id": "process",
+        "heading": "일은 설명이 아니라흐름으로 증명됩니다"
+      },
+      {
+        "id": "",
+        "heading": "올더커뮤니케이션이 일하는네 가지 기준"
+      },
+      {
+        "id": "team",
+        "heading": "서로 다른 전문성을하나의 목표로"
+      },
+      {
+        "id": "works",
+        "heading": "결과물보다 먼저,판단의 과정을 봅니다"
+      },
+      {
+        "id": "contact",
+        "heading": "지금 필요한 마케팅,함께 방향을찾겠습니다."
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/case-health.jpg",
+        "loaded": false
+      },
+      {
+        "src": "assets/case-food.jpg",
+        "loaded": false
+      },
+      {
+        "src": "assets/case-tech.jpg",
+        "loaded": false
+      }
+    ],
+    "externalScripts": [],
+    "nav": [
+      {
+        "text": "ABOUT US",
+        "href": null,
+        "target": "about"
+      },
+      {
+        "text": "OUR PROCESS",
+        "href": null,
+        "target": "process"
+      },
+      {
+        "text": "TEAM",
+        "href": null,
+        "target": "team"
+      },
+      {
+        "text": "WORKS",
+        "href": null,
+        "target": "works"
+      },
+      {
+        "text": "CONTACT",
+        "href": null,
+        "target": "contact"
+      }
+    ],
+    "forms": [
+      {
+        "action": null,
+        "method": null
+      }
+    ]
+  }
+]

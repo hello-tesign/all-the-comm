@@ -1,0 +1,579 @@
+{
+  "scope": "Actual 4173 integration; page lifecycle tested with persisted page events; no server writes",
+  "results": [
+    {
+      "engine": "chromium",
+      "items": [
+        {
+          "name": "three real hero frames integrated",
+          "pass": true
+        },
+        {
+          "name": "one visible hero frame",
+          "pass": true
+        },
+        {
+          "name": "KO abstract hero canvas removed",
+          "pass": true
+        },
+        {
+          "name": "desktop width contained",
+          "pass": true
+        },
+        {
+          "name": "hero tab 0 app selection",
+          "pass": true
+        },
+        {
+          "name": "hero 0 images loaded and mask cleared",
+          "pass": true
+        },
+        {
+          "name": "hero 0 caption fixed and readable",
+          "pass": true
+        },
+        {
+          "name": "hero tab 1 app selection",
+          "pass": true
+        },
+        {
+          "name": "hero 1 images loaded and mask cleared",
+          "pass": true
+        },
+        {
+          "name": "hero 1 caption fixed and readable",
+          "pass": true
+        },
+        {
+          "name": "hero tab 2 app selection",
+          "pass": true
+        },
+        {
+          "name": "hero 2 images loaded and mask cleared",
+          "pass": true
+        },
+        {
+          "name": "hero 2 caption fixed and readable",
+          "pass": true
+        },
+        {
+          "name": "keyboard ArrowRight wraps hero",
+          "pass": true
+        },
+        {
+          "name": "keyboard End selects last hero",
+          "pass": true
+        },
+        {
+          "name": "keyboard Home selects first hero",
+          "pass": true
+        },
+        {
+          "name": "service 0 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 0 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 1 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 1 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 2 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 2 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 3 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 3 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 4 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 4 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 5 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 6 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 6 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 7 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "actual service figure images integrated",
+          "pass": true,
+          "data": {
+            "withImages": 6,
+            "count": 8
+          }
+        },
+        {
+          "name": "abstract service lenses removed",
+          "pass": true
+        },
+        {
+          "name": "persisted page lifecycle recovers module",
+          "pass": true
+        },
+        {
+          "name": "live reduced motion fully restores evidence styles",
+          "pass": true
+        },
+        {
+          "name": "hero selection still works in reduced motion",
+          "pass": true
+        },
+        {
+          "name": "mobile enhancement remains off",
+          "pass": true
+        },
+        {
+          "name": "mobile width contained",
+          "pass": true
+        },
+        {
+          "name": "TEAM 0 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 0 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 1 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 1 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 2 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 2 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 3 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 3 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 4 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 4 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 5 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 5 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 6 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 6 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 7 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 7 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 8 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM imagery integrated",
+          "pass": true,
+          "data": {
+            "teamImages": 8,
+            "teamCount": 9
+          }
+        },
+        {
+          "name": "TEAM abstract lenses removed",
+          "pass": true
+        },
+        {
+          "name": "runtime errors zero",
+          "pass": true,
+          "data": []
+        }
+      ],
+      "heroStates": [
+        {
+          "title": "제품의 좋은 점이고르는 이유가 되도록.",
+          "images": [
+            {
+              "src": "http://127.0.0.1:4173/evidence/sojukdoo-product.jpg",
+              "naturalWidth": 900,
+              "naturalHeight": 900,
+              "clip": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ],
+          "captionOpacity": "1"
+        },
+        {
+          "title": "궁금했던 서비스가상담하고 싶은 경험으로.",
+          "images": [
+            {
+              "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "clip": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ],
+          "captionOpacity": "1"
+        },
+        {
+          "title": "반복되는 업무에도이어지는 기준이 있도록.",
+          "images": [
+            {
+              "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+              "naturalWidth": 1440,
+              "naturalHeight": 1558,
+              "clip": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ],
+          "captionOpacity": "1"
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "engine": "webkit",
+      "items": [
+        {
+          "name": "three real hero frames integrated",
+          "pass": true
+        },
+        {
+          "name": "one visible hero frame",
+          "pass": true
+        },
+        {
+          "name": "KO abstract hero canvas removed",
+          "pass": true
+        },
+        {
+          "name": "desktop width contained",
+          "pass": true
+        },
+        {
+          "name": "hero tab 0 app selection",
+          "pass": true
+        },
+        {
+          "name": "hero 0 images loaded and mask cleared",
+          "pass": true
+        },
+        {
+          "name": "hero 0 caption fixed and readable",
+          "pass": true
+        },
+        {
+          "name": "hero tab 1 app selection",
+          "pass": true
+        },
+        {
+          "name": "hero 1 images loaded and mask cleared",
+          "pass": true
+        },
+        {
+          "name": "hero 1 caption fixed and readable",
+          "pass": true
+        },
+        {
+          "name": "hero tab 2 app selection",
+          "pass": true
+        },
+        {
+          "name": "hero 2 images loaded and mask cleared",
+          "pass": true
+        },
+        {
+          "name": "hero 2 caption fixed and readable",
+          "pass": true
+        },
+        {
+          "name": "keyboard ArrowRight wraps hero",
+          "pass": true
+        },
+        {
+          "name": "keyboard End selects last hero",
+          "pass": true
+        },
+        {
+          "name": "keyboard Home selects first hero",
+          "pass": true
+        },
+        {
+          "name": "service 0 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 0 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 1 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 1 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 2 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 2 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 3 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 3 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 4 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 4 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 5 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 6 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "service 6 images restored",
+          "pass": true
+        },
+        {
+          "name": "service 7 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "actual service figure images integrated",
+          "pass": true,
+          "data": {
+            "withImages": 6,
+            "count": 8
+          }
+        },
+        {
+          "name": "abstract service lenses removed",
+          "pass": true
+        },
+        {
+          "name": "persisted page lifecycle recovers module",
+          "pass": true
+        },
+        {
+          "name": "live reduced motion fully restores evidence styles",
+          "pass": true
+        },
+        {
+          "name": "hero selection still works in reduced motion",
+          "pass": true
+        },
+        {
+          "name": "mobile enhancement remains off",
+          "pass": true
+        },
+        {
+          "name": "mobile width contained",
+          "pass": true
+        },
+        {
+          "name": "TEAM 0 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 0 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 1 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 1 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 2 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 2 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 3 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 3 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 4 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 4 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 5 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 5 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 6 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 6 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 7 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM 7 image mask restored",
+          "pass": true
+        },
+        {
+          "name": "TEAM 8 immediately readable",
+          "pass": true
+        },
+        {
+          "name": "TEAM imagery integrated",
+          "pass": true,
+          "data": {
+            "teamImages": 8,
+            "teamCount": 9
+          }
+        },
+        {
+          "name": "TEAM abstract lenses removed",
+          "pass": true
+        },
+        {
+          "name": "runtime errors zero",
+          "pass": true,
+          "data": []
+        }
+      ],
+      "heroStates": [
+        {
+          "title": "제품의 좋은 점이고르는 이유가 되도록.",
+          "images": [
+            {
+              "src": "http://127.0.0.1:4173/evidence/sojukdoo-product.jpg",
+              "naturalWidth": 900,
+              "naturalHeight": 900,
+              "clip": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ],
+          "captionOpacity": "1"
+        },
+        {
+          "title": "궁금했던 서비스가상담하고 싶은 경험으로.",
+          "images": [
+            {
+              "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+              "naturalWidth": 1440,
+              "naturalHeight": 900,
+              "clip": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ],
+          "captionOpacity": "1"
+        },
+        {
+          "title": "반복되는 업무에도이어지는 기준이 있도록.",
+          "images": [
+            {
+              "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+              "naturalWidth": 1440,
+              "naturalHeight": 1558,
+              "clip": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ],
+          "captionOpacity": "1"
+        }
+      ],
+      "consoleErrors": []
+    }
+  ]
+}

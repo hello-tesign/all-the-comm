@@ -1,0 +1,122 @@
+[
+  {
+    "engine": "chromium",
+    "stats": {
+      "cards": 6,
+      "bound": 6,
+      "bars": 1,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-sojukdoo-commerce.png",
+          "complete": true,
+          "w": 1440,
+          "h": 900,
+          "transform": "none"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+          "complete": true,
+          "w": 1440,
+          "h": 900,
+          "transform": "none"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+          "complete": true,
+          "w": 1600,
+          "h": 1050,
+          "transform": "none"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+          "complete": true,
+          "w": 1440,
+          "h": 1000,
+          "transform": "none"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+          "complete": true,
+          "w": 1440,
+          "h": 1558,
+          "transform": "none"
+        }
+      ],
+      "overflow": false
+    },
+    "detail": {
+      "url": "/works/project/sojukdoo-concept/",
+      "captureCase": true,
+      "bound": 2,
+      "bars": 1,
+      "cover": true,
+      "gallery": 1
+    },
+    "reduced": {
+      "bound": 0,
+      "bars": 0,
+      "coverTransform": "none"
+    },
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "stats": {
+      "cards": 6,
+      "bound": 6,
+      "bars": 1,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-sojukdoo-commerce.png",
+          "complete": true,
+          "w": 1440,
+          "h": 900,
+          "transform": "none"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+          "complete": false,
+          "w": 0,
+          "h": 0,
+          "transform": "none"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+          "complete": false,
+          "w": 0,
+          "h": 0,
+          "transform": "none"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+          "complete": false,
+          "w": 0,
+          "h": 0,
+          "transform": "none"
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+          "complete": false,
+          "w": 0,
+          "h": 0,
+          "transform": "none"
+        }
+      ],
+      "overflow": false
+    },
+    "detail": {
+      "url": "/works/project/sojukdoo-concept/",
+      "captureCase": true,
+      "bound": 2,
+      "bars": 1,
+      "cover": true,
+      "gallery": 1
+    },
+    "reduced": {
+      "bound": 0,
+      "bars": 0,
+      "coverTransform": "none"
+    },
+    "errors": []
+  }
+]

@@ -1,0 +1,384 @@
+[
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "2026-10-13 사용자 제공 사이트·책·대시보드 화면 활용 요청. refinement-2026-10-13",
+    "featured": false,
+    "videoUrls": [],
+    "slug": "kfood-dashboard",
+    "title": "먹거리사전 — 소싱을 위한 작업 화면",
+    "client": "먹거리사전 / K-Food",
+    "type": "대시보드 개발 · MVP",
+    "industry": "식품 · 소싱 · 정보 서비스",
+    "services": [
+      "it",
+      "consulting"
+    ],
+    "coverImage": "/evidence/expansion/kfood-dashboard.png",
+    "summary": "월별 품목과 소싱 정보를 탐색하고 검토할 수 있도록 구성한 업무 대시보드.",
+    "scope": "대시보드 UI · 월별 품목 탐색 · 소싱 정보 구조 · 산지 지도",
+    "problem": "식품 품목을 검토할 때는 계절과 품목, 산지의 정보를 함께 살펴야 합니다. 정보의 양보다 담당자가 지금 어떤 후보부터 검토할지 찾을 수 있는 구조가 필요했습니다.",
+    "strategy": "월별 품목 탐색을 중심에 두고 소싱 관련 정보와 산지 지도로 이동할 수 있도록 화면을 나눴습니다. 운영 데이터와 참고 정보의 상태를 화면 안에서 확인하는 구조를 적용했습니다.",
+    "execution": "먹거리사전 대시보드와 월별 품목 탐색, 산지 지도 화면을 제작했습니다. 목록과 탐색 도구를 연결하고, MVP 단계의 폴백·데이터 상태를 구분해 표시했습니다.",
+    "result": "식품 소싱 정보를 검토하는 작업 화면을 구현했습니다. 품목 탐색과 산지 확인의 이동 경로를 실제 제작 화면에서 확인할 수 있습니다.\n\n개발 MVP의 공개 화면입니다. 구매·계약 체결이나 소싱 성과를 뜻하지 않습니다.",
+    "gallery": [
+      {
+        "file": "kfood-map.png",
+        "alt": "먹거리사전의 산지 지도 화면",
+        "caption": "산지와 품목을 함께 살펴보는 지도 화면 · 개발 MVP"
+      }
+    ]
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "2026-10-13 사용자 제공 사이트·책·대시보드 화면 활용 요청. refinement-2026-10-13",
+    "featured": false,
+    "videoUrls": [],
+    "slug": "kings-franchise",
+    "title": "Kings — 가맹을 검토하는 사람을 위한 웹",
+    "client": "Kings",
+    "type": "가맹 모집 웹 · 제작자 프로젝트",
+    "industry": "외식 · 프랜차이즈 · 브랜드 웹",
+    "services": [
+      "content",
+      "it"
+    ],
+    "coverImage": "/evidence/expansion/kings-home.png",
+    "summary": "브랜드와 메뉴의 소개에서 사업 정보 확인과 가맹 상담까지 이어지는 웹사이트.",
+    "scope": "가맹 모집 정보 구조 · 브랜드·메뉴 소개 · 사업 정보 · 상담 동선 · 반응형 웹",
+    "problem": "예비 가맹점주는 브랜드의 분위기와 메뉴뿐 아니라 운영 방식과 검토할 사업 정보를 알고 싶어 합니다. 시선을 끄는 첫 화면에서 실제 판단에 필요한 내용까지 이어져야 했습니다.",
+    "strategy": "브랜드 소개, 메뉴, 사업성, 매뉴얼, 상담의 순서로 정보를 배치했습니다. 관심을 만드는 장면과 검토할 정보를 분리하되, 필요한 곳에서 상담으로 이동할 수 있도록 구성했습니다.",
+    "execution": "브랜드 메시지와 메뉴 소개 화면, 운영·사업 정보, 가맹 상담 접근 경로를 제작했습니다. 각 주제의 탐색 위치를 명확히 하고 이미지와 설명의 밀도를 조정했습니다.",
+    "result": "가맹 희망자가 브랜드를 이해하고 관련 정보를 검토한 뒤 상담으로 이동하는 웹 경험을 구현했습니다.\n\n사이트에 표기된 AI 연출 이미지를 포함한 제작 화면입니다. 가맹 계약·매출·수익 성과의 증빙은 아닙니다.",
+    "gallery": [
+      {
+        "file": "kings-menu-grid.png",
+        "alt": "킹스 사라다의 메뉴 사진과 설명을 담은 웹 화면",
+        "caption": "예비 가맹점주가 메뉴의 구성과 특징을 살펴보는 페이지"
+      }
+    ]
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "2026-10-13 사용자 제공 사이트·책·대시보드 화면 활용 요청. refinement-2026-10-13",
+    "featured": false,
+    "videoUrls": [],
+    "slug": "content-operations",
+    "title": "정보 운영 대시보드 — 수집에서 발행까지",
+    "client": "정보 수집·발행 관리 시스템",
+    "type": "운영 대시보드 · 개발 사례",
+    "industry": "정보 서비스 · 업무 시스템",
+    "services": [
+      "it"
+    ],
+    "coverImage": "/evidence/expansion/operations-dashboard.png",
+    "summary": "여러 출처의 수집 상태와 발행 현황, 콘텐츠 선정 근거를 한 화면에서 확인하는 운영 대시보드.",
+    "scope": "운영 현황 UI · 출처별 수집 상태 · 시간대별 처리 현황 · 콘텐츠 선정 근거 · 발행 현황",
+    "problem": "정보를 수집하고 발행하는 운영자는 시스템 상태와 수집 결과, 공개할 콘텐츠를 함께 확인해야 합니다. 흩어진 수치와 목록을 개별적으로 찾아보는 부담을 줄일 필요가 있었습니다.",
+    "strategy": "시스템 상태를 먼저 보여주고, 출처별 수집 현황과 시간대별 처리 내역, 콘텐츠 선정 근거를 아래로 이어 배치했습니다. 정상 상태와 확인할 정보를 구분해 운영자의 판단을 돕도록 했습니다.",
+    "execution": "수집 상태 요약, 출처별 처리 수치, 시간표와 콘텐츠 선정 목록, 기간별 발행 현황을 연결한 관리 인터페이스를 구성했습니다. 사용자가 제공한 실제 운영 화면을 바탕으로 소개합니다.",
+    "result": "정보 수집부터 편집·발행 확인까지 이어지는 업무 흐름을 한 화면으로 구성했습니다. 업무의 상태와 판단 근거를 함께 보여주는 대시보드 개발 사례입니다.\n\n화면의 수치는 캡처 당시 운영 상태이며 광고 성과가 아닙니다. 기관 로고는 사례 화면에서 제외했습니다.",
+    "gallery": []
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "2026-10-13 사용자 제공 사이트·책·대시보드 화면 활용 요청. refinement-2026-10-13",
+    "featured": false,
+    "videoUrls": [],
+    "slug": "sales-rehearsal",
+    "title": "세일즈 리허설 — 한 권의 지식을 설계하다",
+    "client": "세일즈 리허설",
+    "type": "저술 · 편집 디자인",
+    "industry": "출판 · 비즈니스 · 교육 콘텐츠",
+    "services": [
+      "content"
+    ],
+    "coverImage": "/evidence/expansion/book-cover.webp",
+    "summary": "영업의 상황 판단과 반복 연습을 다룬 원고를 340쪽의 읽기 경험으로 구성한 저술·편집 작업.",
+    "scope": "저술 · 8부 33장 구성 · 본문 편집 · 설명 도해 · 실습 워크시트 · 주·참고문헌",
+    "problem": "영업의 판단과 연습이라는 추상적인 주제를 독자가 이해하고 직접 활용할 수 있는 구조로 풀어야 했습니다. 개념 설명과 사례, 실행 양식이 서로 단절되지 않도록 편집하는 일이 중요했습니다.",
+    "strategy": "8부 33장의 흐름 안에서 개념과 사례, 연습으로 이어지게 구성했습니다. 긴 본문 사이에는 핵심 구조를 설명하는 도해를 배치하고, 실제로 써볼 수 있는 양식을 부록으로 연결했습니다.",
+    "execution": "원고를 저술하고 표지, 파트 시작면, 본문과 설명 도해, 실습 워크시트를 편집했습니다. 약 152×225mm 판형의 340쪽 PDF에 제목·본문·주석의 위계를 일관되게 적용했습니다.",
+    "result": "글의 논리와 페이지의 읽기 순서를 함께 설계한 책을 완성했습니다. 실제 표지와 파트 시작면, 본문, 도해, 워크시트로 저술과 편집 범위를 확인할 수 있습니다.\n\n제공된 PDF 기준의 제작 사례입니다. 표지 저자 표기는 강승구이며, 판매·출간 실적이나 영업 성과를 주장하지 않습니다.",
+    "gallery": [
+      {
+        "file": "book-part-opener.webp",
+        "alt": "세일즈 리허설의 파트 시작면",
+        "caption": "파트 시작면 · 장의 위계와 읽기의 호흡"
+      },
+      {
+        "file": "book-editorial-story.webp",
+        "alt": "세일즈 리허설 본문의 실제 편집",
+        "caption": "본문 편집 · 사례와 설명의 읽기 순서"
+      },
+      {
+        "file": "book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 상황 판단 도해",
+        "caption": "설명 도해 · 개념의 관계와 흐름"
+      },
+      {
+        "file": "book-workbook.webp",
+        "alt": "세일즈 리허설의 실습 워크시트",
+        "caption": "실습 워크시트 · 읽은 내용을 직접 적용하는 양식"
+      }
+    ]
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "사용자 허용 범위의 제작자 프로젝트와 자체 제안 콘셉트. diversity-2026-10-13",
+    "videoUrls": [],
+    "gallery": [],
+    "slug": "ezylens-studio",
+    "title": "EzyLens — 제품을 고르는 UI/UX",
+    "client": "EzyLens Eyewear Studio",
+    "type": "UI/UX 설계 · 인터랙티브 시제품",
+    "industry": "아이웨어 · 커머스 UI/UX",
+    "featured": false,
+    "services": [
+      "it"
+    ],
+    "coverImage": "/evidence/diverse/ezylens-studio.png",
+    "summary": "제품을 크게 보고, 색상과 규격을 비교하고, 선택을 이어가는 아이웨어 커머스 시제품.",
+    "scope": "상품 탐색 · 제품 이미지 전환·확대 · 옵션 선택 · 모의 가방 · 반응형 UI",
+    "problem": "작은 썸네일과 긴 상품명만으로는 안경의 형태와 옵션 차이를 이해하기 어렵습니다. 제품을 살펴보는 장면과 선택에 필요한 정보를 같은 화면에 두는 과제를 설정했습니다.",
+    "strategy": "제품 이미지에 가장 큰 면적을 주고, 모델 탐색과 색상·규격 선택을 양옆에 배치했습니다. 탐색하던 상품을 잃지 않고 옵션을 바꾸고 확대해 살펴볼 수 있도록 구성했습니다.",
+    "execution": "기존 상품 자료를 바탕으로 대표 모델 탐색, 제품 이미지 확대, 색상·사이즈 선택과 모의 가방을 구현했습니다. 키보드 탐색과 작은 화면의 옵션 접근도 함께 다뤘습니다.",
+    "result": "상품 탐색 → 이미지 확대 → 옵션 비교 → 선택으로 이어지는 UI/UX 시제품을 제작했습니다. 시각적 위계와 조작 흐름을 실제 화면에서 검토할 수 있습니다.\n\n제작자 로컬 시제품이며 주문·결제·매출 결과를 뜻하지 않습니다. 화면의 상품 브랜드는 판매 후보 상품이며 해당 브랜드의 수주 실적을 의미하지 않습니다."
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "사용자 허용 범위의 제작자 프로젝트와 자체 제안 콘셉트. diversity-2026-10-13",
+    "videoUrls": [],
+    "gallery": [],
+    "slug": "city-culture",
+    "title": "도시를 다시 보다 — 문화 캠페인",
+    "client": "도시 산책 전시 제안",
+    "type": "자체 제안 콘셉트",
+    "industry": "문화 · 전시 · 옥외 홍보",
+    "featured": false,
+    "services": [
+      "strategy",
+      "content",
+      "media"
+    ],
+    "coverImage": "/portfolio/concept-city-culture.png",
+    "summary": "익숙한 도시에서 새로운 장면을 발견한다는 전시의 생각을 한 문장과 포스터로.",
+    "scope": "캠페인 메시지 · 포스터 카피 · 시각 방향 · 공간 사진 편집",
+    "problem": "지나가는 사람에게 전시의 주제를 짧은 순간 안에 전달해야 합니다. 많은 행사 정보를 한꺼번에 나열하기보다, 무엇을 경험하게 되는지 먼저 이해시키는 과제를 설정했습니다.",
+    "strategy": "‘도시를 다시 보다’라는 행동의 문장을 중심에 두었습니다. 큰 글자와 밝은 바탕으로 먼저 시선을 잡고, 실제 도시 공간의 사진으로 산책과 발견의 경험을 연결했습니다.",
+    "execution": "캠페인 제목, 보조 카피, 옥외 포스터 구성을 직접 작성했습니다. 사진의 크기와 글자의 대비를 조정하고, 출처가 확인되는 공간 이미지를 콘셉트의 참고 소재로 사용했습니다.",
+    "result": "한 장에서 주제와 분위기가 함께 읽히는 문화 홍보물 시안을 제작했습니다. 광고의 메시지와 시각적 위계를 판단할 수 있는 자체 제안입니다.\n\n가상 전시의 자체 콘셉트입니다. 실제 행사 개최·광고 집행·방문 성과가 아닙니다. 공간 사진의 원출처와 라이선스는 시안에 표기했습니다."
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "사용자 허용 범위의 제작자 프로젝트와 자체 제안 콘셉트. diversity-2026-10-13",
+    "videoUrls": [],
+    "gallery": [],
+    "slug": "jonghae-community",
+    "title": "종해문화진흥원 — 활동이 신뢰가 되는 웹",
+    "client": "종해문화진흥원",
+    "type": "제작자 프로젝트",
+    "industry": "공익 · 문화·교육 · 기관 웹",
+    "featured": true,
+    "services": [
+      "content",
+      "digital",
+      "it"
+    ],
+    "coverImage": "/evidence/diverse/jonghae-home.png",
+    "summary": "활동의 사진과 이야기, 기관 소개와 공개자료를 찾기 쉬운 홈페이지로 연결했습니다.",
+    "scope": "정보 구조 · 활동 스토리 편집 · 기관 웹 UI · 자료실 · 반응형 화면",
+    "problem": "기관의 활동을 처음 접하는 방문자는 무슨 일을 하는 곳인지, 어떤 기록과 자료를 확인할 수 있는지 알아야 합니다. 소개와 소식, 공개문서가 따로 흩어지지 않도록 정리하는 과제를 다뤘습니다.",
+    "strategy": "사람과 활동의 사진을 첫 화면에서 보여주고, 기관 소개·문화 활동·지역 연대·자료 공개의 흐름을 나눴습니다. 방문자가 이야기를 읽다가 관련 정보로 자연스럽게 이동하도록 설계했습니다.",
+    "execution": "사진 중심의 첫 화면, 활동 기록과 상세 이야기, 자료실 및 공개문서 접근 경로를 구현했습니다. 기관의 기본 정보와 활동 콘텐츠를 함께 운영할 수 있는 다중 페이지 웹사이트로 구성했습니다.",
+    "result": "기관의 활동을 읽고, 필요한 공개자료를 찾아보는 홈페이지를 구현했습니다. 단체의 이야기를 보여주는 편집과 정보 탐색을 함께 다룬 제작자 프로젝트입니다.\n\n2026.10.13 공개 웹 화면을 캡처했습니다. 후원 증가나 방문 전환 성과를 측정한 사례가 아닙니다."
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "사용자 허용 범위의 제작자 프로젝트와 자체 제안 콘셉트. diversity-2026-10-13",
+    "videoUrls": [],
+    "gallery": [],
+    "slug": "patient-guide",
+    "title": "첫 방문 안내 — 환자의 질문에서 시작한 콘텐츠",
+    "client": "병원 방문 안내 제안",
+    "type": "자체 제안 콘셉트",
+    "industry": "의료 · 안내 콘텐츠 · 편집 디자인",
+    "featured": true,
+    "services": [
+      "hospital",
+      "content"
+    ],
+    "coverImage": "/portfolio/concept-patient-guide.png",
+    "summary": "예약 확인부터 위치와 접수까지, 처음 방문하는 환자에게 필요한 정보를 한 장에.",
+    "scope": "안내 메시지 · 방문 흐름 · 리플릿 카피 · 정보 위계 · 편집 디자인",
+    "problem": "처음 방문하는 사람에게는 진료 분야의 설명만큼 예약한 날짜와 위치, 도착 후 순서가 중요합니다. 방문 전에 반복해서 생기는 질문을 먼저 해결하는 안내 콘텐츠를 제안했습니다.",
+    "strategy": "‘방문 전 → 오시는 길 → 도착 후’의 시간 순서로 정보를 정리했습니다. 짧은 제목을 먼저 읽고 필요한 설명으로 이어갈 수 있도록 글자의 크기와 간격을 나눴습니다.",
+    "execution": "예약 내용을 확인하는 안내, 위치·주차 정보 확인, 도착 후 접수의 실제 문구를 작성했습니다. 과장된 치료 효능이나 환자 후기를 사용하지 않고 안내물의 읽기 경험을 구성했습니다.",
+    "result": "환자의 질문을 중심으로 한 방문 안내 리플릿 시안을 제작했습니다. 웹·문자 링크·인쇄 안내로 확장할 수 있는 콘텐츠 구성과 시각 위계를 보여줍니다.\n\n특정 의료기관의 수주 실적이 아닌 자체 제안 콘셉트입니다. 실제 적용 시 기관별 안내 내용 확인이 필요합니다."
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "2026-10-12 사용자가 직접 제작한 사이트/SaaS와 콘셉트 사례의 캡처 활용을 허용함. 제작자 포트폴리오로 표기. portfolio-captures-2026-10-12",
+    "videoUrls": [],
+    "slug": "sojukdoo-concept",
+    "title": "소적두 — 브랜드에서 상품 탐색까지",
+    "client": "소적두",
+    "type": "브랜드 웹 · 커머스 제작 목업",
+    "industry": "푸드 · 브랜드 · 커머스",
+    "featured": false,
+    "services": [
+      "strategy",
+      "content",
+      "it"
+    ],
+    "coverImage": "/evidence/expansion/redbean-home.png",
+    "summary": "‘덜 달게, 더 자주’의 메시지를 제품 분류와 고객별 탐색에 연결한 브랜드·커머스 웹.",
+    "scope": "브랜드 메시지 · 홈페이지 UI · 제품 분류 · 고객별 탐색 · 커머스 전환용 화면",
+    "problem": "브랜드의 특징을 알리는 첫 화면과 제품을 비교하고 고르는 탐색 과정이 연결되어야 했습니다. 제품의 성격과 이용 목적에 따라 방문자가 필요한 구성을 찾도록 정리했습니다.",
+    "strategy": "‘덜 달게, 더 자주’라는 메시지를 먼저 전하고 제품 분류와 고객별 제안으로 이어지게 했습니다. 브랜드의 설명과 상품 탐색의 언어를 하나의 웹 구조로 정리했습니다.",
+    "execution": "첫 화면과 제품 분류, 고객 유형별 탐색 화면을 제작했습니다. 고도몰 전환을 위한 정적 제작 목업으로 정보의 순서와 구매 전 탐색을 구체화했습니다.",
+    "result": "브랜드 소개에서 제품과 이용 목적을 살펴보는 커머스 UI를 제작했습니다. 기존 소적두 콘셉트 사례에 새로운 제작 화면을 통합했습니다.\n\n공개 미리보기는 정적 목업이며 실제 주문·결제 연동이나 구매 성과를 의미하지 않습니다.",
+    "gallery": [
+      {
+        "file": "redbean-categories.png",
+        "alt": "소적두의 제품 분류와 탐색 화면",
+        "caption": "제품의 종류를 비교하고 탐색하는 커머스 UI"
+      },
+      {
+        "file": "redbean-audiences.png",
+        "alt": "소적두의 고객 유형별 상품 제안 화면",
+        "caption": "이용 목적과 고객에 맞춘 탐색 구성"
+      }
+    ]
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "2026-10-12 사용자가 직접 제작한 사이트/SaaS와 콘셉트 사례의 캡처 활용을 허용함. 제작자 포트폴리오로 표기. portfolio-captures-2026-10-12",
+    "videoUrls": [],
+    "slug": "soulreset",
+    "title": "SoulReset — 서울에서의 다른 리듬",
+    "client": "SoulReset",
+    "type": "제작자 프로젝트",
+    "industry": "여행 · 서비스 웹사이트",
+    "featured": true,
+    "services": [
+      "content",
+      "it"
+    ],
+    "coverImage": "/portfolio/site-soulreset.png",
+    "summary": "여행의 분위기를 먼저 전하고, 서비스 탐색에서 상담 문의로 이어지는 웹사이트.",
+    "scope": "서비스 웹 UI · 스토리 슬라이더 · Shopify 테마 · 반응형 화면 · 상담 문의 흐름",
+    "problem": "여행자의 기대와 취향을 이해시키면서 여러 선택지를 설명해야 했습니다. 정보만 나열하면 서비스의 분위기가 사라지고, 이미지에만 집중하면 다음 행동이 모호해지는 과제였습니다.",
+    "strategy": "여정의 장면과 짧은 문장을 함께 보여주는 첫 화면을 구성했습니다. 여행 이야기, 선택 가능한 에디션, 일정과 상담을 구분해 방문자가 자신의 관심에서 출발하도록 설계했습니다.",
+    "execution": "Shopify 기반 서비스 화면과 히어로 스토리, 반응형 구조, 단계별 문의 흐름을 제작했습니다. 여정 소개에서 관심 서비스 선택과 상담으로 이어지는 경로를 구성했습니다.",
+    "result": "서비스의 분위기를 전하는 스토리와 탐색·상담 동선을 하나의 사이트로 구현했습니다. 여행의 장면과 선택에 필요한 정보가 함께 읽히도록 구성했습니다.\n\n제작자 프로젝트 · 2026.10.12 공개 웹 화면입니다.",
+    "gallery": []
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "2026-10-12 사용자가 직접 제작한 사이트/SaaS와 콘셉트 사례의 캡처 활용을 허용함. 제작자 포트폴리오로 표기. portfolio-captures-2026-10-12",
+    "videoUrls": [],
+    "slug": "review-atelier",
+    "title": "Review Atelier — 자료에서 원고로",
+    "client": "EA / Review Atelier",
+    "type": "제작자 프로토타입",
+    "industry": "콘텐츠 · 편집 소프트웨어",
+    "featured": false,
+    "services": [
+      "it",
+      "content"
+    ],
+    "coverImage": "/portfolio/saas-ea-editor.png",
+    "summary": "제품 자료와 원고, 근거 검수와 채널별 출력을 한 흐름으로 연결한 콘텐츠 작업대.",
+    "scope": "제품·자료 입력 · 원고 편집 UI · 수정 이력 · 근거 검수 · HTML 출력",
+    "problem": "제품 자료, 집필, 수정 이력과 채널별 출력이 따로 움직이면 같은 내용을 반복 편집하게 됩니다. 어떤 문장이 확인됐고 어떤 원고가 초안인지 작업 안에서 구분할 필요가 있었습니다.",
+    "strategy": "자료 입력, 원고 편집, 근거 검수, HTML 출력의 단계를 나누되 같은 제품과 원고를 이어 쓰도록 설계했습니다. 수정된 문장은 다시 검수하도록 상태를 명시해 작업자의 판단을 돕습니다.",
+    "execution": "제품 자료와 원고 편집, 이전 원고 확인, 근거 검수, 채널별 출력 화면을 구현했습니다. 한 작업의 자료와 편집 상태가 단계마다 이어지도록 구성했습니다.",
+    "result": "자료 입력부터 편집·검수·출력까지 이어지는 작업 화면을 구현했습니다. 작업 단계와 문장의 확인 상태를 같은 공간에서 살펴볼 수 있도록 구성했습니다.\n\n구현 프로토타입 · 가상 제품과 시연용 원고를 사용한 데모 화면입니다.",
+    "gallery": []
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "2026-10-12 사용자가 직접 제작한 사이트/SaaS와 콘셉트 사례의 캡처 활용을 허용함. 제작자 포트폴리오로 표기. portfolio-captures-2026-10-12",
+    "videoUrls": [],
+    "slug": "tesign-radar",
+    "title": "TESIGN Radar — 발견에서 사용까지",
+    "client": "TESIGN Radar",
+    "type": "제작자 프로젝트",
+    "industry": "콘텐츠 · 디지털 서비스",
+    "featured": false,
+    "services": [
+      "content",
+      "it"
+    ],
+    "coverImage": "/portfolio/site-tesign-radar.png",
+    "summary": "도구의 용도와 선택 기준을 편집하고, 발견·비교·저장·사용으로 연결하는 탐색 서비스.",
+    "scope": "정보 구조 · 도구 콘텐츠 편집 · 웹 UI · 탐색·저장·컬렉션 · 공식 사용 페이지 연결",
+    "problem": "새로운 디지털 도구는 많지만, 자신에게 어떤 일이 가능한지 판단하기 어렵습니다. 소개 글을 읽는 행동이 실제로 도구를 선택하고 사용해 보는 행동으로 이어지도록 구성했습니다.",
+    "strategy": "각 도구를 용도와 사용 방법 중심으로 설명하고, 비교와 저장, 공식 페이지 이동을 가까이 배치했습니다. 콘텐츠의 출처와 확인 시점을 함께 보여주는 정보 구조를 사용했습니다.",
+    "execution": "도구 수집·편집 흐름과 공개 웹 UI, 용도별 탐색, 컬렉션, 저장 기능을 구현했습니다. 추천 콘텐츠와 행동 버튼을 함께 배치해 읽은 내용을 다음 행동으로 연결했습니다.",
+    "result": "콘텐츠를 읽고, 비교하고, 저장한 뒤 공식 사이트에서 직접 사용해 보는 탐색 흐름을 구현했습니다. 용도와 선택 기준 중심으로 정보를 편집하는 서비스입니다.\n\n제작자 프로젝트 · 화면에 수록된 도구는 외부 제품을 소개하는 큐레이션 콘텐츠입니다.",
+    "gallery": []
+  },
+  {
+    "year": "2026",
+    "status": "published",
+    "englishPublished": false,
+    "publicationConfirmed": true,
+    "publicationNote": "2026-10-12 사용자가 직접 제작한 사이트/SaaS와 콘셉트 사례의 캡처 활용을 허용함. 제작자 포트폴리오로 표기. portfolio-captures-2026-10-12",
+    "videoUrls": [],
+    "slug": "tesign-workflow",
+    "title": "Tesign OS — 제작 다음의 검수까지",
+    "client": "Tesign OS",
+    "type": "제작자 프로젝트 · 내부 도구",
+    "industry": "콘텐츠 · 운영 소프트웨어",
+    "featured": false,
+    "services": [
+      "it",
+      "content"
+    ],
+    "coverImage": "/portfolio/saas-tesign-workflow.png",
+    "summary": "요청, 자료, 제작, 검수와 납품을 한 작업 안에서 이어 관리하는 콘텐츠 운영 도구.",
+    "scope": "업무 흐름 설계 · 브랜드·제품 자료 · 채널별 결과물 · 검수·납품 이력 · 후속 제작 연결",
+    "problem": "블로그와 SNS, 상품 상세처럼 결과물이 달라져도 제품의 사실과 표현 기준은 이어져야 합니다. 요청부터 최종 검수본까지 작업 상태를 추적하고 다음 제작에 자료를 다시 활용하는 과제를 다뤘습니다.",
+    "strategy": "요청 접수 → 재료 확인 → 생성 → 검수 → 납품을 하나의 흐름으로 구성했습니다. 확인한 본문과 현재 본문을 대조하고, 변경된 작업은 다시 검수할 수 있도록 설계했습니다.",
+    "execution": "브랜드·제품 자료, 작업별 결과물과 검수·납품 이력을 연결했습니다. 채널별 홍보 문구에서 상품 상세나 SNS 콘텐츠로 이어지는 후속 제작 경로도 함께 구현했습니다.",
+    "result": "브랜드 자료와 작업 상태, 채널별 결과물을 연결한 내부 제작 환경을 구성했습니다. 최종 검수본을 기준으로 다음 콘텐츠 제작을 이어갈 수 있습니다.\n\n내부 도구 · 2026.09.22 검수용 데이터 화면이며, 화면 속 점수는 내부 테스트 값입니다.",
+    "gallery": []
+  }
+]

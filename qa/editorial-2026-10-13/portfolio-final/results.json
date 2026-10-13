@@ -1,0 +1,805 @@
+{
+  "checks": [
+    {
+      "name": "GET /api/projects",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "14 original Korean slugs retained",
+      "pass": true,
+      "detail": 14
+    },
+    {
+      "name": "ezylens-studio English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "ezylens-studio original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "content-operations English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "content-operations original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "sales-rehearsal English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "sales-rehearsal original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "kfood-dashboard English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "kfood-dashboard original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "kings-franchise English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "kings-franchise original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "jonghae-community English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "jonghae-community original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "soulreset English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "soulreset original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "sojukdoo-concept English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "sojukdoo-concept original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "city-culture English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "city-culture original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "patient-guide English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "patient-guide original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "review-atelier English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "review-atelier original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "tesign-radar English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "tesign-radar original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "tesign-workflow English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "tesign-workflow original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "all-the-comm English fields unchanged",
+      "pass": true,
+      "detail": [
+        "titleEn",
+        "summaryEn",
+        "englishPublished",
+        "clientEn",
+        "typeEn",
+        "industryEn",
+        "scopeEn",
+        "problemEn",
+        "strategyEn",
+        "executionEn",
+        "resultEn"
+      ]
+    },
+    {
+      "name": "all-the-comm original media retained",
+      "pass": true,
+      "detail": "original ids, URLs, alt"
+    },
+    {
+      "name": "featured three finished outputs",
+      "pass": false,
+      "detail": [
+        "soulreset",
+        "sales-rehearsal",
+        "jonghae-community",
+        "all-the-comm"
+      ]
+    },
+    {
+      "name": "book opener cover",
+      "pass": true,
+      "detail": "/evidence/expansion/book-part-opener.webp"
+    },
+    {
+      "name": "book gallery five and original cover",
+      "pass": true,
+      "detail": [
+        {
+          "id": "991f0067-772a-4d29-959c-a6b50dc14ddc",
+          "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/991f0067-772a-4d29-959c-a6b50dc14ddc",
+          "alt": "세일즈 리허설의 파트 시작면",
+          "caption": "파트 시작면"
+        },
+        {
+          "id": "d842b039-2d42-47c6-8a27-6f044c3a5f5f",
+          "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/d842b039-2d42-47c6-8a27-6f044c3a5f5f",
+          "alt": "세일즈 리허설 본문의 실제 편집",
+          "caption": "본문 편집"
+        },
+        {
+          "id": "cc7c143a-35c7-459b-94a6-9a8bd5100dfc",
+          "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/cc7c143a-35c7-459b-94a6-9a8bd5100dfc",
+          "alt": "세일즈 리허설의 상황 판단 도해",
+          "caption": "설명 도해"
+        },
+        {
+          "id": "1b940d42-f55f-4416-847c-5fdc58862417",
+          "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/1b940d42-f55f-4416-847c-5fdc58862417",
+          "alt": "세일즈 리허설의 실습 워크시트",
+          "caption": "실습 워크시트"
+        },
+        {
+          "id": "66df6042-cb03-43bf-a5a1-6f9d9756ba16",
+          "url": "/media/projects/e7d6c476-1732-4221-8248-0dc133ec8ac6/66df6042-cb03-43bf-a5a1-6f9d9756ba16",
+          "alt": "세일즈 리허설의 원본 표지",
+          "caption": "표지"
+        }
+      ]
+    },
+    {
+      "name": "ezylens-studio stage label retained",
+      "pass": true,
+      "detail": "UI/UX 설계 · 인터랙티브 시제품"
+    },
+    {
+      "name": "kfood-dashboard stage label retained",
+      "pass": true,
+      "detail": "대시보드 개발 · MVP"
+    },
+    {
+      "name": "sojukdoo-concept stage label retained",
+      "pass": true,
+      "detail": "브랜드 웹 · 커머스 제작 목업"
+    },
+    {
+      "name": "review-atelier stage label retained",
+      "pass": true,
+      "detail": "제작자 프로토타입"
+    },
+    {
+      "name": "tesign-workflow stage label retained",
+      "pass": true,
+      "detail": "제작자 프로젝트 · 내부 도구"
+    },
+    {
+      "name": "patient-guide stage label retained",
+      "pass": true,
+      "detail": "자체 제안 콘셉트"
+    },
+    {
+      "name": "city-culture stage label retained",
+      "pass": true,
+      "detail": "자체 제안 콘셉트"
+    },
+    {
+      "name": "GET /api/projects?lang=en",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "English public cases remain self only",
+      "pass": true,
+      "detail": [
+        "all-the-comm"
+      ]
+    },
+    {
+      "name": "home only three curated cases",
+      "pass": true,
+      "detail": [
+        "SoulReset",
+        "세일즈 리허설",
+        "종해문화진흥원"
+      ]
+    },
+    {
+      "name": "works initial curated six",
+      "pass": true
+    },
+    {
+      "name": "works has 14 concise titles",
+      "pass": true,
+      "detail": [
+        "SoulReset",
+        "세일즈 리허설",
+        "종해문화진흥원",
+        "Kings",
+        "소적두",
+        "EzyLens",
+        "정보 운영 대시보드",
+        "먹거리사전",
+        "Review Atelier",
+        "TESIGN Radar",
+        "Tesign OS",
+        "첫 방문 안내",
+        "도시를 다시 보다",
+        "올더커뮤니케이션 — 기업 홈페이지"
+      ]
+    },
+    {
+      "name": "book slug CSS applies",
+      "pass": true,
+      "detail": {
+        "slug": "sales-rehearsal",
+        "natural": [
+          1352,
+          2000
+        ],
+        "display": [
+          486.703125,
+          719.984375
+        ],
+        "maxHeight": "720px",
+        "cover": [
+          1376,
+          783.984375
+        ],
+        "hint": {
+          "top": 1300.890625,
+          "bottom": 1340.890625
+        },
+        "image": {
+          "top": 644.90625,
+          "bottom": 1364.890625
+        },
+        "galleries": 5
+      }
+    },
+    {
+      "name": "book cover preserves portrait ratio",
+      "pass": true,
+      "detail": [
+        486.703125,
+        719.984375
+      ]
+    },
+    {
+      "name": "book cover height at most720",
+      "pass": true,
+      "detail": 719.984375
+    },
+    {
+      "name": "book gallery five rendered",
+      "pass": true,
+      "detail": 5
+    },
+    {
+      "name": "book all gallery images load",
+      "pass": true
+    },
+    {
+      "name": "book original cover opens",
+      "pass": true
+    },
+    {
+      "name": "dashboard fit logo clip applied",
+      "pass": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "dashboard fit logo area visually blank",
+      "pass": true,
+      "detail": {
+        "sample": [
+          239,
+          149
+        ],
+        "minChannel": 255
+      }
+    },
+    {
+      "name": "dashboard original logo clip applied",
+      "pass": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "dashboard original logo area visually blank",
+      "pass": true,
+      "detail": {
+        "sample": [
+          162,
+          153
+        ],
+        "minChannel": 255
+      }
+    },
+    {
+      "name": "mobile book no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile viewer logo clipping",
+      "pass": true
+    },
+    {
+      "name": "no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no write requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "screenshots": [
+    "home-featured.png",
+    "works-initial-six.png",
+    "works-first-row.png",
+    "works-middle-row.png",
+    "book-cover.png",
+    "book-gallery.png",
+    "book-original-cover-viewer.png",
+    "dashboard-cover.png",
+    "dashboard-viewer-fit.png",
+    "dashboard-viewer-original.png",
+    "mobile-book-cover.png",
+    "mobile-dashboard-viewer.png"
+  ],
+  "consoleErrors": [],
+  "writeRequests": [],
+  "measurements": {
+    "home": [
+      {
+        "title": "SoulReset",
+        "text": "프로젝트 보기\n제작자 프로젝트 · 2026\nSoulReset\n\n콘텐츠·디자인 · IT 솔루션 지원\n\n서울 여행의 분위기와 서비스 선택, 상담을 연결한 웹사이트.",
+        "href": null,
+        "img": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+        "image": {
+          "width": 373.328125,
+          "height": 221.328125
+        }
+      },
+      {
+        "title": "세일즈 리허설",
+        "text": "프로젝트 보기\n저술 · 편집 디자인 · 2026\n세일즈 리허설\n\n콘텐츠·디자인\n\n영업의 판단과 연습을 8부 33장, 340쪽으로 구성한 책.",
+        "href": null,
+        "img": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+        "image": {
+          "width": 373.328125,
+          "height": 221.328125
+        }
+      },
+      {
+        "title": "종해문화진흥원",
+        "text": "프로젝트 보기\n제작자 프로젝트 · 2026\n종해문화진흥원\n\n콘텐츠·디자인 · 디지털 마케팅 · IT 솔루션 지원\n\n활동 기록과 기관 소개, 공개자료를 함께 담은 홈페이지.",
+        "href": null,
+        "img": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+        "image": {
+          "width": 373.34375,
+          "height": 221.328125
+        }
+      }
+    ],
+    "works": [
+      {
+        "title": "SoulReset",
+        "text": "프로젝트 보기\n제작자 프로젝트 · 2026\nSoulReset\n\n콘텐츠·디자인 · IT 솔루션 지원\n\n서울 여행의 분위기와 서비스 선택, 상담을 연결한 웹사이트.",
+        "stage": "제작자 프로젝트 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "세일즈 리허설",
+        "text": "프로젝트 보기\n저술 · 편집 디자인 · 2026\n세일즈 리허설\n\n콘텐츠·디자인\n\n영업의 판단과 연습을 8부 33장, 340쪽으로 구성한 책.",
+        "stage": "저술 · 편집 디자인 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "종해문화진흥원",
+        "text": "프로젝트 보기\n제작자 프로젝트 · 2026\n종해문화진흥원\n\n콘텐츠·디자인 · 디지털 마케팅 · IT 솔루션 지원\n\n활동 기록과 기관 소개, 공개자료를 함께 담은 홈페이지.",
+        "stage": "제작자 프로젝트 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "Kings",
+        "text": "프로젝트 보기\n가맹 모집 웹 · 제작자 프로젝트 · 2026\nKings\n\n콘텐츠·디자인 · IT 솔루션 지원\n\n브랜드·메뉴·운영 정보를 가맹 상담으로 잇는 웹사이트.",
+        "stage": "가맹 모집 웹 · 제작자 프로젝트 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "소적두",
+        "text": "프로젝트 보기\n브랜드 웹 · 커머스 제작 목업 · 2026\n소적두\n\n전략·브랜딩 · 콘텐츠·디자인 · IT 솔루션 지원\n\n브랜드 소개에서 제품 분류·고객별 탐색으로 이어지는 커머스 화면.",
+        "stage": "브랜드 웹 · 커머스 제작 목업 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "EzyLens",
+        "text": "프로젝트 보기\nUI/UX 설계 · 인터랙티브 시제품 · 2026\nEzyLens\n\nIT 솔루션 지원\n\n모델 탐색, 이미지 확대, 색상·규격 선택을 한 화면에.",
+        "stage": "UI/UX 설계 · 인터랙티브 시제품 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "정보 운영 대시보드",
+        "text": "프로젝트 보기\n운영 대시보드 · 개발 사례 · 2026\n정보 운영 대시보드\n\nIT 솔루션 지원\n\n출처별 수집 상태와 콘텐츠 선정·발행 현황을 확인하는 관리 화면.",
+        "stage": "운영 대시보드 · 개발 사례 · 2026",
+        "img": {
+          "width": 463.46875,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "먹거리사전",
+        "text": "프로젝트 보기\n대시보드 개발 · MVP · 2026\n먹거리사전\n\nIT 솔루션 지원 · 사업·글로벌 컨설팅\n\n월별 제철 품목과 산지 지도를 연결한 식품 정보 탐색 화면.",
+        "stage": "대시보드 개발 · MVP · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "Review Atelier",
+        "text": "프로젝트 보기\n제작자 프로토타입 · 2026\nReview Atelier\n\nIT 솔루션 지원 · 콘텐츠·디자인\n\n제품 자료부터 원고 편집·근거 검수·출력까지 다루는 작업 화면.",
+        "stage": "제작자 프로토타입 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "TESIGN Radar",
+        "text": "프로젝트 보기\n제작자 프로젝트 · 2026\nTESIGN Radar\n\n콘텐츠·디자인 · IT 솔루션 지원\n\n디지털 도구의 용도와 사용법을 읽고 비교·저장하는 서비스.",
+        "stage": "제작자 프로젝트 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "Tesign OS",
+        "text": "프로젝트 보기\n제작자 프로젝트 · 내부 도구 · 2026\nTesign OS\n\nIT 솔루션 지원 · 콘텐츠·디자인\n\n요청·자료·제작·검수·납품 이력을 연결한 콘텐츠 운영 도구.",
+        "stage": "제작자 프로젝트 · 내부 도구 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "첫 방문 안내",
+        "text": "프로젝트 보기\n자체 제안 콘셉트 · 2026\n첫 방문 안내\n\n병원 마케팅 · 콘텐츠·디자인\n\n예약 확인부터 오시는 길, 접수 순서를 정리한 방문 안내물.",
+        "stage": "자체 제안 콘셉트 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "도시를 다시 보다",
+        "text": "프로젝트 보기\n자체 제안 콘셉트 · 2026\n도시를 다시 보다\n\n전략·브랜딩 · 콘텐츠·디자인 · 미디어·오프라인 광고\n\n도시 산책을 주제로 메시지와 사진을 구성한 전시 포스터.",
+        "stage": "자체 제안 콘셉트 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      },
+      {
+        "title": "올더커뮤니케이션 — 기업 홈페이지",
+        "text": "프로젝트 보기\n자사 리뉴얼 · 2026\n올더커뮤니케이션 — 기업 홈페이지\n\nBrand identity\nWeb · Motion · Content",
+        "stage": "자사 리뉴얼 · 2026",
+        "img": {
+          "width": 576,
+          "height": 342,
+          "loaded": true
+        }
+      }
+    ],
+    "book": {
+      "slug": "sales-rehearsal",
+      "natural": [
+        1352,
+        2000
+      ],
+      "display": [
+        486.703125,
+        719.984375
+      ],
+      "maxHeight": "720px",
+      "cover": [
+        1376,
+        783.984375
+      ],
+      "hint": {
+        "top": 1300.890625,
+        "bottom": 1340.890625
+      },
+      "image": {
+        "top": 644.90625,
+        "bottom": 1364.890625
+      },
+      "galleries": 5
+    },
+    "dashboard-fit": {
+      "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+      "src": "http://127.0.0.1:4173/evidence/expansion/operations-dashboard.png",
+      "rect": {
+        "x": 167.09375,
+        "y": 125,
+        "width": 1105.8125,
+        "height": 816
+      },
+      "natural": [
+        1282,
+        946
+      ]
+    },
+    "dashboard-original": {
+      "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+      "src": "http://127.0.0.1:4173/evidence/expansion/operations-dashboard.png",
+      "rect": {
+        "x": 79,
+        "y": 125,
+        "width": 1282,
+        "height": 946
+      },
+      "natural": [
+        1282,
+        946
+      ]
+    }
+  },
+  "total": 59,
+  "passed": 58
+}

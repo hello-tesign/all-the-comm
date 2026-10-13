@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "ezylens-studio",
+    "title": "EzyLens — 제품을 고르는 UI/UX",
+    "type": "UI/UX 설계 · 인터랙티브 시제품",
+    "cover": "/evidence/diverse/ezylens-studio.png",
+    "width": 1440,
+    "height": 965
+  },
+  {
+    "slug": "content-operations",
+    "title": "정보 운영 대시보드 — 수집에서 발행까지",
+    "type": "운영 대시보드 · 개발 사례",
+    "cover": "/evidence/expansion/operations-dashboard.png",
+    "width": 1282,
+    "height": 946
+  },
+  {
+    "slug": "sales-rehearsal",
+    "title": "세일즈 리허설 — 한 권의 지식을 설계하다",
+    "type": "저술 · 편집 디자인",
+    "cover": "/evidence/expansion/book-cover.webp",
+    "width": 1352,
+    "height": 2000
+  },
+  {
+    "slug": "kfood-dashboard",
+    "title": "먹거리사전 — 소싱을 위한 작업 화면",
+    "type": "대시보드 개발 · MVP",
+    "cover": "/evidence/expansion/kfood-dashboard.png",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "slug": "kings-franchise",
+    "title": "Kings — 가맹을 검토하는 사람을 위한 웹",
+    "type": "가맹 모집 웹 · 제작자 프로젝트",
+    "cover": "/evidence/expansion/kings-home.png",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "slug": "jonghae-community",
+    "title": "종해문화진흥원 — 활동이 신뢰가 되는 웹",
+    "type": "제작자 프로젝트",
+    "cover": "/evidence/diverse/jonghae-home.png",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "slug": "soulreset",
+    "title": "SoulReset — 서울에서의 다른 리듬",
+    "type": "제작자 프로젝트",
+    "cover": "/portfolio/site-soulreset.png",
+    "width": 1440,
+    "height": 900
+  },
+  {
+    "slug": "sojukdoo-concept",
+    "title": "소적두 — 브랜드에서 상품 탐색까지",
+    "type": "브랜드 웹 · 커머스 제작 목업",
+    "cover": "/evidence/expansion/redbean-home.png",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "slug": "city-culture",
+    "title": "도시를 다시 보다 — 문화 캠페인",
+    "type": "자체 제안 콘셉트",
+    "cover": "/portfolio/concept-city-culture.png",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "slug": "patient-guide",
+    "title": "첫 방문 안내 — 환자의 질문에서 시작한 콘텐츠",
+    "type": "자체 제안 콘셉트",
+    "cover": "/portfolio/concept-patient-guide.png",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "slug": "review-atelier",
+    "title": "Review Atelier — 자료에서 원고로",
+    "type": "제작자 프로토타입",
+    "cover": "/portfolio/saas-ea-editor.png",
+    "width": 1600,
+    "height": 1050
+  },
+  {
+    "slug": "tesign-radar",
+    "title": "TESIGN Radar — 발견에서 사용까지",
+    "type": "제작자 프로젝트",
+    "cover": "/portfolio/site-tesign-radar.png",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "slug": "tesign-workflow",
+    "title": "Tesign OS — 제작 다음의 검수까지",
+    "type": "제작자 프로젝트 · 내부 도구",
+    "cover": "/portfolio/saas-tesign-workflow.png",
+    "width": 1440,
+    "height": 1558
+  },
+  {
+    "slug": "all-the-comm",
+    "title": "하나의 회사, 이어지는 경험.",
+    "type": "자사 브랜드 프로젝트",
+    "cover": "/evidence/allthecomm-inquiry.png",
+    "width": 1548,
+    "height": 2142
+  }
+]

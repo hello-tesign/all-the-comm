@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-12T14:46:45.727Z",
+  "scope": "Local meaningful imagery UI only, GET-only; no inquiry submission or store modification",
+  "base": "http://127.0.0.1:4173",
+  "passed": 44,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "chromium /works/project/all-the-comm/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ meaningful imagery mode active",
+      "passed": true
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ no abstract decorative constructs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ official five menus and separate CTA",
+      "passed": true
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ self case uses actual enquiry output and no brand film",
+      "passed": true
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ both self case captures can enlarge",
+      "passed": true
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ self viewer 0 opens correct capture",
+      "passed": true
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ self viewer 0 Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ self viewer 1 opens correct capture",
+      "passed": true
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ self viewer 1 Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ all displayed content images load with alt",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ enquiry captures reserve the correct intrinsic proportions",
+      "passed": true,
+      "detail": [
+        {
+          "width": "1548",
+          "height": "2142",
+          "naturalWidth": 1548,
+          "naturalHeight": 2142
+        },
+        {
+          "width": "1548",
+          "height": "2142",
+          "naturalWidth": 1548,
+          "naturalHeight": 2142
+        }
+      ]
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ self cover photograph stays within its visible frame",
+      "passed": true,
+      "detail": {
+        "inside": true,
+        "container": {
+          "width": 1310.390625,
+          "height": 650
+        },
+        "image": {
+          "width": 950,
+          "height": 560
+        }
+      }
+    },
+    {
+      "name": "chromium /works/project/all-the-comm/ no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ meaningful imagery mode active",
+      "passed": true
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ no abstract decorative constructs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ official five menus and separate CTA",
+      "passed": true
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ self case uses actual enquiry output and no brand film",
+      "passed": true
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ both self case captures can enlarge",
+      "passed": true
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ self viewer 0 opens correct capture",
+      "passed": true
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ self viewer 0 Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ self viewer 1 opens correct capture",
+      "passed": true
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ self viewer 1 Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ all displayed content images load with alt",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ enquiry captures reserve the correct intrinsic proportions",
+      "passed": true,
+      "detail": [
+        {
+          "width": "1548",
+          "height": "2142",
+          "naturalWidth": 1548,
+          "naturalHeight": 2142
+        },
+        {
+          "width": "1548",
+          "height": "2142",
+          "naturalWidth": 1548,
+          "naturalHeight": 2142
+        }
+      ]
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ self cover photograph stays within its visible frame",
+      "passed": true,
+      "detail": {
+        "inside": true,
+        "container": {
+          "width": 1310.4000244140625,
+          "height": 650
+        },
+        "image": {
+          "width": 950,
+          "height": 560
+        }
+      }
+    },
+    {
+      "name": "firefox /works/project/all-the-comm/ no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ HTTP 200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ meaningful imagery mode active",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ no abstract decorative constructs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ official five menus and separate CTA",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ self case uses actual enquiry output and no brand film",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ both self case captures can enlarge",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ self viewer 0 opens correct capture",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ self viewer 0 Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ self viewer 1 opens correct capture",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ self viewer 1 Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ all displayed content images load with alt",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ enquiry captures reserve the correct intrinsic proportions",
+      "passed": true,
+      "detail": [
+        {
+          "width": "1548",
+          "height": "2142",
+          "naturalWidth": 1548,
+          "naturalHeight": 2142
+        },
+        {
+          "width": "1548",
+          "height": "2142",
+          "naturalWidth": 1548,
+          "naturalHeight": 2142
+        }
+      ]
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ self cover photograph stays within its visible frame",
+      "passed": true,
+      "detail": {
+        "inside": true,
+        "container": {
+          "width": 1310.390625,
+          "height": 650
+        },
+        "image": {
+          "width": 950,
+          "height": 560
+        }
+      }
+    },
+    {
+      "name": "webkit /works/project/all-the-comm/ no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "No browser JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No inquiry or mutation attempted",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "writes": [],
+  "pages": [
+    {
+      "engine": "chromium",
+      "route": "/works/project/all-the-comm/",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "alt": "올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면",
+          "loaded": true
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "alt": "상담할 서비스를 선택하고 참고자료를 첨부하는 실제 문의 화면",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/works/project/all-the-comm/",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "alt": "올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면",
+          "loaded": true
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "alt": "상담할 서비스를 선택하고 참고자료를 첨부하는 실제 문의 화면",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "route": "/works/project/all-the-comm/",
+      "images": [
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "alt": "올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면",
+          "loaded": true
+        },
+        {
+          "src": "/evidence/allthecomm-inquiry.png",
+          "alt": "상담할 서비스를 선택하고 참고자료를 첨부하는 실제 문의 화면",
+          "loaded": true
+        }
+      ]
+    }
+  ],
+  "panels": []
+}

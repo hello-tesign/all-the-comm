@@ -1,0 +1,9 @@
+{
+  "name": "allthecomm-motion-render-tools",
+  "private": true,
+  "description": "Local-only FFmpeg and FFprobe for the authored HyperFrames composition",
+  "dependencies": {
+    "@ffmpeg-installer/win32-x64": "4.1.0",
+    "@ffprobe-installer/win32-x64": "5.1.0"
+  }
+}

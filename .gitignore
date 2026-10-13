@@ -1,0 +1,28 @@
+.build-tools/
+node_modules/
+.private/
+qa/**/*.webm
+.env
+.env.*
+!.env.example
+*.log
+
+# Rebuildable output and local visual captures; retain QA scripts and reports.
+/dist/
+/deliverables/
+qa/**/*.png
+qa/**/*.jpg
+qa/**/*.jpeg
+qa/**/*.webp
+qa/**/*.pdf
+motion/qa*/**/*.png
+motion/qa*/**/*.jpg
+motion/qa*/**/*.webp
+planning/**/render-qa/
+planning/**/render-tree-qa/
+planning/**/reference-qa/**/*.png
+planning/**/assets-review/**/*.png
+
+# Local account and hosting screenshots are not website source assets.
+/chdbsd-*.png
+/hello-chdbsd-*.png

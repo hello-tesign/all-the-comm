@@ -1,0 +1,5553 @@
+{
+  "date": "2026-10-13T04:28:48.788Z",
+  "scope": "Editorial build snapshot; isolated read-only Playwright; KO six main routes at 1440/390 in three engines, EN six routes at 1440 plus exact before-HTML comparison. No inquiry submission, store writes, existing IAB manipulation, deployment or visual-quality score.",
+  "base": "http://127.0.0.1:4173",
+  "passed": 497,
+  "failed": 1,
+  "checks": [
+    {
+      "name": "EN source / markup preserved",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "fullByteEqual": false
+      }
+    },
+    {
+      "name": "EN source / embedded English copy preserved",
+      "passed": true
+    },
+    {
+      "name": "EN source /about/ markup preserved",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "fullByteEqual": false
+      }
+    },
+    {
+      "name": "EN source /about/ embedded English copy preserved",
+      "passed": true
+    },
+    {
+      "name": "EN source /process/ markup preserved",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "fullByteEqual": false
+      }
+    },
+    {
+      "name": "EN source /process/ embedded English copy preserved",
+      "passed": true
+    },
+    {
+      "name": "EN source /team/ markup preserved",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "fullByteEqual": false
+      }
+    },
+    {
+      "name": "EN source /team/ embedded English copy preserved",
+      "passed": true
+    },
+    {
+      "name": "EN source /works/ markup preserved",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "fullByteEqual": false
+      }
+    },
+    {
+      "name": "EN source /works/ embedded English copy preserved",
+      "passed": true
+    },
+    {
+      "name": "EN source /contact/ markup preserved",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "fullByteEqual": false
+      }
+    },
+    {
+      "name": "EN source /contact/ embedded English copy preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "기획에서 실행까지 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 / one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / hero control-panel associations",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / hero selection 0",
+      "passed": true,
+      "detail": "01브랜드 웹"
+    },
+    {
+      "name": "webkit 1440 / hero panel 0 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kings-menu-grid.png",
+        "alt": "Kings 메뉴를 사진과 설명으로 소개한 실제 제작 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 / hero readable panel 0",
+      "passed": true,
+      "detail": "evidence-scene-0"
+    },
+    {
+      "name": "webkit 1440 / hero selection 1",
+      "passed": true,
+      "detail": "02UI/UX 설계"
+    },
+    {
+      "name": "webkit 1440 / hero panel 1 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/ezylens-studio.png",
+        "alt": "EzyLens의 상품 탐색과 옵션 선택 UI/UX 설계 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 965
+      }
+    },
+    {
+      "name": "webkit 1440 / hero readable panel 1",
+      "passed": true,
+      "detail": "evidence-scene-1"
+    },
+    {
+      "name": "webkit 1440 / hero selection 2",
+      "passed": true,
+      "detail": "03대시보드 개발"
+    },
+    {
+      "name": "webkit 1440 / hero panel 2 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kfood-map.png",
+        "alt": "먹거리사전의 월별 품목과 산지 지도 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 / hero readable panel 2",
+      "passed": true,
+      "detail": "evidence-scene-2"
+    },
+    {
+      "name": "webkit 1440 / hero End selects and focuses last",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / hero Home selects and focuses first",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / hero ArrowRight selects next",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / hero ArrowLeft selects previous",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / service control-panel associations",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / service selection 0",
+      "passed": true,
+      "detail": "전략·브랜딩"
+    },
+    {
+      "name": "webkit 1440 / service readable panel 0",
+      "passed": true,
+      "detail": "panel-strategy"
+    },
+    {
+      "name": "webkit 1440 / service selection 1",
+      "passed": true,
+      "detail": "디지털 마케팅"
+    },
+    {
+      "name": "webkit 1440 / service readable panel 1",
+      "passed": true,
+      "detail": "panel-digital"
+    },
+    {
+      "name": "webkit 1440 / service selection 2",
+      "passed": true,
+      "detail": "콘텐츠·디자인·영상"
+    },
+    {
+      "name": "webkit 1440 / service readable panel 2",
+      "passed": true,
+      "detail": "panel-content"
+    },
+    {
+      "name": "webkit 1440 / service selection 3",
+      "passed": true,
+      "detail": "미디어·오프라인 광고"
+    },
+    {
+      "name": "webkit 1440 / service readable panel 3",
+      "passed": true,
+      "detail": "panel-media"
+    },
+    {
+      "name": "webkit 1440 / service selection 4",
+      "passed": true,
+      "detail": "인플루언서 마케팅"
+    },
+    {
+      "name": "webkit 1440 / service readable panel 4",
+      "passed": true,
+      "detail": "panel-influencer"
+    },
+    {
+      "name": "webkit 1440 / service selection 5",
+      "passed": true,
+      "detail": "병원 마케팅"
+    },
+    {
+      "name": "webkit 1440 / service readable panel 5",
+      "passed": true,
+      "detail": "panel-hospital"
+    },
+    {
+      "name": "webkit 1440 / service selection 6",
+      "passed": true,
+      "detail": "IT 솔루션 지원"
+    },
+    {
+      "name": "webkit 1440 / service readable panel 6",
+      "passed": true,
+      "detail": "panel-it"
+    },
+    {
+      "name": "webkit 1440 / service selection 7",
+      "passed": true,
+      "detail": "언론홍보"
+    },
+    {
+      "name": "webkit 1440 / service readable panel 7",
+      "passed": true,
+      "detail": "panel-pr"
+    },
+    {
+      "name": "webkit 1440 / service End selects and focuses last",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / service Home selects and focuses first",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / service ArrowRight selects next",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / service ArrowLeft selects previous",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / home process preview 0",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / home process preview 1",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / home process preview 2",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / home process preview 3",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / project CTA reaches visible target",
+      "passed": false,
+      "detail": {
+        "href": "/works/#projects",
+        "url": "http://127.0.0.1:4173/works/#projects"
+      }
+    },
+    {
+      "name": "webkit 1440 / main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kings-menu-grid.png",
+        "alt": "Kings 메뉴를 사진과 설명으로 소개한 실제 제작 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 / main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+        "alt": "SoulReset — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 1440 / main 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+        "alt": "세일즈 리허설 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 1440 / main 3 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+        "alt": "종해문화진흥원 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 / no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 / official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 / Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 / no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 / no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 / no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /about/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "회사 소개 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /about/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /about/ healthcare experience and evidence attribution retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /about/ case headings are project names with concise copy",
+      "passed": true,
+      "detail": [
+        "종해문화진흥원",
+        "SoulReset"
+      ]
+    },
+    {
+      "name": "webkit 1440 /about/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/jonghae-home.png",
+        "alt": "종해문화진흥원의 활동 사진과 기관 소개, 자료 공개를 연결한 홈페이지",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /about/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-soulreset.png",
+        "alt": "SoulReset의 여행 장면과 서비스 탐색, 상담 진입을 담은 웹사이트 첫 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 1440 /about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /about/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /about/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /about/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /about/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /about/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /process/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "일하는 과정 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process deliverables and handover sections retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ desktop process navigation maps to chapters",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process navigation chapter 3",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process chapter 3 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1558
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ process navigation chapter 2",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process chapter 2 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ process navigation chapter 1",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process chapter 1 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ process navigation chapter 0",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process chapter 0 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ main 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ main 3 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1558
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /process/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /process/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /process/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /team/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "함께하는 역할 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /team/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /team/ role control-panel associations",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /team/ role selection 0",
+      "passed": true,
+      "detail": "전략·마케팅"
+    },
+    {
+      "name": "webkit 1440 /team/ role readable panel 0",
+      "passed": true,
+      "detail": "role-panel-0"
+    },
+    {
+      "name": "webkit 1440 /team/ role selection 1",
+      "passed": true,
+      "detail": "디지털"
+    },
+    {
+      "name": "webkit 1440 /team/ role readable panel 1",
+      "passed": true,
+      "detail": "role-panel-1"
+    },
+    {
+      "name": "webkit 1440 /team/ role selection 2",
+      "passed": true,
+      "detail": "콘텐츠"
+    },
+    {
+      "name": "webkit 1440 /team/ role readable panel 2",
+      "passed": true,
+      "detail": "role-panel-2"
+    },
+    {
+      "name": "webkit 1440 /team/ role selection 3",
+      "passed": true,
+      "detail": "디자인"
+    },
+    {
+      "name": "webkit 1440 /team/ role readable panel 3",
+      "passed": true,
+      "detail": "role-panel-3"
+    },
+    {
+      "name": "webkit 1440 /team/ role selection 4",
+      "passed": true,
+      "detail": "영상"
+    },
+    {
+      "name": "webkit 1440 /team/ role readable panel 4",
+      "passed": true,
+      "detail": "role-panel-4"
+    },
+    {
+      "name": "webkit 1440 /team/ role selection 5",
+      "passed": true,
+      "detail": "미디어 광고"
+    },
+    {
+      "name": "webkit 1440 /team/ role readable panel 5",
+      "passed": true,
+      "detail": "role-panel-5"
+    },
+    {
+      "name": "webkit 1440 /team/ role selection 6",
+      "passed": true,
+      "detail": "인플루언서"
+    },
+    {
+      "name": "webkit 1440 /team/ role readable panel 6",
+      "passed": true,
+      "detail": "role-panel-6"
+    },
+    {
+      "name": "webkit 1440 /team/ role selection 7",
+      "passed": true,
+      "detail": "IT 솔루션"
+    },
+    {
+      "name": "webkit 1440 /team/ role readable panel 7",
+      "passed": true,
+      "detail": "role-panel-7"
+    },
+    {
+      "name": "webkit 1440 /team/ role selection 8",
+      "passed": true,
+      "detail": "언론홍보"
+    },
+    {
+      "name": "webkit 1440 /team/ role readable panel 8",
+      "passed": true,
+      "detail": "role-panel-8"
+    },
+    {
+      "name": "webkit 1440 /team/ role End selects and focuses last",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /team/ role Home selects and focuses first",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /team/ role ArrowRight selects next",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /team/ role ArrowLeft selects previous",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /team/ book facts and creator attribution preserved",
+      "passed": true,
+      "detail": "강승구 저술·편집 · 340쪽 PDF\n\n원고 구성 · 저술 · 편집 디자인\n\n세일즈 리허설\n\n영업의 판단과 연습을 다룬 책입니다. 8부와 33장의 개념·사례·실습을 집필하고 본문, 도해, 워크시트의 지면을 편집했습니다.\n\n저술\n목차, 개념 설명, 사례와 실습 질문.\n편집 디자인\n제목·본문의 위계와 사진·도해 배치.\n검토\n목차 순서, 본문과 도해·실습의 일치.\n\n제작물\n원고 · 내지 · 도해 · 실습 워크시트\n\n프로젝트 보기"
+    },
+    {
+      "name": "webkit 1440 /team/ project-first headings and role notes retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /team/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-editorial-story.webp",
+        "alt": "세일즈 리허설 263쪽, 장 제목과 사진·캡션·본문을 편집한 실제 내지",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 1440 /team/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kings-menu-grid.png",
+        "alt": "Kings 메뉴의 사진·가격·특징을 비교할 수 있도록 구성한 실제 웹 제작 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /team/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /team/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /team/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /team/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /team/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "업무와 프로젝트 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ service control-panel associations",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 0",
+      "passed": true,
+      "detail": "전략·브랜딩"
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 0 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/redbean-home.png",
+        "alt": "소적두의 브랜드 메시지와 제품 탐색을 연결한 웹",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 0",
+      "passed": true,
+      "detail": "panel-strategy"
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 1",
+      "passed": true,
+      "detail": "디지털 마케팅"
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 1 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-soulreset.png",
+        "alt": "SoulReset 여행 서비스 소개와 문의 흐름",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 1",
+      "passed": true,
+      "detail": "panel-digital"
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 2",
+      "passed": true,
+      "detail": "콘텐츠·디자인"
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 2 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-part-opener.webp",
+        "alt": "세일즈 리허설의 실제 파트 시작면",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 2",
+      "passed": true,
+      "detail": "panel-content"
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 3",
+      "passed": true,
+      "detail": "영상 제작"
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 3 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/botanic-garden.webp",
+        "alt": "서울식물원 야외 정원 전경, 여행 필름의 산책 시작 장면 레퍼런스",
+        "complete": true,
+        "naturalWidth": 1800,
+        "naturalHeight": 1350
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 3 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/place-soakru.webp",
+        "alt": "소악루의 건축과 주변 풍경, 여행 필름의 잠시 머무는 장면 레퍼런스",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 794
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 3 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/botanic-skywalk.webp",
+        "alt": "서울식물원 스카이워크, 여행 필름의 마지막 온실 산책 장면 레퍼런스",
+        "complete": true,
+        "naturalWidth": 1400,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 3",
+      "passed": true,
+      "detail": "panel-video"
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 4",
+      "passed": true,
+      "detail": "미디어·오프라인 광고"
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 4 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/botanic-skywalk.webp",
+        "alt": "도시 산책 전시 포스터의 공간 사진 레퍼런스",
+        "complete": true,
+        "naturalWidth": 1400,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 4",
+      "passed": true,
+      "detail": "panel-media"
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 5",
+      "passed": true,
+      "detail": "인플루언서 마케팅"
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 5 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/beauty-ritual.webp",
+        "alt": "뷰티 콘텐츠 톤을 제안하는 무브랜드 보틀 정물의 생성형 콘셉트 이미지",
+        "complete": true,
+        "naturalWidth": 1536,
+        "naturalHeight": 1024
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 5",
+      "passed": true,
+      "detail": "panel-influencer"
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 6",
+      "passed": true,
+      "detail": "병원 마케팅"
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 6",
+      "passed": true,
+      "detail": "panel-hospital"
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 7",
+      "passed": true,
+      "detail": "사업·글로벌 컨설팅"
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 7 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kfood-dashboard.png",
+        "alt": "먹거리사전의 품목 및 소싱 정보 탐색 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 7",
+      "passed": true,
+      "detail": "panel-consulting"
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 8",
+      "passed": true,
+      "detail": "IT 솔루션 지원"
+    },
+    {
+      "name": "webkit 1440 /works/ service panel 8 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/operations-dashboard.png",
+        "alt": "정보 수집과 발행 현황을 모니터링하는 운영 대시보드",
+        "complete": true,
+        "naturalWidth": 1282,
+        "naturalHeight": 946
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 8",
+      "passed": true,
+      "detail": "panel-it"
+    },
+    {
+      "name": "webkit 1440 /works/ service selection 9",
+      "passed": true,
+      "detail": "언론홍보"
+    },
+    {
+      "name": "webkit 1440 /works/ service readable panel 9",
+      "passed": true,
+      "detail": "panel-pr"
+    },
+    {
+      "name": "webkit 1440 /works/ service End selects and focuses last",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ service Home selects and focuses first",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ service ArrowRight selects next",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ service ArrowLeft selects previous",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ WORKS project anchor reaches visible target",
+      "passed": true,
+      "detail": {
+        "href": "#projects",
+        "url": "http://127.0.0.1:4173/works/#projects"
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive matches public project API with unique slugs",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "soulreset",
+          "sales-rehearsal",
+          "jonghae-community",
+          "kings-franchise",
+          "sojukdoo-concept",
+          "ezylens-studio",
+          "content-operations",
+          "kfood-dashboard",
+          "review-atelier",
+          "tesign-radar",
+          "tesign-workflow",
+          "patient-guide",
+          "city-culture",
+          "all-the-comm"
+        ],
+        "api": [
+          "soulreset",
+          "sales-rehearsal",
+          "jonghae-community",
+          "kings-franchise",
+          "sojukdoo-concept",
+          "ezylens-studio",
+          "content-operations",
+          "kfood-dashboard",
+          "review-atelier",
+          "tesign-radar",
+          "tesign-workflow",
+          "patient-guide",
+          "city-culture",
+          "all-the-comm"
+        ]
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+        "alt": "SoulReset — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+        "alt": "세일즈 리허설 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+        "alt": "종해문화진흥원 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 3 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/kings-home.png",
+        "alt": "Kings — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 4 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/redbean-home.png",
+        "alt": "소적두 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 5 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+        "alt": "EzyLens — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 965
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 6 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/operations-dashboard.png",
+        "alt": "정보 운영 대시보드 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1282,
+        "naturalHeight": 946
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 7 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/kfood-dashboard.png",
+        "alt": "먹거리사전 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 8 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 9 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 10 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+        "alt": "Tesign OS — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1558
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 11 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/concept-patient-guide.png",
+        "alt": "첫 방문 안내 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 1200
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 12 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+        "alt": "도시를 다시 보다 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 1200
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive 13 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/allthecomm-inquiry.png",
+        "alt": "올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면",
+        "complete": true,
+        "naturalWidth": 1548,
+        "naturalHeight": 2142
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ archive filter strategy",
+      "passed": true,
+      "detail": [
+        "sojukdoo-concept",
+        "kfood-dashboard",
+        "city-culture",
+        "all-the-comm"
+      ]
+    },
+    {
+      "name": "webkit 1440 /works/ archive filter digital",
+      "passed": true,
+      "detail": [
+        "jonghae-community"
+      ]
+    },
+    {
+      "name": "webkit 1440 /works/ archive filter content",
+      "passed": true,
+      "detail": [
+        "soulreset",
+        "sales-rehearsal",
+        "jonghae-community",
+        "kings-franchise",
+        "sojukdoo-concept",
+        "review-atelier"
+      ]
+    },
+    {
+      "name": "webkit 1440 /works/ archive filter video",
+      "passed": true,
+      "detail": [
+        "all-the-comm"
+      ]
+    },
+    {
+      "name": "webkit 1440 /works/ archive filter media",
+      "passed": true,
+      "detail": [
+        "city-culture"
+      ]
+    },
+    {
+      "name": "webkit 1440 /works/ archive filter hospital",
+      "passed": true,
+      "detail": [
+        "patient-guide"
+      ]
+    },
+    {
+      "name": "webkit 1440 /works/ archive filter it",
+      "passed": true,
+      "detail": [
+        "soulreset",
+        "jonghae-community",
+        "kings-franchise",
+        "sojukdoo-concept",
+        "ezylens-studio",
+        "content-operations"
+      ]
+    },
+    {
+      "name": "webkit 1440 /works/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/redbean-home.png",
+        "alt": "소적두의 브랜드 메시지와 제품 탐색을 연결한 웹",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+        "alt": "SoulReset — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ main 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+        "alt": "세일즈 리허설 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ main 3 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+        "alt": "종해문화진흥원 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ main 4 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/kings-home.png",
+        "alt": "Kings — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ main 5 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/redbean-home.png",
+        "alt": "소적두 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ main 6 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+        "alt": "EzyLens — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 965
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /works/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /contact/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "프로젝트 문의 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /contact/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ contact guide and FAQ are present",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ answer 0 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ answer 0 closes",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ answer 1 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ answer 1 closes",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ answer 2 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ answer 2 closes",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ answer 3 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ answer 3 closes",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ inquiry remains blank and unsent",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kfood-map.png",
+        "alt": "지역 지도와 월별 품목을 연결한 먹거리사전의 산지 탐색 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /contact/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/redbean-audiences.png",
+        "alt": "일반 소비자와 카페사업자의 목적에 따라 상품 탐색을 나눈 소적두 웹 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /contact/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /contact/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /contact/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /contact/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /contact/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "Strategy, creative and beyond — ALL THE COMMUNICATION"
+      }
+    },
+    {
+      "name": "webkit 1440 /en/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/en/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/en/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/en/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/en/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/en/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /en/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/en/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/en/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/en/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/en/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/en/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /en/ English excludes Korean editorial layer and new modules",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/about/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "About us — ALL THE COMMUNICATION"
+      }
+    },
+    {
+      "name": "webkit 1440 /en/about/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/en/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/en/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/en/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/en/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/en/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /en/about/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/en/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/en/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/en/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/en/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/en/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /en/about/ English excludes Korean editorial layer and new modules",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/about/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/about/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/about/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/process/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "Our process — ALL THE COMMUNICATION"
+      }
+    },
+    {
+      "name": "webkit 1440 /en/process/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/en/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/en/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/en/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/en/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/en/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /en/process/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/en/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/en/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/en/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/en/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/en/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /en/process/ English excludes Korean editorial layer and new modules",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/process/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/process/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/process/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/team/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "Our disciplines — ALL THE COMMUNICATION"
+      }
+    },
+    {
+      "name": "webkit 1440 /en/team/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/en/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/en/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/en/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/en/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/en/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /en/team/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/en/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/en/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/en/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/en/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/en/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /en/team/ English excludes Korean editorial layer and new modules",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/team/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/team/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/team/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/works/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "Capabilities & projects — ALL THE COMMUNICATION"
+      }
+    },
+    {
+      "name": "webkit 1440 /en/works/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/en/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/en/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/en/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/en/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/en/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /en/works/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/en/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/en/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/en/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/en/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/en/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /en/works/ English excludes Korean editorial layer and new modules",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/works/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/works/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/works/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/contact/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "Start a project — ALL THE COMMUNICATION"
+      }
+    },
+    {
+      "name": "webkit 1440 /en/contact/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/en/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/en/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/en/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/en/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/en/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /en/contact/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/en/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/en/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/en/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/en/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/en/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 1440 /en/contact/ English excludes Korean editorial layer and new modules",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /en/contact/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/contact/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /en/contact/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 / HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "기획에서 실행까지 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 / one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / mobile menu opens and focuses first link",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / mobile menu keyboard stays inside dialog",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / mobile menu Escape closes and restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / hero control-panel associations",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / hero selection 0",
+      "passed": true,
+      "detail": "01브랜드 웹"
+    },
+    {
+      "name": "webkit 390 / hero panel 0 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kings-menu-grid.png",
+        "alt": "Kings 메뉴를 사진과 설명으로 소개한 실제 제작 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 / hero readable panel 0",
+      "passed": true,
+      "detail": "evidence-scene-0"
+    },
+    {
+      "name": "webkit 390 / hero selection 1",
+      "passed": true,
+      "detail": "02UI/UX 설계"
+    },
+    {
+      "name": "webkit 390 / hero panel 1 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/ezylens-studio.png",
+        "alt": "EzyLens의 상품 탐색과 옵션 선택 UI/UX 설계 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 965
+      }
+    },
+    {
+      "name": "webkit 390 / hero readable panel 1",
+      "passed": true,
+      "detail": "evidence-scene-1"
+    },
+    {
+      "name": "webkit 390 / hero selection 2",
+      "passed": true,
+      "detail": "03대시보드 개발"
+    },
+    {
+      "name": "webkit 390 / hero panel 2 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kfood-map.png",
+        "alt": "먹거리사전의 월별 품목과 산지 지도 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 / hero readable panel 2",
+      "passed": true,
+      "detail": "evidence-scene-2"
+    },
+    {
+      "name": "webkit 390 / hero End selects and focuses last",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / hero Home selects and focuses first",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / hero ArrowRight selects next",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / hero ArrowLeft selects previous",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / service control-panel associations",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / service selection 0",
+      "passed": true,
+      "detail": "전략·브랜딩"
+    },
+    {
+      "name": "webkit 390 / service readable panel 0",
+      "passed": true,
+      "detail": "panel-strategy"
+    },
+    {
+      "name": "webkit 390 / service selection 1",
+      "passed": true,
+      "detail": "디지털 마케팅"
+    },
+    {
+      "name": "webkit 390 / service readable panel 1",
+      "passed": true,
+      "detail": "panel-digital"
+    },
+    {
+      "name": "webkit 390 / service selection 2",
+      "passed": true,
+      "detail": "콘텐츠·디자인·영상"
+    },
+    {
+      "name": "webkit 390 / service readable panel 2",
+      "passed": true,
+      "detail": "panel-content"
+    },
+    {
+      "name": "webkit 390 / service selection 3",
+      "passed": true,
+      "detail": "미디어·오프라인 광고"
+    },
+    {
+      "name": "webkit 390 / service readable panel 3",
+      "passed": true,
+      "detail": "panel-media"
+    },
+    {
+      "name": "webkit 390 / service selection 4",
+      "passed": true,
+      "detail": "인플루언서 마케팅"
+    },
+    {
+      "name": "webkit 390 / service readable panel 4",
+      "passed": true,
+      "detail": "panel-influencer"
+    },
+    {
+      "name": "webkit 390 / service selection 5",
+      "passed": true,
+      "detail": "병원 마케팅"
+    },
+    {
+      "name": "webkit 390 / service readable panel 5",
+      "passed": true,
+      "detail": "panel-hospital"
+    },
+    {
+      "name": "webkit 390 / service selection 6",
+      "passed": true,
+      "detail": "IT 솔루션 지원"
+    },
+    {
+      "name": "webkit 390 / service readable panel 6",
+      "passed": true,
+      "detail": "panel-it"
+    },
+    {
+      "name": "webkit 390 / service selection 7",
+      "passed": true,
+      "detail": "언론홍보"
+    },
+    {
+      "name": "webkit 390 / service readable panel 7",
+      "passed": true,
+      "detail": "panel-pr"
+    },
+    {
+      "name": "webkit 390 / service End selects and focuses last",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / service Home selects and focuses first",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / service ArrowRight selects next",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / service ArrowLeft selects previous",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / home process preview 0",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / home process preview 1",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / home process preview 2",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / home process preview 3",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / project CTA reaches visible target",
+      "passed": true,
+      "detail": {
+        "href": "/works/#projects",
+        "url": "http://127.0.0.1:4173/works/#projects"
+      }
+    },
+    {
+      "name": "webkit 390 / main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kings-menu-grid.png",
+        "alt": "Kings 메뉴를 사진과 설명으로 소개한 실제 제작 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 / main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+        "alt": "SoulReset — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 390 / main 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+        "alt": "세일즈 리허설 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 390 / main 3 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+        "alt": "종해문화진흥원 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 / no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 / official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 390 / Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 / no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 / no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 / no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /about/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "회사 소개 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /about/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ mobile menu opens and focuses first link",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ mobile menu keyboard stays inside dialog",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ mobile menu Escape closes and restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ healthcare experience and evidence attribution retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ case headings are project names with concise copy",
+      "passed": true,
+      "detail": [
+        "종해문화진흥원",
+        "SoulReset"
+      ]
+    },
+    {
+      "name": "webkit 390 /about/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/jonghae-home.png",
+        "alt": "종해문화진흥원의 활동 사진과 기관 소개, 자료 공개를 연결한 홈페이지",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /about/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-soulreset.png",
+        "alt": "SoulReset의 여행 장면과 서비스 탐색, 상담 진입을 담은 웹사이트 첫 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 390 /about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /about/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 390 /about/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /about/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /about/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /about/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /process/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "일하는 과정 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /process/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ mobile menu opens and focuses first link",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ mobile menu keyboard stays inside dialog",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ mobile menu Escape closes and restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ process deliverables and handover sections retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ mobile chapters keep inline images",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /process/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit 390 /process/ main 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 390 /process/ main 3 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1558
+      }
+    },
+    {
+      "name": "webkit 390 /process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /process/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 390 /process/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /process/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /process/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /process/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /team/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "함께하는 역할 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /team/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ mobile menu opens and focuses first link",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ mobile menu keyboard stays inside dialog",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ mobile menu Escape closes and restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ role control-panel associations",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ role selection 0",
+      "passed": true,
+      "detail": "전략·마케팅"
+    },
+    {
+      "name": "webkit 390 /team/ role readable panel 0",
+      "passed": true,
+      "detail": "role-panel-0"
+    },
+    {
+      "name": "webkit 390 /team/ role selection 1",
+      "passed": true,
+      "detail": "디지털"
+    },
+    {
+      "name": "webkit 390 /team/ role readable panel 1",
+      "passed": true,
+      "detail": "role-panel-1"
+    },
+    {
+      "name": "webkit 390 /team/ role selection 2",
+      "passed": true,
+      "detail": "콘텐츠"
+    },
+    {
+      "name": "webkit 390 /team/ role readable panel 2",
+      "passed": true,
+      "detail": "role-panel-2"
+    },
+    {
+      "name": "webkit 390 /team/ role selection 3",
+      "passed": true,
+      "detail": "디자인"
+    },
+    {
+      "name": "webkit 390 /team/ role readable panel 3",
+      "passed": true,
+      "detail": "role-panel-3"
+    },
+    {
+      "name": "webkit 390 /team/ role selection 4",
+      "passed": true,
+      "detail": "영상"
+    },
+    {
+      "name": "webkit 390 /team/ role readable panel 4",
+      "passed": true,
+      "detail": "role-panel-4"
+    },
+    {
+      "name": "webkit 390 /team/ role selection 5",
+      "passed": true,
+      "detail": "미디어 광고"
+    },
+    {
+      "name": "webkit 390 /team/ role readable panel 5",
+      "passed": true,
+      "detail": "role-panel-5"
+    },
+    {
+      "name": "webkit 390 /team/ role selection 6",
+      "passed": true,
+      "detail": "인플루언서"
+    },
+    {
+      "name": "webkit 390 /team/ role readable panel 6",
+      "passed": true,
+      "detail": "role-panel-6"
+    },
+    {
+      "name": "webkit 390 /team/ role selection 7",
+      "passed": true,
+      "detail": "IT 솔루션"
+    },
+    {
+      "name": "webkit 390 /team/ role readable panel 7",
+      "passed": true,
+      "detail": "role-panel-7"
+    },
+    {
+      "name": "webkit 390 /team/ role selection 8",
+      "passed": true,
+      "detail": "언론홍보"
+    },
+    {
+      "name": "webkit 390 /team/ role readable panel 8",
+      "passed": true,
+      "detail": "role-panel-8"
+    },
+    {
+      "name": "webkit 390 /team/ role End selects and focuses last",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ role Home selects and focuses first",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ role ArrowRight selects next",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ role ArrowLeft selects previous",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ book facts and creator attribution preserved",
+      "passed": true,
+      "detail": "강승구 저술·편집 · 340쪽 PDF\n\n원고 구성 · 저술 · 편집 디자인\n\n세일즈 리허설\n\n영업의 판단과 연습을 다룬 책입니다. 8부와 33장의 개념·사례·실습을 집필하고 본문, 도해, 워크시트의 지면을 편집했습니다.\n\n저술\n목차, 개념 설명, 사례와 실습 질문.\n편집 디자인\n제목·본문의 위계와 사진·도해 배치.\n검토\n목차 순서, 본문과 도해·실습의 일치.\n\n제작물\n원고 · 내지 · 도해 · 실습 워크시트\n\n프로젝트 보기"
+    },
+    {
+      "name": "webkit 390 /team/ project-first headings and role notes retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-editorial-story.webp",
+        "alt": "세일즈 리허설 263쪽, 장 제목과 사진·캡션·본문을 편집한 실제 내지",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 390 /team/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kings-menu-grid.png",
+        "alt": "Kings 메뉴의 사진·가격·특징을 비교할 수 있도록 구성한 실제 웹 제작 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /team/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 390 /team/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /team/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /team/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /team/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "업무와 프로젝트 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /works/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ mobile menu opens and focuses first link",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ mobile menu keyboard stays inside dialog",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ mobile menu Escape closes and restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ service control-panel associations",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ service selection 0",
+      "passed": true,
+      "detail": "전략·브랜딩"
+    },
+    {
+      "name": "webkit 390 /works/ service panel 0 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/redbean-home.png",
+        "alt": "소적두의 브랜드 메시지와 제품 탐색을 연결한 웹",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 0",
+      "passed": true,
+      "detail": "panel-strategy"
+    },
+    {
+      "name": "webkit 390 /works/ service selection 1",
+      "passed": true,
+      "detail": "디지털 마케팅"
+    },
+    {
+      "name": "webkit 390 /works/ service panel 1 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-soulreset.png",
+        "alt": "SoulReset 여행 서비스 소개와 문의 흐름",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 1",
+      "passed": true,
+      "detail": "panel-digital"
+    },
+    {
+      "name": "webkit 390 /works/ service selection 2",
+      "passed": true,
+      "detail": "콘텐츠·디자인"
+    },
+    {
+      "name": "webkit 390 /works/ service panel 2 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-part-opener.webp",
+        "alt": "세일즈 리허설의 실제 파트 시작면",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 2",
+      "passed": true,
+      "detail": "panel-content"
+    },
+    {
+      "name": "webkit 390 /works/ service selection 3",
+      "passed": true,
+      "detail": "영상 제작"
+    },
+    {
+      "name": "webkit 390 /works/ service panel 3 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/botanic-garden.webp",
+        "alt": "서울식물원 야외 정원 전경, 여행 필름의 산책 시작 장면 레퍼런스",
+        "complete": true,
+        "naturalWidth": 1800,
+        "naturalHeight": 1350
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service panel 3 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/place-soakru.webp",
+        "alt": "소악루의 건축과 주변 풍경, 여행 필름의 잠시 머무는 장면 레퍼런스",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 794
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service panel 3 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/botanic-skywalk.webp",
+        "alt": "서울식물원 스카이워크, 여행 필름의 마지막 온실 산책 장면 레퍼런스",
+        "complete": true,
+        "naturalWidth": 1400,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 3",
+      "passed": true,
+      "detail": "panel-video"
+    },
+    {
+      "name": "webkit 390 /works/ service selection 4",
+      "passed": true,
+      "detail": "미디어·오프라인 광고"
+    },
+    {
+      "name": "webkit 390 /works/ service panel 4 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/botanic-skywalk.webp",
+        "alt": "도시 산책 전시 포스터의 공간 사진 레퍼런스",
+        "complete": true,
+        "naturalWidth": 1400,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 4",
+      "passed": true,
+      "detail": "panel-media"
+    },
+    {
+      "name": "webkit 390 /works/ service selection 5",
+      "passed": true,
+      "detail": "인플루언서 마케팅"
+    },
+    {
+      "name": "webkit 390 /works/ service panel 5 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/diverse/beauty-ritual.webp",
+        "alt": "뷰티 콘텐츠 톤을 제안하는 무브랜드 보틀 정물의 생성형 콘셉트 이미지",
+        "complete": true,
+        "naturalWidth": 1536,
+        "naturalHeight": 1024
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 5",
+      "passed": true,
+      "detail": "panel-influencer"
+    },
+    {
+      "name": "webkit 390 /works/ service selection 6",
+      "passed": true,
+      "detail": "병원 마케팅"
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 6",
+      "passed": true,
+      "detail": "panel-hospital"
+    },
+    {
+      "name": "webkit 390 /works/ service selection 7",
+      "passed": true,
+      "detail": "사업·글로벌 컨설팅"
+    },
+    {
+      "name": "webkit 390 /works/ service panel 7 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kfood-dashboard.png",
+        "alt": "먹거리사전의 품목 및 소싱 정보 탐색 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 7",
+      "passed": true,
+      "detail": "panel-consulting"
+    },
+    {
+      "name": "webkit 390 /works/ service selection 8",
+      "passed": true,
+      "detail": "IT 솔루션 지원"
+    },
+    {
+      "name": "webkit 390 /works/ service panel 8 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/operations-dashboard.png",
+        "alt": "정보 수집과 발행 현황을 모니터링하는 운영 대시보드",
+        "complete": true,
+        "naturalWidth": 1282,
+        "naturalHeight": 946
+      }
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 8",
+      "passed": true,
+      "detail": "panel-it"
+    },
+    {
+      "name": "webkit 390 /works/ service selection 9",
+      "passed": true,
+      "detail": "언론홍보"
+    },
+    {
+      "name": "webkit 390 /works/ service readable panel 9",
+      "passed": true,
+      "detail": "panel-pr"
+    },
+    {
+      "name": "webkit 390 /works/ service End selects and focuses last",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ service Home selects and focuses first",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ service ArrowRight selects next",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ service ArrowLeft selects previous",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ WORKS project anchor reaches visible target",
+      "passed": true,
+      "detail": {
+        "href": "#projects",
+        "url": "http://127.0.0.1:4173/works/#projects"
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive matches public project API with unique slugs",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "soulreset",
+          "sales-rehearsal",
+          "jonghae-community",
+          "kings-franchise",
+          "sojukdoo-concept",
+          "ezylens-studio",
+          "content-operations",
+          "kfood-dashboard",
+          "review-atelier",
+          "tesign-radar",
+          "tesign-workflow",
+          "patient-guide",
+          "city-culture",
+          "all-the-comm"
+        ],
+        "api": [
+          "soulreset",
+          "sales-rehearsal",
+          "jonghae-community",
+          "kings-franchise",
+          "sojukdoo-concept",
+          "ezylens-studio",
+          "content-operations",
+          "kfood-dashboard",
+          "review-atelier",
+          "tesign-radar",
+          "tesign-workflow",
+          "patient-guide",
+          "city-culture",
+          "all-the-comm"
+        ]
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+        "alt": "SoulReset — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+        "alt": "세일즈 리허설 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+        "alt": "종해문화진흥원 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 3 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/kings-home.png",
+        "alt": "Kings — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 4 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/redbean-home.png",
+        "alt": "소적두 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 5 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+        "alt": "EzyLens — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 965
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 6 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/operations-dashboard.png",
+        "alt": "정보 운영 대시보드 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1282,
+        "naturalHeight": 946
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 7 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/kfood-dashboard.png",
+        "alt": "먹거리사전 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 8 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1050
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 9 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 10 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+        "alt": "Tesign OS — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1558
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 11 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/concept-patient-guide.png",
+        "alt": "첫 방문 안내 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 1200
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 12 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+        "alt": "도시를 다시 보다 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 1200
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive 13 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/allthecomm-inquiry.png",
+        "alt": "올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면",
+        "complete": true,
+        "naturalWidth": 1548,
+        "naturalHeight": 2142
+      }
+    },
+    {
+      "name": "webkit 390 /works/ archive filter strategy",
+      "passed": true,
+      "detail": [
+        "sojukdoo-concept",
+        "kfood-dashboard",
+        "city-culture",
+        "all-the-comm"
+      ]
+    },
+    {
+      "name": "webkit 390 /works/ archive filter digital",
+      "passed": true,
+      "detail": [
+        "jonghae-community"
+      ]
+    },
+    {
+      "name": "webkit 390 /works/ archive filter content",
+      "passed": true,
+      "detail": [
+        "soulreset",
+        "sales-rehearsal",
+        "jonghae-community",
+        "kings-franchise",
+        "sojukdoo-concept",
+        "review-atelier"
+      ]
+    },
+    {
+      "name": "webkit 390 /works/ archive filter video",
+      "passed": true,
+      "detail": [
+        "all-the-comm"
+      ]
+    },
+    {
+      "name": "webkit 390 /works/ archive filter media",
+      "passed": true,
+      "detail": [
+        "city-culture"
+      ]
+    },
+    {
+      "name": "webkit 390 /works/ archive filter hospital",
+      "passed": true,
+      "detail": [
+        "patient-guide"
+      ]
+    },
+    {
+      "name": "webkit 390 /works/ archive filter it",
+      "passed": true,
+      "detail": [
+        "soulreset",
+        "jonghae-community",
+        "kings-franchise",
+        "sojukdoo-concept",
+        "ezylens-studio",
+        "content-operations"
+      ]
+    },
+    {
+      "name": "webkit 390 /works/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/redbean-home.png",
+        "alt": "소적두의 브랜드 메시지와 제품 탐색을 연결한 웹",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+        "alt": "SoulReset — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 900
+      }
+    },
+    {
+      "name": "webkit 390 /works/ main 2 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+        "alt": "세일즈 리허설 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1352,
+        "naturalHeight": 2000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ main 3 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+        "alt": "종해문화진흥원 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ main 4 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/kings-home.png",
+        "alt": "Kings — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ main 5 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/expansion/redbean-home.png",
+        "alt": "소적두 — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /works/ main 6 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+        "alt": "EzyLens — 제작 화면 캡처",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 965
+      }
+    },
+    {
+      "name": "webkit 390 /works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /works/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 390 /works/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /works/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ no attempted writes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /contact/ HTTP and document language",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "title": "프로젝트 문의 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /contact/ one readable page title",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ mobile menu opens and focuses first link",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ mobile menu keyboard stays inside dialog",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ mobile menu Escape closes and restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ contact guide and FAQ are present",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ answer 0 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ answer 0 closes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ answer 1 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ answer 1 closes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ answer 2 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ answer 2 closes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ answer 3 opens",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ answer 3 closes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ inquiry remains blank and unsent",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ main 0 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/kfood-map.png",
+        "alt": "지역 지도와 월별 품목을 연결한 먹거리사전의 산지 탐색 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /contact/ main 1 image load and description",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/redbean-audiences.png",
+        "alt": "일반 소비자와 카페사업자의 목적에 따라 상품 탐색을 나눈 소적두 웹 화면",
+        "complete": true,
+        "naturalWidth": 1440,
+        "naturalHeight": 1000
+      }
+    },
+    {
+      "name": "webkit 390 /contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /contact/ official menu links preserved",
+      "passed": true,
+      "detail": [
+        {
+          "text": "ABOUT US",
+          "href": "/about/"
+        },
+        {
+          "text": "OUR PROCESS",
+          "href": "/process/"
+        },
+        {
+          "text": "TEAM",
+          "href": "/team/"
+        },
+        {
+          "text": "WORKS",
+          "href": "/works/"
+        },
+        {
+          "text": "CONTACT",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "name": "webkit 390 /contact/ Korean white header and editorial stylesheet",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "headerBackground": "rgb(255, 255, 255)",
+        "headerBackdrop": "none",
+        "nav": [
+          {
+            "text": "ABOUT US",
+            "href": "/about/"
+          },
+          {
+            "text": "OUR PROCESS",
+            "href": "/process/"
+          },
+          {
+            "text": "TEAM",
+            "href": "/team/"
+          },
+          {
+            "text": "WORKS",
+            "href": "/works/"
+          },
+          {
+            "text": "CONTACT",
+            "href": "/contact/"
+          }
+        ],
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /contact/ no runtime or console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /contact/ no failed network or HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /contact/ no attempted writes",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "pages": [
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/",
+      "locale": "ko",
+      "title": "기획에서 실행까지 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/about/",
+      "locale": "ko",
+      "title": "회사 소개 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/process/",
+      "locale": "ko",
+      "title": "일하는 과정 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/team/",
+      "locale": "ko",
+      "title": "함께하는 역할 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/works/",
+      "locale": "ko",
+      "title": "업무와 프로젝트 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact/",
+      "locale": "ko",
+      "title": "프로젝트 문의 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/en/",
+      "locale": "en",
+      "title": "Strategy, creative and beyond — ALL THE COMMUNICATION"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/en/about/",
+      "locale": "en",
+      "title": "About us — ALL THE COMMUNICATION"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/en/process/",
+      "locale": "en",
+      "title": "Our process — ALL THE COMMUNICATION"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/en/team/",
+      "locale": "en",
+      "title": "Our disciplines — ALL THE COMMUNICATION"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/en/works/",
+      "locale": "en",
+      "title": "Capabilities & projects — ALL THE COMMUNICATION"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/en/contact/",
+      "locale": "en",
+      "title": "Start a project — ALL THE COMMUNICATION"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/",
+      "locale": "ko",
+      "title": "기획에서 실행까지 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/about/",
+      "locale": "ko",
+      "title": "회사 소개 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/process/",
+      "locale": "ko",
+      "title": "일하는 과정 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/team/",
+      "locale": "ko",
+      "title": "함께하는 역할 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/works/",
+      "locale": "ko",
+      "title": "업무와 프로젝트 — 올더커뮤니케이션"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact/",
+      "locale": "ko",
+      "title": "프로젝트 문의 — 올더커뮤니케이션"
+    }
+  ],
+  "events": [
+    {
+      "label": "webkit 1440 /",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /about/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /process/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /team/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /contact/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /en/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /en/about/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /en/process/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /en/team/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /en/works/",
+      "records": []
+    },
+    {
+      "label": "webkit 1440 /en/contact/",
+      "records": []
+    },
+    {
+      "label": "webkit 390 /",
+      "records": []
+    },
+    {
+      "label": "webkit 390 /about/",
+      "records": []
+    },
+    {
+      "label": "webkit 390 /process/",
+      "records": []
+    },
+    {
+      "label": "webkit 390 /team/",
+      "records": []
+    },
+    {
+      "label": "webkit 390 /works/",
+      "records": []
+    },
+    {
+      "label": "webkit 390 /contact/",
+      "records": []
+    }
+  ],
+  "images": [
+    {
+      "label": "webkit 1440 /",
+      "note": "hero panel 0 0",
+      "src": "/evidence/expansion/kings-menu-grid.png",
+      "alt": "Kings 메뉴를 사진과 설명으로 소개한 실제 제작 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /",
+      "note": "hero panel 1 0",
+      "src": "/evidence/diverse/ezylens-studio.png",
+      "alt": "EzyLens의 상품 탐색과 옵션 선택 UI/UX 설계 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 965
+    },
+    {
+      "label": "webkit 1440 /",
+      "note": "hero panel 2 0",
+      "src": "/evidence/expansion/kfood-map.png",
+      "alt": "먹거리사전의 월별 품목과 산지 지도 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /",
+      "note": "main 0",
+      "src": "/evidence/expansion/kings-menu-grid.png",
+      "alt": "Kings 메뉴를 사진과 설명으로 소개한 실제 제작 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /",
+      "note": "main 1",
+      "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+      "alt": "SoulReset — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 1440 /",
+      "note": "main 2",
+      "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+      "alt": "세일즈 리허설 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 1440 /",
+      "note": "main 3",
+      "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /about/",
+      "note": "main 0",
+      "src": "/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원의 활동 사진과 기관 소개, 자료 공개를 연결한 홈페이지",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /about/",
+      "note": "main 1",
+      "src": "/portfolio/site-soulreset.png",
+      "alt": "SoulReset의 여행 장면과 서비스 탐색, 상담 진입을 담은 웹사이트 첫 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 1440 /process/",
+      "note": "process chapter 3 0",
+      "src": "/portfolio/saas-tesign-workflow.png",
+      "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1558
+    },
+    {
+      "label": "webkit 1440 /process/",
+      "note": "process chapter 2 0",
+      "src": "/evidence/expansion/book-judgment-loop.webp",
+      "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 1440 /process/",
+      "note": "process chapter 1 0",
+      "src": "/portfolio/saas-ea-editor.png",
+      "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+      "complete": true,
+      "naturalWidth": 1600,
+      "naturalHeight": 1050
+    },
+    {
+      "label": "webkit 1440 /process/",
+      "note": "process chapter 0 0",
+      "src": "/portfolio/site-tesign-radar.png",
+      "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /process/",
+      "note": "main 0",
+      "src": "/portfolio/site-tesign-radar.png",
+      "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /process/",
+      "note": "main 1",
+      "src": "/portfolio/saas-ea-editor.png",
+      "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+      "complete": true,
+      "naturalWidth": 1600,
+      "naturalHeight": 1050
+    },
+    {
+      "label": "webkit 1440 /process/",
+      "note": "main 2",
+      "src": "/evidence/expansion/book-judgment-loop.webp",
+      "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 1440 /process/",
+      "note": "main 3",
+      "src": "/portfolio/saas-tesign-workflow.png",
+      "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1558
+    },
+    {
+      "label": "webkit 1440 /team/",
+      "note": "main 0",
+      "src": "/evidence/expansion/book-editorial-story.webp",
+      "alt": "세일즈 리허설 263쪽, 장 제목과 사진·캡션·본문을 편집한 실제 내지",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 1440 /team/",
+      "note": "main 1",
+      "src": "/evidence/expansion/kings-menu-grid.png",
+      "alt": "Kings 메뉴의 사진·가격·특징을 비교할 수 있도록 구성한 실제 웹 제작 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 0 0",
+      "src": "/evidence/expansion/redbean-home.png",
+      "alt": "소적두의 브랜드 메시지와 제품 탐색을 연결한 웹",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 1 0",
+      "src": "/portfolio/site-soulreset.png",
+      "alt": "SoulReset 여행 서비스 소개와 문의 흐름",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 2 0",
+      "src": "/evidence/expansion/book-part-opener.webp",
+      "alt": "세일즈 리허설의 실제 파트 시작면",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 3 0",
+      "src": "/evidence/diverse/botanic-garden.webp",
+      "alt": "서울식물원 야외 정원 전경, 여행 필름의 산책 시작 장면 레퍼런스",
+      "complete": true,
+      "naturalWidth": 1800,
+      "naturalHeight": 1350
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 3 1",
+      "src": "/evidence/diverse/place-soakru.webp",
+      "alt": "소악루의 건축과 주변 풍경, 여행 필름의 잠시 머무는 장면 레퍼런스",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 794
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 3 2",
+      "src": "/evidence/diverse/botanic-skywalk.webp",
+      "alt": "서울식물원 스카이워크, 여행 필름의 마지막 온실 산책 장면 레퍼런스",
+      "complete": true,
+      "naturalWidth": 1400,
+      "naturalHeight": 1050
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 4 0",
+      "src": "/evidence/diverse/botanic-skywalk.webp",
+      "alt": "도시 산책 전시 포스터의 공간 사진 레퍼런스",
+      "complete": true,
+      "naturalWidth": 1400,
+      "naturalHeight": 1050
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 5 0",
+      "src": "/evidence/diverse/beauty-ritual.webp",
+      "alt": "뷰티 콘텐츠 톤을 제안하는 무브랜드 보틀 정물의 생성형 콘셉트 이미지",
+      "complete": true,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 7 0",
+      "src": "/evidence/expansion/kfood-dashboard.png",
+      "alt": "먹거리사전의 품목 및 소싱 정보 탐색 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "service panel 8 0",
+      "src": "/evidence/expansion/operations-dashboard.png",
+      "alt": "정보 수집과 발행 현황을 모니터링하는 운영 대시보드",
+      "complete": true,
+      "naturalWidth": 1282,
+      "naturalHeight": 946
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 0",
+      "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+      "alt": "SoulReset — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 1",
+      "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+      "alt": "세일즈 리허설 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 2",
+      "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 3",
+      "src": "http://127.0.0.1:4173/evidence/expansion/kings-home.png",
+      "alt": "Kings — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 4",
+      "src": "http://127.0.0.1:4173/evidence/expansion/redbean-home.png",
+      "alt": "소적두 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 5",
+      "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+      "alt": "EzyLens — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 965
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 6",
+      "src": "http://127.0.0.1:4173/evidence/expansion/operations-dashboard.png",
+      "alt": "정보 운영 대시보드 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1282,
+      "naturalHeight": 946
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 7",
+      "src": "http://127.0.0.1:4173/evidence/expansion/kfood-dashboard.png",
+      "alt": "먹거리사전 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 8",
+      "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+      "alt": "Review Atelier — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1600,
+      "naturalHeight": 1050
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 9",
+      "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+      "alt": "TESIGN Radar — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 10",
+      "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+      "alt": "Tesign OS — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1558
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 11",
+      "src": "http://127.0.0.1:4173/portfolio/concept-patient-guide.png",
+      "alt": "첫 방문 안내 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 1200
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 12",
+      "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+      "alt": "도시를 다시 보다 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 1200
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "archive 13",
+      "src": "/evidence/allthecomm-inquiry.png",
+      "alt": "올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면",
+      "complete": true,
+      "naturalWidth": 1548,
+      "naturalHeight": 2142
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "main 0",
+      "src": "/evidence/expansion/redbean-home.png",
+      "alt": "소적두의 브랜드 메시지와 제품 탐색을 연결한 웹",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "main 1",
+      "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+      "alt": "SoulReset — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "main 2",
+      "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+      "alt": "세일즈 리허설 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "main 3",
+      "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "main 4",
+      "src": "http://127.0.0.1:4173/evidence/expansion/kings-home.png",
+      "alt": "Kings — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "main 5",
+      "src": "http://127.0.0.1:4173/evidence/expansion/redbean-home.png",
+      "alt": "소적두 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /works/",
+      "note": "main 6",
+      "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+      "alt": "EzyLens — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 965
+    },
+    {
+      "label": "webkit 1440 /contact/",
+      "note": "main 0",
+      "src": "/evidence/expansion/kfood-map.png",
+      "alt": "지역 지도와 월별 품목을 연결한 먹거리사전의 산지 탐색 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 1440 /contact/",
+      "note": "main 1",
+      "src": "/evidence/expansion/redbean-audiences.png",
+      "alt": "일반 소비자와 카페사업자의 목적에 따라 상품 탐색을 나눈 소적두 웹 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /",
+      "note": "hero panel 0 0",
+      "src": "/evidence/expansion/kings-menu-grid.png",
+      "alt": "Kings 메뉴를 사진과 설명으로 소개한 실제 제작 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /",
+      "note": "hero panel 1 0",
+      "src": "/evidence/diverse/ezylens-studio.png",
+      "alt": "EzyLens의 상품 탐색과 옵션 선택 UI/UX 설계 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 965
+    },
+    {
+      "label": "webkit 390 /",
+      "note": "hero panel 2 0",
+      "src": "/evidence/expansion/kfood-map.png",
+      "alt": "먹거리사전의 월별 품목과 산지 지도 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /",
+      "note": "main 0",
+      "src": "/evidence/expansion/kings-menu-grid.png",
+      "alt": "Kings 메뉴를 사진과 설명으로 소개한 실제 제작 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /",
+      "note": "main 1",
+      "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+      "alt": "SoulReset — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 390 /",
+      "note": "main 2",
+      "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+      "alt": "세일즈 리허설 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 390 /",
+      "note": "main 3",
+      "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /about/",
+      "note": "main 0",
+      "src": "/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원의 활동 사진과 기관 소개, 자료 공개를 연결한 홈페이지",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /about/",
+      "note": "main 1",
+      "src": "/portfolio/site-soulreset.png",
+      "alt": "SoulReset의 여행 장면과 서비스 탐색, 상담 진입을 담은 웹사이트 첫 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 390 /process/",
+      "note": "main 0",
+      "src": "/portfolio/site-tesign-radar.png",
+      "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /process/",
+      "note": "main 1",
+      "src": "/portfolio/saas-ea-editor.png",
+      "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+      "complete": true,
+      "naturalWidth": 1600,
+      "naturalHeight": 1050
+    },
+    {
+      "label": "webkit 390 /process/",
+      "note": "main 2",
+      "src": "/evidence/expansion/book-judgment-loop.webp",
+      "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 390 /process/",
+      "note": "main 3",
+      "src": "/portfolio/saas-tesign-workflow.png",
+      "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1558
+    },
+    {
+      "label": "webkit 390 /team/",
+      "note": "main 0",
+      "src": "/evidence/expansion/book-editorial-story.webp",
+      "alt": "세일즈 리허설 263쪽, 장 제목과 사진·캡션·본문을 편집한 실제 내지",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 390 /team/",
+      "note": "main 1",
+      "src": "/evidence/expansion/kings-menu-grid.png",
+      "alt": "Kings 메뉴의 사진·가격·특징을 비교할 수 있도록 구성한 실제 웹 제작 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 0 0",
+      "src": "/evidence/expansion/redbean-home.png",
+      "alt": "소적두의 브랜드 메시지와 제품 탐색을 연결한 웹",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 1 0",
+      "src": "/portfolio/site-soulreset.png",
+      "alt": "SoulReset 여행 서비스 소개와 문의 흐름",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 2 0",
+      "src": "/evidence/expansion/book-part-opener.webp",
+      "alt": "세일즈 리허설의 실제 파트 시작면",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 3 0",
+      "src": "/evidence/diverse/botanic-garden.webp",
+      "alt": "서울식물원 야외 정원 전경, 여행 필름의 산책 시작 장면 레퍼런스",
+      "complete": true,
+      "naturalWidth": 1800,
+      "naturalHeight": 1350
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 3 1",
+      "src": "/evidence/diverse/place-soakru.webp",
+      "alt": "소악루의 건축과 주변 풍경, 여행 필름의 잠시 머무는 장면 레퍼런스",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 794
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 3 2",
+      "src": "/evidence/diverse/botanic-skywalk.webp",
+      "alt": "서울식물원 스카이워크, 여행 필름의 마지막 온실 산책 장면 레퍼런스",
+      "complete": true,
+      "naturalWidth": 1400,
+      "naturalHeight": 1050
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 4 0",
+      "src": "/evidence/diverse/botanic-skywalk.webp",
+      "alt": "도시 산책 전시 포스터의 공간 사진 레퍼런스",
+      "complete": true,
+      "naturalWidth": 1400,
+      "naturalHeight": 1050
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 5 0",
+      "src": "/evidence/diverse/beauty-ritual.webp",
+      "alt": "뷰티 콘텐츠 톤을 제안하는 무브랜드 보틀 정물의 생성형 콘셉트 이미지",
+      "complete": true,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 7 0",
+      "src": "/evidence/expansion/kfood-dashboard.png",
+      "alt": "먹거리사전의 품목 및 소싱 정보 탐색 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "service panel 8 0",
+      "src": "/evidence/expansion/operations-dashboard.png",
+      "alt": "정보 수집과 발행 현황을 모니터링하는 운영 대시보드",
+      "complete": true,
+      "naturalWidth": 1282,
+      "naturalHeight": 946
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 0",
+      "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+      "alt": "SoulReset — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 1",
+      "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+      "alt": "세일즈 리허설 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 2",
+      "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 3",
+      "src": "http://127.0.0.1:4173/evidence/expansion/kings-home.png",
+      "alt": "Kings — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 4",
+      "src": "http://127.0.0.1:4173/evidence/expansion/redbean-home.png",
+      "alt": "소적두 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 5",
+      "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+      "alt": "EzyLens — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 965
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 6",
+      "src": "http://127.0.0.1:4173/evidence/expansion/operations-dashboard.png",
+      "alt": "정보 운영 대시보드 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1282,
+      "naturalHeight": 946
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 7",
+      "src": "http://127.0.0.1:4173/evidence/expansion/kfood-dashboard.png",
+      "alt": "먹거리사전 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 8",
+      "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+      "alt": "Review Atelier — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1600,
+      "naturalHeight": 1050
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 9",
+      "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+      "alt": "TESIGN Radar — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 10",
+      "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+      "alt": "Tesign OS — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1558
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 11",
+      "src": "http://127.0.0.1:4173/portfolio/concept-patient-guide.png",
+      "alt": "첫 방문 안내 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 1200
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 12",
+      "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+      "alt": "도시를 다시 보다 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 1200
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "archive 13",
+      "src": "/evidence/allthecomm-inquiry.png",
+      "alt": "올더커뮤니케이션의 서비스 선택과 프로젝트 문의 입력 화면",
+      "complete": true,
+      "naturalWidth": 1548,
+      "naturalHeight": 2142
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "main 0",
+      "src": "/evidence/expansion/redbean-home.png",
+      "alt": "소적두의 브랜드 메시지와 제품 탐색을 연결한 웹",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "main 1",
+      "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+      "alt": "SoulReset — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 900
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "main 2",
+      "src": "http://127.0.0.1:4173/evidence/expansion/book-part-opener.webp",
+      "alt": "세일즈 리허설 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1352,
+      "naturalHeight": 2000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "main 3",
+      "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+      "alt": "종해문화진흥원 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "main 4",
+      "src": "http://127.0.0.1:4173/evidence/expansion/kings-home.png",
+      "alt": "Kings — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "main 5",
+      "src": "http://127.0.0.1:4173/evidence/expansion/redbean-home.png",
+      "alt": "소적두 — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /works/",
+      "note": "main 6",
+      "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+      "alt": "EzyLens — 제작 화면 캡처",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 965
+    },
+    {
+      "label": "webkit 390 /contact/",
+      "note": "main 0",
+      "src": "/evidence/expansion/kfood-map.png",
+      "alt": "지역 지도와 월별 품목을 연결한 먹거리사전의 산지 탐색 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    },
+    {
+      "label": "webkit 390 /contact/",
+      "note": "main 1",
+      "src": "/evidence/expansion/redbean-audiences.png",
+      "alt": "일반 소비자와 카페사업자의 목적에 따라 상품 탐색을 나눈 소적두 웹 화면",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 1000
+    }
+  ],
+  "sourceComparisons": [
+    {
+      "route": "/en/",
+      "file": "en-home.html",
+      "markupEqual": true,
+      "englishDataEqual": true,
+      "beforeHash": "1f95dd79509d32c5020842b7e5427795d3dd0c05531ba392fe92424675602890",
+      "afterHash": "cc0993b8eba5e63a39f763461b146aa3910cc4ceed6c8fef28146f62df2464f5"
+    },
+    {
+      "route": "/en/about/",
+      "file": "en-about.html",
+      "markupEqual": true,
+      "englishDataEqual": true,
+      "beforeHash": "b9289492b2f62702af9c045ffdcd5bfc9e554e4acba113eaf38d99f21dab384e",
+      "afterHash": "c30b13abd55270dac3fc8d83f5dbc0eca448ab13fa81f50bc34635b3fd7e9173"
+    },
+    {
+      "route": "/en/process/",
+      "file": "en-process.html",
+      "markupEqual": true,
+      "englishDataEqual": true,
+      "beforeHash": "0064bdb12b98f92ab49fa06c9d9d7023ea47347a277a44ab37793cf542545a9c",
+      "afterHash": "ce009fa683299c99c412c8d49e3eec5f7a27b541e2a3dd220eb5a834b00420a4"
+    },
+    {
+      "route": "/en/team/",
+      "file": "en-team.html",
+      "markupEqual": true,
+      "englishDataEqual": true,
+      "beforeHash": "2768faeaf1b2552e230a746a9062396de03380cd97459456b306f08571ff7fb3",
+      "afterHash": "92ffbb7032e529422973b1fa148c0e2f0fd665c0d2403f5a4de432616bfab8f0"
+    },
+    {
+      "route": "/en/works/",
+      "file": "en-works.html",
+      "markupEqual": true,
+      "englishDataEqual": true,
+      "beforeHash": "516fa625bdafc14a20d2e719351a8b14f1d3069b876b4957ef85813fdc8eacab",
+      "afterHash": "67aca399f6fdb045fd28fe12bc278b61b4cab4c2f2a61558bd191f55b7738f8f"
+    },
+    {
+      "route": "/en/contact/",
+      "file": "en-contact.html",
+      "markupEqual": true,
+      "englishDataEqual": true,
+      "beforeHash": "1d7958c732599f4bfc64648845597a477753c32fb0baf37535769701094b5e13",
+      "afterHash": "2260f9567e56769f072d1462eb03b2f7e211c1335f5b97867d17987477334634"
+    }
+  ]
+}

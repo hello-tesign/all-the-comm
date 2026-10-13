@@ -1,0 +1,35 @@
+[
+  {
+    "kind": "media",
+    "file": "concept-city-culture.png",
+    "size": [
+      1200,
+      1200
+    ],
+    "paper": [
+      680,
+      581.03125
+    ],
+    "scale": 1.6470588235294117,
+    "images": [
+      {
+        "src": "/evidence/diverse/botanic-skywalk.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "kind": "hospital",
+    "file": "concept-patient-guide.png",
+    "size": [
+      1200,
+      1200
+    ],
+    "paper": [
+      680,
+      560.515625
+    ],
+    "scale": 1.6470588235294117,
+    "images": []
+  }
+]

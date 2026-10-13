@@ -1,0 +1,68 @@
+{
+  "source": "올더로고-0523-fin-수정.ai",
+  "sourceSha256": "3c504ae4f9194e500d4d9c83864ed452a0ffd3b1568825bdb16fcc48fd63bfb0",
+  "method": "Read-only PDF-compatible AI vector rendering via Poppler GLib and Cairo SVG surfaces; fixed crop boxes preserve original outlines.",
+  "colorNote": "Original PDF color-managed display conversion, not a newly assigned brand palette. White and on-dark variants are derived application proposals, not pre-existing supplied variants.",
+  "variants": {
+    "logo-horizontal": {
+      "page": 2,
+      "crop": [
+        462.5,
+        843.0,
+        417.0,
+        91.0
+      ],
+      "description": "Original mint Korean horizontal signature; symbol at right, English subline.",
+      "width": 417.0,
+      "height": 91.0,
+      "svgBytes": 68350,
+      "whiteSvgBytes": 26597,
+      "onDarkSvgBytes": 67569,
+      "pngPixels": [
+        1251,
+        273
+      ],
+      "embeddedRasterImages": 0
+    },
+    "logo-symbol": {
+      "page": 1,
+      "crop": [
+        451.0,
+        215.5,
+        286.0,
+        285.0
+      ],
+      "description": "Original mint-to-teal-to-blue symbol, isolated from page 1.",
+      "width": 286.0,
+      "height": 285.0,
+      "svgBytes": 45648,
+      "whiteSvgBytes": 4694,
+      "onDarkSvgBytes": 45648,
+      "pngPixels": [
+        858,
+        855
+      ],
+      "embeddedRasterImages": 0
+    },
+    "logo-stacked": {
+      "page": 1,
+      "crop": [
+        186.5,
+        215.5,
+        817.0,
+        622.0
+      ],
+      "description": "Original mint stacked English/Korean signature from page 1.",
+      "width": 817.0,
+      "height": 622.0,
+      "svgBytes": 72478,
+      "whiteSvgBytes": 30680,
+      "onDarkSvgBytes": 71814,
+      "pngPixels": [
+        2451,
+        1866
+      ],
+      "embeddedRasterImages": 0
+    }
+  }
+}

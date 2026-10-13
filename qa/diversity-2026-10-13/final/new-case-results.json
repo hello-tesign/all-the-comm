@@ -1,0 +1,402 @@
+{
+  "date": "2026-10-13T01:31:41.576Z",
+  "scope": "Chromium only: four newly added portfolio details, image enlargement, Escape, and contact reference navigation. No inquiry submission or user IAB interaction.",
+  "passed": 50,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "ezylens-studio public detail API",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "slug": "ezylens-studio"
+      }
+    },
+    {
+      "name": "ezylens-studio detail HTTP200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "ezylens-studio actual case text matches public project",
+      "passed": true,
+      "detail": {
+        "title": "EzyLens — 제품에서 선택까지",
+        "summary": "제품을 크게 보고, 색상과 규격을 비교하고, 선택을 이어가는 아이웨어 커머스 시제품.",
+        "client": "EzyLens Eyewear Studio",
+        "scope": "상품 탐색 · 제품 이미지 전환·확대 · 옵션 선택 · 모의 가방 · 반응형 UI",
+        "year": "2026",
+        "problem": "작은 썸네일과 긴 상품명만으로는 안경의 형태와 옵션 차이를 이해하기 어렵습니다. 제품을 살펴보는 장면과 선택에 필요한 정보를 같은 화면에 두는 과제를 설정했습니다.",
+        "strategy": "제품 이미지에 가장 큰 면적을 주고, 모델 탐색과 색상·규격 선택을 양옆에 배치했습니다. 탐색하던 상품을 잃지 않고 옵션을 바꾸고 확대해 살펴볼 수 있도록 구성했습니다.",
+        "execution": "기존 상품 자료를 바탕으로 대표 모델 탐색, 제품 이미지 확대, 색상·사이즈 선택과 모의 가방을 구현했습니다. 키보드 탐색과 작은 화면의 옵션 접근도 함께 다뤘습니다.",
+        "result": "상품을 발견하고 비교한 뒤 선택하는 인터랙티브 화면을 제작했습니다. 브랜드의 시각 표현과 실제 구매 전 탐색 흐름을 함께 검토할 수 있는 시제품입니다.\n\n제작자 로컬 시제품이며 운영 상점의 주문·결제·매출 결과를 뜻하지 않습니다. 화면의 상품 브랜드는 판매 후보 상품이며 해당 브랜드의 수주 실적을 의미하지 않습니다."
+      }
+    },
+    {
+      "name": "ezylens-studio work status is visible",
+      "passed": true,
+      "detail": {
+        "expected": "제작자 인터랙티브 시제품",
+        "actual": "제작자 인터랙티브 시제품 · 2026"
+      }
+    },
+    {
+      "name": "ezylens-studio title and canonical identify actual case",
+      "passed": true
+    },
+    {
+      "name": "ezylens-studio cover has enlarge button",
+      "passed": true
+    },
+    {
+      "name": "ezylens-studio actual cover loaded",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+        "width": 1440,
+        "height": 965
+      }
+    },
+    {
+      "name": "ezylens-studio cover opens correct image",
+      "passed": true
+    },
+    {
+      "name": "ezylens-studio Escape closes viewer and restores focus",
+      "passed": true
+    },
+    {
+      "name": "ezylens-studio detail has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "ezylens-studio similar-project CTA has correct slug",
+      "passed": true,
+      "detail": "/contact/?project=ezylens-studio"
+    },
+    {
+      "name": "ezylens-studio contact receives reference without submitting",
+      "passed": true
+    },
+    {
+      "name": "city-culture public detail API",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "slug": "city-culture"
+      }
+    },
+    {
+      "name": "city-culture detail HTTP200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "city-culture actual case text matches public project",
+      "passed": true,
+      "detail": {
+        "title": "도시를 다시 보다 — 문화 캠페인",
+        "summary": "익숙한 도시에서 새로운 장면을 발견한다는 전시의 생각을 한 문장과 포스터로.",
+        "client": "도시 산책 전시 제안",
+        "scope": "캠페인 메시지 · 포스터 카피 · 시각 방향 · 공간 사진 편집",
+        "year": "2026",
+        "problem": "지나가는 사람에게 전시의 주제를 짧은 순간 안에 전달해야 합니다. 많은 행사 정보를 한꺼번에 나열하기보다, 무엇을 경험하게 되는지 먼저 이해시키는 과제를 설정했습니다.",
+        "strategy": "‘도시를 다시 보다’라는 행동의 문장을 중심에 두었습니다. 큰 글자와 밝은 바탕으로 먼저 시선을 잡고, 실제 도시 공간의 사진으로 산책과 발견의 경험을 연결했습니다.",
+        "execution": "캠페인 제목, 보조 카피, 옥외 포스터 구성을 직접 작성했습니다. 사진의 크기와 글자의 대비를 조정하고, 출처가 확인되는 공간 이미지를 콘셉트의 참고 소재로 사용했습니다.",
+        "result": "한 장에서 주제와 분위기가 함께 읽히는 문화 홍보물 시안을 제작했습니다. 광고의 메시지와 시각적 위계를 판단할 수 있는 자체 제안입니다.\n\n가상 전시의 자체 콘셉트입니다. 실제 행사 개최·광고 집행·방문 성과가 아닙니다. 공간 사진의 원출처와 라이선스는 시안에 표기했습니다."
+      }
+    },
+    {
+      "name": "city-culture work status is visible",
+      "passed": true,
+      "detail": {
+        "expected": "자체 제안 콘셉트",
+        "actual": "자체 제안 콘셉트 · 2026"
+      }
+    },
+    {
+      "name": "city-culture title and canonical identify actual case",
+      "passed": true
+    },
+    {
+      "name": "city-culture cover has enlarge button",
+      "passed": true
+    },
+    {
+      "name": "city-culture actual cover loaded",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+        "width": 1200,
+        "height": 1200
+      }
+    },
+    {
+      "name": "city-culture cover opens correct image",
+      "passed": true
+    },
+    {
+      "name": "city-culture Escape closes viewer and restores focus",
+      "passed": true
+    },
+    {
+      "name": "city-culture detail has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "city-culture similar-project CTA has correct slug",
+      "passed": true,
+      "detail": "/contact/?project=city-culture"
+    },
+    {
+      "name": "city-culture contact receives reference without submitting",
+      "passed": true
+    },
+    {
+      "name": "jonghae-community public detail API",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "slug": "jonghae-community"
+      }
+    },
+    {
+      "name": "jonghae-community detail HTTP200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "jonghae-community actual case text matches public project",
+      "passed": true,
+      "detail": {
+        "title": "종해문화진흥원 — 활동이 신뢰가 되는 웹",
+        "summary": "활동의 사진과 이야기, 기관 소개와 공개자료를 찾기 쉬운 홈페이지로 연결했습니다.",
+        "client": "종해문화진흥원",
+        "scope": "정보 구조 · 활동 스토리 편집 · 기관 웹 UI · 자료실 · 반응형 화면",
+        "year": "2026",
+        "problem": "기관의 활동을 처음 접하는 방문자는 무슨 일을 하는 곳인지, 어떤 기록과 자료를 확인할 수 있는지 알아야 합니다. 소개와 소식, 공개문서가 따로 흩어지지 않도록 정리하는 과제를 다뤘습니다.",
+        "strategy": "사람과 활동의 사진을 첫 화면에서 보여주고, 기관 소개·문화 활동·지역 연대·자료 공개의 흐름을 나눴습니다. 방문자가 이야기를 읽다가 관련 정보로 자연스럽게 이동하도록 설계했습니다.",
+        "execution": "사진 중심의 첫 화면, 활동 기록과 상세 이야기, 자료실 및 공개문서 접근 경로를 구현했습니다. 기관의 기본 정보와 활동 콘텐츠를 함께 운영할 수 있는 다중 페이지 웹사이트로 구성했습니다.",
+        "result": "기관의 활동을 읽고, 필요한 공개자료를 찾아보는 홈페이지를 구현했습니다. 단체의 이야기를 보여주는 편집과 정보 탐색을 함께 다룬 제작자 프로젝트입니다.\n\n2026.10.13 공개 웹 화면을 캡처했습니다. 후원 증가나 방문 전환 성과를 측정한 사례가 아닙니다."
+      }
+    },
+    {
+      "name": "jonghae-community work status is visible",
+      "passed": true,
+      "detail": {
+        "expected": "제작자 프로젝트",
+        "actual": "제작자 프로젝트 · 2026"
+      }
+    },
+    {
+      "name": "jonghae-community title and canonical identify actual case",
+      "passed": true
+    },
+    {
+      "name": "jonghae-community cover has enlarge button",
+      "passed": true
+    },
+    {
+      "name": "jonghae-community actual cover loaded",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "name": "jonghae-community cover opens correct image",
+      "passed": true
+    },
+    {
+      "name": "jonghae-community Escape closes viewer and restores focus",
+      "passed": true
+    },
+    {
+      "name": "jonghae-community detail has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "jonghae-community similar-project CTA has correct slug",
+      "passed": true,
+      "detail": "/contact/?project=jonghae-community"
+    },
+    {
+      "name": "jonghae-community contact receives reference without submitting",
+      "passed": true
+    },
+    {
+      "name": "patient-guide public detail API",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "slug": "patient-guide"
+      }
+    },
+    {
+      "name": "patient-guide detail HTTP200",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "name": "patient-guide actual case text matches public project",
+      "passed": true,
+      "detail": {
+        "title": "첫 방문 안내 — 환자의 질문에서 시작한 콘텐츠",
+        "summary": "예약 확인부터 위치와 접수까지, 처음 방문하는 환자에게 필요한 정보를 한 장에.",
+        "client": "병원 방문 안내 제안",
+        "scope": "안내 메시지 · 방문 흐름 · 리플릿 카피 · 정보 위계 · 편집 디자인",
+        "year": "2026",
+        "problem": "처음 방문하는 사람에게는 진료 분야의 설명만큼 예약한 날짜와 위치, 도착 후 순서가 중요합니다. 방문 전에 반복해서 생기는 질문을 먼저 해결하는 안내 콘텐츠를 제안했습니다.",
+        "strategy": "‘방문 전 → 오시는 길 → 도착 후’의 시간 순서로 정보를 정리했습니다. 짧은 제목을 먼저 읽고 필요한 설명으로 이어갈 수 있도록 글자의 크기와 간격을 나눴습니다.",
+        "execution": "예약 내용을 확인하는 안내, 위치·주차 정보 확인, 도착 후 접수의 실제 문구를 작성했습니다. 과장된 치료 효능이나 환자 후기를 사용하지 않고 안내물의 읽기 경험을 구성했습니다.",
+        "result": "환자의 질문을 중심으로 한 방문 안내 리플릿 시안을 제작했습니다. 웹·문자 링크·인쇄 안내로 확장할 수 있는 콘텐츠 구성과 시각 위계를 보여줍니다.\n\n특정 의료기관의 수주 실적이 아닌 자체 제안 콘셉트입니다. 실제 적용 시 기관별 안내 내용 확인이 필요합니다."
+      }
+    },
+    {
+      "name": "patient-guide work status is visible",
+      "passed": true,
+      "detail": {
+        "expected": "자체 제안 콘셉트",
+        "actual": "자체 제안 콘셉트 · 2026"
+      }
+    },
+    {
+      "name": "patient-guide title and canonical identify actual case",
+      "passed": true
+    },
+    {
+      "name": "patient-guide cover has enlarge button",
+      "passed": true
+    },
+    {
+      "name": "patient-guide actual cover loaded",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:4173/portfolio/concept-patient-guide.png",
+        "width": 1200,
+        "height": 1200
+      }
+    },
+    {
+      "name": "patient-guide cover opens correct image",
+      "passed": true
+    },
+    {
+      "name": "patient-guide Escape closes viewer and restores focus",
+      "passed": true
+    },
+    {
+      "name": "patient-guide detail has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "patient-guide similar-project CTA has correct slug",
+      "passed": true,
+      "detail": "/contact/?project=patient-guide"
+    },
+    {
+      "name": "patient-guide contact receives reference without submitting",
+      "passed": true
+    },
+    {
+      "name": "New cases have no JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "New cases do not submit inquiries or other writes",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "writes": [],
+  "cases": [
+    {
+      "slug": "ezylens-studio",
+      "type": "제작자 인터랙티브 시제품 · 2026",
+      "fields": {
+        "title": "EzyLens — 제품에서 선택까지",
+        "summary": "제품을 크게 보고, 색상과 규격을 비교하고, 선택을 이어가는 아이웨어 커머스 시제품.",
+        "client": "EzyLens Eyewear Studio",
+        "scope": "상품 탐색 · 제품 이미지 전환·확대 · 옵션 선택 · 모의 가방 · 반응형 UI",
+        "year": "2026",
+        "problem": "작은 썸네일과 긴 상품명만으로는 안경의 형태와 옵션 차이를 이해하기 어렵습니다. 제품을 살펴보는 장면과 선택에 필요한 정보를 같은 화면에 두는 과제를 설정했습니다.",
+        "strategy": "제품 이미지에 가장 큰 면적을 주고, 모델 탐색과 색상·규격 선택을 양옆에 배치했습니다. 탐색하던 상품을 잃지 않고 옵션을 바꾸고 확대해 살펴볼 수 있도록 구성했습니다.",
+        "execution": "기존 상품 자료를 바탕으로 대표 모델 탐색, 제품 이미지 확대, 색상·사이즈 선택과 모의 가방을 구현했습니다. 키보드 탐색과 작은 화면의 옵션 접근도 함께 다뤘습니다.",
+        "result": "상품을 발견하고 비교한 뒤 선택하는 인터랙티브 화면을 제작했습니다. 브랜드의 시각 표현과 실제 구매 전 탐색 흐름을 함께 검토할 수 있는 시제품입니다.\n\n제작자 로컬 시제품이며 운영 상점의 주문·결제·매출 결과를 뜻하지 않습니다. 화면의 상품 브랜드는 판매 후보 상품이며 해당 브랜드의 수주 실적을 의미하지 않습니다."
+      },
+      "cover": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/ezylens-studio.png",
+        "width": 1440,
+        "height": 965
+      },
+      "contactURL": "http://127.0.0.1:4173/contact/?project=ezylens-studio"
+    },
+    {
+      "slug": "city-culture",
+      "type": "자체 제안 콘셉트 · 2026",
+      "fields": {
+        "title": "도시를 다시 보다 — 문화 캠페인",
+        "summary": "익숙한 도시에서 새로운 장면을 발견한다는 전시의 생각을 한 문장과 포스터로.",
+        "client": "도시 산책 전시 제안",
+        "scope": "캠페인 메시지 · 포스터 카피 · 시각 방향 · 공간 사진 편집",
+        "year": "2026",
+        "problem": "지나가는 사람에게 전시의 주제를 짧은 순간 안에 전달해야 합니다. 많은 행사 정보를 한꺼번에 나열하기보다, 무엇을 경험하게 되는지 먼저 이해시키는 과제를 설정했습니다.",
+        "strategy": "‘도시를 다시 보다’라는 행동의 문장을 중심에 두었습니다. 큰 글자와 밝은 바탕으로 먼저 시선을 잡고, 실제 도시 공간의 사진으로 산책과 발견의 경험을 연결했습니다.",
+        "execution": "캠페인 제목, 보조 카피, 옥외 포스터 구성을 직접 작성했습니다. 사진의 크기와 글자의 대비를 조정하고, 출처가 확인되는 공간 이미지를 콘셉트의 참고 소재로 사용했습니다.",
+        "result": "한 장에서 주제와 분위기가 함께 읽히는 문화 홍보물 시안을 제작했습니다. 광고의 메시지와 시각적 위계를 판단할 수 있는 자체 제안입니다.\n\n가상 전시의 자체 콘셉트입니다. 실제 행사 개최·광고 집행·방문 성과가 아닙니다. 공간 사진의 원출처와 라이선스는 시안에 표기했습니다."
+      },
+      "cover": {
+        "src": "http://127.0.0.1:4173/portfolio/concept-city-culture.png",
+        "width": 1200,
+        "height": 1200
+      },
+      "contactURL": "http://127.0.0.1:4173/contact/?project=city-culture"
+    },
+    {
+      "slug": "jonghae-community",
+      "type": "제작자 프로젝트 · 2026",
+      "fields": {
+        "title": "종해문화진흥원 — 활동이 신뢰가 되는 웹",
+        "summary": "활동의 사진과 이야기, 기관 소개와 공개자료를 찾기 쉬운 홈페이지로 연결했습니다.",
+        "client": "종해문화진흥원",
+        "scope": "정보 구조 · 활동 스토리 편집 · 기관 웹 UI · 자료실 · 반응형 화면",
+        "year": "2026",
+        "problem": "기관의 활동을 처음 접하는 방문자는 무슨 일을 하는 곳인지, 어떤 기록과 자료를 확인할 수 있는지 알아야 합니다. 소개와 소식, 공개문서가 따로 흩어지지 않도록 정리하는 과제를 다뤘습니다.",
+        "strategy": "사람과 활동의 사진을 첫 화면에서 보여주고, 기관 소개·문화 활동·지역 연대·자료 공개의 흐름을 나눴습니다. 방문자가 이야기를 읽다가 관련 정보로 자연스럽게 이동하도록 설계했습니다.",
+        "execution": "사진 중심의 첫 화면, 활동 기록과 상세 이야기, 자료실 및 공개문서 접근 경로를 구현했습니다. 기관의 기본 정보와 활동 콘텐츠를 함께 운영할 수 있는 다중 페이지 웹사이트로 구성했습니다.",
+        "result": "기관의 활동을 읽고, 필요한 공개자료를 찾아보는 홈페이지를 구현했습니다. 단체의 이야기를 보여주는 편집과 정보 탐색을 함께 다룬 제작자 프로젝트입니다.\n\n2026.10.13 공개 웹 화면을 캡처했습니다. 후원 증가나 방문 전환 성과를 측정한 사례가 아닙니다."
+      },
+      "cover": {
+        "src": "http://127.0.0.1:4173/evidence/diverse/jonghae-home.png",
+        "width": 1440,
+        "height": 1000
+      },
+      "contactURL": "http://127.0.0.1:4173/contact/?project=jonghae-community"
+    },
+    {
+      "slug": "patient-guide",
+      "type": "자체 제안 콘셉트 · 2026",
+      "fields": {
+        "title": "첫 방문 안내 — 환자의 질문에서 시작한 콘텐츠",
+        "summary": "예약 확인부터 위치와 접수까지, 처음 방문하는 환자에게 필요한 정보를 한 장에.",
+        "client": "병원 방문 안내 제안",
+        "scope": "안내 메시지 · 방문 흐름 · 리플릿 카피 · 정보 위계 · 편집 디자인",
+        "year": "2026",
+        "problem": "처음 방문하는 사람에게는 진료 분야의 설명만큼 예약한 날짜와 위치, 도착 후 순서가 중요합니다. 방문 전에 반복해서 생기는 질문을 먼저 해결하는 안내 콘텐츠를 제안했습니다.",
+        "strategy": "‘방문 전 → 오시는 길 → 도착 후’의 시간 순서로 정보를 정리했습니다. 짧은 제목을 먼저 읽고 필요한 설명으로 이어갈 수 있도록 글자의 크기와 간격을 나눴습니다.",
+        "execution": "예약 내용을 확인하는 안내, 위치·주차 정보 확인, 도착 후 접수의 실제 문구를 작성했습니다. 과장된 치료 효능이나 환자 후기를 사용하지 않고 안내물의 읽기 경험을 구성했습니다.",
+        "result": "환자의 질문을 중심으로 한 방문 안내 리플릿 시안을 제작했습니다. 웹·문자 링크·인쇄 안내로 확장할 수 있는 콘텐츠 구성과 시각 위계를 보여줍니다.\n\n특정 의료기관의 수주 실적이 아닌 자체 제안 콘셉트입니다. 실제 적용 시 기관별 안내 내용 확인이 필요합니다."
+      },
+      "cover": {
+        "src": "http://127.0.0.1:4173/portfolio/concept-patient-guide.png",
+        "width": 1200,
+        "height": 1200
+      },
+      "contactURL": "http://127.0.0.1:4173/contact/?project=patient-guide"
+    }
+  ]
+}

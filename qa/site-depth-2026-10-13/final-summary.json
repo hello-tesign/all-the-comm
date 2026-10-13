@@ -1,0 +1,4198 @@
+{
+  "date": "2026-10-13T02:41:08.327Z",
+  "scope": "Integrated depth/rhythm build only; separate from refinement v1. KO six main routes at 1440x900 and390x844 in Chromium/Firefox/WebKit. EN six routes at1440 plus historical HTML baseline. GET/HEAD/OPTIONS only; no form submission or existing IAB access. No production proof or overall design score.",
+  "base": "http://127.0.0.1:4173",
+  "passed": 636,
+  "failed": 0,
+  "applicableChecks": 636,
+  "notApplicable": 12,
+  "rawPassed": 648,
+  "rawFailed": 0,
+  "pages": {
+    "ko": 36,
+    "en": 18,
+    "total": 54
+  },
+  "screenshots": 36,
+  "runtimeErrors": 0,
+  "consoleErrors": 0,
+  "writeRequests": 0,
+  "numeric": {
+    "maxShellWidth": 1280,
+    "buttonHeights": [
+      48
+    ],
+    "bodyLeading": [
+      1.6
+    ],
+    "sectionTopPadding": [
+      64,
+      96
+    ]
+  },
+  "notApplicableChecks": [
+    {
+      "name": "chromium 390 /about/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "chromium 390 /process/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "chromium 390 /team/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "chromium 390 /works/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "firefox 390 /about/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "firefox 390 /process/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "firefox 390 /team/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "firefox 390 /works/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "webkit 390 /about/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "webkit 390 /process/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "webkit 390 /team/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    },
+    {
+      "name": "webkit 390 /works/ major button and header CTA 48px",
+      "reason": "No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required."
+    }
+  ],
+  "sourceHashes": {
+    "styles.css": "d91514f97ccac4f0816ac292ed54b38a8f4d679a00351e5b0d0a28a939253a3e",
+    "design-rhythm.css": "1fcd5a63a125b125897f22587c521f4fa1d734e1c5dc1d121bb183bcc89f9072",
+    "app.js": "f649eb3750fd0c2049063179a56cf83e46321f70337cb9fbc6a34b6f7142276c",
+    "index.html": "97b7bbffe272f45ae314ed414d4589e77fe92f2f7a4c30b7287e639171c7f9c7",
+    "about/index.html": "4cddc2faf2b7571d1e53edf961a079b527a56a3d9ff7d31278a4d07d6c2be65f",
+    "process/index.html": "fdda62b9efced0f069e731564df32762bf0ae1a568326d15bc69332cd035b675",
+    "team/index.html": "517953d0c5e007e46df527b7271bf607ae06fda87f323f133587efce96320789",
+    "works/index.html": "361ab0c6b0464b67b2561cb788e7e2235a18dcc11810089e4177fd1fa6789453",
+    "contact/index.html": "7fbe53397b373aa0f3313a14d7ad0ca5b661123172ee7b365524fdb78a98e1df"
+  },
+  "checks": [
+    {
+      "name": "EN source unchanged /en/",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "fullByteEqual": false,
+        "sha256": "1f95dd79509d32c5020842b7e5427795d3dd0c05531ba392fe92424675602890"
+      }
+    },
+    {
+      "name": "EN source unchanged /en/about/",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "fullByteEqual": false,
+        "sha256": "b9289492b2f62702af9c045ffdcd5bfc9e554e4acba113eaf38d99f21dab384e"
+      }
+    },
+    {
+      "name": "EN source unchanged /en/process/",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "fullByteEqual": false,
+        "sha256": "0064bdb12b98f92ab49fa06c9d9d7023ea47347a277a44ab37793cf542545a9c"
+      }
+    },
+    {
+      "name": "EN source unchanged /en/team/",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "fullByteEqual": false,
+        "sha256": "2768faeaf1b2552e230a746a9062396de03380cd97459456b306f08571ff7fb3"
+      }
+    },
+    {
+      "name": "EN source unchanged /en/works/",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "fullByteEqual": false,
+        "sha256": "516fa625bdafc14a20d2e719351a8b14f1d3069b876b4957ef85813fdc8eacab"
+      }
+    },
+    {
+      "name": "EN source unchanged /en/contact/",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "fullByteEqual": false,
+        "sha256": "1d7958c732599f4bfc64648845597a477753c32fb0baf37535769701094b5e13"
+      }
+    },
+    {
+      "name": "chromium 1440 / HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "기획에서 실행까지 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 1440 / Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 / healthcare summary and ABOUT anchor present",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 / three hero choices and eight services",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 / medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 / medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "name": "chromium 1440 / medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 / medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 / images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 / shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 / major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.641,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          },
+          {
+            "tag": "A",
+            "class": "button",
+            "text": "작업으로 확인하기↗",
+            "width": 192.5,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 19.6,
+            "fontSize": 14,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium 1440 / body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 / standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 1440 / no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 1440 /about/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "회사 소개 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 1440 /about/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /about/ healthcare expertise and two real web spreads present",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /about/ creator attribution and correct case links",
+      "passed": true,
+      "detail": [
+        "종해문화진흥원 · 기관 웹제작자 프로젝트 · 실제 공개 화면",
+        "SoulReset · 여행 서비스 웹제작자 프로젝트 · 실제 공개 화면"
+      ]
+    },
+    {
+      "name": "chromium 1440 /about/ medical background and three disciplines present",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /about/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /about/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /about/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.641,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium 1440 /about/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /about/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 1440 /about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 1440 /process/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "일하는 과정 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 1440 /process/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /process/ practice scope four outputs and handover present",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /process/ editorial prototype replaces culture poster",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /process/ four process chapters",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /process/ process active stage 0",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /process/ process image 0 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+        "loaded": true,
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "name": "chromium 1440 /process/ process active stage 1",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /process/ process image 1 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "loaded": true,
+        "width": 1600,
+        "height": 1050
+      }
+    },
+    {
+      "name": "chromium 1440 /process/ process active stage 2",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /process/ process image 2 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+        "loaded": true,
+        "width": 1352,
+        "height": 2000
+      }
+    },
+    {
+      "name": "chromium 1440 /process/ process active stage 3",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /process/ process image 3 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+        "loaded": true,
+        "width": 1440,
+        "height": 1558
+      }
+    },
+    {
+      "name": "chromium 1440 /process/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /process/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /process/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.641,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium 1440 /process/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /process/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 1440 /process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 1440 /team/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "함께하는 역할 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 1440 /team/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /team/ nine roles and two practical teamwork cases present",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /team/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /team/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /team/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.641,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium 1440 /team/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /team/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 1440 /team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 1440 /works/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "업무와 프로젝트 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 1440 /works/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /works/ ten service choices retained",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-strategy img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-digital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-content img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-video img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-media img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-influencer img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-hospital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-consulting img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-it img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ images load #panel-pr img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /works/ medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "name": "chromium 1440 /works/ medical interview example has concrete questions and scope",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /works/ medical panel fits document",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /works/ medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /works/ medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /works/ fourteen unique public cases retained",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /works/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.641,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium 1440 /works/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /works/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 1440 /works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 1440 /contact/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "프로젝트 문의 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 1440 /contact/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /contact/ guide examples brief and four FAQ entries present",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /contact/ FAQ 1 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /contact/ FAQ 2 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /contact/ FAQ 3 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /contact/ inquiry remains empty and unsubmitted",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440 /contact/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /contact/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /contact/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.641,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          },
+          {
+            "tag": "BUTTON",
+            "class": "button submit-button",
+            "text": "프로젝트 문의하기",
+            "width": 230,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 19.6,
+            "fontSize": 14,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium 1440 /contact/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 1440 /contact/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 1440 /contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": [
+          {
+            "tag": "DIV",
+            "class": "honeypot",
+            "width": 1,
+            "left": -9999,
+            "right": -9998
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "width": 192,
+            "left": -9999,
+            "right": -9807
+          },
+          {
+            "tag": "INPUT",
+            "class": "",
+            "width": 192,
+            "left": -9999,
+            "right": -9807
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium EN / HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "chromium EN / no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "chromium EN / English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /about/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /about/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /about/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /process/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /process/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /process/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /team/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /team/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /team/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /works/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /works/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /works/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /contact/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /contact/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "chromium EN /contact/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 / HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "기획에서 실행까지 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 390 / Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 / mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 / mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 / healthcare summary and ABOUT anchor present",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 / three hero choices and eight services",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 / medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 / medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "name": "chromium 390 / medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 / medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 / images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 / shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 / major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "button",
+            "text": "작업으로 확인하기↗",
+            "width": 162.422,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium 390 / body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 / standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 390 / no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 390 /about/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "회사 소개 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 390 /about/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /about/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /about/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /about/ healthcare expertise and two real web spreads present",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /about/ creator attribution and correct case links",
+      "passed": true,
+      "detail": [
+        "종해문화진흥원 · 기관 웹제작자 프로젝트 · 실제 공개 화면",
+        "SoulReset · 여행 서비스 웹제작자 프로젝트 · 실제 공개 화면"
+      ]
+    },
+    {
+      "name": "chromium 390 /about/ medical background and three disciplines present",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /about/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /about/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /about/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /about/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 390 /about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 390 /process/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "일하는 과정 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 390 /process/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /process/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /process/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /process/ practice scope four outputs and handover present",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /process/ editorial prototype replaces culture poster",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /process/ four process chapters",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /process/ mobile process stays inline",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /process/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /process/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /process/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /process/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 390 /process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 390 /team/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "함께하는 역할 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 390 /team/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /team/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /team/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /team/ nine roles and two practical teamwork cases present",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /team/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /team/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /team/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /team/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 390 /team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 390 /works/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "업무와 프로젝트 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 390 /works/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ ten service choices retained",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-strategy img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-digital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-content img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-video img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-media img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-influencer img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-hospital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-consulting img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-it img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ images load #panel-pr img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "name": "chromium 390 /works/ medical interview example has concrete questions and scope",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ medical panel fits document",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ fourteen unique public cases retained",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /works/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /works/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 390 /works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "chromium 390 /contact/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "프로젝트 문의 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "chromium 390 /contact/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /contact/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /contact/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /contact/ guide examples brief and four FAQ entries present",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /contact/ FAQ 1 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /contact/ FAQ 2 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /contact/ FAQ 3 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /contact/ inquiry remains empty and unsubmitted",
+      "passed": true
+    },
+    {
+      "name": "chromium 390 /contact/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /contact/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /contact/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "BUTTON",
+            "class": "button submit-button",
+            "text": "프로젝트 문의하기",
+            "width": 358,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 18.2,
+            "fontSize": 13,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium 390 /contact/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chromium 390 /contact/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "chromium 390 /contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": [
+          {
+            "tag": "DIV",
+            "class": "honeypot",
+            "width": 1,
+            "left": -9999,
+            "right": -9998
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "width": 192,
+            "left": -9999,
+            "right": -9807
+          },
+          {
+            "tag": "INPUT",
+            "class": "",
+            "width": 192,
+            "left": -9999,
+            "right": -9807
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 1440 / HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "기획에서 실행까지 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 1440 / Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 / healthcare summary and ABOUT anchor present",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 / three hero choices and eight services",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 / medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 / medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "name": "firefox 1440 / medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 / medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 / images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 / shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 / major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.6,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          },
+          {
+            "tag": "A",
+            "class": "button",
+            "text": "작업으로 확인하기↗",
+            "width": 192.483,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 19.6,
+            "fontSize": 14,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 1440 / body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 / standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 1440 / no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 1440 /about/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "회사 소개 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 1440 /about/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /about/ healthcare expertise and two real web spreads present",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /about/ creator attribution and correct case links",
+      "passed": true,
+      "detail": [
+        "종해문화진흥원 · 기관 웹제작자 프로젝트 · 실제 공개 화면",
+        "SoulReset · 여행 서비스 웹제작자 프로젝트 · 실제 공개 화면"
+      ]
+    },
+    {
+      "name": "firefox 1440 /about/ medical background and three disciplines present",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /about/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /about/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /about/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.6,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 1440 /about/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /about/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 1440 /about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 1440 /process/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "일하는 과정 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 1440 /process/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /process/ practice scope four outputs and handover present",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /process/ editorial prototype replaces culture poster",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /process/ four process chapters",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /process/ process active stage 0",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /process/ process image 0 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+        "loaded": true,
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "name": "firefox 1440 /process/ process active stage 1",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /process/ process image 1 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "loaded": true,
+        "width": 1600,
+        "height": 1050
+      }
+    },
+    {
+      "name": "firefox 1440 /process/ process active stage 2",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /process/ process image 2 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+        "loaded": true,
+        "width": 1352,
+        "height": 2000
+      }
+    },
+    {
+      "name": "firefox 1440 /process/ process active stage 3",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /process/ process image 3 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+        "loaded": true,
+        "width": 1440,
+        "height": 1558
+      }
+    },
+    {
+      "name": "firefox 1440 /process/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /process/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /process/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.6,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 1440 /process/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /process/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 1440 /process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 1440 /team/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "함께하는 역할 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 1440 /team/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /team/ nine roles and two practical teamwork cases present",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /team/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /team/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /team/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.6,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 1440 /team/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /team/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 1440 /team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 1440 /works/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "업무와 프로젝트 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 1440 /works/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /works/ ten service choices retained",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-strategy img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-digital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-content img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-video img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-media img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-influencer img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-hospital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-consulting img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-it img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ images load #panel-pr img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /works/ medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "name": "firefox 1440 /works/ medical interview example has concrete questions and scope",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /works/ medical panel fits document",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /works/ medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /works/ medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /works/ fourteen unique public cases retained",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /works/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.6,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 1440 /works/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /works/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 1440 /works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 1440 /contact/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "프로젝트 문의 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 1440 /contact/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /contact/ guide examples brief and four FAQ entries present",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /contact/ FAQ 1 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /contact/ FAQ 2 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /contact/ FAQ 3 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /contact/ inquiry remains empty and unsubmitted",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440 /contact/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /contact/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /contact/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.6,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          },
+          {
+            "tag": "BUTTON",
+            "class": "button submit-button",
+            "text": "프로젝트 문의하기",
+            "width": 230,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 19.6,
+            "fontSize": 14,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 1440 /contact/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 1440 /contact/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 1440 /contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": [
+          {
+            "tag": "DIV",
+            "class": "honeypot",
+            "width": 1,
+            "left": -9999,
+            "right": -9998
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "width": 219.3333282470703,
+            "left": -9999,
+            "right": -9779.66667175293
+          },
+          {
+            "tag": "INPUT",
+            "class": "",
+            "width": 219.3333282470703,
+            "left": -9999,
+            "right": -9779.66667175293
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox EN / HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "firefox EN / no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "firefox EN / English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /about/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /about/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /about/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /process/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /process/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /process/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /team/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /team/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /team/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /works/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /works/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /works/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /contact/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /contact/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "firefox EN /contact/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 / HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "기획에서 실행까지 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 390 / Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 / mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 / mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 / healthcare summary and ABOUT anchor present",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 / three hero choices and eight services",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 / medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 / medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "name": "firefox 390 / medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 / medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 / images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 / shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 / major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "button",
+            "text": "작업으로 확인하기↗",
+            "width": 162.367,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.8,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 390 / body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 / standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 390 / no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 390 /about/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "회사 소개 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 390 /about/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /about/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /about/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /about/ healthcare expertise and two real web spreads present",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /about/ creator attribution and correct case links",
+      "passed": true,
+      "detail": [
+        "종해문화진흥원 · 기관 웹제작자 프로젝트 · 실제 공개 화면",
+        "SoulReset · 여행 서비스 웹제작자 프로젝트 · 실제 공개 화면"
+      ]
+    },
+    {
+      "name": "firefox 390 /about/ medical background and three disciplines present",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /about/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /about/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /about/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /about/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 390 /about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 390 /process/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "일하는 과정 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 390 /process/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /process/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /process/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /process/ practice scope four outputs and handover present",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /process/ editorial prototype replaces culture poster",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /process/ four process chapters",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /process/ mobile process stays inline",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /process/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /process/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /process/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /process/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 390 /process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 390 /team/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "함께하는 역할 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 390 /team/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /team/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /team/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /team/ nine roles and two practical teamwork cases present",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /team/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /team/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /team/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /team/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 390 /team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 390 /works/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "업무와 프로젝트 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 390 /works/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ ten service choices retained",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-strategy img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-digital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-content img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-video img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-media img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-influencer img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-hospital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-consulting img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-it img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ images load #panel-pr img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "name": "firefox 390 /works/ medical interview example has concrete questions and scope",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ medical panel fits document",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ fourteen unique public cases retained",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /works/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /works/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 390 /works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "firefox 390 /contact/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "프로젝트 문의 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "firefox 390 /contact/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /contact/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /contact/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /contact/ guide examples brief and four FAQ entries present",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /contact/ FAQ 1 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /contact/ FAQ 2 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /contact/ FAQ 3 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /contact/ inquiry remains empty and unsubmitted",
+      "passed": true
+    },
+    {
+      "name": "firefox 390 /contact/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /contact/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /contact/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "BUTTON",
+            "class": "button submit-button",
+            "text": "프로젝트 문의하기",
+            "width": 358,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 18.2,
+            "fontSize": 13,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firefox 390 /contact/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "firefox 390 /contact/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "firefox 390 /contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": [
+          {
+            "tag": "DIV",
+            "class": "honeypot",
+            "width": 1,
+            "left": -9999,
+            "right": -9998
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "width": 219.3333282470703,
+            "left": -9999,
+            "right": -9779.66667175293
+          },
+          {
+            "tag": "INPUT",
+            "class": "",
+            "width": 219.3333282470703,
+            "left": -9999,
+            "right": -9779.66667175293
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit 1440 / HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "기획에서 실행까지 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 / Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / healthcare summary and ABOUT anchor present",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / three hero choices and eight services",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 / medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "name": "webkit 1440 / medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 / images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 / shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 / major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.640625,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.799999,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          },
+          {
+            "tag": "A",
+            "class": "button",
+            "text": "작업으로 확인하기↗",
+            "width": 192.5,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 19.6,
+            "fontSize": 14,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit 1440 / body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 / standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 1440 / no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /about/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "회사 소개 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /about/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /about/ healthcare expertise and two real web spreads present",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /about/ creator attribution and correct case links",
+      "passed": true,
+      "detail": [
+        "종해문화진흥원 · 기관 웹제작자 프로젝트 · 실제 공개 화면",
+        "SoulReset · 여행 서비스 웹제작자 프로젝트 · 실제 공개 화면"
+      ]
+    },
+    {
+      "name": "webkit 1440 /about/ medical background and three disciplines present",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /about/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /about/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /about/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.640625,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.799999,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit 1440 /about/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /about/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 1440 /about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "일하는 과정 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ practice scope four outputs and handover present",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ editorial prototype replaces culture poster",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ four process chapters",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process active stage 0",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process image 0 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/site-tesign-radar.png",
+        "alt": "TESIGN Radar의 정보 탐색과 분류 화면",
+        "loaded": true,
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ process active stage 1",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process image 1 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-ea-editor.png",
+        "alt": "Review Atelier에서 자료와 원고를 연결해 기획·편집하는 제작 화면",
+        "loaded": true,
+        "width": 1600,
+        "height": 1050
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ process active stage 2",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process image 2 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/evidence/expansion/book-judgment-loop.webp",
+        "alt": "세일즈 리허설의 본문과 설명 도해 편집",
+        "loaded": true,
+        "width": 1352,
+        "height": 2000
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ process active stage 3",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /process/ process image 3 loaded",
+      "passed": true,
+      "detail": {
+        "src": "/portfolio/saas-tesign-workflow.png",
+        "alt": "검수와 납품 기록을 관리하는 Tesign OS",
+        "loaded": true,
+        "width": 1440,
+        "height": 1558
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /process/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /process/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.640625,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.799999,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /process/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 1440 /process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /team/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "함께하는 역할 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /team/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /team/ nine roles and two practical teamwork cases present",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /team/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /team/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /team/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.640625,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.799999,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit 1440 /team/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /team/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 1440 /team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "업무와 프로젝트 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ ten service choices retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-strategy img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-digital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-content img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-video img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-media img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-influencer img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-hospital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-consulting img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-it img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ images load #panel-pr img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "name": "webkit 1440 /works/ medical interview example has concrete questions and scope",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ medical panel fits document",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ fourteen unique public cases retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /works/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.640625,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.799999,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /works/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 1440 /works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 1440 /contact/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "프로젝트 문의 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 1440 /contact/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ guide examples brief and four FAQ entries present",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ 1 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ 2 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ FAQ 3 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ inquiry remains empty and unsubmitted",
+      "passed": true
+    },
+    {
+      "name": "webkit 1440 /contact/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /contact/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /contact/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "header-cta",
+            "text": "프로젝트 상담",
+            "width": 146.640625,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.799999,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          },
+          {
+            "tag": "BUTTON",
+            "class": "button submit-button",
+            "text": "프로젝트 문의하기",
+            "width": 230,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 19.6,
+            "fontSize": 14,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit 1440 /contact/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 1440 /contact/ standard sections 96px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "96px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 1440 /contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "offenders": [
+          {
+            "tag": "DIV",
+            "class": "honeypot",
+            "width": 1,
+            "left": -9999,
+            "right": -9998
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "width": 214,
+            "left": -9999,
+            "right": -9785
+          },
+          {
+            "tag": "INPUT",
+            "class": "",
+            "width": 214,
+            "left": -9999,
+            "right": -9785
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit EN / HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "webkit EN / no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "webkit EN / English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /about/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /about/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /about/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /process/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /process/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /process/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /team/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /team/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /team/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /works/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /works/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /works/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /contact/ HTTP 200 and English document",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /contact/ no Korean modules or rhythm stylesheet",
+      "passed": true
+    },
+    {
+      "name": "webkit EN /contact/ English five menus preserved",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "기획에서 실행까지 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 / Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / healthcare summary and ABOUT anchor present",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / three hero choices and eight services",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 / images load .evidence-hero-frame:not([hidden]) img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 / medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "name": "webkit 390 / medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 / images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 / shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 / major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "A",
+            "class": "button",
+            "text": "작업으로 확인하기↗",
+            "width": 162.421875,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 16.799999,
+            "fontSize": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit 390 / body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 / standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 390 / no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /about/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "회사 소개 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /about/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ healthcare expertise and two real web spreads present",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ creator attribution and correct case links",
+      "passed": true,
+      "detail": [
+        "종해문화진흥원 · 기관 웹제작자 프로젝트 · 실제 공개 화면",
+        "SoulReset · 여행 서비스 웹제작자 프로젝트 · 실제 공개 화면"
+      ]
+    },
+    {
+      "name": "webkit 390 /about/ medical background and three disciplines present",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /about/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /about/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /about/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /about/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 390 /about/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /process/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "일하는 과정 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /process/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ practice scope four outputs and handover present",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ editorial prototype replaces culture poster",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ four process chapters",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ mobile process stays inline",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /process/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /process/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /process/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /process/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 390 /process/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /team/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "함께하는 역할 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /team/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ nine roles and two practical teamwork cases present",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /team/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /team/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /team/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /team/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 390 /team/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /works/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "업무와 프로젝트 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /works/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ ten service choices retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-strategy img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-digital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-content img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-video img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-media img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-influencer img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-hospital img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-consulting img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-it img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ images load #panel-pr img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ medical tab selected and one visible panel",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ medical CTA uses relevant destination",
+      "passed": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "name": "webkit 390 /works/ medical interview example has concrete questions and scope",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ medical panel fits document",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ medical keyboard moves to next choice",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ medical keyboard returns with one panel",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ fourteen unique public cases retained",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /works/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /works/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 390 /works/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": []
+      }
+    },
+    {
+      "name": "webkit 390 /contact/ HTTP 200 and Korean title",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "프로젝트 문의 — 올더커뮤니케이션"
+      }
+    },
+    {
+      "name": "webkit 390 /contact/ Korean rhythm stylesheet linked once",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ mobile menu opens with five routes",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ mobile menu Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ guide examples brief and four FAQ entries present",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ 1 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ 2 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ FAQ 3 opens readable answer",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ inquiry remains empty and unsubmitted",
+      "passed": true
+    },
+    {
+      "name": "webkit 390 /contact/ images load main img",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /contact/ shared shell maximum 1280",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /contact/ major button and header CTA 48px",
+      "passed": true,
+      "detail": {
+        "applicable": true,
+        "buttons": [
+          {
+            "tag": "BUTTON",
+            "class": "button submit-button",
+            "text": "프로젝트 문의하기",
+            "width": 358,
+            "height": 48,
+            "rectHeight": 48,
+            "lineHeight": 18.200001,
+            "fontSize": 13,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "radius": "8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit 390 /contact/ body leading between 1.4 and 1.7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "webkit 390 /contact/ standard sections 64px vertical rhythm",
+      "passed": true,
+      "detail": {
+        "tokens": {
+          "space": "64px",
+          "content": "1280px"
+        },
+        "badSections": []
+      }
+    },
+    {
+      "name": "webkit 390 /contact/ no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "offenders": [
+          {
+            "tag": "DIV",
+            "class": "honeypot",
+            "width": 1,
+            "left": -9999,
+            "right": -9998
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "width": 214,
+            "left": -9999,
+            "right": -9785
+          },
+          {
+            "tag": "INPUT",
+            "class": "",
+            "width": 214,
+            "left": -9999,
+            "right": -9785
+          }
+        ]
+      }
+    },
+    {
+      "name": "No runtime JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No inquiry or other write requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "failures": []
+}

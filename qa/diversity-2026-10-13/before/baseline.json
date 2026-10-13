@@ -1,0 +1,396 @@
+{
+  "capturedAt": "2026-10-13T01:18:00.265Z",
+  "scope": "GET-only HTTP/source baseline. No browser rendering or mutation.",
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "기획에서 실행까지 — 올더커뮤니케이션",
+      "images": 19,
+      "foodImages": [
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "소적두 기존 단팥빵 상품 사진"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-gift.png",
+          "alt": "팥 한 상자 선물 패키지와 커머스 콘셉트 제작 화면"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-commerce.png",
+          "alt": "제품의 특징을 사진과 한 문장으로 전하는 소적두 커머스 콘셉트"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "소적두 기존 팥 디저트 상품 이미지"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "제품 경험 콘텐츠 구성을 위한 기존 상품 사진"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "기존 상품 사진"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-gift.png",
+          "alt": "브랜드 방향 제안 화면"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-commerce.png",
+          "alt": "커머스 개발 콘셉트"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-gift.png",
+          "alt": "소적두 선물 패키지 커머스 콘셉트"
+        }
+      ],
+      "foodLinks": [
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": "브랜드·커머스 구상 보기 ↗"
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": ""
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": "작업 자세히 보기 ↗"
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": ""
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": "작업 자세히 보기 ↗"
+        }
+      ],
+      "foodNameCount": 8,
+      "foodAssetReferenceCount": 14,
+      "serviceChoices": 8,
+      "processChapters": 0,
+      "heroChoices": 3
+    },
+    {
+      "route": "/about/",
+      "status": 200,
+      "title": "회사 소개 — 올더커뮤니케이션",
+      "images": 4,
+      "foodImages": [
+        {
+          "src": "/evidence/sojukdoo-making.jpg",
+          "alt": "소적두의 기존 브랜드 자료에 담긴 제조 현장 사진"
+        }
+      ],
+      "foodLinks": [
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": "브랜드·커머스 구상 살펴보기 ↗"
+        }
+      ],
+      "foodNameCount": 2,
+      "foodAssetReferenceCount": 2,
+      "serviceChoices": 0,
+      "processChapters": 0,
+      "heroChoices": 0
+    },
+    {
+      "route": "/process/",
+      "status": 200,
+      "title": "일하는 과정 — 올더커뮤니케이션",
+      "images": 7,
+      "foodImages": [
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "소적두 기존 상품 사진"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-gift.png",
+          "alt": "소적두 선물 브랜드와 커머스 방향 제안"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-commerce.png",
+          "alt": "소적두 커머스 구현 화면"
+        }
+      ],
+      "foodLinks": [],
+      "foodNameCount": 4,
+      "foodAssetReferenceCount": 3,
+      "serviceChoices": 0,
+      "processChapters": 4,
+      "heroChoices": 0
+    },
+    {
+      "route": "/team/",
+      "status": 200,
+      "title": "함께하는 역할 — 올더커뮤니케이션",
+      "images": 13,
+      "foodImages": [
+        {
+          "src": "/portfolio/site-sojukdoo-gift.png",
+          "alt": "팥 한 상자 선물 패키지와 커머스 콘셉트 제작 화면"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-commerce.png",
+          "alt": "제품의 특징을 사진과 한 문장으로 전하는 소적두 커머스 콘셉트"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-commerce.png",
+          "alt": "제품의 특징을 사진과 한 문장으로 전하는 소적두 커머스 콘셉트"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "빵의 단면을 가까이 보여주는 촬영 구성"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "기존 단팥빵 제품의 전체 모습을 보여주는 촬영 구성"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "제품과 다음 행동을 연결하는 엔드 프레임 시안"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "소적두 기존 팥 디저트 상품 이미지"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "제품 경험 콘텐츠 구성을 위한 기존 상품 사진"
+        }
+      ],
+      "foodLinks": [
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": ""
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": "작업 자세히 보기 ↗"
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": ""
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": "작업 자세히 보기 ↗"
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": ""
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": "작업 자세히 보기 ↗"
+        }
+      ],
+      "foodNameCount": 6,
+      "foodAssetReferenceCount": 14,
+      "serviceChoices": 9,
+      "processChapters": 0,
+      "heroChoices": 0
+    },
+    {
+      "route": "/works/",
+      "status": 200,
+      "title": "업무와 프로젝트 — 올더커뮤니케이션",
+      "images": 14,
+      "foodImages": [
+        {
+          "src": "/portfolio/site-sojukdoo-gift.png",
+          "alt": "팥 한 상자 선물 패키지와 커머스 콘셉트 제작 화면"
+        },
+        {
+          "src": "/portfolio/site-sojukdoo-commerce.png",
+          "alt": "제품의 특징을 사진과 한 문장으로 전하는 소적두 커머스 콘셉트"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "빵의 단면을 가까이 보여주는 촬영 구성"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "기존 단팥빵 제품의 전체 모습을 보여주는 촬영 구성"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "제품과 다음 행동을 연결하는 엔드 프레임 시안"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "소적두 기존 팥 디저트 상품 이미지"
+        },
+        {
+          "src": "/evidence/sojukdoo-product.jpg",
+          "alt": "제품 경험 콘텐츠 구성을 위한 기존 상품 사진"
+        }
+      ],
+      "foodLinks": [
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": ""
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": "작업 자세히 보기 ↗"
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": ""
+        },
+        {
+          "href": "/works/project/sojukdoo-concept/",
+          "label": "작업 자세히 보기 ↗"
+        }
+      ],
+      "foodNameCount": 4,
+      "foodAssetReferenceCount": 11,
+      "serviceChoices": 10,
+      "processChapters": 0,
+      "heroChoices": 0
+    },
+    {
+      "route": "/contact/",
+      "status": 200,
+      "title": "프로젝트 문의 — 올더커뮤니케이션",
+      "images": 3,
+      "foodImages": [],
+      "foodLinks": [],
+      "foodNameCount": 0,
+      "foodAssetReferenceCount": 0,
+      "serviceChoices": 0,
+      "processChapters": 0,
+      "heroChoices": 0
+    }
+  ],
+  "projects": [
+    {
+      "id": "147df535-8d41-4074-84f6-908dd81a7d1c",
+      "slug": "sojukdoo-concept",
+      "title": "소적두 — 팥부터.",
+      "industry": "푸드 · 브랜드 · 커머스",
+      "featured": true,
+      "order": 0,
+      "services": [
+        "strategy",
+        "content",
+        "it"
+      ],
+      "coverImage": "/portfolio/site-sojukdoo-commerce.png"
+    },
+    {
+      "id": "5136f2b8-8dfd-4248-9295-49e4f0d327e7",
+      "slug": "soulreset",
+      "title": "SoulReset — 서울에서의 다른 리듬",
+      "industry": "여행 · 서비스 웹사이트",
+      "featured": true,
+      "order": 1,
+      "services": [
+        "content",
+        "it"
+      ],
+      "coverImage": "/portfolio/site-soulreset.png"
+    },
+    {
+      "id": "64c69f04-a928-49ff-8fda-f979a8ac849e",
+      "slug": "review-atelier",
+      "title": "Review Atelier — 자료에서 원고로",
+      "industry": "콘텐츠 · 편집 소프트웨어",
+      "featured": false,
+      "order": 2,
+      "services": [
+        "it",
+        "content"
+      ],
+      "coverImage": "/portfolio/saas-ea-editor.png"
+    },
+    {
+      "id": "1253b11c-649d-4fcd-b207-698315a75561",
+      "slug": "tesign-radar",
+      "title": "TESIGN Radar — 발견에서 사용까지",
+      "industry": "콘텐츠 · 디지털 서비스",
+      "featured": false,
+      "order": 3,
+      "services": [
+        "content",
+        "it"
+      ],
+      "coverImage": "/portfolio/site-tesign-radar.png"
+    },
+    {
+      "id": "b12bc561-12c3-4e24-8620-b004c243f0e0",
+      "slug": "tesign-workflow",
+      "title": "Tesign OS — 제작 다음의 검수까지",
+      "industry": "콘텐츠 · 운영 소프트웨어",
+      "featured": false,
+      "order": 4,
+      "services": [
+        "it",
+        "content"
+      ],
+      "coverImage": "/portfolio/saas-tesign-workflow.png"
+    },
+    {
+      "id": "8f0d34f4-0138-4f89-b218-6d6ebda23b8f",
+      "slug": "all-the-comm",
+      "title": "하나의 회사, 이어지는 경험.",
+      "industry": "광고·마케팅",
+      "featured": true,
+      "order": 5,
+      "services": [
+        "strategy",
+        "content",
+        "video",
+        "it"
+      ],
+      "coverImage": "/evidence/allthecomm-inquiry.png"
+    }
+  ],
+  "homeFeaturedUnderCurrentApp": [
+    {
+      "id": "147df535-8d41-4074-84f6-908dd81a7d1c",
+      "slug": "sojukdoo-concept",
+      "title": "소적두 — 팥부터.",
+      "industry": "푸드 · 브랜드 · 커머스",
+      "featured": true,
+      "order": 0,
+      "services": [
+        "strategy",
+        "content",
+        "it"
+      ],
+      "coverImage": "/portfolio/site-sojukdoo-commerce.png"
+    },
+    {
+      "id": "5136f2b8-8dfd-4248-9295-49e4f0d327e7",
+      "slug": "soulreset",
+      "title": "SoulReset — 서울에서의 다른 리듬",
+      "industry": "여행 · 서비스 웹사이트",
+      "featured": true,
+      "order": 1,
+      "services": [
+        "content",
+        "it"
+      ],
+      "coverImage": "/portfolio/site-soulreset.png"
+    },
+    {
+      "id": "8f0d34f4-0138-4f89-b218-6d6ebda23b8f",
+      "slug": "all-the-comm",
+      "title": "하나의 회사, 이어지는 경험.",
+      "industry": "광고·마케팅",
+      "featured": true,
+      "order": 5,
+      "services": [
+        "strategy",
+        "content",
+        "video",
+        "it"
+      ],
+      "coverImage": "/evidence/allthecomm-inquiry.png"
+    }
+  ]
+}

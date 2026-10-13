@@ -1,0 +1,894 @@
+{
+  "checks": [
+    {
+      "name": "chromium-1440 hero photo / no case contents",
+      "pass": true,
+      "detail": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 880,
+          "top": 0,
+          "right": 1440,
+          "bottom": 880,
+          "left": 0
+        },
+        "title": {
+          "font": "80.64px",
+          "line": "90.3168px",
+          "height": 180.625,
+          "width": 489.140625,
+          "top": 369.890625,
+          "color": "rgb(255, 255, 255)",
+          "em": "rgb(185, 240, 217)",
+          "text": "전략은 명확하게.표현은 강렬하게."
+        },
+        "image": {
+          "loaded": true,
+          "src": "http://127.0.0.1:4173/brand/agency-audience-2400.webp",
+          "fit": "cover",
+          "clip": "none"
+        },
+        "noOldCases": true,
+        "ctas": [
+          {
+            "height": 48,
+            "right": 1228.90625,
+            "bottom": 656.109375
+          },
+          {
+            "height": 48,
+            "right": 1360,
+            "bottom": 656.109375
+          }
+        ],
+        "overflow": false,
+        "credit": "Photo · 13on / Unsplash",
+        "assurance": 3
+      }
+    },
+    {
+      "name": "chromium-1440 title two lines / scale",
+      "pass": true,
+      "detail": {
+        "font": "80.64px",
+        "line": "90.3168px",
+        "height": 180.625,
+        "width": 489.140625,
+        "top": 369.890625,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "chromium-1440 title white / mint",
+      "pass": true,
+      "detail": {
+        "font": "80.64px",
+        "line": "90.3168px",
+        "height": 180.625,
+        "width": 489.140625,
+        "top": 369.890625,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "chromium-1440 CTA48 / within hero",
+      "pass": true,
+      "detail": [
+        {
+          "height": 48,
+          "right": 1228.90625,
+          "bottom": 656.109375
+        },
+        {
+          "height": 48,
+          "right": 1360,
+          "bottom": 656.109375
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440 original credit / assurance",
+      "pass": true
+    },
+    {
+      "name": "chromium-1440 no overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium-1440 entrance unmasked",
+      "pass": true,
+      "detail": {
+        "loaded": true,
+        "src": "http://127.0.0.1:4173/brand/agency-audience-2400.webp",
+        "fit": "cover",
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium-1440 restrained parallax",
+      "pass": true,
+      "detail": {
+        "y": 21.6,
+        "style": "translate: none; rotate: none; scale: none; transform: translate(0px, 21.6px);"
+      }
+    },
+    {
+      "name": "chromium-1440 reduced motion clears image effects",
+      "pass": true,
+      "detail": {
+        "transform": "none",
+        "clip": "none",
+        "style": null
+      }
+    },
+    {
+      "name": "chromium-1440 no repeated curtain",
+      "pass": true
+    },
+    {
+      "name": "chromium-1440 TEAM focus corrected",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "chromium-1440 back navigation static readable",
+      "pass": true,
+      "detail": {
+        "clip": "none",
+        "image": 1440,
+        "hero": 1
+      }
+    },
+    {
+      "name": "chromium-1920 hero photo / no case contents",
+      "pass": true,
+      "detail": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 880,
+          "top": 0,
+          "right": 1920,
+          "bottom": 880,
+          "left": 0
+        },
+        "title": {
+          "font": "96px",
+          "line": "107.52px",
+          "height": 215.03125,
+          "width": 582.328125,
+          "top": 352.6875,
+          "color": "rgb(255, 255, 255)",
+          "em": "rgb(185, 240, 217)",
+          "text": "전략은 명확하게.표현은 강렬하게."
+        },
+        "image": {
+          "loaded": true,
+          "src": "http://127.0.0.1:4173/brand/agency-audience-2400.webp",
+          "fit": "cover",
+          "clip": "none"
+        },
+        "noOldCases": true,
+        "ctas": [
+          {
+            "height": 48,
+            "right": 1468.90625,
+            "bottom": 673.3125
+          },
+          {
+            "height": 48,
+            "right": 1600,
+            "bottom": 673.3125
+          }
+        ],
+        "overflow": false,
+        "credit": "Photo · 13on / Unsplash",
+        "assurance": 3
+      }
+    },
+    {
+      "name": "chromium-1920 title two lines / scale",
+      "pass": true,
+      "detail": {
+        "font": "96px",
+        "line": "107.52px",
+        "height": 215.03125,
+        "width": 582.328125,
+        "top": 352.6875,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "chromium-1920 title white / mint",
+      "pass": true,
+      "detail": {
+        "font": "96px",
+        "line": "107.52px",
+        "height": 215.03125,
+        "width": 582.328125,
+        "top": 352.6875,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "chromium-1920 CTA48 / within hero",
+      "pass": true,
+      "detail": [
+        {
+          "height": 48,
+          "right": 1468.90625,
+          "bottom": 673.3125
+        },
+        {
+          "height": 48,
+          "right": 1600,
+          "bottom": 673.3125
+        }
+      ]
+    },
+    {
+      "name": "chromium-1920 original credit / assurance",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 no overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 entrance unmasked",
+      "pass": true,
+      "detail": {
+        "loaded": true,
+        "src": "http://127.0.0.1:4173/brand/agency-audience-2400.webp",
+        "fit": "cover",
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium-1920 restrained parallax",
+      "pass": true,
+      "detail": {
+        "y": 21.6,
+        "style": "translate: none; rotate: none; scale: none; transform: translate(0px, 21.6px);"
+      }
+    },
+    {
+      "name": "chromium-1920 reduced motion clears image effects",
+      "pass": true,
+      "detail": {
+        "transform": "none",
+        "clip": "none",
+        "style": null
+      }
+    },
+    {
+      "name": "chromium-1920 no repeated curtain",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 TEAM focus corrected",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "chromium-1920 back navigation static readable",
+      "pass": true,
+      "detail": {
+        "clip": "none",
+        "image": 1920,
+        "hero": 1
+      }
+    },
+    {
+      "name": "chromium-390 hero photo / no case contents",
+      "pass": true,
+      "detail": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 680,
+          "top": 0,
+          "right": 390,
+          "bottom": 680,
+          "left": 0
+        },
+        "title": {
+          "font": "44.07px",
+          "line": "52.0026px",
+          "height": 103.96875,
+          "width": 269.296875,
+          "top": 258.421875,
+          "color": "rgb(255, 255, 255)",
+          "em": "rgb(185, 240, 217)",
+          "text": "전략은 명확하게.표현은 강렬하게."
+        },
+        "image": {
+          "loaded": true,
+          "src": "http://127.0.0.1:4173/brand/agency-audience-800.webp",
+          "fit": "cover",
+          "clip": "none"
+        },
+        "noOldCases": true,
+        "ctas": [
+          {
+            "height": 48,
+            "right": 136.75,
+            "bottom": 517.578125
+          },
+          {
+            "height": 48,
+            "right": 249.34375,
+            "bottom": 517.578125
+          }
+        ],
+        "overflow": false,
+        "credit": "Photo · 13on / Unsplash",
+        "assurance": 3
+      }
+    },
+    {
+      "name": "chromium-390 title two lines / scale",
+      "pass": true,
+      "detail": {
+        "font": "44.07px",
+        "line": "52.0026px",
+        "height": 103.96875,
+        "width": 269.296875,
+        "top": 258.421875,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "chromium-390 title white / mint",
+      "pass": true,
+      "detail": {
+        "font": "44.07px",
+        "line": "52.0026px",
+        "height": 103.96875,
+        "width": 269.296875,
+        "top": 258.421875,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "chromium-390 CTA48 / within hero",
+      "pass": true,
+      "detail": [
+        {
+          "height": 48,
+          "right": 136.75,
+          "bottom": 517.578125
+        },
+        {
+          "height": 48,
+          "right": 249.34375,
+          "bottom": 517.578125
+        }
+      ]
+    },
+    {
+      "name": "chromium-390 original credit / assurance",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 no overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 entrance unmasked",
+      "pass": true,
+      "detail": {
+        "loaded": true,
+        "src": "http://127.0.0.1:4173/brand/agency-audience-800.webp",
+        "fit": "cover",
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium-390 restrained parallax",
+      "pass": true,
+      "detail": {
+        "y": 0,
+        "style": null
+      }
+    },
+    {
+      "name": "chromium-390 reduced motion clears image effects",
+      "pass": true,
+      "detail": {
+        "transform": "none",
+        "clip": "none",
+        "style": null
+      }
+    },
+    {
+      "name": "chromium-390 no repeated curtain",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 TEAM focus corrected",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "chromium-390 back navigation static readable",
+      "pass": true,
+      "detail": {
+        "clip": "none",
+        "image": 800,
+        "hero": 1
+      }
+    },
+    {
+      "name": "webkit-1440 hero photo / no case contents",
+      "pass": true,
+      "detail": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 880,
+          "top": 0,
+          "right": 1440,
+          "bottom": 880,
+          "left": 0
+        },
+        "title": {
+          "font": "80.639999px",
+          "line": "90.316795px",
+          "height": 180.59375,
+          "width": 489.140625,
+          "top": 369.90625,
+          "color": "rgb(255, 255, 255)",
+          "em": "rgb(185, 240, 217)",
+          "text": "전략은 명확하게.표현은 강렬하게."
+        },
+        "image": {
+          "loaded": true,
+          "src": "http://127.0.0.1:4173/brand/agency-audience-2400.webp",
+          "fit": "cover",
+          "clip": "none"
+        },
+        "noOldCases": true,
+        "ctas": [
+          {
+            "height": 48,
+            "right": 1228.90625,
+            "bottom": 656.09375
+          },
+          {
+            "height": 48,
+            "right": 1360,
+            "bottom": 656.09375
+          }
+        ],
+        "overflow": false,
+        "credit": "Photo · 13on / Unsplash",
+        "assurance": 3
+      }
+    },
+    {
+      "name": "webkit-1440 title two lines / scale",
+      "pass": true,
+      "detail": {
+        "font": "80.639999px",
+        "line": "90.316795px",
+        "height": 180.59375,
+        "width": 489.140625,
+        "top": 369.90625,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "webkit-1440 title white / mint",
+      "pass": true,
+      "detail": {
+        "font": "80.639999px",
+        "line": "90.316795px",
+        "height": 180.59375,
+        "width": 489.140625,
+        "top": 369.90625,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "webkit-1440 CTA48 / within hero",
+      "pass": true,
+      "detail": [
+        {
+          "height": 48,
+          "right": 1228.90625,
+          "bottom": 656.09375
+        },
+        {
+          "height": 48,
+          "right": 1360,
+          "bottom": 656.09375
+        }
+      ]
+    },
+    {
+      "name": "webkit-1440 original credit / assurance",
+      "pass": true
+    },
+    {
+      "name": "webkit-1440 no overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit-1440 entrance unmasked",
+      "pass": true,
+      "detail": {
+        "loaded": true,
+        "src": "http://127.0.0.1:4173/brand/agency-audience-2400.webp",
+        "fit": "cover",
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit-1440 restrained parallax",
+      "pass": true,
+      "detail": {
+        "y": 21.6,
+        "style": "translate: none; rotate: none; scale: none; transform: translate(0px, 21.6px);"
+      }
+    },
+    {
+      "name": "webkit-1440 reduced motion clears image effects",
+      "pass": true,
+      "detail": {
+        "transform": "none",
+        "clip": "none",
+        "style": null
+      }
+    },
+    {
+      "name": "webkit-1440 no repeated curtain",
+      "pass": true
+    },
+    {
+      "name": "webkit-1440 TEAM focus corrected",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "webkit-1440 back navigation static readable",
+      "pass": true,
+      "detail": {
+        "clip": "none",
+        "image": 1440,
+        "hero": 1
+      }
+    },
+    {
+      "name": "webkit-1920 hero photo / no case contents",
+      "pass": true,
+      "detail": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 880,
+          "top": 0,
+          "right": 1920,
+          "bottom": 880,
+          "left": 0
+        },
+        "title": {
+          "font": "96px",
+          "line": "107.519997px",
+          "height": 215.03125,
+          "width": 582.328125,
+          "top": 352.6875,
+          "color": "rgb(255, 255, 255)",
+          "em": "rgb(185, 240, 217)",
+          "text": "전략은 명확하게.표현은 강렬하게."
+        },
+        "image": {
+          "loaded": true,
+          "src": "http://127.0.0.1:4173/brand/agency-audience-2400.webp",
+          "fit": "cover",
+          "clip": "none"
+        },
+        "noOldCases": true,
+        "ctas": [
+          {
+            "height": 48,
+            "right": 1468.90625,
+            "bottom": 673.3125
+          },
+          {
+            "height": 48,
+            "right": 1600,
+            "bottom": 673.3125
+          }
+        ],
+        "overflow": false,
+        "credit": "Photo · 13on / Unsplash",
+        "assurance": 3
+      }
+    },
+    {
+      "name": "webkit-1920 title two lines / scale",
+      "pass": true,
+      "detail": {
+        "font": "96px",
+        "line": "107.519997px",
+        "height": 215.03125,
+        "width": 582.328125,
+        "top": 352.6875,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "webkit-1920 title white / mint",
+      "pass": true,
+      "detail": {
+        "font": "96px",
+        "line": "107.519997px",
+        "height": 215.03125,
+        "width": 582.328125,
+        "top": 352.6875,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "webkit-1920 CTA48 / within hero",
+      "pass": true,
+      "detail": [
+        {
+          "height": 48,
+          "right": 1468.90625,
+          "bottom": 673.3125
+        },
+        {
+          "height": 48,
+          "right": 1600,
+          "bottom": 673.3125
+        }
+      ]
+    },
+    {
+      "name": "webkit-1920 original credit / assurance",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 no overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 entrance unmasked",
+      "pass": true,
+      "detail": {
+        "loaded": true,
+        "src": "http://127.0.0.1:4173/brand/agency-audience-2400.webp",
+        "fit": "cover",
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit-1920 restrained parallax",
+      "pass": true,
+      "detail": {
+        "y": 21.6,
+        "style": "translate: none; rotate: none; scale: none; transform: translate(0px, 21.6px);"
+      }
+    },
+    {
+      "name": "webkit-1920 reduced motion clears image effects",
+      "pass": true,
+      "detail": {
+        "transform": "none",
+        "clip": "none",
+        "style": null
+      }
+    },
+    {
+      "name": "webkit-1920 no repeated curtain",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 TEAM focus corrected",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "webkit-1920 back navigation static readable",
+      "pass": true,
+      "detail": {
+        "clip": "none",
+        "image": 1920,
+        "hero": 1
+      }
+    },
+    {
+      "name": "webkit-390 hero photo / no case contents",
+      "pass": true,
+      "detail": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 680,
+          "top": 0,
+          "right": 390,
+          "bottom": 680,
+          "left": 0
+        },
+        "title": {
+          "font": "44.07px",
+          "line": "52.002598px",
+          "height": 103.96875,
+          "width": 269.296875,
+          "top": 258.421875,
+          "color": "rgb(255, 255, 255)",
+          "em": "rgb(185, 240, 217)",
+          "text": "전략은 명확하게.표현은 강렬하게."
+        },
+        "image": {
+          "loaded": true,
+          "src": "http://127.0.0.1:4173/brand/agency-audience-800.webp",
+          "fit": "cover",
+          "clip": "none"
+        },
+        "noOldCases": true,
+        "ctas": [
+          {
+            "height": 48,
+            "right": 136.75,
+            "bottom": 517.578125
+          },
+          {
+            "height": 48,
+            "right": 249.34375,
+            "bottom": 517.578125
+          }
+        ],
+        "overflow": false,
+        "credit": "Photo · 13on / Unsplash",
+        "assurance": 3
+      }
+    },
+    {
+      "name": "webkit-390 title two lines / scale",
+      "pass": true,
+      "detail": {
+        "font": "44.07px",
+        "line": "52.002598px",
+        "height": 103.96875,
+        "width": 269.296875,
+        "top": 258.421875,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "webkit-390 title white / mint",
+      "pass": true,
+      "detail": {
+        "font": "44.07px",
+        "line": "52.002598px",
+        "height": 103.96875,
+        "width": 269.296875,
+        "top": 258.421875,
+        "color": "rgb(255, 255, 255)",
+        "em": "rgb(185, 240, 217)",
+        "text": "전략은 명확하게.표현은 강렬하게."
+      }
+    },
+    {
+      "name": "webkit-390 CTA48 / within hero",
+      "pass": true,
+      "detail": [
+        {
+          "height": 48,
+          "right": 136.75,
+          "bottom": 517.578125
+        },
+        {
+          "height": 48,
+          "right": 249.34375,
+          "bottom": 517.578125
+        }
+      ]
+    },
+    {
+      "name": "webkit-390 original credit / assurance",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 no overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 entrance unmasked",
+      "pass": true,
+      "detail": {
+        "loaded": true,
+        "src": "http://127.0.0.1:4173/brand/agency-audience-800.webp",
+        "fit": "cover",
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit-390 restrained parallax",
+      "pass": true,
+      "detail": {
+        "y": 0,
+        "style": null
+      }
+    },
+    {
+      "name": "webkit-390 reduced motion clears image effects",
+      "pass": true,
+      "detail": {
+        "transform": "none",
+        "clip": "none",
+        "style": null
+      }
+    },
+    {
+      "name": "webkit-390 no repeated curtain",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 TEAM focus corrected",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "webkit-390 back navigation static readable",
+      "pass": true,
+      "detail": {
+        "clip": "none",
+        "image": 800,
+        "hero": 1
+      }
+    }
+  ],
+  "errors": [],
+  "writes": []
+}

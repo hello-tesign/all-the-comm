@@ -1,0 +1,161 @@
+{
+  "checks": [
+    {
+      "id": "webkit/about/ frame 0 natural ratio and fully shown",
+      "ok": true,
+      "data": {
+        "ratio": 1.4400239127185772,
+        "natural": 1.44,
+        "clip": "none",
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "id": "webkit/about/ frame 1 natural ratio and fully shown",
+      "ok": true,
+      "data": {
+        "ratio": 1.6000332115576221,
+        "natural": 1.6,
+        "clip": "none",
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "id": "webkit/about/ each frame has one entrance",
+      "ok": true
+    },
+    {
+      "id": "webkit/about/ reduced motion releases image styles",
+      "ok": true
+    },
+    {
+      "id": "webkit/team/ frame 0 natural ratio and fully shown",
+      "ok": true,
+      "data": {
+        "ratio": 0.6760071876871794,
+        "natural": 0.676,
+        "clip": "none",
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "id": "webkit/team/ frame 1 natural ratio and fully shown",
+      "ok": true,
+      "data": {
+        "ratio": 1.44,
+        "natural": 1.44,
+        "clip": "none",
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "id": "webkit/team/ each frame has one entrance",
+      "ok": true
+    },
+    {
+      "id": "webkit/team/ reduced motion releases image styles",
+      "ok": true
+    },
+    {
+      "id": "webkit/contact/ frame 0 natural ratio and fully shown",
+      "ok": true,
+      "data": {
+        "ratio": 1.4400118422026498,
+        "natural": 1.44,
+        "clip": "none",
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "id": "webkit/contact/ frame 1 natural ratio and fully shown",
+      "ok": true,
+      "data": {
+        "ratio": 1.4400118422026498,
+        "natural": 1.44,
+        "clip": "none",
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "id": "webkit/contact/ each frame has one entrance",
+      "ok": true
+    },
+    {
+      "id": "webkit/contact/ reduced motion releases image styles",
+      "ok": true
+    },
+    {
+      "id": "webkit about 1920 shell and overflow",
+      "ok": true,
+      "data": {
+        "viewport": 1920,
+        "body": 1920,
+        "shells": [
+          1280,
+          1280,
+          1280,
+          1280,
+          1280,
+          1280,
+          1280
+        ]
+      }
+    },
+    {
+      "id": "webkit about 1280 shell and overflow",
+      "ok": true,
+      "data": {
+        "viewport": 1280,
+        "body": 1280,
+        "shells": [
+          1216,
+          1216,
+          1216,
+          1216,
+          1216,
+          1216,
+          1216
+        ]
+      }
+    },
+    {
+      "id": "webkit about 1024 shell and overflow",
+      "ok": true,
+      "data": {
+        "viewport": 1024,
+        "body": 1024,
+        "shells": [
+          976,
+          976,
+          976,
+          976,
+          976,
+          976,
+          976
+        ]
+      }
+    },
+    {
+      "id": "no runtime errors or write requests",
+      "ok": true,
+      "data": []
+    }
+  ],
+  "passed": 16,
+  "failed": 0,
+  "errors": [],
+  "screenshots": [
+    "webkit-about-0.png",
+    "webkit-about-1.png",
+    "webkit-team-0.png",
+    "webkit-team-1.png",
+    "webkit-contact-0.png",
+    "webkit-contact-1.png"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "total": 52,
+  "passed": 52,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "chromium/300 skip link hidden without focus",
+      "pass": true
+    },
+    {
+      "name": "chromium/300 keyboard skip link visible",
+      "pass": true
+    },
+    {
+      "name": "chromium/300 skip link reaches content",
+      "pass": true
+    },
+    {
+      "name": "chromium/300 four custom service illustrations",
+      "pass": true
+    },
+    {
+      "name": "chromium/300 no width overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium/300 reduced motion prevents card tilt",
+      "pass": true
+    },
+    {
+      "name": "chromium/300 service card opens matching detail",
+      "pass": true
+    },
+    {
+      "name": "chromium/300 no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "chromium/390 skip link hidden without focus",
+      "pass": true
+    },
+    {
+      "name": "chromium/390 keyboard skip link visible",
+      "pass": true
+    },
+    {
+      "name": "chromium/390 skip link reaches content",
+      "pass": true
+    },
+    {
+      "name": "chromium/390 four custom service illustrations",
+      "pass": true
+    },
+    {
+      "name": "chromium/390 no width overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium/390 reduced motion prevents card tilt",
+      "pass": true
+    },
+    {
+      "name": "chromium/390 service card opens matching detail",
+      "pass": true
+    },
+    {
+      "name": "chromium/390 no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "chromium/1440 skip link hidden without focus",
+      "pass": true
+    },
+    {
+      "name": "chromium/1440 keyboard skip link visible",
+      "pass": true
+    },
+    {
+      "name": "chromium/1440 skip link reaches content",
+      "pass": true
+    },
+    {
+      "name": "chromium/1440 four custom service illustrations",
+      "pass": true
+    },
+    {
+      "name": "chromium/1440 no width overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium/1440 reduced motion prevents card tilt",
+      "pass": true
+    },
+    {
+      "name": "chromium/1440 service card opens matching detail",
+      "pass": true
+    },
+    {
+      "name": "chromium/1440 no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "chromium pointer changes glass light and perspective",
+      "pass": true
+    },
+    {
+      "name": "chromium live motion preference disables tilt",
+      "pass": true
+    },
+    {
+      "name": "webkit/300 skip link hidden without focus",
+      "pass": true
+    },
+    {
+      "name": "webkit/300 keyboard skip link visible",
+      "pass": true
+    },
+    {
+      "name": "webkit/300 skip link reaches content",
+      "pass": true
+    },
+    {
+      "name": "webkit/300 four custom service illustrations",
+      "pass": true
+    },
+    {
+      "name": "webkit/300 no width overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit/300 reduced motion prevents card tilt",
+      "pass": true
+    },
+    {
+      "name": "webkit/300 service card opens matching detail",
+      "pass": true
+    },
+    {
+      "name": "webkit/300 no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "webkit/390 skip link hidden without focus",
+      "pass": true
+    },
+    {
+      "name": "webkit/390 keyboard skip link visible",
+      "pass": true
+    },
+    {
+      "name": "webkit/390 skip link reaches content",
+      "pass": true
+    },
+    {
+      "name": "webkit/390 four custom service illustrations",
+      "pass": true
+    },
+    {
+      "name": "webkit/390 no width overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit/390 reduced motion prevents card tilt",
+      "pass": true
+    },
+    {
+      "name": "webkit/390 service card opens matching detail",
+      "pass": true
+    },
+    {
+      "name": "webkit/390 no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "webkit/1440 skip link hidden without focus",
+      "pass": true
+    },
+    {
+      "name": "webkit/1440 keyboard skip link visible",
+      "pass": true
+    },
+    {
+      "name": "webkit/1440 skip link reaches content",
+      "pass": true
+    },
+    {
+      "name": "webkit/1440 four custom service illustrations",
+      "pass": true
+    },
+    {
+      "name": "webkit/1440 no width overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit/1440 reduced motion prevents card tilt",
+      "pass": true
+    },
+    {
+      "name": "webkit/1440 service card opens matching detail",
+      "pass": true
+    },
+    {
+      "name": "webkit/1440 no JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "webkit pointer changes glass light and perspective",
+      "pass": true
+    },
+    {
+      "name": "webkit live motion preference disables tilt",
+      "pass": true
+    }
+  ]
+}

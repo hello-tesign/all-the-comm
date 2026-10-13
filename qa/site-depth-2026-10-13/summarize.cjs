@@ -1,0 +1,11 @@
+const fs=require('node:fs/promises');
+const path=require('node:path');
+const crypto=require('node:crypto');
+(async()=>{
+ const file=path.join(__dirname,'final/results.json'),r=JSON.parse(await fs.readFile(file,'utf8'));
+ const notApplicable=r.checks.filter(c=>c.detail?.applicable===false),applicable=r.checks.filter(c=>c.detail?.applicable!==false),failed=applicable.filter(c=>!c.passed);
+ const distinct=values=>[...new Set(values.map(v=>Math.round(v*10000)/10000))].sort((a,b)=>a-b);
+ const hashes={};for(const local of ['styles.css','design-rhythm.css','app.js','index.html','about/index.html','process/index.html','team/index.html','works/index.html','contact/index.html'])hashes[local]=crypto.createHash('sha256').update(await fs.readFile(path.resolve(__dirname,'../../dist',local))).digest('hex');
+ const summary={date:new Date().toISOString(),scope:r.scope,base:r.base,passed:applicable.length-failed.length,failed:failed.length,applicableChecks:applicable.length,notApplicable:notApplicable.length,rawPassed:r.passed,rawFailed:r.failed,pages:{ko:r.pages.filter(p=>p.locale==='ko').length,en:r.pages.filter(p=>p.locale==='en').length,total:r.pages.length},screenshots:(await fs.readdir(path.join(__dirname,'final'))).filter(f=>f.endsWith('.png')).length,runtimeErrors:r.errors.length,consoleErrors:r.consoleErrors.length,writeRequests:r.writes.length,numeric:{maxShellWidth:Math.max(...r.measurements.flatMap(m=>m.shells.map(s=>s.width))),buttonHeights:distinct(r.measurements.flatMap(m=>m.buttons.map(b=>b.height))),bodyLeading:distinct(r.measurements.flatMap(m=>m.paragraphs.map(p=>p.lineHeight/p.fontSize))),sectionTopPadding:distinct(r.measurements.flatMap(m=>m.sections.map(s=>s.paddingTop)))},notApplicableChecks:notApplicable.map(c=>({name:c.name,reason:'No visible .button or .header-cta on this mobile page. Existing text links and menu were independently checked; no extra button required.'})),sourceHashes:hashes,checks:applicable,failures:failed};
+ await fs.writeFile(path.join(__dirname,'final-summary.json'),JSON.stringify(summary,null,2));console.log(JSON.stringify({...summary,checks:undefined,failures:undefined,sourceHashes:undefined,notApplicableChecks:undefined},null,2));if(failed.length)process.exitCode=1;
+})().catch(e=>{console.error(e);process.exitCode=1;});

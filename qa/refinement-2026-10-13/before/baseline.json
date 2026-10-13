@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-13T01:57:47.176Z",
+  "scope": "GET-only English HTML and public portfolio baseline before new build. No browser or mutations.",
+  "pages": [
+    {
+      "route": "/en/",
+      "file": "en.html",
+      "status": 200,
+      "sha256": "6ec4c8a459092e1e6d5f4091a8f14f9389993217d36626ba7efeba05c538102e"
+    },
+    {
+      "route": "/en/about/",
+      "file": "en-about.html",
+      "status": 200,
+      "sha256": "dcfe55e34a73bbbe478dfd48464d185560fd8a926cdf15eebd0f66156819b8c8"
+    },
+    {
+      "route": "/en/process/",
+      "file": "en-process.html",
+      "status": 200,
+      "sha256": "8aba73eb89771625e31072d40f9f5fcc7b8acf4ec8bebec50c4809886931245b"
+    },
+    {
+      "route": "/en/team/",
+      "file": "en-team.html",
+      "status": 200,
+      "sha256": "4bd22c4e6463545e57c0fff2c4d82127771b0b6b2dc44a6eaf28102574df185d"
+    },
+    {
+      "route": "/en/works/",
+      "file": "en-works.html",
+      "status": 200,
+      "sha256": "bcede75a034e41e47589578d4438ecaf051da8f2a6b7c5fb66d836c935b3056f"
+    },
+    {
+      "route": "/en/contact/",
+      "file": "en-contact.html",
+      "status": 200,
+      "sha256": "702b7dea769066cc1474f4743e98783c05ad773872365b5bd6476d88c985f09f"
+    },
+    {
+      "route": "/en/privacy/",
+      "file": "en-privacy.html",
+      "status": 200,
+      "sha256": "018d63e626e9f7e3978ae9bce0a364d03e9e1a7caae94489180b2ee3c4e0de68"
+    },
+    {
+      "route": "/en/works/project/all-the-comm/",
+      "file": "en-works-project-all-the-comm.html",
+      "status": 200,
+      "sha256": "a2c224a4730ef85843f9902d80eb35603936be9a258d7e641b65589f22f36509"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "all-the-comm",
+      "titleEn": "One company. A connected experience.",
+      "summaryEn": "Our own website renewal, connecting the curves of the original mark with a new digital and motion language.",
+      "englishPublished": true,
+      "services": [
+        "strategy",
+        "content",
+        "video",
+        "it"
+      ],
+      "coverImage": "/evidence/allthecomm-inquiry.png",
+      "featured": true,
+      "order": 9
+    }
+  ]
+}

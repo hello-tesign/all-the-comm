@@ -1,0 +1,1003 @@
+{
+  "date": "2026-10-13T02:13:09.478Z",
+  "checks": [
+    {
+      "name": "chromium dashboard masked throughout entrance",
+      "passed": true,
+      "detail": [
+        {
+          "ms": 0,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 50,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 100,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 150,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 200,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 250,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 300,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 350,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 400,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 450,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 500,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 550,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 600,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 650,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 700,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 750,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 800,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        }
+      ]
+    },
+    {
+      "name": "chromium dashboard card mask",
+      "passed": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "chromium content-operations fit 0",
+      "passed": true,
+      "detail": {
+        "image": [
+          970.296875,
+          716
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+      }
+    },
+    {
+      "name": "chromium dashboard viewer mask",
+      "passed": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "chromium content-operations original 0",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1282,
+          946
+        ],
+        "natural": [
+          1282,
+          946
+        ]
+      }
+    },
+    {
+      "name": "chromium content-operations close/focus 0",
+      "passed": true
+    },
+    {
+      "name": "chromium book cover height cap",
+      "passed": true,
+      "detail": {
+        "cover": [
+          438.03125,
+          647.984375
+        ],
+        "columns": "635.188px 635.203px",
+        "gallery": [
+          {
+            "x": 64.796875,
+            "y": 2237.484375,
+            "w": 635.1875,
+            "h": 879.1875
+          },
+          {
+            "x": 739.984375,
+            "y": 2237.484375,
+            "w": 635.203125,
+            "h": 879.1875
+          },
+          {
+            "x": 64.796875,
+            "y": 3156.671875,
+            "w": 635.1875,
+            "h": 879.1875
+          },
+          {
+            "x": 739.984375,
+            "y": 3156.671875,
+            "w": 635.203125,
+            "h": 879.1875
+          }
+        ],
+        "height": 4749
+      }
+    },
+    {
+      "name": "chromium book four pages in two columns",
+      "passed": true,
+      "detail": {
+        "cover": [
+          438.03125,
+          647.984375
+        ],
+        "columns": "635.188px 635.203px",
+        "gallery": [
+          {
+            "x": 64.796875,
+            "y": 2237.484375,
+            "w": 635.1875,
+            "h": 879.1875
+          },
+          {
+            "x": 739.984375,
+            "y": 2237.484375,
+            "w": 635.203125,
+            "h": 879.1875
+          },
+          {
+            "x": 64.796875,
+            "y": 3156.671875,
+            "w": 635.1875,
+            "h": 879.1875
+          },
+          {
+            "x": 739.984375,
+            "y": 3156.671875,
+            "w": 635.203125,
+            "h": 879.1875
+          }
+        ],
+        "height": 4749
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal fit 0",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal original 0",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal close/focus 0",
+      "passed": true
+    },
+    {
+      "name": "chromium sales-rehearsal fit 1",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal original 1",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal close/focus 1",
+      "passed": true
+    },
+    {
+      "name": "chromium sales-rehearsal fit 2",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal original 2",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal close/focus 2",
+      "passed": true
+    },
+    {
+      "name": "chromium sales-rehearsal fit 3",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal original 3",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal close/focus 3",
+      "passed": true
+    },
+    {
+      "name": "chromium sales-rehearsal fit 4",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal original 4",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal close/focus 4",
+      "passed": true
+    },
+    {
+      "name": "chromium ezylens-studio fit 0",
+      "passed": true,
+      "detail": {
+        "image": [
+          1068.421875,
+          716
+        ],
+        "natural": [
+          1440,
+          965
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium ezylens-studio original 0",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1440,
+          965
+        ],
+        "natural": [
+          1440,
+          965
+        ]
+      }
+    },
+    {
+      "name": "chromium ezylens-studio close/focus 0",
+      "passed": true
+    },
+    {
+      "name": "chromium mobile book single column",
+      "passed": true,
+      "detail": {
+        "count": 4,
+        "x": [
+          24,
+          24,
+          24,
+          24
+        ],
+        "y": [
+          2055.515625,
+          2645.53125,
+          3235.546875,
+          3825.5625
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal-mobile fit 0",
+      "passed": true,
+      "detail": {
+        "image": [
+          347.984375,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          734
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal-mobile original 0",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "chromium sales-rehearsal-mobile close/focus 0",
+      "passed": true
+    },
+    {
+      "name": "webkit dashboard masked throughout entrance",
+      "passed": true,
+      "detail": [
+        {
+          "ms": 0,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 50,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 100,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 150,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 200,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 250,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 300,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 350,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 400,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 450,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 500,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 550,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 600,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 650,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 700,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 750,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        },
+        {
+          "ms": 800,
+          "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)",
+          "inline": ""
+        }
+      ]
+    },
+    {
+      "name": "webkit dashboard card mask",
+      "passed": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "webkit content-operations fit 0",
+      "passed": true,
+      "detail": {
+        "image": [
+          970.296875,
+          716
+        ],
+        "natural": [
+          1282,
+          946
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+      }
+    },
+    {
+      "name": "webkit dashboard viewer mask",
+      "passed": true,
+      "detail": "polygon(13.5% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 6%, 13.5% 6%)"
+    },
+    {
+      "name": "webkit content-operations original 0",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1282,
+          946
+        ],
+        "natural": [
+          1282,
+          946
+        ]
+      }
+    },
+    {
+      "name": "webkit content-operations close/focus 0",
+      "passed": true
+    },
+    {
+      "name": "webkit book cover height cap",
+      "passed": true,
+      "detail": {
+        "cover": [
+          438.046875,
+          647.984375
+        ],
+        "columns": "635.1875px 635.203125px",
+        "gallery": [
+          {
+            "x": 64.796875,
+            "y": 2237.484375,
+            "w": 635.1875,
+            "h": 879.1875
+          },
+          {
+            "x": 739.984375,
+            "y": 2237.484375,
+            "w": 635.203125,
+            "h": 879.1875
+          },
+          {
+            "x": 64.796875,
+            "y": 3156.671875,
+            "w": 635.1875,
+            "h": 879.1875
+          },
+          {
+            "x": 739.984375,
+            "y": 3156.671875,
+            "w": 635.203125,
+            "h": 879.1875
+          }
+        ],
+        "height": 4749
+      }
+    },
+    {
+      "name": "webkit book four pages in two columns",
+      "passed": true,
+      "detail": {
+        "cover": [
+          438.046875,
+          647.984375
+        ],
+        "columns": "635.1875px 635.203125px",
+        "gallery": [
+          {
+            "x": 64.796875,
+            "y": 2237.484375,
+            "w": 635.1875,
+            "h": 879.1875
+          },
+          {
+            "x": 739.984375,
+            "y": 2237.484375,
+            "w": 635.203125,
+            "h": 879.1875
+          },
+          {
+            "x": 64.796875,
+            "y": 3156.671875,
+            "w": 635.1875,
+            "h": 879.1875
+          },
+          {
+            "x": 739.984375,
+            "y": 3156.671875,
+            "w": 635.203125,
+            "h": 879.1875
+          }
+        ],
+        "height": 4749
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal fit 0",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal original 0",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal close/focus 0",
+      "passed": true
+    },
+    {
+      "name": "webkit sales-rehearsal fit 1",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal original 1",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal close/focus 1",
+      "passed": true
+    },
+    {
+      "name": "webkit sales-rehearsal fit 2",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal original 2",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal close/focus 2",
+      "passed": true
+    },
+    {
+      "name": "webkit sales-rehearsal fit 3",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal original 3",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal close/focus 3",
+      "passed": true
+    },
+    {
+      "name": "webkit sales-rehearsal fit 4",
+      "passed": true,
+      "detail": {
+        "image": [
+          484.015625,
+          716
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal original 4",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal close/focus 4",
+      "passed": true
+    },
+    {
+      "name": "webkit ezylens-studio fit 0",
+      "passed": true,
+      "detail": {
+        "image": [
+          1068.421875,
+          716
+        ],
+        "natural": [
+          1440,
+          965
+        ],
+        "available": [
+          1326,
+          718
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit ezylens-studio original 0",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1440,
+          965
+        ],
+        "natural": [
+          1440,
+          965
+        ]
+      }
+    },
+    {
+      "name": "webkit ezylens-studio close/focus 0",
+      "passed": true
+    },
+    {
+      "name": "webkit mobile book single column",
+      "passed": true,
+      "detail": {
+        "count": 4,
+        "x": [
+          24,
+          24,
+          24,
+          24
+        ],
+        "y": [
+          2055.515625,
+          2645.53125,
+          3235.546875,
+          3825.5625
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal-mobile fit 0",
+      "passed": true,
+      "detail": {
+        "image": [
+          348,
+          514.78125
+        ],
+        "natural": [
+          1352,
+          2000
+        ],
+        "available": [
+          348,
+          734
+        ],
+        "clip": "none"
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal-mobile original 0",
+      "passed": true,
+      "detail": {
+        "rendered": [
+          1352,
+          2000
+        ],
+        "natural": [
+          1352,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "webkit sales-rehearsal-mobile close/focus 0",
+      "passed": true
+    },
+    {
+      "name": "runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "write requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "writes": []
+}

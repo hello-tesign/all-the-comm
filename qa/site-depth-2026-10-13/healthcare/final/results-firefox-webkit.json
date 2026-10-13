@@ -1,0 +1,878 @@
+{
+  "scope": "Read-only healthcare path, final integrated build",
+  "base": "http://127.0.0.1:4173",
+  "routes": [
+    {
+      "route": "firefox-1440",
+      "width": 1440,
+      "homeHref": "/about/#healthcare-expertise",
+      "about": {
+        "top": 371.20001220703125,
+        "bottom": 601.6000213623047,
+        "left": 80,
+        "right": 716.9500122070312,
+        "height": 230.40000915527344,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 972.1666870117188
+      },
+      "aboutText": "의료 커뮤니케이션의 전문 배경\n\n의학전문기자와\n병원 홍보팀장\n출신의 경험.\n\n의료 현장을 취재하는 시선과\n병원 안에서 홍보를 운영하는 시선을\n함께 갖고 있습니다.\n\n병원의 진료 철학, 의료진의 전문성, 환자가 궁금해하는 내용을 먼저 이해합니다. 그 이해를 바탕으로 병원의 외부 홍보팀 역할을 수행합니다.\n\n질환 콘텐츠와 의료진 인터뷰, 언론홍보와 공식 채널 운영을 연결하고, 광고의 실행과 보고까지 이어갑니다.\n\n의료 정보를\n읽히는 콘텐츠로.\n\n진료 분야별 홍보 방향을 세우고 질환·치료 정보를 환자가 이해할 순서로 정리합니다. 홈페이지와 블로그, SNS의 역할에 맞게 콘텐츠를 기획합니다.\n\n진료 분야 전략 · 질환 콘텐츠 · 공식 채널\n의료진의 전문성을\n구체적인 설명으로.\n\n인터뷰의 질문과 영상 구성을 준비해 의료진이 전할 핵심을 선명하게 만듭니다. 병원의 설명과 환자의 정보 요구가 만나는 지점을 찾습니다.\n\n의료진 인터뷰 · 영상 기획 · 콘텐츠 제작\n알려야 할 소식을\n지속적인 홍보로.\n\n보도자료와 미디어 대응, 의학전문 기자간담회를 기획합니다. 온라인·지역 광고와 홍보 일정을 관리하고 진행 내용과 결과를 정기적으로 보고합니다.\n\n병원 PR · 기자간담회 · 광고 운영·보고\n소개해 온 의료 분야 파트너\n\n기존 홈페이지의 파트너 소개에서\n\n강남더블유안과\n리드힐\n리샘\n새빛\n참진한의원\n함소아의원\n함께할 수 있는 업무 살펴보기\n↗",
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "aboutHref": "/works/#hospital",
+      "hospitalTab": {
+        "top": 178.1666717529297,
+        "bottom": 226.1666717529297,
+        "left": 312,
+        "right": 534,
+        "height": 48,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 646
+      },
+      "hospitalSelected": "true",
+      "hospitalPanelVisible": true,
+      "inquiryHref": "/contact/?service=hospital",
+      "hospitalChecked": true,
+      "contact": {
+        "top": 617.4000244140625,
+        "bottom": 618.4000244140625,
+        "left": 1274.5,
+        "right": 1275.5,
+        "height": 1,
+        "headerBottom": 102,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 0
+      },
+      "contactLabel": {
+        "top": 614.4000244140625,
+        "bottom": 662.4000244140625,
+        "headerBottom": 102,
+        "viewportHeight": 1000
+      }
+    },
+    {
+      "route": "firefox-390",
+      "width": 390,
+      "homeHref": "/about/#healthcare-expertise",
+      "about": {
+        "top": 314.20001220703125,
+        "bottom": 458.20001220703125,
+        "left": 16,
+        "right": 374,
+        "height": 144,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 1250.25
+      },
+      "aboutText": "의료 커뮤니케이션의 전문 배경\n\n의학전문기자와\n병원 홍보팀장\n출신의 경험.\n\n의료 현장을 취재하는 시선과\n병원 안에서 홍보를 운영하는 시선을\n함께 갖고 있습니다.\n\n병원의 진료 철학, 의료진의 전문성, 환자가 궁금해하는 내용을 먼저 이해합니다. 그 이해를 바탕으로 병원의 외부 홍보팀 역할을 수행합니다.\n\n질환 콘텐츠와 의료진 인터뷰, 언론홍보와 공식 채널 운영을 연결하고, 광고의 실행과 보고까지 이어갑니다.\n\n의료 정보를\n읽히는 콘텐츠로.\n\n진료 분야별 홍보 방향을 세우고 질환·치료 정보를 환자가 이해할 순서로 정리합니다. 홈페이지와 블로그, SNS의 역할에 맞게 콘텐츠를 기획합니다.\n\n진료 분야 전략 · 질환 콘텐츠 · 공식 채널\n의료진의 전문성을\n구체적인 설명으로.\n\n인터뷰의 질문과 영상 구성을 준비해 의료진이 전할 핵심을 선명하게 만듭니다. 병원의 설명과 환자의 정보 요구가 만나는 지점을 찾습니다.\n\n의료진 인터뷰 · 영상 기획 · 콘텐츠 제작\n알려야 할 소식을\n지속적인 홍보로.\n\n보도자료와 미디어 대응, 의학전문 기자간담회를 기획합니다. 온라인·지역 광고와 홍보 일정을 관리하고 진행 내용과 결과를 정기적으로 보고합니다.\n\n병원 PR · 기자간담회 · 광고 운영·보고\n소개해 온 의료 분야 파트너\n\n기존 홈페이지의 파트너 소개에서\n\n강남더블유안과\n리드힐\n리샘\n새빛\n참진한의원\n함소아의원\n함께할 수 있는 업무 살펴보기\n↗",
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "aboutHref": "/works/#hospital",
+      "hospitalTab": {
+        "top": 206.89999389648438,
+        "bottom": 254.89999389648438,
+        "left": 16,
+        "right": 99.69999694824219,
+        "height": 48,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 425
+      },
+      "hospitalSelected": "true",
+      "hospitalPanelVisible": true,
+      "inquiryHref": "/contact/?service=hospital",
+      "hospitalChecked": true,
+      "contact": {
+        "top": 616.5,
+        "bottom": 617.5,
+        "left": 20,
+        "right": 21,
+        "height": 1,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 0
+      },
+      "contactLabel": {
+        "top": 613.5,
+        "bottom": 661.5,
+        "headerBottom": 82,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "route": "webkit-1440",
+      "width": 1440,
+      "homeHref": "/about/#healthcare-expertise",
+      "about": {
+        "top": 371.34375,
+        "bottom": 601.734375,
+        "left": 80,
+        "right": 716.9375,
+        "height": 230.390625,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 972
+      },
+      "aboutText": "의료 커뮤니케이션의 전문 배경\n\n의학전문기자와\n병원 홍보팀장\n출신의 경험.\n\n의료 현장을 취재하는 시선과\n병원 안에서 홍보를 운영하는 시선을\n함께 갖고 있습니다.\n\n병원의 진료 철학, 의료진의 전문성, 환자가 궁금해하는 내용을 먼저 이해합니다. 그 이해를 바탕으로 병원의 외부 홍보팀 역할을 수행합니다.\n\n질환 콘텐츠와 의료진 인터뷰, 언론홍보와 공식 채널 운영을 연결하고, 광고의 실행과 보고까지 이어갑니다.\n\n의료 정보를\n읽히는 콘텐츠로.\n\n진료 분야별 홍보 방향을 세우고 질환·치료 정보를 환자가 이해할 순서로 정리합니다. 홈페이지와 블로그, SNS의 역할에 맞게 콘텐츠를 기획합니다.\n\n진료 분야 전략 · 질환 콘텐츠 · 공식 채널\n의료진의 전문성을\n구체적인 설명으로.\n\n인터뷰의 질문과 영상 구성을 준비해 의료진이 전할 핵심을 선명하게 만듭니다. 병원의 설명과 환자의 정보 요구가 만나는 지점을 찾습니다.\n\n의료진 인터뷰 · 영상 기획 · 콘텐츠 제작\n알려야 할 소식을\n지속적인 홍보로.\n\n보도자료와 미디어 대응, 의학전문 기자간담회를 기획합니다. 온라인·지역 광고와 홍보 일정을 관리하고 진행 내용과 결과를 정기적으로 보고합니다.\n\n병원 PR · 기자간담회 · 광고 운영·보고\n소개해 온 의료 분야 파트너\n\n기존 홈페이지의 파트너 소개에서\n\n강남더블유안과\n리드힐\n리샘\n새빛\n참진한의원\n함소아의원\n함께할 수 있는 업무 살펴보기\n↗",
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "aboutHref": "/works/#hospital",
+      "hospitalTab": {
+        "top": 590.15625,
+        "bottom": 638.15625,
+        "left": 312,
+        "right": 534,
+        "height": 48,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 234
+      },
+      "hospitalSelected": "true",
+      "hospitalPanelVisible": true,
+      "inquiryHref": "/contact/?service=hospital",
+      "hospitalChecked": true,
+      "contact": {
+        "top": 617.390625,
+        "bottom": 618.390625,
+        "left": 1272.703125,
+        "right": 1273.703125,
+        "height": 1,
+        "headerBottom": 102,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 0
+      },
+      "contactLabel": {
+        "top": 614.390625,
+        "bottom": 662.390625,
+        "headerBottom": 102,
+        "viewportHeight": 1000
+      }
+    },
+    {
+      "route": "webkit-390",
+      "width": 390,
+      "homeHref": "/about/#healthcare-expertise",
+      "about": {
+        "top": 314.34375,
+        "bottom": 458.34375,
+        "left": 16,
+        "right": 374,
+        "height": 144,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 1250
+      },
+      "aboutText": "의료 커뮤니케이션의 전문 배경\n\n의학전문기자와\n병원 홍보팀장\n출신의 경험.\n\n의료 현장을 취재하는 시선과\n병원 안에서 홍보를 운영하는 시선을\n함께 갖고 있습니다.\n\n병원의 진료 철학, 의료진의 전문성, 환자가 궁금해하는 내용을 먼저 이해합니다. 그 이해를 바탕으로 병원의 외부 홍보팀 역할을 수행합니다.\n\n질환 콘텐츠와 의료진 인터뷰, 언론홍보와 공식 채널 운영을 연결하고, 광고의 실행과 보고까지 이어갑니다.\n\n의료 정보를\n읽히는 콘텐츠로.\n\n진료 분야별 홍보 방향을 세우고 질환·치료 정보를 환자가 이해할 순서로 정리합니다. 홈페이지와 블로그, SNS의 역할에 맞게 콘텐츠를 기획합니다.\n\n진료 분야 전략 · 질환 콘텐츠 · 공식 채널\n의료진의 전문성을\n구체적인 설명으로.\n\n인터뷰의 질문과 영상 구성을 준비해 의료진이 전할 핵심을 선명하게 만듭니다. 병원의 설명과 환자의 정보 요구가 만나는 지점을 찾습니다.\n\n의료진 인터뷰 · 영상 기획 · 콘텐츠 제작\n알려야 할 소식을\n지속적인 홍보로.\n\n보도자료와 미디어 대응, 의학전문 기자간담회를 기획합니다. 온라인·지역 광고와 홍보 일정을 관리하고 진행 내용과 결과를 정기적으로 보고합니다.\n\n병원 PR · 기자간담회 · 광고 운영·보고\n소개해 온 의료 분야 파트너\n\n기존 홈페이지의 파트너 소개에서\n\n강남더블유안과\n리드힐\n리샘\n새빛\n참진한의원\n함소아의원\n함께할 수 있는 업무 살펴보기\n↗",
+      "bodyRhythm": {
+        "fontSize": "16px",
+        "lineHeight": "25.6px",
+        "ratio": 1.6
+      },
+      "aboutHref": "/works/#hospital",
+      "hospitalTab": {
+        "top": 206.890625,
+        "bottom": 254.890625,
+        "left": 16,
+        "right": 99.734375,
+        "height": 48,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 425
+      },
+      "hospitalSelected": "true",
+      "hospitalPanelVisible": true,
+      "inquiryHref": "/contact/?service=hospital",
+      "hospitalChecked": true,
+      "contact": {
+        "top": 616.484375,
+        "bottom": 617.484375,
+        "left": 18,
+        "right": 19,
+        "height": 1,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 0
+      },
+      "contactLabel": {
+        "top": 613.484375,
+        "bottom": 661.484375,
+        "headerBottom": 82,
+        "viewportHeight": 844
+      }
+    }
+  ],
+  "checks": [
+    {
+      "route": "firefox-1440",
+      "name": "HOME links to healthcare section",
+      "pass": true,
+      "detail": "/about/#healthcare-expertise"
+    },
+    {
+      "route": "firefox-1440",
+      "name": "ABOUT exact anchor URL",
+      "pass": true,
+      "detail": "http://127.0.0.1:4173/about/#healthcare-expertise"
+    },
+    {
+      "route": "firefox-1440",
+      "name": "ABOUT healthcare title clears fixed header",
+      "pass": true,
+      "detail": {
+        "top": 371.20001220703125,
+        "bottom": 601.6000213623047,
+        "left": 80,
+        "right": 716.9500122070312,
+        "height": 230.40000915527344,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 972.1666870117188
+      }
+    },
+    {
+      "route": "firefox-1440",
+      "name": "ABOUT healthcare title fully visible on arrival",
+      "pass": true,
+      "detail": {
+        "top": 371.20001220703125,
+        "bottom": 601.6000213623047,
+        "left": 80,
+        "right": 716.9500122070312,
+        "height": 230.40000915527344,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 972.1666870117188
+      }
+    },
+    {
+      "route": "firefox-1440",
+      "name": "ABOUT no horizontal overflow",
+      "pass": true,
+      "detail": 1440
+    },
+    {
+      "route": "firefox-1440",
+      "name": "ABOUT professional experience readable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-1440",
+      "name": "ABOUT partners preserve past-source label",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-1440",
+      "name": "ABOUT links to hospital tab",
+      "pass": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "route": "firefox-1440",
+      "name": "WORKS hospital tab selected",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "route": "firefox-1440",
+      "name": "WORKS hospital panel visible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-1440",
+      "name": "WORKS selected tab clears header",
+      "pass": true,
+      "detail": {
+        "top": 178.1666717529297,
+        "bottom": 226.1666717529297,
+        "left": 312,
+        "right": 534,
+        "height": 48,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 646
+      }
+    },
+    {
+      "route": "firefox-1440",
+      "name": "WORKS selected tab visible on arrival",
+      "pass": true,
+      "detail": {
+        "top": 178.1666717529297,
+        "bottom": 226.1666717529297,
+        "left": 312,
+        "right": 534,
+        "height": 48,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 646
+      }
+    },
+    {
+      "route": "firefox-1440",
+      "name": "WORKS no horizontal overflow",
+      "pass": true,
+      "detail": 1440
+    },
+    {
+      "route": "firefox-1440",
+      "name": "WORKS editorial example identified",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-1440",
+      "name": "WORKS consultation carries hospital service",
+      "pass": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "route": "firefox-1440",
+      "name": "CONTACT hospital checkbox selected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-1440",
+      "name": "CONTACT chosen service not obscured",
+      "pass": true,
+      "detail": {
+        "top": 614.4000244140625,
+        "bottom": 662.4000244140625,
+        "headerBottom": 102,
+        "viewportHeight": 1000
+      }
+    },
+    {
+      "route": "firefox-1440",
+      "name": "CONTACT no horizontal overflow",
+      "pass": true,
+      "detail": 1440
+    },
+    {
+      "route": "firefox-390",
+      "name": "HOME links to healthcare section",
+      "pass": true,
+      "detail": "/about/#healthcare-expertise"
+    },
+    {
+      "route": "firefox-390",
+      "name": "ABOUT exact anchor URL",
+      "pass": true,
+      "detail": "http://127.0.0.1:4173/about/#healthcare-expertise"
+    },
+    {
+      "route": "firefox-390",
+      "name": "ABOUT healthcare title clears fixed header",
+      "pass": true,
+      "detail": {
+        "top": 314.20001220703125,
+        "bottom": 458.20001220703125,
+        "left": 16,
+        "right": 374,
+        "height": 144,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 1250.25
+      }
+    },
+    {
+      "route": "firefox-390",
+      "name": "ABOUT healthcare title fully visible on arrival",
+      "pass": true,
+      "detail": {
+        "top": 314.20001220703125,
+        "bottom": 458.20001220703125,
+        "left": 16,
+        "right": 374,
+        "height": 144,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 1250.25
+      }
+    },
+    {
+      "route": "firefox-390",
+      "name": "ABOUT no horizontal overflow",
+      "pass": true,
+      "detail": 390
+    },
+    {
+      "route": "firefox-390",
+      "name": "ABOUT professional experience readable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-390",
+      "name": "ABOUT partners preserve past-source label",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-390",
+      "name": "ABOUT links to hospital tab",
+      "pass": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "route": "firefox-390",
+      "name": "WORKS hospital tab selected",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "route": "firefox-390",
+      "name": "WORKS hospital panel visible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-390",
+      "name": "WORKS selected tab clears header",
+      "pass": true,
+      "detail": {
+        "top": 206.89999389648438,
+        "bottom": 254.89999389648438,
+        "left": 16,
+        "right": 99.69999694824219,
+        "height": 48,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 425
+      }
+    },
+    {
+      "route": "firefox-390",
+      "name": "WORKS selected tab visible on arrival",
+      "pass": true,
+      "detail": {
+        "top": 206.89999389648438,
+        "bottom": 254.89999389648438,
+        "left": 16,
+        "right": 99.69999694824219,
+        "height": 48,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 425
+      }
+    },
+    {
+      "route": "firefox-390",
+      "name": "WORKS no horizontal overflow",
+      "pass": true,
+      "detail": 390
+    },
+    {
+      "route": "firefox-390",
+      "name": "WORKS editorial example identified",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-390",
+      "name": "WORKS consultation carries hospital service",
+      "pass": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "route": "firefox-390",
+      "name": "CONTACT hospital checkbox selected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "firefox-390",
+      "name": "CONTACT chosen service not obscured",
+      "pass": true,
+      "detail": {
+        "top": 613.5,
+        "bottom": 661.5,
+        "headerBottom": 82,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "route": "firefox-390",
+      "name": "CONTACT no horizontal overflow",
+      "pass": true,
+      "detail": 390
+    },
+    {
+      "route": "webkit-1440",
+      "name": "HOME links to healthcare section",
+      "pass": true,
+      "detail": "/about/#healthcare-expertise"
+    },
+    {
+      "route": "webkit-1440",
+      "name": "ABOUT exact anchor URL",
+      "pass": true,
+      "detail": "http://127.0.0.1:4173/about/#healthcare-expertise"
+    },
+    {
+      "route": "webkit-1440",
+      "name": "ABOUT healthcare title clears fixed header",
+      "pass": true,
+      "detail": {
+        "top": 371.34375,
+        "bottom": 601.734375,
+        "left": 80,
+        "right": 716.9375,
+        "height": 230.390625,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 972
+      }
+    },
+    {
+      "route": "webkit-1440",
+      "name": "ABOUT healthcare title fully visible on arrival",
+      "pass": true,
+      "detail": {
+        "top": 371.34375,
+        "bottom": 601.734375,
+        "left": 80,
+        "right": 716.9375,
+        "height": 230.390625,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 972
+      }
+    },
+    {
+      "route": "webkit-1440",
+      "name": "ABOUT no horizontal overflow",
+      "pass": true,
+      "detail": 1440
+    },
+    {
+      "route": "webkit-1440",
+      "name": "ABOUT professional experience readable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-1440",
+      "name": "ABOUT partners preserve past-source label",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-1440",
+      "name": "ABOUT links to hospital tab",
+      "pass": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "route": "webkit-1440",
+      "name": "WORKS hospital tab selected",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "route": "webkit-1440",
+      "name": "WORKS hospital panel visible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-1440",
+      "name": "WORKS selected tab clears header",
+      "pass": true,
+      "detail": {
+        "top": 590.15625,
+        "bottom": 638.15625,
+        "left": 312,
+        "right": 534,
+        "height": 48,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 234
+      }
+    },
+    {
+      "route": "webkit-1440",
+      "name": "WORKS selected tab visible on arrival",
+      "pass": true,
+      "detail": {
+        "top": 590.15625,
+        "bottom": 638.15625,
+        "left": 312,
+        "right": 534,
+        "height": 48,
+        "headerBottom": 98,
+        "viewportHeight": 1000,
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollY": 234
+      }
+    },
+    {
+      "route": "webkit-1440",
+      "name": "WORKS no horizontal overflow",
+      "pass": true,
+      "detail": 1440
+    },
+    {
+      "route": "webkit-1440",
+      "name": "WORKS editorial example identified",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-1440",
+      "name": "WORKS consultation carries hospital service",
+      "pass": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "route": "webkit-1440",
+      "name": "CONTACT hospital checkbox selected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-1440",
+      "name": "CONTACT chosen service not obscured",
+      "pass": true,
+      "detail": {
+        "top": 614.390625,
+        "bottom": 662.390625,
+        "headerBottom": 102,
+        "viewportHeight": 1000
+      }
+    },
+    {
+      "route": "webkit-1440",
+      "name": "CONTACT no horizontal overflow",
+      "pass": true,
+      "detail": 1440
+    },
+    {
+      "route": "webkit-390",
+      "name": "HOME links to healthcare section",
+      "pass": true,
+      "detail": "/about/#healthcare-expertise"
+    },
+    {
+      "route": "webkit-390",
+      "name": "ABOUT exact anchor URL",
+      "pass": true,
+      "detail": "http://127.0.0.1:4173/about/#healthcare-expertise"
+    },
+    {
+      "route": "webkit-390",
+      "name": "ABOUT healthcare title clears fixed header",
+      "pass": true,
+      "detail": {
+        "top": 314.34375,
+        "bottom": 458.34375,
+        "left": 16,
+        "right": 374,
+        "height": 144,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 1250
+      }
+    },
+    {
+      "route": "webkit-390",
+      "name": "ABOUT healthcare title fully visible on arrival",
+      "pass": true,
+      "detail": {
+        "top": 314.34375,
+        "bottom": 458.34375,
+        "left": 16,
+        "right": 374,
+        "height": 144,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 1250
+      }
+    },
+    {
+      "route": "webkit-390",
+      "name": "ABOUT no horizontal overflow",
+      "pass": true,
+      "detail": 390
+    },
+    {
+      "route": "webkit-390",
+      "name": "ABOUT professional experience readable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-390",
+      "name": "ABOUT partners preserve past-source label",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-390",
+      "name": "ABOUT links to hospital tab",
+      "pass": true,
+      "detail": "/works/#hospital"
+    },
+    {
+      "route": "webkit-390",
+      "name": "WORKS hospital tab selected",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "route": "webkit-390",
+      "name": "WORKS hospital panel visible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-390",
+      "name": "WORKS selected tab clears header",
+      "pass": true,
+      "detail": {
+        "top": 206.890625,
+        "bottom": 254.890625,
+        "left": 16,
+        "right": 99.734375,
+        "height": 48,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 425
+      }
+    },
+    {
+      "route": "webkit-390",
+      "name": "WORKS selected tab visible on arrival",
+      "pass": true,
+      "detail": {
+        "top": 206.890625,
+        "bottom": 254.890625,
+        "left": 16,
+        "right": 99.734375,
+        "height": 48,
+        "headerBottom": 82,
+        "viewportHeight": 844,
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "scrollY": 425
+      }
+    },
+    {
+      "route": "webkit-390",
+      "name": "WORKS no horizontal overflow",
+      "pass": true,
+      "detail": 390
+    },
+    {
+      "route": "webkit-390",
+      "name": "WORKS editorial example identified",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-390",
+      "name": "WORKS consultation carries hospital service",
+      "pass": true,
+      "detail": "/contact/?service=hospital"
+    },
+    {
+      "route": "webkit-390",
+      "name": "CONTACT hospital checkbox selected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "route": "webkit-390",
+      "name": "CONTACT chosen service not obscured",
+      "pass": true,
+      "detail": {
+        "top": 613.484375,
+        "bottom": 661.484375,
+        "headerBottom": 82,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "route": "webkit-390",
+      "name": "CONTACT no horizontal overflow",
+      "pass": true,
+      "detail": 390
+    }
+  ],
+  "errors": [],
+  "blockedWrites": [],
+  "summary": {
+    "routes": 4,
+    "checks": 72,
+    "passed": 72,
+    "failed": 0,
+    "errors": 0,
+    "writeRequests": 0
+  }
+}

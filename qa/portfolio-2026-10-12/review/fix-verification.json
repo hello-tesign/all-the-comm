@@ -1,0 +1,174 @@
+{
+  "at": "2026-10-12T13:05:50.917Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "mutationsBlocked": [],
+  "results": [
+    {
+      "case": "sojukdoo-concept",
+      "stories": [
+        {
+          "headingLeft": 647.671875,
+          "bodyLeft": 647.671875,
+          "headingBottom": 537.671875,
+          "bodyTop": 562.671875,
+          "bodyGridColumn": "2",
+          "sameColumn": true,
+          "bodyBelow": true
+        },
+        {
+          "headingLeft": 647.671875,
+          "bodyLeft": 647.671875,
+          "headingBottom": 787.28125,
+          "bodyTop": 812.28125,
+          "bodyGridColumn": "2",
+          "sameColumn": true,
+          "bodyBelow": true
+        },
+        {
+          "headingLeft": 647.671875,
+          "bodyLeft": 647.671875,
+          "headingBottom": 1036.890625,
+          "bodyTop": 1061.890625,
+          "bodyGridColumn": "2",
+          "sameColumn": true,
+          "bodyBelow": true
+        }
+      ]
+    },
+    {
+      "case": "review-atelier",
+      "stories": [
+        {
+          "headingLeft": 647.671875,
+          "bodyLeft": 647.671875,
+          "headingBottom": 537.625,
+          "bodyTop": 562.625,
+          "bodyGridColumn": "2",
+          "sameColumn": true,
+          "bodyBelow": true
+        },
+        {
+          "headingLeft": 647.671875,
+          "bodyLeft": 647.671875,
+          "headingBottom": 787.234375,
+          "bodyTop": 812.234375,
+          "bodyGridColumn": "2",
+          "sameColumn": true,
+          "bodyBelow": true
+        },
+        {
+          "headingLeft": 647.671875,
+          "bodyLeft": 647.671875,
+          "headingBottom": 1036.84375,
+          "bodyTop": 1061.84375,
+          "bodyGridColumn": "2",
+          "sameColumn": true,
+          "bodyBelow": true
+        }
+      ]
+    },
+    {
+      "case": "works",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-sojukdoo-commerce.png",
+          "natural": [
+            1440,
+            900
+          ],
+          "own": [
+            1310,
+            819
+          ],
+          "parent": [
+            1310,
+            819
+          ],
+          "fit": "contain",
+          "minHeight": "0px",
+          "minWidth": "0px",
+          "insideParent": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-soulreset.png",
+          "natural": [
+            1440,
+            900
+          ],
+          "own": [
+            636,
+            398
+          ],
+          "parent": [
+            636,
+            398
+          ],
+          "fit": "contain",
+          "minHeight": "0px",
+          "minWidth": "0px",
+          "insideParent": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-ea-editor.png",
+          "natural": [
+            1600,
+            1050
+          ],
+          "own": [
+            636,
+            398
+          ],
+          "parent": [
+            636,
+            398
+          ],
+          "fit": "contain",
+          "minHeight": "0px",
+          "minWidth": "0px",
+          "insideParent": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/site-tesign-radar.png",
+          "natural": [
+            1440,
+            1000
+          ],
+          "own": [
+            636,
+            398
+          ],
+          "parent": [
+            636,
+            398
+          ],
+          "fit": "contain",
+          "minHeight": "0px",
+          "minWidth": "0px",
+          "insideParent": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/portfolio/saas-tesign-workflow.png",
+          "natural": [
+            1440,
+            1558
+          ],
+          "own": [
+            636,
+            398
+          ],
+          "parent": [
+            636,
+            398
+          ],
+          "fit": "contain",
+          "minHeight": "0px",
+          "minWidth": "0px",
+          "insideParent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "mode": "New source injected into current 4173 HTML; root integration pending",
+  "results": [
+    {
+      "engine": "chromium",
+      "items": [
+        {
+          "name": "KO desktop four title words",
+          "pass": true
+        },
+        {
+          "name": "br and original em node preserved",
+          "pass": true
+        },
+        {
+          "name": "accessible title reads original words once",
+          "pass": true,
+          "data": "- heading \"브랜드의 생각을 세상의 장면으로.\" [level=1]:\n  - text: 브랜드의 생각을\n  - emphasis: 세상의 장면으로."
+        },
+        {
+          "name": "hidden tab pauses title",
+          "pass": true
+        },
+        {
+          "name": "unseen section title remains visible",
+          "pass": true
+        },
+        {
+          "name": "selected service SVG draws",
+          "pass": true
+        },
+        {
+          "name": "hidden panel drawing restored immediately",
+          "pass": true
+        },
+        {
+          "name": "glass returns to original CSS pose",
+          "pass": true
+        },
+        {
+          "name": "channel layer styles cleared after entry",
+          "pass": true
+        },
+        {
+          "name": "footer one text copy and original break",
+          "pass": true
+        },
+        {
+          "name": "reduced motion restores exact heading HTML",
+          "pass": true
+        },
+        {
+          "name": "preference reenable has no duplicate footer wrapper",
+          "pass": true
+        },
+        {
+          "name": "mobile restores original DOM",
+          "pass": true
+        },
+        {
+          "name": "cleanup idempotent",
+          "pass": true
+        },
+        {
+          "name": "all about heading groups enhanced",
+          "pass": true
+        },
+        {
+          "name": "about words highlight with scroll",
+          "pass": true,
+          "data": {
+            "lit": 11,
+            "total": 15
+          }
+        },
+        {
+          "name": "team selected lens SVG draws",
+          "pass": true
+        },
+        {
+          "name": "team lens restored",
+          "pass": true
+        },
+        {
+          "name": "dynamic title wrapped once",
+          "pass": true
+        },
+        {
+          "name": "cleanup retains newly fetched title",
+          "pass": true
+        },
+        {
+          "name": "contact focus feedback does not change input",
+          "pass": true
+        },
+        {
+          "name": "EN DOM unchanged",
+          "pass": true
+        },
+        {
+          "name": "runtime errors zero",
+          "pass": true,
+          "data": []
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "items": [
+        {
+          "name": "KO desktop four title words",
+          "pass": true
+        },
+        {
+          "name": "br and original em node preserved",
+          "pass": true
+        },
+        {
+          "name": "accessible title reads original words once",
+          "pass": true,
+          "data": "- heading \"브랜드의 생각을 세상의 장면으로.\" [level=1]:\n  - text: 브랜드의 생각을\n  - emphasis: 세상의 장면으로."
+        },
+        {
+          "name": "hidden tab pauses title",
+          "pass": true
+        },
+        {
+          "name": "unseen section title remains visible",
+          "pass": true
+        },
+        {
+          "name": "selected service SVG draws",
+          "pass": true
+        },
+        {
+          "name": "hidden panel drawing restored immediately",
+          "pass": true
+        },
+        {
+          "name": "glass returns to original CSS pose",
+          "pass": true
+        },
+        {
+          "name": "channel layer styles cleared after entry",
+          "pass": true
+        },
+        {
+          "name": "footer one text copy and original break",
+          "pass": true
+        },
+        {
+          "name": "reduced motion restores exact heading HTML",
+          "pass": true
+        },
+        {
+          "name": "preference reenable has no duplicate footer wrapper",
+          "pass": true
+        },
+        {
+          "name": "mobile restores original DOM",
+          "pass": true
+        },
+        {
+          "name": "cleanup idempotent",
+          "pass": true
+        },
+        {
+          "name": "all about heading groups enhanced",
+          "pass": true
+        },
+        {
+          "name": "about words highlight with scroll",
+          "pass": true,
+          "data": {
+            "lit": 11,
+            "total": 15
+          }
+        },
+        {
+          "name": "team selected lens SVG draws",
+          "pass": true
+        },
+        {
+          "name": "team lens restored",
+          "pass": true
+        },
+        {
+          "name": "dynamic title wrapped once",
+          "pass": true
+        },
+        {
+          "name": "cleanup retains newly fetched title",
+          "pass": true
+        },
+        {
+          "name": "contact focus feedback does not change input",
+          "pass": true
+        },
+        {
+          "name": "EN DOM unchanged",
+          "pass": true
+        },
+        {
+          "name": "runtime errors zero",
+          "pass": true,
+          "data": []
+        }
+      ]
+    }
+  ]
+}

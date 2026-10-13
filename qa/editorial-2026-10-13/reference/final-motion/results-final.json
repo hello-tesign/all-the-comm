@@ -1,0 +1,942 @@
+{
+  "checks": [
+    {
+      "name": "chromium-1920 white header / original logo",
+      "pass": true,
+      "detail": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(6, 28, 37)",
+        "logo": "/brand/logo-horizontal.svg",
+        "loaded": true,
+        "width": 1920,
+        "overflow": false
+      }
+    },
+    {
+      "name": "chromium-1920 no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(6, 28, 37)",
+        "logo": "/brand/logo-horizontal.svg",
+        "loaded": true,
+        "width": 1920,
+        "overflow": false
+      }
+    },
+    {
+      "name": "chromium-1920 header focus dark / visible",
+      "pass": true,
+      "detail": {
+        "color": "rgb(6, 28, 37)",
+        "outline": "rgb(25, 116, 99)",
+        "style": "solid",
+        "width": "3px",
+        "visible": true
+      }
+    },
+    {
+      "name": "chromium-1920 service tabs present",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "chromium-1920 service selection 0",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 service selection 1",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 service selection 2",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 service selection 3",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 service selection 4",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 service selection 5",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 service selection 6",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 service selection 7",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 service selected readable / touch target",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(239, 248, 245)",
+        "outline": "rgb(20, 133, 119)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "chromium-1920 service focus outline contrast",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(239, 248, 245)",
+        "outline": "rgb(20, 133, 119)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "chromium-1920 service content fits",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": null,
+        "deliverables": null
+      }
+    },
+    {
+      "name": "chromium-1920 team tabs present",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "chromium-1920 team selection 0",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 team selection 1",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 team selection 2",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 team selection 3",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 team selection 4",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 team selection 5",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 team selection 6",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 team selection 7",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 team selection 8",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 team selected readable / touch target",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(255, 255, 255)",
+        "outline": "rgb(89, 227, 198)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "chromium-1920 team focus outline contrast",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "chromium-1920 team content fits",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": "560px 560px",
+        "deliverables": "block"
+      }
+    },
+    {
+      "name": "chromium-1920 no redundant role board / outputs visible",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": "560px 560px",
+        "deliverables": "block"
+      }
+    },
+    {
+      "name": "chromium-1920 process mode",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 process chapter 1",
+      "pass": true,
+      "detail": {
+        "active": "1",
+        "art": 1,
+        "current": "#step-1",
+        "sticky": "sticky",
+        "top": 240.15625
+      }
+    },
+    {
+      "name": "chromium-1920 process chapter 2",
+      "pass": true,
+      "detail": {
+        "active": "2",
+        "art": 1,
+        "current": "#step-2",
+        "sticky": "sticky",
+        "top": 130
+      }
+    },
+    {
+      "name": "chromium-1920 process chapter 3",
+      "pass": true,
+      "detail": {
+        "active": "3",
+        "art": 1,
+        "current": "#step-3",
+        "sticky": "sticky",
+        "top": 130
+      }
+    },
+    {
+      "name": "chromium-1920 process chapter 4",
+      "pass": true,
+      "detail": {
+        "active": "4",
+        "art": 1,
+        "current": "#step-4",
+        "sticky": "sticky",
+        "top": 130
+      }
+    },
+    {
+      "name": "chromium-1920 process nav responds",
+      "pass": true
+    },
+    {
+      "name": "chromium-1920 live reduced restores document",
+      "pass": true,
+      "detail": {
+        "stage": 0,
+        "chapters": 4,
+        "progress": 0,
+        "enabled": "js",
+        "hiddenTitles": 0
+      }
+    },
+    {
+      "name": "chromium-1920 motion restores once",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 white header / original logo",
+      "pass": true,
+      "detail": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(6, 28, 37)",
+        "logo": "/brand/logo-horizontal.svg",
+        "loaded": true,
+        "width": 390,
+        "overflow": false
+      }
+    },
+    {
+      "name": "chromium-390 no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(6, 28, 37)",
+        "logo": "/brand/logo-horizontal.svg",
+        "loaded": true,
+        "width": 390,
+        "overflow": false
+      }
+    },
+    {
+      "name": "chromium-390 header focus dark / visible",
+      "pass": true,
+      "detail": {
+        "color": "rgb(6, 28, 37)",
+        "outline": "rgb(25, 116, 99)",
+        "style": "solid",
+        "width": "3px",
+        "visible": true
+      }
+    },
+    {
+      "name": "chromium-390 menu opens",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 menu closes / focus returns",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 service tabs present",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "chromium-390 service selection 0",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 service selection 1",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 service selection 2",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 service selection 3",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 service selection 4",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 service selection 5",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 service selection 6",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 service selection 7",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 service selected readable / touch target",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(239, 248, 245)",
+        "outline": "rgb(20, 133, 119)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "chromium-390 service focus outline contrast",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(239, 248, 245)",
+        "outline": "rgb(20, 133, 119)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "chromium-390 service content fits",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": null,
+        "deliverables": null
+      }
+    },
+    {
+      "name": "chromium-390 team tabs present",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "chromium-390 team selection 0",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 team selection 1",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 team selection 2",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 team selection 3",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 team selection 4",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 team selection 5",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 team selection 6",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 team selection 7",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 team selection 8",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 team selected readable / touch target",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(255, 255, 255)",
+        "outline": "rgb(89, 227, 198)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "chromium-390 team focus outline contrast",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "chromium-390 team content fits",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": "minmax(0px, 1fr) minmax(0px, 1fr)",
+        "deliverables": "block"
+      }
+    },
+    {
+      "name": "chromium-390 no redundant role board / outputs visible",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": "minmax(0px, 1fr) minmax(0px, 1fr)",
+        "deliverables": "block"
+      }
+    },
+    {
+      "name": "chromium-390 process mode",
+      "pass": true
+    },
+    {
+      "name": "chromium-390 live reduced restores document",
+      "pass": true,
+      "detail": {
+        "stage": 0,
+        "chapters": 4,
+        "progress": 0,
+        "enabled": "js",
+        "hiddenTitles": 0
+      }
+    },
+    {
+      "name": "chromium-390 motion restores once",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 white header / original logo",
+      "pass": true,
+      "detail": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(6, 28, 37)",
+        "logo": "/brand/logo-horizontal.svg",
+        "loaded": true,
+        "width": 1920,
+        "overflow": false
+      }
+    },
+    {
+      "name": "webkit-1920 no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(6, 28, 37)",
+        "logo": "/brand/logo-horizontal.svg",
+        "loaded": true,
+        "width": 1920,
+        "overflow": false
+      }
+    },
+    {
+      "name": "webkit-1920 header focus dark / visible",
+      "pass": true,
+      "detail": {
+        "color": "rgb(6, 28, 37)",
+        "outline": "rgb(25, 116, 99)",
+        "style": "solid",
+        "width": "3px",
+        "visible": true
+      }
+    },
+    {
+      "name": "webkit-1920 service tabs present",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "webkit-1920 service selection 0",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 service selection 1",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 service selection 2",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 service selection 3",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 service selection 4",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 service selection 5",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 service selection 6",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 service selection 7",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 service selected readable / touch target",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(239, 248, 245)",
+        "outline": "rgb(20, 133, 119)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "webkit-1920 service focus outline contrast",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(239, 248, 245)",
+        "outline": "rgb(20, 133, 119)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "webkit-1920 service content fits",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": null,
+        "deliverables": null
+      }
+    },
+    {
+      "name": "webkit-1920 team tabs present",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "webkit-1920 team selection 0",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 team selection 1",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 team selection 2",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 team selection 3",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 team selection 4",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 team selection 5",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 team selection 6",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 team selection 7",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 team selection 8",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 team selected readable / touch target",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(255, 255, 255)",
+        "outline": "rgb(89, 227, 198)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "webkit-1920 team focus outline contrast",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "webkit-1920 team content fits",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": "560px 560px",
+        "deliverables": "block"
+      }
+    },
+    {
+      "name": "webkit-1920 no redundant role board / outputs visible",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": "560px 560px",
+        "deliverables": "block"
+      }
+    },
+    {
+      "name": "webkit-1920 process mode",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 process chapter 1",
+      "pass": true,
+      "detail": {
+        "active": "1",
+        "art": 1,
+        "current": "#step-1",
+        "sticky": "sticky",
+        "top": 240.15625
+      }
+    },
+    {
+      "name": "webkit-1920 process chapter 2",
+      "pass": true,
+      "detail": {
+        "active": "2",
+        "art": 1,
+        "current": "#step-2",
+        "sticky": "sticky",
+        "top": 130
+      }
+    },
+    {
+      "name": "webkit-1920 process chapter 3",
+      "pass": true,
+      "detail": {
+        "active": "3",
+        "art": 1,
+        "current": "#step-3",
+        "sticky": "sticky",
+        "top": 130
+      }
+    },
+    {
+      "name": "webkit-1920 process chapter 4",
+      "pass": true,
+      "detail": {
+        "active": "4",
+        "art": 1,
+        "current": "#step-4",
+        "sticky": "sticky",
+        "top": 130
+      }
+    },
+    {
+      "name": "webkit-1920 process nav responds",
+      "pass": true
+    },
+    {
+      "name": "webkit-1920 live reduced restores document",
+      "pass": true,
+      "detail": {
+        "stage": 0,
+        "chapters": 4,
+        "progress": 0,
+        "enabled": "js",
+        "hiddenTitles": 0
+      }
+    },
+    {
+      "name": "webkit-1920 motion restores once",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 white header / original logo",
+      "pass": true,
+      "detail": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(6, 28, 37)",
+        "logo": "/brand/logo-horizontal.svg",
+        "loaded": true,
+        "width": 390,
+        "overflow": false
+      }
+    },
+    {
+      "name": "webkit-390 no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(6, 28, 37)",
+        "logo": "/brand/logo-horizontal.svg",
+        "loaded": true,
+        "width": 390,
+        "overflow": false
+      }
+    },
+    {
+      "name": "webkit-390 header focus dark / visible",
+      "pass": true,
+      "detail": {
+        "color": "rgb(6, 28, 37)",
+        "outline": "rgb(25, 116, 99)",
+        "style": "solid",
+        "width": "3px",
+        "visible": true
+      }
+    },
+    {
+      "name": "webkit-390 menu opens",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 menu closes / focus returns",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 service tabs present",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "webkit-390 service selection 0",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 service selection 1",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 service selection 2",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 service selection 3",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 service selection 4",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 service selection 5",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 service selection 6",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 service selection 7",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 service selected readable / touch target",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(239, 248, 245)",
+        "outline": "rgb(20, 133, 119)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "webkit-390 service focus outline contrast",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(239, 248, 245)",
+        "outline": "rgb(20, 133, 119)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "webkit-390 service content fits",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": null,
+        "deliverables": null
+      }
+    },
+    {
+      "name": "webkit-390 team tabs present",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "webkit-390 team selection 0",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 team selection 1",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 team selection 2",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 team selection 3",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 team selection 4",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 team selection 5",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 team selection 6",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 team selection 7",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 team selection 8",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 team selected readable / touch target",
+      "pass": true,
+      "detail": {
+        "background": "rgb(6, 28, 37)",
+        "color": "rgb(255, 255, 255)",
+        "outline": "rgb(89, 227, 198)",
+        "focus": true,
+        "height": 48
+      }
+    },
+    {
+      "name": "webkit-390 team focus outline contrast",
+      "pass": true,
+      "detail": {
+        "outline": "rgb(25, 116, 99)",
+        "visible": true
+      }
+    },
+    {
+      "name": "webkit-390 team content fits",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": "minmax(0px, 1fr) minmax(0px, 1fr)",
+        "deliverables": "block"
+      }
+    },
+    {
+      "name": "webkit-390 no redundant role board / outputs visible",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "roles": 0,
+        "columns": "minmax(0px, 1fr) minmax(0px, 1fr)",
+        "deliverables": "block"
+      }
+    },
+    {
+      "name": "webkit-390 process mode",
+      "pass": true
+    },
+    {
+      "name": "webkit-390 live reduced restores document",
+      "pass": true,
+      "detail": {
+        "stage": 0,
+        "chapters": 4,
+        "progress": 0,
+        "enabled": "js",
+        "hiddenTitles": 0
+      }
+    },
+    {
+      "name": "webkit-390 motion restores once",
+      "pass": true
+    },
+    {
+      "name": "runtime errors zero",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no writes",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "writes": [],
+  "rechecksFrom": "../../hero/final/results.json",
+  "note": "Only the four exact failed focus checks are replaced; original results.json preserved."
+}

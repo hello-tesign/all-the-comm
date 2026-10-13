@@ -1,0 +1,47 @@
+{
+  "aboutAnchor": {
+    "headerBottom": 98,
+    "titleTop": 623.34375,
+    "partners": [
+      "강남더블유안과",
+      "리드힐",
+      "리샘",
+      "새빛",
+      "참진한의원",
+      "함소아의원"
+    ]
+  },
+  "hospitalAnchor": {
+    "headerBottom": 98,
+    "tabTop": 120.1875,
+    "selected": "hospital"
+  },
+  "contactHref": "/contact/?service=hospital",
+  "contact": true,
+  "partnerMatch": [
+    {
+      "name": "강남더블유안과",
+      "inOriginal": true
+    },
+    {
+      "name": "리드힐",
+      "inOriginal": true
+    },
+    {
+      "name": "리샘",
+      "inOriginal": true
+    },
+    {
+      "name": "새빛",
+      "inOriginal": true
+    },
+    {
+      "name": "참진한의원",
+      "inOriginal": true
+    },
+    {
+      "name": "함소아의원",
+      "inOriginal": true
+    }
+  ]
+}

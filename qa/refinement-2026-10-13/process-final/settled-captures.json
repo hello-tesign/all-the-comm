@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "chromium",
+    "status": "captured after opacity and transform transition complete",
+    "image": "/portfolio/saas-ea-editor.png"
+  },
+  {
+    "engine": "firefox",
+    "status": "captured after opacity and transform transition complete",
+    "image": "/portfolio/saas-ea-editor.png"
+  },
+  {
+    "engine": "webkit",
+    "status": "captured after opacity and transform transition complete",
+    "image": "/portfolio/saas-ea-editor.png"
+  }
+]

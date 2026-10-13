@@ -1,0 +1,483 @@
+{
+  "date": "2026-10-13T02:26:48.634Z",
+  "checks": [
+    {
+      "name": "chromium team-proof 1440 no overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium team-proof 1440 2 images loaded at original ratio",
+      "pass": true
+    },
+    {
+      "name": "chromium team-proof 1440 no new form",
+      "pass": true
+    },
+    {
+      "name": "chromium team-proof 1440 section rhythm",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 1440 no overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 1440 2 images loaded at original ratio",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 1440 no new form",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 1440 section rhythm",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 1440 4 FAQs",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 1440 native FAQ opens",
+      "pass": true
+    },
+    {
+      "name": "chromium team-proof 390 no overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium team-proof 390 2 images loaded at original ratio",
+      "pass": true
+    },
+    {
+      "name": "chromium team-proof 390 no new form",
+      "pass": true
+    },
+    {
+      "name": "chromium team-proof 390 section rhythm",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 390 no overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 390 2 images loaded at original ratio",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 390 no new form",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 390 section rhythm",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 390 4 FAQs",
+      "pass": true
+    },
+    {
+      "name": "chromium contact-guide 390 native FAQ opens",
+      "pass": true
+    },
+    {
+      "name": "webkit team-proof 1440 no overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit team-proof 1440 2 images loaded at original ratio",
+      "pass": true
+    },
+    {
+      "name": "webkit team-proof 1440 no new form",
+      "pass": true
+    },
+    {
+      "name": "webkit team-proof 1440 section rhythm",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 1440 no overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 1440 2 images loaded at original ratio",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 1440 no new form",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 1440 section rhythm",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 1440 4 FAQs",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 1440 native FAQ opens",
+      "pass": true
+    },
+    {
+      "name": "webkit team-proof 390 no overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit team-proof 390 2 images loaded at original ratio",
+      "pass": true
+    },
+    {
+      "name": "webkit team-proof 390 no new form",
+      "pass": true
+    },
+    {
+      "name": "webkit team-proof 390 section rhythm",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 390 no overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 390 2 images loaded at original ratio",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 390 no new form",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 390 section rhythm",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 390 4 FAQs",
+      "pass": true
+    },
+    {
+      "name": "webkit contact-guide 390 native FAQ opens",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no write requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "observations": [
+    {
+      "engineName": "chromium",
+      "name": "team-proof",
+      "width": 1440,
+      "overflow": false,
+      "height": 2183,
+      "forms": 0,
+      "images": [
+        {
+          "src": "/evidence/expansion/book-editorial-story.webp",
+          "loaded": true,
+          "natural": [
+            1352,
+            2000
+          ],
+          "rendered": [
+            405.59375,
+            599.984375
+          ],
+          "ratio": true
+        },
+        {
+          "src": "/evidence/expansion/kings-menu-grid.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            699.203125,
+            485.546875
+          ],
+          "ratio": true
+        }
+      ],
+      "faqs": 0,
+      "sectionSpacing": "96px"
+    },
+    {
+      "engineName": "chromium",
+      "name": "contact-guide",
+      "width": 1440,
+      "overflow": false,
+      "height": 2176,
+      "forms": 0,
+      "images": [
+        {
+          "src": "/evidence/expansion/kfood-map.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            608,
+            422.21875
+          ],
+          "ratio": true
+        },
+        {
+          "src": "/evidence/expansion/redbean-audiences.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            608,
+            422.21875
+          ],
+          "ratio": true
+        }
+      ],
+      "faqs": 4,
+      "sectionSpacing": "96px"
+    },
+    {
+      "engineName": "chromium",
+      "name": "team-proof",
+      "width": 390,
+      "overflow": false,
+      "height": 3097,
+      "forms": 0,
+      "images": [
+        {
+          "src": "/evidence/expansion/book-editorial-story.webp",
+          "loaded": true,
+          "natural": [
+            1352,
+            2000
+          ],
+          "rendered": [
+            294,
+            434.90625
+          ],
+          "ratio": true
+        },
+        {
+          "src": "/evidence/expansion/kings-menu-grid.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            342,
+            237.5
+          ],
+          "ratio": true
+        }
+      ],
+      "faqs": 0,
+      "sectionSpacing": "64px"
+    },
+    {
+      "engineName": "chromium",
+      "name": "contact-guide",
+      "width": 390,
+      "overflow": false,
+      "height": 3343,
+      "forms": 0,
+      "images": [
+        {
+          "src": "/evidence/expansion/kfood-map.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            342,
+            237.5
+          ],
+          "ratio": true
+        },
+        {
+          "src": "/evidence/expansion/redbean-audiences.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            342,
+            237.5
+          ],
+          "ratio": true
+        }
+      ],
+      "faqs": 4,
+      "sectionSpacing": "64px"
+    },
+    {
+      "engineName": "webkit",
+      "name": "team-proof",
+      "width": 1440,
+      "overflow": false,
+      "height": 2183,
+      "forms": 0,
+      "images": [
+        {
+          "src": "/evidence/expansion/book-editorial-story.webp",
+          "loaded": true,
+          "natural": [
+            1352,
+            2000
+          ],
+          "rendered": [
+            405.59375,
+            599.984375
+          ],
+          "ratio": true
+        },
+        {
+          "src": "/evidence/expansion/kings-menu-grid.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            699.1875,
+            485.546875
+          ],
+          "ratio": true
+        }
+      ],
+      "faqs": 0,
+      "sectionSpacing": "96px"
+    },
+    {
+      "engineName": "webkit",
+      "name": "contact-guide",
+      "width": 1440,
+      "overflow": false,
+      "height": 2176,
+      "forms": 0,
+      "images": [
+        {
+          "src": "/evidence/expansion/kfood-map.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            608,
+            422.21875
+          ],
+          "ratio": true
+        },
+        {
+          "src": "/evidence/expansion/redbean-audiences.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            608,
+            422.21875
+          ],
+          "ratio": true
+        }
+      ],
+      "faqs": 4,
+      "sectionSpacing": "96px"
+    },
+    {
+      "engineName": "webkit",
+      "name": "team-proof",
+      "width": 390,
+      "overflow": false,
+      "height": 3097,
+      "forms": 0,
+      "images": [
+        {
+          "src": "/evidence/expansion/book-editorial-story.webp",
+          "loaded": true,
+          "natural": [
+            1352,
+            2000
+          ],
+          "rendered": [
+            294,
+            434.90625
+          ],
+          "ratio": true
+        },
+        {
+          "src": "/evidence/expansion/kings-menu-grid.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            342,
+            237.5
+          ],
+          "ratio": true
+        }
+      ],
+      "faqs": 0,
+      "sectionSpacing": "64px"
+    },
+    {
+      "engineName": "webkit",
+      "name": "contact-guide",
+      "width": 390,
+      "overflow": false,
+      "height": 3343,
+      "forms": 0,
+      "images": [
+        {
+          "src": "/evidence/expansion/kfood-map.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            342,
+            237.5
+          ],
+          "ratio": true
+        },
+        {
+          "src": "/evidence/expansion/redbean-audiences.png",
+          "loaded": true,
+          "natural": [
+            1440,
+            1000
+          ],
+          "rendered": [
+            342,
+            237.5
+          ],
+          "ratio": true
+        }
+      ],
+      "faqs": 4,
+      "sectionSpacing": "64px"
+    }
+  ],
+  "errors": [],
+  "writes": []
+}

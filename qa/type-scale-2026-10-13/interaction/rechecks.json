@@ -1,0 +1,285 @@
+[
+  {
+    "name": "chromium-1060-works panel 4 selected / readable",
+    "pass": true,
+    "detail": {
+      "font": "18px",
+      "line": "17.1px",
+      "overflow": "visible",
+      "span": {
+        "x": 439.40625,
+        "y": 1399.71875,
+        "width": 65.78125,
+        "height": 34.1875,
+        "top": 1399.71875,
+        "right": 505.1875,
+        "bottom": 1433.90625,
+        "left": 439.40625
+      },
+      "text": {
+        "x": 439.40625,
+        "y": 1395.71875,
+        "width": 65.78125,
+        "height": 41.09375,
+        "top": 1395.71875,
+        "right": 505.1875,
+        "bottom": 1436.8125,
+        "left": 439.40625
+      },
+      "clippingParents": [
+        {
+          "cls": "diverse-sample diverse-sample--media",
+          "within": true,
+          "rect": {
+            "x": 56,
+            "y": 943.09375,
+            "width": 478.1875,
+            "height": 543.609375,
+            "top": 943.09375,
+            "right": 534.1875,
+            "bottom": 1486.703125,
+            "left": 56
+          }
+        },
+        {
+          "cls": "capability-panels",
+          "within": true,
+          "rect": {
+            "x": 32,
+            "y": 919.09375,
+            "width": 996,
+            "height": 718.1875,
+            "top": 919.09375,
+            "right": 1028,
+            "bottom": 1637.28125,
+            "left": 32
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "chromium-1060-contact fields >=44 / text line fits",
+    "pass": true,
+    "detail": [
+      {
+        "name": "company",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "name",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "phone",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "email",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "message",
+        "height": 153.96875,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "budget",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "schedule",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "name": "chromium-1440-works panel 4 selected / readable",
+    "pass": true,
+    "detail": {
+      "font": "18px",
+      "line": "17.1px",
+      "overflow": "visible",
+      "span": {
+        "x": 637.4375,
+        "y": 1477.15625,
+        "width": 65.78125,
+        "height": 34.1875,
+        "top": 1477.15625,
+        "right": 703.21875,
+        "bottom": 1511.34375,
+        "left": 637.4375
+      },
+      "text": {
+        "x": 637.4375,
+        "y": 1473.15625,
+        "width": 65.78125,
+        "height": 41.09375,
+        "top": 1473.15625,
+        "right": 703.21875,
+        "bottom": 1514.25,
+        "left": 637.4375
+      },
+      "clippingParents": [
+        {
+          "cls": "diverse-sample diverse-sample--media",
+          "within": true,
+          "rect": {
+            "x": 104,
+            "y": 980.21875,
+            "width": 628.21875,
+            "height": 583.921875,
+            "top": 980.21875,
+            "right": 732.21875,
+            "bottom": 1564.140625,
+            "left": 104
+          }
+        },
+        {
+          "cls": "capability-panels",
+          "within": true,
+          "rect": {
+            "x": 80,
+            "y": 956.21875,
+            "width": 1280,
+            "height": 758.5,
+            "top": 956.21875,
+            "right": 1360,
+            "bottom": 1714.71875,
+            "left": 80
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "chromium-1440-contact fields >=44 / text line fits",
+    "pass": true,
+    "detail": [
+      {
+        "name": "company",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "name",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "phone",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "email",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "message",
+        "height": 153.96875,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "budget",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "schedule",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "name": "webkit-1060-contact fields >=44 / text line fits",
+    "pass": true,
+    "detail": [
+      {
+        "name": "company",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "name",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "phone",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "email",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "message",
+        "height": 153.96875,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "budget",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      },
+      {
+        "name": "schedule",
+        "height": 48,
+        "line": 25.6,
+        "padding": 24,
+        "font": "16px"
+      }
+    ]
+  }
+]
