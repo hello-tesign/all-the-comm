@@ -62,6 +62,8 @@ npm start
 | src/evidence-motion.js/css | 실제 이미지의 프레임 전개와 안전한 종료/복원 |
 | src/agency-composition.css, src/diverse-samples.mjs/css | 다업종 작업 모음과 서로 다른 형식의 제안 결과물 |
 | src/data/portfolio-diverse.mjs | 리테일·문화·기관·의료 신규 사례와 수행 범위 |
+| src/story/ (home-story.mjs, story.js, story.css, showcase.mjs, sample-cases.mjs) | 국문 HOME 스크롤 스토리·3D 작업물 회랑. 더미·교체 목록은 docs/home-story-2026-10-13.md |
+| src/story/frames.css | 작업 캡처 프레젠테이션 보드(WORKS 목록·사례 표지·서비스 시각물) |
 | docs/agency-reference-decisions.md, docs/evidence-visual-assets.md | 20개 참고 사이트 확인 범위와 이미지 출처 |
 | motion/ | 직접 제작한 HyperFrames 소스와 영상 검수 기록 |
 | scripts/server.mjs, src/admin/ | API·영속 저장·관리 화면 |
@@ -77,6 +79,7 @@ npm start
 
 ```sh
 npm test
+npm run test:story
 npm run test:server
 npm run test:motion
 node tests/full-flow.cjs

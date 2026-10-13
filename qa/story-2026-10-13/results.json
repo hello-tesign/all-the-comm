@@ -1,0 +1,440 @@
+{
+ "at": "2026-10-13T13:46:21.392Z",
+ "origin": "http://127.0.0.1:4183",
+ "total": 65,
+ "failed": 0,
+ "results": [
+  {
+   "name": "desktop: story engine ready",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop: single visible h1",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop: story stylesheet only on home",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "hero: logo window opens over the whole screen",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "hero: closing line appears",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "name": "why: worries struck and answered in order",
+   "pass": true,
+   "detail": {
+    "s0": "0.000",
+    "sa": [
+     "1.000/1.000",
+     "1.000/1.000",
+     "1.000/1.000"
+    ]
+   }
+  },
+  {
+   "name": "tangle: six cost callouts while lines are crossed",
+   "pass": true,
+   "detail": {
+    "costs": 6,
+    "b": false
+   }
+  },
+  {
+   "name": "tangle: lines resolve through one team",
+   "pass": true,
+   "detail": {
+    "costs": 0,
+    "b": true,
+    "hub": "translate(600 280) scale(1.000)",
+    "vendor": "디자인·콘텐츠"
+   }
+  },
+  {
+   "name": "services: 8 selectable services in the sentence",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "services: picks carry into the enquiry link",
+   "pass": true,
+   "detail": "/contact/?services=strategy,pr"
+  },
+  {
+   "name": "services: detail follows the chosen word",
+   "pass": true,
+   "detail": [
+    "언론홍보"
+   ]
+  },
+  {
+   "name": "services: hover previews a service without selecting it",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "case: project clock advances W+1 → W+12",
+   "pass": true,
+   "detail": {
+    "w0": "W+2",
+    "w1": "W+12"
+   }
+  },
+  {
+   "name": "case: all route waypoints reached",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "case: sample case is labelled SAMPLE",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "gallery: corridor advances with scroll",
+   "pass": true,
+   "detail": {
+    "g0": 0,
+    "g1": {
+     "c": 4,
+     "cap": "Kings"
+    },
+    "g1title": "Kings"
+   }
+  },
+  {
+   "name": "gallery: center card flips to reveal the project",
+   "pass": true,
+   "detail": {
+    "f": true,
+    "focus": true,
+    "link": "/works/project/kings-franchise/"
+   }
+  },
+  {
+   "name": "gallery: Escape turns the card back",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "gallery: next control moves one work forward",
+   "pass": true,
+   "detail": {
+    "g2": 5
+   }
+  },
+  {
+   "name": "gallery: choosing a side card brings it to the front",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "cycle: active stage steps 0→3",
+   "pass": true,
+   "detail": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "name": "manifesto: words light, then the mark fills the frame",
+   "pass": true,
+   "detail": {
+    "lit": 5,
+    "fill": true
+   }
+  },
+  {
+   "name": "numbers: count-up lands on 10/9/4/1",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "compare: 5 lenses × 3 ways, all rows revealed",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "grow: engagement builds LV.1 → LV.3",
+   "pass": true,
+   "detail": [
+    "1/1",
+    "2/2",
+    "3/3"
+   ]
+  },
+  {
+   "name": "next: three ways to start, each to CONTACT",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop: chapter HUD tracks sections",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop: HUD chip hides outside pinned scenes",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "links: every story link resolves (16)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "contact: picked services arrive pre-selected",
+   "pass": true,
+   "detail": "strategy,pr"
+  },
+  {
+   "name": "desktop: no console/page/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop 1180×760: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop: all three worries fit the pinned frame",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop: tangle diagram fits under its title",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile: every reveal fires while scrolling",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile: count-up finished",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile: no horizontal overflow",
+   "pass": true,
+   "detail": 390
+  },
+  {
+   "name": "mobile: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile: pinned scenes collapse to normal flow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile: tangle redraws vertically",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile: beats, panes, levels visible",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile: beats stacked without overlap",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile: gallery scrolls sideways",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile: comparison table stacks",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile: tap flips a work card",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile: no errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "reduced: no sticky scenes",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reduced: content fully visible without scrolling into it",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reduced: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reduced: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "reduced: no errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "regression: /about/ loads without story assets",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "regression: /process/ loads without story assets",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "regression: /team/ loads without story assets",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "regression: /works/ loads without story assets",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "regression: /contact/ loads without story assets",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "regression: /en/ loads without story assets",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "works: every capture sits in a frame",
+   "pass": true,
+   "detail": [
+    {
+     "slug": "kfood-dashboard",
+     "frame": true,
+     "poster": false
+    },
+    {
+     "slug": "kings-franchise",
+     "frame": true,
+     "poster": false
+    },
+    {
+     "slug": "content-operations",
+     "frame": true,
+     "poster": false
+    },
+    {
+     "slug": "sales-rehearsal",
+     "frame": true,
+     "poster": true
+    },
+    {
+     "slug": "ezylens-studio",
+     "frame": true,
+     "poster": false
+    },
+    {
+     "slug": "city-culture",
+     "frame": true,
+     "poster": true
+    }
+   ]
+  },
+  {
+   "name": "works: posters and books are staged as objects",
+   "pass": true,
+   "detail": [
+    {
+     "slug": "kfood-dashboard",
+     "frame": true,
+     "poster": false
+    },
+    {
+     "slug": "kings-franchise",
+     "frame": true,
+     "poster": false
+    },
+    {
+     "slug": "content-operations",
+     "frame": true,
+     "poster": false
+    },
+    {
+     "slug": "sales-rehearsal",
+     "frame": true,
+     "poster": true
+    },
+    {
+     "slug": "ezylens-studio",
+     "frame": true,
+     "poster": false
+    },
+    {
+     "slug": "city-culture",
+     "frame": true,
+     "poster": true
+    }
+   ]
+  },
+  {
+   "name": "works: service visuals framed",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "case soulreset: cover in browser frame",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "case city-culture: cover staged as poster",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "contact: 소적두 appears only in WORKS",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "regression: no errors on other pages",
+   "pass": true,
+   "detail": []
+  }
+ ]
+}
