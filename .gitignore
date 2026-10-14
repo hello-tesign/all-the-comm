@@ -9,6 +9,7 @@ qa/**/*.webm
 
 # Rebuildable output and local visual captures; retain QA scripts and reports.
 /dist/
+/dist-preview/
 /deliverables/
 qa/**/*.png
 qa/**/*.jpg

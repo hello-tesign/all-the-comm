@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>사이트 미리보기 · 올더커뮤니케이션</title>
+<style>
+:root{--ink:#061c25;--ink2:#0b2a33;--mint:#59e3c6;--paper:#eef2f1;--line:rgba(255,255,255,.12);--muted:#a6c5c5}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{display:flex;flex-direction:column;background:var(--paper);color:var(--ink);font:14px/1.4 Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;overflow:hidden}
+button{font:inherit;color:inherit;cursor:pointer}
+.pv-bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 14px;background:var(--ink);color:#eff8f5}
+.pv-brand{display:flex;align-items:center;gap:9px;margin-right:6px;white-space:nowrap}
+.pv-brand i{width:16px;height:16px;border-radius:50% 50% 8% 50%;background:var(--mint)}
+.pv-brand b{font-size:14px}
+.pv-brand small{color:var(--muted);font-size:12px}
+.pv-menu{display:flex;gap:4px;flex-wrap:wrap}
+.pv-menu button{border:0;background:transparent;padding:7px 11px;border-radius:999px;font-size:12.5px;font-weight:700;letter-spacing:.02em;color:#cfe3df}
+.pv-menu button:hover{background:rgba(255,255,255,.08)}
+.pv-menu button[aria-current=true]{background:var(--mint);color:var(--ink)}
+.pv-menu .sep{width:1px;background:var(--line);margin:4px 4px}
+.pv-tools{display:flex;align-items:center;gap:6px;margin-left:auto;flex-wrap:wrap}
+.pv-tools>button,.pv-seg button{border:1px solid var(--line);background:transparent;min-width:34px;height:32px;padding:0 10px;border-radius:9px;color:#eff8f5}
+.pv-tools>button:hover,.pv-seg button:hover{border-color:var(--mint)}
+.pv-tools>button:disabled{opacity:.35;cursor:default;border-color:var(--line)}
+.pv-seg{display:flex;border:1px solid var(--line);border-radius:10px;padding:2px;gap:2px}
+.pv-seg button{border:0;height:28px;font-size:12px;font-weight:700}
+.pv-seg button[aria-pressed=true]{background:#eff8f5;color:var(--ink)}
+.pv-list-btn{font-weight:700;font-size:12.5px}
+.pv-list-btn b{color:var(--mint);margin-left:4px}
+.pv-sub{display:flex;align-items:center;gap:14px;padding:7px 16px;background:#dfe7e5;font-size:12px;color:#3c5558;border-bottom:1px solid rgba(6,28,37,.08)}
+.pv-sub code{font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--ink);background:#fff;padding:3px 8px;border-radius:6px}
+.pv-sub .note{margin-left:auto}
+.pv-main{position:relative;flex:1;min-height:0;display:flex}
+.pv-stage{flex:1;min-width:0;position:relative;overflow:hidden;background:radial-gradient(rgba(6,28,37,.07) 1px,transparent 1.2px) 0 0/18px 18px,var(--paper)}
+.pv-frame{position:absolute;left:50%;top:14px;transform-origin:top center;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 30px 70px -30px rgba(6,28,37,.45),0 0 0 1px rgba(6,28,37,.08)}
+.pv-frame.mobile{border-radius:34px;box-shadow:0 30px 70px -30px rgba(6,28,37,.5),0 0 0 10px var(--ink),0 0 0 11px rgba(255,255,255,.1)}
+.pv-frame iframe{display:block;width:100%;height:100%;border:0;background:#fff}
+.pv-list{position:absolute;z-index:5;left:0;top:0;bottom:0;width:min(340px,92vw);overflow:auto;background:#fff;box-shadow:20px 0 50px -30px rgba(6,28,37,.5);padding:16px 14px 30px;transform:translateX(-105%);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.pv-list.open{transform:none}
+.pv-list header{display:flex;justify-content:space-between;align-items:baseline;margin:0 4px 10px}
+.pv-list header b{font-size:15px}
+.pv-list header span{font-size:12px;color:#526a6d}
+.pv-progress{height:4px;border-radius:4px;background:#e3eae8;margin:0 4px 16px;overflow:hidden}
+.pv-progress s{display:block;height:100%;background:var(--mint);transform-origin:0 50%;transition:transform .4s}
+.pv-list h3{margin:16px 4px 6px;font-size:11px;letter-spacing:.12em;color:#0f7f72}
+.pv-list ol{list-style:none;margin:0;padding:0}
+.pv-list li button{display:flex;align-items:center;gap:10px;width:100%;border:0;background:none;text-align:left;padding:8px 8px;border-radius:9px;font-size:13.5px}
+.pv-list li button:hover{background:#f0f5f4}
+.pv-list li button[aria-current=true]{background:var(--ink);color:#fff}
+.pv-list li i{flex:none;width:18px;height:18px;border-radius:50% 50% 8% 50%;border:1.5px solid #c3d3d0}
+.pv-list li.seen i{background:var(--mint);border-color:var(--mint)}
+.pv-list li span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pv-list li small{color:#7b8f91;font:11px ui-monospace,Menlo,monospace}
+.pv-list li button[aria-current=true] small{color:var(--muted)}
+.pv-list .reset{margin:18px 4px 0;border:1px solid #d5e0de;background:none;border-radius:9px;padding:7px 12px;font-size:12px;color:#526a6d}
+.pv-toast{position:fixed;left:50%;bottom:22px;z-index:20;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--ink);color:#eff8f5;padding:11px 18px;border-radius:999px;font-weight:600;font-size:13px;transition:.3s;box-shadow:0 14px 40px -12px rgba(0,0,0,.5);max-width:90vw}
+.pv-toast.on{opacity:1;transform:translate(-50%,0)}
+.pv-loading{position:absolute;inset:0;display:grid;place-items:center;font-weight:700;color:#526a6d}
+@media (max-width:900px){.pv-menu{order:3;width:100%}.pv-brand small,.pv-sub .note{display:none}}
+</style>
+</head>
+<body>
+<header class="pv-bar">
+ <div class="pv-brand"><i></i><b>사이트 미리보기</b><small>올더커뮤니케이션 · 국문/영문 전체</small></div>
+ <nav class="pv-menu" aria-label="메뉴 바로가기" id="pv-menu"></nav>
+ <div class="pv-tools">
+  <button type="button" id="pv-back" aria-label="뒤로" title="뒤로">←</button>
+  <button type="button" id="pv-fwd" aria-label="앞으로" title="앞으로">→</button>
+  <button type="button" id="pv-reload" aria-label="다시 불러오기" title="다시 불러오기">↻</button>
+  <div class="pv-seg" role="group" aria-label="화면 크기" id="pv-device">
+   <button type="button" data-w="1440" data-h="900">PC</button>
+   <button type="button" data-w="1180" data-h="760">노트북</button>
+   <button type="button" data-w="390" data-h="844">모바일</button>
+  </div>
+  <button type="button" class="pv-list-btn" id="pv-list-btn" aria-expanded="false" aria-controls="pv-list">전체 페이지<b id="pv-count"></b></button>
+ </div>
+</header>
+<div class="pv-sub"><code id="pv-url">/</code><span id="pv-scale"></span><span class="note">문의서는 미리보기에서 실제로 전송·저장되지 않습니다. 영상은 대표 이미지로 표시됩니다.</span></div>
+<main class="pv-main">
+ <aside class="pv-list" id="pv-list" aria-label="전체 페이지 목록"></aside>
+ <div class="pv-stage" id="pv-stage"><div class="pv-loading" id="pv-loading">미리보기를 준비하고 있습니다…</div><div class="pv-frame" id="pv-frame" hidden><iframe id="pv-iframe" title="사이트 화면"></iframe></div></div>
+</main>
+<div class="pv-toast" id="pv-toast" role="status" aria-live="polite"></div>
+<script>window.__DATA__=/*__PREVIEW_DATA__*/null;</script>
+<script>
+(() => {
+  const D = window.__DATA__;
+  const $ = s => document.querySelector(s);
+  const store = { get(k, d) { try { const v = localStorage.getItem('pv:' + k); return v ? JSON.parse(v) : d; } catch { return d; } }, set(k, v) { try { localStorage.setItem('pv:' + k, JSON.stringify(v)); } catch {} } };
+  const toastEl = $('#pv-toast'); let toastT;
+  const toast = msg => { toastEl.textContent = msg; toastEl.classList.add('on'); clearTimeout(toastT); toastT = setTimeout(() => toastEl.classList.remove('on'), 2600); };
+
+  // assets -> blob URLs ------------------------------------------------------------------
+  const blobs = {};
+  for (const [p, a] of Object.entries(D.assets)) {
+    const bin = atob(a.data), u8 = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i);
+    blobs[p] = URL.createObjectURL(new Blob([u8], { type: a.type }));
+  }
+  const swap = t => t.replace(/asset:(\/[^"'()\s,\\<>]+)/g, (m, p) => blobs[decodeURI(p.split(/[?#]/)[0])] || '');
+  const cssBlobs = Object.fromEntries(Object.entries(D.css).map(([p, c]) => [p, URL.createObjectURL(new Blob([swap(c)], { type: 'text/css' }))]));
+  const jsBlob = URL.createObjectURL(new Blob([swap(D.js)], { type: 'text/javascript' }));
+  const api = JSON.parse(swap(JSON.stringify(D.api)));
+  const reverse = Object.fromEntries(Object.entries(blobs).map(([p, u]) => [u, p]));
+
+  // what the pages call instead of the network ------------------------------------------------
+  const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json' } });
+  window.__PREVIEW__ = {
+    asset(href) { if (href.startsWith('https://preview.invalid')) { const p = decodeURI(new URL(href).pathname); return blobs[p] || href; } return href; },
+    fetch(u, o = {}) {
+      if (u.startsWith('/api/inquiries')) return new Promise(r => setTimeout(() => { toast('미리보기: 문의서는 실제로 전송되지 않았습니다'); r(json({ ok: true, id: 'PREVIEW-' + Date.now().toString(36).toUpperCase() })); }, 700));
+      if (api[u]) return Promise.resolve(json(api[u]));
+      if (u.startsWith('/api/')) return Promise.resolve(json({ error: 'not found' }, 404));
+      return fetch(u, o);
+    }
+  };
+
+  // routes ------------------------------------------------------------------------------------
+  const names = { '/': '홈', '/about/': 'ABOUT US', '/process/': 'OUR PROCESS', '/team/': 'TEAM', '/works/': 'WORKS', '/contact/': 'CONTACT', '/privacy/': '개인정보처리방침', '/404.html': '404' };
+  const label = r => r.label || (r.path.startsWith('/en') ? 'EN · ' + (names[r.path.slice(3)] || r.path) : names[r.path] || r.path);
+  const byPath = Object.fromEntries(D.routes.map(r => [r.path, r]));
+  const resolve = (href, base = '/') => {
+    const u = new URL(href, 'https://preview.invalid' + base);
+    let p = decodeURI(u.pathname);
+    if (!p.endsWith('/') && !p.endsWith('.html')) p += '/';
+    const route = byPath[p] || byPath[p.startsWith('/en/') ? '/en/404.html' : '/404.html'] || byPath['/404.html'];
+    return { route, path: p, search: u.search, hash: u.hash };
+  };
+  const pageHTML = loc => {
+    let html = D.pages[loc.route.path];
+    const pre = `window.__P={path:${JSON.stringify(loc.path)},search:${JSON.stringify(loc.search)},origin:'https://preview.invalid',asset:h=>parent.__PREVIEW__.asset(h)};` +
+      `Object.defineProperty(window.__P,'hash',{get(){return location.hash&&location.hash!=='#'?location.hash:${JSON.stringify(loc.hash)}}});` +
+      `window.fetch=(u,o)=>parent.__PREVIEW__.fetch(String(u),o);`;
+    html = html.replace(/<link rel="stylesheet" href="(\/[^"]+\.css)">/g, (m, h) => cssBlobs[h] ? `<link rel="stylesheet" href="${cssBlobs[h]}">` : '');
+    html = html.replace('<script type="module" src="/app.js"><\/script>', () => `<script>${pre}<\/script><script type="module" src="${jsBlob}"><\/script>`);
+    return swap(html);
+  };
+
+  // state -----------------------------------------------------------------------------------------
+  const iframe = $('#pv-iframe'), frame = $('#pv-frame'), stage = $('#pv-stage');
+  const seen = new Set(store.get('seen', []));
+  const stack = []; let index = -1, current = null;
+  let device = store.get('device', { w: 1440, h: 900 });
+
+  function fit() {
+    const pad = device.w < 600 ? 40 : 28;
+    const s = Math.min(1, (stage.clientWidth - pad) / device.w, (stage.clientHeight - pad) / device.h);
+    frame.style.width = device.w + 'px'; frame.style.height = device.h + 'px';
+    frame.style.transform = `translateX(-50%) scale(${s})`;
+    frame.classList.toggle('mobile', device.w < 600);
+    $('#pv-scale').textContent = `${device.w}×${device.h} · ${Math.round(s * 100)}%`;
+    document.querySelectorAll('#pv-device button').forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.w === device.w)));
+  }
+  function render(loc) {
+    current = loc;
+    iframe.srcdoc = pageHTML(loc);
+    $('#pv-url').textContent = loc.path + loc.search + loc.hash;
+    seen.add(loc.route.path); store.set('seen', [...seen]);
+    drawMenu(); drawList();
+    $('#pv-back').disabled = index <= 0; $('#pv-fwd').disabled = index >= stack.length - 1;
+  }
+  function go(href, push = true) {
+    const loc = resolve(href, current?.path || '/');
+    if (push) { stack.splice(index + 1); stack.push(loc); index = stack.length - 1; }
+    render(loc);
+  }
+
+  // in-page links stay inside the preview ---------------------------------------------------------
+  iframe.addEventListener('load', () => {
+    const doc = iframe.contentDocument; if (!doc) return;
+    doc.addEventListener('click', e => {
+      const a = e.target.closest && e.target.closest('a[href]'); if (!a) return;
+      const href = a.getAttribute('href');
+      if (!href || href.startsWith('#')) return;
+      if (/^(mailto:|tel:)/.test(href)) { e.preventDefault(); toast('실제 사이트에서는 ' + (href.startsWith('tel:') ? '전화' : '메일') + ' 앱이 열립니다: ' + href.replace(/^(mailto:|tel:)/, '')); return; }
+      if (/^https?:/.test(href) && !href.startsWith('https://allthecom.co.kr')) { e.preventDefault(); window.open(href, '_blank', 'noopener'); return; }
+      e.preventDefault();
+      go(href.replace('https://allthecom.co.kr', ''));
+    }, true);
+    $('#pv-loading').hidden = true; frame.hidden = false;
+  });
+
+  // toolbar ----------------------------------------------------------------------------------------
+  const menu = [['/', '홈'], ['/about/', 'ABOUT'], ['/process/', 'PROCESS'], ['/team/', 'TEAM'], ['/works/', 'WORKS'], ['/contact/', 'CONTACT'], [null], ['/en/', 'EN']];
+  function drawMenu() {
+    const cur = current?.route.path || '/';
+    $('#pv-menu').innerHTML = menu.map(([p, t]) => p ? `<button type="button" data-go="${p}" aria-current="${cur === p || (p !== '/' && p !== '/en/' && cur.startsWith(p)) || (p === '/en/' && cur.startsWith('/en/'))}">${t}</button>` : '<span class="sep"></span>').join('');
+  }
+  function drawList() {
+    const groups = {};
+    D.routes.forEach(r => (groups[r.group] ||= []).push(r));
+    const done = D.routes.filter(r => seen.has(r.path)).length;
+    $('#pv-count').textContent = ` ${done}/${D.routes.length}`;
+    $('#pv-list').innerHTML = `<header><b>전체 페이지</b><span>확인 ${done} / ${D.routes.length}</span></header><div class="pv-progress"><s style="transform:scaleX(${done / D.routes.length})"></s></div>` +
+      Object.entries(groups).map(([g, rs]) => `<h3>${g}</h3><ol>${rs.map(r => `<li class="${seen.has(r.path) ? 'seen' : ''}"><button type="button" data-go="${r.path}" aria-current="${current?.route.path === r.path}"><i></i><span>${label(r)}</span><small>${r.path.replace(/^\/en/, '').replace('/works/project/', '…/') || '/'}</small></button></li>`).join('')}</ol>`).join('') +
+      `<button type="button" class="reset" data-reset>확인 표시 지우기</button>`;
+  }
+  document.addEventListener('click', e => {
+    const t = e.target.closest('[data-go],[data-reset],#pv-device button'); if (!t) return;
+    if (t.dataset.go) { go(t.dataset.go); if (innerWidth < 900) toggleList(false); }
+    else if (t.hasAttribute('data-reset')) { seen.clear(); store.set('seen', []); drawList(); }
+    else { device = { w: +t.dataset.w, h: +t.dataset.h }; store.set('device', device); fit(); if (current) render(current); }
+  });
+  const toggleList = open => { const l = $('#pv-list'); open = open ?? !l.classList.contains('open'); l.classList.toggle('open', open); $('#pv-list-btn').setAttribute('aria-expanded', String(open)); };
+  $('#pv-list-btn').addEventListener('click', () => toggleList());
+  $('#pv-back').addEventListener('click', () => { if (index > 0) { index--; render(stack[index]); } });
+  $('#pv-fwd').addEventListener('click', () => { if (index < stack.length - 1) { index++; render(stack[index]); } });
+  $('#pv-reload').addEventListener('click', () => current && render(current));
+  addEventListener('resize', fit);
+  fit();
+  go('/');
+})();
+</script>
+</body>
+</html>

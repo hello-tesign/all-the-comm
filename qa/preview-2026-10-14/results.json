@@ -1,0 +1,86 @@
+{
+ "at": "2026-10-14T01:44:28.584Z",
+ "total": 15,
+ "failed": 0,
+ "results": [
+  {
+   "name": "home renders inside the preview with its scroll engine",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "all 31 pages are listed",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "every page loads with title, styles and images",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "visit tracker counts every page",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "case page fills from embedded data and shows its cover",
+   "pass": true,
+   "detail": {
+    "title": "도시를 다시 보다",
+    "poster": true,
+    "img": 1200
+   }
+  },
+  {
+   "name": "header menu link inside the page navigates in the preview",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "back button returns to the previous page",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "deep link selects the service on WORKS",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "WORKS project list renders from embedded data",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "contact form completes against the preview stub",
+   "pass": true,
+   "detail": "문의가 접수되었습니다. 접수번호: PREVIEW-MV7G5MWF"
+  },
+  {
+   "name": "preview tells the visitor nothing was sent",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "모바일 size gives the page a 390px viewport",
+   "pass": true,
+   "detail": 390
+  },
+  {
+   "name": "노트북 size gives the page a 1180px viewport",
+   "pass": true,
+   "detail": 1180
+  },
+  {
+   "name": "PC size gives the page a 1440px viewport",
+   "pass": true,
+   "detail": 1440
+  },
+  {
+   "name": "no errors inside the preview",
+   "pass": true,
+   "detail": []
+  }
+ ]
+}
