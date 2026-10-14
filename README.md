@@ -12,7 +12,7 @@
 - 영문: http://127.0.0.1:4173/en/
 - 관리: http://127.0.0.1:4173/admin/
 
-같은 PC의 로컬 서버 주소입니다. 실제 allthecom.co.kr 운영 서버로 배포한 상태는 아닙니다.
+같은 PC의 로컬 서버 주소입니다. 실제 allthecom.co.kr 운영 서버로 배포한 상태는 아닙니다. 외부 검토용 임시 주소는 아래 Vercel 항목을 참고합니다.
 
 ## 실행
 
@@ -29,6 +29,10 @@ npm start
 ### 단일 HTML 미리보기
 
 서버 실행 중에 `npm run export:single`을 실행하면 `deliverables/ALL-THE-COMM-ko.html` 한 파일이 생성됩니다. 국문 전체 페이지, 공개된 사례, 이미지·폰트·영상을 내장하며 더블클릭하면 서버 없이 열립니다. 문의 전송·영문·관리자는 제외합니다. 사례 데이터는 실행 중인 서버의 공개 사례를 그대로 사용합니다.
+
+### 임시 공유 주소 (Vercel)
+
+https://wee-hwan.vercel.app/ — 정식 공개 전 검토용입니다. `main`에 푸시하면 Vercel이 `npm run build:static`으로 정적 사본(`static-site/`)을 만들어 자동 배포합니다. 사례는 `.private`가 아니라 검토된 포트폴리오 스크립트로 다시 만들며, 모든 응답에 `X-Robots-Tag: noindex, nofollow`를 붙여 검색에 노출하지 않습니다. 서버가 없으므로 문의 전송과 관리자는 동작하지 않습니다.
 
 ## 구현 범위
 
