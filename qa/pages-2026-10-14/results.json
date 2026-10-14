@@ -1,7 +1,7 @@
 {
- "at": "2026-10-14T01:13:51.407Z",
+ "at": "2026-10-14T01:27:27.963Z",
  "origin": "http://127.0.0.1:4183",
- "total": 147,
+ "total": 148,
  "failed": 0,
  "results": [
   {
@@ -666,6 +666,11 @@
   },
   {
    "name": "process: rail follows the step in view",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "team: hero orbit holds nine roles around one centre",
    "pass": true,
    "detail": null
   },

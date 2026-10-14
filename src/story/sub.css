@@ -31,7 +31,7 @@
 .sb-dial-core b,.sb-orbit-core b{font:800 clamp(36px,4vw,56px)/1 Manrope,sans-serif}
 .sb-dial-core span,.sb-orbit-core span{font-size:13px;font-weight:800}
 /* hero art — orbit (team) */
-.sb-orbit span{position:absolute;left:calc(50% + 37% * sin(var(--a)));top:calc(50% - 37% * cos(var(--a)));transform:translate(-50%,-50%);padding:7px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.18);color:#a6c5c5;font-size:clamp(11px,.95vw,14px);font-weight:700;white-space:nowrap;animation:sb-chip 9s calc(var(--i) * 1s) infinite}
+.sb-orbit>span{position:absolute;left:calc(50% + 37% * sin(var(--a)));top:calc(50% - 37% * cos(var(--a)));transform:translate(-50%,-50%);padding:7px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.18);color:#a6c5c5;font-size:clamp(11px,.95vw,14px);font-weight:700;white-space:nowrap;animation:sb-chip 9s calc(var(--i) * 1s) infinite}
 @keyframes sb-chip{0%,10%{background:var(--st-mint);color:var(--st-ink);border-color:var(--st-mint)}14%,100%{background:transparent;color:#a6c5c5;border-color:rgba(255,255,255,.18)}}
 .sb-orbit::before{content:"";position:absolute;inset:13%;border-radius:50%;border:1px dashed rgba(89,227,198,.3)}
 /* hero art — chat (contact) */
@@ -264,7 +264,7 @@
  .sb-faq p{padding-right:0}
 }
 @media (prefers-reduced-motion:reduce){
- .sb .sb-dial .arc,.sb .sb-dial-node,.sb .sb-orbit span{animation:none!important}
+ .sb .sb-dial .arc,.sb .sb-dial-node,.sb .sb-orbit>span{animation:none!important}
  .sb-board-frame,.sb-board.is-poster .sb-board-frame{transition:none}
 }
 

@@ -63,6 +63,7 @@ const textOverflow = page => page.evaluate(() => [...document.querySelectorAll('
     await page.screenshot({ path: path.join(out, 'process-rail.png') });
     // TEAM roles + matrix
     await page.goto(origin + '/team/', { waitUntil: 'networkidle' }); await page.waitForSelector('[data-sub].st-ready');
+    check('team: hero orbit holds nine roles around one centre', await page.evaluate(() => { const core = document.querySelector('.sb-orbit-core'), c = core.getBoundingClientRect(), t = core.querySelector('span').getBoundingClientRect(); return document.querySelectorAll('.sb-orbit>span').length === 9 && t.left >= c.left && t.right <= c.right && t.top >= c.top && t.bottom <= c.bottom; }));
     check('team: nine roles, first open', (await page.locator('.sb-role').count()) === 9 && await page.locator('.sb-role').first().evaluate(d => d.open));
     await page.locator('.sb-role summary').nth(2).click(); await page.waitForTimeout(400);
     check('team: opening a role closes the others', await page.evaluate(() => { const d = [...document.querySelectorAll('.sb-role')]; return d[2].open && d.filter(x => x.open).length === 1; }));
