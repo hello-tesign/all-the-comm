@@ -1,7 +1,7 @@
 {
- "at": "2026-10-14T01:27:27.963Z",
- "origin": "http://127.0.0.1:4183",
- "total": 148,
+ "at": "2026-10-14T07:07:09.522Z",
+ "origin": "http://127.0.0.1:4300",
+ "total": 154,
  "failed": 0,
  "results": [
   {
@@ -37,6 +37,11 @@
    "name": "desktop about: page index anchors resolve",
    "pass": true,
    "detail": []
+  },
+  {
+   "name": "desktop about: no work-case section",
+   "pass": true,
+   "detail": null
   },
   {
    "name": "desktop about: no images broken",
@@ -125,6 +130,11 @@
    "name": "desktop team: page index anchors resolve",
    "pass": true,
    "detail": []
+  },
+  {
+   "name": "desktop team: no work-case section",
+   "pass": true,
+   "detail": null
   },
   {
    "name": "desktop team: no images broken",
@@ -259,6 +269,11 @@
    "detail": []
   },
   {
+   "name": "laptop about: no work-case section",
+   "pass": true,
+   "detail": null
+  },
+  {
    "name": "laptop about: no images broken",
    "pass": true,
    "detail": null
@@ -345,6 +360,11 @@
    "name": "laptop team: page index anchors resolve",
    "pass": true,
    "detail": []
+  },
+  {
+   "name": "laptop team: no work-case section",
+   "pass": true,
+   "detail": null
   },
   {
    "name": "laptop team: no images broken",
@@ -479,6 +499,11 @@
    "detail": []
   },
   {
+   "name": "mobile about: no work-case section",
+   "pass": true,
+   "detail": null
+  },
+  {
    "name": "mobile about: no images broken",
    "pass": true,
    "detail": null
@@ -565,6 +590,11 @@
    "name": "mobile team: page index anchors resolve",
    "pass": true,
    "detail": []
+  },
+  {
+   "name": "mobile team: no work-case section",
+   "pass": true,
+   "detail": null
   },
   {
    "name": "mobile team: no images broken",
@@ -675,17 +705,17 @@
    "detail": null
   },
   {
-   "name": "team: nine roles, first open",
+   "name": "team: nine role cards, each with an icon",
    "pass": true,
    "detail": null
   },
   {
-   "name": "team: opening a role closes the others",
+   "name": "team: every card shows a thumbnail or an icon tile",
    "pass": true,
    "detail": null
   },
   {
-   "name": "team: role chips readable",
+   "name": "team: roles link to their WORKS service instead of repeating it",
    "pass": true,
    "detail": null
   },
@@ -705,7 +735,7 @@
    "detail": null
   },
   {
-   "name": "works: project list renders framed cards",
+   "name": "works: project cards are filled with the work",
    "pass": true,
    "detail": null
   },
@@ -735,7 +765,7 @@
    "detail": null
   },
   {
-   "name": "links: every subpage link resolves (22)",
+   "name": "links: every subpage link resolves (21)",
    "pass": true,
    "detail": []
   },

@@ -1,33 +1,36 @@
-// 작업물 쇼케이스 — 3D 회랑 + 3D 플립 카드. 앞면은 다듬은 화면 프레임, 뒷면은 프로젝트 요약입니다.
-// 소적두는 WORKS 개별 사례 전용이므로 제외합니다. 이미지 원본은 public/showcase/ (16:10 상단 기준 크롭).
+// 작업물 쇼케이스 — 3D 회랑 + 3D 플립 카드. 앞면은 3:4로 꽉 채운 작업 이미지, 뒷면은 프로젝트 요약입니다.
+// 브랜드 의뢰 작업(일러스트·포스터·패키지)과 실제 웹사이트만 고릅니다. 프로토타입·자체 콘셉트는 WORKS에만 둡니다.
+// 소적두는 WORKS 개별 사례 전용이므로 제외합니다. 이미지는 public/showcase/card/ (3:4, 웹은 왼쪽 위 기준 크롭).
 import { portfolio } from '../data/portfolio.mjs';
+import { brandWork } from '../data/portfolio-brand-work.mjs';
 
+const projects = [...portfolio, ...brandWork];
 const picks = [
+  ['eyewear-campaign', 'eyewear', 'art'],
+  ['coffee-package', 'coffee', 'art'],
   ['jonghae-community', 'jonghae', 'web', 'jonghae.or.kr'],
+  ['w-oil-campaign', 'woil', 'art'],
+  ['bugak-branding', 'bugak', 'art'],
   ['soulreset', 'soulreset', 'web', 'soulreset.kr'],
-  ['ezylens-studio', 'ezylens', 'web', 'ezylens.studio'],
-  ['city-culture', 'city', 'poster', ''],
+  ['microplastic-tee', 'microplastic', 'art'],
+  ['sales-rehearsal', 'book', 'art'],
   ['kings-franchise', 'kings', 'web', 'kings franchise'],
-  ['sales-rehearsal', 'book', 'poster', ''],
-  ['tesign-radar', 'radar', 'web', 'tesign radar'],
-  ['patient-guide', 'patient', 'poster', ''],
-  ['review-atelier', 'atelier', 'app', 'review atelier'],
-  ['kfood-dashboard', 'kfood', 'app', 'kfood dashboard']
+  ['graphic-tee', 'graphictee', 'art']
 ];
-const tints = ['#59e3c6', '#c9a77a', '#8fb7ff', '#f2b45c', '#e86f52', '#b7c4c9', '#7be0b8', '#9ad0e6', '#c1a3ff', '#ffd27a'];
+const tints = ['#59e3c6', '#2f6bff', '#c9a77a', '#4fa3ff', '#f2b45c', '#8a6a4f', '#e86f52', '#b7a58f', '#2f7a4f', '#7be0b8'];
 
 const E = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 export const showcaseItems = picks.map(([slug, img, kind, url], i) => {
-  const p = portfolio.find(x => x.slug === slug);
+  const p = projects.find(x => x.slug === slug);
   if (!p) throw Error('Unknown showcase project: ' + slug);
   return { slug, img, kind, url, tint: tints[i], title: p.title, type: p.type, industry: p.industry, summary: p.summary, scope: String(p.scope || '').split(' · ').filter(Boolean).slice(0, 4) };
 });
 
-const frame = it => {
-  if (it.kind === 'poster') return `<div class="sc-poster"><img src="/showcase/${it.img}.webp" alt="" loading="lazy" decoding="async"></div>`;
-  return `<div class="sc-browser"><div class="sc-chrome"><i></i><i></i><i></i><span>${E(it.url)}</span></div><img src="/showcase/${it.img}.webp" srcset="/showcase/${it.img}-600.webp 600w,/showcase/${it.img}.webp 1200w" sizes="(max-width:760px) 80vw,520px" alt="" width="1200" height="750" loading="lazy" decoding="async"></div>`;
-};
+// 3:4 card image, also used by the hero reels and TEAM thumbnails.
+export const cardImage = (key, size = 900) => `/showcase/card/${key}${size === 450 ? '-450' : ''}.webp`;
+
+const frame = it => `${it.kind === 'web' ? `<div class="sc-chrome"><i></i><i></i><i></i><span>${E(it.url)}</span></div>` : ''}<img class="sc-img" src="${cardImage(it.img)}" srcset="${cardImage(it.img, 450)} 450w,${cardImage(it.img)} 900w" sizes="(max-width:760px) 80vw,400px" alt="" loading="lazy" decoding="async">`;
 
 export function showcase({ arrow }) {
   const items = showcaseItems;
@@ -36,14 +39,14 @@ export function showcase({ arrow }) {
  <div class="st-sticky">
   <div class="sc-head st-shell">
    <div><p class="st-eyebrow">SELECTED WORK</p><h2 class="st-h2">작업을, <em>정면에서.</em></h2></div>
-   <p class="sc-note">제작자 프로젝트·자체 콘셉트·프로토타입을 함께 보여 드립니다.<br>가운데 작업을 누르면 뒤집혀 수행 범위가 보입니다.</p>
+   <p class="sc-note">브랜드 광고·패키지부터 웹사이트까지, 직접 기획하고 만든 작업입니다.<br>가운데 작업을 누르면 뒤집혀 수행 범위가 보입니다.</p>
   </div>
   <div class="sc-stage" data-sc-stage>
    <div class="sc-glow" aria-hidden="true"></div>
    <ul class="sc-ring" aria-label="작업물 ${items.length}건">
     ${items.map((it, i) => `<li class="sc-item" data-i="${i}" style="--tint:${it.tint}">
      <div class="sc-flip">
-      <div class="sc-face sc-front">
+      <div class="sc-face sc-front${it.kind === 'web' ? ' is-web' : ''}">
        ${frame(it)}
        <button type="button" class="sc-turn" aria-pressed="false" aria-label="${E(it.title)} 뒷면 보기"><span>뒤집어 보기</span></button>
       </div>

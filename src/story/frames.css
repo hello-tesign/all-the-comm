@@ -15,18 +15,23 @@ html[lang=ko] body .evidence-visual .evidence-image-link{
  background:radial-gradient(rgba(255,255,255,.5) 1px,transparent 1.4px) 0 0/18px 18px,
   radial-gradient(120% 95% at 18% 0%,color-mix(in srgb,var(--fr-tint) 38%,#fff),color-mix(in srgb,var(--fr-tint) 20%,#e8eeec) 72%)!important}
 
-/* list cards */
-html[lang=ko] body .portfolio-piece .portfolio-shot{aspect-ratio:16/11;padding:8% 9% 0!important;display:flex;align-items:flex-end;justify-content:center;background:transparent!important;overflow:hidden}
-html[lang=ko] .shot-frame{width:100%;border-radius:10px 10px 0 0;overflow:hidden;background:#fff;box-shadow:0 -6px 40px -12px rgba(6,28,37,.32),0 0 0 1px rgba(6,28,37,.05);transform:translateY(5%);transition:transform .8s cubic-bezier(.2,.8,.2,1)}
-html[lang=ko] .shot-bar{display:block;height:22px;background:var(--fr-chrome)}
-html[lang=ko] body .portfolio-piece .shot-frame img{display:block;width:100%!important;height:auto!important;aspect-ratio:16/10;object-fit:cover!important;object-position:top!important;max-height:none!important}
-html[lang=ko] .portfolio-piece .project-visual:hover .shot-frame,html[lang=ko] .portfolio-piece .project-visual:focus-visible .shot-frame{transform:translateY(0)}
-html[lang=ko] body .portfolio-piece .portfolio-shot.is-poster{padding:7% 9%!important;align-items:center}
-html[lang=ko] .is-poster .shot-frame{width:auto;height:100%;background:none;border-radius:4px;box-shadow:0 26px 50px -18px rgba(6,28,37,.45);transform:rotate(-1.5deg);transition:transform .8s cubic-bezier(.34,1.56,.64,1)}
-html[lang=ko] .is-poster .shot-bar{display:none}
-html[lang=ko] body .portfolio-piece .is-poster .shot-frame img{height:100%!important;width:auto!important;aspect-ratio:auto;object-fit:contain!important;border-radius:4px}
-html[lang=ko] .portfolio-piece .project-visual:hover .is-poster .shot-frame{transform:rotate(0) scale(1.03)}
-html[lang=ko] .portfolio-piece .project-visual .project-open{z-index:2}
+/* list cards (WORKS): the work fills the card. Series show side by side; every third card spans the row. */
+html[lang=ko] body [data-project-list]{grid-template-columns:repeat(2,minmax(0,1fr));gap:72px 28px}
+html[lang=ko] body .pf-card{margin:0}
+html[lang=ko] body .pf-card.is-feature{grid-column:1/-1}
+html[lang=ko] body .pf-card .pf-visual{display:flex;gap:4px;aspect-ratio:16/11;padding:0!important;border-radius:22px;background:#0c2530!important}
+html[lang=ko] body .pf-card.is-feature .pf-visual{aspect-ratio:32/11}
+html[lang=ko] body .pf-card .pf-img{display:block;flex:1 1 0;min-width:0;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:center top!important;transform:none;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+html[lang=ko] body .pf-card .pf-visual.is-series .pf-img{object-position:center!important}
+html[lang=ko] body .pf-card:not(.is-feature) .pf-visual.is-series .pf-img:nth-child(n+3),
+html[lang=ko] body .pf-card .pf-visual.is-wide .pf-img:not(:first-child){display:none}
+html[lang=ko] body .pf-card .pf-visual.is-tall{padding:6% 0!important;justify-content:center;background:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1.4px) 0 0/18px 18px,#0c2530!important}
+html[lang=ko] body .pf-card .pf-visual.is-tall .pf-img{flex:none;width:auto!important;object-fit:contain!important;border-radius:4px;box-shadow:0 26px 50px -18px rgba(0,0,0,.6)}
+html[lang=ko] .pf-card .pf-visual:hover .pf-img,html[lang=ko] .pf-card .pf-visual:focus-visible .pf-img{transform:scale(1.035)}
+html[lang=ko] .pf-card .pf-visual.is-tall:hover .pf-img{transform:scale(1.02)}
+html[lang=ko] .pf-card .project-open{z-index:2}
+html[lang=ko] body .pf-card.is-feature .project-caption{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px 40px;align-items:start}
+html[lang=ko] body .pf-card.is-feature .project-caption .portfolio-summary{grid-column:2;grid-row:1/span 2;margin-top:28px}
 
 /* case cover */
 html[lang=ko] body .case-cover[data-case-cover]{padding:clamp(34px,5vw,76px) clamp(18px,7vw,120px) 0!important}
@@ -46,8 +51,12 @@ html[lang=ko] body .evidence-visual .evidence-image-link.is-poster{padding:7% 8%
 html[lang=ko] body .evidence-visual .evidence-image-link.is-poster::before{display:none}
 html[lang=ko] body .evidence-visual .evidence-image-link.is-poster img{width:auto;max-width:100%;max-height:420px;aspect-ratio:auto;object-fit:contain!important;border-radius:4px}
 @media (max-width:760px){
- html[lang=ko] .shot-bar{height:16px}
- html[lang=ko] body .portfolio-piece .project-visual,html[lang=ko] body .case-cover[data-case-cover],html[lang=ko] body .evidence-visual .evidence-image-link{border-radius:16px}
+ html[lang=ko] body [data-project-list]{grid-template-columns:1fr;gap:48px}
+ html[lang=ko] body .pf-card .pf-visual,html[lang=ko] body .pf-card.is-feature .pf-visual{aspect-ratio:4/3.4}
+ html[lang=ko] body .pf-card.is-feature .pf-visual.is-series .pf-img:nth-child(n+3){display:none}
+ html[lang=ko] body .pf-card.is-feature .project-caption{display:block}
+ html[lang=ko] body .pf-card.is-feature .project-caption .portfolio-summary{margin-top:8px}
+ html[lang=ko] body .portfolio-piece .project-visual,html[lang=ko] body .pf-card .pf-visual,html[lang=ko] body .case-cover[data-case-cover],html[lang=ko] body .evidence-visual .evidence-image-link{border-radius:16px}
  html[lang=ko] body .case-cover[data-case-cover] .capture-open::before{height:20px}
 }
-@media (prefers-reduced-motion:reduce){html[lang=ko] .shot-frame{transition:none;transform:none}}
+@media (prefers-reduced-motion:reduce){html[lang=ko] .pf-card .pf-img{transition:none;transform:none!important}}

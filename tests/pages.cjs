@@ -43,6 +43,7 @@ const textOverflow = page => page.evaluate(() => [...document.querySelectorAll('
         check(`${tag} ${name}: no text runs off screen`, over.length === 0, over);
         const anchors = await page.evaluate(() => [...document.querySelectorAll('.sb-index a')].map(a => a.getAttribute('href')).filter(h => !document.querySelector(h)));
         check(`${tag} ${name}: page index anchors resolve`, anchors.length === 0, anchors);
+        if (name === 'about' || name === 'team') check(`${tag} ${name}: no work-case section`, await page.evaluate(() => !document.querySelector('#about-work,#team-work,.sb-board')));
         check(`${tag} ${name}: no images broken`, await page.evaluate(() => [...document.querySelectorAll('[data-sub] img')].filter(i => i.complete && i.getClientRects().length && !i.naturalWidth).length === 0));
         if (tag !== 'laptop') {
           await page.evaluate(() => scrollTo({ top: 0, behavior: 'instant' })); await page.waitForTimeout(400);
@@ -64,10 +65,9 @@ const textOverflow = page => page.evaluate(() => [...document.querySelectorAll('
     // TEAM roles + matrix
     await page.goto(origin + '/team/', { waitUntil: 'networkidle' }); await page.waitForSelector('[data-sub].st-ready');
     check('team: hero orbit holds nine roles around one centre', await page.evaluate(() => { const core = document.querySelector('.sb-orbit-core'), c = core.getBoundingClientRect(), t = core.querySelector('span').getBoundingClientRect(); return document.querySelectorAll('.sb-orbit>span').length === 9 && t.left >= c.left && t.right <= c.right && t.top >= c.top && t.bottom <= c.bottom; }));
-    check('team: nine roles, first open', (await page.locator('.sb-role').count()) === 9 && await page.locator('.sb-role').first().evaluate(d => d.open));
-    await page.locator('.sb-role summary').nth(2).click(); await page.waitForTimeout(400);
-    check('team: opening a role closes the others', await page.evaluate(() => { const d = [...document.querySelectorAll('.sb-role')]; return d[2].open && d.filter(x => x.open).length === 1; }));
-    check('team: role chips readable', await page.evaluate(() => { const li = document.querySelector('.sb-role[open] .sb-role-body li'); const c = getComputedStyle(li); return c.color !== c.backgroundColor && li.textContent.trim().length > 2; }));
+    check('team: nine role cards, each with an icon', (await page.locator('.sb-role').count()) === 9 && await page.evaluate(() => [...document.querySelectorAll('.sb-role')].every(r => r.querySelector('.sb-role-ic svg'))));
+    check('team: every card shows a thumbnail or an icon tile', await page.evaluate(() => [...document.querySelectorAll('.sb-role-media')].every(m => m.querySelector('img,svg') && m.getBoundingClientRect().height > 80) && document.querySelectorAll('.sb-role-media img').length >= 4));
+    check('team: roles link to their WORKS service instead of repeating it', await page.evaluate(() => [...document.querySelectorAll('.sb-role a')].every(a => /^\/works\/#[a-z]+$/.test(a.getAttribute('href')))));
     check('team: composition matrix 4 × 9', (await page.locator('.sb-matrix tbody tr').count()) === 4 && (await page.locator('.sb-matrix tbody tr:first-child td').count()) === 9);
     await page.locator('#team-roles').screenshot({ path: path.join(out, 'team-roles.png') });
     // WORKS services index + projects
@@ -77,7 +77,7 @@ const textOverflow = page => page.evaluate(() => [...document.querySelectorAll('
     check('works: hovering a service swaps the preview', await page.evaluate(() => { const v = [...document.querySelectorAll('.sb-svc-panel .sb-svc-detail')].filter(d => !d.hidden); return v.length === 1 && v[0].dataset.for === 'media'; }));
     await page.locator('#services').screenshot({ path: path.join(out, 'works-services.png') });
     await page.locator('#projects').scrollIntoViewIfNeeded(); await page.waitForTimeout(1200);
-    check('works: project list renders framed cards', await page.evaluate(() => document.querySelectorAll('[data-project-list] .shot-frame').length >= 6));
+    check('works: project cards are filled with the work', await page.evaluate(() => { const v = [...document.querySelectorAll('[data-project-list] .pf-visual')]; return v.length >= 6 && v.every(x => x.querySelector('img')) && document.querySelector('[data-project-list] .pf-card.is-feature') && document.querySelector('[data-project-list] .pf-visual.is-series'); }));
     const deep = await browser.newPage({ viewport: { width: 1440, height: 900 } });
     await deep.goto(origin + '/works/#hospital', { waitUntil: 'networkidle' }); await deep.waitForTimeout(1500);
     check('works: deep link selects the service', await deep.evaluate(() => document.querySelector('.sb-svc[aria-pressed=true]')?.dataset.id === 'hospital' && Math.abs(document.getElementById('services').getBoundingClientRect().top) < 140));

@@ -243,17 +243,14 @@ async function interactions(browser, engine, lang) {
       await page.setViewportSize({ width: 1440, height: 1000 });
       await ready(page, prefix + '/team/');
       if (await page.locator('.sb-role').count()) {
-        // Korean TEAM uses native disclosure rows (details/summary) introduced on 2026-10-14.
+        // Korean TEAM shows nine role cards (icon + thumbnail) that link to the matching WORKS service.
         const roles = page.locator('.sb-role');
         ensure(await roles.count() === 9, { issue: 'The final scope has nine roles', actual: await roles.count() });
-        await roles.nth(8).locator('summary').focus(); await page.keyboard.press('Enter');
-        ensure(await roles.nth(8).evaluate(d => d.open), 'Enter did not open the role');
-        await roles.nth(3).locator('summary').focus(); await page.keyboard.press(' '); await page.waitForTimeout(300);
-        const open = await page.evaluate(() => [...document.querySelectorAll('.sb-role')].map((d, i) => d.open ? i : -1).filter(i => i >= 0));
-        ensure(JSON.stringify(open) === '[3]', { open });
+        const links = await roles.locator('a').evaluateAll(as => as.map(a => a.getAttribute('href')));
+        ensure(links.length === 9 && links.every(h => /^\/works\/#[a-z]+$/.test(h)), { links });
+        await roles.nth(8).locator('a').focus();
+        ensure(await roles.nth(8).locator('a').evaluate(a => a === document.activeElement), 'Role card is not keyboard focusable');
         await page.setViewportSize({ width: 390, height: 844 });
-        await roles.nth(0).locator('summary').click();
-        ensure(await roles.nth(0).evaluate(d => d.open), 'Mobile role did not open');
         ensure(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), 'The mobile team stage overflows');
         return { roles: 9 };
       }

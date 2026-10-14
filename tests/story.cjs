@@ -97,6 +97,7 @@ const visibleText = (page, sel) => page.locator(sel).evaluateAll(els => els.filt
     await scrollToScene(page, 'st-gallery', .5);
     const g1 = await page.evaluate(() => ({ c: [...document.querySelectorAll('.sc-item')].findIndex(i => i.classList.contains('center')), cap: document.querySelector('[data-sc-title]').textContent }));
     const g1title = await page.evaluate(i => document.querySelectorAll('.sc-item .sc-back h3')[i].textContent, g1.c);
+    check('gallery: brand work and live sites only, filling the card', await page.evaluate(() => { const items = [...document.querySelectorAll('.sc-item')]; return items.length === 10 && items.every(it => !/프로토타입|콘셉트/.test(it.querySelector('.sc-back small').textContent) && it.querySelector('.sc-front .sc-img')); }));
     check('gallery: corridor advances with scroll', g0 === 0 && g1.c >= 4 && g1.c <= 5 && g1.cap === g1title, { g0, g1, g1title });
     await page.screenshot({ path: path.join(out, 'd-06-gallery-mid.png') });
     const center = page.locator('.sc-item.center');
@@ -230,10 +231,10 @@ const visibleText = (page, sel) => page.locator(sel).evaluateAll(els => els.filt
     await g.goto(origin + '/works/', { waitUntil: 'networkidle' });
     await g.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 600) { scrollTo({ top: y, behavior: 'instant' }); await new Promise(r => setTimeout(r, 120)); } });
     await g.waitForTimeout(800);
-    const boards = await g.evaluate(() => [...document.querySelectorAll('.portfolio-piece[data-project-slug]')].map(c => ({ slug: c.dataset.projectSlug, frame: !!c.querySelector('.shot-frame'), poster: !!c.querySelector('.portfolio-shot.is-poster') })).filter(c => c.slug !== 'all-the-comm'));
-    check('works: every capture sits in a frame', boards.length >= 6 && boards.every(b => b.frame), boards);
-    check('works: posters and books are staged as objects', boards.filter(b => ['city-culture', 'sales-rehearsal', 'patient-guide'].includes(b.slug)).every(b => b.poster) && boards.filter(b => ['ezylens-studio', 'kings-franchise'].includes(b.slug)).every(b => !b.poster), boards);
-    check('works: service previews framed', await g.evaluate(() => document.querySelectorAll('.sb-svc-panel .sb-board .sb-chrome').length === 4 && document.querySelectorAll('.sb-svc-panel .sb-board.is-poster').length === 3));
+    const boards = await g.evaluate(() => [...document.querySelectorAll('.portfolio-piece[data-project-slug]')].map(c => { const v = c.querySelector('.pf-visual'), shown = [...(v?.querySelectorAll('img') || [])].filter(i => getComputedStyle(i).display !== 'none'); return { slug: c.dataset.projectSlug, imgs: shown.length, series: !!v?.classList.contains('is-series'), fill: shown.every(i => i.getBoundingClientRect().height >= v.getBoundingClientRect().height - 2 || v.classList.contains('is-tall')) }; }));
+    check('works: every card is filled with its work', boards.length >= 6 && boards.every(b => b.imgs >= 1 && b.fill), boards);
+    check('works: series show several pieces, single screens fill alone', boards.filter(b => ['eyewear-campaign', 'sales-rehearsal'].includes(b.slug)).every(b => b.series && b.imgs >= 2) && boards.filter(b => ['kings-franchise', 'soulreset', 'jonghae-community'].includes(b.slug)).every(b => !b.series && b.imgs === 1), boards);
+    check('works: service previews show the work', await g.evaluate(() => document.querySelectorAll('.sb-svc-panel .sb-board.is-series').length === 4 && document.querySelectorAll('.sb-svc-panel .sb-board .sb-chrome').length === 2));
     await g.locator('.portfolio-piece').first().scrollIntoViewIfNeeded();
     await g.locator('.portfolio-piece').first().screenshot({ path: path.join(out, 'works-card.png') });
     for (const [slug, poster] of [['soulreset', false], ['city-culture', true]]) {

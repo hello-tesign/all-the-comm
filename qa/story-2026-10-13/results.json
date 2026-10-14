@@ -1,7 +1,7 @@
 {
- "at": "2026-10-14T01:17:05.085Z",
- "origin": "http://127.0.0.1:4183",
- "total": 65,
+ "at": "2026-10-14T07:05:32.502Z",
+ "origin": "http://127.0.0.1:4300",
+ "total": 66,
  "failed": 0,
  "results": [
   {
@@ -100,15 +100,20 @@
    "detail": null
   },
   {
+   "name": "gallery: brand work and live sites only, filling the card",
+   "pass": true,
+   "detail": null
+  },
+  {
    "name": "gallery: corridor advances with scroll",
    "pass": true,
    "detail": {
     "g0": 0,
     "g1": {
      "c": 4,
-     "cap": "Kings"
+     "cap": "김부각 브랜딩"
     },
-    "g1title": "Kings"
+    "g1title": "김부각 브랜딩"
    }
   },
   {
@@ -117,7 +122,7 @@
    "detail": {
     "f": true,
     "focus": true,
-    "link": "/works/project/kings-franchise/"
+    "link": "/works/project/bugak-branding/"
    }
   },
   {
@@ -340,79 +345,91 @@
    "detail": null
   },
   {
-   "name": "works: every capture sits in a frame",
+   "name": "works: every card is filled with its work",
    "pass": true,
    "detail": [
     {
-     "slug": "kfood-dashboard",
-     "frame": true,
-     "poster": false
-    },
-    {
-     "slug": "kings-franchise",
-     "frame": true,
-     "poster": false
-    },
-    {
-     "slug": "content-operations",
-     "frame": true,
-     "poster": false
+     "slug": "soulreset",
+     "imgs": 1,
+     "series": false,
+     "fill": true
     },
     {
      "slug": "sales-rehearsal",
-     "frame": true,
-     "poster": true
+     "imgs": 2,
+     "series": true,
+     "fill": true
     },
     {
-     "slug": "ezylens-studio",
-     "frame": true,
-     "poster": false
+     "slug": "jonghae-community",
+     "imgs": 1,
+     "series": false,
+     "fill": true
     },
     {
-     "slug": "city-culture",
-     "frame": true,
-     "poster": true
+     "slug": "w-oil-campaign",
+     "imgs": 1,
+     "series": true,
+     "fill": true
+    },
+    {
+     "slug": "kings-franchise",
+     "imgs": 1,
+     "series": false,
+     "fill": true
+    },
+    {
+     "slug": "eyewear-campaign",
+     "imgs": 2,
+     "series": true,
+     "fill": true
     }
    ]
   },
   {
-   "name": "works: posters and books are staged as objects",
+   "name": "works: series show several pieces, single screens fill alone",
    "pass": true,
    "detail": [
     {
-     "slug": "kfood-dashboard",
-     "frame": true,
-     "poster": false
-    },
-    {
-     "slug": "kings-franchise",
-     "frame": true,
-     "poster": false
-    },
-    {
-     "slug": "content-operations",
-     "frame": true,
-     "poster": false
+     "slug": "soulreset",
+     "imgs": 1,
+     "series": false,
+     "fill": true
     },
     {
      "slug": "sales-rehearsal",
-     "frame": true,
-     "poster": true
+     "imgs": 2,
+     "series": true,
+     "fill": true
     },
     {
-     "slug": "ezylens-studio",
-     "frame": true,
-     "poster": false
+     "slug": "jonghae-community",
+     "imgs": 1,
+     "series": false,
+     "fill": true
     },
     {
-     "slug": "city-culture",
-     "frame": true,
-     "poster": true
+     "slug": "w-oil-campaign",
+     "imgs": 1,
+     "series": true,
+     "fill": true
+    },
+    {
+     "slug": "kings-franchise",
+     "imgs": 1,
+     "series": false,
+     "fill": true
+    },
+    {
+     "slug": "eyewear-campaign",
+     "imgs": 2,
+     "series": true,
+     "fill": true
     }
    ]
   },
   {
-   "name": "works: service previews framed",
+   "name": "works: service previews show the work",
    "pass": true,
    "detail": null
   },

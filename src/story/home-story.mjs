@@ -2,7 +2,7 @@
 // 사이 장면은 올더커뮤니케이션의 판단으로 채운 더미 콘텐츠입니다. 목록은 docs/home-story-2026-10-13.md.
 // 시각 언어: 로고 심볼의 실루엣(오른쪽 아래만 각진 원)을 창·도형·성장 단계로 반복합니다.
 import { featuredCase } from './sample-cases.mjs';
-import { showcase, showcaseItems } from './showcase.mjs';
+import { showcase, showcaseItems, cardImage } from './showcase.mjs';
 
 const E = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const pad = n => String(n).padStart(2, '0');
@@ -11,8 +11,8 @@ export function homeStory({ homeServices, stages, arrow }) {
   const go = (href, label, cls = '') => `<a class="st-btn ${cls}" href="${href}"><span>${label}</span>${arrow}</a>`;
 
   // 01 — 회사의 역할. 로고 실루엣 창 안에서 실제 작업 화면이 흐르고, 스크롤하면 창이 화면 전체로 열립니다.
-  const reel = showcaseItems.filter(it => it.kind !== 'poster');
-  const col = (list, cls) => `<div class="st-reel ${cls}">${[...list, ...list].map(it => `<img src="/showcase/${it.img}-600.webp" alt="" width="600" height="375" decoding="async">`).join('')}</div>`;
+  const reel = showcaseItems;
+  const col = (list, cls) => `<div class="st-reel ${cls}">${[...list, ...list].map(it => `<img src="${cardImage(it.img, 450)}" alt="" width="450" height="600" decoding="async">`).join('')}</div>`;
   const hero = `
 <section id="st-hero" class="st-pin" data-scene="hero" data-chapter="01|회사의 역할" style="--h:250">
  <div class="st-sticky">
@@ -25,11 +25,11 @@ export function homeStory({ homeServices, stages, arrow }) {
    </div>
    <div class="st-mark" aria-hidden="true">
     <span class="st-mark-ring r3"></span><span class="st-mark-ring r2"></span><span class="st-mark-ring r1"></span>
-    <div class="st-mark-window">${col(reel.slice(0, 4), 'up')}${col(reel.slice(3), 'down')}</div>
+    <div class="st-mark-window">${col(reel.filter((_, i) => i % 2 === 0), 'up')}${col(reel.filter((_, i) => i % 2), 'down')}</div>
    </div>
   </div>
   <div class="st-hero-end"><p>기획부터 운영까지,<br><em>한 팀이 끝까지.</em></p></div>
-  <div class="st-hero-foot st-shell" aria-hidden="true"><span>SCROLL</span><i></i><span>전략 · 디자인 · 콘텐츠 · 광고 · IT · PR</span></div>
+  <div class="st-hero-foot st-shell" aria-hidden="true"><span>SCROLL</span><i></i></div>
  </div>
 </section>`;
 
@@ -143,7 +143,6 @@ export function homeStory({ homeServices, stages, arrow }) {
    ${[[10, '업무 영역', '전략부터 언론홍보까지'], [9, '수행 역할', '프로젝트별 전문 인력 구성'], [4, '진행 단계', '분석 · 전략 · 실행 · 보고'], [1, '전담 창구', '모든 소통을 한곳에서']].map(([n, k, s]) => `<div class="st-num st-rv"><dt><b data-st-count="${n}">${n}</b></dt><dd><span>${k}</span><small>${s}</small></dd></div>`).join('')}
   </dl>
  </div>
- <div class="st-ticker" aria-hidden="true"><div>${Array(2).fill(`<span>${homeServices.map(s => E(s.ko)).join(' <i></i> ')} <i></i> </span>`).join('')}</div></div>
 </section>`;
 
   // 09 — 맡기는 방식 비교. 표로 한 번에 읽고, 올더커뮤니케이션 열은 띠로 강조합니다.
@@ -201,7 +200,6 @@ export function homeStory({ homeServices, stages, arrow }) {
   <p class="st-eyebrow">NEXT STEP</p>
   <h2 class="st-next-title" data-st-words>어디서부터 맡길지, <em>함께 정합니다.</em></h2>
   <ol class="st-asks">${asks.map(([t, d, href], i) => `<li class="st-rv" style="--d:${i * 90}ms"><a href="${href}"><small>${pad(i + 1)}</small><b>${t}</b><span>${d}</span>${arrow}</a></li>`).join('')}</ol>
-  <p class="st-flow st-rv">${['문의 접수', '담당자 회신·상담', '제안서·견적', '착수'].map((s, i) => `<span><small>${pad(i + 1)}</small>${s}</span>`).join('<i aria-hidden="true"></i>')}</p>
  </div>
 </section>`;
 

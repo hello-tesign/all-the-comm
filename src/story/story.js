@@ -185,11 +185,12 @@ export function initStory() {
     const W = gItems[0].offsetWidth;
     gItems.forEach((it, i) => {
       const o = i - c, a = Math.abs(o), s = Math.sign(o);
-      const x = s * (Math.min(a, 1) * W * .7 + Math.max(a - 1, 0) * W * .36);
-      const z = -(Math.min(a, 1) * 260 + Math.max(a - 1, 0) * 190);
-      const ry = -s * (Math.min(a, 1) * 50 + Math.max(a - 1, 0) * 7);
+      // a near-flat filmstrip: neighbours sit beside the centre instead of folding behind it
+      const x = s * (Math.min(a, 1) * W * 1.12 + Math.max(a - 1, 0) * W * 1.1);
+      const z = -(Math.min(a, 1) * 160 + Math.max(a - 1, 0) * 120);
+      const ry = -s * (Math.min(a, 1) * 12 + Math.max(a - 1, 0) * 3);
       it.style.transform = `translate3d(${x.toFixed(1)}px,0,${z.toFixed(1)}px) rotateY(${ry.toFixed(2)}deg)`;
-      it.style.setProperty('--dim', Math.min(.78, a * .3).toFixed(3));
+      it.style.setProperty('--dim', Math.min(.6, a * .24).toFixed(3));
       it.style.zIndex = String(1000 - Math.round(a * 100));
       it.style.visibility = a > 4.6 ? 'hidden' : 'visible';
       it.classList.toggle('center', a < .5);

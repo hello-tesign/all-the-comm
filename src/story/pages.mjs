@@ -2,10 +2,14 @@
 // 고객 요구 콘텐츠(회사 소개·업무 기준 5, 과정 4단계, 역할 9, 서비스 10·프로젝트, 문의서)는 그대로 두고
 // 화면 구성만 바꿨습니다. 자체 판단으로 더한 문구는 docs/home-story-2026-10-13.md에 표시합니다.
 import { portfolio } from '../data/portfolio.mjs';
-import { showcaseItems } from './showcase.mjs';
+import { brandWork } from '../data/portfolio-brand-work.mjs';
+import { cardImage } from './showcase.mjs';
 
 const E = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const pad = n => String(n).padStart(2, '0');
+const projects = [...portfolio, ...brandWork];
+// 브랜드 의뢰 작업의 연작: WORKS 서비스 미리보기에서 두 장을 나란히 꽉 채워 보여 줍니다.
+const series = { 'bugak-branding': ['bugak/01', 'bugak/03'], 'sojukdoo-concept': ['sojukdoo-ads/02', 'sojukdoo-ads/09'], 'eyewear-campaign': ['eyewear/01', 'eyewear/10'], 'w-oil-campaign': ['w-oil/11', 'w-oil/06'] };
 const showKey = { 'jonghae-community': 'jonghae', soulreset: 'soulreset', 'ezylens-studio': 'ezylens', 'city-culture': 'city', 'kings-franchise': 'kings', 'sales-rehearsal': 'book', 'tesign-radar': 'radar', 'patient-guide': 'patient', 'review-atelier': 'atelier', 'kfood-dashboard': 'kfood' };
 const posterKeys = new Set(['city', 'book', 'patient']);
 const tints = ['#59e3c6', '#c9a77a', '#8fb7ff', '#f2b45c', '#c1a3ff', '#7be0b8'];
@@ -16,7 +20,8 @@ export function subPages({ services, stages, roles, principles, company, arrow }
 
   // 작업 화면 보드: 화면 캡처는 브라우저 프레임, 포스터·책은 실물 배치
   const board = (slug, i = 0, { caption = true, eager = false } = {}) => {
-    const p = portfolio.find(x => x.slug === slug); if (!p) throw Error('Unknown project ' + slug);
+    const p = projects.find(x => x.slug === slug); if (!p) throw Error('Unknown project ' + slug);
+    if (series[slug]) return `<figure class="sb-board is-series"><a class="sb-board-link" href="/works/project/${slug}/" aria-label="${E(p.title)} 프로젝트 보기">${series[slug].map(f => `<img src="/evidence/brand-work/${f}.webp" alt="" loading="${eager ? 'eager' : 'lazy'}" decoding="async">`).join('')}</a>${caption ? `<figcaption><small>${E(p.type)}</small><b>${E(p.title)}</b><span>${E(p.summary)}</span></figcaption>` : ''}</figure>`;
     const key = showKey[slug], poster = key ? posterKeys.has(key) : false;
     const src = key ? `/showcase/${key}.webp` : p.coverImage;
     return `<figure class="sb-board${poster ? ' is-poster' : ''}" style="--tint:${tints[i % tints.length]}">
@@ -39,10 +44,9 @@ export function subPages({ services, stages, roles, principles, company, arrow }
  <nav class="st-shell sb-index" aria-label="페이지 목차">${index.map(([id, t], i) => `<a href="#${id}"><small>${pad(i + 1)}</small>${t}</a>`).join('')}</nav>
 </section>`;
 
-  const reel = list => {
-    const items = list.map(k => showcaseItems.find(s => s.img === k)).filter(Boolean);
-    const col = (arr, cls) => `<div class="st-reel ${cls}">${[...arr, ...arr].map(it => `<img src="/showcase/${it.img}-600.webp" alt="" width="600" height="375" decoding="async">`).join('')}</div>`;
-    return col(items.slice(0, 3), 'up') + col(items.slice(2), 'down');
+  const reel = keys => {
+    const col = (arr, cls) => `<div class="st-reel ${cls}">${[...arr, ...arr].map(k => `<img src="${cardImage(k, 450)}" alt="" width="450" height="600" decoding="async">`).join('')}</div>`;
+    return col(keys.filter((_, i) => i % 2 === 0), 'up') + col(keys.filter((_, i) => i % 2), 'down');
   };
   const head = (eyebrow, h2, aside = '') => `<div class="sb-head"><div><p class="st-eyebrow">${eyebrow}</p><h2 class="st-h2" data-st-words>${h2}</h2></div>${aside ? `<p class="sb-aside">${aside}</p>` : ''}</div>`;
   const ctaBand = (title, body, href, label) => `
@@ -53,7 +57,7 @@ export function subPages({ services, stages, roles, principles, company, arrow }
   /* ---------------- ABOUT ---------------- */
   const partners = ['강남더블유안과', '리드힐', '리샘', '새빛', '참진한의원', '함소아의원'];
   const about = `<div class="st sb" data-sub="about">
-${hero({ n: 1, label: 'ABOUT US', title: ['사업을 이해하는 기획,', '<em>현장을 아는 실행.</em>'], lead: '브랜드·콘텐츠·광고·PR·웹을 맡는 종합광고대행사입니다.<br>마케팅팀이 없는 회사에는 외부의 마케팅팀이 되고, 있는 회사에는 부족한 손이 됩니다.', art: reel(['jonghae', 'soulreset', 'kings', 'radar', 'ezylens']), index: [['about-role', '하는 일'], ['about-health', '의료 분야 배경'], ['about-work', '제작 사례'], ['about-principles', '일하는 기준'], ['about-company', '회사 정보']] })}
+${hero({ n: 1, label: 'ABOUT US', title: ['사업을 이해하는 기획,', '<em>현장을 아는 실행.</em>'], lead: '브랜드·콘텐츠·광고·PR·웹을 맡는 종합광고대행사입니다.<br>마케팅팀이 없는 회사에는 외부의 마케팅팀이 되고, 있는 회사에는 부족한 손이 됩니다.', art: `<div class="sb-pillars">${[['기획', 'PLAN'], ['제작', 'MAKE'], ['운영', 'RUN']].map(([k, en], i) => `<span style="--i:${i}"><small>${en}</small>${k}</span>`).join('')}<b>한 팀</b></div>`, index: [['about-role', '하는 일'], ['about-health', '의료 분야 배경'], ['about-principles', '일하는 기준'], ['about-company', '회사 정보']] })}
 <section id="about-role" class="st-sec st-light">
  <div class="st-shell">
   ${head('WHY WE ARE HERE', '기업의 마케팅을 맡는 <em>외부 팀.</em>', '전담 마케팅팀이 필요한 기업, 제작 역량을 보완하려는 사내 팀과 일합니다. 전략 수립부터 콘텐츠·디자인 제작, 광고와 홍보 운영까지 프로젝트에 필요한 업무를 맡습니다.')}
@@ -73,12 +77,6 @@ ${hero({ n: 1, label: 'ABOUT US', title: ['사업을 이해하는 기획,', '<em
   <div class="sb-partners"><p><b>의료 분야 파트너</b><span>기존 홈페이지에 소개된 파트너</span></p><ul>${partners.map(x => `<li>${x}</li>`).join('')}</ul>${link('/works/#hospital', '의료 분야 업무 보기')}</div>
  </div>
 </section>
-<section id="about-work" class="st-sec st-light">
- <div class="st-shell">
-  ${head('제작 사례', '기관과 서비스의 <em>웹사이트 제작.</em>', '기관 소개와 자료 공개, 여행 정보와 상담. 방문 목적에 맞춰 정보 구조와 화면을 제작한 두 사례입니다.')}
-  <div class="sb-boards two">${board('jonghae-community', 0)}${board('soulreset', 1)}</div>
- </div>
-</section>
 <section id="about-principles" class="st-sec st-paper">
  <div class="st-shell">
   ${head('WHAT WE BELIEVE', '일하는 기준 <em>다섯 가지.</em>')}
@@ -87,11 +85,11 @@ ${hero({ n: 1, label: 'ABOUT US', title: ['사업을 이해하는 기획,', '<em
 </section>
 <section id="about-company" class="st-sec st-light">
  <div class="st-shell sb-company">
-  <div><p class="st-eyebrow">OUR DIRECTION</p><h2 class="st-h2" data-st-words>기업의 마케팅을 <em>기획하고 실행합니다.</em></h2><p class="sb-aside">마케팅팀이 없어도 마케팅이 멈추지 않도록, 처음 상담부터 운영과 보고까지 같은 팀이 맡습니다.</p></div>
+  <div><p class="st-eyebrow">COMPANY</p><h2 class="st-h2" data-st-words>회사 <em>정보.</em></h2></div>
   <dl class="sb-facts">${[['회사', company.legalName], ['대표', company.representative], ['위치', company.address], ['연락', `<a href="mailto:${company.email}">${company.email}</a><br><a href="tel:${company.phone.replace(/-/g, '')}">${company.phone}</a>`], ['상담', company.hours]].map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
  </div>
 </section>
-${ctaBand('어디서부터 맡길지, <em>함께 정합니다.</em>', '필요한 업무와 일정, 준비된 자료를 알려 주세요. 담당자가 범위를 함께 정리합니다.', '/contact/', '프로젝트 상담')}
+${ctaBand('회사 소개서가 <em>필요하신가요?</em>', '서비스 범위와 진행 방식을 정리한 자료를 보내 드립니다. 맡길 일이 정해졌다면 바로 상담도 가능합니다.', '/contact/?service=other', '소개 자료 요청')}
 </div>`;
 
   /* ---------------- PROCESS ---------------- */
@@ -122,7 +120,7 @@ ${hero({ n: 2, label: 'OUR PROCESS', title: ['시작부터 납품까지,', '<em>
 </section>
 <section id="process-share" class="st-sec st-paper">
  <div class="st-shell">
-  ${head('목표는 분명하게. 진행은 투명하게.', '진행하는 동안 <em>공유하는 것.</em>', '목표와 예산에 맞춰 기획하고, 진행과 결과를 함께 확인합니다. 목표·예산·일정부터 함께 정합니다.')}
+  ${head('목표는 분명하게. 진행은 투명하게.', '진행하는 동안 <em>공유하는 것.</em>', '목표와 예산에 맞춰 기획하고, 진행과 결과를 함께 확인합니다.')}
   <ol class="sb-rows">${[['진행 상황', '일정과 진행 단계, 다음에 확인할 일을 담당자에게 정기적으로 공유합니다.'], ['수정 요청', '요청 내용과 반영 여부를 기록으로 남겨 같은 수정이 반복되지 않게 합니다.'], ['집행 내역', '광고·매체 집행은 금액과 기간, 결과를 함께 보고합니다.'], ['변경 사항', '추가 요청은 비용·일정·작업 범위를 먼저 확인하고 합의한 뒤 반영합니다.']].map(([t, b], i) => `<li class="st-rv"><small>${pad(i + 1)}</small><h3>${t}</h3><p>${b}</p></li>`).join('')}</ol>
  </div>
 </section>
@@ -130,7 +128,19 @@ ${hero({ n: 2, label: 'OUR PROCESS', title: ['시작부터 납품까지,', '<em>
 </div>`;
 
   /* ---------------- TEAM ---------------- */
-  const roleItems = [services[0].items, services[1].items, services[2].items, ['웹·배너·브랜드 그래픽', '카탈로그·인쇄 홍보물', '패키지·사인 디자인'], services[3].items, services[4].items, services[5].items, services[8].items, services[9].items];
+  // 역할 카드: 라인 아이콘 + 대표 산출물 썸네일(없으면 아이콘 타일). 산출물 목록은 WORKS 업무별 안내에 있으므로 반복하지 않고 연결만 합니다.
+  const roleLook = [
+    ['strategy', 'bugak', '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="M12 12l7-7M15.5 4.5H19v3.5"/>'],
+    ['digital', '', '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M7 13l3-3 3 2 4-5M8 21h8M12 17v4"/>'],
+    ['content', 'book', '<path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/>'],
+    ['content', 'coffee', '<path d="M12 3l6 8.5L12 21l-6-9.5z"/><circle cx="12" cy="12" r="1.8"/><path d="M12 3v7.2"/>'],
+    ['video', '', '<rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.2v5.6l4.8-2.8z"/>'],
+    ['media', 'woil', '<rect x="3" y="4" width="18" height="11" rx="1.5"/><path d="M8 15v5M16 15v5M6 20h12M7 9.5h7"/>'],
+    ['influencer', '', '<circle cx="10" cy="8" r="3.5"/><path d="M3.5 20c.8-3.6 3.4-5.5 6.5-5.5 1.3 0 2.5.3 3.5.9"/><path d="M18 13l1.1 2.3 2.4.3-1.8 1.7.5 2.4-2.2-1.2-2.2 1.2.5-2.4-1.8-1.7 2.4-.3z"/>'],
+    ['it', 'jonghae', '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M9.5 8.3L7 10.8l2.5 2.5M14.5 8.3l2.5 2.5-2.5 2.5M8 21h8M12 17v4"/>'],
+    ['pr', '', '<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2M7 9h7M7 12.5h7M7 16h4"/>']
+  ];
+  const icon = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   const roleKeys = ['전략', '디지털', '콘텐츠', '디자인', '영상', '미디어', '인플루언서', 'IT', '언론홍보'];
   const matrix = [
     ['브랜드 런칭', [2, 1, 1, 2, 1, 0, 1, 0, 1]],
@@ -139,14 +149,18 @@ ${hero({ n: 2, label: 'OUR PROCESS', title: ['시작부터 납품까지,', '<em>
     ['시즌 캠페인', [1, 2, 1, 1, 2, 2, 2, 0, 1]]
   ];
   const team = `<div class="st sb" data-sub="team">
-${hero({ n: 3, label: 'TEAM', title: ['한 프로젝트,', '<em>아홉 가지 전문성.</em>'], lead: '프로젝트의 목적에 맞춰 필요한 역할을 연결합니다.<br>아홉 명이나 아홉 개 부서가 아니라, 아홉 가지 수행 역할입니다.', art: `<div class="sb-orbit">${roles.map(([ko], i) => `<span style="--a:${i * 40}deg;--i:${i}">${E(ko)}</span>`).join('')}<div class="sb-orbit-core"><b>1</b><span>전담 창구</span></div></div>`, index: [['team-roles', '아홉 가지 역할'], ['team-matrix', '프로젝트별 구성'], ['team-work', '제작물']] })}
+${hero({ n: 3, label: 'TEAM', title: ['한 프로젝트,', '<em>아홉 가지 전문성.</em>'], lead: '프로젝트의 목적에 맞춰 필요한 역할을 연결합니다.<br>아홉 명이나 아홉 개 부서가 아니라, 아홉 가지 수행 역할입니다.', art: `<div class="sb-orbit">${roles.map(([ko], i) => `<span style="--a:${i * 40}deg;--i:${i}">${E(ko)}</span>`).join('')}<div class="sb-orbit-core"><b>1</b><span>전담 창구</span></div></div>`, index: [['team-roles', '아홉 가지 역할'], ['team-matrix', '프로젝트별 구성']] })}
 <section id="team-roles" class="st-sec st-light">
  <div class="st-shell">
-  ${head('THE PEOPLE BEHIND THE WORK', '역할마다 <em>맡는 일.</em>', '역할을 열면 주요 산출물을 볼 수 있습니다. 프로젝트에 따라 담당 역할과 협업 범위를 정합니다.')}
-  <div class="sb-roles">${roles.map(([ko, en, body], i) => `<details class="role-item sb-role"${i ? '' : ' open'}>
-   <summary><small>${pad(i + 1)}</small><b>${E(ko)}</b><span>${E(body)}</span><i aria-hidden="true"></i></summary>
-   <div class="sb-role-body"><h3>주요 산출물</h3><ul>${roleItems[i].map(x => `<li>${E(x)}</li>`).join('')}</ul><em>${E(en)}</em></div>
-  </details>`).join('')}</div>
+  ${head('THE PEOPLE BEHIND THE WORK', '역할마다 <em>맡는 일.</em>', '프로젝트에 따라 담당 역할과 협업 범위를 정합니다. 역할을 누르면 해당 업무의 제공 내용으로 이어집니다.')}
+  <ol class="sb-role-grid">${roles.map(([ko, en, body], i) => { const [id, thumb, ic] = roleLook[i]; return `<li class="sb-role st-rv" style="--d:${(i % 3) * 80}ms;--tint:${tints[i % tints.length]}">
+   <a href="/works/#${id}">
+    <span class="sb-role-media${thumb ? '' : ' is-icon'}" aria-hidden="true">${thumb ? `<img src="${cardImage(thumb, 450)}" alt="" loading="lazy" decoding="async">` : icon(ic)}</span>
+    <span class="sb-role-head"><span class="sb-role-ic">${icon(ic)}</span><small>${pad(i + 1)}</small><em>${E(en)}</em></span>
+    <b>${E(ko)}</b>
+    <span class="sb-role-txt">${E(body)}</span>
+   </a>
+  </li>`; }).join('')}</ol>
  </div>
 </section>
 <section id="team-matrix" class="st-sec st-paper">
@@ -160,17 +174,11 @@ ${hero({ n: 3, label: 'TEAM', title: ['한 프로젝트,', '<em>아홉 가지 �
   <p class="sb-legend"><span class="dot d2"></span>주도 <span class="dot d1"></span>참여 · 구성 예시</p>
  </div>
 </section>
-<section id="team-work" class="st-sec st-light">
- <div class="st-shell">
-  ${head('EXPERTISE IN PRACTICE', '저술·편집과 <em>브랜드 웹 제작.</em>', '원고 구성부터 지면 편집까지, 브랜드 소개부터 가맹 상담 화면까지 제작했습니다.')}
-  <div class="sb-boards two">${board('sales-rehearsal', 3)}${board('kings-franchise', 4)}</div>
- </div>
-</section>
 ${ctaBand('프로젝트 전체부터 <em>개별 업무까지.</em>', '원고 편집, 콘텐츠 제작, 웹 개발 등 기존 팀에 필요한 업무만 맡길 수 있습니다. 착수 전에 산출물과 검토 시점을 협의합니다.', '/contact/', '업무 문의')}
 </div>`;
 
   /* ---------------- WORKS (서비스 10 + 프로젝트 목록) ---------------- */
-  const related = { strategy: 'sojukdoo-concept', digital: 'jonghae-community', content: 'sales-rehearsal', media: 'city-culture', hospital: 'patient-guide', consulting: 'kfood-dashboard', it: 'ezylens-studio' };
+  const related = { strategy: 'bugak-branding', digital: 'sojukdoo-concept', content: 'eyewear-campaign', media: 'w-oil-campaign', hospital: 'patient-guide', consulting: 'kfood-dashboard', it: 'jonghae-community' };
   const preview = (s, i) => related[s.id] ? board(related[s.id], i, { caption: false }) : `<div class="sb-board sb-board-empty" style="--tint:${tints[i % tints.length]}"><b>${E(s.ko)}</b><span>관련 사례를 준비하고 있습니다.<br>범위와 방식은 상담으로 먼저 안내해 드립니다.</span></div>`;
   const detail = (s, i, hidden = i > 0) => `<div class="sb-svc-detail" data-for="${s.id}"${hidden ? ' hidden' : ''}>
     ${preview(s, i)}
@@ -178,7 +186,7 @@ ${ctaBand('프로젝트 전체부터 <em>개별 업무까지.</em>', '원고 편
      <div class="sb-svc-act">${related[s.id] ? link(`/works/project/${related[s.id]}/`, '관련 작업 보기') : ''}${link(`/contact/?service=${s.id}`, '이 업무 상담')}</div></div>
    </div>`;
   const worksTop = `<div class="st sb" data-sub="works">
-${hero({ n: 4, label: 'WORKS', title: ['마케팅의 전 과정,', '<em>필요한 업무부터.</em>'], lead: '브랜드 기획부터 콘텐츠, 광고 운영, 웹 개발까지.<br>업무별 제공 내용과 실제 제작물을 확인하세요.', art: reel(['ezylens', 'kfood', 'atelier', 'jonghae', 'radar']), index: [['services', `제공 서비스 ${services.length}`], ['projects', '프로젝트']] })}
+${hero({ n: 4, label: 'WORKS', title: ['마케팅의 전 과정,', '<em>필요한 업무부터.</em>'], lead: '브랜드 기획부터 콘텐츠, 광고 운영, 웹 개발까지.<br>업무별 제공 내용과 실제 제작물을 확인하세요.', art: reel(['eyewear', 'jonghae', 'coffee', 'woil', 'soulreset', 'bugak', 'kings', 'microplastic']), index: [['services', `제공 서비스 ${services.length}`], ['projects', '프로젝트']] })}
 <section id="services" class="st-sec st-light" data-capabilities-index>
  <div class="st-shell">
   ${head('OUR CAPABILITIES', `열 가지 업무, <em>한 팀의 연결.</em>`, '업무에 마우스를 올리거나 눌러 보세요. 제공 내용과 관련 작업, 상담으로 이어집니다.')}
