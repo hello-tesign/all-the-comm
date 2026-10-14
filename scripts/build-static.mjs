@@ -27,7 +27,7 @@ const server=spawn(process.execPath,[path.join(root,'scripts/server.mjs')],{cwd:
 const stopped=new Promise(resolve=>server.once('exit',resolve));
 try{
  for(let i=0;;i++){try{if((await fetch(origin+'/api/health')).ok)break;}catch{}if(i>100||server.exitCode!==null)throw Error('Snapshot server did not start');await new Promise(r=>setTimeout(r,100));}
- for(const script of ['import-portfolio','update-selfcase-evidence','publish-diverse-portfolio','publish-refined-portfolio','publish-editorial-portfolio'])await node([path.join(root,'scripts',script+'.mjs')],work);
+ for(const script of ['import-portfolio','update-selfcase-evidence','publish-diverse-portfolio','publish-refined-portfolio','publish-editorial-portfolio','publish-brand-work'])await node([path.join(root,'scripts',script+'.mjs')],work);
 
  const get=async url=>{const r=await fetch(origin+url);if(!r.ok)throw Error(`${url}: ${r.status}`);return r;};
  const text=async url=>(await get(url)).text();

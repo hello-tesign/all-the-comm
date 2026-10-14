@@ -157,6 +157,13 @@ html[lang=ko] body[data-case-slug=sales-rehearsal] .case-cover img{display:block
 html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery]{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 32px}
 html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery] img{display:block;width:auto;max-width:100%;height:auto;max-height:760px;margin-inline:auto}
 html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery] .capture-open{padding:24px;background:var(--editorial-surface)}
+/* Poster, label and campaign cases: keep the cover inside the viewport like the book case. */
+html[lang=ko] body:is([data-case-slug=bugak-branding],[data-case-slug=coffee-package],[data-case-slug=eyewear-campaign],[data-case-slug=microplastic-tee],[data-case-slug=graphic-tee],[data-case-slug=w-oil-campaign],[data-case-slug=sojukdoo-concept]) .case-cover{background:var(--editorial-surface);padding:32px}
+html[lang=ko] body:is([data-case-slug=bugak-branding],[data-case-slug=coffee-package],[data-case-slug=eyewear-campaign],[data-case-slug=microplastic-tee],[data-case-slug=graphic-tee],[data-case-slug=w-oil-campaign],[data-case-slug=sojukdoo-concept]) .case-cover .capture-open{width:fit-content;max-width:100%;margin-inline:auto}
+html[lang=ko] body:is([data-case-slug=bugak-branding],[data-case-slug=coffee-package],[data-case-slug=eyewear-campaign],[data-case-slug=microplastic-tee],[data-case-slug=graphic-tee],[data-case-slug=w-oil-campaign],[data-case-slug=sojukdoo-concept]) .case-cover img{display:block;width:auto!important;max-width:100%;height:auto;max-height:min(72vh,720px)!important;margin-inline:auto}
+html[lang=ko] body:is([data-case-slug=bugak-branding],[data-case-slug=coffee-package],[data-case-slug=eyewear-campaign],[data-case-slug=microplastic-tee],[data-case-slug=graphic-tee],[data-case-slug=w-oil-campaign],[data-case-slug=sojukdoo-concept]) [data-case-gallery]{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 32px}
+html[lang=ko] body:is([data-case-slug=bugak-branding],[data-case-slug=coffee-package],[data-case-slug=eyewear-campaign],[data-case-slug=microplastic-tee],[data-case-slug=graphic-tee],[data-case-slug=w-oil-campaign],[data-case-slug=sojukdoo-concept]) [data-case-gallery] img{display:block;width:auto;max-width:100%;height:auto;max-height:760px;margin-inline:auto}
+html[lang=ko] body:is([data-case-slug=bugak-branding],[data-case-slug=coffee-package],[data-case-slug=eyewear-campaign],[data-case-slug=microplastic-tee],[data-case-slug=graphic-tee],[data-case-slug=w-oil-campaign],[data-case-slug=sojukdoo-concept]) [data-case-gallery] .capture-open{padding:24px;background:var(--editorial-surface)}
 
 /* Process colors change, while the chapter's sticky and scroll contracts stay intact. */
 html[lang=ko] body .process-preview .section-heading>p,
@@ -234,6 +241,9 @@ html[lang=ko] body .healthcare-about-intro .healthcare-lead{font-size:var(--type
  html[lang=ko] body .process-preview-question{padding-left:24px}
  html[lang=ko] body .process-preview-question strong{font-size:var(--type-step-28,28px)}
  html[lang=ko] body[data-case-slug=sales-rehearsal] .case-cover{padding:24px}
+ html[lang=ko] body:is([data-case-slug=bugak-branding],[data-case-slug=coffee-package],[data-case-slug=eyewear-campaign],[data-case-slug=microplastic-tee],[data-case-slug=graphic-tee],[data-case-slug=w-oil-campaign],[data-case-slug=sojukdoo-concept]) .case-cover{padding:24px}
+ html[lang=ko] body:is([data-case-slug=bugak-branding],[data-case-slug=coffee-package],[data-case-slug=eyewear-campaign],[data-case-slug=microplastic-tee],[data-case-slug=graphic-tee],[data-case-slug=w-oil-campaign],[data-case-slug=sojukdoo-concept]) [data-case-gallery]{grid-template-columns:1fr;gap:32px}
+ html[lang=ko] body:is([data-case-slug=bugak-branding],[data-case-slug=coffee-package],[data-case-slug=eyewear-campaign],[data-case-slug=microplastic-tee],[data-case-slug=graphic-tee],[data-case-slug=w-oil-campaign],[data-case-slug=sojukdoo-concept]) [data-case-gallery] .capture-open{padding:16px}
  html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery]{grid-template-columns:1fr;gap:32px}
  html[lang=ko] body[data-case-slug=sales-rehearsal] [data-case-gallery] .capture-open{padding:16px}
 }

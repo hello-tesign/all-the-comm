@@ -43,6 +43,8 @@ npm start
 
 국문 포트폴리오는 현재 10건입니다. EzyLens 아이웨어 시제품, 도시 산책 전시 콘셉트, 종해문화진흥원 웹, 의료 방문 안내 콘셉트를 추가했습니다. 기존 소적두 콘셉트·SoulReset·Review Atelier·TESIGN Radar·Tesign OS·자사 리뉴얼도 유지합니다. 각 사례의 제작자 프로젝트·자체 콘셉트·프로토타입 상태를 명시하며 외부 고객 수주나 수치 성과로 표시하지 않습니다.
 
+10월 14일 사용자가 제공한 브랜드 의뢰 작업을 추가했습니다. 김부각 브랜딩, 커피 패키지, 아이웨어 캠페인, 마이크로플라스틱 티셔츠, 그래픽 티셔츠, 여성용 오일 캠페인 6건을 새로 넣고, 소적두 사례에 SNS 광고 14종을 더해 ‘소적두 브랜딩’으로 묶었습니다. 고객 요청에 따라 브랜드명은 표기하지 않으며, 원본은 `src/data/portfolio-brand-work.mjs`와 `public/evidence/brand-work/`, 로컬 등록은 `node scripts/publish-brand-work.mjs`입니다.
+
 10월 13일 사용자 지적에 따라 소적두는 WORKS 개별 사례로만 소개합니다. 홈·ABOUT·PROCESS·TEAM·전역 서비스의 식품 소재 반복을 제거하고 다른 업종과 작업물로 교체했습니다. 홈 대표 사례는 리테일·문화·공익의 세 건으로 편집했습니다. 편집 기준은 `docs/diversity-plan-2026-10-13.md`, 자산 근거는 `docs/diverse-assets-2026-10-13.md`입니다.
 
 신규 9건은 국문에만 공개합니다. 관리자 ‘영문에도 공개’가 해제된 사례는 영문 목록·직접 주소·API·sitemap에 포함되지 않습니다. 캡처 출처는 `docs/portfolio-site-sources.md`, `docs/portfolio-saas-sources.md`, `docs/diverse-assets-2026-10-13.md`에 기록했습니다.
