@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "build:static": "node scripts/build-static.mjs",
     "dev": "node scripts/server.mjs",
     "start": "node scripts/server.mjs",
     "test": "node tests/renewal.cjs",

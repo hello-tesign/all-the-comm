@@ -9,6 +9,8 @@ qa/**/*.webm
 
 # Rebuildable output and local visual captures; retain QA scripts and reports.
 /dist/
+/static-site/
+.vercel/
 /deliverables/
 qa/**/*.png
 qa/**/*.jpg
