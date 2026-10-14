@@ -72,6 +72,9 @@ https://wee-hwan.vercel.app/ — 정식 공개 전 검토용입니다. `main`에
 | src/evidence-motion.js/css | 실제 이미지의 프레임 전개와 안전한 종료/복원 |
 | src/agency-composition.css, src/diverse-samples.mjs/css | 다업종 작업 모음과 서로 다른 형식의 제안 결과물 |
 | src/data/portfolio-diverse.mjs | 리테일·문화·기관·의료 신규 사례와 수행 범위 |
+| src/story/ (home-story.mjs, story.js, story.css, showcase.mjs, sample-cases.mjs) | 국문 HOME 스크롤 스토리·3D 작업물 회랑. 더미·교체 목록은 docs/home-story-2026-10-13.md |
+| src/story/pages.mjs, sub.css, sub.js | 국문 ABOUT·PROCESS·TEAM·WORKS·CONTACT. 구성과 판단 문구는 docs/subpages-2026-10-14.md |
+| src/story/frames.css | 작업 캡처 프레젠테이션 보드(WORKS 목록·사례 표지·서비스 시각물) |
 | docs/agency-reference-decisions.md, docs/evidence-visual-assets.md | 20개 참고 사이트 확인 범위와 이미지 출처 |
 | motion/ | 직접 제작한 HyperFrames 소스와 영상 검수 기록 |
 | scripts/server.mjs, src/admin/ | API·영속 저장·관리 화면 |
@@ -81,12 +84,28 @@ https://wee-hwan.vercel.app/ — 정식 공개 전 검토용입니다. `main`에
 
 새 로컬 데이터 저장소에 제작자 프로젝트·자체 콘셉트 9개를 넣으려면 서버 실행 후 `npm run portfolio:import`를 실행합니다. 동일 slug의 기존 사례는 유지합니다. `-- --refresh-copy` 옵션은 10월 12일 등록 출처 표시가 있는 기존 5개 사례의 설명 본문만 소스와 동기화하므로 관리자에서 수정한 문구가 있으면 사용하지 않습니다. 이번 기존 저장소에는 `node scripts/publish-diverse-portfolio.mjs`로 신규 4건·대표 여부·순서를 반영했습니다. 사용자 문의와 원본 프로젝트는 수정하지 않습니다.
 
-## 검증
+## 서버 없이 전체 화면 확인 (한 파일 미리보기)
+
+배포 없이 모든 메뉴를 눌러 볼 수 있는 HTML 한 파일을 만듭니다. 사례 데이터를 등록한 로컬 서버가 실행 중이어야 합니다.
+
+```sh
+PREVIEW_URL=http://127.0.0.1:4183 npm run preview:build    # → dist-preview/site-preview.html
+npm run test:preview -- dist-preview/site-preview.html     # Playwright 검수
+```
+
+- 국문·영문의 주요 페이지와 사례 상세, 404를 모두 담습니다.
+- 위쪽 도구 막대에서 메뉴를 바꾸고, PC·노트북·모바일 크기를 고르고, 앞뒤로 이동할 수 있습니다.
+- 전체 페이지 목록에는 확인한 페이지가 표시됩니다.
+- 문의서는 실제로 전송·저장되지 않습니다. 영상은 대표 이미지로 보입니다.
+
+
 
 브라우저 검사는 별도 DATA_DIR와 4183 포트로 서버를 실행합니다. 사용자 미리보기 4173에는 합성 문의를 보내지 않습니다.
 
 ```sh
 npm test
+npm run test:story
+npm run test:pages
 npm run test:server
 npm run test:motion
 node tests/full-flow.cjs

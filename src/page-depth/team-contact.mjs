@@ -69,8 +69,8 @@ export function contactGuide() {
         <div class="contact-reference-copy"><p class="depth-kicker">업무 도구 · 대시보드</p><h3 id="contact-tool-title">먹거리사전</h3><p>월별 품목과 산지 지도를 조회하는 작업 화면을 개발했습니다. 검색·필터와 지도·목록으로 필요한 정보를 찾는 구조입니다.</p><p class="depth-deliverable"><strong>의뢰 범위 예시</strong>정보 분류 · 검색·필터 · 지도·목록 · 업무 흐름 설계</p>${caseLink('kfood-dashboard', '프로젝트 보기')}</div>
       </article>
       <article class="contact-reference" aria-labelledby="contact-commerce-title">
-        <figure><a href="/works/project/sojukdoo-concept/" aria-label="소적두 고객별 상품 탐색 작업 자세히 보기"><img src="${media}redbean-audiences.png" alt="일반 소비자와 카페사업자의 목적에 따라 상품 탐색을 나눈 소적두 웹 화면" width="1440" height="1000" loading="lazy" decoding="async"></a><figcaption>커머스 제작 목업 · 고객별 상품 탐색</figcaption></figure>
-        <div class="contact-reference-copy"><p class="depth-kicker">브랜드 웹 · 커머스 UI</p><h3 id="contact-commerce-title">소적두</h3><p>일반 소비자와 카페사업자의 구매 목적을 구분한 커머스 화면입니다. 고객별 상품 탐색과 상세 정보의 구성을 제작했습니다.</p><p class="depth-deliverable"><strong>의뢰 범위 예시</strong>브랜드 메시지 · 상품 분류 · 고객별 탐색 · 상세 화면</p>${caseLink('sojukdoo-concept', '프로젝트 보기')}</div>
+        <figure><a href="/works/project/ezylens-studio/" aria-label="EzyLens 아이웨어 커머스 화면 자세히 보기"><img src="/evidence/diverse/ezylens-studio.png" alt="모델 목록, 제품 확대, 색상·규격 선택을 한 화면에 둔 EzyLens 시제품" width="1440" height="965" loading="lazy" decoding="async"></a><figcaption>인터랙티브 시제품 · 제품 선택 화면</figcaption></figure>
+        <div class="contact-reference-copy"><p class="depth-kicker">커머스 UI · 시제품</p><h3 id="contact-commerce-title">EzyLens</h3><p>아이웨어 모델 탐색, 이미지 확대, 색상·규격 선택을 한 화면에 모은 커머스 시제품입니다. 구매 전 비교에 필요한 정보를 한 흐름으로 정리했습니다.</p><p class="depth-deliverable"><strong>의뢰 범위 예시</strong>상품 탐색 · 상세 이미지 · 옵션 선택 · 반응형 화면</p>${caseLink('ezylens-studio', '프로젝트 보기')}</div>
       </article>
     </div>
 

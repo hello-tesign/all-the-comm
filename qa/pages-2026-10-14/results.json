@@ -1,0 +1,808 @@
+{
+ "at": "2026-10-14T01:27:27.963Z",
+ "origin": "http://127.0.0.1:4183",
+ "total": 148,
+ "failed": 0,
+ "results": [
+  {
+   "name": "desktop about: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop about: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 336.203125,
+    "visible": true
+   }
+  },
+  {
+   "name": "desktop about: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "desktop about: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop about: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop about: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop about: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop about: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop process: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop process: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 350.03125,
+    "visible": true
+   }
+  },
+  {
+   "name": "desktop process: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "desktop process: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop process: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop process: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop process: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop process: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop team: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop team: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 350.03125,
+    "visible": true
+   }
+  },
+  {
+   "name": "desktop team: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "desktop team: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop team: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop team: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop team: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop team: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop works: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop works: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 350.03125,
+    "visible": true
+   }
+  },
+  {
+   "name": "desktop works: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "desktop works: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop works: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop works: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop works: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop works: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop contact: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop contact: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 350.03125,
+    "visible": true
+   }
+  },
+  {
+   "name": "desktop contact: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "desktop contact: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop contact: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop contact: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "desktop contact: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "desktop contact: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop about: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop about: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 292.875,
+    "visible": true
+   }
+  },
+  {
+   "name": "laptop about: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "laptop about: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop about: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop about: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop about: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop about: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop process: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop process: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 292.875,
+    "visible": true
+   }
+  },
+  {
+   "name": "laptop process: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "laptop process: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop process: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop process: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop process: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop process: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop team: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop team: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 292.875,
+    "visible": true
+   }
+  },
+  {
+   "name": "laptop team: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "laptop team: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop team: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop team: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop team: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop team: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop works: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop works: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 292.875,
+    "visible": true
+   }
+  },
+  {
+   "name": "laptop works: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "laptop works: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop works: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop works: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop works: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop works: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop contact: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop contact: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 292.875,
+    "visible": true
+   }
+  },
+  {
+   "name": "laptop contact: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "laptop contact: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop contact: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop contact: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "laptop contact: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "laptop contact: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile about: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile about: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 157.1875,
+    "visible": true
+   }
+  },
+  {
+   "name": "mobile about: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "mobile about: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile about: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile about: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile about: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile about: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile process: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile process: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 157.1875,
+    "visible": true
+   }
+  },
+  {
+   "name": "mobile process: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "mobile process: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile process: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile process: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile process: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile process: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile team: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile team: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 157.1875,
+    "visible": true
+   }
+  },
+  {
+   "name": "mobile team: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "mobile team: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile team: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile team: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile team: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile team: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile works: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile works: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 157.1875,
+    "visible": true
+   }
+  },
+  {
+   "name": "mobile works: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "mobile works: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile works: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile works: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile works: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile works: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile contact: loads with the new layout",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile contact: one h1, fully drawn within 1.3s",
+   "pass": true,
+   "detail": {
+    "n": 1,
+    "top": 157.1875,
+    "visible": true
+   }
+  },
+  {
+   "name": "mobile contact: every reveal fires while scrolling",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "name": "mobile contact: no horizontal overflow",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile contact: no text runs off screen",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile contact: page index anchors resolve",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile contact: no images broken",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile contact: no console/network errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "process: rail follows the step in view",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "team: hero orbit holds nine roles around one centre",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "team: nine roles, first open",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "team: opening a role closes the others",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "team: role chips readable",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "team: composition matrix 4 × 9",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "works: ten services in the index",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "works: hovering a service swaps the preview",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "works: project list renders framed cards",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "works: deep link selects the service",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "contact: form intact and prefilled",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "contact: mail and phone channels",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "contact: one FAQ answer open at a time",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "contact: empty submit is blocked by validation",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "links: every subpage link resolves (22)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "interactions: no errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "mobile works: tapping a service opens its detail inline",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "mobile team: matrix stacks into chips",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reduced about: headings visible immediately",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reduced process: headings visible immediately",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reduced team: headings visible immediately",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reduced works: headings visible immediately",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reduced contact: headings visible immediately",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "en about: English page unchanged",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "en process: English page unchanged",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "en team: English page unchanged",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "en works: English page unchanged",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "en contact: English page unchanged",
+   "pass": true,
+   "detail": null
+  }
+ ]
+}

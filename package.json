@@ -21,6 +21,10 @@
     "test:editorial": "node qa/editorial-2026-10-13/check.cjs",
     "portfolio:import": "node scripts/import-portfolio.mjs",
     "test:glass": "node tests/refinements.cjs",
+    "test:story": "node tests/story.cjs",
+    "test:pages": "node tests/pages.cjs",
+    "preview:build": "node scripts/build-preview.mjs",
+    "test:preview": "node tests/preview.cjs",
     "export:social": "node scripts/export-media.cjs",
     "export:single": "node scripts/export-single-html.mjs"
   },

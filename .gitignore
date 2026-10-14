@@ -11,6 +11,7 @@ qa/**/*.webm
 /dist/
 /static-site/
 .vercel/
+/dist-preview/
 /deliverables/
 qa/**/*.png
 qa/**/*.jpg

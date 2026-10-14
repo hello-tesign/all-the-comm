@@ -1,0 +1,53 @@
+/* 작업 화면 프레젠테이션 보드 — 거친 캡처를 다듬어 보여 주는 공통 처리(국문).
+   화면 캡처: 색 보드 위 브라우저 프레임(상단 정렬 크롭) / 포스터·책: 그림자를 둔 실물 배치(.is-poster). */
+html[lang=ko]{--fr-tint:#59e3c6;--fr-chrome:radial-gradient(circle at 16px 50%,#ff6a5f 3.6px,transparent 4.2px),radial-gradient(circle at 29px 50%,#ffbd2e 3.6px,transparent 4.2px),radial-gradient(circle at 42px 50%,#29c840 3.6px,transparent 4.2px),linear-gradient(#f2f4f4,#eceff0)}
+html[lang=ko] .portfolio-piece:nth-child(6n+2),html[lang=ko] [data-evidence-kind]:nth-child(6n+2){--fr-tint:#c9a77a}
+html[lang=ko] .portfolio-piece:nth-child(6n+3),html[lang=ko] [data-evidence-kind]:nth-child(6n+3){--fr-tint:#8fb7ff}
+html[lang=ko] .portfolio-piece:nth-child(6n+4),html[lang=ko] [data-evidence-kind]:nth-child(6n+4){--fr-tint:#f2b45c}
+html[lang=ko] .portfolio-piece:nth-child(6n+5),html[lang=ko] [data-evidence-kind]:nth-child(6n+5){--fr-tint:#c1a3ff}
+html[lang=ko] .portfolio-piece:nth-child(6n+6),html[lang=ko] [data-evidence-kind]:nth-child(6n+6){--fr-tint:#7be0b8}
+
+/* board surface shared by list cards, case cover and service visuals */
+html[lang=ko] body .portfolio-piece .project-visual,
+html[lang=ko] body .case-cover[data-case-cover],
+html[lang=ko] body .evidence-visual .evidence-image-link{
+ position:relative;overflow:hidden;border-radius:22px;isolation:isolate;
+ background:radial-gradient(rgba(255,255,255,.5) 1px,transparent 1.4px) 0 0/18px 18px,
+  radial-gradient(120% 95% at 18% 0%,color-mix(in srgb,var(--fr-tint) 38%,#fff),color-mix(in srgb,var(--fr-tint) 20%,#e8eeec) 72%)!important}
+
+/* list cards */
+html[lang=ko] body .portfolio-piece .portfolio-shot{aspect-ratio:16/11;padding:8% 9% 0!important;display:flex;align-items:flex-end;justify-content:center;background:transparent!important;overflow:hidden}
+html[lang=ko] .shot-frame{width:100%;border-radius:10px 10px 0 0;overflow:hidden;background:#fff;box-shadow:0 -6px 40px -12px rgba(6,28,37,.32),0 0 0 1px rgba(6,28,37,.05);transform:translateY(5%);transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+html[lang=ko] .shot-bar{display:block;height:22px;background:var(--fr-chrome)}
+html[lang=ko] body .portfolio-piece .shot-frame img{display:block;width:100%!important;height:auto!important;aspect-ratio:16/10;object-fit:cover!important;object-position:top!important;max-height:none!important}
+html[lang=ko] .portfolio-piece .project-visual:hover .shot-frame,html[lang=ko] .portfolio-piece .project-visual:focus-visible .shot-frame{transform:translateY(0)}
+html[lang=ko] body .portfolio-piece .portfolio-shot.is-poster{padding:7% 9%!important;align-items:center}
+html[lang=ko] .is-poster .shot-frame{width:auto;height:100%;background:none;border-radius:4px;box-shadow:0 26px 50px -18px rgba(6,28,37,.45);transform:rotate(-1.5deg);transition:transform .8s cubic-bezier(.34,1.56,.64,1)}
+html[lang=ko] .is-poster .shot-bar{display:none}
+html[lang=ko] body .portfolio-piece .is-poster .shot-frame img{height:100%!important;width:auto!important;aspect-ratio:auto;object-fit:contain!important;border-radius:4px}
+html[lang=ko] .portfolio-piece .project-visual:hover .is-poster .shot-frame{transform:rotate(0) scale(1.03)}
+html[lang=ko] .portfolio-piece .project-visual .project-open{z-index:2}
+
+/* case cover */
+html[lang=ko] body .case-cover[data-case-cover]{padding:clamp(34px,5vw,76px) clamp(18px,7vw,120px) 0!important}
+html[lang=ko] body .case-cover[data-case-cover] .capture-open{display:block;width:100%;padding:0;border:0;border-radius:12px 12px 0 0;overflow:hidden;background:#fff;box-shadow:0 -10px 60px -18px rgba(6,28,37,.4)}
+html[lang=ko] body .case-cover[data-case-cover] .capture-open::before{content:"";display:block;height:30px;background:var(--fr-chrome)}
+html[lang=ko] body .case-cover[data-case-cover] .capture-open img{display:block;width:100%;height:auto}
+html[lang=ko] body .case-cover[data-case-cover].is-poster{padding:clamp(30px,5vw,70px)!important}
+html[lang=ko] body .case-cover[data-case-cover].is-poster .capture-open{width:fit-content;max-width:100%;margin-inline:auto;border-radius:6px;box-shadow:0 30px 70px -24px rgba(6,28,37,.5)}
+html[lang=ko] body .case-cover[data-case-cover].is-poster .capture-open::before{display:none}
+html[lang=ko] body .case-cover[data-case-cover].is-poster img{width:auto!important;max-width:100%;max-height:min(72vh,760px)!important;margin-inline:auto}
+
+/* WORKS service visuals */
+html[lang=ko] body .evidence-visual .evidence-image-link{display:flex;flex-direction:column;justify-content:flex-end;padding:7% 8% 0!important}
+html[lang=ko] body .evidence-visual .evidence-image-link::before{content:"";display:block;height:22px;border-radius:10px 10px 0 0;background:var(--fr-chrome);box-shadow:0 -6px 30px -12px rgba(6,28,37,.3)}
+html[lang=ko] body .evidence-visual .evidence-image-link img{display:block;width:100%;aspect-ratio:16/10;height:auto!important;object-fit:cover!important;object-position:top!important;box-shadow:0 20px 40px -20px rgba(6,28,37,.35)}
+html[lang=ko] body .evidence-visual .evidence-image-link.is-poster{padding:7% 8%!important;justify-content:center;align-items:center}
+html[lang=ko] body .evidence-visual .evidence-image-link.is-poster::before{display:none}
+html[lang=ko] body .evidence-visual .evidence-image-link.is-poster img{width:auto;max-width:100%;max-height:420px;aspect-ratio:auto;object-fit:contain!important;border-radius:4px}
+@media (max-width:760px){
+ html[lang=ko] .shot-bar{height:16px}
+ html[lang=ko] body .portfolio-piece .project-visual,html[lang=ko] body .case-cover[data-case-cover],html[lang=ko] body .evidence-visual .evidence-image-link{border-radius:16px}
+ html[lang=ko] body .case-cover[data-case-cover] .capture-open::before{height:20px}
+}
+@media (prefers-reduced-motion:reduce){html[lang=ko] .shot-frame{transition:none;transform:none}}
