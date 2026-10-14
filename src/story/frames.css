@@ -19,16 +19,11 @@ html[lang=ko] body .evidence-visual .evidence-image-link{
 html[lang=ko] body [data-project-list]{grid-template-columns:repeat(2,minmax(0,1fr));gap:72px 28px}
 html[lang=ko] body .pf-card{margin:0}
 html[lang=ko] body .pf-card.is-feature{grid-column:1/-1}
-html[lang=ko] body .pf-card .pf-visual{display:flex;gap:4px;aspect-ratio:16/11;padding:0!important;border-radius:22px;background:#0c2530!important}
-html[lang=ko] body .pf-card.is-feature .pf-visual{aspect-ratio:32/11}
-html[lang=ko] body .pf-card .pf-img{display:block;flex:1 1 0;min-width:0;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:center top!important;transform:none;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
-html[lang=ko] body .pf-card .pf-visual.is-series .pf-img{object-position:center!important}
-html[lang=ko] body .pf-card:not(.is-feature) .pf-visual.is-series .pf-img:nth-child(n+3),
-html[lang=ko] body .pf-card .pf-visual.is-wide .pf-img:not(:first-child){display:none}
-html[lang=ko] body .pf-card .pf-visual.is-tall{padding:6% 0!important;justify-content:center;background:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1.4px) 0 0/18px 18px,#0c2530!important}
-html[lang=ko] body .pf-card .pf-visual.is-tall .pf-img{flex:none;width:auto!important;object-fit:contain!important;border-radius:4px;box-shadow:0 26px 50px -18px rgba(0,0,0,.6)}
-html[lang=ko] .pf-card .pf-visual:hover .pf-img,html[lang=ko] .pf-card .pf-visual:focus-visible .pf-img{transform:scale(1.035)}
-html[lang=ko] .pf-card .pf-visual.is-tall:hover .pf-img{transform:scale(1.02)}
+html[lang=ko] body .pf-card .pf-visual{display:flex;justify-content:center;align-items:center;gap:8px;aspect-ratio:16/11;padding:0!important;border-radius:22px}
+html[lang=ko] body .pf-card.is-feature .pf-visual{aspect-ratio:3/1}
+html[lang=ko] body .pf-card .pf-img{display:block;flex:none;width:auto!important;height:100%!important;max-width:100%;max-height:none!important;object-fit:contain!important;transform:none;transition:transform 1.2s cubic-bezier(.2,.8,.2,1);box-shadow:0 18px 40px -22px rgba(6,28,37,.45)}
+html[lang=ko] body .pf-card .pf-img[hidden]{display:none}
+html[lang=ko] .pf-card .pf-visual:hover .pf-img,html[lang=ko] .pf-card .pf-visual:focus-visible .pf-img{transform:scale(1.025)}
 html[lang=ko] .pf-card .project-open{z-index:2}
 html[lang=ko] body .pf-card.is-feature .project-caption{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px 40px;align-items:start}
 html[lang=ko] body .pf-card.is-feature .project-caption .portfolio-summary{grid-column:2;grid-row:1/span 2;margin-top:28px}
@@ -53,7 +48,6 @@ html[lang=ko] body .evidence-visual .evidence-image-link.is-poster img{width:aut
 @media (max-width:760px){
  html[lang=ko] body [data-project-list]{grid-template-columns:1fr;gap:48px}
  html[lang=ko] body .pf-card .pf-visual,html[lang=ko] body .pf-card.is-feature .pf-visual{aspect-ratio:4/3.4}
- html[lang=ko] body .pf-card.is-feature .pf-visual.is-series .pf-img:nth-child(n+3){display:none}
  html[lang=ko] body .pf-card.is-feature .project-caption{display:block}
  html[lang=ko] body .pf-card.is-feature .project-caption .portfolio-summary{margin-top:8px}
  html[lang=ko] body .portfolio-piece .project-visual,html[lang=ko] body .pf-card .pf-visual,html[lang=ko] body .case-cover[data-case-cover],html[lang=ko] body .evidence-visual .evidence-image-link{border-radius:16px}

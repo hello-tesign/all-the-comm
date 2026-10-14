@@ -100,8 +100,9 @@
 .sb-board figcaption small{font-size:12.5px;font-weight:700;color:var(--st-teal)}
 .sb-board figcaption b{font-size:24px;letter-spacing:-.03em}
 .sb-board figcaption span{font-size:15px;line-height:1.6;color:var(--st-muted)}
-.sb-board.is-series .sb-board-link{gap:4px;padding:0;align-items:stretch;background:#0c2530}
-.sb-board.is-series img{flex:1 1 0;min-width:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--st-ease)}
+.sb-board.is-series .sb-board-link{gap:8px;padding:0;align-items:center}
+.sb-board.is-series img{flex:none;width:auto;height:100%;max-width:100%;object-fit:contain;box-shadow:0 18px 40px -22px rgba(6,28,37,.45);transition:transform 1.2s var(--st-ease)}
+.sb-board.is-series img[hidden]{display:none}
 .sb-board.is-series .sb-board-link:hover img,.sb-board.is-series .sb-board-link:focus-visible img{transform:scale(1.035)}
 .sb-board-empty{flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:12px;padding:9%}
 .sb-board-empty b{font-size:clamp(28px,2.8vw,44px);font-weight:800;letter-spacing:-.045em;color:var(--st-ink)}
@@ -270,13 +271,33 @@
 .sb-client-logo.is-name b{font-size:16px;font-weight:800;letter-spacing:-.03em;color:var(--st-ink);text-align:center;word-break:keep-all}
 .sb-client-name{font-size:13px;font-weight:700;color:var(--st-muted);text-align:center;word-break:keep-all}
 
+/* ABOUT: small icons and thumbnails */
+.sb-eq-media{position:relative;display:block;width:clamp(120px,11vw,168px);aspect-ratio:4/3;margin-bottom:18px;border-radius:14px;overflow:visible}
+.sb-eq-media img{display:block;width:100%;height:100%;object-fit:cover;border-radius:14px;box-shadow:0 16px 30px -18px rgba(6,28,37,.45)}
+.sb-eq-media i{position:absolute;right:-12px;bottom:-12px;display:grid;place-items:center;width:40px;height:40px;border-radius:var(--st-mark);background:var(--st-mint);color:var(--st-ink)}
+.sb-eq-media svg{width:20px;height:20px}
+.sb-col-ic{display:grid;place-items:center;width:42px;height:42px;border-radius:var(--st-mark);background:#fff;color:var(--st-teal);box-shadow:0 0 0 1px var(--st-line)}
+.sb-col-ic svg{width:21px;height:21px}
+.sb-fact-ic{display:inline-grid;place-items:center;width:26px;height:26px;margin-right:8px;vertical-align:-8px;border-radius:50%;background:var(--st-paper);color:var(--st-teal)}
+.sb-fact-ic svg{width:15px;height:15px}
+/* TEAM: people (placeholder portraits until real photos arrive) */
+.sb-people{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}
+.sb-people li{display:flex;flex-direction:column}
+.sb-person-photo{display:block;aspect-ratio:1;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 0 0 1px var(--st-line)}
+.sb-person-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s var(--st-ease)}
+.sb-people li:hover .sb-person-photo img{transform:scale(1.04)}
+.sb-people b{margin-top:16px;font-size:20px;font-weight:800;letter-spacing:-.035em}
+.sb-tbd{font-size:15px;font-weight:700;color:var(--st-muted)}
+.sb-person-role{margin-top:4px;font-size:15px;font-weight:700;color:var(--st-teal)}
+.sb-people small{margin-top:6px;font-size:13px;line-height:1.5;color:var(--st-muted);word-break:keep-all}
+
 /* RESPONSIVE --------------------------------------------------------------------- */
 @media (max-width:1060px){
  .sb-steps{grid-template-columns:1fr}
  .sb-steps-rail{display:none}
  .sb-equation{flex-wrap:wrap;justify-content:flex-start}
 }
-@media (max-width:1060px) and (min-width:761px){.sb-role-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:1060px) and (min-width:761px){.sb-role-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sb-people{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:760px){
  .sb-hero{padding-top:112px}
  .sb-hero-grid{grid-template-columns:1fr;gap:48px;min-height:0}
@@ -302,6 +323,9 @@
  .sb-step-cols{grid-template-columns:1fr}
  .sb-step-top{grid-template-columns:1fr;gap:28px}
  .sb-client-group{grid-template-columns:1fr;gap:16px;padding:26px 0}
+ .sb-people{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 14px}
+ .sb-people b{font-size:17px}
+ .sb-eq-media{width:110px}
  .sb-client-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
  .sb-client-logo{height:54px}.sb-client-logo img{max-height:36px}
  .sb-step-ic{width:38px;height:38px}.sb-step-ic svg{width:19px;height:19px}
