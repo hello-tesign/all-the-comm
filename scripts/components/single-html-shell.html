@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>올더커뮤니케이션</title>
+<!--atc-icon-->
+<style>
+:root{color-scheme:light}
+html,body{margin:0;height:100%;overflow:hidden;background:#fff}
+.atc-frame{position:fixed;inset:0;width:100%;height:100%;border:0;background:#fff}
+.atc-frame[data-pending]{visibility:hidden}
+.atc-toast{position:fixed;left:50%;bottom:24px;z-index:2;box-sizing:border-box;max-width:min(560px,calc(100% - 32px));padding:12px 20px;border-radius:999px;background:#061c25;color:#fff;font:500 14px/1.5 "Segoe UI","Malgun Gothic",system-ui,sans-serif;text-align:center;box-shadow:0 12px 32px rgba(6,28,37,.24);opacity:0;transform:translate(-50%,8px);transition:opacity .25s,transform .25s;pointer-events:none}
+.atc-toast.is-on{opacity:1;transform:translate(-50%,0)}
+.atc-toast b{color:#59e3c6;font-weight:600}
+</style>
+</head>
+<body>
+<!--atc-data-->
+<div class="atc-toast" role="status" aria-live="polite"></div>
+<script>
+(()=>{
+'use strict';
+const D=JSON.parse(document.getElementById('atc-data').textContent);
+const site=D.site,toastEl=document.querySelector('.atc-toast');
+const ASSET=/(?<![\w.\-/])\/(?:(?:brand|evidence|portfolio|fonts|motion|media)\/[^"'()\s,<>\\]+|favicon\.svg)/g;
+const blobs=new Map(),styles=new Map(),memory=new Map();
+let script,route=null,pushed=false,toastTimer;
+
+// Embedded files become object URLs only when a page first needs them.
+function assetURL(ref){
+ ref=D.aliases[ref]||ref;
+ if(blobs.has(ref))return blobs.get(ref);
+ const entry=D.assets[ref];if(!entry)return null;
+ let url;
+ try{const bin=atob(entry[1]),bytes=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)bytes[i]=bin.charCodeAt(i);url=URL.createObjectURL(new Blob([bytes],{type:entry[0]}));}
+ catch{url=`data:${entry[0]};base64,${entry[1]}`;}
+ blobs.set(ref,url);return url;
+}
+const localize=source=>source.replace(ASSET,ref=>assetURL(ref)||ref);
+const css=href=>{if(!styles.has(href))styles.set(href,localize(D.styles[href]||'').replace(/<\/style/gi,'<\\/style'));return styles.get(href);};
+const js=()=>script??=localize(D.script).replace(/<\/script/gi,'<\\/script');
+
+function toast(message,ms=3600){toastEl.innerHTML=message;toastEl.classList.add('is-on');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toastEl.classList.remove('is-on'),ms);}
+
+// Runs first inside every page: virtual address, local API and link routing.
+function boot(){
+ const A=parent.__ATC,R=A.route;
+ window.__ATC_LOC={pathname:R.pathname,search:R.search,origin:A.site};
+ if(R.hash)try{location.hash=R.hash;}catch{}
+ const nativeFetch=window.fetch.bind(window);
+ window.fetch=function(input,init){
+  const raw=typeof input==='string'?input:input instanceof URL?input.href:(input&&input.url)||'';
+  const local=A.apiPath(raw);
+  if(local===null)return nativeFetch(input,init);
+  const r=A.api(local,init||{});
+  return new Promise(resolve=>setTimeout(()=>resolve(new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json'}})),40));
+ };
+ const route=e=>{
+  if(e.defaultPrevented||e.button>1)return;
+  const a=e.target instanceof Element&&e.target.closest('a[href]');if(!a)return;
+  const href=a.getAttribute('href');if(/^(mailto|tel|sms):/i.test(href))return;
+  e.preventDefault();if(e.type==='click')A.follow(href,window);
+ };
+ addEventListener('click',route);
+ addEventListener('auxclick',route);
+ addEventListener('submit',e=>e.preventDefault());
+ document.addEventListener('DOMContentLoaded',()=>A.ready(window),{once:true});
+}
+
+function apiPath(raw){
+ if(typeof raw!=='string')return null;
+ if(raw.startsWith('/api/'))return raw;
+ try{const u=new URL(raw);if((u.protocol==='file:'||u.protocol==='about:'||u.origin===site)&&u.pathname.startsWith('/api/'))return u.pathname+u.search;}catch{}
+ return null;
+}
+function api(local,init){
+ const u=new URL(local,site),method=String(init.method||'GET').toUpperCase(),json=(status,body)=>({status,body:typeof body==='string'?localize(body):JSON.stringify(body)});
+ if(method==='POST'&&u.pathname==='/api/inquiries'){toast('오프라인 미리보기 파일에서는 문의가 <b>전송되지 않습니다</b>.',5000);return json(503,{ok:false,error:'Offline preview'});}
+ if(method!=='GET')return json(405,{error:'Offline preview'});
+ const body=D.api[u.pathname.replace(/\/$/,'')];
+ return body?json(200,body):json(404,{error:'Not found'});
+}
+
+function normalize(pathname){
+ if(pathname.endsWith('/index.html'))pathname=pathname.slice(0,-10);
+ if(!pathname.endsWith('/'))pathname+='/';
+ return pathname;
+}
+function inPage(win,hash){
+ const id=decodeURIComponent((hash||'').slice(1));
+ if(!id){win.scrollTo({top:0,behavior:'smooth'});return;}
+ const same=win.location.hash.slice(1)===id;
+ try{win.location.hash=id;}catch{}
+ if(same)win.document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function follow(href,win){
+ let u;try{u=new URL(href,site+route.pathname+route.search);}catch{return;}
+ if(u.protocol==='blob:'||u.protocol==='data:'){open(href,'_blank');return;}
+ if(!/^https?:$/.test(u.protocol))return;
+ if(u.origin!==site&&u.hostname!=='www.allthecom.co.kr'){open(u.href,'_blank','noopener');return;}
+ if(assetURL(u.pathname)){open(assetURL(u.pathname),'_blank');return;}
+ if(/^\/en(\/|$)/.test(u.pathname)){toast('이 파일은 <b>국문 사이트</b>만 담고 있습니다. 영문 페이지는 포함되지 않았습니다.');return;}
+ if(/^\/(admin|api)(\/|$)/.test(u.pathname)){toast('관리자 화면은 서버에서만 열 수 있습니다.');return;}
+ if(normalize(u.pathname)===route.pathname&&u.search===route.search){inPage(win,u.hash);return;}
+ go(u.pathname+u.search+u.hash);
+}
+function go(url){
+ pushed=true;
+ if(location.hash.slice(1)===url)render();else location.hash=url;
+}
+
+function current(){
+ let raw;try{raw=decodeURI(location.hash.slice(1))||'/';}catch{raw='/';}
+ try{return new URL(raw.startsWith('/')?raw:'/'+raw,site);}catch{return new URL('/',site);}
+}
+function render(){
+ const u=current(),pathname=normalize(u.pathname),frame=document.querySelector('.atc-frame:not([data-pending])');
+ const redirect=D.redirects[pathname];
+ if(redirect){location.replace('#'+redirect);return;}
+ if(route&&frame&&pathname===route.pathname&&u.search===route.search){pushed=false;inPage(frame.contentWindow,u.hash);return;}
+ if(route&&frame)try{memory.set(route.pathname+route.search,frame.contentWindow.scrollY);}catch{}
+ const restore=pushed?null:memory.get(pathname+u.search);
+ pushed=false;
+ route={pathname,search:u.search,hash:decodeURIComponent(u.hash.slice(1)),restore};
+ const html=localize(D.pages[pathname]||D.pages['/404/'])
+  .replace('<!--atc-boot-->',()=>`<script>(${boot})()<\/script>`)
+  .replace(/<!--atc-style:([^>]+?)-->/g,(m,href)=>`<style>${css(href)}</style>`)
+  .replace('<!--atc-script-->',()=>`<script type="module">${js()}<\/script>`);
+ document.querySelectorAll('.atc-frame[data-pending]').forEach(f=>f.remove());
+ const next=document.createElement('iframe');
+ next.className='atc-frame';next.title='올더커뮤니케이션';next.dataset.pending='';
+ next.srcdoc=html;
+ document.body.append(next);
+ setTimeout(()=>{if(next.isConnected&&next.contentWindow)ready(next.contentWindow);},4000);
+}
+function ready(win){
+ const frame=[...document.querySelectorAll('.atc-frame')].find(f=>f.contentWindow===win);
+ if(!frame||!frame.hasAttribute('data-pending'))return;
+ document.querySelectorAll('.atc-frame').forEach(f=>{if(f!==frame)f.remove();});
+ frame.removeAttribute('data-pending');
+ try{document.title=win.document.title||document.title;}catch{}
+ win.focus();
+ const y=route.restore;
+ if(y!=null){const apply=()=>win.scrollTo(0,y);if(win.document.readyState==='complete')apply();else win.addEventListener('load',()=>{apply();setTimeout(apply,400);},{once:true});}
+}
+
+window.__ATC={site,get route(){return route;},apiPath,api,follow,ready};
+addEventListener('hashchange',render);
+render();
+setTimeout(()=>toast('<b>오프라인 미리보기</b> · 국문 전체 페이지 · 문의 전송 제외',4200),900);
+})();
+</script>
+</body>
+</html>

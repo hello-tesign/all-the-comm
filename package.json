@@ -20,7 +20,8 @@
     "test:editorial": "node qa/editorial-2026-10-13/check.cjs",
     "portfolio:import": "node scripts/import-portfolio.mjs",
     "test:glass": "node tests/refinements.cjs",
-    "export:social": "node scripts/export-media.cjs"
+    "export:social": "node scripts/export-media.cjs",
+    "export:single": "node scripts/export-single-html.mjs"
   },
   "devDependencies": {
     "hyperframes": "^0.8.149",

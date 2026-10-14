@@ -26,6 +26,10 @@ npm start
 
 처음 실행하면 `.private/server/local-admin-password.txt`에 무작위 로컬 관리자 비밀번호가 생성됩니다. 비밀번호 값·문의·첨부는 공개 파일이나 소스 배포에 포함하지 않습니다. 자세한 운영 설정과 영속 저장 조건은 `docs/admin-server.md`를 참고합니다.
 
+### 단일 HTML 미리보기
+
+서버 실행 중에 `npm run export:single`을 실행하면 `deliverables/ALL-THE-COMM-ko.html` 한 파일이 생성됩니다. 국문 전체 페이지, 공개된 사례, 이미지·폰트·영상을 내장하며 더블클릭하면 서버 없이 열립니다. 문의 전송·영문·관리자는 제외합니다. 사례 데이터는 실행 중인 서버의 공개 사례를 그대로 사용합니다.
+
 ## 구현 범위
 
 - KO/EN 주요 페이지 8개씩: HOME / ABOUT / PROCESS / TEAM / WORKS / 프로젝트 상세 / CONTACT / 개인정보. 각 언어 404와 동적 사례 셸을 추가로 생성합니다.
