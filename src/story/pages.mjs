@@ -33,11 +33,11 @@ export function subPages({ services, stages, roles, principles, company, arrow }
   };
 
   // 공통 히어로: 페이지 번호 · 큰 제목 · 로고 실루엣 창(페이지마다 다른 장면) · 목차
-  const hero = ({ n, label, title, lead, art, index }) => `
+  const hero = ({ label, title, lead, art, index }) => `
 <section class="sb-hero">
  <div class="st-shell sb-hero-grid">
   <div class="sb-hero-copy">
-   <p class="sb-kicker"><b>${pad(n)}</b><i></i>${label}</p>
+   <p class="sb-kicker"><i></i>${label}</p>
    <h1 class="sb-title">${title.map((line, i) => `<span class="st-line"><span>${line}</span></span>`).join('')}</h1>
    <p class="sb-lead">${lead}</p>
   </div>
@@ -59,7 +59,7 @@ export function subPages({ services, stages, roles, principles, company, arrow }
   /* ---------------- ABOUT ---------------- */
   const partners = ['강남더블유안과', '리드힐', '리샘', '새빛', '참진한의원', '함소아의원'];
   const about = `<div class="st sb" data-sub="about">
-${hero({ n: 1, label: 'ABOUT US', title: ['사업을 이해하는 기획,', '<em>현장을 아는 실행.</em>'], lead: '브랜드·콘텐츠·광고·PR·웹을 맡는 종합광고대행사입니다.<br>마케팅팀이 없는 회사에는 외부의 마케팅팀이 되고, 있는 회사에는 부족한 손이 됩니다.', art: `<div class="sb-pillars">${[['기획', 'PLAN'], ['제작', 'MAKE'], ['운영', 'RUN']].map(([k, en], i) => `<span style="--i:${i}"><small>${en}</small>${k}</span>`).join('')}<b>한 팀</b></div>`, index: [['about-role', '하는 일'], ['about-health', '의료 분야 배경'], ['about-principles', '일하는 기준'], ['about-company', '회사 정보']] })}
+${hero({ label: 'ABOUT US', title: ['사업을 이해하는 기획,', '<em>현장을 아는 실행.</em>'], lead: '브랜드·콘텐츠·광고·PR·웹을 맡는 종합광고대행사입니다.<br>마케팅팀이 없는 회사에는 외부의 마케팅팀이 되고, 있는 회사에는 부족한 손이 됩니다.', art: `<div class="sb-pillars">${[['기획', 'PLAN'], ['제작', 'MAKE'], ['운영', 'RUN']].map(([k, en], i) => `<span style="--i:${i}"><small>${en}</small>${k}</span>`).join('')}<b>한 팀</b></div>`, index: [['about-role', '하는 일'], ['about-health', '의료 분야 배경'], ['about-principles', '일하는 기준'], ['about-company', '회사 정보']] })}
 <section id="about-role" class="st-sec st-light">
  <div class="st-shell">
   ${head('WHY WE ARE HERE', '기업의 마케팅을 맡는 <em>외부 팀.</em>', '전담 마케팅팀이 필요한 기업, 제작 역량을 보완하려는 사내 팀과 일합니다. 전략 수립부터 콘텐츠·디자인 제작, 광고와 홍보 운영까지 프로젝트에 필요한 업무를 맡습니다.')}
@@ -112,7 +112,7 @@ ${ctaBand('회사 소개서가 <em>필요하신가요?</em>', '서비스 범위�
   const shareIcons = ['<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>', '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/>', '<path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h3"/>', '<path d="M4 8h13l-3-3M20 16H7l3 3"/>'];
   const mood = (l, i) => `<figure class="sb-mood st-rv${l.tall ? ' is-tall' : ''}" style="--tint:${tints[i % tints.length]}" aria-hidden="true"><img class="sb-mood-main" src="/showcase/process/${l.main}.webp" alt="" loading="lazy" decoding="async">${l.side ? `<img class="sb-mood-side" src="/showcase/process/${l.side}.webp" alt="" loading="lazy" decoding="async">` : ''}${l.extra || ''}</figure>`;
   const process = `<div class="st sb" data-sub="process">
-${hero({ n: 2, label: 'OUR PROCESS', title: ['시작부터 납품까지,', '<em>분명한 과정.</em>'], lead: '네 단계마다 무엇을 확인하고, 함께 무엇을 하고, 무엇을 전달하는지 미리 정합니다.<br>모든 단계는 한 명의 담당자가 연결합니다.', art: `<div class="sb-dial"><svg viewBox="0 0 400 400"><circle class="base" cx="200" cy="200" r="140"/><circle class="arc" cx="200" cy="200" r="140" pathLength="100"/></svg>${stages.map((s, i) => `<span class="sb-dial-node" style="--a:${i * 90}deg;--i:${i}"><small>${pad(i + 1)}</small>${E(s.label)}</span>`).join('')}<div class="sb-dial-core"><b>4</b><span>단계 · 1 담당자</span></div></div>`, index: [['process-steps', '네 단계'], ['process-share', '공유하는 것'], ['process-start', '시작하기']] })}
+${hero({ label: 'OUR PROCESS', title: ['시작부터 납품까지,', '<em>분명한 과정.</em>'], lead: '네 단계마다 무엇을 확인하고, 함께 무엇을 하고, 무엇을 전달하는지 미리 정합니다.<br>모든 단계는 한 명의 담당자가 연결합니다.', art: `<div class="sb-dial"><svg viewBox="0 0 400 400"><circle class="base" cx="200" cy="200" r="140"/><circle class="arc" cx="200" cy="200" r="140" pathLength="100"/></svg>${stages.map((s, i) => `<span class="sb-dial-node" style="--a:${i * 90}deg;--i:${i}"><small>${pad(i + 1)}</small>${E(s.label)}</span>`).join('')}<div class="sb-dial-core"><b>4</b><span>단계 · 1 담당자</span></div></div>`, index: [['process-steps', '네 단계'], ['process-share', '공유하는 것'], ['process-start', '시작하기']] })}
 <section id="process-steps" class="st-sec st-light">
  <div class="st-shell sb-steps">
   <aside class="sb-steps-rail" aria-hidden="true"><div class="sb-rail-sticky"><span class="sb-rail-ic">${stageLook.map((l, i) => `<i class="${i ? '' : 'on'}">${icon(l.ic)}</i>`).join('')}</span><b data-sb-step>01</b><span data-sb-step-label>${E(stages[0].label)}</span><i class="sb-rail-bar"><s></s></i><ol>${stages.map((s, i) => `<li class="${i ? '' : 'on'}">${E(s.label)}</li>`).join('')}</ol></div></aside>
@@ -165,7 +165,7 @@ ${hero({ n: 2, label: 'OUR PROCESS', title: ['시작부터 납품까지,', '<em>
     ['시즌 캠페인', [1, 2, 1, 1, 2, 2, 2, 0, 1]]
   ];
   const team = `<div class="st sb" data-sub="team">
-${hero({ n: 3, label: 'TEAM', title: ['한 프로젝트,', '<em>아홉 가지 전문성.</em>'], lead: '프로젝트의 목적에 맞춰 필요한 역할을 연결합니다.<br>아홉 명이나 아홉 개 부서가 아니라, 아홉 가지 수행 역할입니다.', art: `<div class="sb-orbit">${roles.map(([ko], i) => `<span style="--a:${i * 40}deg;--i:${i}">${E(ko)}</span>`).join('')}<div class="sb-orbit-core"><b>1</b><span>전담 창구</span></div></div>`, index: [['team-roles', '아홉 가지 역할'], ['team-matrix', '프로젝트별 구성']] })}
+${hero({ label: 'TEAM', title: ['한 프로젝트,', '<em>아홉 가지 전문성.</em>'], lead: '프로젝트의 목적에 맞춰 필요한 역할을 연결합니다.<br>아홉 명이나 아홉 개 부서가 아니라, 아홉 가지 수행 역할입니다.', art: `<div class="sb-orbit">${roles.map(([ko], i) => `<span style="--a:${i * 40}deg;--i:${i}">${E(ko)}</span>`).join('')}<div class="sb-orbit-core"><b>1</b><span>전담 창구</span></div></div>`, index: [['team-roles', '아홉 가지 역할'], ['team-matrix', '프로젝트별 구성']] })}
 <section id="team-roles" class="st-sec st-light">
  <div class="st-shell">
   ${head('THE PEOPLE BEHIND THE WORK', '역할마다 <em>맡는 일.</em>', '프로젝트에 따라 담당 역할과 협업 범위를 정합니다. 역할을 누르면 해당 업무의 제공 내용으로 이어집니다.')}
@@ -202,7 +202,7 @@ ${ctaBand('프로젝트 전체부터 <em>개별 업무까지.</em>', '원고 편
      <div class="sb-svc-act">${related[s.id] ? link(`/works/project/${related[s.id]}/`, '관련 작업 보기') : ''}${link(`/contact/?service=${s.id}`, '이 업무 상담')}</div></div>
    </div>`;
   const worksTop = `<div class="st sb" data-sub="works">
-${hero({ n: 4, label: 'WORKS', title: ['마케팅의 전 과정,', '<em>필요한 업무부터.</em>'], lead: '브랜드 기획부터 콘텐츠, 광고 운영, 웹 개발까지.<br>업무별 제공 내용과 실제 제작물을 확인하세요.', art: reel(['eyewear', 'jonghae', 'coffee', 'woil', 'soulreset', 'bugak', 'kings', 'microplastic']), index: [['services', `제공 서비스 ${services.length}`], ['projects', '프로젝트'], ['clients', `고객사 ${clients.length}`]] })}
+${hero({ label: 'WORKS', title: ['마케팅의 전 과정,', '<em>필요한 업무부터.</em>'], lead: '브랜드 기획부터 콘텐츠, 광고 운영, 웹 개발까지.<br>업무별 제공 내용과 실제 제작물을 확인하세요.', art: reel(['eyewear', 'jonghae', 'coffee', 'woil', 'soulreset', 'bugak', 'kings', 'microplastic']), index: [['services', `제공 서비스 ${services.length}`], ['projects', '프로젝트'], ['clients', `고객사 ${clients.length}`]] })}
 <section id="services" class="st-sec st-light" data-capabilities-index>
  <div class="st-shell">
   ${head('OUR CAPABILITIES', `열 가지 업무, <em>한 팀의 연결.</em>`, '업무에 마우스를 올리거나 눌러 보세요. 제공 내용과 관련 작업, 상담으로 이어집니다.')}
@@ -221,7 +221,7 @@ ${hero({ n: 4, label: 'WORKS', title: ['마케팅의 전 과정,', '<em>필요�
   ${head('CLIENTS', `함께한 고객사 <em>${clients.length}곳.</em>`, '병원·제약부터 제조 기업, 교육기관과 언론사까지 함께 일했습니다.')}
   ${clientGroups.map(([id, label]) => { const list = clients.filter(c => c.group === id); return `<div class="sb-client-group st-rv">
    <h3><b>${label}</b><small>${list.length}</small></h3>
-   <ul class="sb-client-grid">${list.map(c => `<li><span class="sb-client-logo"><img src="${c.src}" alt="${E(c.name)} 로고" loading="lazy" decoding="async"></span><span class="sb-client-name">${E(c.name)}</span></li>`).join('')}</ul>
+   <ul class="sb-client-grid">${list.map(c => `<li>${c.src ? `<span class="sb-client-logo"><img src="${c.src}" alt="${E(c.name)} 로고" loading="lazy" decoding="async"></span><span class="sb-client-name">${E(c.name)}</span>` : `<span class="sb-client-logo is-name"><b>${E(c.name)}</b></span>`}</li>`).join('')}</ul>
   </div>`; }).join('')}
  </div>
 </section></div>`;
@@ -229,7 +229,7 @@ ${hero({ n: 4, label: 'WORKS', title: ['마케팅의 전 과정,', '<em>필요�
   /* ---------------- CONTACT ---------------- */
   const chat = `<div class="sb-chat"><p class="me">홈페이지 리뉴얼과 SNS 운영을 같이 맡길 수 있을까요?</p><p class="us">가능합니다. 현재 채널과 자료부터 함께 보겠습니다.</p><p class="us">편한 상담 시간을 알려 주세요.</p><small>대화 예시</small></div>`;
   const contact = contactForm => `<div class="st sb" data-sub="contact">
-${hero({ n: 5, label: 'CONTACT', title: ['필요한 일을', '<em>말씀해 주세요.</em>'], lead: '회사 소개와 필요한 업무를 남겨 주세요. 범위가 정해지지 않았어도 괜찮습니다.<br>준비된 자료가 있다면 함께 첨부해 주세요.', art: chat, index: [['contact-form', '문의서'], ['contact-brief', '준비 자료'], ['contact-faq', '자주 묻는 질문']] })}
+${hero({ label: 'CONTACT', title: ['필요한 일을', '<em>말씀해 주세요.</em>'], lead: '회사 소개와 필요한 업무를 남겨 주세요. 범위가 정해지지 않았어도 괜찮습니다.<br>준비된 자료가 있다면 함께 첨부해 주세요.', art: chat, index: [['contact-form', '문의서'], ['contact-brief', '준비 자료'], ['contact-faq', '자주 묻는 질문']] })}
 <section id="contact-form" class="st-sec st-light">
  <div class="st-shell sb-contact">
   <aside class="sb-contact-aside">

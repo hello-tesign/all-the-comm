@@ -36,7 +36,7 @@ export function homeStory({ homeServices, stages, arrow }) {
 
   // 고객사 — 사례 카드와 다르게, 로고가 두 줄로 엇갈려 흐르는 띠. 이름 목록은 화면 낭독기용으로 한 번만 둡니다.
   const half = Math.ceil(clients.length / 2);
-  const logoRow = (list, cls) => `<div class="st-logo-row ${cls}"><div class="st-logo-track">${[0, 1].map(dup => list.map(c => `<span class="st-logo"${dup ? ' data-dup' : ''}><img src="${c.src}" alt="" loading="lazy" decoding="async"></span>`).join('')).join('')}</div></div>`;
+  const logoRow = (list, cls) => `<div class="st-logo-row ${cls}"><div class="st-logo-track">${[0, 1].map(dup => list.map(c => `<span class="st-logo${c.src ? '' : ' is-name'}"${dup ? ' data-dup' : ''}>${c.src ? `<img src="${c.src}" alt="" loading="lazy" decoding="async">` : `<b>${E(c.name)}</b>`}</span>`).join('')).join('')}</div></div>`;
   const clientBand = `
 <section id="st-clients" class="st-clients" aria-labelledby="st-clients-title">
  <div class="st-shell st-clients-head st-rv">

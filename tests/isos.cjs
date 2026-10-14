@@ -149,7 +149,7 @@ async function run() {
           check(label + ' no horizontal overflow', await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
           const nav = await page.locator('.desktop-nav a').allTextContents();
           check(label + ' official five menu items preserved', JSON.stringify(nav.map(clean)) === JSON.stringify(['ABOUT US', 'OUR PROCESS', 'TEAM', 'WORKS', 'CONTACT']), nav);
-          check(label + ' separate contact CTA preserved', await page.locator('.header-cta').count() === 1 && (await page.locator('.header-cta').getAttribute('href')) === '/contact/');
+          check(label + ' contact only in the menu, no duplicate header button', await page.locator('.header-cta').count() === 0 && await page.locator('.desktop-nav a[href="/contact/"]').count() === 1);
           check(label + ' heading has readable visible bounds', await page.locator('main h1').evaluate(el => { const b = el.getBoundingClientRect(); return b.width > 0 && b.height > 0 && getComputedStyle(el).opacity === '1'; }));
           await page.screenshot({ path: path.join(out, engineName + '-' + name + '.png') });
           if (name === 'home') {
