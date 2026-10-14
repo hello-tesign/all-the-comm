@@ -145,10 +145,17 @@ export function homeStory({ homeServices, stages, arrow }) {
 
   // 08 — 선택할 이유. 단어가 켜진 뒤 로고 실루엣이 화면을 채웁니다.
   const manifestoWords = ['한', '팀이,', '처음부터', '끝까지,', '책임지고', '연결합니다.'];
+  // 문장이 완성되면 실제 작업이 문장 둘레로 떠오르고, 점선이 각 작업을 문장으로 잇습니다.
+  const orbit = [[9, 21, -6], [25, 10, 4], [75, 11, -3], [91, 25, 7], [8, 68, 5], [22, 87, -4], [79, 86, 4], [93, 66, -7]]
+    .map(([x, y, r], i) => ({ x, y, r, it: showcaseItems[i] }));
   const manifesto = `
 <section id="st-mani" class="st-pin st-paper" data-scene="mani" data-chapter="08|선택할 이유" style="--h:260">
  <div class="st-sticky st-center">
   <div class="st-mani-mark" aria-hidden="true"></div>
+  <div class="st-mani-orbit" aria-hidden="true">
+   <svg viewBox="0 0 100 100" preserveAspectRatio="none">${orbit.map(o => `<line x1="${o.x}" y1="${o.y}" x2="50" y2="50" pathLength="1"/>`).join('')}</svg>
+   ${orbit.map((o, i) => `<img src="${cardImage(o.it.img, 450)}" alt="" loading="lazy" decoding="async" style="--x:${o.x}%;--y:${o.y}%;--r:${o.r}deg;--i:${i}">`).join('')}
+  </div>
   <p class="st-mani-words" aria-label="${manifestoWords.join(' ')}">${manifestoWords.map(w => `<span aria-hidden="true">${w}</span>`).join(' ')}</p>
  </div>
 </section>

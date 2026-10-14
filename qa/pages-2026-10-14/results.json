@@ -1,7 +1,7 @@
 {
- "at": "2026-10-14T09:06:58.531Z",
+ "at": "2026-10-14T09:24:04.245Z",
  "origin": "http://127.0.0.1:4300",
- "total": 156,
+ "total": 160,
  "failed": 0,
  "results": [
   {
@@ -746,6 +746,37 @@
   },
   {
    "name": "works: 32 clients in three groups, logos loaded and named",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "works: series cards show how many pieces they hold",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "works: series card opens the gallery popup and steps with the keys",
+   "pass": true,
+   "detail": {
+    "v1": {
+     "open": true,
+     "count": "01 / 06",
+     "hash": "#view-sales-rehearsal"
+    },
+    "v2": "02 / 06"
+   }
+  },
+  {
+   "name": "works: Escape closes the popup and restores the address",
+   "pass": true,
+   "detail": {
+    "open": false,
+    "hash": "",
+    "path": "/works/"
+   }
+  },
+  {
+   "name": "works: web cards still open the case page",
    "pass": true,
    "detail": null
   },

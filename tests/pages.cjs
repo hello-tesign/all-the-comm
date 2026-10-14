@@ -81,6 +81,19 @@ const textOverflow = page => page.evaluate(() => [...document.querySelectorAll('
     check('works: project cards are filled with the work', await page.evaluate(() => { const v = [...document.querySelectorAll('[data-project-list] .pf-visual')]; return v.length >= 6 && v.every(x => x.querySelector('img')) && document.querySelector('[data-project-list] .pf-card.is-feature') && document.querySelector('[data-project-list] .pf-visual.is-series'); }));
     await page.locator('#clients').scrollIntoViewIfNeeded(); await page.evaluate(async () => { for (const i of document.querySelectorAll('#clients img')) { i.loading = 'eager'; } await new Promise(r => setTimeout(r, 1500)); });
     check('works: 32 clients in three groups, logos loaded and named', await page.evaluate(() => { const imgs = [...document.querySelectorAll('#clients .sb-client-grid img')]; return document.querySelectorAll('#clients .sb-client-group').length === 3 && document.querySelectorAll('#clients .sb-client-grid li').length === 32 && imgs.length >= 16 && imgs.every(i => i.alt.endsWith('로고') && i.complete && i.naturalWidth > 0); }));
+    // gallery popup on series cards; web cards still go to the case page
+    await page.locator('#projects').scrollIntoViewIfNeeded(); await page.waitForTimeout(600);
+    const viewerCard = page.locator('a[data-viewer]').first();
+    check('works: series cards show how many pieces they hold', (await page.locator('a[data-viewer] .pf-count').count()) >= 3);
+    await viewerCard.click(); await page.waitForTimeout(900);
+    const v1 = await page.evaluate(() => ({ open: document.querySelector('dialog.wv')?.open, count: document.querySelector('[data-wv-count]')?.textContent, hash: location.hash }));
+    await page.keyboard.press('ArrowRight'); await page.waitForTimeout(500);
+    const v2 = await page.evaluate(() => document.querySelector('[data-wv-count]').textContent);
+    await page.keyboard.press('Escape'); await page.waitForTimeout(700);
+    const v3 = await page.evaluate(() => ({ open: document.querySelector('dialog.wv').open, hash: location.hash, path: location.pathname }));
+    check('works: series card opens the gallery popup and steps with the keys', v1.open && /^01 \/ \d\d$/.test(v1.count) && v1.hash.startsWith('#view-') && /^02 \//.test(v2), { v1, v2 });
+    check('works: Escape closes the popup and restores the address', !v3.open && v3.hash === '' && v3.path === '/works/', v3);
+    check('works: web cards still open the case page', await page.evaluate(() => [...document.querySelectorAll('.pf-card .pf-visual:not([data-viewer])')].every(a => /^\/works\/project\/[^/]+\/$/.test(a.getAttribute('href')))));
     const deep = await browser.newPage({ viewport: { width: 1440, height: 900 } });
     await deep.goto(origin + '/works/#hospital', { waitUntil: 'networkidle' }); await deep.waitForTimeout(1500);
     check('works: deep link selects the service', await deep.evaluate(() => document.querySelector('.sb-svc[aria-pressed=true]')?.dataset.id === 'hospital' && Math.abs(document.getElementById('services').getBoundingClientRect().top) < 140));

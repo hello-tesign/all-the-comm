@@ -58,7 +58,8 @@ function workCard(p,i,href,cover){
  if(series.length<3)series.splice(1);
  const article=document.createElement('article');article.className='project-card portfolio-piece pf-card'+(i%3===0?' is-feature':'');article.dataset.projectCard='';article.dataset.projectSlug=p.slug;article.dataset.services=(p.services||[]).join(' ');
  const title=E(p.title),visual=series.length?series.map((u,k)=>`<img class="project-image-real pf-img" loading="lazy" decoding="async" src="${E(u)}" alt="${k?'':title+' 대표 이미지'}">`).join(''):`<div class="project-text-cover"><strong>${title}</strong><span>${E(p.summary)}</span></div>`;
- article.innerHTML=`<a class="project-visual pf-visual${series.length>1?' is-series':''}" href="${href}">${visual}<span class="project-open">${arrow}<span class="sr-only">프로젝트 보기</span></span></a><div class="project-caption"><div><span class="eyebrow">${E([p.type||p.industry,p.year].filter(Boolean).join(' · '))}</span><a href="${href}"><h3>${title}</h3></a></div><p>${(p.services||[]).map(id=>E(data.services?.find(s=>s.id===id)?.ko||id)).join(' · ')}</p><p class="portfolio-summary">${E(p.summary)}</p></div>`;
+ const pieces=new Set([cover,...(p.images||[]).map(m=>m.url)].filter(Boolean)).size,viewer=series.length>1&&pieces>2;
+ article.innerHTML=`<a class="project-visual pf-visual${series.length>1?' is-series':''}" href="${href}"${viewer?` data-viewer aria-haspopup="dialog" aria-label="${title} 작품 ${pieces}점 크게 보기"`:''}>${visual}${viewer?`<span class="pf-count" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="7" y="3" width="14" height="14" rx="2"/><path d="M3 7v12a2 2 0 0 0 2 2h12"/></svg>${pieces}점</span>`:''}<span class="project-open">${arrow}<span class="sr-only">프로젝트 보기</span></span></a><div class="project-caption"><div><span class="eyebrow">${E([p.type||p.industry,p.year].filter(Boolean).join(' · '))}</span><a href="${href}"><h3>${title}</h3></a></div><p>${(p.services||[]).map(id=>E(data.services?.find(s=>s.id===id)?.ko||id)).join(' · ')}</p><p class="portfolio-summary">${E(p.summary)}</p></div>`;
  return article;
 }
 // Posters and book covers sit on the board as objects; screen captures get a browser frame.
@@ -72,6 +73,16 @@ function renderProjects(){if(!list)return;const filtered=projects.filter(p=>acti
 function buildFilters(){const bar=document.querySelector('[data-project-filters]');if(!bar)return;const ids=new Set(projects.flatMap(p=>(p.services||[]).map(id=>id==='consulting'?'strategy':id)));bar.replaceChildren();for(const id of ['all',...data.services.filter(s=>s.id!=='consulting'&&ids.has(s.id)).map(s=>s.id)]){const b=document.createElement('button');b.type='button';b.dataset.filter=id;b.setAttribute('aria-pressed',String(id===activeFilter));const s=data.services.find(s=>s.id===id);b.textContent=id==='all'?t('전체','All'):id==='strategy'?t('전략·컨설팅','Strategy & consulting'):id==='it'?t('웹·UI/UX·개발',s.en):t(s.ko,s.en);b.addEventListener('click',()=>{activeFilter=id;visibleCount=6;bar.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderProjects();});bar.append(b);}}
 const projectsReady=list?fetch('/api/projects'+(en?'?lang=en':''),{headers:{Accept:'application/json'}}).then(r=>{if(!r.ok)throw Error('Unavailable');return r.json();}).then(result=>{projects=result.projects||[];if(list.hasAttribute('data-featured')){projects=projects.filter(p=>p.featured&&(en||p.slug!=='all-the-comm'));if(!en)projects=projects.slice(0,3);}buildFilters();renderProjects();}).catch(()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.querySelectorAll('[data-project-card]').forEach(c=>c.hidden=b.dataset.filter!=='all'&&!c.dataset.services?.split(' ').includes(b.dataset.filter));}));}):Promise.resolve();
 document.querySelector('[data-load-more]')?.addEventListener('click',()=>{visibleCount+=6;renderProjects();});
+if(list&&!en){
+ const viewerProject=slug=>projects.find(p=>p.slug===slug&&new Set([p.coverImage,...(p.images||[]).map(m=>m.url)].filter(Boolean)).size>2);
+ document.addEventListener('click',event=>{
+  if(event.defaultPrevented||event.button||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+  const link=event.target.closest('a[data-viewer],.sb-board.is-series .sb-board-link');if(!link)return;
+  const slug=decodeURIComponent((link.getAttribute('href').match(/\/works\/project\/([^/]+)\//)||[])[1]||''),p=viewerProject(slug);if(!p)return;
+  event.preventDefault();import('./work-viewer.js').then(m=>m.openWorkViewer(p,{from:link.querySelector('img:not([hidden])')}));
+ });
+ projectsReady.then(()=>{const slug=decodeURIComponent(location.hash.startsWith('#view-')?location.hash.slice(6):'');const p=slug&&viewerProject(slug);if(p)import('./work-viewer.js').then(m=>m.openWorkViewer(p,{fromHash:true}));}).catch(()=>{});
+}
 
 if(document.body.classList.contains('case-page')){
  const match=location.pathname.match(/\/works\/project\/([^/]+)\/?$/),slug=match&&decodeURIComponent(match[1]);

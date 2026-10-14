@@ -79,7 +79,7 @@ export function initStory() {
   const caseBg = $('.st-case-bg'), beats = $$('.st-beat'), week = $('[data-st-week]');
   const rBase = $('#st-route-path'), rLive = $('.st-route-live'), carDot = $('.st-cardot'), wps = $$('.st-wp');
   const phr = $$('.st-phr li'), panes = $$('.st-pane'), nodes = $$('.st-node'), wheel = $('.st-wheel');
-  const maniMark = $('.st-mani-mark'), maniWords = $('.st-mani-words'), mw = $$('.st-mani-words span');
+  const maniMark = $('.st-mani-mark'), maniWords = $('.st-mani-words'), mw = $$('.st-mani-words span'), maniOrbit = $('.st-mani-orbit');
   const levels = $$('.st-level'), growMarks = $$('.st-g');
 
   /* ---------- 01 hero: where the mark must travel to cover the screen ---------- */
@@ -303,7 +303,8 @@ export function initStory() {
       maniMark.style.setProperty('--s', (.3 + 3.3 * ge).toFixed(4));
       maniMark.style.setProperty('--ty', ((1 - ge) * 40).toFixed(2) + 'svh');
       maniMark.style.setProperty('--o', seg(p, .3, .4).toFixed(3));
-      maniWords.classList.toggle('dark', p > .58); }
+      maniWords.classList.toggle('dark', p > .58);
+      maniOrbit?.classList.toggle('on', p > .64); }
 
     // 10 GROW — engagement levels grow from the corner of the mark
     if (moved('grow')) { const p = P.grow; const L = p < .3 ? 1 : p < .62 ? 2 : 3;

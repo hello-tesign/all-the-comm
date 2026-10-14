@@ -222,6 +222,13 @@
 #st-mani .st-sticky{background:var(--st-paper)}
 .st-mani-mark{position:absolute;left:50%;top:50%;width:min(44vw,520px);aspect-ratio:1;border-radius:var(--st-mark);background:radial-gradient(80% 70% at 40% 25%,#11615b,var(--st-ink) 70%);
  transform:translate(-50%,calc(-50% + var(--ty,40svh))) scale(var(--s,.3));opacity:var(--o,0)}
+.st-mani-orbit{position:absolute;inset:0;z-index:1;pointer-events:none}
+.st-mani-orbit svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.st-mani-orbit line{stroke:var(--st-mint);stroke-width:1.2;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1;opacity:.35;transition:stroke-dashoffset 1.2s var(--st-ease)}
+.st-mani-orbit img{position:absolute;left:var(--x);top:var(--y);width:clamp(84px,8.4vw,136px);aspect-ratio:3/4;object-fit:cover;border-radius:12px;box-shadow:0 24px 40px -18px rgba(0,0,0,.6),0 0 0 1px rgba(255,255,255,.12);opacity:0;transform:translate(-50%,-50%) translateY(40px) scale(.8) rotate(0);transition:opacity .7s var(--st-ease),transform 1s var(--st-spring);transition-delay:calc(var(--i) * 70ms);will-change:transform}
+.st-mani-orbit.on img{opacity:.95;transform:translate(-50%,-50%) rotate(var(--r));animation:st-drift 7s calc(var(--i) * -.9s) ease-in-out infinite alternate}
+.st-mani-orbit.on line{stroke-dashoffset:0;transition-delay:.35s}
+@keyframes st-drift{to{translate:0 -10px}}
 .st-mani-words{position:relative;z-index:2;max-width:1160px;padding:0 var(--st-gut);font-size:clamp(38px,6.2vw,104px);line-height:1.14;letter-spacing:-.055em;font-weight:800;word-break:keep-all}
 .st-mani-words span{color:var(--st-text);transition:color .35s}
 .st-ready .st-mani-words span:not(.lit){color:rgb(9 42 49 / .13)}
@@ -392,7 +399,7 @@
  .st-phr li{transform:none!important;color:var(--st-ink)}
  .st-panes{min-height:0;display:grid;gap:18px}
  .st .st-pane{position:relative;opacity:1;transform:none}
- .st-mani-mark{display:none}
+ .st-mani-mark,.st-mani-orbit{display:none}
  .st-mani-words span{color:var(--st-text)!important}
  .st-nums{grid-template-columns:1fr 1fr;gap:30px 16px}
  .st-table thead{display:none}
@@ -441,7 +448,7 @@
  .st-wps{margin-top:-220px}
  .st-panes{min-height:0;display:grid;gap:14px}.st .st-pane{position:relative;opacity:1;transform:none}
  .st-phr li{transform:none!important;color:var(--st-ink)}
- .st-mani-mark{display:none}.st-mani-words span{color:var(--st-text)!important}
+ .st-mani-mark,.st-mani-orbit{display:none}.st-mani-words span{color:var(--st-text)!important}
  .st.st-ready .st-rv:not(.in),.st [data-st-words] .sw>span{opacity:1;transform:none}
  .st-ready .st-table:not(.in) tbody tr{opacity:1;transform:none}
  .st-level{opacity:1!important}
