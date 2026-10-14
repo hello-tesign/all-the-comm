@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T00:42:26.641Z",
+ "at": "2026-10-14T01:17:05.085Z",
  "origin": "http://127.0.0.1:4183",
  "total": 65,
  "failed": 0,
@@ -310,32 +310,32 @@
    "detail": []
   },
   {
-   "name": "regression: /about/ loads without story assets",
+   "name": "regression: /about/ loads without the home scroll engine",
    "pass": true,
    "detail": null
   },
   {
-   "name": "regression: /process/ loads without story assets",
+   "name": "regression: /process/ loads without the home scroll engine",
    "pass": true,
    "detail": null
   },
   {
-   "name": "regression: /team/ loads without story assets",
+   "name": "regression: /team/ loads without the home scroll engine",
    "pass": true,
    "detail": null
   },
   {
-   "name": "regression: /works/ loads without story assets",
+   "name": "regression: /works/ loads without the home scroll engine",
    "pass": true,
    "detail": null
   },
   {
-   "name": "regression: /contact/ loads without story assets",
+   "name": "regression: /contact/ loads without the home scroll engine",
    "pass": true,
    "detail": null
   },
   {
-   "name": "regression: /en/ loads without story assets",
+   "name": "regression: /en/ loads without the home scroll engine",
    "pass": true,
    "detail": null
   },
@@ -412,7 +412,7 @@
    ]
   },
   {
-   "name": "works: service visuals framed",
+   "name": "works: service previews framed",
    "pass": true,
    "detail": null
   },

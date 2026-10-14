@@ -112,6 +112,7 @@ if(form){
 let cleanupMotion,cleanupIsos,cleanupStory,cleanupEvidence,cleanupAgencyHero,routeAlive=true;
 const loadEnhancements=async()=>{
  if(en)return;
+ if(document.querySelector('[data-sub]')){const m=await import('./story/sub.js').catch(()=>null);if(routeAlive&&m){cleanupStory?.();cleanupStory=m.initSub();}return;}
  if(document.querySelector('[data-story]')){const m=await import('./story/story.js').catch(()=>null);if(routeAlive&&m){cleanupStory?.();cleanupStory=m.initStory();}return;}
  const results=await Promise.allSettled([import('./isos-motion.js'),import('./scroll-story.js'),import('./evidence-motion.js'),document.querySelector('.agency-hero')?import('./agency-hero.js'):Promise.resolve(null)]);
  if(!routeAlive)return;
@@ -136,7 +137,7 @@ if(!en&&['#healthcare-expertise','#projects','#services'].includes(location.hash
   events.forEach(name=>removeEventListener(name,stop));
  })));
 }
-const loadMotion=()=>document.querySelector('[data-story]')?Promise.resolve():enhancementsReady.then(()=>import('./motion.js')).then(module=>{if(routeAlive){cleanupMotion?.();cleanupMotion=module.initMotion();}}).catch(()=>{document.querySelector('.hero-art')?.setAttribute('data-renderer','fallback');});
+const loadMotion=()=>document.querySelector('[data-story],[data-sub]')?Promise.resolve():enhancementsReady.then(()=>import('./motion.js')).then(module=>{if(routeAlive){cleanupMotion?.();cleanupMotion=module.initMotion();}}).catch(()=>{document.querySelector('.hero-art')?.setAttribute('data-renderer','fallback');});
 if('requestIdleCallback'in window)requestIdleCallback(loadMotion,{timeout:1200});else setTimeout(loadMotion,50);
 addEventListener('pagehide',()=>{routeAlive=false;cleanupMotion?.();cleanupIsos?.();cleanupStory?.();cleanupEvidence?.();cleanupAgencyHero?.();});
 addEventListener('pageshow',event=>{if(event.persisted){routeAlive=true;enhancementsReady=loadEnhancements();loadMotion();}});
@@ -146,7 +147,7 @@ if(!en&&(document.body.classList.contains('works-page')||document.body.classList
 function mountCaptureViewer(){
  if(document.querySelector('#capture-viewer'))return;
  const shots=[...document.querySelectorAll('[data-case-cover]>img,[data-case-cover] .evidence-self-shot img,.evidence-self-detail img,[data-case-gallery] img')];if(!shots.length)return;
- const viewer=document.createElement('dialog');viewer.id='capture-viewer';viewer.setAttribute('aria-label','작업 화면 확대 보기');viewer.innerHTML='<div class="viewer-toolbar"><span>작업 화면</span><button type="button" data-viewer-scale aria-pressed="false">원본 크기</button><button type="button" data-viewer-close aria-label="확대 화면 닫기">닫기 ×</button></div><div class="viewer-scroll"><img alt=""></div>';document.body.append(viewer);
+ const viewer=document.createElement('dialog');viewer.id='capture-viewer';viewer.setAttribute('aria-label','작업 화면 확대 보기');viewer.innerHTML='<div class="viewer-toolbar"><span>작업 화면</span><button type="button" data-viewer-scale aria-pressed="false">원본 크기</button><button type="button" data-viewer-close aria-label="확대 화면 닫기">닫기 ×</button></div><div class="viewer-scroll"><img alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></div>';document.body.append(viewer);
  const image=viewer.querySelector('img'),scale=viewer.querySelector('[data-viewer-scale]');let returnFocus;
  shots.forEach(img=>{const button=document.createElement('button');button.type='button';button.className='capture-open';button.setAttribute('aria-label',(img.alt||'작업 화면')+' 확대 보기');img.replaceWith(button);button.append(img);const hint=document.createElement('span');hint.className='capture-hint';hint.textContent='화면 크게 보기 ↗';button.append(hint);button.addEventListener('click',()=>{returnFocus=button;image.src=img.currentSrc||img.src;image.alt=img.alt;viewer.querySelector('.viewer-toolbar>span').textContent=img.alt||'작업 화면';viewer.classList.remove('is-original');scale.setAttribute('aria-pressed','false');scale.textContent='원본 크기';viewer.showModal();document.body.classList.add('viewer-open');viewer.querySelector('[data-viewer-close]').focus();});});
  scale.addEventListener('click',()=>{const full=viewer.classList.toggle('is-original');scale.setAttribute('aria-pressed',String(full));scale.textContent=full?'화면에 맞추기':'원본 크기';});

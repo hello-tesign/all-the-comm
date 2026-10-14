@@ -195,6 +195,20 @@ async function interactions(browser, engine, lang) {
     await test(label + ' service controls support click and keyboard', async () => {
       await page.setViewportSize({ width: 1440, height: 1000 });
       await ready(page, prefix + '/works/');
+      if (await page.locator('.sb-svc').count()) {
+        // Korean WORKS uses the service index (buttons + preview panel) introduced on 2026-10-14.
+        const items = page.locator('.sb-svc');
+        ensure(await items.count() === 10, { expected: 10, actual: await items.count() });
+        const shown = () => page.evaluate(() => [...document.querySelectorAll('.sb-svc-panel .sb-svc-detail')].filter(d => !d.hidden).map(d => d.dataset.for));
+        await items.nth(1).click(); const clicked = await shown();
+        ensure(clicked.length === 1 && await items.nth(1).getAttribute('aria-pressed') === 'true', { clicked });
+        await items.nth(2).focus(); await page.keyboard.press('Enter'); const keyboard = await shown();
+        ensure(keyboard[0] === await items.nth(2).getAttribute('data-id') && keyboard[0] !== clicked[0], { clicked, keyboard });
+        await page.setViewportSize({ width: 390, height: 844 });
+        await items.nth(0).click();
+        ensure(await page.evaluate(() => getComputedStyle(document.querySelector('.sb-svc-list>li.is-open .sb-svc-inline')).display === 'block'), 'Mobile service detail did not open inline');
+        return { services: 10 };
+      }
       const controls = page.locator('[data-service-choice]');
       ensure(await controls.count() === 10, { expected: 10, actual: await controls.count() });
       const second = controls.nth(1); await second.click(); const clicked = await verifyServiceControl(page, second);
@@ -228,6 +242,21 @@ async function interactions(browser, engine, lang) {
     await test(label + ' nine team roles support keyboard and mobile panels', async () => {
       await page.setViewportSize({ width: 1440, height: 1000 });
       await ready(page, prefix + '/team/');
+      if (await page.locator('.sb-role').count()) {
+        // Korean TEAM uses native disclosure rows (details/summary) introduced on 2026-10-14.
+        const roles = page.locator('.sb-role');
+        ensure(await roles.count() === 9, { issue: 'The final scope has nine roles', actual: await roles.count() });
+        await roles.nth(8).locator('summary').focus(); await page.keyboard.press('Enter');
+        ensure(await roles.nth(8).evaluate(d => d.open), 'Enter did not open the role');
+        await roles.nth(3).locator('summary').focus(); await page.keyboard.press(' '); await page.waitForTimeout(300);
+        const open = await page.evaluate(() => [...document.querySelectorAll('.sb-role')].map((d, i) => d.open ? i : -1).filter(i => i >= 0));
+        ensure(JSON.stringify(open) === '[3]', { open });
+        await page.setViewportSize({ width: 390, height: 844 });
+        await roles.nth(0).locator('summary').click();
+        ensure(await roles.nth(0).evaluate(d => d.open), 'Mobile role did not open');
+        ensure(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), 'The mobile team stage overflows');
+        return { roles: 9 };
+      }
       const roles = page.locator('[data-service-choice^="role-"]');
       ensure(await roles.count() === 9, { issue: 'The final scope has nine roles', actual: await roles.count() });
       await roles.nth(8).click(); await verifyServiceControl(page, roles.nth(8));

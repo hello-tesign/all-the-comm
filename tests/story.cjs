@@ -224,7 +224,7 @@ const visibleText = (page, sel) => page.locator(sel).evaluateAll(els => els.filt
     const gErrors = watchErrors(g);
     for (const u of ['/about/', '/process/', '/team/', '/works/', '/contact/', '/en/']) {
       const res = await g.goto(origin + u, { waitUntil: 'networkidle' });
-      check(`regression: ${u} loads without story assets`, res.status() === 200 && (await g.locator('link[href="/story.css"]').count()) === 0);
+      check(`regression: ${u} loads without the home scroll engine`, res.status() === 200 && (await g.locator('[data-story]').count()) === 0);
     }
     // case presentation boards
     await g.goto(origin + '/works/', { waitUntil: 'networkidle' });
@@ -233,7 +233,7 @@ const visibleText = (page, sel) => page.locator(sel).evaluateAll(els => els.filt
     const boards = await g.evaluate(() => [...document.querySelectorAll('.portfolio-piece[data-project-slug]')].map(c => ({ slug: c.dataset.projectSlug, frame: !!c.querySelector('.shot-frame'), poster: !!c.querySelector('.portfolio-shot.is-poster') })).filter(c => c.slug !== 'all-the-comm'));
     check('works: every capture sits in a frame', boards.length >= 6 && boards.every(b => b.frame), boards);
     check('works: posters and books are staged as objects', boards.filter(b => ['city-culture', 'sales-rehearsal', 'patient-guide'].includes(b.slug)).every(b => b.poster) && boards.filter(b => ['ezylens-studio', 'kings-franchise'].includes(b.slug)).every(b => !b.poster), boards);
-    check('works: service visuals framed', await g.evaluate(() => getComputedStyle(document.querySelector('.evidence-visual .evidence-image-link'), '::before').content !== 'none'));
+    check('works: service previews framed', await g.evaluate(() => document.querySelectorAll('.sb-svc-panel .sb-board .sb-chrome').length === 4 && document.querySelectorAll('.sb-svc-panel .sb-board.is-poster').length === 3));
     await g.locator('.portfolio-piece').first().scrollIntoViewIfNeeded();
     await g.locator('.portfolio-piece').first().screenshot({ path: path.join(out, 'works-card.png') });
     for (const [slug, poster] of [['soulreset', false], ['city-culture', true]]) {

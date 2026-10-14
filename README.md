@@ -63,6 +63,7 @@ npm start
 | src/agency-composition.css, src/diverse-samples.mjs/css | 다업종 작업 모음과 서로 다른 형식의 제안 결과물 |
 | src/data/portfolio-diverse.mjs | 리테일·문화·기관·의료 신규 사례와 수행 범위 |
 | src/story/ (home-story.mjs, story.js, story.css, showcase.mjs, sample-cases.mjs) | 국문 HOME 스크롤 스토리·3D 작업물 회랑. 더미·교체 목록은 docs/home-story-2026-10-13.md |
+| src/story/pages.mjs, sub.css, sub.js | 국문 ABOUT·PROCESS·TEAM·WORKS·CONTACT. 구성과 판단 문구는 docs/subpages-2026-10-14.md |
 | src/story/frames.css | 작업 캡처 프레젠테이션 보드(WORKS 목록·사례 표지·서비스 시각물) |
 | docs/agency-reference-decisions.md, docs/evidence-visual-assets.md | 20개 참고 사이트 확인 범위와 이미지 출처 |
 | motion/ | 직접 제작한 HyperFrames 소스와 영상 검수 기록 |
@@ -80,6 +81,7 @@ npm start
 ```sh
 npm test
 npm run test:story
+npm run test:pages
 npm run test:server
 npm run test:motion
 node tests/full-flow.cjs
