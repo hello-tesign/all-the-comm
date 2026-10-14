@@ -1,6 +1,8 @@
 # Publishes the static snapshot (npm run build:static) to Vercel as project
 # "atc-chdbsd" and attaches atc.chdbsd.com. Needs the repository secret
 # VERCEL_TOKEN; without it the run only reports that the token is missing.
+# The project goes to the Vercel team that already owns chdbsd.com, or to the
+# team named in the repository variable VERCEL_SCOPE.
 name: Deploy to Vercel
 
 on:
@@ -17,8 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_SCOPE: ${{ vars.VERCEL_SCOPE }}
       PROJECT: atc-chdbsd
       DOMAIN: atc.chdbsd.com
+      APEX: chdbsd.com
     steps:
       - name: Check token
         id: token
@@ -36,6 +40,24 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - name: Find the team that owns the domain
+        id: scope
+        if: steps.token.outputs.ready == 'true'
+        run: |
+          scope="$VERCEL_SCOPE"
+          if [ -z "$scope" ]; then
+            scope=$(node --input-type=module -e '
+              const get=async path=>{try{const r=await fetch("https://api.vercel.com"+path,{headers:{Authorization:"Bearer "+process.env.VERCEL_TOKEN}});return r.ok?r.json():null;}catch{return null;}};
+              const teams=(await get("/v2/teams"))?.teams||[];
+              console.error("Teams visible to the token: "+(teams.map(t=>t.slug).join(", ")||"(none)"));
+              for(const team of [null,...teams]){
+                const found=await get("/v5/domains/"+process.env.APEX+(team?"?teamId="+team.id:""));
+                if(found?.domain){console.error(process.env.APEX+" is owned by "+(team?team.slug:"the personal account"));console.log(team?team.slug:"");process.exit(0);}
+              }
+              console.error(process.env.APEX+" was not found in any scope; using the token default.");') || true
+          fi
+          echo "Vercel scope: ${scope:-(token default)}"
+          echo "args=${scope:+--scope $scope}" >> "$GITHUB_OUTPUT"
       - name: Build static site
         if: steps.token.outputs.ready == 'true'
         run: |
@@ -49,9 +71,9 @@ jobs:
           # Serve the snapshot as-is: keep routing and headers, drop the build settings.
           node -e "const c=require('./vercel.json');for(const k of ['installCommand','buildCommand','outputDirectory'])delete c[k];require('fs').writeFileSync(process.argv[1],JSON.stringify(c,null,2))" "$site/vercel.json"
           cd "$site"
-          npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+          npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN" ${{ steps.scope.outputs.args }}
       - name: Attach domain
         if: steps.token.outputs.ready == 'true'
         run: |
-          npx --yes vercel@latest domains add "$DOMAIN" "$PROJECT" --token "$VERCEL_TOKEN" || true
-          npx --yes vercel@latest domains inspect "$DOMAIN" --token "$VERCEL_TOKEN" || true
+          npx --yes vercel@latest domains add "$DOMAIN" "$PROJECT" --token "$VERCEL_TOKEN" ${{ steps.scope.outputs.args }} || true
+          npx --yes vercel@latest domains inspect "$DOMAIN" --token "$VERCEL_TOKEN" ${{ steps.scope.outputs.args }} || true
