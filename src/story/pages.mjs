@@ -4,6 +4,7 @@
 import { portfolio } from '../data/portfolio.mjs';
 import { brandWork } from '../data/portfolio-brand-work.mjs';
 import { cardImage } from './showcase.mjs';
+import { clients, clientGroups } from '../data/clients.mjs';
 
 const E = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const pad = n => String(n).padStart(2, '0');
@@ -15,6 +16,7 @@ const posterKeys = new Set(['city', 'book', 'patient']);
 const tints = ['#59e3c6', '#c9a77a', '#8fb7ff', '#f2b45c', '#c1a3ff', '#7be0b8'];
 
 export function subPages({ services, stages, roles, principles, company, arrow }) {
+  const icon = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   const link = (href, label, cls = 'st-textlink') => `<a class="${cls}" href="${href}">${label}${arrow}</a>`;
   const btn = (href, label, cls = 'st-btn-ink') => `<a class="st-btn ${cls}" href="${href}"><span>${label}</span>${arrow}</a>`;
 
@@ -99,20 +101,35 @@ ${ctaBand('회사 소개서가 <em>필요하신가요?</em>', '서비스 범위�
     [['시안 검토 일정', '수정 범위와 승인 담당', '집행 승인'], ['시안 검토', '수정 반영', '광고·채널 집행']],
     [['확인 지표와 보고 주기', '다음 단계의 목표'], ['결과 리뷰', '개선안 논의', '자료·권한 인계']]
   ];
+  // 단계마다 아이콘과 산출물 무드보드(실제 작업 이미지 + 미니 차트). 목록 내용은 아래 열에만 둡니다.
+  const stageLook = [
+    { ic: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.3 15.3L21 21M8 13v-2M10.5 13V8.5M13 13v-3.5"/>', main: 'analysis', extra: `<span class="sb-mood-bars">${[58, 86, 40, 72].map((h, k) => `<i style="--h:${h}%;--k:${k}"></i>`).join('')}</span>` },
+    { ic: '<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>', main: 'strategy', side: 'strategy-b', tall: true },
+    { ic: '<path d="M4 20l4-1L19 8l-3-3L5 16z"/><path d="M14 7l3 3"/>', main: 'make', side: 'make-b' },
+    { ic: '<path d="M4 4v16h16"/><path d="M8 15l3.5-4 3 2.5L20 7"/>', main: 'report', extra: `<span class="sb-mood-line"><svg viewBox="0 0 120 50"><path d="M4 42L28 30L50 34L74 18L96 22L116 6" pathLength="1"/></svg></span>` }
+  ];
+  const colIcons = ['<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8l1.5 1.5L12 7M8 14l1.5 1.5L12 13M14.5 8.5H17M14.5 14.5H17"/>', '<circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c.6-3.4 3-5.2 6-5.2s5.4 1.8 6 5.2M15 14.8c2.6-.2 4.6 1.3 5.2 4.2"/>', '<path d="M3 7.5L12 3l9 4.5v9L12 21l-9-4.5z"/><path d="M3 7.5l9 4.5 9-4.5M12 12v9"/>'];
+  const shareIcons = ['<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>', '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/>', '<path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h3"/>', '<path d="M4 8h13l-3-3M20 16H7l3 3"/>'];
+  const mood = (l, i) => `<figure class="sb-mood st-rv${l.tall ? ' is-tall' : ''}" style="--tint:${tints[i % tints.length]}" aria-hidden="true"><img class="sb-mood-main" src="/showcase/process/${l.main}.webp" alt="" loading="lazy" decoding="async">${l.side ? `<img class="sb-mood-side" src="/showcase/process/${l.side}.webp" alt="" loading="lazy" decoding="async">` : ''}${l.extra || ''}</figure>`;
   const process = `<div class="st sb" data-sub="process">
 ${hero({ n: 2, label: 'OUR PROCESS', title: ['시작부터 납품까지,', '<em>분명한 과정.</em>'], lead: '네 단계마다 무엇을 확인하고, 함께 무엇을 하고, 무엇을 전달하는지 미리 정합니다.<br>모든 단계는 한 명의 담당자가 연결합니다.', art: `<div class="sb-dial"><svg viewBox="0 0 400 400"><circle class="base" cx="200" cy="200" r="140"/><circle class="arc" cx="200" cy="200" r="140" pathLength="100"/></svg>${stages.map((s, i) => `<span class="sb-dial-node" style="--a:${i * 90}deg;--i:${i}"><small>${pad(i + 1)}</small>${E(s.label)}</span>`).join('')}<div class="sb-dial-core"><b>4</b><span>단계 · 1 담당자</span></div></div>`, index: [['process-steps', '네 단계'], ['process-share', '공유하는 것'], ['process-start', '시작하기']] })}
 <section id="process-steps" class="st-sec st-light">
  <div class="st-shell sb-steps">
-  <aside class="sb-steps-rail" aria-hidden="true"><div class="sb-rail-sticky"><b data-sb-step>01</b><span data-sb-step-label>${E(stages[0].label)}</span><i class="sb-rail-bar"><s></s></i><ol>${stages.map((s, i) => `<li class="${i ? '' : 'on'}">${E(s.label)}</li>`).join('')}</ol></div></aside>
+  <aside class="sb-steps-rail" aria-hidden="true"><div class="sb-rail-sticky"><span class="sb-rail-ic">${stageLook.map((l, i) => `<i class="${i ? '' : 'on'}">${icon(l.ic)}</i>`).join('')}</span><b data-sb-step>01</b><span data-sb-step-label>${E(stages[0].label)}</span><i class="sb-rail-bar"><s></s></i><ol>${stages.map((s, i) => `<li class="${i ? '' : 'on'}">${E(s.label)}</li>`).join('')}</ol></div></aside>
   <div class="sb-steps-list">
    ${stages.map((s, i) => `<article class="sb-step" data-sb-step-i="${i}" data-label="${E(s.label)}">
-    <p class="st-eyebrow">${pad(i + 1)} · ${E(s.label)}</p>
-    <h2 class="sb-step-title">${E(s.title)}</h2>
-    <p class="sb-step-body">${E(s.body)}</p>
+    <div class="sb-step-top">
+     <div>
+      <div class="sb-step-head"><span class="sb-step-ic">${icon(stageLook[i].ic)}</span><p class="st-eyebrow">${pad(i + 1)} · ${E(s.label)}</p></div>
+      <h2 class="sb-step-title">${E(s.title)}</h2>
+      <p class="sb-step-body">${E(s.body)}</p>
+     </div>
+     ${mood(stageLook[i], i)}
+    </div>
     <div class="sb-step-cols">
-     <div><h3>확인할 내용</h3><ul>${checks[i][0].map(x => `<li>${x}</li>`).join('')}</ul></div>
-     <div><h3>함께 하는 일</h3><ul>${checks[i][1].map(x => `<li>${x}</li>`).join('')}</ul></div>
-     <div class="sb-out"><h3>전달하는 결과</h3><ul>${s.outputs.map(x => `<li>${E(x)}</li>`).join('')}</ul></div>
+     <div><h3>${icon(colIcons[0])}확인할 내용</h3><ul>${checks[i][0].map(x => `<li>${x}</li>`).join('')}</ul></div>
+     <div><h3>${icon(colIcons[1])}함께 하는 일</h3><ul>${checks[i][1].map(x => `<li>${x}</li>`).join('')}</ul></div>
+     <div class="sb-out"><h3>${icon(colIcons[2])}전달하는 결과</h3><ul>${s.outputs.map(x => `<li>${E(x)}</li>`).join('')}</ul></div>
     </div>
    </article>`).join('')}
   </div>
@@ -121,7 +138,7 @@ ${hero({ n: 2, label: 'OUR PROCESS', title: ['시작부터 납품까지,', '<em>
 <section id="process-share" class="st-sec st-paper">
  <div class="st-shell">
   ${head('목표는 분명하게. 진행은 투명하게.', '진행하는 동안 <em>공유하는 것.</em>', '목표와 예산에 맞춰 기획하고, 진행과 결과를 함께 확인합니다.')}
-  <ol class="sb-rows">${[['진행 상황', '일정과 진행 단계, 다음에 확인할 일을 담당자에게 정기적으로 공유합니다.'], ['수정 요청', '요청 내용과 반영 여부를 기록으로 남겨 같은 수정이 반복되지 않게 합니다.'], ['집행 내역', '광고·매체 집행은 금액과 기간, 결과를 함께 보고합니다.'], ['변경 사항', '추가 요청은 비용·일정·작업 범위를 먼저 확인하고 합의한 뒤 반영합니다.']].map(([t, b], i) => `<li class="st-rv"><small>${pad(i + 1)}</small><h3>${t}</h3><p>${b}</p></li>`).join('')}</ol>
+  <ol class="sb-rows has-ic">${[['진행 상황', '일정과 진행 단계, 다음에 확인할 일을 담당자에게 정기적으로 공유합니다.'], ['수정 요청', '요청 내용과 반영 여부를 기록으로 남겨 같은 수정이 반복되지 않게 합니다.'], ['집행 내역', '광고·매체 집행은 금액과 기간, 결과를 함께 보고합니다.'], ['변경 사항', '추가 요청은 비용·일정·작업 범위를 먼저 확인하고 합의한 뒤 반영합니다.']].map(([t, b], i) => `<li class="st-rv"><small><span class="sb-row-ic">${icon(shareIcons[i])}</span>${pad(i + 1)}</small><h3>${t}</h3><p>${b}</p></li>`).join('')}</ol>
  </div>
 </section>
 <div id="process-start">${ctaBand('목표 · 예산 · 일정부터 <em>함께 정합니다.</em>', '아직 범위가 정해지지 않았어도 괜찮습니다. 목적과 준비된 자료를 보내 주시면 첫 단계부터 함께 정리합니다.', '/contact/', '프로젝트 상담')}</div>
@@ -140,7 +157,6 @@ ${hero({ n: 2, label: 'OUR PROCESS', title: ['시작부터 납품까지,', '<em>
     ['it', 'jonghae', '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M9.5 8.3L7 10.8l2.5 2.5M14.5 8.3l2.5 2.5-2.5 2.5M8 21h8M12 17v4"/>'],
     ['pr', '', '<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2M7 9h7M7 12.5h7M7 16h4"/>']
   ];
-  const icon = d => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   const roleKeys = ['전략', '디지털', '콘텐츠', '디자인', '영상', '미디어', '인플루언서', 'IT', '언론홍보'];
   const matrix = [
     ['브랜드 런칭', [2, 1, 1, 2, 1, 0, 1, 0, 1]],
@@ -186,7 +202,7 @@ ${ctaBand('프로젝트 전체부터 <em>개별 업무까지.</em>', '원고 편
      <div class="sb-svc-act">${related[s.id] ? link(`/works/project/${related[s.id]}/`, '관련 작업 보기') : ''}${link(`/contact/?service=${s.id}`, '이 업무 상담')}</div></div>
    </div>`;
   const worksTop = `<div class="st sb" data-sub="works">
-${hero({ n: 4, label: 'WORKS', title: ['마케팅의 전 과정,', '<em>필요한 업무부터.</em>'], lead: '브랜드 기획부터 콘텐츠, 광고 운영, 웹 개발까지.<br>업무별 제공 내용과 실제 제작물을 확인하세요.', art: reel(['eyewear', 'jonghae', 'coffee', 'woil', 'soulreset', 'bugak', 'kings', 'microplastic']), index: [['services', `제공 서비스 ${services.length}`], ['projects', '프로젝트']] })}
+${hero({ n: 4, label: 'WORKS', title: ['마케팅의 전 과정,', '<em>필요한 업무부터.</em>'], lead: '브랜드 기획부터 콘텐츠, 광고 운영, 웹 개발까지.<br>업무별 제공 내용과 실제 제작물을 확인하세요.', art: reel(['eyewear', 'jonghae', 'coffee', 'woil', 'soulreset', 'bugak', 'kings', 'microplastic']), index: [['services', `제공 서비스 ${services.length}`], ['projects', '프로젝트'], ['clients', `고객사 ${clients.length}`]] })}
 <section id="services" class="st-sec st-light" data-capabilities-index>
  <div class="st-shell">
   ${head('OUR CAPABILITIES', `열 가지 업무, <em>한 팀의 연결.</em>`, '업무에 마우스를 올리거나 눌러 보세요. 제공 내용과 관련 작업, 상담으로 이어집니다.')}
@@ -197,6 +213,18 @@ ${hero({ n: 4, label: 'WORKS', title: ['마케팅의 전 과정,', '<em>필요�
  </div>
 </section>
 </div>`;
+
+  // 고객사(WORKS): 홈의 흐르는 띠와 달리 분야별로 멈춰 있는 로고 표. 로고 아래에 이름을 둡니다.
+  // 프로젝트 목록(기존 마크업) 뒤에 붙으므로 토큰을 쓰도록 .st로 감쌉니다. data-sub가 없어 등장 효과 없이 바로 보입니다.
+  const worksClients = `<div class="st sb"><section id="clients" class="st-sec st-paper sb-clients">
+ <div class="st-shell">
+  ${head('CLIENTS', `함께한 고객사 <em>${clients.length}곳.</em>`, '병원·제약부터 제조 기업, 교육기관과 언론사까지 함께 일했습니다.')}
+  ${clientGroups.map(([id, label]) => { const list = clients.filter(c => c.group === id); return `<div class="sb-client-group st-rv">
+   <h3><b>${label}</b><small>${list.length}</small></h3>
+   <ul class="sb-client-grid">${list.map(c => `<li><span class="sb-client-logo"><img src="${c.src}" alt="${E(c.name)} 로고" loading="lazy" decoding="async"></span><span class="sb-client-name">${E(c.name)}</span></li>`).join('')}</ul>
+  </div>`; }).join('')}
+ </div>
+</section></div>`;
 
   /* ---------------- CONTACT ---------------- */
   const chat = `<div class="sb-chat"><p class="me">홈페이지 리뉴얼과 SNS 운영을 같이 맡길 수 있을까요?</p><p class="us">가능합니다. 현재 채널과 자료부터 함께 보겠습니다.</p><p class="us">편한 상담 시간을 알려 주세요.</p><small>대화 예시</small></div>`;
@@ -228,5 +256,5 @@ ${hero({ n: 5, label: 'CONTACT', title: ['필요한 일을', '<em>말씀해 주�
 </section>
 </div>`;
 
-  return { about, process, team, worksTop, contact };
+  return { about, process, team, worksTop, worksClients, contact };
 }

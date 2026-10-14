@@ -3,6 +3,7 @@
 // 시각 언어: 로고 심볼의 실루엣(오른쪽 아래만 각진 원)을 창·도형·성장 단계로 반복합니다.
 import { featuredCase } from './sample-cases.mjs';
 import { showcase, showcaseItems, cardImage } from './showcase.mjs';
+import { clients } from '../data/clients.mjs';
 
 const E = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const pad = n => String(n).padStart(2, '0');
@@ -31,6 +32,20 @@ export function homeStory({ homeServices, stages, arrow }) {
   <div class="st-hero-end"><p>기획부터 운영까지,<br><em>한 팀이 끝까지.</em></p></div>
   <div class="st-hero-foot st-shell" aria-hidden="true"><span>SCROLL</span><i></i></div>
  </div>
+</section>`;
+
+  // 고객사 — 사례 카드와 다르게, 로고가 두 줄로 엇갈려 흐르는 띠. 이름 목록은 화면 낭독기용으로 한 번만 둡니다.
+  const half = Math.ceil(clients.length / 2);
+  const logoRow = (list, cls) => `<div class="st-logo-row ${cls}"><div class="st-logo-track">${[0, 1].map(dup => list.map(c => `<span class="st-logo"${dup ? ' data-dup' : ''}><img src="${c.src}" alt="" loading="lazy" decoding="async"></span>`).join('')).join('')}</div></div>`;
+  const clientBand = `
+<section id="st-clients" class="st-clients" aria-labelledby="st-clients-title">
+ <div class="st-shell st-clients-head st-rv">
+  <p class="st-eyebrow">CLIENTS</p>
+  <h2 id="st-clients-title">병원·기업·교육기관 <b>${clients.length}곳</b>과 함께했습니다.</h2>
+  <a class="st-textlink" href="/works/#clients">고객사 전체 보기${arrow}</a>
+ </div>
+ <ul class="st-sr">${clients.map(c => `<li>${E(c.name)}</li>`).join('')}</ul>
+ <div class="st-logo-rows" aria-hidden="true">${logoRow(clients.slice(0, half), 'left')}${logoRow(clients.slice(half), 'right')}</div>
 </section>`;
 
   // 02 — 이런 회사와 일합니다. 고민 문장에 선이 그어지고 답이 이어집니다.
@@ -205,5 +220,5 @@ export function homeStory({ homeServices, stages, arrow }) {
 
   const hud = `<div class="st-hud" aria-hidden="true"><div class="st-prog"><s></s></div><p class="st-chap"><b data-st-chapn>01</b><i></i><span data-st-chapt>회사의 역할</span></p></div>`;
 
-  return `<div class="st" data-story>${hud}${hero}${why}${tangle}${services}${caseScene}${showcase({ arrow })}${cycle}${manifesto}${compare}${grow}${next}</div>`;
+  return `<div class="st" data-story>${hud}${hero}${clientBand}${why}${tangle}${services}${caseScene}${showcase({ arrow })}${cycle}${manifesto}${compare}${grow}${next}</div>`;
 }

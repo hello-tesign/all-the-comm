@@ -67,11 +67,12 @@ export function initSub() {
   const steps = $$('.sb-step');
   if (steps.length) {
     const num = root.querySelector('[data-sb-step]'), label = root.querySelector('[data-sb-step-label]');
-    const bar = root.querySelector('.sb-rail-bar'), items = $$('.sb-rail-sticky li');
+    const bar = root.querySelector('.sb-rail-bar'), items = $$('.sb-rail-sticky li'), icons = $$('.sb-rail-ic i');
     const setStep = i => {
       num.textContent = String(i + 1).padStart(2, '0'); label.textContent = steps[i].dataset.label;
       bar.style.setProperty('--p', ((i + 1) / steps.length).toFixed(3));
       items.forEach((li, k) => li.classList.toggle('on', k === i));
+      icons.forEach((el, k) => el.classList.toggle('on', k === i));
     };
     const sio = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) setStep(+e.target.dataset.sbStepI); }), { rootMargin: '-45% 0px -50% 0px' });
     steps.forEach(s => sio.observe(s));

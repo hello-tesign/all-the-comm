@@ -331,7 +331,26 @@
 .sc-note{font-size:13px;line-height:1.6;color:rgba(239,248,245,.55);text-align:right;padding-bottom:10px}
 
 /* STATIC — mobile and reduced motion share the finished compositions -------------- */
+/* clients band (home): two rows of logos drifting in opposite directions; hover pauses and reveals colour */
+.st-clients{position:relative;padding:clamp(70px,8vw,110px) 0 clamp(60px,7vw,96px);background:var(--st-white);border-bottom:1px solid var(--st-line);overflow:hidden}
+.st-clients-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:clamp(36px,4vw,52px)}
+.st-clients-head .st-eyebrow{flex-basis:100%}
+.st-clients-head h2{font-size:clamp(26px,2.8vw,40px);font-weight:800;letter-spacing:-.045em;line-height:1.25;word-break:keep-all}
+.st-clients-head h2 b{color:var(--st-teal)}
+.st-logo-rows{display:grid;gap:18px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent);mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}
+.st-logo-row{overflow:hidden}
+.st-logo-track{display:flex;width:max-content;gap:18px;animation:st-logos 70s linear infinite}
+.st-logo-row.right .st-logo-track{animation-direction:reverse;animation-duration:78s}
+.st-logo-row:hover .st-logo-track{animation-play-state:paused}
+@keyframes st-logos{to{transform:translateX(calc(-50% - 9px))}}
+.st-logo{display:grid;place-items:center;width:clamp(150px,13vw,196px);height:clamp(76px,6.4vw,92px);padding:0 22px;border-radius:16px;background:var(--st-paper);transition:background .4s}
+.st-logo img{display:block;max-width:100%;max-height:44px;width:auto;height:auto;object-fit:contain;filter:grayscale(1);opacity:.62;mix-blend-mode:multiply;transition:filter .4s,opacity .4s,transform .4s var(--st-spring)}
+.st-logo:hover{background:#fff;box-shadow:0 0 0 1px var(--st-line)}
+.st-logo:hover img{filter:none;opacity:1;transform:scale(1.06)}
 @media (max-width:760px){
+ .st-logo{width:132px;height:68px;padding:0 16px;border-radius:12px}
+ .st-logo img{max-height:34px}
+ .st-logo-rows,.st-logo-track{gap:12px}
  .st-pin{height:auto}
  .st-sticky{position:relative;height:auto;overflow:visible;padding:92px 0}
  .st-chap{display:none}
@@ -395,6 +414,11 @@
  .sc-turn span{opacity:1;transform:none}
  .sc-foot{margin-top:10px}
  .sc-ctrl,.sc-cap{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+ .st-logo-rows{-webkit-mask-image:none;mask-image:none}
+ .st-logo-track{animation:none;width:auto;flex-wrap:wrap;justify-content:center;padding:0 var(--st-gut,24px)}
+ .st-logo[data-dup]{display:none}
 }
 @media (prefers-reduced-motion:reduce){
  .st *,.st *::before,.st *::after{animation:none!important;transition:none!important}
