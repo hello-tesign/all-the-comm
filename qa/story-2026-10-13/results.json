@@ -1,7 +1,7 @@
 {
- "at": "2026-10-14T07:05:32.502Z",
+ "at": "2026-10-14T09:01:26.580Z",
  "origin": "http://127.0.0.1:4300",
- "total": 66,
+ "total": 67,
  "failed": 0,
  "results": [
   {
@@ -139,6 +139,11 @@
   },
   {
    "name": "gallery: choosing a side card brings it to the front",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "clients: 32 clients drift in two rows (logo or name), names listed once for screen readers",
    "pass": true,
    "detail": null
   },
@@ -368,7 +373,7 @@
     },
     {
      "slug": "w-oil-campaign",
-     "imgs": 1,
+     "imgs": 2,
      "series": true,
      "fill": true
     },
@@ -410,7 +415,7 @@
     },
     {
      "slug": "w-oil-campaign",
-     "imgs": 1,
+     "imgs": 2,
      "series": true,
      "fill": true
     },

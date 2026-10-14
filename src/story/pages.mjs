@@ -60,7 +60,7 @@ export function subPages({ services, stages, roles, principles, company, arrow }
   /* ---------------- ABOUT ---------------- */
   const partners = ['강남더블유안과', '리드힐', '리샘', '새빛', '참진한의원', '함소아의원'];
   // ABOUT의 작은 아이콘·썸네일. 사례 소개가 아니라 각 항목의 성격을 보여 주는 정도로만 씁니다.
-  const eqLook = [['strategy', '<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>'], ['make-b', '<path d="M4 20l4-1L19 8l-3-3L5 16z"/><path d="M14 7l3 3"/>'], ['report', '<path d="M4 4v16h16"/><path d="M8 15l3.5-4 3 2.5L20 7"/>']];
+  const eqLook = [['/showcase/card/eyewear-450', '<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>'], ['/showcase/card/bugak-450', '<path d="M4 20l4-1L19 8l-3-3L5 16z"/><path d="M14 7l3 3"/>'], ['/showcase/process/report', '<path d="M4 4v16h16"/><path d="M8 15l3.5-4 3 2.5L20 7"/>']];
   const healthIcons = ['<path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M12 10.5v6M9 13.5h6"/>', '<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/>', '<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2M7 9h7M7 12.5h7M7 16h4"/>'];
   const principleIcons = ['<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>', '<path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 5v6h-6"/>', '<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/>', '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>', '<path d="M4 8h13l-3-3M20 16H7l3 3"/>'];
   const factIcons = ['<path d="M4 21V5l8-2v18M12 8h8v13M8 8v.01M8 12v.01M8 16v.01M16 12v.01M16 16v.01"/>', '<circle cx="12" cy="8" r="4"/><path d="M4 21c1-4.5 4.2-7 8-7s7 2.5 8 7"/>', '<path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>', '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A17 17 0 0 1 4 5a1 1 0 0 1 1-1z"/>', '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>'];
@@ -70,7 +70,7 @@ ${hero({ label: 'ABOUT US', title: ['사업을 이해하는 기획,', '<em>현�
  <div class="st-shell">
   ${head('WHY WE ARE HERE', '기업의 마케팅을 맡는 <em>외부 팀.</em>', '전담 마케팅팀이 필요한 기업, 제작 역량을 보완하려는 사내 팀과 일합니다. 전략 수립부터 콘텐츠·디자인 제작, 광고와 홍보 운영까지 프로젝트에 필요한 업무를 맡습니다.')}
   <div class="sb-equation st-rv" role="list">
-   ${[['기획', ['시장·고객 분석', '브랜드 전략', '핵심 메시지']], ['제작', ['콘텐츠·디자인', '영상', '웹·디지털 개발']], ['운영', ['광고·매체 집행', '언론홍보', '채널 운영·보고']]].map(([w, items], i) => `<div class="sb-eq-term" role="listitem"><span class="sb-eq-media" aria-hidden="true"><img src="/showcase/process/${eqLook[i][0]}.webp" alt="" loading="lazy" decoding="async"><i>${icon(eqLook[i][1])}</i></span><b>${w}</b><ul>${items.map(x => `<li>${x}</li>`).join('')}</ul></div>${i < 2 ? '<span class="sb-eq-op" aria-hidden="true">+</span>' : ''}`).join('')}
+   ${[['기획', ['시장·고객 분석', '브랜드 전략', '핵심 메시지']], ['제작', ['콘텐츠·디자인', '영상', '웹·디지털 개발']], ['운영', ['광고·매체 집행', '언론홍보', '채널 운영·보고']]].map(([w, items], i) => `<div class="sb-eq-term" role="listitem"><span class="sb-eq-media" aria-hidden="true"><img src="${eqLook[i][0]}.webp" alt="" loading="lazy" decoding="async"><i>${icon(eqLook[i][1])}</i></span><b>${w}</b><ul>${items.map(x => `<li>${x}</li>`).join('')}</ul></div>${i < 2 ? '<span class="sb-eq-op" aria-hidden="true">+</span>' : ''}`).join('')}
    <span class="sb-eq-op" aria-hidden="true">=</span>
    <div class="sb-eq-result" role="listitem"><b>한 팀</b><span>전담 창구 하나로 연결</span></div>
   </div>

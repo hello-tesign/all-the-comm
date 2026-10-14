@@ -295,7 +295,7 @@
 .sc-front{display:block;background:
  radial-gradient(rgba(255,255,255,.16) 1px,transparent 1.4px) 0 0/16px 16px,
  radial-gradient(120% 90% at 25% 0%,color-mix(in srgb,var(--tint) 62%,#fff),color-mix(in srgb,var(--tint) 30%,#061c25) 78%);
- box-shadow:0 40px 80px -40px color-mix(in srgb,var(--tint) 60%,#000),inset 0 1px 0 rgba(255,255,255,.4)}
+ box-shadow:0 26px 40px -26px color-mix(in srgb,var(--tint) 60%,#000),inset 0 1px 0 rgba(255,255,255,.4)}
 .sc-front::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,.16),rgba(255,255,255,0) 32%);pointer-events:none}
 .sc-img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover}
 .sc-front.is-web .sc-img{top:24px;height:calc(100% - 24px);object-position:left top}
@@ -346,7 +346,7 @@
 .st-logo-row:hover .st-logo-track{animation-play-state:paused}
 @keyframes st-logos{to{transform:translateX(calc(-50% - 9px))}}
 .st-logo{display:grid;place-items:center;width:clamp(150px,13vw,196px);height:clamp(76px,6.4vw,92px);padding:0 22px;border-radius:16px;background:var(--st-paper);transition:background .4s}
-.st-logo img{display:block;max-width:100%;max-height:44px;width:auto;height:auto;object-fit:contain;filter:grayscale(1);opacity:.62;mix-blend-mode:multiply;transition:filter .4s,opacity .4s,transform .4s var(--st-spring)}
+.st-logo img{display:block;max-width:100%;max-height:44px;width:auto;height:auto;object-fit:contain;filter:grayscale(1);opacity:.62;transition:filter .4s,opacity .4s,transform .4s var(--st-spring)}
 .st-logo:hover{background:#fff;box-shadow:0 0 0 1px var(--st-line)}
 .st-logo:hover img{filter:none;opacity:1;transform:scale(1.06)}
 .st-logo.is-name b{font-size:clamp(15px,1.15vw,18px);font-weight:800;letter-spacing:-.03em;color:var(--st-muted);text-align:center;line-height:1.25;word-break:keep-all;transition:color .3s}

@@ -266,7 +266,8 @@
 .sb-client-grid li{display:flex;flex-direction:column;gap:10px;padding:14px 14px 12px;border-radius:16px;background:#fff;box-shadow:0 0 0 1px var(--st-line);transition:box-shadow .3s,transform .4s var(--st-spring)}
 .sb-client-grid li:hover{box-shadow:0 0 0 1.5px var(--st-teal),0 16px 30px -18px rgba(6,28,37,.3);transform:translateY(-3px)}
 .sb-client-logo{display:grid;place-items:center;height:64px}
-.sb-client-logo img{display:block;max-width:100%;max-height:44px;width:auto;height:auto;object-fit:contain;mix-blend-mode:multiply}
+.sb-client-logo img{display:block;max-width:100%;max-height:44px;width:auto;height:auto;object-fit:contain}
+.sb-client-grid li:has(.is-name){justify-content:center}
 .sb-client-logo.is-name{height:auto;min-height:64px}
 .sb-client-logo.is-name b{font-size:16px;font-weight:800;letter-spacing:-.03em;color:var(--st-ink);text-align:center;word-break:keep-all}
 .sb-client-name{font-size:13px;font-weight:700;color:var(--st-muted);text-align:center;word-break:keep-all}

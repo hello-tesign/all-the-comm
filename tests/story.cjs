@@ -97,8 +97,6 @@ const visibleText = (page, sel) => page.locator(sel).evaluateAll(els => els.filt
     await scrollToScene(page, 'st-gallery', .5);
     const g1 = await page.evaluate(() => ({ c: [...document.querySelectorAll('.sc-item')].findIndex(i => i.classList.contains('center')), cap: document.querySelector('[data-sc-title]').textContent }));
     const g1title = await page.evaluate(i => document.querySelectorAll('.sc-item .sc-back h3')[i].textContent, g1.c);
-    await page.locator('#st-clients').scrollIntoViewIfNeeded(); await page.waitForTimeout(1200);
-    check('clients: 32 clients drift in two rows (logo or name), names listed once for screen readers', await page.evaluate(() => { const s = document.querySelector('#st-clients'), tiles = s.querySelectorAll('.st-logo:not([data-dup])'), logos = [...s.querySelectorAll('.st-logo:not([data-dup]) img')]; return s.querySelectorAll('.st-logo-row').length === 2 && tiles.length === 32 && logos.length >= 16 && s.querySelectorAll('.st-sr li').length === 32 && s.querySelector('.st-logo-rows').getAttribute('aria-hidden') === 'true' && getComputedStyle(s.querySelector('.st-logo-track')).animationName !== 'none' && logos.filter(i => i.getBoundingClientRect().right > 0 && i.getBoundingClientRect().left < innerWidth).every(i => i.complete && i.naturalWidth > 0); }));
     check('gallery: brand work and live sites only, filling the card', await page.evaluate(() => { const items = [...document.querySelectorAll('.sc-item')]; return items.length === 10 && items.every(it => !/프로토타입|콘셉트/.test(it.querySelector('.sc-back small').textContent) && it.querySelector('.sc-front .sc-img')); }));
     check('gallery: corridor advances with scroll', g0 === 0 && g1.c >= 4 && g1.c <= 5 && g1.cap === g1title, { g0, g1, g1title });
     await page.screenshot({ path: path.join(out, 'd-06-gallery-mid.png') });
@@ -116,6 +114,8 @@ const visibleText = (page, sel) => page.locator(sel).evaluateAll(els => els.filt
     const sideIdx = g2 + 2;
     await page.locator('.sc-item').nth(sideIdx).locator('.sc-turn').evaluate(b => b.click()); await page.waitForTimeout(1500);
     check('gallery: choosing a side card brings it to the front', await page.evaluate(i => document.querySelectorAll('.sc-item')[i].classList.contains('center'), sideIdx));
+    await page.locator('#st-clients').scrollIntoViewIfNeeded(); await page.waitForTimeout(1200);
+    check('clients: 32 clients drift in two rows (logo or name), names listed once for screen readers', await page.evaluate(() => { const s = document.querySelector('#st-clients'), tiles = s.querySelectorAll('.st-logo:not([data-dup])'), logos = [...s.querySelectorAll('.st-logo:not([data-dup]) img')]; return s.querySelectorAll('.st-logo-row').length === 2 && tiles.length === 32 && logos.length >= 16 && s.querySelectorAll('.st-sr li').length === 32 && s.querySelector('.st-logo-rows').getAttribute('aria-hidden') === 'true' && getComputedStyle(s.querySelector('.st-logo-track')).animationName !== 'none' && logos.filter(i => i.getBoundingClientRect().right > 0 && i.getBoundingClientRect().left < innerWidth).every(i => i.complete && i.naturalWidth > 0); }));
 
     const cyc = [];
     for (const p of [.1, .35, .6, .9]) { await scrollToScene(page, 'st-cycle', p); cyc.push(await page.evaluate(() => [...document.querySelectorAll('.st-node')].findIndex(n => n.classList.contains('on')))); }
