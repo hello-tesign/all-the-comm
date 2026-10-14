@@ -1,0 +1,57 @@
+# Publishes the static snapshot (npm run build:static) to Vercel as project
+# "atc-chdbsd" and attaches atc.chdbsd.com. Needs the repository secret
+# VERCEL_TOKEN; without it the run only reports that the token is missing.
+name: Deploy to Vercel
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/zen-goldberg-erpgxb]
+
+concurrency:
+  group: vercel-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      PROJECT: atc-chdbsd
+      DOMAIN: atc.chdbsd.com
+    steps:
+      - name: Check token
+        id: token
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "::warning::Repository secret VERCEL_TOKEN is not set; nothing was deployed."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.token.outputs.ready == 'true'
+      - uses: actions/setup-node@v4
+        if: steps.token.outputs.ready == 'true'
+        with:
+          node-version: 22
+          cache: npm
+      - name: Build static site
+        if: steps.token.outputs.ready == 'true'
+        run: |
+          npm ci --omit=dev
+          npm run build:static
+      - name: Deploy to production
+        if: steps.token.outputs.ready == 'true'
+        run: |
+          site="$RUNNER_TEMP/$PROJECT"
+          mkdir -p "$site" && cp -r static-site/. "$site/"
+          # Serve the snapshot as-is: keep routing and headers, drop the build settings.
+          node -e "const c=require('./vercel.json');for(const k of ['installCommand','buildCommand','outputDirectory'])delete c[k];require('fs').writeFileSync(process.argv[1],JSON.stringify(c,null,2))" "$site/vercel.json"
+          cd "$site"
+          npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+      - name: Attach domain
+        if: steps.token.outputs.ready == 'true'
+        run: |
+          npx --yes vercel@latest domains add "$DOMAIN" "$PROJECT" --token "$VERCEL_TOKEN" || true
+          npx --yes vercel@latest domains inspect "$DOMAIN" --token "$VERCEL_TOKEN" || true
