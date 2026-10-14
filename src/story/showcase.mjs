@@ -59,6 +59,7 @@ export function showcase({ arrow }) {
        <div class="sc-back-act"><a href="/works/project/${it.slug}/" tabindex="-1">프로젝트 보기${arrow}</a><button type="button" class="sc-unturn" tabindex="-1">앞면</button></div>
       </div>
      </div>
+     <span class="sc-shade" aria-hidden="true"></span>
     </li>`).join('')}
    </ul>
   </div>

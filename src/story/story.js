@@ -154,16 +154,17 @@ export function initStory() {
   };
 
   /* ---------- 05 case route ---------- */
-  let rLen = 0;
+  let rLen = 0; const carBox = { w: 0, h: 0 };
   const placeRoute = () => {
     if (!rBase) return;
     rLen = rBase.getTotalLength(); rLive.style.strokeDasharray = rLen;
+    const box = carDot.offsetParent || carDot.parentElement; carBox.w = box.clientWidth; carBox.h = box.clientHeight;
     wps.forEach(w => { const pt = rBase.getPointAtLength(rLen * +w.dataset.at); w.style.left = (pt.x / 12) + '%'; w.style.top = (pt.y / 3) + '%'; });
   };
-  const moveCar = d => { const pt = rBase.getPointAtLength(rLen * d); carDot.style.left = (pt.x / 12) + '%'; carDot.style.top = (pt.y / 3) + '%'; };
+  const moveCar = d => { const pt = rBase.getPointAtLength(rLen * d); carDot.style.transform = `translate(${(pt.x / 1200 * carBox.w).toFixed(1)}px,${(pt.y / 300 * carBox.h).toFixed(1)}px) translate(-50%,-50%)`; };
 
   /* ---------- 06 gallery: 3D corridor + flip ---------- */
-  const gItems = $$('.sc-item'), gCount = gItems.length;
+  const gItems = $$('.sc-item'), gCount = gItems.length, shades = gItems.map(it => it.querySelector('.sc-shade'));
   const gTitle = $('[data-sc-title]'), gType = $('[data-sc-type]'), gCounter = $('[data-sc-count]');
   const meta = gItems.map(it => ({ title: it.querySelector('.sc-back h3').textContent, type: it.querySelector('.sc-back small').textContent }));
   let gCur = 0, gPos = 0;
@@ -190,9 +191,11 @@ export function initStory() {
       const z = -(Math.min(a, 1) * 160 + Math.max(a - 1, 0) * 120);
       const ry = -s * (Math.min(a, 1) * 12 + Math.max(a - 1, 0) * 3);
       it.style.transform = `translate3d(${x.toFixed(1)}px,0,${z.toFixed(1)}px) rotateY(${ry.toFixed(2)}deg)`;
-      it.style.setProperty('--dim', Math.min(.6, a * .24).toFixed(3));
-      it.style.zIndex = String(1000 - Math.round(a * 100));
-      it.style.visibility = a > 4.6 ? 'hidden' : 'visible';
+      // the shade has its own layer; an inherited variable here would restyle the whole card every frame
+      shades[i].style.opacity = Math.min(.6, a * .24).toFixed(3);
+      const zi = String(100 - Math.round(a)), vis = a > 4.6 ? 'hidden' : 'visible';
+      if (it.style.zIndex !== zi) it.style.zIndex = zi;
+      if (it.style.visibility !== vis) it.style.visibility = vis;
       it.classList.toggle('center', a < .5);
     });
   };
@@ -228,7 +231,7 @@ export function initStory() {
     buildNet(isMobile()); drawNet(1);
     beats.forEach(b => b.classList.add('on')); if (week) week.textContent = 'W+12';
     if (rLive) rLive.style.strokeDashoffset = 0; wps.forEach(w => w.classList.add('on')); if (rBase) moveCar(1);
-    gItems.forEach(it => { it.style.transform = ''; it.style.removeProperty('--dim'); it.style.zIndex = ''; it.style.visibility = ''; it.classList.remove('center'); });
+    gItems.forEach((it, i) => { it.style.transform = ''; shades[i].style.opacity = ''; it.style.zIndex = ''; it.style.visibility = ''; it.classList.remove('center'); });
     phr.forEach(s => s.classList.add('on')); panes.forEach(s => s.classList.add('on')); nodes.forEach(s => s.classList.add('done'));
     wheel?.style.setProperty('--wp', 0);
     mw.forEach(w => w.classList.add('lit')); maniWords?.classList.remove('dark');
@@ -243,52 +246,58 @@ export function initStory() {
       [beats, phr, panes].forEach(list => list.forEach(x => x.classList.remove('on')));
       nodes.forEach(s => s.classList.remove('done')); mw.forEach(w => w.classList.remove('lit'));
     }
+    // Read every position first, then write: interleaving forces a layout per scene.
     const H = document.documentElement.scrollHeight - innerHeight;
-    progBar.style.setProperty('--p', clamp(scrollY / H).toFixed(4));
     const rr = root.getBoundingClientRect();
-    const pinned = Object.entries(S).some(([k, el]) => { if (k === 'hero') return false; const r = el.getBoundingClientRect(); return r.top <= 1 && r.bottom >= innerHeight - 1; });
-    hud.classList.toggle('on', pinned && rr.bottom > innerHeight * .6);
-    for (let i = chapters.length - 1; i >= 0; i--) {
-      if (chapters[i].getBoundingClientRect().top <= innerHeight * .5) {
-        const [n, t] = chapters[i].dataset.chapter.split('|');
-        if (chapN.textContent !== n) { chapN.textContent = n; chapT.textContent = t; }
-        break;
-      }
+    const P = {}; let pinned = false;
+    for (const [k, el] of Object.entries(S)) {
+      const r = el.getBoundingClientRect(), tot = el.offsetHeight - innerHeight;
+      P[k] = tot > 0 ? clamp(-r.top / tot) : (r.top < innerHeight ? 1 : 0);
+      if (k !== 'hero' && r.top <= 1 && r.bottom >= innerHeight - 1) pinned = true;
     }
+    let chapter = null;
+    for (let i = chapters.length - 1; i >= 0; i--) if (chapters[i].getBoundingClientRect().top <= innerHeight * .5) { chapter = chapters[i]; break; }
+    // A scene only redraws when its own progress moved; scenes off screen sit at 0 or 1 and are skipped.
+    const moved = k => S[k] && last['p' + k] !== P[k] && (last['p' + k] = P[k], true);
+
+    progBar.style.setProperty('--p', clamp(scrollY / H).toFixed(4));
+    hud.classList.toggle('on', pinned && rr.bottom > innerHeight * .6);
+    if (chapter) { const [n, t] = chapter.dataset.chapter.split('|'); if (chapN.textContent !== n) { chapN.textContent = n; chapT.textContent = t; } }
 
     // 01 HERO — copy lifts away; the logo-shaped window travels to centre and opens over the screen
-    { const p = prog(S.hero); const e = ease(seg(p, 0, .6));
+    if (moved('hero')) { const p = P.hero; const e = ease(seg(p, 0, .6));
       heroGrid.style.setProperty('--e', e.toFixed(4));
+      heroGrid.classList.toggle('is-moving', e > .002); // the reels pause while the window opens
       heroEnd.style.setProperty('--end', seg(p, .55, .8).toFixed(3)); }
 
     // 02 WHY — each worry is struck through, then answered
-    { const p = prog(S.why);
+    if (moved('why')) { const p = P.why;
       painRows.forEach((r, k) => { const t = seg(p, .06 + k * .27, .3 + k * .27);
         r.style.setProperty('--s', ease(seg(t, 0, .5)).toFixed(3)); r.style.setProperty('--a', ease(seg(t, .4, 1)).toFixed(3)); }); }
 
     // 03 TANGLE
-    drawNet(prog(S.tangle));
+    if (moved('tangle')) drawNet(P.tangle);
 
     // 05 CASE — route, waypoints, project clock, beats
-    { const p = prog(S.case); caseBg.style.setProperty('--c', p.toFixed(3));
+    if (moved('case')) { const p = P.case; caseBg.style.setProperty('--c', p.toFixed(3));
       const d = seg(p, .06, .86); rLive.style.strokeDashoffset = (rLen * (1 - d)).toFixed(1); moveCar(d);
       wps.forEach(w => w.classList.toggle('on', d >= +w.dataset.at - .001 && p > .04));
       const wk = 1 + Math.round(d * 11); if (last.wk !== wk) { week.textContent = 'W+' + wk; last.wk = wk; }
       const b = p < .28 ? 0 : p < .5 ? 1 : p < .72 ? 2 : 3; if (last.b !== b) { beats.forEach((x, i) => x.classList.toggle('on', i === b)); last.b = b; } }
 
     // 06 GALLERY — corridor follows scroll, the nearest work comes to the front
-    if (S.gallery) { const p = prog(S.gallery); const raw = seg(p, .05, .95) * (gCount - 1); const i0 = Math.floor(raw);
+    if (moved('gallery')) { const p = P.gallery; const raw = seg(p, .05, .95) * (gCount - 1); const i0 = Math.floor(raw);
       const c = i0 + ease(clamp((raw - i0 - .22) / .56)); // each work dwells facing front before the corridor moves on
       gPos = c; layoutGallery(c); setCurrent(Math.round(c));
       S.gallery.querySelector('.sc-glow').style.setProperty('--gl', (.5 + .5 * Math.sin(p * Math.PI)).toFixed(3)); }
 
     // 07 CYCLE
-    { const p = prog(S.cycle); const a = Math.min(3, Math.floor(seg(p, .04, .96) * 4));
+    if (moved('cycle')) { const p = P.cycle; const a = Math.min(3, Math.floor(seg(p, .04, .96) * 4));
       wheel.style.setProperty('--wp', (100 - seg(p, .02, .96) * 100).toFixed(2));
       if (last.cy !== a) { last.cy = a; phr.forEach((s, i) => s.classList.toggle('on', i === a)); panes.forEach((s, i) => s.classList.toggle('on', i === a)); nodes.forEach((s, i) => { s.classList.toggle('on', i === a); s.classList.toggle('done', i < a); }); } }
 
     // 08 MANIFESTO — words light up, then the mark rises and fills the frame
-    { const p = prog(S.mani); const n = mw.length; const lit = seg(p, .02, .32) * n;
+    if (moved('mani')) { const p = P.mani; const n = mw.length; const lit = seg(p, .02, .32) * n;
       mw.forEach((w, i) => w.classList.toggle('lit', lit > i + .2));
       const ge = ease(seg(p, .36, .74));
       maniMark.style.setProperty('--s', (.3 + 3.3 * ge).toFixed(4));
@@ -297,7 +306,7 @@ export function initStory() {
       maniWords.classList.toggle('dark', p > .58); }
 
     // 10 GROW — engagement levels grow from the corner of the mark
-    { const p = prog(S.grow); const L = p < .3 ? 1 : p < .62 ? 2 : 3;
+    if (moved('grow')) { const p = P.grow; const L = p < .3 ? 1 : p < .62 ? 2 : 3;
       if (last.L !== L) { last.L = L; levels.forEach((l, i) => l.classList.toggle('on', i < L)); growMarks.forEach(g => g.classList.toggle('on', +g.className.match(/g(\d)/)[1] <= L)); } }
   }
 

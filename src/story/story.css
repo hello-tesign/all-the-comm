@@ -66,7 +66,7 @@
 #st-hero{background:var(--st-white)}
 #st-hero .st-sticky{padding:112px 0 64px}
 .st-hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);align-items:center;gap:56px;height:100%}
-.st-hero-copy{position:relative;z-index:3;opacity:calc(1 - var(--e,0) * 1.8);transform:translateY(calc(var(--e,0) * -70px))}
+.st-hero-copy{position:relative;z-index:3;opacity:calc(1 - var(--e,0) * 1.8);transform:translateY(calc(var(--e,0) * -70px));will-change:transform,opacity}
 .st-kicker{display:flex;align-items:center;gap:10px;color:var(--st-teal);margin-bottom:30px}
 .st-kicker i{width:8px;height:8px;border-radius:50%;background:var(--st-mint);animation:st-pulse 2.2s infinite}
 @keyframes st-pulse{0%{box-shadow:0 0 0 0 rgba(89,227,198,.7)}70%,100%{box-shadow:0 0 0 10px rgba(89,227,198,0)}}
@@ -87,8 +87,10 @@
 @keyframes st-ring{from{transform:scale(.86);opacity:0}}
 .st-mark-window{position:absolute;inset:0;border-radius:var(--st-mark);overflow:hidden;background:var(--st-ink);display:flex;gap:12px;justify-content:center;animation:st-window 1.3s var(--st-ease) both}
 @keyframes st-window{from{clip-path:circle(0% at 50% 50%)}to{clip-path:circle(75% at 50% 50%)}}
-.st-mark-window::after{content:"";position:absolute;inset:0;background:radial-gradient(70% 70% at 50% 40%,rgba(6,28,37,0),rgba(6,28,37,.5)),rgba(6,28,37,calc(var(--e,0) * .55))}
-.st-reel{display:flex;flex-direction:column;gap:12px;width:58%;flex:none;transform:rotate(-9deg) translateY(-6%)}
+.st-mark-window::after{content:"";position:absolute;inset:0;background:radial-gradient(70% 70% at 50% 40%,rgba(6,28,37,0),rgba(6,28,37,.5))}
+.st-mark-window::before{content:"";position:absolute;inset:0;z-index:1;background:rgba(6,28,37,.55);opacity:var(--e,0);will-change:opacity;pointer-events:none}
+.st-hero-grid.is-moving .st-reel{animation-play-state:paused}
+.st-reel{display:flex;flex-direction:column;gap:12px;width:58%;flex:none;transform:rotate(-9deg) translateY(-6%);will-change:translate}
 .st-reel img{display:block;width:100%;height:auto;border-radius:8px;box-shadow:0 16px 30px -12px rgba(0,0,0,.6)}
 .st-reel.up{animation:st-reel 46s linear infinite}
 .st-reel.down{animation:st-reel 52s linear infinite reverse;margin-top:-30%}
@@ -160,8 +162,8 @@
 .st-pick.has p{color:var(--st-text);font-weight:600}
 
 /* 05 CASE -------------------------------------------------------------------- */
-.st-case-bg{position:absolute;inset:0;background:
- radial-gradient(60% 60% at calc(20% + var(--c,0) * 60%) 30%,rgba(89,227,198,.2),transparent 70%),
+.st-case-bg::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 60% at 20% 30%,rgba(89,227,198,.2),transparent 70%);transform:translateX(calc(var(--c,0) * 60%));will-change:transform}
+.st-case-bg{position:absolute;inset:0;overflow:hidden;background:
  linear-gradient(transparent 95%,rgba(255,255,255,.05) 95%) 0 0/100% 48px,
  linear-gradient(90deg,transparent 95%,rgba(255,255,255,.05) 95%) 0 0/48px 100%,var(--st-ink)}
 .st-case-grid{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:40px;align-items:start;margin-top:-8svh}
@@ -284,7 +286,7 @@
 .sc-head .st-eyebrow{color:var(--st-mint)}
 .sc-head .st-h2{font-size:clamp(32px,4.2vw,60px)}
 .sc-stage{--w:min(390px,27vw,calc((100svh - 330px) * .75));position:relative;flex:1;min-height:0}
-.sc-glow{position:absolute;left:-10%;right:-10%;top:50%;height:2px;background:linear-gradient(90deg,transparent,var(--st-mint) 30%,#fff 50%,var(--st-mint) 70%,transparent);box-shadow:0 0 40px 10px rgba(89,227,198,.35);transform:translateY(-50%) scaleX(var(--gl,.6));opacity:.8}
+.sc-glow{position:absolute;left:-10%;right:-10%;top:50%;height:2px;background:linear-gradient(90deg,transparent,var(--st-mint) 30%,#fff 50%,var(--st-mint) 70%,transparent);box-shadow:0 0 40px 10px rgba(89,227,198,.35);transform:translateY(-50%) scaleX(var(--gl,.6));opacity:.8;will-change:transform}
 .sc-ring{position:absolute;inset:0;perspective:1700px;perspective-origin:50% 45%}
 .sc-item{position:absolute;left:50%;top:50%;width:var(--w);aspect-ratio:3/4;margin:calc(var(--w) * -2 / 3) 0 0 calc(var(--w) / -2);transform-style:preserve-3d;will-change:transform}
 .sc-flip{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .9s var(--st-spring)}
@@ -298,7 +300,7 @@
 .sc-img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover}
 .sc-front.is-web .sc-img{top:24px;height:calc(100% - 24px);object-position:left top}
 .sc-front.is-web .sc-chrome{position:absolute;top:0;left:0;right:0}
-.sc-item::after{content:"";position:absolute;inset:0;border-radius:22px;background:#061c25;opacity:var(--dim,0);pointer-events:none;transform:translateZ(1px)}
+.sc-shade{position:absolute;inset:0;border-radius:22px;background:#061c25;opacity:0;pointer-events:none;transform:translateZ(1px);will-change:opacity}
 .sc-chrome{display:flex;align-items:center;gap:5px;height:24px;padding:0 10px;background:#f2f4f4;border-bottom:1px solid #e3e7e7}
 .sc-chrome i{width:7px;height:7px;border-radius:50%;background:#d6dcdc}
 .sc-chrome i:first-child{background:#ff6a5f}.sc-chrome i:nth-child(2){background:#ffbd2e}.sc-chrome i:nth-child(3){background:#29c840}
@@ -410,7 +412,7 @@
  .sc-glow{display:none}
  .sc-ring{position:relative;display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px var(--st-gut) 20px;perspective:1400px;scrollbar-width:none}
  .sc-item{position:relative;left:auto;top:auto;margin:0;flex:0 0 var(--w);aspect-ratio:3/4;scroll-snap-align:center;transform:none!important}
- .sc-item::after{display:none}
+ .sc-shade{display:none}
  .sc-turn span{opacity:1;transform:none}
  .sc-foot{margin-top:10px}
  .sc-ctrl,.sc-cap{display:none}
@@ -444,6 +446,6 @@
  .sc-stage{perspective:none;flex:none}
  .sc-ring{position:relative;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;padding:0 var(--st-gut)}
  .sc-item{position:relative;left:auto;top:auto;margin:0;width:auto;transform:none!important}
- .sc-item::after,.sc-glow,.sc-ctrl,.sc-cap{display:none}
+ .sc-shade,.sc-glow,.sc-ctrl,.sc-cap{display:none}
  .sc-turn span{opacity:1;transform:none}
 }
